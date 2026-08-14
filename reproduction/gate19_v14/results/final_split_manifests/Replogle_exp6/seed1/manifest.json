@@ -1,0 +1,84 @@
+{
+  "cache": "<LOCAL_PATH>",
+  "cache_sha256": "c7f1978c4ef79b20f515e5d2393bf75af1b76e67ae72def1ae60f44cf680b56b",
+  "dataset": "Replogle_exp6",
+  "identity_head": {
+    "active": true,
+    "all_gene_upgrade_lower": 0.014480672194704256,
+    "all_gene_upgrade_mean": 0.029237581113578742,
+    "anchor_mode": null,
+    "background_weight": null,
+    "candidate_training_scores": [],
+    "combined_dense_weights": null,
+    "correction_active": true,
+    "correction_weights": [
+      -0.44776849920969897,
+      1.5,
+      1.5
+    ],
+    "dense_active": true,
+    "dense_all_gene_gain_lower": null,
+    "dense_mode": null,
+    "dense_weights": null,
+    "direction_gate_metric": null,
+    "final_all_gene_gain_lower": null,
+    "final_top100_pcc_delta_lower": null,
+    "gate_lower_bound": null,
+    "gate_metric": "dual",
+    "go_residual_weight": null,
+    "go_top_k": null,
+    "identity_mode": "multihead_v14",
+    "incremental_direction_required": false,
+    "known_single_count": 24,
+    "loo_all_gene_gain_lower": null,
+    "loo_all_gene_gain_mean": null,
+    "loo_pcc_delta_mean": null,
+    "loo_top100_gain_lower": null,
+    "loo_top100_gain_mean": null,
+    "selected_recipe": "inc_amp_fp_r02",
+    "self_summary": "mean",
+    "self_weight": null,
+    "sparse_active": true,
+    "sparse_incremental_top100_pcc_delta_lower": null,
+    "sparse_mode": null,
+    "sparse_weights": null,
+    "support_k": null,
+    "support_mode": null,
+    "top100_mse_upgrade_lower": 0.07822085393861924,
+    "top100_mse_upgrade_mean": 0.13595612523294306,
+    "top100_pcc_upgrade_lower": 0.040170375385763527,
+    "top100_pcc_upgrade_mean": 0.1272414331918181,
+    "weight_mode": "closed_form"
+  },
+  "inactive_gate_max_factorized_delta_vs_v1": null,
+  "leakage_contract": "fit receives only control, official train and official validation; endpoint weights and activation are fit only from training singles; deploy archive contains no test truth",
+  "method": "WitnessCell_endpoint_v4_incremental_amplitude",
+  "official_gears_filter": {
+    "raw_conditions": 70,
+    "removed_conditions": [],
+    "supported_conditions": 70
+  },
+  "seed": 1,
+  "selected_v1": {
+    "alpha": 0.0,
+    "gamma": 0.0,
+    "noise_ratio": 0.0
+  },
+  "selected_v2": {
+    "alpha": 0.0,
+    "gamma": 0.0,
+    "noise_ratio": 0.0
+  },
+  "split_counts": {
+    "test": 42,
+    "train": 25,
+    "validation": 3
+  },
+  "status": "PASS_WITNESSCELL_V4_INCREMENTAL_AMPLITUDE_EVIDENCE_PREDICTION",
+  "test_subgroup_counts": {
+    "combo_seen0": 5,
+    "combo_seen1": 30,
+    "combo_seen2": 0,
+    "unseen_single": 7
+  }
+}

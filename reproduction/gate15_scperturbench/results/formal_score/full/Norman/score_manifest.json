@@ -1,0 +1,57 @@
+{
+  "claim_boundary": "Formal full-condition scoring.",
+  "condition_limit": null,
+  "data": "<LOCAL_PATH>",
+  "data_sha256": "72748687e175983d7456d825334f1a553650800c2510dc6dc36e20941d0b8b63",
+  "energy_distance_contract": "Exact Euclidean pairwise-distance mean evaluated by the norm/dot-product identity in float64; numerically equivalent to scipy cdist.",
+  "jax": "0.4.28",
+  "max_distribution_cells": 2000,
+  "metrics": [
+    "PCC-delta",
+    "MSE",
+    "E-distance",
+    "symmetric KL",
+    "Wasserstein",
+    "Common-DEGs"
+  ],
+  "ott_contract": "ott-jax PointCloud + LinearProblem + default Sinkhorn; squared-Euclidean cost; relative epsilon; all converged",
+  "raw_parts": [
+    "results/formal_score/full/Norman/raw_seed1.csv",
+    "results/formal_score/full/Norman/raw_seed2.csv",
+    "results/formal_score/full/Norman/raw_seed3.csv"
+  ],
+  "runs_scored_now": [
+    {
+      "checkpoint": "results/formal_score/full/Norman/raw_seed1.csv",
+      "conditions": 93,
+      "dataset": "Norman",
+      "metric_rows": 930,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "4c372c4c01a19791b2e7c544433c9d6dd3d6feb0dd2217ca06fb700d610b95ad",
+      "seed": 1
+    },
+    {
+      "checkpoint": "results/formal_score/full/Norman/raw_seed2.csv",
+      "conditions": 86,
+      "dataset": "Norman",
+      "metric_rows": 860,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "bfa90c11a59e110705842605917b2c0446290111297e71fe2e22976007950af4",
+      "seed": 2
+    },
+    {
+      "checkpoint": "results/formal_score/full/Norman/raw_seed3.csv",
+      "conditions": 89,
+      "dataset": "Norman",
+      "metric_rows": 890,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "952fe1fd1156319b6e9d3dfdb816609db3ccd9bea4237d2521a0ae49bbbeb9a9",
+      "seed": 3
+    }
+  ],
+  "shape": [
+    96994,
+    5025
+  ],
+  "status": "PASS_OFFICIAL_SIX_METRIC_SCORING"
+}

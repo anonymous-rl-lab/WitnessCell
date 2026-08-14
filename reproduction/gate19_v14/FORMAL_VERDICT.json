@@ -1,0 +1,26 @@
+{
+  "status": "PASS_GATE19_FORMAL_MEAN_RESPONSE_RELEASE",
+  "version": "14.0.0",
+  "official_split_count": 12,
+  "active_splits": 8,
+  "inactive_exact_fallback_splits": 4,
+  "condition_seed_units": 654,
+  "v14_vs_v13": {
+    "all_gene_mse_gain": 0.001079217249737252,
+    "top100_mse_gain": 0.0030453806218846413,
+    "top100_pcc_delta": 0.0013006984799760163
+  },
+  "v14_vs_v1": {
+    "all_gene_mse_gain": 0.051574866610850534,
+    "top100_mse_gain": 0.09434924897821773,
+    "top100_pcc_delta": 0.0835667791506153
+  },
+  "directional": {
+    "top100_rank": 1,
+    "top5000_rank": 1,
+    "beats_published_best_pcc_cells": 18,
+    "beats_published_best_mse_cells": 14
+  },
+  "official_six_metric_status": "INHERITED_V13_NOT_RELABELED",
+  "claim_boundary": "formal v14 mean-response release; no new v14 distributional six-metric score is claimed"
+}

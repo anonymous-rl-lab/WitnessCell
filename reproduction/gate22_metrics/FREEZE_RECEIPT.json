@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_EXPERIMENT22_FORMAL_EXECUTION",
+  "created_utc": "2026-08-11T06:15:48Z",
+  "frozen_manifest_sha256": "0bf032f88118523f05e11751c19cfee0201744b340b14357136090161041a756",
+  "frozen_manifest_entries": 76,
+  "protocol_sha256": "2ab328526ef5aa09a3b2fb7069e30590b862da77eb912c284674e8fe661e3c30",
+  "checklist_sha256": "6bd74474eed6ae852132b7766e91d2811c135f6b7a8d7b6607b896f2b2bdefb7",
+  "formal_runner_sha256": "220372ee728e8c07906c232b70eb5daca19586ecadd1694faecfe242b8560c55",
+  "contract_seal_sha256": "a963aa5a8af289c9b4d6e9924ab22856433f243b593ff93a826a9c98d2530b9c",
+  "gate21_gene_contract_sha256": "d58cec87d05ad34afec656362c610ffabafa5667d1b6f8c08454815f81e24c41",
+  "receipt_excluded_from_frozen_manifest_to_avoid_self_reference": true,
+  "formal_output_present_at_freeze": false
+}

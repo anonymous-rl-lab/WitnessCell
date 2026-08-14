@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FORMAL_PHASE_M_CANDIDATE_BLIND_CONTROLS",
+  "created_utc": "2026-08-11T06:16:25.485396+00:00",
+  "dataset": "Norman",
+  "contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b",
+  "rows": 268,
+  "evaluable_rows": 268,
+  "metric_validity_sha256": "1e2fdd6a27c836b7a51f0332ba4b6e6f0d517150e8107d565d9583151d6a7265",
+  "nir_controls_sha256": "4eb238d6e1ca65846cd2f3cdae84dfb59ad8a316f818da8eacc2b30cef725487"
+}

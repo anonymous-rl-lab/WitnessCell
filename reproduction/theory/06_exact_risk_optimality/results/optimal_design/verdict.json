@@ -1,0 +1,25 @@
+{
+  "certificate": "exact criterion was exhaustively minimized over every candidate subset",
+  "subsets_per_instance": 120,
+  "instances": 30,
+  "gate": "zero enumerated regret for exact design; Monte Carlo error <=5%; exact noninferior in every instance and strictly better than each reduced criterion in at least one instance",
+  "maximum_exact_enumeration_regret": 0.0,
+  "maximum_exact_mc_relative_error": 0.021948664440110014,
+  "comparisons": [
+    {
+      "comparison": "exact_vs_pure_geometry",
+      "strict_win_rate": 0.9333333333333333,
+      "noninferiority_rate": 1.0,
+      "relative_gain_mean": 0.1303478244495301,
+      "relative_gain_median": 0.11824862300876972
+    },
+    {
+      "comparison": "exact_vs_adequacy_only",
+      "strict_win_rate": 0.9666666666666667,
+      "noninferiority_rate": 1.0,
+      "relative_gain_mean": 0.27187279328407093,
+      "relative_gain_median": 0.27113932799684426
+    }
+  ],
+  "gate_pass": true
+}

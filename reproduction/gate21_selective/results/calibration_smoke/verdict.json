@@ -1,0 +1,30 @@
+{
+  "status": "PASS_CALIBRATION_ONLY_ENGINEERING_SMOKE",
+  "formal_outcomes_read": false,
+  "fit_pairs": 62,
+  "check_pairs": 18,
+  "mapping_knots": 15,
+  "primary_target_coverage": 0.5,
+  "primary_result": {
+    "rows": 33.0,
+    "pairs": 18.0,
+    "accepted_rows": 11.0,
+    "rejected_rows": 22.0,
+    "row_coverage": 0.3333333333333333,
+    "pair_balanced_coverage": 0.36111111111111116,
+    "all_mse": 0.09940872466924645,
+    "accepted_mse": 0.06144064187006409,
+    "rejected_mse": 0.12086894538182778,
+    "accepted_over_all_mse": 0.6180608600954284,
+    "accepted_over_rejected_mse": 0.5083244639553335,
+    "score_loss_spearman": 0.7209224598930483,
+    "target_coverage": 0.5,
+    "risk_threshold": 0.0900344316938921
+  },
+  "primary_bootstrap_ratio_ci95": [
+    0.41666368099068457,
+    0.8865120967032487
+  ],
+  "scientific_gate_used_for_selection": false,
+  "note": "This smoke checks direction, nesting and code on calibration identities only; it does not tune the frozen formal score, grid or pass criteria."
+}

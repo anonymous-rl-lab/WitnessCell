@@ -1,0 +1,312 @@
+{
+  "formal_gate_pass": true,
+  "covariance_files": 30,
+  "formal_seeds": 30,
+  "maximum_K_symmetry_error": 0.0,
+  "minimum_K_eigenvalue": 2.4365786795360832e-05,
+  "minimum_individual_target_latent_schur": 0.0001122748036571225,
+  "note": "Schur diagnostic uses K alone with a numerical inverse and is not the total Witness Risk, which also includes geometry and noise.",
+  "split_audits": [
+    {
+      "seed": 100,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 101,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 102,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 103,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 104,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 105,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 106,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 107,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 108,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 109,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 110,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 111,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 112,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 113,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 114,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 115,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 116,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 117,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 118,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 119,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 120,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 121,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 122,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 123,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 124,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 125,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 126,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 127,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 128,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    },
+    {
+      "seed": 129,
+      "train_count": 105,
+      "test_count": 26,
+      "train_test_overlap": 0,
+      "test_pair_names_match": true,
+      "K_symmetric": true,
+      "K_psd": true,
+      "risk_finite_positive": true
+    }
+  ],
+  "audit_pass": true
+}

@@ -1,0 +1,118 @@
+{
+  "protocol_id": "E22-MCS-v2",
+  "status": "LOCKED_SOURCE_SPECIFICATION_FOR_FREEZE_CANDIDATE",
+  "normative_source": {
+    "paper": "Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics",
+    "preprint_doi": "10.1101/2025.10.20.683304",
+    "repository": "https://github.com/shiftbioscience/Perturbation-Models-Outperform-Baselines",
+    "commit": "b2ff09f5f83a6e7a31a13d25d046f504f7325178",
+    "commit_utc": "2025-10-21T14:42:52Z",
+    "tree": "4ee60191573dcab9c4a3be405e81d270ce58e822",
+    "python": ">=3.12",
+    "files": [
+      {
+        "path": "src/cellsimbench/core/data_manager.py",
+        "sha256": "a5929f7c21143552bbc13d457d006783f4002ff7545edf3ab023e472d2d39ab5",
+        "symbols": [
+          "wmse",
+          "r2_score_on_deltas",
+          "DataManager._precompute_deg_weights"
+        ]
+      },
+      {
+        "path": "src/cellsimbench/core/metrics_engine.py",
+        "sha256": "4907ccee87463d29004b07e8b83b1af82e743dd4a4d58872c4b079e8ec8f2973",
+        "symbols": [
+          "MetricsEngine._calculate_nir_scores"
+        ]
+      },
+      {
+        "path": "analyses/calibration/calibration_analysis.py",
+        "sha256": "7c3a0a7b3a34adb014216ceadebecfad45e2ef20a5faf6f8acf73ed0636f00e6",
+        "symbols": [
+          "nested calculate_drf implementation",
+          "METRICS_CONFIG",
+          "CONTROL_BASELINE_METRICS"
+        ]
+      },
+      {
+        "path": "data/add_ground_truth_degs.py",
+        "sha256": "de44bab32e04304102dd466bb38cf6adbf9ec1f7c552c524423aa9bc4927cbc9",
+        "symbols": [
+          "calculate_ground_truth_degs"
+        ]
+      },
+      {
+        "path": "data/add_interpolated_baseline.py",
+        "sha256": "10223af1198dd4a14d1f72f780061a3088a4693afda49be23aba6b2508f30620",
+        "symbols": [
+          "add_interpolated_baseline_to_adata"
+        ]
+      },
+      {
+        "path": "data/norman19/get_data.py",
+        "sha256": "c12881866fcd58287b636e847cf345f225dcc9910cbbd7e7d65c733060f9f907",
+        "symbols": [
+          "technical duplicate assignment",
+          "split-specific mean baseline"
+        ]
+      },
+      {
+        "path": "pyproject.toml",
+        "sha256": "f7c75372171dd039df4ed1b302f5c0858bbb85d36cc345291581f5b322f8bf8d"
+      },
+      {
+        "path": "uv.lock",
+        "sha256": "fe3e71939d01f85dbee046b9c294feea406311e00cf74b29d39fafe46d3ae849"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "086ff7820f265a1b9f44f0c9361f217f7ed0368eb69dcf318f532899dce3436e",
+        "use": "upstream attribution and redistribution conditions for vendored metric code"
+      }
+    ],
+    "semantic_notes": {
+      "weight_transform": "absolute score -> min-max [0,1] -> square -> align genes -> normalize inside metric",
+      "wmse": "sum of normalized target-specific weights times squared gene error",
+      "weighted_delta_r2_primary": "weighted_r2_deltapert, using deltas from split-specific training-condition mean",
+      "nir": "Normalized Inverse Rank; fraction of strict identity-retrieval distance comparisons won within covariate",
+      "drf": "candidate-independent positive-vs-negative-control diagnostic; continuous; no universal threshold",
+      "locked_commit_nir_drf_boundary": "NIR exists in metrics_engine.py but is absent from the locked commit's METRICS_CONFIG for DRF"
+    }
+  },
+  "provenance_only_source": {
+    "paper": "Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics",
+    "arxiv": "2506.22641v1",
+    "repository": "https://github.com/shiftbioscience/Diversity_By_Design",
+    "commit": "737bd0efa52d5832de0dd61d49034f65d5955306",
+    "commit_utc": "2025-06-26T20:17:04Z",
+    "tree": "2561f5de4e0b0389f644bf9721809fe4dec7c253",
+    "files": [
+      {
+        "path": "analyses/common.py",
+        "sha256": "f35db39238430447505e4ec785f1fb709fb457d39a7dcb07c714050b373f214a",
+        "symbols": [
+          "wmse",
+          "r2_score_on_deltas"
+        ]
+      },
+      {
+        "path": "data/norman19/get_data.py",
+        "sha256": "7d7566f7894dd4dda4c894e55421b7ebc492cfb7ce54b733fbbd7a6929159562"
+      },
+      {
+        "path": "data/replogle22/get_data.py",
+        "sha256": "a2a414e21e49b673f62018381922d67a3837ba32389d31f8a0be3dbbc326e9de"
+      }
+    ],
+    "use": "conceptual provenance and regression comparison only; never mixed into the normative implementation"
+  },
+  "forbidden": [
+    "using an unfixed branch name such as main",
+    "substituting weighted Pearson for weighted delta R2",
+    "defining weights as t squared divided by the t-squared sum",
+    "calling NIR a top-K DEG inverse-rank score",
+    "inventing a DRF threshold",
+    "using a later upstream NIR-DRF implementation in the primary verdict"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "status": "FROZEN_AFTER_INDEPENDENT_AUDIT",
+  "paper": "WitnessCell",
+  "headline": "Target-conditioned witness geometry forms an independent combinatorial virtual cell and improves strict-seen1 prediction on a frozen GSE146194 pathway panel.",
+  "primary_evidence": {
+    "comparison": "WitnessCell_vs_Saturation",
+    "relative_residual_mse_improvement": 0.4248701224126814,
+    "pair_bootstrap_ci95": [0.4031002773812911, 0.4491489125421396],
+    "pair_wins": "14/14",
+    "exact_pair_signflip_p_one_sided": 0.00006103515625,
+    "full_effect_cosine_delta": 0.07071609340912059
+  },
+  "named_model_results": {
+    "WitnessCell_vs_GEARS_improvement": 0.7182658600569867,
+    "WitnessCell_vs_CPA_improvement": 0.9396031877262964,
+    "GEARS_plus_Witness_vs_WitnessCell_improvement": 0.01868228736363947,
+    "CPA_plus_Witness_vs_WitnessCell_improvement": 0.0048168686183289065
+  },
+  "interpretation": {
+    "independent_witnesscell": "supported",
+    "gears_complementarity": "small but statistically resolved",
+    "cpa_complementarity": "not statistically resolved",
+    "universal_wrapper": "not claimed"
+  },
+  "boundaries": [
+    "14 strict-seen1 target pairs share FDPS",
+    "no seen0 test",
+    "data/model seeds and cells are not independent biological replicates",
+    "named-model confirmation is model-blind but not a never-inspected biological cohort",
+    "no acquisition or budget-saving claim"
+  ]
+}
+

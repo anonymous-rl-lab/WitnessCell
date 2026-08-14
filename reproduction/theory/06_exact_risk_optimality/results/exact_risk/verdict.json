@@ -1,0 +1,7 @@
+{
+  "theorem_checked": "exact BLUP risk and minimum risk among linear unbiased predictors",
+  "replicates_per_regime": 100000,
+  "random_unbiased_competitors_per_regime": 500,
+  "gate": "Monte Carlo relative error <=3%, algebra equality and unbiasedness <=1e-9, exact predictor no worse than pure geometry or any sampled unbiased competitor",
+  "gate_pass": true
+}

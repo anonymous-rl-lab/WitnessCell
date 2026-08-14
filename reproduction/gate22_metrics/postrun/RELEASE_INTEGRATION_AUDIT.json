@@ -1,0 +1,60 @@
+{
+  "status": "PASS_GATE22_COMPACT_RELEASE_INTEGRATION",
+  "experiment": "Experiment 22 metric-calibration stress test",
+  "required_assets_missing": [],
+  "frozen_manifest": {
+    "entries": 76,
+    "verified": 76,
+    "external_not_duplicated": [],
+    "errors": [],
+    "pass": true
+  },
+  "formal_results_manifest": {
+    "entries": 30,
+    "verified": 30,
+    "external_not_duplicated": [],
+    "errors": [],
+    "pass": true
+  },
+  "amendment_a1_manifest": {
+    "entries": 3,
+    "verified": 3,
+    "external_not_duplicated": [],
+    "errors": [],
+    "pass": true
+  },
+  "amendment_a2_manifest": {
+    "entries": 3,
+    "verified": 3,
+    "external_not_duplicated": [],
+    "errors": [],
+    "pass": true
+  },
+  "public_cell_assets": {
+    "policy": "external_not_duplicated",
+    "datasets": 4,
+    "files": 8,
+    "files_present_in_compact_release": 0,
+    "ledger_pass": true,
+    "source": "scPerturBench Zenodo record 14638780 via the frozen Gate 15 data manifest"
+  },
+  "release_assets": {
+    "catalogued_files": 127,
+    "formal_csv_tables": 18,
+    "formal_csv_rows": 9956
+  },
+  "formal_verdict": {
+    "status": "COMPLETE_EXPERIMENT22_FORMAL_EXECUTION",
+    "metric_validity": "PASS_PHASE_M_EXECUTION_AND_SEAL",
+    "prediction_uninformative": "PASS",
+    "prediction_linear": "NOT_ADJUDICATED",
+    "gate21_full": "NOT_ADJUDICATED_FULL_213",
+    "shadow_gate": "DESCRIPTIVE_COMPLETE"
+  },
+  "hash_chain": {
+    "frozen_manifest_sha256": "0bf032f88118523f05e11751c19cfee0201744b340b14357136090161041a756",
+    "formal_results_manifest_sha256": "db697b9a91fa6bbb7fd00f9aadb9e2be6d9554a1135f4d3e186ea517255ebc1a",
+    "postrun_receipt_parent_frozen_manifest_sha256": "0bf032f88118523f05e11751c19cfee0201744b340b14357136090161041a756",
+    "postrun_receipt_formal_results_manifest_sha256": "db697b9a91fa6bbb7fd00f9aadb9e2be6d9554a1135f4d3e186ea517255ebc1a"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "active_splits": 8,
+  "inactive_exact_fallback": true,
+  "overall": {
+    "all_gene_mse_v13": 0.003094006287189992,
+    "all_gene_mse_v14": 0.0030906671822340612,
+    "condition_seed_units": 654,
+    "relative_all_gene_mse_gain": 0.001079217249737252,
+    "relative_top100_mse_gain": 0.0030453806218846413,
+    "scope": "all",
+    "top100_mse_v13": 0.04719090342131136,
+    "top100_mse_v14": 0.047047189158502874,
+    "top100_pcc_delta": 0.0013006984799760163,
+    "top100_pcc_v13": 0.7876073645898714,
+    "top100_pcc_v14": 0.7889080630698474
+  },
+  "split_count": 12,
+  "status": "PASS_V14_V13_PAIRED_SMALL_PANEL_AUDIT"
+}

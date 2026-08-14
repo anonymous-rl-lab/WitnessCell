@@ -1,0 +1,24 @@
+{
+  "beats_published_best_mean_cor_cells": 18,
+  "beats_published_best_mean_mse_cells": 14,
+  "claim_boundary": "Recomputes scanpy-style Welch-t DEG panels from the official data; final SOTA still requires the official full distributional scorer and its frozen DEG artifact.",
+  "comparison_cells": 24,
+  "conditions": 383,
+  "mean_witness_vs_factorized_cor_delta": 0.015055725895355808,
+  "mean_witness_vs_factorized_mse_gain": 0.08593392882081981,
+  "not_a_full_sota_claim": true,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "status": "DIRECTIONAL_GATE_ONLY",
+  "two_metric_mean_rank_by_panel": {
+    "100": 3.9888059701492535,
+    "5000": 2.736940298507463
+  },
+  "two_metric_rank_by_panel": {
+    "100": 1,
+    "5000": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "budget_id": "gse146194-named-aivc-training-budget-v1",
+  "frozen_before_any_named_target_prediction": true,
+  "selection_basis": "Prior Norman maturity traces and released-model warmup mechanics; no GSE146194 final-target outcome was used.",
+  "GEARS": {
+    "package": "cell-gears",
+    "max_epochs": 40,
+    "batch_size": 32,
+    "test_batch_size": 128,
+    "checkpoint": "official validation-best model.best_model"
+  },
+  "CPA": {
+    "package": "cpa-tools",
+    "max_epochs": 80,
+    "batch_size": 2048,
+    "validation_every_epochs": 5,
+    "early_stopping_patience": 999,
+    "prediction_control_cells": 256,
+    "checkpoint": "best validation cpa_metric at or after epoch 61"
+  },
+  "formal_matrix": {
+    "data_seeds": [41, 47, 59],
+    "model_seeds": [0, 1, 2],
+    "fits_per_model": 9,
+    "total_gpu_fits": 18
+  },
+  "prohibited": [
+    "target-selected epoch",
+    "target-selected checkpoint",
+    "new CUDA installation",
+    "new PyTorch installation",
+    "cell-level inference"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "contract": "frozen-gate19-v14-deployment-parity",
+  "max_abs_factorized_delta": 2.384185791015625e-07,
+  "max_abs_witness_delta": 2.384185791015625e-07,
+  "passed": true,
+  "rows": [
+    {
+      "dataset": "Norman",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.384072450567487e-07,
+      "max_abs_witness_delta": 2.384072450567487e-07,
+      "passed": true,
+      "seed": 1,
+      "settings_match": true
+    },
+    {
+      "dataset": "Norman",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.3837113261038212e-07,
+      "max_abs_witness_delta": 2.3837113261038212e-07,
+      "passed": true,
+      "seed": 2,
+      "settings_match": true
+    },
+    {
+      "dataset": "Norman",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.3802331661215703e-07,
+      "max_abs_witness_delta": 2.3820135464092118e-07,
+      "passed": true,
+      "seed": 3,
+      "settings_match": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.3425292994261326e-07,
+      "max_abs_witness_delta": 2.3425292994261326e-07,
+      "passed": true,
+      "seed": 1,
+      "settings_match": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.3813243554826613e-07,
+      "max_abs_witness_delta": 2.3753062006193204e-07,
+      "passed": true,
+      "seed": 2,
+      "settings_match": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.3806108551127636e-07,
+      "max_abs_witness_delta": 2.3806108551127636e-07,
+      "passed": true,
+      "seed": 3,
+      "settings_match": true
+    },
+    {
+      "dataset": "Schmidt",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.316114562361804e-07,
+      "max_abs_witness_delta": 2.1914277414936123e-07,
+      "passed": true,
+      "seed": 1,
+      "settings_match": true
+    },
+    {
+      "dataset": "Schmidt",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.1875112654612394e-07,
+      "max_abs_witness_delta": 2.340069436002068e-07,
+      "passed": true,
+      "seed": 2,
+      "settings_match": true
+    },
+    {
+      "dataset": "Schmidt",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.2893316309335887e-07,
+      "max_abs_witness_delta": 2.3126244386162398e-07,
+      "passed": true,
+      "seed": 3,
+      "settings_match": true
+    },
+    {
+      "dataset": "Wessels",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.384185791015625e-07,
+      "max_abs_witness_delta": 2.384185791015625e-07,
+      "passed": true,
+      "seed": 1,
+      "settings_match": true
+    },
+    {
+      "dataset": "Wessels",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.372659162475088e-07,
+      "max_abs_witness_delta": 2.382294699287968e-07,
+      "passed": true,
+      "seed": 2,
+      "settings_match": true
+    },
+    {
+      "dataset": "Wessels",
+      "gates_match": true,
+      "max_abs_factorized_delta": 2.384185791015625e-07,
+      "max_abs_witness_delta": 2.3779447833049971e-07,
+      "passed": true,
+      "seed": 3,
+      "settings_match": true
+    }
+  ],
+  "splits": 12,
+  "tolerance": 2e-05
+}

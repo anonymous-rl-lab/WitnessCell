@@ -1,0 +1,41 @@
+{
+  "status": "PASS_FROZEN_SELECTIVE_PREDICTION_GATE",
+  "protocol_sha256": "099e84619bd7f235845de5297138520a6b0f06558fa8db1f3fc58b2b2c622137",
+  "test_rows": 213,
+  "test_pairs": 33,
+  "pair_identity_overlap_with_calibration": 0,
+  "primary_target_coverage": 0.5,
+  "primary": {
+    "rows": 213,
+    "pairs": 33,
+    "accepted_rows": 110,
+    "rejected_rows": 103,
+    "row_coverage": 0.5164319248826291,
+    "pair_balanced_coverage": 0.49482924482924484,
+    "all_mse": 0.12385213686797182,
+    "accepted_mse": 0.06616953145456317,
+    "rejected_mse": 0.180353903417883,
+    "accepted_over_all_mse": 0.5342623319055113,
+    "accepted_over_rejected_mse": 0.3668871601921876,
+    "score_loss_spearman": 0.6357064978479587,
+    "score": "estimated_witness_risk",
+    "target_coverage": 0.5,
+    "risk_threshold": 0.0923227147328771
+  },
+  "bootstrap_accepted_over_all_ci95": [
+    0.3646451253440465,
+    0.7591285045032007
+  ],
+  "within_seed_random_selection_p_one_sided": 4.999750012499375e-05,
+  "risk_coverage_spearman": 0.9999999999999999,
+  "secondary_risk_coverage_support": true,
+  "secondary_fallback_over_always_witness_mse": 1.0834891063795782,
+  "criteria": {
+    "coverage_non_degenerate": true,
+    "practical_effect": true,
+    "cluster_uncertainty": true,
+    "random_selection_control": true,
+    "rejected_separation": true
+  },
+  "scope": "Norman development-panel pseudobulk; calibration-unseen target identities; retrospective frozen reanalysis"
+}

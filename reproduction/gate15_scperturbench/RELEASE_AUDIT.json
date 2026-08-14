@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FORMAL_RELEASE_AUDIT",
+  "version": "1.2.0-two-gate-formal-sota",
+  "formal_cpu_fits": 12,
+  "datasets": 4,
+  "split_seeds": 3,
+  "operation_seed_units": 654,
+  "raw_metric_rows": 6540,
+  "official_primary_position": 1,
+  "official_primary_mean_rank": 5.143730886850153,
+  "published_combo_track_competitors": 15,
+  "all_wasserstein_converged": true,
+  "published_aggregate_ranks_reproduced_exactly": true,
+  "deployment_archives": 12,
+  "deployment_archives_pickle_free": true,
+  "deployment_archives_target_free": true,
+  "diagnostic_truth_archives_in_release": false,
+  "formal_experiment_units": 2,
+  "experiment_1_audit": "PASS_FOUR_DATASET_CPU_PREDICTION_AUDIT",
+  "experiment_2_audit": "PASS_OFFICIAL_FULL_METRIC_SOTA_AUDIT",
+  "claim_boundary": "Point-estimate SOTA in the official scPerturBench genetic-combination track; not uniform dominance across datasets and not a comparison against methods from incompatible tracks."
+}

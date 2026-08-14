@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FORMAL_PHASE_M_CANDIDATE_BLIND_CONTROLS",
+  "created_utc": "2026-08-11T06:16:33.953719+00:00",
+  "dataset": "Replogle_exp6",
+  "contract_sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1",
+  "rows": 112,
+  "evaluable_rows": 112,
+  "metric_validity_sha256": "0e80e0bd7c3adbfc28c34a4d851429317b4a38ed4913f6ac804c040d8141f3ee",
+  "nir_controls_sha256": "882f9dc3af9934a1425dc38847a4692c7c92057b34a32daaa4029d90f91c8520"
+}

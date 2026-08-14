@@ -1,0 +1,15 @@
+{
+  "status": "PASS_SHADOW_TRAINING_ONLY_SOURCE_FLOW",
+  "source": "experiments/22_metric_calibration_stress/src/shadow_endpoint_gate.py",
+  "source_sha256": "f8aee1dc9eb472119ec367de0a895fc4b13cf094ff788e401517824403433991",
+  "train_attribute_reads": 1,
+  "forbidden_split_reads": [],
+  "checks": {
+    "official_training_split_explicitly_read": true,
+    "validation_or_test_split_never_read": true,
+    "formal_h5ad_not_read": true,
+    "weights_built_inside_outer_loo": true,
+    "counterfactual_does_not_write_model_archives": true
+  },
+  "pass": true
+}

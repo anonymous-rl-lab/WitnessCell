@@ -1,0 +1,8 @@
+metric,spearman_with_nmse,failure_auroc
+null_projection,0.725906325820358,1.0
+regularized_variance,0.2771445688402501,1.0
+within_pair_indicator,0.0,0.8333333333333334
+inverse_endpoint_degree,,0.5
+seen_category,,0.5
+global_nullity,,0.5
+train_edge_count,,0.5

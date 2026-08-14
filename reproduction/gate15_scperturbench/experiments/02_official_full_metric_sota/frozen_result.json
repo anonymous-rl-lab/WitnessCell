@@ -1,0 +1,21 @@
+{
+  "status": "PASS_OFFICIAL_FULL_METRIC_SOTA_GATE",
+  "official_primary": "top-100 perturbation-affected genes, six metrics, mean per-operation Rank",
+  "datasets": 4,
+  "seeds": 3,
+  "condition_seed_units": 654,
+  "raw_metric_rows": 6540,
+  "published_competitors": 15,
+  "official_primary_position": 1,
+  "official_primary_mean_rank": 5.143730886850153,
+  "runner_up": "scouter",
+  "runner_up_mean_rank": 5.3577981651376145,
+  "third": "linearModel",
+  "third_mean_rank": 5.558103975535168,
+  "all_gene_robustness_position": 1,
+  "both_panels_robustness_position": 1,
+  "dataset_equal_weight_top100_position": 2,
+  "witness_minus_scouter_cluster_bootstrap_95_ci": [-0.6574105783866058, 0.2312431333772787],
+  "witness_minus_linear_cluster_bootstrap_95_ci": [-0.7896440479699359, -0.03156466748266139],
+  "claim_boundary": "Official genetic-combination benchmark SOTA point estimate; not uniform dominance and not statistically resolved over scouter at 95%."
+}

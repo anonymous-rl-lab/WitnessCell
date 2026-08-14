@@ -1,0 +1,58 @@
+{
+  "protocol_version": "21.0.0-draft",
+  "objective": "Test whether training-only estimated Witness Risk supports a frozen accept/abstain rule on calibration-unseen target identities.",
+  "roles": {
+    "response": "estimated_realized_mse; algebraically equal to full-effect MSE for this additive-residual construction",
+    "risk": "estimated_witness_risk",
+    "decision": "accept if risk <= frozen calibration threshold; otherwise abstain",
+    "fallback": "geometry-only prediction evaluated secondarily and never used to define the primary gate"
+  },
+  "calibration": {
+    "source": "Gate07 smoke seeds 0-4",
+    "allowed_outcomes": ["estimated_realized_mse"],
+    "purpose": "freeze monotone mapping and thresholds only"
+  },
+  "test": {
+    "source": "Gate07 formal seeds 100-129",
+    "eligibility": "pair identity absent from every calibration row",
+    "single_reveal": true,
+    "forbidden_before_freeze": [
+      "estimated_realized_mse",
+      "geometry_realized_mse",
+      "estimated_residual_cosine",
+      "geometry_residual_cosine",
+      "reliability_weight",
+      "oracle_risk",
+      "oracle_realized_mse"
+    ]
+  },
+  "score_direction": "lower risk is safer",
+  "coverage_grid": [0.3, 0.5, 0.7, 0.9],
+  "primary_target_coverage": 0.5,
+  "threshold_rule": "target-balanced weighted empirical quantile of calibration risk; no outcome-dependent threshold search",
+  "mapping_rule": "increasing isotonic regression from calibration risk to calibration MSE, pair-balanced weights, clipping outside the calibration range",
+  "primary_metric": "pair-balanced mean estimated_realized_mse among accepted queries",
+  "inference": {
+    "bootstrap": "20000 pair-cluster replicates",
+    "permutation": "20000 within-seed risk permutations",
+    "random_seed": 20260811
+  },
+  "primary_pass_criteria": {
+    "coverage_non_degenerate": "pair-balanced test coverage at the 0.5 threshold is between 0.35 and 0.65 inclusive",
+    "practical_effect": "accepted/all pair-balanced MSE ratio <= 0.80",
+    "cluster_uncertainty": "pair-cluster bootstrap 95% upper bound for accepted/all MSE ratio < 1.0",
+    "random_selection_control": "one-sided permutation p < 0.05",
+    "rejected_separation": "accepted MSE < rejected MSE"
+  },
+  "secondary_support": {
+    "risk_coverage_ordering": "Spearman correlation between achieved coverage and selective MSE over 0.3,0.5,0.7,0.9,1.0 is >= 0.8",
+    "geometry_control": "geometry risk is reported under its own calibration quantiles but cannot replace the primary score after reveal",
+    "fallback_policy": "accepted estimated-Witness plus rejected geometry-only MSE is descriptive only"
+  },
+  "claim_boundary": [
+    "Witness Risk is a self-risk for this construction, not a universal router.",
+    "The experiment concerns Norman pseudobulk targets, not cross-dataset calibration.",
+    "The formal rows existed previously; this is a newly frozen heldout reanalysis, not a prospective biological outcome experiment.",
+    "No official scPerturBench target is removed and no leaderboard is recomputed."
+  ]
+}

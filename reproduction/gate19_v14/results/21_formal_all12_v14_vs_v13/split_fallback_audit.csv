@@ -1,0 +1,13 @@
+dataset,seed,correction_active,max_prediction_delta,inactive_exact_fallback
+Norman,1,True,0.2887849807739258,True
+Norman,2,True,0.1928541660308838,True
+Norman,3,True,0.10441023111343384,True
+Replogle_exp6,1,True,0.7433573007583618,True
+Replogle_exp6,2,True,0.3939474821090698,True
+Replogle_exp6,3,True,0.1680392026901245,True
+Schmidt,1,True,0.2082756757736206,True
+Schmidt,2,True,0.33882081508636475,True
+Schmidt,3,False,0.0,True
+Wessels,1,False,0.0,True
+Wessels,2,False,0.0,True
+Wessels,3,False,0.0,True

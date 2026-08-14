@@ -1,0 +1,68 @@
+{
+  "status": "PASS_FORMAL_WEIGHT_CONTRACT_AUDIT",
+  "datasets": [
+    {
+      "dataset": "Norman",
+      "conditions": 227,
+      "evaluable": 226,
+      "contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b",
+      "checks": {
+        "finite": true,
+        "nonnegative": true,
+        "positive_sum": true,
+        "source_minmax_max_one": true,
+        "has_zero_after_alignment": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Wessels",
+      "conditions": 128,
+      "evaluable": 127,
+      "contract_sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d",
+      "checks": {
+        "finite": true,
+        "nonnegative": true,
+        "positive_sum": true,
+        "source_minmax_max_one": true,
+        "has_zero_after_alignment": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Schmidt",
+      "conditions": 148,
+      "evaluable": 147,
+      "contract_sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5",
+      "checks": {
+        "finite": true,
+        "nonnegative": true,
+        "positive_sum": true,
+        "source_minmax_max_one": true,
+        "has_zero_after_alignment": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "conditions": 70,
+      "evaluable": 69,
+      "contract_sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1",
+      "checks": {
+        "finite": true,
+        "nonnegative": true,
+        "positive_sum": true,
+        "source_minmax_max_one": true,
+        "has_zero_after_alignment": true
+      },
+      "pass": true
+    }
+  ],
+  "global_checks": {
+    "generator_calls_source_parity_wrapper": true,
+    "generator_uses_scanpy_locked_test": true,
+    "generator_uses_adjusted_second_half_pvalues": true
+  },
+  "source_parity_unit_test": "tests/test_source_parity.py::test_weight_transform",
+  "pass": true
+}

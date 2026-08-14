@@ -1,0 +1,71 @@
+{
+  "resampling_unit": "outer split seed",
+  "bootstrap_replicates": 20000,
+  "seed": 20261207,
+  "interval": "percentile 95% interval of the split-level mean",
+  "metrics": [
+    {
+      "metric": "relative_residual_mse_improvement",
+      "n_seeds": 30,
+      "mean": 0.15372466848644664,
+      "sd": 0.1119524761808186,
+      "bootstrap_95ci_low": 0.11376321892076376,
+      "bootstrap_95ci_high": 0.19227285268126698,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "residual_cosine_gain",
+      "n_seeds": 30,
+      "mean": 0.06547957073124121,
+      "sd": 0.06229564496120392,
+      "bootstrap_95ci_low": 0.04381230517135656,
+      "bootstrap_95ci_high": 0.08765130735773251,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "full_effect_cosine_gain",
+      "n_seeds": 30,
+      "mean": 0.013467887073745652,
+      "sd": 0.014258208974732579,
+      "bootstrap_95ci_low": 0.008613639427609801,
+      "bootstrap_95ci_high": 0.018596795977792353,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "spearman_estimated_risk_vs_oracle_risk",
+      "n_seeds": 30,
+      "mean": 0.43838176638176635,
+      "sd": 0.14434890981148307,
+      "bootstrap_95ci_low": 0.38598290598290597,
+      "bootstrap_95ci_high": 0.4873851851851851,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "spearman_estimated_risk_vs_realized_mse",
+      "n_seeds": 30,
+      "mean": 0.46764672364672355,
+      "sd": 0.1291491791377465,
+      "bootstrap_95ci_low": 0.4224273504273504,
+      "bootstrap_95ci_high": 0.5130495726495724,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "oracle_efficiency_estimated",
+      "n_seeds": 30,
+      "mean": 0.41645938401538984,
+      "sd": 0.034996585020084264,
+      "bootstrap_95ci_low": 0.4040710698241458,
+      "bootstrap_95ci_high": 0.4286243658832409,
+      "bootstrap_replicates": 20000
+    },
+    {
+      "metric": "oracle_efficiency_geometry",
+      "n_seeds": 30,
+      "mean": 0.3749074211160602,
+      "sd": 0.053318647474506965,
+      "bootstrap_95ci_low": 0.35628987027861503,
+      "bootstrap_95ci_high": 0.39414743891380755,
+      "bootstrap_replicates": 20000
+    }
+  ]
+}

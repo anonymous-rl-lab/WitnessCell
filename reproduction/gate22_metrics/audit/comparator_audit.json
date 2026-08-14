@@ -1,0 +1,39 @@
+{
+  "status": "PASS_COMPARATOR_SOURCE_AND_AVAILABILITY_AUDIT",
+  "commit": "6e24e7a9827e55d4567d2139427be9af0d1e7a6c",
+  "tree": "5f765fa34cf3400d495c6044ad803dd8766c8bf7",
+  "files": {
+    "Perturbation_generalization/Genetic/linearModel_mean.py": {
+      "expected": "f638a4a1ca13357753fe38c3479f8a2f5102ed7d1b79a80754faa8ce6779efe7",
+      "actual": "f638a4a1ca13357753fe38c3479f8a2f5102ed7d1b79a80754faa8ce6779efe7",
+      "pass": true
+    },
+    "Perturbation_generalization/Genetic/linearModel.py": {
+      "expected": "0cb71f602bcfb59a8294d656eb5fd10cac01f701b7af38ef5121e2572745ae4d",
+      "actual": "0cb71f602bcfb59a8294d656eb5fd10cac01f701b7af38ef5121e2572745ae4d",
+      "pass": true
+    },
+    "Perturbation_generalization/Genetic/linearModel.r": {
+      "expected": "47d5b4f1d2f701662644a4df94112fe0c200e3716695c779e4ea6564cd135e31",
+      "actual": "47d5b4f1d2f701662644a4df94112fe0c200e3716695c779e4ea6564cd135e31",
+      "pass": true
+    }
+  },
+  "raw_published_prediction_assets_found": 0,
+  "rscript_available": false,
+  "linearModel_formal_status": "NOT_ADJUDICATED",
+  "trainMean_formal_status": "AVAILABLE_EXACT_CONDITION_MEAN_REGENERATION",
+  "baseControl_formal_status": "AVAILABLE_EXACT_CONDITION_MEAN_REGENERATION",
+  "published_metric_parity_boundary": "released generateExp samples unseeded Gaussian cells; published rounded distribution-derived rows cannot be a bitwise oracle for the deterministic underlying condition mean",
+  "checks": {
+    "commit_exact": true,
+    "tree_exact": true,
+    "source_files_exact": true,
+    "trainmean_combo_four_branches_present": true,
+    "basecontrol_source_present": true,
+    "comparator_scope_fixed": true,
+    "linear_not_silently_imputed": true,
+    "published_pool_not_silently_imputed": true
+  },
+  "pass": true
+}

@@ -1,0 +1,13 @@
+{
+  "scope": "MANDATORY_BASELINES_ONLY",
+  "fixed_before_prediction_scoring": true,
+  "methods": {
+    "WitnessCell_v14": "AVAILABLE_FROZEN_ARCHIVES",
+    "WitnessCell_v13": "AVAILABLE_FROZEN_ARCHIVES",
+    "trainMean": "AVAILABLE_EXACT_CONDITION_MEAN_REGENERATION",
+    "baseControl": "AVAILABLE_EXACT_CONDITION_MEAN_REGENERATION",
+    "linearModel": "NOT_ADJUDICATED_RAW_PREDICTIONS_AND_REQUIRED_R_RUNTIME_ABSENT"
+  },
+  "published_method_pool": "NOT_ADJUDICATED_SUMMARY_SCORES_ARE_NOT_PREDICTIONS",
+  "claim_boundary": "PRED_LINEAR cannot pass in this execution. PRED_UNINFORMATIVE is adjudicated against trainMean and baseControl. No rescored 15-method leaderboard will be claimed."
+}

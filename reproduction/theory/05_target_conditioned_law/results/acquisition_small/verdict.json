@@ -1,0 +1,31 @@
+{
+  "claim": "At matched budget and matched global nullity improvement, target-conditioned geometry yields higher target prediction utility than random or global D-optimal acquisition.",
+  "audit": {
+    "candidate_outcomes_used_for_selection": false,
+    "target_outcomes_used_for_selection": false,
+    "target_identities_used_by_v_optimal": true,
+    "all_targets_seen2": true,
+    "same_budget_all_strategies": true,
+    "primary_budget": 4
+  },
+  "primary_vopt_minus_random": {
+    "budget": 4,
+    "comparison": "v_optimal_minus_random",
+    "delta_cosine_mean": 0.5221952434753663,
+    "delta_nmse_mean": -0.6230108325043787,
+    "cosine_win_rate": 1.0,
+    "p_one_sided_wilcoxon": 9.313225746154785e-10,
+    "mean_global_nullity_difference": 0.0
+  },
+  "primary_vopt_minus_dopt": {
+    "budget": 4,
+    "comparison": "v_optimal_minus_d_optimal",
+    "delta_cosine_mean": 0.5106132392632515,
+    "delta_nmse_mean": -0.6077752094133669,
+    "cosine_win_rate": 1.0,
+    "p_one_sided_wilcoxon": 9.313225746154785e-10,
+    "mean_global_nullity_difference": 0.0
+  },
+  "pass_rule": "at the primary budget, V-optimal must exceed both comparators by >=0.15 cosine, win >=90% of seeds, p<0.01, and have zero mean global-nullity difference",
+  "gate_pass": true
+}

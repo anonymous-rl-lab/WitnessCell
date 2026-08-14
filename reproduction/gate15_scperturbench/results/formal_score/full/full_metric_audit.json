@@ -1,0 +1,33 @@
+{
+  "datasets": {
+    "Norman": {
+      "condition_seed_units": 268,
+      "failures": [],
+      "rows": 2680,
+      "status": "PASS",
+      "unique_conditions": 170
+    },
+    "Replogle_exp6": {
+      "condition_seed_units": 112,
+      "failures": [],
+      "rows": 1120,
+      "status": "PASS",
+      "unique_conditions": 52
+    },
+    "Schmidt": {
+      "condition_seed_units": 87,
+      "failures": [],
+      "rows": 870,
+      "status": "PASS",
+      "unique_conditions": 50
+    },
+    "Wessels": {
+      "condition_seed_units": 187,
+      "failures": [],
+      "rows": 1870,
+      "status": "PASS",
+      "unique_conditions": 112
+    }
+  },
+  "status": "PASS"
+}

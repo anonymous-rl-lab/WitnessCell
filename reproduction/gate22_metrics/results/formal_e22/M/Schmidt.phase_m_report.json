@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FORMAL_PHASE_M_CANDIDATE_BLIND_CONTROLS",
+  "created_utc": "2026-08-11T06:16:31.153242+00:00",
+  "dataset": "Schmidt",
+  "contract_sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5",
+  "rows": 87,
+  "evaluable_rows": 87,
+  "metric_validity_sha256": "ce15ec1440a01193550819bc93b50c587686a3434920383c4aa2316471d05c0e",
+  "nir_controls_sha256": "d7910482040befa7dfc1a3cae58713229decbf09c40c157df52bd8a4816cc456"
+}

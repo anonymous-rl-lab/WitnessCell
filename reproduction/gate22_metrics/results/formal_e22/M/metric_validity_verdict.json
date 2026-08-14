@@ -1,0 +1,15 @@
+{
+  "status": "PASS_PHASE_M_EXECUTION_AND_SEAL",
+  "created_utc": "2026-08-11T06:16:34.576054+00:00",
+  "candidate_predictions_read": false,
+  "binary_drf_cutoff_used": false,
+  "fixed_metrics": [
+    "wmse",
+    "weighted_r2_deltapert",
+    "nir"
+  ],
+  "formal_rows": 654,
+  "formal_evaluable_rows": 654,
+  "phase_m_manifest_sha256": "d9d722431290058fa7bca922deeff426ffcec99dbbaf1ba99ae3d142d4ba63a8",
+  "interpretation": "continuous candidate-independent control/DRF characterization; NIR reported but not DRF-certified at the locked commit"
+}

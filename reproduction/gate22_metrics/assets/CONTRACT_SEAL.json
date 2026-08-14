@@ -1,0 +1,158 @@
+{
+  "status": "PASS_SEALED_PHASE_M_CONTRACTS",
+  "created_utc": "2026-08-11T06:10:41.026109+00:00",
+  "candidate_predictions_used_to_construct_splits_or_weights": false,
+  "datasets": [
+    {
+      "dataset": "Norman",
+      "contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b",
+      "ledger_sha256": "6a46bc07f4eef9ff29844888924bf808f3647e6f6842ba1b15deed1d19616b28",
+      "report_sha256": "ef62a91b36b89cefa96f62d80cd7ab6cb1f368ee5435cd50c3244007bf1d4224",
+      "conditions": 227,
+      "genes": 5025,
+      "evaluable_weight_conditions": 226,
+      "checks": {
+        "required_schema_exact": true,
+        "no_object_dtype": true,
+        "all_numeric_finite": true,
+        "condition_identity_exact": true,
+        "genes_unique": true,
+        "weights_shape": true,
+        "weight_rows_nonnegative": true,
+        "counts_partition": true,
+        "upstream_report_pass": true,
+        "upstream_contract_hash_exact": true,
+        "upstream_ledger_hash_exact": true,
+        "seed1_test_order_exact": true,
+        "seed1_gene_order_exact": true,
+        "seed1_test_counts_exact": true,
+        "seed2_test_order_exact": true,
+        "seed2_gene_order_exact": true,
+        "seed2_test_counts_exact": true,
+        "seed3_test_order_exact": true,
+        "seed3_gene_order_exact": true,
+        "seed3_test_counts_exact": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Wessels",
+      "contract_sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d",
+      "ledger_sha256": "012ecd1df234f2013afe86fdb96989207abfe601e280acb0b74e1387c3fd1189",
+      "report_sha256": "dd8671b01854954107267d52b6c73158ac12caab62d58e637055af71e10dad04",
+      "conditions": 128,
+      "genes": 5020,
+      "evaluable_weight_conditions": 127,
+      "checks": {
+        "required_schema_exact": true,
+        "no_object_dtype": true,
+        "all_numeric_finite": true,
+        "condition_identity_exact": true,
+        "genes_unique": true,
+        "weights_shape": true,
+        "weight_rows_nonnegative": true,
+        "counts_partition": true,
+        "upstream_report_pass": true,
+        "upstream_contract_hash_exact": true,
+        "upstream_ledger_hash_exact": true,
+        "seed1_test_order_exact": true,
+        "seed1_gene_order_exact": true,
+        "seed1_test_counts_exact": true,
+        "seed2_test_order_exact": true,
+        "seed2_gene_order_exact": true,
+        "seed2_test_counts_exact": true,
+        "seed3_test_order_exact": true,
+        "seed3_gene_order_exact": true,
+        "seed3_test_counts_exact": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Schmidt",
+      "contract_sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5",
+      "ledger_sha256": "b61f2e87525a252d3558958b917c747dcddc7118871e07a6da98b73908c2ca14",
+      "report_sha256": "6e18e81a01936fa996ac9067bc99ae9e7a051e74d6dce390d7cc4ed639c18846",
+      "conditions": 148,
+      "genes": 5005,
+      "evaluable_weight_conditions": 147,
+      "checks": {
+        "required_schema_exact": true,
+        "no_object_dtype": true,
+        "all_numeric_finite": true,
+        "condition_identity_exact": true,
+        "genes_unique": true,
+        "weights_shape": true,
+        "weight_rows_nonnegative": true,
+        "counts_partition": true,
+        "upstream_report_pass": true,
+        "upstream_contract_hash_exact": true,
+        "upstream_ledger_hash_exact": true,
+        "seed1_test_order_exact": true,
+        "seed1_gene_order_exact": true,
+        "seed1_test_counts_exact": true,
+        "seed2_test_order_exact": true,
+        "seed2_gene_order_exact": true,
+        "seed2_test_counts_exact": true,
+        "seed3_test_order_exact": true,
+        "seed3_gene_order_exact": true,
+        "seed3_test_counts_exact": true
+      },
+      "pass": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "contract_sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1",
+      "ledger_sha256": "e146f407abaffee8c33bbccf5205f8f133aaa8975a95a01412b6de0fbbbdde17",
+      "report_sha256": "49451ffaf3f70a1f64c75f366c9d6a54d196f8d30477465fb4c04fb7f0c9df42",
+      "conditions": 70,
+      "genes": 5019,
+      "evaluable_weight_conditions": 69,
+      "checks": {
+        "required_schema_exact": true,
+        "no_object_dtype": true,
+        "all_numeric_finite": true,
+        "condition_identity_exact": true,
+        "genes_unique": true,
+        "weights_shape": true,
+        "weight_rows_nonnegative": true,
+        "counts_partition": true,
+        "upstream_report_pass": true,
+        "upstream_contract_hash_exact": true,
+        "upstream_ledger_hash_exact": true,
+        "seed1_test_order_exact": true,
+        "seed1_gene_order_exact": true,
+        "seed1_test_counts_exact": true,
+        "seed2_test_order_exact": true,
+        "seed2_gene_order_exact": true,
+        "seed2_test_counts_exact": true,
+        "seed3_test_order_exact": true,
+        "seed3_gene_order_exact": true,
+        "seed3_test_counts_exact": true
+      },
+      "pass": true
+    }
+  ],
+  "contracts": {
+    "Norman": {
+      "contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b",
+      "split_ledger_sha256": "6a46bc07f4eef9ff29844888924bf808f3647e6f6842ba1b15deed1d19616b28",
+      "report_sha256": "ef62a91b36b89cefa96f62d80cd7ab6cb1f368ee5435cd50c3244007bf1d4224"
+    },
+    "Wessels": {
+      "contract_sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d",
+      "split_ledger_sha256": "012ecd1df234f2013afe86fdb96989207abfe601e280acb0b74e1387c3fd1189",
+      "report_sha256": "dd8671b01854954107267d52b6c73158ac12caab62d58e637055af71e10dad04"
+    },
+    "Schmidt": {
+      "contract_sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5",
+      "split_ledger_sha256": "b61f2e87525a252d3558958b917c747dcddc7118871e07a6da98b73908c2ca14",
+      "report_sha256": "6e18e81a01936fa996ac9067bc99ae9e7a051e74d6dce390d7cc4ed639c18846"
+    },
+    "Replogle_exp6": {
+      "contract_sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1",
+      "split_ledger_sha256": "e146f407abaffee8c33bbccf5205f8f133aaa8975a95a01412b6de0fbbbdde17",
+      "report_sha256": "49451ffaf3f70a1f64c75f366c9d6a54d196f8d30477465fb4c04fb7f0c9df42"
+    }
+  },
+  "pass": true
+}

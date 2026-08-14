@@ -1,0 +1,12 @@
+{
+  "status": "PASS_FOUR_DATASET_CPU_PREDICTION_GATE",
+  "datasets": ["Norman", "Wessels", "Schmidt", "Replogle_exp6"],
+  "seeds": [1, 2, 3],
+  "fits": 12,
+  "condition_seed_units": 654,
+  "official_split_exact_matches": 12,
+  "target_free_deployment_archives": 12,
+  "cpu_only": true,
+  "zero_witness_degrades_to_factorized_backbone": true,
+  "claim_boundary": "Prediction and engineering gate only; SOTA is decided by Experiment 2."
+}

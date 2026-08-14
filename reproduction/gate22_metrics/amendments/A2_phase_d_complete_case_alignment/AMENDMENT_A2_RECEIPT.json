@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_RESUME_AMENDMENT_BEFORE_PHASE_D_RESULT",
+  "parent_frozen_manifest_sha256": "0bf032f88118523f05e11751c19cfee0201744b340b14357136090161041a756",
+  "completed_phase_p_verdict_sha256": "54c23b982372a73bd7d8e280bf616cbd7251dad407b79b91910af7c3b05d856b",
+  "phase_d_result_files_present_before_amendment": 0,
+  "amendment_document_sha256": "4418c2301aba84b89d09d137e93323b07ff6db8baebe7de9b4593755b3c4ca75",
+  "wrapper_sha256": "d8efda14333467f13b62f9830786ae2773a2b189340ea7b0c560e4ae456af593",
+  "supersedes_resume_wrapper": "A1_phase_d_index_reset",
+  "scientific_parameters_changed": false
+}

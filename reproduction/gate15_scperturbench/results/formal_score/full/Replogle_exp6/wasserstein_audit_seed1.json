@@ -1,0 +1,254 @@
+[
+  {
+    "condition": "AHCYL1+FDPS",
+    "cells": 149,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "ATM+FDPS",
+    "cells": 91,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "ATR+FDPS",
+    "cells": 571,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "ETAA1+FDPS",
+    "cells": 217,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "ETAA1+TOPBP1",
+    "cells": 185,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+IDI1",
+    "cells": 317,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+LIG4",
+    "cells": 153,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+MVD",
+    "cells": 184,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+NHEJ1",
+    "cells": 129,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+PMVK",
+    "cells": 467,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+PRKDC",
+    "cells": 154,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+RAD1",
+    "cells": 223,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+RAD9A",
+    "cells": 259,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+RAD17",
+    "cells": 224,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+RRM1",
+    "cells": 457,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+RRM2B",
+    "cells": 193,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+SQLE",
+    "cells": 538,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+SREBF1",
+    "cells": 346,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+SREBF2",
+    "cells": 555,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+XRCC5",
+    "cells": 96,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+XRCC6",
+    "cells": 153,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "HMGCR+SREBF1",
+    "cells": 433,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "HMGCR+SREBF2",
+    "cells": 507,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+IDI1",
+    "cells": 247,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+MVD",
+    "cells": 286,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+PMVK",
+    "cells": 914,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+RRM1",
+    "cells": 434,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+SQLE",
+    "cells": 392,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+SREBF1",
+    "cells": 206,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "HUS1+SREBF2",
+    "cells": 673,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CHEK1",
+    "cells": 139,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FDPS",
+    "cells": 2000,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "HMGCR",
+    "cells": 563,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "HSPE1",
+    "cells": 119,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "HUS1",
+    "cells": 2000,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "MTOR",
+    "cells": 140,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "TOPBP1",
+    "cells": 533,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CHEK1+FDPS",
+    "cells": 117,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+HMGCR",
+    "cells": 794,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+HUS1",
+    "cells": 2000,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "FDPS+TOPBP1",
+    "cells": 162,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "HMGCR+HUS1",
+    "cells": 1387,
+    "bucket": 2048,
+    "converged": true
+  }
+]

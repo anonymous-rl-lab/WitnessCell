@@ -1,0 +1,36 @@
+{
+  "status": "PASS_ENVIRONMENT_AUDIT",
+  "created_utc": "2026-08-11T06:01:16.712625+00:00",
+  "python": "3.12.13 (main, Mar  3 2026, 14:59:34) [Clang 21.1.4 ]",
+  "executable": "<LOCAL_PATH>",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "packages": {
+    "numpy": "2.2.0",
+    "scipy": "1.14.1",
+    "pandas": "2.2.2",
+    "scikit-learn": "1.7.2",
+    "h5py": "3.15.1",
+    "anndata": "0.12.3",
+    "scanpy": "1.11.5",
+    "tqdm": "4.66.5"
+  },
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 9,
+      "prefix": "libscipy_openblas",
+      "filepath": "<LOCAL_PATH>",
+      "version": "0.3.28",
+      "threading_layer": "pthreads",
+      "architecture": "SkylakeX"
+    }
+  ],
+  "gpu_required": false,
+  "checks": {
+    "python_at_least_3_12": true,
+    "float64_ieee": true
+  },
+  "pass": true
+}

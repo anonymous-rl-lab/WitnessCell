@@ -1,0 +1,3 @@
+regime,seeds,selected_rho_median,selected_rho_mean,relative_gain_mean,risk_spearman_mean,estimated_mse_mean,geometry_mse_mean,oracle_mse_mean
+negative,12,0.0,0.0,0.0,1.0,0.37905094778426807,0.37905094778426807,0.37905094778426807
+positive,12,0.75,0.75,0.1683142999520336,0.9945054945054945,0.6390961826173778,0.7684533762898673,0.6379921186689095

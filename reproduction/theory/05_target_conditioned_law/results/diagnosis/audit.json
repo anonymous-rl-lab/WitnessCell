@@ -1,0 +1,802 @@
+[
+  {
+    "seed": 0,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 1,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 2,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 3,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 4,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 5,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 6,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 7,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 8,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 9,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 10,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 11,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 12,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 13,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 14,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 15,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 16,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 17,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 18,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 19,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 20,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 21,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 22,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 23,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 24,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 25,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 26,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 27,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 28,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 29,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 30,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 31,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 32,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 33,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 34,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 35,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 36,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 37,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 38,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 39,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 40,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 41,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 42,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 43,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 44,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 45,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 46,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 47,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 48,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 49,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 50,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 51,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 52,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 53,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 54,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 55,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 56,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 57,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 58,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 59,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 60,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 61,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 62,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 63,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 64,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 65,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 66,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 67,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 68,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 69,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 70,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 71,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 72,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 73,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 74,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 75,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 76,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 77,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 78,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 79,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 80,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 81,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 82,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 83,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 84,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 85,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 86,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 87,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 88,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 89,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 90,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 91,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 92,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 93,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 94,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 95,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 96,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.94584960523261
+  },
+  {
+    "seed": 97,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 98,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  },
+  {
+    "seed": 99,
+    "train_target_overlap": 0,
+    "all_target_endpoints_seen": true,
+    "train_edges": 380,
+    "global_nullity": 4,
+    "max_information_eigenvalue": 13.945849605232613
+  }
+]

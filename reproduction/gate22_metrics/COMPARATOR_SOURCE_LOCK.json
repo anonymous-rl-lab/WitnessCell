@@ -1,0 +1,17 @@
+{
+  "repository": "bm2-lab/scPerturBench",
+  "commit": "6e24e7a9827e55d4567d2139427be9af0d1e7a6c",
+  "tree": "5f765fa34cf3400d495c6044ad803dd8766c8bf7",
+  "files": {
+    "Perturbation_generalization/Genetic/linearModel_mean.py": "f638a4a1ca13357753fe38c3479f8a2f5102ed7d1b79a80754faa8ce6779efe7",
+    "Perturbation_generalization/Genetic/linearModel.py": "0cb71f602bcfb59a8294d656eb5fd10cac01f701b7af38ef5121e2572745ae4d",
+    "Perturbation_generalization/Genetic/linearModel.r": "47d5b4f1d2f701662644a4df94112fe0c200e3716695c779e4ea6564cd135e31"
+  },
+  "mean_level_semantics": {
+    "baseControl": "control-cell condition mean for every test target",
+    "trainMean_combo": "known single endpoint means add on the control scale; an unseen endpoint is replaced by the equal-condition mean of training singles",
+    "trainMean_unseen_single": "cell-count-weighted mean across training-single cells",
+    "linearModel_combo": "the released predComb step explicitly replaces combination predictions with trainMean predictions",
+    "linearModel_unseen_single": "requires the R PCA/ridge implementation and its processed input state"
+  }
+}

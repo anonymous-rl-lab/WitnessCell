@@ -1,0 +1,56 @@
+{
+  "claim_boundary": "Formal full-condition scoring.",
+  "condition_limit": null,
+  "data": "<LOCAL_PATH>",
+  "data_sha256": "02f35f93c250af2b718374c4dfb2fa77f3559b1eefbb7066b26cf8e6a9e02fa5",
+  "jax": "0.4.28",
+  "max_distribution_cells": 2000,
+  "metrics": [
+    "PCC-delta",
+    "MSE",
+    "E-distance",
+    "symmetric KL",
+    "Wasserstein",
+    "Common-DEGs"
+  ],
+  "ott_contract": "ott-jax PointCloud + LinearProblem + default Sinkhorn; squared-Euclidean cost; relative epsilon; all converged",
+  "raw_parts": [
+    "results/formal_score/full/Wessels/raw_seed1.csv",
+    "results/formal_score/full/Wessels/raw_seed2.csv",
+    "results/formal_score/full/Wessels/raw_seed3.csv"
+  ],
+  "runs_scored_now": [
+    {
+      "checkpoint": "results/formal_score/full/Wessels/raw_seed1.csv",
+      "conditions": 65,
+      "dataset": "Wessels",
+      "metric_rows": 650,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "051524830fefdfece0f7aadeffdb9aee1fcd47a5a94a0d4a49ea1c9e44228ff0",
+      "seed": 1
+    },
+    {
+      "checkpoint": "results/formal_score/full/Wessels/raw_seed2.csv",
+      "conditions": 55,
+      "dataset": "Wessels",
+      "metric_rows": 550,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "199fb148e0d3bd9a541772d755142f27b76e7563949d002e4f8b1dfe784057cf",
+      "seed": 2
+    },
+    {
+      "checkpoint": "results/formal_score/full/Wessels/raw_seed3.csv",
+      "conditions": 67,
+      "dataset": "Wessels",
+      "metric_rows": 670,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "42ba9f3be9f28023baa670eb1b1993205abb2f82e3aea1545303859c50f758a5",
+      "seed": 3
+    }
+  ],
+  "shape": [
+    19775,
+    5020
+  ],
+  "status": "PASS_OFFICIAL_SIX_METRIC_SCORING"
+}

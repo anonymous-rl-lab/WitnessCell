@@ -1,0 +1,170 @@
+[
+  {
+    "condition": "CBY1+EMP3",
+    "cells": 29,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "CBY1+LCP2",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+JMJD1C",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+MAP4K1",
+    "cells": 20,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+PRKD2",
+    "cells": 24,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+TBX21",
+    "cells": 23,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+TNFRSF1A",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+TRAF3IP2",
+    "cells": 27,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+VAV1",
+    "cells": 20,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "JMJD1C+TNFRSF1B",
+    "cells": 21,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "MGST3+TRIM21",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "PRKD2+TNFRSF1B",
+    "cells": 24,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "TNFRSF1B+TRAF3IP2",
+    "cells": 24,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "TNFRSF12A+TRAF3IP2",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "PRKD2+VAV1",
+    "cells": 26,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "TNFRSF1A+TRAF3IP2",
+    "cells": 26,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "TRAF3IP2+TRIM21",
+    "cells": 20,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "ABCB10",
+    "cells": 438,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "APOL2",
+    "cells": 673,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "EMP3",
+    "cells": 1709,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "FOSB",
+    "cells": 609,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "LCP2",
+    "cells": 1131,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "LHX6",
+    "cells": 1024,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "MGST3",
+    "cells": 651,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "TNFRSF1B",
+    "cells": 1467,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "TNFRSF12A",
+    "cells": 874,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+LCP2",
+    "cells": 22,
+    "bucket": 32,
+    "converged": true
+  },
+  {
+    "condition": "EMP3+TNFRSF1B",
+    "cells": 33,
+    "bucket": 64,
+    "converged": true
+  }
+]

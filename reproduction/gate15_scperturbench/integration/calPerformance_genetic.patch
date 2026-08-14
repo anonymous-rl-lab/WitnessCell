@@ -1,0 +1,6 @@
+diff --git a/Perturbation_generalization/calPerformance_genetic.py b/Perturbation_generalization/calPerformance_genetic.py
+--- a/Perturbation_generalization/calPerformance_genetic.py
++++ b/Perturbation_generalization/calPerformance_genetic.py
+@@
+-          'trainMean', 'controlMean', 'CPA', 'bioLord', 'scFoundation', 'scouter']
++          'trainMean', 'controlMean', 'CPA', 'bioLord', 'scFoundation', 'scouter', 'WitnessCell']

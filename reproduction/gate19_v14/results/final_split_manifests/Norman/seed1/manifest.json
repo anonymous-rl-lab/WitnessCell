@@ -1,0 +1,87 @@
+{
+  "cache": "<LOCAL_PATH>",
+  "cache_sha256": "b410c768fe9ca15459a1819ab86fa32d1cac0f2930713a6eb13021680d279c68",
+  "dataset": "Norman",
+  "identity_head": {
+    "active": true,
+    "all_gene_upgrade_lower": 0.004199372709545962,
+    "all_gene_upgrade_mean": 0.011250997836416131,
+    "anchor_mode": null,
+    "background_weight": null,
+    "candidate_training_scores": [],
+    "combined_dense_weights": null,
+    "correction_active": true,
+    "correction_weights": [
+      -0.19496344849133182,
+      1.5,
+      1.5
+    ],
+    "dense_active": true,
+    "dense_all_gene_gain_lower": null,
+    "dense_mode": null,
+    "dense_weights": null,
+    "direction_gate_metric": null,
+    "final_all_gene_gain_lower": null,
+    "final_top100_pcc_delta_lower": null,
+    "gate_lower_bound": null,
+    "gate_metric": "dual",
+    "go_residual_weight": null,
+    "go_top_k": null,
+    "identity_mode": "multihead_v14",
+    "incremental_direction_required": false,
+    "known_single_count": 72,
+    "loo_all_gene_gain_lower": null,
+    "loo_all_gene_gain_mean": null,
+    "loo_pcc_delta_mean": null,
+    "loo_top100_gain_lower": null,
+    "loo_top100_gain_mean": null,
+    "selected_recipe": "inc_amp_fp_r02",
+    "self_summary": "mean",
+    "self_weight": null,
+    "sparse_active": true,
+    "sparse_incremental_top100_pcc_delta_lower": null,
+    "sparse_mode": null,
+    "sparse_weights": null,
+    "support_k": null,
+    "support_mode": null,
+    "top100_mse_upgrade_lower": 0.01098574709826063,
+    "top100_mse_upgrade_mean": 0.02779924405618279,
+    "top100_pcc_upgrade_lower": 0.0038145819998675994,
+    "top100_pcc_upgrade_mean": 0.013160796343543295,
+    "weight_mode": "closed_form"
+  },
+  "inactive_gate_max_factorized_delta_vs_v1": null,
+  "leakage_contract": "fit receives only control, official train and official validation; endpoint weights and activation are fit only from training singles; deploy archive contains no test truth",
+  "method": "WitnessCell_endpoint_v4_incremental_amplitude",
+  "official_gears_filter": {
+    "raw_conditions": 227,
+    "removed_conditions": [
+      "IER5L",
+      "IER5L+LYL1"
+    ],
+    "supported_conditions": 225
+  },
+  "seed": 1,
+  "selected_v1": {
+    "alpha": 0.2,
+    "gamma": 1.0,
+    "noise_ratio": 1.0
+  },
+  "selected_v2": {
+    "alpha": 0.2,
+    "gamma": 1.0,
+    "noise_ratio": 1.0
+  },
+  "split_counts": {
+    "test": 93,
+    "train": 110,
+    "validation": 22
+  },
+  "status": "PASS_WITNESSCELL_V4_INCREMENTAL_AMPLITUDE_EVIDENCE_PREDICTION",
+  "test_subgroup_counts": {
+    "combo_seen0": 5,
+    "combo_seen1": 51,
+    "combo_seen2": 17,
+    "unseen_single": 20
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE_EXPERIMENT22_FORMAL_EXECUTION",
+  "created_utc": "2026-08-11T06:34:01.033707+00:00",
+  "SOURCE_PARITY": "PASS",
+  "METRIC_VALIDITY": "PASS_PHASE_M_EXECUTION_AND_SEAL",
+  "PRED_LINEAR": "NOT_ADJUDICATED",
+  "PRED_UNINFORMATIVE": "PASS",
+  "ENDPOINT_COMPATIBILITY": "STRONG",
+  "GATE21_WMSE": "NOT_ADJUDICATED_FULL_213",
+  "COMPARATOR_SCOPE": "MANDATORY_BASELINES_ONLY",
+  "SHADOW_GATE": "DESCRIPTIVE_COMPLETE",
+  "claim_boundary": {
+    "linear_comparison": "not adjudicated unless raw exact linearModel predictions are later supplied under a versioned sensitivity analysis",
+    "selective_prediction_scope": "Norman development panel only",
+    "distribution_prediction": "not tested; condition means only",
+    "shadow_gate": "training-only counterfactual; never changes v14"
+  }
+}

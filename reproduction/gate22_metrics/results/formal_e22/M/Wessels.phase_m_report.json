@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FORMAL_PHASE_M_CANDIDATE_BLIND_CONTROLS",
+  "created_utc": "2026-08-11T06:16:28.602757+00:00",
+  "dataset": "Wessels",
+  "contract_sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d",
+  "rows": 187,
+  "evaluable_rows": 187,
+  "metric_validity_sha256": "d1a9829c9eb8d2e5090e503e5c02abd55534e6f52537ac7be315da32ac36927f",
+  "nir_controls_sha256": "c3932f4dd44fbed72de1a1d4f920500eb2adecee81279177e8056710113d61bd"
+}

@@ -1,0 +1,38 @@
+{
+  "claim": "K, k_t and k_tt estimated only from training doubles plus target-safe single-perturbation descriptors yield a deployable Witness Risk and improve held-out Norman prediction.",
+  "scope": "Norman development-panel pseudobulk additive residual; nested outer-edge holdout; empirical oracle is diagnostic and never used for fitting or selection",
+  "leakage_audit": {
+    "outer_test_double_outcomes_used_for_hyperparameter_selection": false,
+    "outer_test_double_outcomes_used_for_estimated_K_kt_ktt": false,
+    "test_single_perturbation_profiles_used": true,
+    "test_reliability_weights_used_only_for_evaluation": true
+  },
+  "frozen_formal_gate": {
+    "risk": "mean within-split Spearman(estimated risk, oracle risk) >=0.20 and Spearman(estimated risk, realized estimated-predictor MSE) >=0.25",
+    "prediction": "mean residual-MSE improvement >=3%, win rate >=70%, one-sided paired Wilcoxon p<0.05; mean full-effect MSE noninferior"
+  },
+  "risk_spearman_oracle_mean": 0.43838176638176635,
+  "risk_spearman_realized_mean": 0.46764672364672355,
+  "prediction_test": {
+    "metric": "residual_mse",
+    "direction": "lower",
+    "difference_mean": 0.03097170359279972,
+    "relative_improvement_mean": 0.15372466848644664,
+    "wins": 26,
+    "win_rate": 0.8666666666666667,
+    "p_one_sided_wilcoxon": 1.2759119272232056e-07
+  },
+  "full_effect_safety_test": {
+    "metric": "full_effect_mse",
+    "direction": "lower",
+    "difference_mean": 0.03097170358736968,
+    "relative_improvement_mean": 0.15372466845597027,
+    "wins": 26,
+    "win_rate": 0.8666666666666667,
+    "p_one_sided_wilcoxon": 1.2759119272232056e-07
+  },
+  "selected_rho_mean": 0.7349999999999999,
+  "risk_gate_pass": true,
+  "prediction_gate_pass": true,
+  "gate_pass": true
+}

@@ -1,0 +1,23 @@
+test_released_trainmean_branch_semantics (test_comparator_core.ComparatorCoreTests.test_released_trainmean_branch_semantics) ... ok
+test_drf_locked_branches_and_clipping (test_metric_core.MetricCoreTests.test_drf_locked_branches_and_clipping) ... ok
+test_gene_reordering_and_duplicates_fail_closed (test_metric_core.MetricCoreTests.test_gene_reordering_and_duplicates_fail_closed) ... ok
+test_nan_fails_closed (test_metric_core.MetricCoreTests.test_nan_fails_closed) ... ok
+test_nir_omits_singleton_covariate (test_metric_core.MetricCoreTests.test_nir_omits_singleton_covariate) ... ok
+test_nir_strict_comparison_and_ties (test_metric_core.MetricCoreTests.test_nir_strict_comparison_and_ties) ... ok
+test_perfect_prediction (test_metric_core.MetricCoreTests.test_perfect_prediction) ... ok
+test_source_weight_transform_and_duplicate_max (test_metric_core.MetricCoreTests.test_source_weight_transform_and_duplicate_max) ... ok
+test_zero_sum_weights_fail_closed (test_metric_core.MetricCoreTests.test_zero_sum_weights_fail_closed) ... ok
+test_split_is_balanced_and_complete (test_phase_m_primitives.PhaseMPrimitiveTests.test_split_is_balanced_and_complete) ... ok
+test_technical_split_matches_locked_rng_sequence (test_phase_m_primitives.PhaseMPrimitiveTests.test_technical_split_matches_locked_rng_sequence) ... ok
+test_condition_cluster_bootstrap_preserves_exact_constant_contrast (test_phase_p_primitives.PhasePPrimitiveTests.test_condition_cluster_bootstrap_preserves_exact_constant_contrast) ... ok
+test_drf_ast_extracted_source (test_source_parity.SourceParityTests.test_drf_ast_extracted_source) ... ok
+test_nir (test_source_parity.SourceParityTests.test_nir) ... Calculating nir for covariate cov: 0it [00:00, ?it/s]Calculating nir for covariate cov: 3it [00:00, 23344.92it/s]
+ok
+test_weight_transform (test_source_parity.SourceParityTests.test_weight_transform) ... Calculating Weights:   0%|          | 0/1 [00:00<?, ?it/s]Calculating Weights: 100%|██████████| 1/1 [00:00<00:00, 631.39it/s]
+ok
+test_wmse_and_weighted_r2 (test_source_parity.SourceParityTests.test_wmse_and_weighted_r2) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.105s
+
+OK

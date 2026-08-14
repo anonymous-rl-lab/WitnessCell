@@ -1,0 +1,7 @@
+method,raw_condition_means_available,exact_regeneration,formal_status,reason
+WitnessCell_v14,true,true,AVAILABLE,12 immutable target-free archives
+WitnessCell_v13,true,true,AVAILABLE,12 immutable target-free archives
+trainMean,false,true,AVAILABLE,released source defines deterministic condition-mean estimator
+baseControl,false,true,AVAILABLE,released source defines deterministic control-mean estimator
+linearModel,false,false,NOT_ADJUDICATED,raw prediction files absent and R PCA/ridge runtime/input state unavailable
+published_remaining_methods,false,false,NOT_ADJUDICATED,only rounded/normalized per-operation scores are present

@@ -1,0 +1,26 @@
+{
+  "status": "PASS_PRE_REVEAL_ASSET_ISOLATION",
+  "calibration_source": "<LOCAL_PATH>",
+  "calibration_source_sha256": "52d932f2e9725aa4f714e1685f6f645ba74af6850da9e72a34fc9670ac36398a",
+  "formal_source": "<LOCAL_PATH>",
+  "formal_source_sha256": "9864b8dac28d65e36a0b6e82d7999a81d1b2b19c31b5c6c8e0a0693e628c37c7",
+  "calibration_rows": 130,
+  "calibration_pairs": 80,
+  "formal_eligible_rows": 213,
+  "formal_eligible_pairs": 33,
+  "pair_identity_overlap": 0,
+  "risk_only_sha256": "c4f1ba07085b1d947c3e7bb16de40badb2a4faaa60a03bc4116a91fc25c3dbc3",
+  "sealed_outcomes_sha256": "52093cd7135952f49a316f685fe66d2a665681aeddf21aa8f742517c04929834",
+  "sealed_outcomes_mode": "0o0",
+  "risk_only_columns": [
+    "query_id",
+    "seed",
+    "pair",
+    "estimated_witness_risk",
+    "geometry_risk",
+    "selected_rho",
+    "selected_length_factor",
+    "selected_noise_ratio"
+  ],
+  "forbidden_test_columns_present_in_risk_only": false
+}

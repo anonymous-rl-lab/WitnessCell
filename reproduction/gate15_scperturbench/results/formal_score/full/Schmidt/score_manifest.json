@@ -1,0 +1,48 @@
+{
+  "claim_boundary": "Formal full-condition scoring.",
+  "condition_limit": null,
+  "data": "<LOCAL_PATH>",
+  "data_sha256": "7797165c9982bf40dc2d7d6b530d29e7a1f2796b8c96a5367baaaee93433cf95",
+  "energy_distance_contract": "Exact Euclidean pairwise-distance mean evaluated by the norm/dot-product identity in float64; numerically equivalent to scipy cdist.",
+  "jax": "0.4.28",
+  "max_distribution_cells": 2000,
+  "metrics": [
+    "PCC-delta",
+    "MSE",
+    "E-distance",
+    "symmetric KL",
+    "Wasserstein",
+    "Common-DEGs"
+  ],
+  "ott_contract": "ott-jax PointCloud + LinearProblem + default Sinkhorn; squared-Euclidean cost; relative epsilon; all converged",
+  "raw_parts": [
+    "results/formal_score/full/Schmidt/raw_seed1.csv",
+    "results/formal_score/full/Schmidt/raw_seed2.csv",
+    "results/formal_score/full/Schmidt/raw_seed3.csv"
+  ],
+  "runs_scored_now": [
+    {
+      "checkpoint": "results/formal_score/full/Schmidt/raw_seed2.csv",
+      "conditions": 28,
+      "dataset": "Schmidt",
+      "metric_rows": 280,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "d91ba81b62710c7c6a38f90555e02d13d103b2fad06efa9177143603b94a2ebd",
+      "seed": 2
+    },
+    {
+      "checkpoint": "results/formal_score/full/Schmidt/raw_seed3.csv",
+      "conditions": 28,
+      "dataset": "Schmidt",
+      "metric_rows": 280,
+      "prediction": "<LOCAL_PATH>",
+      "prediction_sha256": "0c9fdff0601348e8b7376b1a1089c77087248476c8a720f49b8472e8e3e381e7",
+      "seed": 3
+    }
+  ],
+  "shape": [
+    60572,
+    5005
+  ],
+  "status": "PASS_OFFICIAL_SIX_METRIC_SCORING"
+}

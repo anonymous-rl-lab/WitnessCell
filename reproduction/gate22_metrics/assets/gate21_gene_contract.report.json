@@ -1,0 +1,87 @@
+{
+  "status": "PASS_GATE21_GENE_LEVEL_REGENERATION",
+  "created_utc": "2026-08-11T06:10:28.692630+00:00",
+  "rows": 213,
+  "pairs": 33,
+  "genes": 1216,
+  "canonical_gene_overlap": 451,
+  "canonical_gene_missing_zero_weight": 765,
+  "canonical_weight_evaluable_rows": 207,
+  "canonical_weight_non_evaluable_rows": 6,
+  "canonical_weight_non_evaluable_pairs": [
+    "ELMSAN1+MAP2K3"
+  ],
+  "overlap_weight_fraction": {
+    "minimum": 0.24793644946258778,
+    "mean": 0.34259918882484436,
+    "median": 0.3446489525509679
+  },
+  "accepted": 110,
+  "rejected": 103,
+  "threshold_repr": "0.0923227147328771",
+  "query_identity_sha256": "977f6bb67aa69100c5136c2a2ce2938e6003bd85c5cd1c1e1904deb0cdfb3f9a",
+  "accepted_identity_sha256": "3f6c0c7c5d65663d0c58197878e0d5ab0ab4912d20141ea287ea64506a855d75",
+  "scalar_parity": {
+    "estimated_risk": {
+      "max_abs_error": 4.5693454731043914e-07,
+      "max_rel_error": 1.982132346828701e-06,
+      "rtol": 5e-06,
+      "atol": 5e-09,
+      "allclose": true
+    },
+    "geometry_risk": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "max_rel_error": 9.658433394461689e-16,
+      "rtol": 5e-06,
+      "atol": 5e-09,
+      "allclose": true
+    },
+    "estimated_mse": {
+      "max_abs_error": 8.839842551289223e-07,
+      "max_rel_error": 4.409021443491639e-06,
+      "rtol": 5e-06,
+      "atol": 5e-09,
+      "allclose": true
+    },
+    "geometry_mse": {
+      "max_abs_error": 9.71445146547012e-17,
+      "max_rel_error": 3.4296864865224556e-15,
+      "rtol": 5e-06,
+      "atol": 5e-09,
+      "allclose": true
+    },
+    "estimated_cosine": {
+      "max_abs_error": 3.240356041156467e-06,
+      "max_rel_error": 0.00013760170373034795,
+      "rtol": 5e-06,
+      "atol": 5e-06,
+      "allclose": true
+    },
+    "geometry_cosine": {
+      "max_abs_error": 1.1102230246251565e-16,
+      "max_rel_error": 1.4452285267052284e-14,
+      "rtol": 5e-06,
+      "atol": 5e-06,
+      "allclose": true
+    }
+  },
+  "regeneration_tolerance": {
+    "risk_and_mse": {
+      "rtol": 5e-06,
+      "atol": 5e-09
+    },
+    "cosine": {
+      "rtol": 5e-06,
+      "atol": 5e-06
+    }
+  },
+  "formal_risk_source": "previously frozen Gate 21 revealed rows; regenerated risk is parity diagnostic only",
+  "weighted_loss_evaluated_before_freeze": false,
+  "gene_contract_sha256": "d58cec87d05ad34afec656362c610ffabafa5667d1b6f8c08454815f81e24c41",
+  "source_assets": {
+    "residuals_sha256": "c2feb82a97f25818f1a6306133f7b950ad0cdac01ed287697a1c852e3cbecb6c",
+    "gate07_metrics_sha256": "dd408160fd9cb469b7d9666938615c14670188104d428ba876604c9e2647eb53",
+    "gate21_revealed_rows_sha256": "7c709006f663cf73bb5d824c2e037b39c7cb3e96a7c223865b41392995a3ebee",
+    "norman_phase_m_contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b"
+  }
+}

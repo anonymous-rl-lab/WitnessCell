@@ -1,0 +1,4 @@
+position,method,mean_operation_rank,mean_metric_rank,operation_seed_units
+1,WitnessCell,5.143730886850153,5.680428134556575,654
+2,scouter,5.357798165137615,5.7420998980632005,654
+3,linearModel,5.558103975535168,5.846075433231397,654

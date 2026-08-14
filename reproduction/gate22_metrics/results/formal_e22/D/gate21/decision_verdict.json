@@ -1,0 +1,77 @@
+{
+  "status": "PASS_PHASE_D_EXECUTION",
+  "created_utc": "2026-08-11T06:18:52.751638+00:00",
+  "full_rows": 213,
+  "full_pairs": 33,
+  "evaluable_rows": 207,
+  "evaluable_pairs": 32,
+  "evaluable_fraction": 0.971830985915493,
+  "accepted_full": 110,
+  "rejected_full": 103,
+  "threshold_repr": "0.0923227147328771",
+  "primary": {
+    "rows": 207,
+    "pairs": 32,
+    "accepted_rows": 106,
+    "rejected_rows": 101,
+    "row_coverage": 0.5120772946859904,
+    "pair_balanced_coverage": 0.4894593253968255,
+    "all_mse": 0.18066301244375657,
+    "accepted_mse": 0.08626134706822401,
+    "rejected_mse": 0.2711666250833551,
+    "accepted_over_all_mse": 0.47747098811982125,
+    "accepted_over_rejected_mse": 0.31811196175675294,
+    "score_loss_spearman": 0.7320004112954726
+  },
+  "bootstrap_accepted_over_all_ci95": [
+    0.31745778573887773,
+    0.7070671533111849
+  ],
+  "within_seed_random_selection_p_one_sided": 4.999750012499375e-05,
+  "risk_wmse_spearman": NaN,
+  "criteria": {
+    "coverage_non_degenerate": true,
+    "practical_effect": true,
+    "cluster_uncertainty": true,
+    "random_selection_control": true,
+    "rejected_separation": true
+  },
+  "GATE21_WMSE": "NOT_ADJUDICATED_FULL_213",
+  "GATE21_WMSE_COMPLETE_CASE": "PASS",
+  "geometry_matched_coverage": {
+    "threshold": 0.1343354011983021,
+    "result": {
+      "rows": 207,
+      "pairs": 32,
+      "accepted_rows": 102,
+      "rejected_rows": 105,
+      "row_coverage": 0.4927536231884058,
+      "pair_balanced_coverage": 0.49284474206349205,
+      "all_mse": 0.18066301244375657,
+      "accepted_mse": 0.21104187963969478,
+      "rejected_mse": 0.15114135268954054,
+      "accepted_over_all_mse": 1.1681521125160894,
+      "accepted_over_rejected_mse": 1.3963212309816753,
+      "score_loss_spearman": 0.06767310207629683
+    },
+    "bootstrap_accepted_over_all_ci95": [
+      0.8437556435323634,
+      1.448495194235168
+    ],
+    "within_seed_random_selection_p_one_sided": 0.7012149392530374,
+    "criteria": {
+      "coverage_non_degenerate": true,
+      "practical_effect": false,
+      "cluster_uncertainty": false,
+      "random_selection_control": false,
+      "rejected_separation": false
+    },
+    "all_five_pass": false,
+    "witness_minus_geometry_selective_wmse": -0.12478053257147077
+  },
+  "source_gene_contract_sha256": "d58cec87d05ad34afec656362c610ffabafa5667d1b6f8c08454815f81e24c41",
+  "artifacts": {
+    "rows_sha256": "9feeabc0187135e5dfe9a52c10012b1893e828adff74277c6015e6af62d8d916",
+    "inference_arrays_sha256": "4462d8b5e4976b311d0458186cf7e57dcf2af9e524532842df3f9dc306f0c31c"
+  }
+}

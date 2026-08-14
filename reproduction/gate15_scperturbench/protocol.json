@@ -1,0 +1,31 @@
+{
+  "benchmark": "scPerturBench genetic perturbation generalization",
+  "benchmark_record": "Zenodo 14638780",
+  "benchmark_repository_commit": "6e24e7a9827e55d4567d2139427be9af0d1e7a6c",
+  "method_name": "WitnessCell",
+  "method_role": "28th benchmark-wide entrant and 16th eligible genetic-combination entrant after adding WitnessCell",
+  "formal_combo_datasets": [
+    "Norman",
+    "Wessels",
+    "Schmidt",
+    "Replogle_exp6"
+  ],
+  "official_seeds": [1, 2, 3],
+  "gene_panels": [100, 5000],
+  "published_metrics": [
+    "pearson",
+    "mse",
+    "energy_distance",
+    "symmetric_kl",
+    "wasserstein",
+    "DEG_recovery"
+  ],
+  "primary_sota_rule": "On the official primary top-100 panel, average the per-operation six-metric Rank over all four genetic-combination datasets and three split seeds; WitnessCell must rank ahead of all 15 published methods with eligible combination-track results.",
+  "secondary_robustness_rules": [
+    "Repeat the per-operation aggregation on the 5,000-gene four-metric panel.",
+    "Report a dataset-equal-weight sensitivity analysis so that the larger Norman and Wessels test sets cannot silently dominate the interpretation."
+  ],
+  "mechanism_rule": "WitnessCell must improve over its factorized-only ablation in at least 3 of 4 datasets and the gain must concentrate in combo_seen1/combo_seen2 rather than unseen_single/combo_seen0.",
+  "leakage_rule": "Target outcomes are absent from fit_predict inputs and target-free deployment archives; official validation outcomes alone select alpha, kernel noise, and gamma.",
+  "claim_boundary": "The formal SOTA claim is restricted to scPerturBench's genetic-combination track. The benchmark contains 27 methods overall, but only 15 published methods have eligible results in this track. Report the dataset-equal-weight sensitivity result and paired perturbation-cluster uncertainty beside the official point ranking."
+}

@@ -1,0 +1,560 @@
+[
+  {
+    "condition": "AHR+FEV",
+    "cells": 276,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "AHR+KLF1",
+    "cells": 481,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "BAK1+BCL2L11",
+    "cells": 175,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "BAK1+KLF1",
+    "cells": 395,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "BCL2L11+TGFBR2",
+    "cells": 463,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CBFA2T3+FEV",
+    "cells": 159,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CBL+PTPN9",
+    "cells": 306,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CBL+TGFBR2",
+    "cells": 188,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CBL+UBASH3A",
+    "cells": 64,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "CBL+UBASH3B",
+    "cells": 410,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CDKN1A+CDKN1B",
+    "cells": 134,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CDKN1A+CDKN1C",
+    "cells": 126,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "CEBPA+KLF1",
+    "cells": 311,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPB+PTPN12",
+    "cells": 331,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+CNN1",
+    "cells": 237,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+ETS2",
+    "cells": 354,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+KLF1",
+    "cells": 468,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+PTPN12",
+    "cells": 415,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+RUNX1T1",
+    "cells": 1219,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+SET",
+    "cells": 658,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CLDN6+KLF1",
+    "cells": 237,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CNN1+MAPK1",
+    "cells": 398,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CNN1+UBASH3A",
+    "cells": 178,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CNN1+UBASH3B",
+    "cells": 402,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "COL2A1+KLF1",
+    "cells": 298,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "DLX2+SNAI1",
+    "cells": 131,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "DLX2+ZBTB10",
+    "cells": 89,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "DUSP9+ETS2",
+    "cells": 787,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "DUSP9+KLF1",
+    "cells": 366,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+IGDCC3",
+    "cells": 441,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+IKZF3",
+    "cells": 445,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+MAP7D1",
+    "cells": 324,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+MAPK1",
+    "cells": 459,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+PRTG",
+    "cells": 445,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "ETS2+TGFBR2",
+    "cells": 318,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FEV+ISL2",
+    "cells": 284,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FEV+MAP7D1",
+    "cells": 277,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FOSB+PTPN12",
+    "cells": 345,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FOXA1+KLF1",
+    "cells": 361,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "IRF1+SET",
+    "cells": 444,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "KLF1+MAP2K6",
+    "cells": 263,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "KLF1+TGFBR2",
+    "cells": 337,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "OSR2+PTPN12",
+    "cells": 339,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+PTPN9",
+    "cells": 364,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+SAMD1",
+    "cells": 351,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+SNAI1",
+    "cells": 283,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+UBASH3A",
+    "cells": 311,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+UBASH3B",
+    "cells": 298,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+ZBTB10",
+    "cells": 265,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12+ZBTB25",
+    "cells": 303,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "RHOXF2+SET",
+    "cells": 321,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "BAK1+TMSB4X",
+    "cells": 329,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "BPGM+SAMD1",
+    "cells": 301,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CEBPA+CEBPB",
+    "cells": 64,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "CEBPA+CEBPE",
+    "cells": 180,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CEBPA+JUN",
+    "cells": 54,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "CEBPB+CEBPE",
+    "cells": 114,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "CEBPB+LYL1",
+    "cells": 192,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+FOSB",
+    "cells": 151,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CEBPE+SPI1",
+    "cells": 179,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "DUSP9+IGDCC3",
+    "cells": 382,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "DUSP9+PRTG",
+    "cells": 297,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FOXA1+FOXA3",
+    "cells": 216,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FOXL2+ZNF318",
+    "cells": 246,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "IKZF3+MAPK1",
+    "cells": 302,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "MAPK1+PRTG",
+    "cells": 500,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "UBASH3A+UBASH3B",
+    "cells": 554,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "UBASH3B+ZBTB25",
+    "cells": 255,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "ARID1A",
+    "cells": 232,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "BCL2L11",
+    "cells": 582,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "BCORL1",
+    "cells": 533,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CBL",
+    "cells": 663,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CDKN1B",
+    "cells": 550,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CDKN1C",
+    "cells": 230,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CELF2",
+    "cells": 475,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CKS1B",
+    "cells": 241,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "CNN1",
+    "cells": 765,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "DLX2",
+    "cells": 732,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "ETS2",
+    "cells": 1201,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "FEV",
+    "cells": 704,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "HES7",
+    "cells": 126,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "KLF1",
+    "cells": 1960,
+    "bucket": 2048,
+    "converged": true
+  },
+  {
+    "condition": "NIT1",
+    "cells": 192,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "PTPN12",
+    "cells": 445,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "PTPN13",
+    "cells": 270,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "RREB1",
+    "cells": 331,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "RUNX1T1",
+    "cells": 779,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "SET",
+    "cells": 986,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "CBL+CNN1",
+    "cells": 348,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CBL+PTPN12",
+    "cells": 335,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "CDKN1B+CDKN1C",
+    "cells": 107,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "CNN1+ETS2",
+    "cells": 905,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "KLF1+SET",
+    "cells": 667,
+    "bucket": 1024,
+    "converged": true
+  }
+]

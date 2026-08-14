@@ -1,0 +1,10 @@
+{
+  "claim": "Intervention geometry governs target reliability only after the interaction representation passes an adequacy gate.",
+  "audit_pass": true,
+  "low_mismatch_geometry_auroc": 1.0,
+  "high_mismatch_geometry_auroc": 0.6302083333333334,
+  "high_mismatch_adequacy_auroc": 0.6892361111111112,
+  "maximum_hierarchical_regret_to_oracle_head": 0.10243055555555558,
+  "gate": "geometry AUROC>=0.90 at zero mismatch; adequacy beats geometry by >=0.10 at maximum mismatch with AUROC>=0.65; hierarchical route remains within 0.08 of the better head at every level",
+  "gate_pass": false
+}

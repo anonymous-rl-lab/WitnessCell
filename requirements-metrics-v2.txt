@@ -1,0 +1,10 @@
+# Frozen, separate CPU environment for Experiment 22.
+numpy==2.2.0
+scipy==1.14.1
+pandas==2.2.2
+scikit-learn==1.7.2
+h5py==3.15.1
+anndata==0.12.3
+scanpy==1.11.5
+tqdm==4.66.5
+threadpoolctl==3.6.0

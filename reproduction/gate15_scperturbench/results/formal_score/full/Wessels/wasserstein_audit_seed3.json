@@ -1,0 +1,404 @@
+[
+  {
+    "condition": "DOT1L+FLI1",
+    "cells": 155,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+IKZF1",
+    "cells": 100,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+KDM1A",
+    "cells": 142,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+RING1",
+    "cells": 117,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "EP300+FLI1",
+    "cells": 104,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "EP300+IKZF1",
+    "cells": 63,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "EP300+KDM1A",
+    "cells": 74,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "EP300+RING1",
+    "cells": 120,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+GATA2",
+    "cells": 222,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+GFI1",
+    "cells": 89,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+GSE1",
+    "cells": 118,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+HDAC3",
+    "cells": 172,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+INTS1",
+    "cells": 322,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+MED24",
+    "cells": 260,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+RCOR1",
+    "cells": 208,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+SMARCD1",
+    "cells": 187,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+SSRP1",
+    "cells": 109,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+IKZF1",
+    "cells": 137,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+KDM1A",
+    "cells": 182,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+RING1",
+    "cells": 167,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GFI1+KDM1A",
+    "cells": 62,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "GFI1+RING1",
+    "cells": 151,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GSE1+IKZF1",
+    "cells": 72,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "GSE1+KDM1A",
+    "cells": 95,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "GSE1+RING1",
+    "cells": 112,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "HDAC3+IKZF1",
+    "cells": 87,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "HDAC3+KDM1A",
+    "cells": 90,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "HDAC3+RING1",
+    "cells": 152,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "IKZF1+INTS1",
+    "cells": 473,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "IKZF1+MED24",
+    "cells": 94,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "IKZF1+RCOR1",
+    "cells": 54,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "IKZF1+SMARCD1",
+    "cells": 135,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "INTS1+KDM1A",
+    "cells": 432,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "INTS1+RING1",
+    "cells": 498,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "KDM1A+MED24",
+    "cells": 108,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "KDM1A+RCOR1",
+    "cells": 54,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "KDM1A+SMARCD1",
+    "cells": 196,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "MED24+RING1",
+    "cells": 125,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "RCOR1+RING1",
+    "cells": 74,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "RING1+SMARCD1",
+    "cells": 122,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "SUPT5H+SUPT6H",
+    "cells": 123,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "SUPT16H+SUPT5H",
+    "cells": 87,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+EP300",
+    "cells": 126,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+GSE1",
+    "cells": 85,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "DOT1L+SMARCD1",
+    "cells": 133,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "EP300+GFI1",
+    "cells": 111,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+GFI1",
+    "cells": 140,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+GSE1",
+    "cells": 146,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+HDAC3",
+    "cells": 196,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GATA2+RCOR1",
+    "cells": 158,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GFI1+INTS1",
+    "cells": 256,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "GFI1+SMARCD1",
+    "cells": 143,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "HDAC3+INTS1",
+    "cells": 600,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "INTS1+MED24",
+    "cells": 284,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "INTS1+RCOR1",
+    "cells": 450,
+    "bucket": 512,
+    "converged": true
+  },
+  {
+    "condition": "INTS1+SMARCD1",
+    "cells": 664,
+    "bucket": 1024,
+    "converged": true
+  },
+  {
+    "condition": "MED16+MED24",
+    "cells": 181,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "MED19+MED24",
+    "cells": 136,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "MED24+RCOR1",
+    "cells": 120,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "ATXN7L3",
+    "cells": 53,
+    "bucket": 64,
+    "converged": true
+  },
+  {
+    "condition": "FLI1",
+    "cells": 189,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "RING1",
+    "cells": 67,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+IKZF1",
+    "cells": 106,
+    "bucket": 128,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+KDM1A",
+    "cells": 154,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "FLI1+RING1",
+    "cells": 167,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "IKZF1+KDM1A",
+    "cells": 153,
+    "bucket": 256,
+    "converged": true
+  },
+  {
+    "condition": "KDM1A+RING1",
+    "cells": 98,
+    "bucket": 128,
+    "converged": true
+  }
+]

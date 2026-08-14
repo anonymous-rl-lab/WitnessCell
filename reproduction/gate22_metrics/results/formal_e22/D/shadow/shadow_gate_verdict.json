@@ -1,0 +1,20 @@
+{
+  "status": "PASS_TRAINING_ONLY_SHADOW_GATE_EXECUTION",
+  "training_only": true,
+  "test_or_validation_outcomes_read": false,
+  "splits": 12,
+  "exact_concordance": 0.8333333333333334,
+  "active_to_inactive_flips": 2,
+  "inactive_to_active_flips": 0,
+  "confusion": {
+    "false": {
+      "false": 4,
+      "true": 2
+    },
+    "true": {
+      "false": 0,
+      "true": 6
+    }
+  },
+  "interpretation": "descriptive counterfactual only; does not alter Gate 19"
+}

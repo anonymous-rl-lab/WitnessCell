@@ -1,0 +1,16 @@
+{
+  "status": "PASS_GATE19_FORMAL_V14_RELEASE_AUDIT",
+  "version": "14.0.0",
+  "prediction_archives": 12,
+  "candidate_manifest_matches": 12,
+  "correction_active_splits": 8,
+  "exact_v13_fallback_splits": 4,
+  "paired_units": 654,
+  "all_gene_mse_gain_vs_v13": 0.001079217249737252,
+  "top100_mse_gain_vs_v13": 0.0030453806218846413,
+  "top100_pcc_delta_vs_v13": 0.0013006984799760163,
+  "directional_rank_top100": 1,
+  "directional_rank_top5000": 1,
+  "target_free_archives": true,
+  "official_six_metric_status": "INHERITED_V13_NOT_RELABELED"
+}

@@ -1,0 +1,131 @@
+{
+  "protocol_version": "21.0.0",
+  "objective": "Test whether training-only estimated Witness Risk supports a frozen accept/abstain rule on calibration-unseen target identities.",
+  "roles": {
+    "response": "estimated_realized_mse; algebraically equal to full-effect MSE for this additive-residual construction",
+    "risk": "estimated_witness_risk",
+    "decision": "accept if risk <= frozen calibration threshold; otherwise abstain",
+    "fallback": "geometry-only prediction evaluated secondarily and never used to define the primary gate"
+  },
+  "calibration": {
+    "source": "Gate07 smoke seeds 0-4",
+    "allowed_outcomes": [
+      "estimated_realized_mse"
+    ],
+    "purpose": "freeze monotone mapping and thresholds only"
+  },
+  "test": {
+    "source": "Gate07 formal seeds 100-129",
+    "eligibility": "pair identity absent from every calibration row",
+    "single_reveal": true,
+    "forbidden_before_freeze": [
+      "estimated_realized_mse",
+      "geometry_realized_mse",
+      "estimated_residual_cosine",
+      "geometry_residual_cosine",
+      "reliability_weight",
+      "oracle_risk",
+      "oracle_realized_mse"
+    ]
+  },
+  "score_direction": "lower risk is safer",
+  "coverage_grid": [
+    0.3,
+    0.5,
+    0.7,
+    0.9
+  ],
+  "primary_target_coverage": 0.5,
+  "threshold_rule": "target-balanced weighted empirical quantile of calibration risk; no outcome-dependent threshold search",
+  "mapping_rule": "increasing isotonic regression from calibration risk to calibration MSE, pair-balanced weights, clipping outside the calibration range",
+  "primary_metric": "pair-balanced mean estimated_realized_mse among accepted queries",
+  "inference": {
+    "bootstrap": "20000 pair-cluster replicates",
+    "permutation": "20000 within-seed risk permutations",
+    "random_seed": 20260811
+  },
+  "primary_pass_criteria": {
+    "coverage_non_degenerate": "pair-balanced test coverage at the 0.5 threshold is between 0.35 and 0.65 inclusive",
+    "practical_effect": "accepted/all pair-balanced MSE ratio <= 0.80",
+    "cluster_uncertainty": "pair-cluster bootstrap 95% upper bound for accepted/all MSE ratio < 1.0",
+    "random_selection_control": "one-sided permutation p < 0.05",
+    "rejected_separation": "accepted MSE < rejected MSE"
+  },
+  "secondary_support": {
+    "risk_coverage_ordering": "Spearman correlation between achieved coverage and selective MSE over 0.3,0.5,0.7,0.9,1.0 is >= 0.8",
+    "geometry_control": "geometry risk is reported under its own calibration quantiles but cannot replace the primary score after reveal",
+    "fallback_policy": "accepted estimated-Witness plus rejected geometry-only MSE is descriptive only"
+  },
+  "claim_boundary": [
+    "Witness Risk is a self-risk for this construction, not a universal router.",
+    "The experiment concerns Norman pseudobulk targets, not cross-dataset calibration.",
+    "The formal rows existed previously; this is a newly frozen heldout reanalysis, not a prospective biological outcome experiment.",
+    "No official scPerturBench target is removed and no leaderboard is recomputed."
+  ],
+  "freeze_status": "FROZEN_BEFORE_FORMAL_OUTCOME_REVEAL",
+  "asset_audit_sha256": "5e7d2186beec1cf186b4713d6aa3b98342b3465f38b77939924020f76d5f58fd",
+  "sealed_outcomes_sha256": "52093cd7135952f49a316f685fe66d2a665681aeddf21aa8f742517c04929834",
+  "calibration_smoke_sha256": "167f7eab75b2cef073ad5fefdea61db67d68dc1fc076de58b5623c9f6280056f",
+  "frozen_witness_thresholds": [
+    {
+      "target_coverage": 0.3,
+      "risk_threshold": 0.0679396620493655,
+      "calibrated_loss_threshold": 0.08742416516159952,
+      "calibration_pair_balanced_coverage": 0.30625,
+      "calibration_selective_mse": 0.09378519491856643
+    },
+    {
+      "target_coverage": 0.5,
+      "risk_threshold": 0.0923227147328771,
+      "calibrated_loss_threshold": 0.08742416516159952,
+      "calibration_pair_balanced_coverage": 0.5,
+      "calibration_selective_mse": 0.08616289687799265
+    },
+    {
+      "target_coverage": 0.7,
+      "risk_threshold": 0.1542264173989734,
+      "calibrated_loss_threshold": 0.16572960885434695,
+      "calibration_pair_balanced_coverage": 0.7,
+      "calibration_selective_mse": 0.09113353569615286
+    },
+    {
+      "target_coverage": 0.9,
+      "risk_threshold": 0.2262924901372273,
+      "calibrated_loss_threshold": 0.22268364037107935,
+      "calibration_pair_balanced_coverage": 0.903125,
+      "calibration_selective_mse": 0.11300541083191781
+    }
+  ],
+  "frozen_geometry_control_thresholds": [
+    {
+      "target_coverage": 0.3,
+      "risk_threshold": 0.1461245289898002,
+      "calibrated_loss_threshold": 0.1415084556700348,
+      "calibration_pair_balanced_coverage": 0.31145833333333334,
+      "calibration_selective_mse": 0.17581363709938916
+    },
+    {
+      "target_coverage": 0.5,
+      "risk_threshold": 0.1607089061391748,
+      "calibrated_loss_threshold": 0.1415084556700348,
+      "calibration_pair_balanced_coverage": 0.50625,
+      "calibration_selective_mse": 0.16505469015250795
+    },
+    {
+      "target_coverage": 0.7,
+      "risk_threshold": 0.1660932778601976,
+      "calibrated_loss_threshold": 0.1415084556700348,
+      "calibration_pair_balanced_coverage": 0.7010416666666666,
+      "calibration_selective_mse": 0.14876819851887157
+    },
+    {
+      "target_coverage": 0.9,
+      "risk_threshold": 0.1709152921136773,
+      "calibrated_loss_threshold": 0.1591549262158684,
+      "calibration_pair_balanced_coverage": 0.9041666666666666,
+      "calibration_selective_mse": 0.14210875208528856
+    }
+  ],
+  "outcome_blind_primary_test_coverage": 0.49482924482924484,
+  "formal_outcomes_read_at_freeze": false
+}

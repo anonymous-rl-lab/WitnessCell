@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE_EXPERIMENT22_FORMAL_EXECUTION",
+  "completed_utc": "2026-08-11T06:34:01Z",
+  "parent_frozen_manifest_sha256": "0bf032f88118523f05e11751c19cfee0201744b340b14357136090161041a756",
+  "parent_frozen_entries_reverified_ok": 76,
+  "formal_results_manifest_sha256": "db697b9a91fa6bbb7fd00f9aadb9e2be6d9554a1135f4d3e186ea517255ebc1a",
+  "formal_verdict_sha256": "3069257d523adc861773cab16fa616a4c44586d2826fef9eb54d8689b81a158e",
+  "formal_report_cn_sha256": "06d1a58eca37a66f07abc00e114c8339974082d24e923dad281a21d66cf3e6cd",
+  "amendment_a1_manifest_reverified": true,
+  "amendment_a2_manifest_reverified": true,
+  "scientific_parameters_changed_after_freeze": false,
+  "claim_boundary": {
+    "linear_comparison": "NOT_ADJUDICATED",
+    "gate21_full_213_wmse": "NOT_ADJUDICATED",
+    "gate21_complete_case_207_wmse": "PASS",
+    "distribution_prediction": "NOT_TESTED",
+    "cross_dataset_abstention": "NOT_TESTED"
+  }
+}

@@ -1,0 +1,202 @@
+      DataSet  seed  DEG          method  conditions  mean_cor  published_best_mean_cor  mean_mse  published_best_mean_mse  witness_vs_factorized_cor  witness_vs_factorized_mse_gain
+       Norman     1  100     WitnessCell          93  0.731815                 0.750055  0.068877                 0.066765                   0.004289                        0.017107
+       Norman     1  100 factorized_only          93  0.727526                 0.750055  0.070076                 0.066765                   0.004289                        0.017107
+       Norman     1 5000     WitnessCell          93  0.644274                 0.651738  0.003070                 0.003359                   0.005686                        0.023998
+       Norman     1 5000 factorized_only          93  0.638588                 0.651738  0.003146                 0.003359                   0.005686                        0.023998
+       Norman     2  100     WitnessCell          86  0.827299                 0.834034  0.050760                 0.046530                   0.003511                        0.007266
+       Norman     2  100 factorized_only          86  0.823788                 0.834034  0.051132                 0.046530                   0.003511                        0.007266
+       Norman     2 5000     WitnessCell          86  0.735874                 0.719126  0.002442                 0.002666                   0.005208                        0.041233
+       Norman     2 5000 factorized_only          86  0.730666                 0.719126  0.002547                 0.002666                   0.005208                        0.041233
+       Norman     3  100     WitnessCell          89  0.744669                 0.781487  0.066806                 0.061922                   0.007580                        0.039411
+       Norman     3  100 factorized_only          89  0.737089                 0.781487  0.069547                 0.061922                   0.007580                        0.039411
+       Norman     3 5000     WitnessCell          89  0.665390                 0.678703  0.002888                 0.002965                   0.007308                        0.060563
+       Norman     3 5000 factorized_only          89  0.658082                 0.678703  0.003074                 0.002965                   0.007308                        0.060563
+Replogle_exp6     1  100     WitnessCell          42  0.694938                 0.715124  0.018790                 0.013421                   0.000000                        0.000000
+Replogle_exp6     1  100 factorized_only          42  0.694938                 0.715124  0.018790                 0.013421                   0.000000                        0.000000
+Replogle_exp6     1 5000     WitnessCell          42  0.542347                 0.532283  0.001449                 0.001448                   0.000000                        0.000000
+Replogle_exp6     1 5000 factorized_only          42  0.542347                 0.532283  0.001449                 0.001448                   0.000000                        0.000000
+Replogle_exp6     2  100     WitnessCell          36  0.676600                 0.694292  0.022593                 0.014772                  -0.000776                        0.001072
+Replogle_exp6     2  100 factorized_only          36  0.677376                 0.694292  0.022617                 0.014772                  -0.000776                        0.001072
+Replogle_exp6     2 5000     WitnessCell          36  0.485158                 0.485058  0.001394                 0.001367                   0.000614                        0.004471
+Replogle_exp6     2 5000 factorized_only          36  0.484544                 0.485058  0.001400                 0.001367                   0.000614                        0.004471
+Replogle_exp6     3  100     WitnessCell          34  0.614466                 0.676400  0.021290                 0.016032                   0.000545                        0.004086
+Replogle_exp6     3  100 factorized_only          34  0.613921                 0.676400  0.021378                 0.016032                   0.000545                        0.004086
+Replogle_exp6     3 5000     WitnessCell          34  0.504044                 0.498088  0.001397                 0.001535                   0.005933                        0.018315
+Replogle_exp6     3 5000 factorized_only          34  0.498111                 0.498088  0.001423                 0.001535                   0.005933                        0.018315
+      Schmidt     1  100     WitnessCell          31  0.267089                 0.624990  0.036628                 0.025603                  -0.000040                        0.000250
+      Schmidt     1  100 factorized_only          31  0.267130                 0.624990  0.036637                 0.025603                  -0.000040                        0.000250
+      Schmidt     1 5000     WitnessCell          31  0.344637                 0.388655  0.006735                 0.006861                   0.002010                        0.003635
+      Schmidt     1 5000 factorized_only          31  0.342627                 0.388655  0.006759                 0.006861                   0.002010                        0.003635
+      Schmidt     2  100     WitnessCell          28  0.307793                 0.595164  0.048047                 0.024325                   0.003907                        0.001295
+      Schmidt     2  100 factorized_only          28  0.303886                 0.595164  0.048109                 0.024325                   0.003907                        0.001295
+      Schmidt     2 5000     WitnessCell          28  0.340782                 0.416486  0.007694                 0.007814                   0.002222                       -0.000874
+      Schmidt     2 5000 factorized_only          28  0.338561                 0.416486  0.007688                 0.007814                   0.002222                       -0.000874
+      Schmidt     3  100     WitnessCell          28  0.250214                 0.626204  0.041547                 0.023704                   0.000484                        0.000155
+      Schmidt     3  100 factorized_only          28  0.249730                 0.626204  0.041554                 0.023704                   0.000484                        0.000155
+      Schmidt     3 5000     WitnessCell          28  0.350880                 0.445336  0.006918                 0.006657                   0.000203                        0.000372
+      Schmidt     3 5000 factorized_only          28  0.350678                 0.445336  0.006920                 0.006657                   0.000203                        0.000372
+      Wessels     1  100     WitnessCell          65  0.799775                 0.836109  0.076008                 0.050991                   0.057757                        0.288376
+      Wessels     1  100 factorized_only          65  0.742017                 0.836109  0.106809                 0.050991                   0.057757                        0.288376
+      Wessels     1 5000     WitnessCell          65  0.691502                 0.724206  0.003833                 0.003048                   0.084860                        0.309821
+      Wessels     1 5000 factorized_only          65  0.606642                 0.724206  0.005554                 0.003048                   0.084860                        0.309821
+      Wessels     2  100     WitnessCell          55  0.914973                 0.899120  0.022523                 0.019078                   0.029040                        0.535980
+      Wessels     2  100 factorized_only          55  0.885933                 0.899120  0.048539                 0.019078                   0.029040                        0.535980
+      Wessels     2 5000     WitnessCell          55  0.803737                 0.794111  0.002222                 0.002144                   0.086050                        0.407119
+      Wessels     2 5000 factorized_only          55  0.717687                 0.794111  0.003748                 0.002144                   0.086050                        0.407119
+      Wessels     3  100     WitnessCell          67  0.823304                 0.838404  0.076237                 0.078082                   0.011805                        0.015311
+      Wessels     3  100 factorized_only          67  0.811499                 0.838404  0.077422                 0.078082                   0.011805                        0.015311
+      Wessels     3 5000     WitnessCell          67  0.719927                 0.722318  0.003556                 0.003549                   0.046401                        0.247883
+      Wessels     3 5000 factorized_only          67  0.673526                 0.722318  0.004728                 0.003549                   0.046401                        0.247883
+      DataSet  DEG        method  mean_rank_two_metric  mean_rank_cor  mean_rank_mse  rank_position_two_metric
+       Norman  100   WitnessCell              5.091418       4.805970       5.376866                         1
+       Norman  100   linearModel              5.462687       5.238806       5.686567                         2
+       Norman  100       scouter              5.729478       5.641791       5.817164                         3
+       Norman  100     trainMean              6.561567       6.361940       6.761194                         4
+       Norman  100       bioLord              6.835821       6.570896       7.100746                         5
+       Norman  100         GEARS              7.610075       8.283582       6.936567                         6
+       Norman  100 AttentionPert              7.619403       7.936567       7.302239                         7
+       Norman  100       baseReg              7.695896       7.048507       8.343284                         8
+       Norman  100           CPA              8.208955       7.932836       8.485075                         9
+       Norman  100         scGPT              8.483209       8.268657       8.697761                        10
+       Norman  100   GeneCompass              8.514925       8.847015       8.182836                        11
+       Norman  100        scELMo              8.522388       8.951493       8.093284                        12
+       Norman  100      GenePert              9.143657       8.447761       9.839552                        13
+       Norman  100  scFoundation             11.233209      11.776119      10.690299                        14
+       Norman  100       baseMLP             13.438433      12.757463      14.119403                        15
+       Norman  100   baseControl             14.873134      15.373134      14.373134                        16
+       Norman 5000   WitnessCell              3.371269       3.488806       3.253731                         1
+       Norman 5000   linearModel              4.600746       4.522388       4.679104                         2
+       Norman 5000     trainMean              5.266791       5.328358       5.205224                         3
+       Norman 5000       scouter              6.248134       6.052239       6.444030                         4
+       Norman 5000         scGPT              6.386194       6.604478       6.167910                         5
+       Norman 5000       bioLord              6.514925       6.041045       6.988806                         6
+       Norman 5000       baseReg              6.697761       7.126866       6.268657                         7
+       Norman 5000           CPA              6.994403       7.272388       6.716418                         8
+       Norman 5000      GenePert              7.606343       8.044776       7.167910                         9
+       Norman 5000 AttentionPert              8.882463       8.526119       9.238806                        10
+       Norman 5000   GeneCompass              9.371269       9.548507       9.194030                        11
+       Norman 5000         GEARS              9.449627       8.802239      10.097015                        12
+       Norman 5000        scELMo              9.746269       9.611940       9.880597                        13
+       Norman 5000   baseControl             13.315299      15.421642      11.208955                        14
+       Norman 5000  scFoundation             14.100746      13.078358      15.123134                        15
+       Norman 5000       baseMLP             14.535448      13.914179      15.156716                        16
+Replogle_exp6  100   WitnessCell              4.191964       4.205357       4.178571                         1
+Replogle_exp6  100   linearModel              4.312500       4.151786       4.473214                         2
+Replogle_exp6  100       baseReg              4.879464       5.455357       4.303571                         3
+Replogle_exp6  100     trainMean              5.299107       5.258929       5.339286                         4
+Replogle_exp6  100       scouter              6.044643       5.982143       6.107143                         5
+Replogle_exp6  100      GenePert              6.223214       6.375000       6.071429                         6
+Replogle_exp6  100         scGPT              7.316964       7.866071       6.767857                         7
+Replogle_exp6  100       bioLord              8.334821       6.919643       9.750000                         8
+Replogle_exp6  100        scELMo              8.473214       8.500000       8.446429                         9
+Replogle_exp6  100         GEARS              9.098214       9.544643       8.651786                        10
+Replogle_exp6  100 AttentionPert              9.343750       8.883929       9.803571                        11
+Replogle_exp6  100   GeneCompass             10.459821      11.223214       9.696429                        12
+Replogle_exp6  100  scFoundation             11.089286      10.089286      12.089286                        13
+Replogle_exp6  100   baseControl             12.486607      13.955357      11.017857                        14
+Replogle_exp6  100       baseMLP             12.660714      11.633929      13.687500                        15
+Replogle_exp6  100           CPA             14.410714      13.821429      15.000000                        16
+Replogle_exp6 5000   WitnessCell              2.459821       2.357143       2.562500                         1
+Replogle_exp6 5000   linearModel              4.102679       3.544643       4.660714                         2
+Replogle_exp6 5000      GenePert              4.513393       5.875000       3.151786                         3
+Replogle_exp6 5000       baseReg              4.535714       5.187500       3.883929                         4
+Replogle_exp6 5000     trainMean              4.928571       4.723214       5.133929                         5
+Replogle_exp6 5000       scouter              5.995536       5.785714       6.205357                         6
+Replogle_exp6 5000       bioLord              7.571429       5.500000       9.642857                         7
+Replogle_exp6 5000         scGPT              8.325893      10.080357       6.571429                         8
+Replogle_exp6 5000         GEARS              9.053571       9.357143       8.750000                         9
+Replogle_exp6 5000        scELMo              9.343750       8.401786      10.285714                        10
+Replogle_exp6 5000   baseControl             10.370536      14.830357       5.910714                        11
+Replogle_exp6 5000 AttentionPert             10.477679       9.303571      11.651786                        12
+Replogle_exp6 5000   GeneCompass             10.674107      11.642857       9.705357                        13
+Replogle_exp6 5000  scFoundation             12.683036      11.116071      14.250000                        14
+Replogle_exp6 5000       baseMLP             14.129464      13.169643      15.089286                        15
+Replogle_exp6 5000           CPA             14.580357      14.410714      14.750000                        16
+      Schmidt  100         scGPT              3.551724       4.080460       3.022989                         1
+      Schmidt  100       scouter              3.919540       3.425287       4.413793                         2
+      Schmidt  100   linearModel              5.890805       5.298851       6.482759                         3
+      Schmidt  100           CPA              6.103448       6.425287       5.781609                         4
+      Schmidt  100   WitnessCell              6.724138       7.827586       5.620690                         5
+      Schmidt  100       baseReg              8.011494       7.643678       8.379310                         6
+      Schmidt  100         GEARS              8.356322       8.103448       8.609195                         7
+      Schmidt  100       bioLord              8.413793       7.701149       9.126437                         8
+      Schmidt  100      GenePert              8.419540       8.206897       8.632184                         9
+      Schmidt  100     trainMean              8.442529       7.977011       8.908046                        10
+      Schmidt  100   GeneCompass              8.752874       8.183908       9.321839                        11
+      Schmidt  100 AttentionPert              8.821839       7.885057       9.758621                        12
+      Schmidt  100        scELMo              8.856322       8.356322       9.356322                        13
+      Schmidt  100       baseMLP             10.988506      10.126437      11.850575                        14
+      Schmidt  100   baseControl             11.109195      11.114943      11.103448                        15
+      Schmidt  100  scFoundation             13.505747      11.781609      15.229885                        16
+      Schmidt 5000         scGPT              2.545977       2.758621       2.333333                         1
+      Schmidt 5000   WitnessCell              3.137931       3.724138       2.551724                         2
+      Schmidt 5000       scouter              4.028736       3.701149       4.356322                         3
+      Schmidt 5000           CPA              4.275862       4.287356       4.264368                         4
+      Schmidt 5000   linearModel              6.097701       5.977011       6.218391                         5
+      Schmidt 5000     trainMean              6.890805       7.091954       6.689655                         6
+      Schmidt 5000       baseReg              8.097701       8.965517       7.229885                         7
+      Schmidt 5000      GenePert              8.195402       9.551724       6.839080                         8
+      Schmidt 5000       bioLord              9.586207       8.942529      10.229885                         9
+      Schmidt 5000        scELMo              9.758621       9.241379      10.275862                        10
+      Schmidt 5000   GeneCompass             10.166667       9.689655      10.643678                        11
+      Schmidt 5000         GEARS             10.396552       9.873563      10.919540                        12
+      Schmidt 5000 AttentionPert             11.229885       9.586207      12.873563                        13
+      Schmidt 5000   baseControl             11.436782      14.252874       8.620690                        14
+      Schmidt 5000  scFoundation             13.666667      11.908046      15.425287                        15
+      Schmidt 5000       baseMLP             14.281609      13.218391      15.344828                        16
+      Wessels  100   WitnessCell              3.385027       3.374332       3.395722                         1
+      Wessels  100       scouter              3.395722       3.160428       3.631016                         2
+      Wessels  100       baseReg              5.278075       5.331551       5.224599                         3
+      Wessels  100   linearModel              6.422460       6.390374       6.454545                         4
+      Wessels  100     trainMean              6.558824       6.572193       6.545455                         5
+      Wessels  100         GEARS              7.342246       7.342246       7.342246                         6
+      Wessels  100        scELMo              7.443850       7.491979       7.395722                         7
+      Wessels  100 AttentionPert              7.687166       7.732620       7.641711                         8
+      Wessels  100   GeneCompass              7.895722       7.989305       7.802139                         9
+      Wessels  100      GenePert              7.895722       7.727273       8.064171                        10
+      Wessels  100         scGPT              8.668449       8.545455       8.791444                        11
+      Wessels  100  scFoundation             10.569519      10.572193      10.566845                        12
+      Wessels  100       baseMLP             12.179144      11.802139      12.556150                        13
+      Wessels  100           CPA             12.347594      12.315508      12.379679                        14
+      Wessels  100       bioLord             13.713904      13.160428      14.267380                        15
+      Wessels  100   baseControl             14.671123      15.529412      13.812834                        16
+      Wessels 5000       scouter              2.227273       2.320856       2.133690                         1
+      Wessels 5000   WitnessCell              2.355615       2.256684       2.454545                         2
+      Wessels 5000       baseReg              4.355615       4.502674       4.208556                         3
+      Wessels 5000      GenePert              6.088235       6.721925       5.454545                         4
+      Wessels 5000         scGPT              6.582888       7.101604       6.064171                         5
+      Wessels 5000   linearModel              7.414439       6.251337       8.577540                         6
+      Wessels 5000        scELMo              7.465241       8.133690       6.796791                         7
+      Wessels 5000     trainMean              7.553476       6.401070       8.705882                         8
+      Wessels 5000   GeneCompass              7.767380       8.481283       7.053476                         9
+      Wessels 5000         GEARS              8.128342       8.358289       7.898396                        10
+      Wessels 5000 AttentionPert              9.497326       9.117647       9.877005                        11
+      Wessels 5000           CPA             11.160428      11.080214      11.240642                        12
+      Wessels 5000   baseControl             13.256684      15.721925      10.791444                        13
+      Wessels 5000       baseMLP             13.259358      12.871658      13.647059                        14
+      Wessels 5000  scFoundation             13.783422      12.780749      14.786096                        15
+      Wessels 5000       bioLord             13.828877      13.165775      14.491979                        16
+{
+  "beats_published_best_mean_cor_cells": 6,
+  "beats_published_best_mean_mse_cells": 7,
+  "claim_boundary": "Recomputes scanpy-style Welch-t DEG panels from the official data; final SOTA still requires the official full distributional scorer and its frozen DEG artifact.",
+  "comparison_cells": 24,
+  "conditions": 383,
+  "mean_witness_vs_factorized_cor_delta": 0.015191514894825522,
+  "mean_witness_vs_factorized_mse_gain": 0.08445178994483464,
+  "not_a_full_sota_claim": true,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "status": "DIRECTIONAL_GATE_ONLY",
+  "two_metric_mean_rank_by_panel": {
+    "100": 5.0914179104477615,
+    "5000": 3.371268656716418
+  },
+  "two_metric_rank_by_panel": {
+    "100": 1,
+    "5000": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PASS_GATE21_POST_REVEAL_INTEGRITY_AUDIT",
+  "scientific_verdict": "PASS_FROZEN_SELECTIVE_PREDICTION_GATE",
+  "protocol_sha256": "099e84619bd7f235845de5297138520a6b0f06558fa8db1f3fc58b2b2c622137",
+  "pre_reveal_files_unchanged": true,
+  "bootstrap_replicates": 20000,
+  "permutation_replicates": 20000,
+  "saved_inference_recomputed_exactly": true
+}

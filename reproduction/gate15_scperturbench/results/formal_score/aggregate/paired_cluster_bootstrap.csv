@@ -1,0 +1,4 @@
+competitor,rank_difference_witness_minus_competitor,cluster_bootstrap_95_ci,bootstrap_probability_witness_better,operation_seed_units,unique_dataset_perturbation_clusters
+scouter,-0.21406727828746178,"[-0.6574105783866058, 0.2312431333772787]",0.8224,654,384
+linearModel,-0.41437308868501527,"[-0.7896440479699359, -0.03156466748266139]",0.983,654,384
+baseReg,-1.4204892966360856,"[-1.7969004083081839, -1.0429919217644021]",1.0,654,384

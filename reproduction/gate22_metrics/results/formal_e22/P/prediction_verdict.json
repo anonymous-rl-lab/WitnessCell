@@ -1,0 +1,86 @@
+{
+  "status": "PASS_PHASE_P_EXECUTION",
+  "created_utc": "2026-08-11T06:16:44.511684+00:00",
+  "formal_structure": "12 dataset-by-seed splits; 20,000 dataset-stratified condition-cluster bootstraps",
+  "bootstrap_seed": 20260822,
+  "bootstrap_replicates": 20000,
+  "comparator_scope": "MANDATORY_BASELINES_ONLY",
+  "completeness": {
+    "WitnessCell_v14": {
+      "evaluable": 654,
+      "fraction_of_654": 1.0
+    },
+    "WitnessCell_v13": {
+      "evaluable": 654,
+      "fraction_of_654": 1.0
+    },
+    "trainMean": {
+      "evaluable": 654,
+      "fraction_of_654": 1.0
+    },
+    "baseControl": {
+      "evaluable": 654,
+      "fraction_of_654": 1.0
+    }
+  },
+  "all_12_splits_present": true,
+  "completeness_pass": true,
+  "comparisons": {
+    "WitnessCell_v13": {
+      "dataset_equal_wmse_ratio": 0.9882772513228969,
+      "dataset_equal_weighted_r2_difference": 0.007640290370471138,
+      "operation_pooled_wmse_ratio": 0.997143623145756,
+      "operation_pooled_weighted_r2_difference": 0.005311433329283355,
+      "operations": 654,
+      "wmse_ratio_ci95": [
+        0.9803579223232295,
+        0.9966151546011794
+      ],
+      "weighted_r2_difference_ci95": [
+        0.0037371066866843327,
+        0.012474279239696557
+      ],
+      "co_primary_pass": true
+    },
+    "trainMean": {
+      "dataset_equal_wmse_ratio": 0.6828655839981779,
+      "dataset_equal_weighted_r2_difference": 0.22744477156124213,
+      "operation_pooled_wmse_ratio": 0.711839613017713,
+      "operation_pooled_weighted_r2_difference": 0.1943306145395976,
+      "operations": 654,
+      "wmse_ratio_ci95": [
+        0.625534971780277,
+        0.7433547798737558
+      ],
+      "weighted_r2_difference_ci95": [
+        0.19490698728262473,
+        0.26142134863845634
+      ],
+      "co_primary_pass": true
+    },
+    "baseControl": {
+      "dataset_equal_wmse_ratio": 0.3977944006022614,
+      "dataset_equal_weighted_r2_difference": 0.6487379990778926,
+      "operation_pooled_wmse_ratio": 0.4203620871543388,
+      "operation_pooled_weighted_r2_difference": 0.6736504282979414,
+      "operations": 654,
+      "wmse_ratio_ci95": [
+        0.35379606028194943,
+        0.44251876688433
+      ],
+      "weighted_r2_difference_ci95": [
+        0.5895022532497359,
+        0.7085015254951595
+      ],
+      "co_primary_pass": true
+    }
+  },
+  "PRED_LINEAR": "NOT_ADJUDICATED",
+  "PRED_UNINFORMATIVE": "PASS",
+  "ENDPOINT_COMPATIBILITY": "STRONG",
+  "artifacts": {
+    "per_operation_metrics_sha256": "bfd2afbbdc930767a1a63af3c4968ef470cb90d2d67c0cf315ef65ba9b107605",
+    "per_operation_nir_sha256": "11c5912a8292acf65fccef577ff65d8f284c3260a9c3e5572476705d2c9837f7",
+    "cluster_bootstrap_arrays_sha256": "97649c2d400b70f12cdc4d9328d06ea645e7d9b86fb117c072f720723171a83b"
+  }
+}

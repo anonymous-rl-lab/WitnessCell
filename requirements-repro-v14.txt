@@ -1,0 +1,11 @@
+# Frozen CPU environment for v14 mean-response regeneration.
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-learn==1.5.2
+matplotlib==3.10.8
+h5py==3.12.1
+pytest==8.3.5
+pytest-cov==6.0.0
+ruff==0.9.10
+mypy==1.15.0

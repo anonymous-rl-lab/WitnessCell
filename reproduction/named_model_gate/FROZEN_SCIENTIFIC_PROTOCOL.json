@@ -1,0 +1,105 @@
+{
+  "protocol_id": "gse146194-six-way-named-aivc-gate-v1",
+  "frozen_before_named_model_predictions": true,
+  "staged_evidence_note": "The 14 target outcomes were already used in the preceding GSE146194 WitnessCell experiment, but no GEARS or CPA prediction on these targets had been generated or inspected when this six-way protocol was fixed. This is a model-blind named-AIVC confirmation, not a never-inspected biological cohort.",
+  "single_claim": "On exactly the same strict-seen1 targets and information budget, endpoint Witness geometry can improve named AIVCs and can itself form a competitive combinatorial AIVC.",
+  "dataset": {
+    "accession": "GSE146194",
+    "sample": "GSM4367984",
+    "matrix": "../gse146194_qualification/downloads/exp6/GSM4367984_exp6.matrix.mtx.gz",
+    "barcodes": "../gse146194_qualification/downloads/exp6/GSM4367984_exp6.barcodes.tsv.gz",
+    "features": "../gse146194_qualification/downloads/exp6/GSM4367984_exp6.features.tsv.gz",
+    "identities": "../gse146194_qualification/downloads/identities/GSM4367984_exp6.cell_identities.csv.gz",
+    "eligible_pairs": "../gse146194_qualification/results/v1/eligible_pairs.csv",
+    "matrix_bytes": 908401093,
+    "matrix_sha256": "46d16ff1158f24bfebd44ee384353fdb1275ec6c7811d39fb0fe26877c497abb"
+  },
+  "factorial_design": {
+    "data_seeds": [41, 47, 59],
+    "cell_direction": "A_to_B",
+    "model_seeds": [0, 1, 2],
+    "fits_per_named_model": 9,
+    "named_models": ["GEARS", "CPA"],
+    "total_gpu_fits": 18,
+    "statistical_unit_note": "The same 14 target pairs recur across fits. Model seeds and cells are not independent biological replicates."
+  },
+  "condition_split": {
+    "topology_seed": 801,
+    "model_train_pairs": [
+      "IDI1+HUS1", "SREBF1+HMGCR", "SQLE+FDPS", "HMGCR+HUS1",
+      "HMGCR+FDPS", "HMGCR+SREBF2", "HUS1+FDPS", "HUS1+PMVK",
+      "ETAA1+FDPS", "FDPS+TOPBP1", "FDPS+RRM1", "FDPS+MVD"
+    ],
+    "model_validation_pairs": [
+      "SREBF1+HUS1", "SREBF1+FDPS", "SQLE+HUS1", "FDPS+PMVK", "FDPS+SREBF2"
+    ],
+    "witness_calibration_pairs": [
+      "IDI1+FDPS", "HUS1+RRM1", "HUS1+MVD", "HUS1+SREBF2", "ETAA1+TOPBP1"
+    ],
+    "final_test_pairs": [
+      "RRM2B+FDPS", "XRCC5+FDPS", "RAD1+FDPS", "ATM+FDPS",
+      "CHEK1+FDPS", "RAD17+FDPS", "FDPS+ATRIP", "FDPS+AHCYL1",
+      "FDPS+RAD9A", "FDPS+LIG4", "FDPS+ATR", "FDPS+NHEJ1",
+      "FDPS+XRCC6", "FDPS+PRKDC"
+    ],
+    "information_contract": {
+      "source_half_A_model_train_outcomes": "gradient fitting and Witness fitting",
+      "source_half_A_model_validation_outcomes": "named checkpoint and Witness hyperparameter selection only",
+      "destination_half_B_witness_calibration_outcomes": "closed-form Witness amplitude and model-specific fusion weight only",
+      "destination_half_B_final_test_outcomes": "scoring only",
+      "all_source_half_A_single_perturbations_and_controls": "available to every method",
+      "final_target_double_outcomes": "forbidden before scoring"
+    }
+  },
+  "preprocessing": {
+    "normalization": "per-cell total 1e4 followed by log1p",
+    "evaluation_genes": 1000,
+    "evaluation_gene_selection": "largest mean absolute source-half-A double effect over the 12 model-train pairs; target double outcomes forbidden",
+    "model_gene_space": "top 5000 source-training-only variable genes plus all 1000 evaluation genes and every perturbation target gene; exact implementation and gene order must be identical for GEARS and CPA",
+    "same_gene_order_for_all_six_strategies": true
+  },
+  "strategies": [
+    "Saturation", "GEARS", "CPA", "GEARS+Witness", "CPA+Witness", "WitnessCell"
+  ],
+  "witnesscell": {
+    "geometry": "unsigned endpoint-incidence kernel",
+    "fit_pairs": "12 source-half-A model-train pairs",
+    "hyperparameter_selection": "5 source-half-A model-validation pairs",
+    "noise_grid": [0.1, 0.3, 1.0, 3.0],
+    "amplitude": "gamma_W=clip(<W_cal,R_cal>/<W_cal,W_cal>,0,1) on five destination-half-B calibration pairs",
+    "fusion": "For each named model M, lambda_M=clip(<W_cal-M_cal,R_cal-M_cal>/<W_cal-M_cal,W_cal-M_cal>,0,1); final residual=(1-lambda_M)M+lambda_M W.",
+    "fusion_is_scalar_and_model_specific": true
+  },
+  "training_budget": {
+    "status": "FROZEN_RULE_PENDING_VALIDATION_ONLY_MATURITY_PROBE",
+    "rule": "No target outcome may determine epochs. Reuse the existing CUDA/PyTorch/GEARS/CPA environments. Run one engineering smoke, then one full-data validation-only maturity trace per model; freeze maximum epochs and checkpoint policy before any final-target archive is scored.",
+    "formal_checkpoint": "validation-only; test outcomes never select checkpoints",
+    "prohibited": ["new CUDA installation", "new torch installation", "target-selected epoch", "cell-level inference"]
+  },
+  "primary_comparisons": [
+    "GEARS+Witness_vs_GEARS",
+    "CPA+Witness_vs_CPA",
+    "WitnessCell_vs_GEARS",
+    "WitnessCell_vs_CPA"
+  ],
+  "success_rule_per_comparison": {
+    "mean_relative_residual_mse_improvement_min": 0.03,
+    "pair_bootstrap_ci95_low_gt": 0.0,
+    "exact_pair_signflip_p_lt": 0.05,
+    "data_seed_means_positive": "3/3",
+    "run_win_rate_min": 0.6666666666666666,
+    "full_effect_cosine_delta_min": -0.002
+  },
+  "decision_tree": {
+    "augmentation_pass": "A named model is Witness-improvable only if its paired augmentation comparison passes every frozen condition.",
+    "independent_aivc_pass": "WitnessCell is stronger than the named-model set only if WitnessCell_vs_GEARS and WitnessCell_vs_CPA both pass; no test-selected best-model shortcut is allowed.",
+    "heterogeneous_result": "If only one augmentation passes, report model-dependent complementarity rather than a universal wrapper.",
+    "stop": "If WitnessCell does not beat either named model and neither augmentation passes, stop the external named-AIVC superiority claim."
+  },
+  "claim_boundaries": [
+    "All 14 final targets share the FDPS hub; pair inference is pathway-panel evidence, not hub-population inference.",
+    "This gate does not test seen0.",
+    "A 3x3 matrix contains 9 stochastic fits per named model, not 9 independent biological experiments.",
+    "Saturation and WitnessCell require no GPU fit and are common construction controls, not extra stochastic models."
+  ]
+}

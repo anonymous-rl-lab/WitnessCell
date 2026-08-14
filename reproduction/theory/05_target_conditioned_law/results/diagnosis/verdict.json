@@ -1,0 +1,14 @@
+{
+  "claim": "Target estimability is governed by target direction relative to the observed intervention row space, not by seen2 exposure or global nullity alone.",
+  "audit_pass": true,
+  "all_targets_strictly_held_out": true,
+  "all_targets_seen2": true,
+  "fixed_train_edges": 380,
+  "fixed_global_nullity": 4,
+  "geometry_failure_auroc": 1.0,
+  "within_only_baseline_auroc": 0.8333333333333334,
+  "unsupported_within_nmse": 0.9637116142535135,
+  "other_targets_nmse": 0.003333323803503041,
+  "pass_rule": "audit_pass and geometry AUROC >= 0.90 and geometry exceeds within-only baseline by >= 0.10 and unsupported NMSE >= 3x other NMSE",
+  "gate_pass": true
+}

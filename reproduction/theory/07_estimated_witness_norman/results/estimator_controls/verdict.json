@@ -1,0 +1,28 @@
+{
+  "positive_control": "known discrepancy kernel",
+  "negative_control": "factorized geometry plus noise only",
+  "gate": "positive median rho >=0.50, gain >=5%, risk Spearman >=0.50; negative median rho <=0.10 and no >5% spurious gain",
+  "positive": {
+    "regime": "positive",
+    "seeds": 12,
+    "selected_rho_median": 0.75,
+    "selected_rho_mean": 0.75,
+    "relative_gain_mean": 0.1683142999520336,
+    "risk_spearman_mean": 0.9945054945054945,
+    "estimated_mse_mean": 0.6390961826173778,
+    "geometry_mse_mean": 0.7684533762898673,
+    "oracle_mse_mean": 0.6379921186689095
+  },
+  "negative": {
+    "regime": "negative",
+    "seeds": 12,
+    "selected_rho_median": 0.0,
+    "selected_rho_mean": 0.0,
+    "relative_gain_mean": 0.0,
+    "risk_spearman_mean": 1.0,
+    "estimated_mse_mean": 0.37905094778426807,
+    "geometry_mse_mean": 0.37905094778426807,
+    "oracle_mse_mean": 0.37905094778426807
+  },
+  "gate_pass": true
+}
