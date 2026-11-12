@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_upstream_forward": true,
+  "maximum_absolute_difference": 4.76837158203125e-07,
+  "weight_sha256": "4d08f6ddc2a81e15935b6820c9c325aba38a84b60d2f704871ee6a17b93892ed",
+  "prediction_sha256": "45e520b7b0412a33fc2e896c612b56e268a3f5fd00d1f5c33c6a403a81e243d8",
+  "outer_outcomes_scored": false,
+  "checked_unix": 1794020123.1077807
+}

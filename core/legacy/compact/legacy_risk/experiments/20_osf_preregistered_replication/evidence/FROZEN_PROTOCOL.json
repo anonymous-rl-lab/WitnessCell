@@ -1,0 +1,58 @@
+{
+  "protocol_name": "WitnessCell v14 cross-environment computational reproduction",
+  "protocol_version": "2.0.0",
+  "study_type": "preregistered confirmatory computational replication",
+  "wet_lab_component": false,
+  "new_biological_data_collection": false,
+  "prior_execution_disclosed": true,
+  "withdrawn_registration": "https://osf.io/a2dfr",
+  "source": {
+    "archive_name": "grn_repo_v14.zip",
+    "sha256": "955d446a0cfe65a6f4f191d74c7a7d16a6083488b9beb40a5e155ab94d528bd7",
+    "version": "14.0.0"
+  },
+  "environment": {
+    "python": "3.12",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit_learn": "1.5.2",
+    "joblib": "1.5.3",
+    "threadpoolctl": "3.6.0",
+    "python_dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "tzdata": "2026.3",
+    "six": "1.17.0"
+  },
+  "execution": {
+    "datasets": ["Norman", "Replogle_exp6", "Schmidt", "Wessels"],
+    "seeds": [1, 2, 3],
+    "split_count": 12,
+    "cpu_only": true,
+    "raw_h5ad_rescoring": false
+  },
+  "criteria": {
+    "C1": "12 deployment archives; 13 matching target-free arrays per archive",
+    "C2": "156 of 156 arrays elementwise exact; global maximum absolute difference 0",
+    "C3": "8 active splits and 4 exact fallbacks: Schmidt seed3 and Wessels seeds1-3",
+    "C4": {
+      "paired_units": 654,
+      "all_gene_mse_gain": 0.001079217249737252,
+      "top100_mse_gain": 0.0030453806218846413,
+      "top100_pcc_delta": 0.0013006984799760163,
+      "absolute_tolerance": 1e-12
+    },
+    "C5": {
+      "operation_seed_units": 654,
+      "mean_operation_rank": 3.871559633027523,
+      "official_position": 1,
+      "both_panels_position": 1,
+      "dataset_equal_top100_position": 1,
+      "scouter_rank_difference": -1.5412844036697249,
+      "scouter_cluster_bootstrap_95_ci": [-1.9540636702850922, -1.1267079136021945],
+      "scope": "integrity of the inherited Gate18 aggregation; no new Gate19/v14 raw-h5ad scoring"
+    }
+  },
+  "overall_pass": "C1 and C2 and C3 and C4 and C5 pass in one post-registration execution",
+  "failure_policy": "fail closed; no numerical-failure repair or threshold change"
+}

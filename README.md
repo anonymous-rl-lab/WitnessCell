@@ -1,101 +1,72 @@
-# WitnessCell
+# WitnessCell: paper reproduction
 
-Anonymous, reviewer-ready source and reproducibility repository for WitnessCell.
+Code release **31.0.0**, for **WitnessCell v41, language revision R1**.
 
-This repository combines two release layers:
-
-1. **`witnesscell 0.1.0`** — the typed, tested Python API and CLI distributed
-   under Apache-2.0;
-2. **v18 reproducibility assets** — the frozen v14 mean-response algorithm,
-   official four-dataset benchmark tables, selective-prediction analysis and
-   metric-calibration stress test.
-
-The repository is deliberately smaller than the original 430 MiB evidence
-archive. It keeps executable code, compact frozen results, condition-moment
-inputs and integrity records. Raw public single-cell matrices, historical
-duplicate predictions, nested archives, caches and machine-specific logs are
-excluded.
+This repository integrates the complete base archive and the v41 companion. No separate historical ZIP is required for the default paper replay. It covers the released response predictor, target-information theory, RNA and functional partner prediction, component control, native Han analysis and matched global-reference analyses.
 
 ## Quick start
 
+Tested on Linux with Python 3.12.14. Use a fresh environment and install the pinned dependencies:
+
 ```bash
-python -m venv .venv
+python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements-repro-v14.txt
-python -m pip install -e ".[dev]" --no-deps
-bash scripts/run_smoke.sh
+python -m pip install -r requirements.txt
+python -B tools/verify.py
+python -B reproduce.py --out ../witnesscell-replay --jobs 2
+python -B tools/verify.py --restored
 ```
 
-The smoke suite tests the public API, frozen numerical contract, official
-benchmark tables, selective-prediction result and metric primitives. It does
-not download raw `.h5ad` files.
+The default run has 16 tasks and does not retrain biological predictors. It reconstructs selected predictions from saved weights, recomputes scores, ranks, intervals, calibration coefficients and diagnostics, regenerates the 12 figures, and checks current manuscript/table identities. Each task writes a log, a status and its outputs under the selected output directory. Successful task status means the named task's assertions passed, not that raw sequencing and all original training were rerun.
 
-## Reproduce the v14 mean-response predictions
-
-The four condition-moment caches and required GEARS gene assets are included.
-Run one split:
+Start with a short subset or continue an interrupted run:
 
 ```bash
-DATASETS=Norman SEEDS=1 bash scripts/reproduce_v14.sh
+python -B reproduce.py --list
+python -B reproduce.py --out ../witnesscell-smoke --tasks paper_scores theory_growth interfaces coverage
+python -B reproduce.py --out ../witnesscell-replay --jobs 2 --resume
 ```
 
-Run all four datasets and three seeds:
+Outputs must be outside the repository. Resume checks the release/task fingerprint before skipping a completed task. Failed runs retain their previous outputs. The preparation step restores byte-identical aliases and regenerates 120 Han prediction caches from saved weights; it does not fit predictors or read query outcomes.
 
-```bash
-bash scripts/reproduce_v14.sh
-```
+## Reproduction levels
 
-The runner produces only the target-free deployment archives by default and
-checks their array-level semantic digests against the frozen v18 references.
+| Command/task | What is executed |
+|---|---|
+| Default `reproduce.py` | Saved-array/weight replay, specified scalar/reference fits, scoring and figure regeneration |
+| `--tasks global_refit` | Seven original matched-product-reference refits with fixed folds and grids |
+| `--tasks saturation_refit` | Four saturation-reference refits with fixed folds and grids |
+| `--tasks paper_pdf` | Current Markdown to main/Methods and SI PDFs; requires Pandoc, XeLaTeX and fonts |
+| `--tasks han_frozen_inference_optional` | Historical SF12/V4 Torch inference; separate optional environment |
 
-## Full cell-level benchmark
-
-The official public matrices total about 0.9 GiB compressed and are not stored
-in Git. Download and verify them with:
-
-```bash
-bash scripts/download_full_data.sh
-```
-
-Full distributional scoring and Experiment 22 use separate, pinned metric
-dependencies. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) and
-[DATA.md](DATA.md).
+The native Han full fitting scripts and frozen plans remain in `experiments/han_native/`; the default native-Han task uses its saved weights. See [reproduction levels](docs/REPRODUCTION_LEVELS.md) for exact scope and tolerances. Large raw FASTQ and some historical neural-baseline weights are represented by original source/acquisition indexes; the default replay does not require them.
 
 ## Repository map
 
-| Path | Purpose |
+| Path | Contents |
 |---|---|
-| `src/witnesscell/` | Hardened v14 package implementation |
-| `tests/` | Unit, contract, serialization and security tests |
-| `reproduction/gate19_v14/` | Frozen v14 research implementation and result tables |
-| `reproduction/gate15_scperturbench/` | Four-dataset benchmark code and official frozen scores |
-| `reproduction/gate21_selective/` | Frozen accept/abstain analysis |
-| `reproduction/gate22_metrics/` | Metric-calibration protocol, code, tests and compact results |
-| `reproduction/theory/` | Geometry, exact-risk and estimated-risk verification |
-| `reproduction/named_model_gate/` | Compact named-model audit evidence |
-| `reproduction/assets/` | Included derived inputs and reference checksums |
+| `reproduce.py`, `REPRODUCTION_INDEX.json` | One current task entry and explicit scope |
+| `paper/manuscript_sources/` | Authoritative v41 R1 Markdown, legends and vectors |
+| `paper/reference_figures/` | Current figure comparison references |
+| `experiments/reference_sensitivity/` | Integrated v41 companion: common denominators, saturation references and Han direction decomposition |
+| `experiments/global_reference/` | Seven matched-product fits, mode diagnostics and theoretical checks |
+| `experiments/han_native/` | Fixed inputs, splits, weights, native/saturation analyses and fitting code |
+| `experiments/diagnostics/` | Repeatability, fixed-direction reference optima and historical attribution checks |
+| `core/` | Established theory, benchmark, RNA, growth, control, interfaces and their source assets |
+| `docs/PAPER_COVERAGE.csv` | Every SI table and figure mapped to its evidence and task |
+| `provenance/` | Source hashes, integration map, pruning and lossless deduplication records |
+| `verification/` | Actual checks for this code release |
 
-## Scope
+Some historical paths retain version strings because frozen programs or provenance refer to them. They are supporting dependencies, not alternative current entry points. Current instructions are this README and the task index.
 
-WitnessCell predicts condition means for unmeasured two-endpoint genetic
-combinations. It does not claim cell-level generative simulation, universal
-uncertainty calibration, causal identification, or automatic routing to a
-different model. Selective prediction has two actions: `accept` or `abstain`.
+## Numerical fidelity
 
-The repository preserves the frozen `NOT_ADJUDICATED` outcomes. Missing raw
-linear-model predictions and incomplete weighted comparisons are not converted
-into positive claims.
+Input arrays, weights, full-precision scores, folds, primary/secondary designations and scientific algorithms are preserved. Exact file checks are separate from numeric tolerance checks. `--compatible` permits deterministic cache bytes to differ across numerical environments; it does **not** relax downstream scoring tolerances. Use the pinned environment for the strict route. See [tolerances](docs/NUMERICAL_FIDELITY.md).
 
-## Double-blind release
+## GitHub use and licensing
 
-Author, institution, account, DOI and contact metadata for this project are
-withheld. Third-party dataset and software links remain because they identify
-external sources, not the submission authors. See
-[docs/GITHUB_UPLOAD.md](docs/GITHUB_UPLOAD.md) before publishing.
+The package contains a CI workflow, smoke/regression tests, pinned dependencies, an environment diagnostic, a citation file and a minimal container recipe. No repository has been published and no hosted CI run is claimed. Large read-only inputs are losslessly packed and restored locally; ordinary output/cache paths are ignored by Git.
 
-## License
+Licence boundaries are inherited. The existing MIT notice covers only its five named interface/test files. No repository-wide open-source licence has been granted for the scientific modules; rights-holder confirmation remains necessary before public distribution. See [licence scope](LICENSE.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
-The package code is Apache-2.0. External datasets, dependencies and upstream
-benchmark implementations retain their own terms. See `LICENSE` and
-`THIRD_PARTY_NOTICES.md`.
+The paper is a manuscript; no publication DOI or public repository URL is invented in `CITATION.cff`.

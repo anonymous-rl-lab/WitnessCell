@@ -1,0 +1,22 @@
+{
+  "method": "Exact float64 prediction-minus-truth residuals and frozen candidate utilities; byte transpose + XZ lossless compression",
+  "original_input_file": "scoring_inputs.npz",
+  "original_input_file_bytes": 26219161,
+  "original_input_file_sha256": "2e443175e05a32a28512c16d792ea01a03dc13adcfe6fbcff3f25d29ce614d4f",
+  "restored_array_hashes": "data/ARRAYS.json",
+  "rounding": false,
+  "dtype_reduction": false,
+  "training_or_selection_changes": false,
+  "included": {
+    "conditions": 49,
+    "non_target_genes": 4987,
+    "main_models": 5,
+    "main_residual_values": 1221815,
+    "utility_models_including_archived_references": 15,
+    "choice_records": 420,
+    "paired_intervals": 6
+  },
+  "offline_replay": "Five main models: all primary CSV columns, per-choice values, all 15 model choices, six paired cluster intervals. Uses original unrounded residuals, not stored MSE scalars.",
+  "external_replay": "All 15 raw RNA matrices, original objective projection, individual-seed RNA metrics and 30 trained model weight replays require identified external assets.",
+  "precision": "Every stored compact array is bitwise SHA256 checked. Reference table validation uses rtol1e-12/atol1e-14 and records actual maximum error; BLAS versions can change final rounding. Cross-hardware retraining is not claimed bitwise identical."
+}

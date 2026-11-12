@@ -1,0 +1,311 @@
+{
+  "status": "PASS",
+  "models_replayed": 30,
+  "original_upstream_forward": true,
+  "tolerance": {
+    "rtol": 0.0001,
+    "atol": 5e-05
+  },
+  "rows": [
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 2.384185791015625e-07,
+      "rms_difference": 5.534806588603774e-09,
+      "native_source": true,
+      "weight_sha256": "ac3bd8ab50ef767eaf5942dfd3dc1b822bb20c9e5b2d965689cc869ad4402246"
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 2.384185791015625e-07,
+      "rms_difference": 7.457365961798208e-09,
+      "native_source": true,
+      "weight_sha256": "18af9eb2a6ec142d1ba81597d1d4798f5c10ccf1b551888b9d51b780ea8527d9"
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 2.384185791015625e-07,
+      "rms_difference": 8.17467950358031e-09,
+      "native_source": true,
+      "weight_sha256": "af2a70210c2f9e89c5b567fafc330b69f026465463898ae1b4de5eb8591b00a7"
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 1.6689300537109375e-06,
+      "rms_difference": 5.8740250418311194e-08,
+      "native_source": true,
+      "weight_sha256": "fabd304ca051b8813865f3c5a6fb8037bf1944fd54f305dc7d32acb7995c6910"
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 1.9073486328125e-06,
+      "rms_difference": 1.0753312171667623e-07,
+      "native_source": true,
+      "weight_sha256": "c038316dff1ba2ab3ccb9e330352d7ada3b699732878f555abc3c5685a3ecb47"
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.7524770074858225e-07,
+      "rms_difference": 8.550705837441217e-09,
+      "native_source": true,
+      "weight_sha256": "f645e036f75aedf69286a10a8f6b14c2c876e5cfea92c7f33f5138b9eaf55690"
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.768371586472142e-07,
+      "rms_difference": 2.172865712571946e-08,
+      "native_source": true,
+      "weight_sha256": "499396cbaad31626a28e4975ae0673f58a45c5c685a1b241653c8a1d0daabb14"
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.7524770163676067e-07,
+      "rms_difference": 9.220142670660292e-09,
+      "native_source": true,
+      "weight_sha256": "208985a1193d3bc917624583976decb9e6d23d9cb92ef3a550df9f42066a98ba"
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 3.010034560935182e-06,
+      "rms_difference": 1.6789048115094524e-07,
+      "native_source": true,
+      "weight_sha256": "284cb499a0f4011f7a216294ee2771d5150662c6344eb185d27da939c6ac7571"
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 8.344650268554688e-07,
+      "rms_difference": 3.708544213975761e-08,
+      "native_source": true,
+      "weight_sha256": "c67ef9a27c897ea5876df1dba6fea2f14cd6c6a250279837136e155aebb77ffe"
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.7524770097062685e-07,
+      "rms_difference": 9.644644753807706e-09,
+      "native_source": true,
+      "weight_sha256": "a52533eb2b881c2b116ad0c22f898fd64e333617959944576d82dc8047650380"
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 2.384185791015625e-07,
+      "rms_difference": 8.334791236546439e-09,
+      "native_source": true,
+      "weight_sha256": "51d5f54898733744127ef8ad5e140a2cc6b968c1908e648cd453d448e9a64d11"
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.7524770074858225e-07,
+      "rms_difference": 1.1730720011680387e-08,
+      "native_source": true,
+      "weight_sha256": "cee978529dac734e1bb2744d3fcf1d1b42fa77659568fbeb916ef2cf62078a18"
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 2.1457672119140625e-06,
+      "rms_difference": 8.839622119941379e-08,
+      "native_source": true,
+      "weight_sha256": "1a522d79d284563d8bb6c4da2822e71db4b279e11fd7e436fb322613dd657e5b"
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 4.76837158203125e-07,
+      "rms_difference": 2.5273985165795288e-08,
+      "native_source": true,
+      "weight_sha256": "4d08f6ddc2a81e15935b6820c9c325aba38a84b60d2f704871ee6a17b93892ed"
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "323532a285fe591ef0d545d8b87c0301fd50a27054ccd073afc630b9195bbea6"
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "d13a52809394cdf3f5c32f4805628915145bb6d4cd190e3412bae37a7a9b480e"
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "2963cd598fcad00cb3172e03c4c5d590440b169235c217e83ab075f3ff385810"
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "16cfe4cbd507eb82ddadd5f05ebffdf612672c1cb193a55f30f333af30a556e4"
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "b2545b878acc7999ab65b2872aa81957740c25a58fd2baf16535a1285e89b534"
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "9a0688a86f4de35eb098060afb11d28394a40ee059a03032508f11639fcdc101"
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "7444c51288708d0457a415ef7efe181d3eabcf204e808fcb79f51d76ee7b3e78"
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "df725a07e2e7675ec3b8713809888beaf451c7378af7fc775b7faa374087cb74"
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 3.973643636356883e-10,
+      "rms_difference": 1.0059071782135163e-11,
+      "native_source": true,
+      "weight_sha256": "8504d01af439a3679e391e82d3b10396144396a6e0fce887ac36828a2365cb78"
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "e5f8d794b0d8ce40f7152dd7893b445cb5c1af7637ace05a4df3cf0ba8eee9b5"
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 0,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "94c1f9c67cd0ec50390d186f3c62890bcc81e28d785316237371998ac704bda1"
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 1,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "79157b4b54f16bcbbacc6c3e3b412385f05d6b1a6df0d68b41b7166c56008095"
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 2,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "22eeb38f234d0c547ded19325230280c40129ee832d109fe15dec671126765d3"
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 3,
+      "status": "PASS",
+      "maximum_absolute_difference": 0.0,
+      "rms_difference": 0.0,
+      "native_source": true,
+      "weight_sha256": "736d4bbe8248c69883e0baf9cdef39999b218fd851230ca743764660a97c7197"
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 4,
+      "status": "PASS",
+      "maximum_absolute_difference": 7.947287272713766e-10,
+      "rms_difference": 1.2854312985948091e-11,
+      "native_source": true,
+      "weight_sha256": "6b72e6554df3bc839b46e40625b9140e52e3d05fe82422b293a43a4ff674fb22"
+    }
+  ]
+}

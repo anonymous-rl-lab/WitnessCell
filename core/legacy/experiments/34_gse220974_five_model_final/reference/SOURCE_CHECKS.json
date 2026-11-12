@@ -1,0 +1,238 @@
+{
+  "status": "PASS",
+  "prediction_files": [
+    {
+      "kind": "classical",
+      "fold": 0,
+      "prediction_sha256": "c7d4a8724c9a369a4d4d87ab61294999e5825c9d7b7b28fab985cf9a6b4b8027"
+    },
+    {
+      "kind": "presage",
+      "fold": 0,
+      "prediction_sha256": "2e9f69325d4b7ed03900eb809dc2221a67cfb38781ef681327b15a746d57de92"
+    },
+    {
+      "kind": "classical",
+      "fold": 1,
+      "prediction_sha256": "ee649c0828c25ce3b28a143d099c7e78feaa168ebbd91df2a893821abae71a23"
+    },
+    {
+      "kind": "presage",
+      "fold": 1,
+      "prediction_sha256": "ccc13eb01febfae4b3414221b4af685bf5cd934509ca16d09feb510a3472b05c"
+    },
+    {
+      "kind": "classical",
+      "fold": 2,
+      "prediction_sha256": "1247f4c81ee18681506103218114153929239ede84a31a6a9679f7940581fe9a"
+    },
+    {
+      "kind": "presage",
+      "fold": 2,
+      "prediction_sha256": "8fe9422b2400537d5efdfd227d772fcea87b7af6bd254d2be6887228e2cefc45"
+    },
+    {
+      "kind": "classical",
+      "fold": 3,
+      "prediction_sha256": "e9afb6340a5e9860c0f5ed92e709747dad43c096dc4da7a2ffe65032d3b8d97f"
+    },
+    {
+      "kind": "presage",
+      "fold": 3,
+      "prediction_sha256": "a556ac437134e1ee4679622fe140a575eaef427368279c4cc3e5a6a02f298aeb"
+    },
+    {
+      "kind": "classical",
+      "fold": 4,
+      "prediction_sha256": "b80458add244385f1380f2277c3ece26290d84959db74670deb02822dc9770a2"
+    },
+    {
+      "kind": "presage",
+      "fold": 4,
+      "prediction_sha256": "e05977c66e6dbf41eeaf3f173c3d978065c057a661d4732be006e07ae890783c"
+    },
+    {
+      "kind": "gears",
+      "seed": 0,
+      "fold": 0,
+      "prediction_sha256": "7d30a95293ba66bc7db4ad48d923f90008d0181f132331b3a5c5e1ea5cafee06"
+    },
+    {
+      "kind": "gears",
+      "seed": 0,
+      "fold": 1,
+      "prediction_sha256": "e6bbc31ac170c10c05bbc234a86e99f172b18c13218779a6bfff0f0715a139d8"
+    },
+    {
+      "kind": "gears",
+      "seed": 0,
+      "fold": 2,
+      "prediction_sha256": "fac3bd9e2f4fc11f6414166dafd122d4d1314bdd207452e19488e3944648cdbd"
+    },
+    {
+      "kind": "gears",
+      "seed": 0,
+      "fold": 3,
+      "prediction_sha256": "fd74f9b64dbcc48c078a9a367122ea886e2ff9f29e78588534fa4cb6e8ebe1a3"
+    },
+    {
+      "kind": "gears",
+      "seed": 0,
+      "fold": 4,
+      "prediction_sha256": "b56160097a679c464baf438fc74cb3fa2e064b70d0c5c7a3ba24e7ca53e05e5b"
+    },
+    {
+      "kind": "gears",
+      "seed": 1,
+      "fold": 0,
+      "prediction_sha256": "2d212b715ee9bfb2004ea73f7bf92d8a864b084778a580f02e91c8a4ed01554f"
+    },
+    {
+      "kind": "gears",
+      "seed": 1,
+      "fold": 1,
+      "prediction_sha256": "eb0fbcc17059f0070bd5e92fa3d8adc323c4212dc7e26e3935396e442b95133d"
+    },
+    {
+      "kind": "gears",
+      "seed": 1,
+      "fold": 2,
+      "prediction_sha256": "7712f3e07266451d5dfc8adda11d91c21e1d59d22626f31a9908ca7950ff1e38"
+    },
+    {
+      "kind": "gears",
+      "seed": 1,
+      "fold": 3,
+      "prediction_sha256": "ef7ba79923d21dc8caba91975a05dcfa1f0f75ab4e8e88dc52a7ae9813486bc5"
+    },
+    {
+      "kind": "gears",
+      "seed": 1,
+      "fold": 4,
+      "prediction_sha256": "f15dcad5fba9970385316333ad919c1778a570ba6ee3bb53b20f82c86e12b0f4"
+    },
+    {
+      "kind": "gears",
+      "seed": 2,
+      "fold": 0,
+      "prediction_sha256": "906c4453c18ddf2338847f727542edae7f1d6b89e03da45bc9563d904ca11286"
+    },
+    {
+      "kind": "gears",
+      "seed": 2,
+      "fold": 1,
+      "prediction_sha256": "65819276c7250669d4b72f5ca7219a2f3d5c155e218a4fd53cf272795c8d2abd"
+    },
+    {
+      "kind": "gears",
+      "seed": 2,
+      "fold": 2,
+      "prediction_sha256": "2bbe0f51b1d9302c10ceab409ad923300addad67439a5f69d138cfe726fe9261"
+    },
+    {
+      "kind": "gears",
+      "seed": 2,
+      "fold": 3,
+      "prediction_sha256": "cdac677ae2b7ff6b0347ae12c13ffebf94fbc9d7eda71fc21363a1bcc946070e"
+    },
+    {
+      "kind": "gears",
+      "seed": 2,
+      "fold": 4,
+      "prediction_sha256": "45e520b7b0412a33fc2e896c612b56e268a3f5fd00d1f5c33c6a403a81e243d8"
+    },
+    {
+      "kind": "scouter",
+      "seed": 0,
+      "fold": 0,
+      "prediction_sha256": "2dbdc8ef303d77aae0f4acd41745bb259be1e214f721a83f79ee978e1587e708"
+    },
+    {
+      "kind": "scouter",
+      "seed": 0,
+      "fold": 1,
+      "prediction_sha256": "1c083676bf49d6d81cbbbc49ac0a7200d20940b2839bc84bf601b1831b34f93c"
+    },
+    {
+      "kind": "scouter",
+      "seed": 0,
+      "fold": 2,
+      "prediction_sha256": "576b2f097cb8ede58168a0a89ce674093b56be722ecd8f8f5aea24bdb893ec47"
+    },
+    {
+      "kind": "scouter",
+      "seed": 0,
+      "fold": 3,
+      "prediction_sha256": "ec4f6b3102d3045433472c0b1a47861361e0c30a4dbf14d3530495b4591e98b0"
+    },
+    {
+      "kind": "scouter",
+      "seed": 0,
+      "fold": 4,
+      "prediction_sha256": "5ce07c00b6ef7fef9b216c2d66ae8ab04a5cefd960e9a3d766d3ce417a362a4d"
+    },
+    {
+      "kind": "scouter",
+      "seed": 1,
+      "fold": 0,
+      "prediction_sha256": "94a337a46ed6f653231a277c23c1dac0f89baf0f8fbd029484769d70e49b3e2f"
+    },
+    {
+      "kind": "scouter",
+      "seed": 1,
+      "fold": 1,
+      "prediction_sha256": "626f898441c7e0588505ef18ced4f8757b4a1bf6f42f039ac71dbb917f6458c3"
+    },
+    {
+      "kind": "scouter",
+      "seed": 1,
+      "fold": 2,
+      "prediction_sha256": "79c80201d087f6dd9bc5270b1f7b2c8a677b4e6823cd0363b6b9913d465899b5"
+    },
+    {
+      "kind": "scouter",
+      "seed": 1,
+      "fold": 3,
+      "prediction_sha256": "95b9e3aebb2e86c6d99ddca2447846084732371aca4fba93cf127b198ca529a8"
+    },
+    {
+      "kind": "scouter",
+      "seed": 1,
+      "fold": 4,
+      "prediction_sha256": "5293bf1c5b8714648e9c430f5ad738ed6a44ac4c7abfbe868bd8a7531bc546b9"
+    },
+    {
+      "kind": "scouter",
+      "seed": 2,
+      "fold": 0,
+      "prediction_sha256": "469f883b5bf4ae2aa93d188b3a36610132ac132314bdca675b7efb0894b25786"
+    },
+    {
+      "kind": "scouter",
+      "seed": 2,
+      "fold": 1,
+      "prediction_sha256": "f37d194f8107cf905040eac657b22a8b5f6503c4d5106a95101757e0d1277db9"
+    },
+    {
+      "kind": "scouter",
+      "seed": 2,
+      "fold": 2,
+      "prediction_sha256": "d2bb29fbafc44bff2e20c8504c48450d9c0b0686bc6c87faaef6f8c0862d5157"
+    },
+    {
+      "kind": "scouter",
+      "seed": 2,
+      "fold": 3,
+      "prediction_sha256": "0e2721133204137fce076b8fb2dad31a05de8f815d0db41445f10d42fe0bcb44"
+    },
+    {
+      "kind": "scouter",
+      "seed": 2,
+      "fold": 4,
+      "prediction_sha256": "21368269e95dbc9977146ad0a8ce6cb2ec37dbcef5ed2b195d4fe2ed939ec390"
+    }
+  ],
+  "source_package": "WitnessCell_NextPro2_Continuation_20261102.zip",
+  "scope": "All 30 neural jobs complete; 15 result rows including historical and individual-seed comparators",
+  "evaluation": "Previously opened outcomes, recomputed 2026-11-05; no post-score tuning"
+}

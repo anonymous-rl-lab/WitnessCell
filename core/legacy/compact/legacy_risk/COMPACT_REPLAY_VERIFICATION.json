@@ -1,0 +1,23 @@
+{
+  "status": "PASS_COMPACT_REPLAY",
+  "max_absolute_reproduction_delta": 2.938187887435717e-15,
+  "E22_paper_combo": {
+    "dataset_equal_wmse_ratio": 0.7513124080560089,
+    "dataset_equal_weighted_r2_difference": 0.19080714485260422,
+    "operation_pooled_wmse_ratio": 0.7999650789988587,
+    "operation_pooled_weighted_r2_difference": 0.17384667999599807,
+    "operations": 540,
+    "wmse_ratio_ci95": [
+      0.7031267098300412,
+      0.8018808095232821
+    ],
+    "weighted_r2_difference_ci95": [
+      0.16475305157366246,
+      0.21709866316644713
+    ]
+  },
+  "E23_selection_flags": 6224,
+  "E23_bootstrap_arrays": 122,
+  "verified_bootstrap_array_scope": "all E23 arrays; primary E21 and E22 D arrays; all six E22 P arrays",
+  "original_verdicts_preserved": true
+}

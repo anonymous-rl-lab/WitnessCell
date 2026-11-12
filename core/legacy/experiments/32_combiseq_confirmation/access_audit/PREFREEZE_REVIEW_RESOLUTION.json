@@ -1,0 +1,14 @@
+{
+  "utc": "2026-10-19T22:16:09.583519+00:00",
+  "all_before_freeze_and_expression_processing": true,
+  "resolutions": {
+    "primary_identity": "system_fixed_reference = identical endpoint_control + frozen G; standalonesecondary",
+    "lambda_rule": "unchanged standalone scalarSat+G inner fullSSE selector",
+    "actual_system_invariance": "singleton/chunk/reorder/duplicate/endpoint-swap checks include endpoint term",
+    "audit_failure": "INVALID_RUN before heldout losses",
+    "orientation_weighting": "explicit equal orientation mean before equal run mean",
+    "P_range_name": "fixed-projection conditional sensitivity"
+  },
+  "scientific_sources_changed": false,
+  "wrapper_sha256": "343a27e8221d52a5985ef84d0e77dc5225f717e539564d2be53ef481e37be0f9"
+}

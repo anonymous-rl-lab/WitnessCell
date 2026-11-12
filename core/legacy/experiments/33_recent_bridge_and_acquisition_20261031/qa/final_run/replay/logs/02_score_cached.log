@@ -1,0 +1,24 @@
+{
+  "status": "SCORED_ONCE_ALL_FROZEN_CASES",
+  "freeze_sha256": "764ffd6b5e702a0df0a2bb14f458ac7a2d1030885521cb5b7d4e30a28d76ef65",
+  "scorer_sha256": "0a398bd5907955351bd9dd43106a20a661f76bdb5d5a2269513ddf7da7255fc3",
+  "cases": 8000,
+  "candidate_predictions_replayed": 24000,
+  "refits": 0,
+  "independent_noise_seeds": 1000,
+  "primary_comparison": {
+    "comparison": "OLS_high minus OLS_low",
+    "paired_risk_difference": -0.06062010146619638,
+    "MCSE": 0.00024594499098544486,
+    "MC95_low": -0.06110272951916521,
+    "MC95_high": -0.06013747341322755,
+    "df": 999,
+    "primary": true
+  },
+  "primary_information_value_success": true,
+  "high_OLS_risk_below_intrinsic_low_floor": true,
+  "maximum_replay_error": 0.0,
+  "coverage_flag_count": 0,
+  "truth_role": "Independent analytic population truth after hash verification; no observed query covariates",
+  "claims_limit": "Restricted single-gate candidate class; no biological or unrestricted mechanism-discovery claim"
+}

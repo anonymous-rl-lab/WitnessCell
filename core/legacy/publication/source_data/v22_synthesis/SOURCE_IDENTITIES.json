@@ -1,0 +1,19 @@
+{
+  "source_scope": "Figure 7 descriptive summaries, no new model fitting",
+  "calibration_source": "WitnessCell_Calibration_System_Injection_Run_20261020.zip; independently verified for v22",
+  "qualified_source": "WitnessCell_Qualified_Rectangles_Fixed_Test_20261026.zip; SCORES.json",
+  "files": {
+    "SF12_and_case_by_task.csv": {
+      "bytes": 526,
+      "sha256": "2cbb315189aa6fbb6e2d7682a5712f53482fff1150d1b6b9e040a86f26d0e762"
+    },
+    "calibration_main_summary.csv": {
+      "bytes": 261,
+      "sha256": "be97ed19207a2f92042c9987d759fe2b7ae35335d6671cad867ab45dd0ff025d"
+    },
+    "qualified_rectangles_scores.json": {
+      "bytes": 13502,
+      "sha256": "5ff9f8dff3d6213492b2aead5e6fcdd47c2609f75778a7f2572013cf6ae4a399"
+    }
+  }
+}

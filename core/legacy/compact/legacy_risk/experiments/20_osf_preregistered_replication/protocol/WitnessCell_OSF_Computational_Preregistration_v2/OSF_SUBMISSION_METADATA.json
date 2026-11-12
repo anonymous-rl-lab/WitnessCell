@@ -1,0 +1,15 @@
+{
+  "title": "Preregistered cross-environment computational reproduction of WitnessCell v14",
+  "description": "A confirmatory CPU-only reproduction of 12 frozen WitnessCell v14 split outputs, evidence-gate branches and paired mean-response metrics, plus an integrity audit of the explicitly inherited Gate18 benchmark aggregation. No new biological data are collected and no new v14 raw-h5ad six-metric scoring is claimed.",
+  "category": "Project",
+  "license": "CC BY 4.0 for protocol text; source-code licensing follows grn_repo_v14",
+  "tags": [
+    "AI virtual cell",
+    "computational reproducibility",
+    "perturbation prediction",
+    "preregistration",
+    "WitnessCell"
+  ],
+  "withdrawn_predecessor": "https://osf.io/a2dfr",
+  "registration_url": "INSERT_NEW_OSF_REGISTRATION_URL_AFTER_ACCEPTANCE"
+}

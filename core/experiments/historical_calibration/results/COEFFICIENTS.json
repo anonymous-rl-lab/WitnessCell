@@ -1,0 +1,353 @@
+{
+  "mean": {
+    "intercept": -1.033772613154747
+  },
+  "data_only": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "q_raw": -2.0816681711721685e-16,
+      "q_raw_missing": 0.12500000000000003,
+      "c_raw": -6.730727086790012e-16,
+      "c_raw_missing": 0.12500000000000003,
+      "log_degree": -7.91033905045424e-16,
+      "model_family=kernel_relation": 0.237633341434496,
+      "model_family=low_rank": 0.6312225274725272,
+      "model_family=neural_partner": 0.12619157400139547,
+      "model_family=shared_coefficients": 0.004952557091581108,
+      "modality=RNA": 0.37499999999999967,
+      "modality=growth": 0.6249999999999998
+    },
+    "coefficients": {
+      "q_raw": 4.469216306980956,
+      "q_raw_missing": -2.8287468117313543,
+      "c_raw": -1.2421803862172227,
+      "c_raw_missing": -2.8287468117314765,
+      "log_degree": 5.190075203682951,
+      "model_family=kernel_relation": 8.792247346038284,
+      "model_family=low_rank": -0.04945986295168296,
+      "model_family=neural_partner": -10.932856548720618,
+      "model_family=shared_coefficients": 2.190069065634899,
+      "modality=RNA": 2.8109256049445395,
+      "modality=growth": -2.8109256049444604
+    },
+    "scalers": {
+      "q_raw": {
+        "mean": 0.18113361396265978,
+        "sd": 0.1488224372008566
+      },
+      "c_raw": {
+        "mean": 0.11056662452013356,
+        "sd": 0.16149066729055472
+      },
+      "log_degree": {
+        "mean": 2.973392981886509,
+        "sd": 1.13302226722378
+      }
+    },
+    "alpha": 1.0
+  },
+  "inner_partner": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "inner_partner_gain": 7.068322856364852e-17
+    },
+    "coefficients": {
+      "inner_partner_gain": 8.94365740563167
+    },
+    "scalers": {
+      "inner_partner_gain": {
+        "mean": -3.74317781311964,
+        "sd": 21.968036419275037
+      }
+    },
+    "alpha": 1.0
+  },
+  "inner_full": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "inner_full_gain": -7.409468201025718e-18
+    },
+    "coefficients": {
+      "inner_full_gain": 9.34827764933799
+    },
+    "scalers": {
+      "inner_full_gain": {
+        "mean": 0.419539382676817,
+        "sd": 8.666878379872221
+      }
+    },
+    "alpha": 1.0
+  },
+  "data_and_inner": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "q_raw": -2.0816681711721685e-16,
+      "q_raw_missing": 0.12500000000000003,
+      "c_raw": -6.730727086790012e-16,
+      "c_raw_missing": 0.12500000000000003,
+      "log_degree": -7.91033905045424e-16,
+      "inner_partner_gain": 5.0306980803327406e-17,
+      "inner_full_gain": 1.249000902703301e-16,
+      "model_family=kernel_relation": 0.237633341434496,
+      "model_family=low_rank": 0.6312225274725272,
+      "model_family=neural_partner": 0.12619157400139547,
+      "model_family=shared_coefficients": 0.004952557091581108,
+      "modality=RNA": 0.375,
+      "modality=growth": 0.6249999999999998
+    },
+    "coefficients": {
+      "q_raw": 2.0991079180721504,
+      "q_raw_missing": -1.5447140619027546,
+      "c_raw": 0.46730085268291666,
+      "c_raw_missing": -1.544714061902998,
+      "log_degree": 0.9970370103955576,
+      "inner_partner_gain": -1.2873401891879168,
+      "inner_full_gain": 8.90468668321843,
+      "model_family=kernel_relation": 4.104707605466733,
+      "model_family=low_rank": -0.09349685139093457,
+      "model_family=neural_partner": -4.891505150877466,
+      "model_family=shared_coefficients": 0.8802943968022927,
+      "modality=RNA": 1.7492256410520586,
+      "modality=growth": -1.7492256410519942
+    },
+    "scalers": {
+      "q_raw": {
+        "mean": 0.18113361396265978,
+        "sd": 0.1488224372008566
+      },
+      "c_raw": {
+        "mean": 0.11056662452013356,
+        "sd": 0.16149066729055472
+      },
+      "log_degree": {
+        "mean": 2.973392981886509,
+        "sd": 1.13302226722378
+      },
+      "inner_partner_gain": {
+        "mean": -3.74317781311964,
+        "sd": 21.968036419275037
+      },
+      "inner_full_gain": {
+        "mean": 0.419539382676817,
+        "sd": 8.666878379872221
+      }
+    },
+    "alpha": 1.0
+  },
+  "validation_and_capacity": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "inner_partner_gain": 5.0306980803327406e-17,
+      "inner_full_gain": 1.249000902703301e-16,
+      "log_inner_dims": -8.743006318923108e-16,
+      "log_inner_dims_missing": 0.004262452107279695,
+      "amplitude": -1.2975731600306517e-15,
+      "log_regularization": 5.672545766444159e-16,
+      "log_regularization_missing": 0.12500000000000006,
+      "log_effective_df": -2.7538735181131813e-17,
+      "log_effective_df_missing": 0.8616217738200495,
+      "model_rank": -3.5756987648571936e-16,
+      "model_rank_missing": 0.17025833122815887,
+      "model_family=kernel_relation": 0.237633341434496,
+      "model_family=low_rank": 0.6312225274725272,
+      "model_family=neural_partner": 0.12619157400139547,
+      "model_family=shared_coefficients": 0.004952557091581108,
+      "modality=RNA": 0.375,
+      "modality=growth": 0.6249999999999998
+    },
+    "coefficients": {
+      "inner_partner_gain": -0.05269416075917053,
+      "inner_full_gain": 7.676611774317854,
+      "log_inner_dims": 1.012486713922754,
+      "log_inner_dims_missing": -0.6696671774214032,
+      "amplitude": -0.44200832877139173,
+      "log_regularization": 0.5322589545005487,
+      "log_regularization_missing": -5.03489567560288,
+      "log_effective_df": 0.6984435377478946,
+      "log_effective_df_missing": 0.17348437971904335,
+      "model_rank": -1.253047382987444,
+      "model_rank_missing": 1.6586449067144255,
+      "model_family=kernel_relation": 4.829199637611164,
+      "model_family=low_rank": -0.21131262858071273,
+      "model_family=neural_partner": -4.20197781883047,
+      "model_family=shared_coefficients": -0.4159091901993983,
+      "modality=RNA": 1.435619766065463,
+      "modality=growth": -1.4356197660654233
+    },
+    "scalers": {
+      "inner_partner_gain": {
+        "mean": -3.74317781311964,
+        "sd": 21.968036419275037
+      },
+      "inner_full_gain": {
+        "mean": 0.419539382676817,
+        "sd": 8.666878379872221
+      },
+      "log_inner_dims": {
+        "mean": 5.119778598281716,
+        "sd": 2.737157867133504
+      },
+      "amplitude": {
+        "mean": 0.9555300999729256,
+        "sd": 0.3233005052528489
+      },
+      "log_regularization": {
+        "mean": -0.44875812393923115,
+        "sd": 0.5954703905777139
+      },
+      "log_effective_df": {
+        "mean": 2.2237727197396198,
+        "sd": 0.3228683306640256
+      },
+      "model_rank": {
+        "mean": 3.9915070937312747,
+        "sd": 5.24905813296203
+      }
+    },
+    "alpha": 1.0
+  },
+  "data_validation_capacity": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "q_raw": -2.0816681711721685e-16,
+      "q_raw_missing": 0.12500000000000003,
+      "c_raw": -6.730727086790012e-16,
+      "c_raw_missing": 0.12500000000000003,
+      "log_degree": -7.91033905045424e-16,
+      "inner_partner_gain": 5.0306980803327406e-17,
+      "inner_full_gain": 1.249000902703301e-16,
+      "log_inner_dims": -8.743006318923108e-16,
+      "log_inner_dims_missing": 0.004262452107279695,
+      "amplitude": -1.2975731600306517e-15,
+      "log_regularization": 5.672545766444159e-16,
+      "log_regularization_missing": 0.12500000000000006,
+      "log_effective_df": -2.7538735181131813e-17,
+      "log_effective_df_missing": 0.8616217738200495,
+      "model_rank": -3.5756987648571936e-16,
+      "model_rank_missing": 0.17025833122815887,
+      "model_family=kernel_relation": 0.237633341434496,
+      "model_family=low_rank": 0.6312225274725272,
+      "model_family=neural_partner": 0.12619157400139547,
+      "model_family=shared_coefficients": 0.004952557091581108,
+      "modality=RNA": 0.37499999999999967,
+      "modality=growth": 0.6249999999999998
+    },
+    "coefficients": {
+      "q_raw": 1.251365864346524,
+      "q_raw_missing": -1.1276992843050209,
+      "c_raw": 1.2570572141301244,
+      "c_raw_missing": -1.1276992843050175,
+      "log_degree": 0.8553372591623738,
+      "inner_partner_gain": -1.5494395822129392,
+      "inner_full_gain": 9.017083017362019,
+      "log_inner_dims": 0.5812669494619499,
+      "log_inner_dims_missing": -0.300389790944504,
+      "amplitude": -0.452891920706811,
+      "log_regularization": 0.9039654036042117,
+      "log_regularization_missing": -4.134457209435428,
+      "log_effective_df": 0.7475318960629335,
+      "log_effective_df_missing": -0.13028502711295115,
+      "model_rank": -0.8595104504384663,
+      "model_rank_missing": 1.6233986816880237,
+      "model_family=kernel_relation": 4.355042846782289,
+      "model_family=low_rank": -0.823186769170857,
+      "model_family=neural_partner": -3.4230194735555357,
+      "model_family=shared_coefficients": -0.10883660405514592,
+      "modality=RNA": 1.939333464223514,
+      "modality=growth": -1.939333464223432
+    },
+    "scalers": {
+      "q_raw": {
+        "mean": 0.18113361396265978,
+        "sd": 0.1488224372008566
+      },
+      "c_raw": {
+        "mean": 0.11056662452013356,
+        "sd": 0.16149066729055472
+      },
+      "log_degree": {
+        "mean": 2.973392981886509,
+        "sd": 1.13302226722378
+      },
+      "inner_partner_gain": {
+        "mean": -3.74317781311964,
+        "sd": 21.968036419275037
+      },
+      "inner_full_gain": {
+        "mean": 0.419539382676817,
+        "sd": 8.666878379872221
+      },
+      "log_inner_dims": {
+        "mean": 5.119778598281716,
+        "sd": 2.737157867133504
+      },
+      "amplitude": {
+        "mean": 0.9555300999729256,
+        "sd": 0.3233005052528489
+      },
+      "log_regularization": {
+        "mean": -0.44875812393923115,
+        "sd": 0.5954703905777139
+      },
+      "log_effective_df": {
+        "mean": 2.2237727197396198,
+        "sd": 0.3228683306640256
+      },
+      "model_rank": {
+        "mean": 3.9915070937312747,
+        "sd": 5.24905813296203
+      }
+    },
+    "alpha": 1.0
+  },
+  "validation_reward_cost": {
+    "mean_y": -1.033772613154747,
+    "centers": {
+      "inner_reward": -2.5760643618255585e-16,
+      "inner_reward_missing": 0.33400412087912096,
+      "inner_cost": -9.299202033408172e-16,
+      "inner_cost_missing": 0.33400412087912096,
+      "inner_full_gain": 1.249000902703301e-16,
+      "log_degree": -7.91033905045424e-16,
+      "model_family=kernel_relation": 0.237633341434496,
+      "model_family=low_rank": 0.6312225274725272,
+      "model_family=neural_partner": 0.12619157400139547,
+      "model_family=shared_coefficients": 0.004952557091581108,
+      "modality=RNA": 0.375,
+      "modality=growth": 0.6249999999999998
+    },
+    "coefficients": {
+      "inner_reward": 4.257935561135612,
+      "inner_reward_missing": -0.4115212920745617,
+      "inner_cost": -2.846612863147682,
+      "inner_cost_missing": -0.41152129207455973,
+      "inner_full_gain": 7.638541885230141,
+      "log_degree": -0.3084062072689105,
+      "model_family=kernel_relation": 4.0823990655921305,
+      "model_family=low_rank": 1.155514264295233,
+      "model_family=neural_partner": -5.801351025578884,
+      "model_family=shared_coefficients": 0.5634376956916308,
+      "modality=RNA": -0.0143732060342011,
+      "modality=growth": 0.014373206034177615
+    },
+    "scalers": {
+      "inner_reward": {
+        "mean": 3.2019156354526017,
+        "sd": 4.478771632100871
+      },
+      "inner_cost": {
+        "mean": 2.5967816240578316,
+        "sd": 1.8865025019284805
+      },
+      "inner_full_gain": {
+        "mean": 0.419539382676817,
+        "sd": 8.666878379872221
+      },
+      "log_degree": {
+        "mean": 2.973392981886509,
+        "sd": 1.13302226722378
+      }
+    },
+    "alpha": 1.0
+  }
+}

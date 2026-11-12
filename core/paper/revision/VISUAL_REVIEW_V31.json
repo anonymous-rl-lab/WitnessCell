@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "review": "All main/Methods and SI page contact sheets inspected; enlarged title, availability and newly added equation pages reviewed. Final SI pages 9 and 36 rechecked after wording changes. Individual scientific figure exports match v30.",
+  "documents": [
+    {
+      "file": "WitnessCell_v31_Main_Methods.pdf",
+      "sha256": "4754dd9fcf12277d2ebd66e91defdab079c35943ec4a72b3d0692956d129abf4"
+    },
+    {
+      "file": "WitnessCell_v31_Supplementary_Information.pdf",
+      "sha256": "5ddf25392f6192e3662fb45d83e660d6dbdf2bfca5f71adaefca92272bb62bbb"
+    },
+    {
+      "file": "WitnessCell_v31_Main_Figures.pdf",
+      "sha256": "b4237f867392b85afd3df2e86cdbb688b4ab7723eee6cd1a97163fe16c3cacab"
+    },
+    {
+      "file": "WitnessCell_v31_Supplementary_Figures.pdf",
+      "sha256": "907c0e67d929cb50061b76ea6630e0060c0c8ec0e000a4c6720e27812f43ce20"
+    }
+  ],
+  "observations": [
+    "No clipped text or missing glyphs",
+    "New squared-error identity readable",
+    "Long supplementary tables fit the page",
+    "Main text has 21 pages; SI 44 pages; figure collections 5 and 3 pages"
+  ]
+}

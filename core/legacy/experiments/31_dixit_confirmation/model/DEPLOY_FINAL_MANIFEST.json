@@ -1,0 +1,34 @@
+{
+  "predict_program.py": {
+    "bytes": 2571,
+    "sha256": "6677b5f4d710c1c6354850310138031d5ea65d8d6ee4d0eb3e3150a2ec853843"
+  },
+  "export_deploy.py": {
+    "bytes": 6164,
+    "sha256": "78c89ba594a23fdf894fadfe75725a40f99a75eee9d40fb8390309ed9693b4b9"
+  },
+  "deploy/Dixit_G2M_fold0.npz": {
+    "bytes": 7473,
+    "sha256": "3d6adb721502b8ee32709d39cbd9490b1d9faec8c35941899badc1fc4cd668d7"
+  },
+  "deploy/Dixit_G2M_fold1.npz": {
+    "bytes": 7471,
+    "sha256": "11edc9ad93cc22ae83634b2e5043814aff81684c43dad48835e433e18aab07f4"
+  },
+  "deploy/Dixit_G2M_fold2.npz": {
+    "bytes": 7465,
+    "sha256": "085148ae14967223843102863027979dc58e14ba9e6d2aa091c53c5cd95f6570"
+  },
+  "deploy/EXPORT_COMPLETE.json": {
+    "bytes": 1953,
+    "sha256": "b8a14d8b382401d51285284eec187574e003f5746d6552d3bf3f5d0aed618ed2"
+  },
+  "deploy/README.txt": {
+    "bytes": 821,
+    "sha256": "81eff41e249336a1924e8161d69f7c8ceb5185394b95e3a68a7c7a4b3b82503b"
+  },
+  "deploy/STATE_MANIFEST.json": {
+    "bytes": 2105,
+    "sha256": "11f02b211e250d7a8f3c8dd92189a013a69028b59004002466a3595f58085e80"
+  }
+}

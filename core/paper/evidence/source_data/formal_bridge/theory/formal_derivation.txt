@@ -1,0 +1,100 @@
+Minimal controlled witness: informative double interventions and prediction of a different double
+Independent mathematical review, 2026-10-31
+
+Role of this construction
+This is a deliberately small, exactly specified capability calibration. It demonstrates an intervention-information bridge under a declared mechanism family. It is not evidence of recovery of a general gene-regulatory network, is not a theorem that arbitrary double interventions identify direct edges, and is not a new acquisition algorithm. It must not replace the previously frozen negative real-data results.
+
+1. Assumptions and the two worlds
+
+Let X~Bernoulli(p), 0<p<1. There are six observed mediators A,...,F, each with structural equation Z_j=X. A mediator knockout replaces its equation by Z_j=0. Under do(X=0), every unmanipulated mediator is also zero. Let
+
+  h(A,B,C)=(A+B-AB)(A+C-AC)=A+BC-ABC,
+  Y=alpha_0+sum_j alpha_j Z_j + beta_x X + beta_h h(A,B,C)+epsilon.
+
+The displayed simplification for h uses binary inputs. The error distribution is the same across the two worlds and is independent of X and intervention assignment, with zero mean. Gaussian noise is unnecessary for the population equivalence and squared-risk lower bounds. All alpha coefficients and p are shared between worlds. Fix b != 0 and compare
+
+  World D: (beta_x,beta_h)=(b,0),
+  World H: (beta_x,beta_h)=(0,b).
+
+More generally, any two decompositions with the same beta_x+beta_h agree on the low-information panel. If additional nonlinear terms, unknown bypasses, feedback or arbitrary intervention-specific effects are admitted, the claims below need not hold. The known h and mediator equations are substantive shared priors supplied to every learner.
+
+2. Common pilot, matched added data and untouched queries
+
+The common pilot is control and all seven single knockouts X,A,...,F: eight conditions. Add two mediator-double conditions:
+
+  high-information layout: AB and DE;
+  low-information layout:  AD and BE.
+
+Both add exactly two conditions. A,B,D,E each have degree one, and C,F degree zero, in either added layout. The entire training degree sequence therefore agrees, since the pilot is common. If each condition has n independent cells, both arms cost 10n measured cells; the common pilot costs 8n and must not be omitted.
+
+The fixed query order is AC, AF, EC, EF. None occurs in either training panel. In particular, the acquired informative AB condition is never scored as an unobserved query. If an identity-based design procedure is implemented, AC must be explicitly excluded from its eligible training-candidate set because it is also informative in this mechanism family.
+
+3. Equality of the full measured training laws
+
+For control and every single knockout, h=X pointwise. Knocking out A leaves B=C=X, so h=BC=X; knocking out B or C leaves A=X, so h=X. Knocking out D,E,F leaves h unchanged. Knocking out X gives h=X=0. For AD and BE, h=X also holds pointwise.
+
+The mediator/source vector has exactly the same structural distribution in World D and World H. Because beta_x X+beta_h h=bX on every low-panel condition, the conditional Y law at each measured source/mediator state also agrees. Thus the complete observed joint law, not merely its mean, is identical under the two worlds for every pilot and low-layout condition. This remains true with arbitrarily many cells. Any adaptive statistic or predictor computed from those data has the same distribution in the two worlds.
+
+For AB, h=0 while X remains Bernoulli(p), so the outcome mean differs by pb between worlds. For DE, h=X and the worlds still agree. This is exactly one informative added condition paired with one degree-matching condition; it is not evidence that DE itself adds identifying information.
+
+4. Design rank and the unidentified direction
+
+Use the common linear basis
+
+  phi=(1,A,B,C,D,E,F,X,h),
+
+with nine coefficients. The eight pilot mean-design rows have rank eight for p>0. To see this directly, suppose a coefficient perturbation produces zero mean on every pilot condition. The do(X=0) row sets its intercept to zero. Subtracting each mediator-single row from control sets the corresponding alpha_j perturbation to zero. The control row then sets delta beta_x+delta beta_h=0. Therefore the only remaining kernel is
+
+  span{(0,0,0,0,0,0,0,1,-1)}.
+
+The low rows AD and BE satisfy h=X and do not remove this kernel: low rank is eight. AB has E[X]=p and E[h]=0, so its row kills the remaining direction. The high layout has full rank nine. This is a population identifiability statement; a finite realized sample can be poorly conditioned or lack sufficient X=1 observations.
+
+Using OLS or constrained least squares does not remove the low-panel ambiguity by itself. A unique low solution obtained by a pseudoinverse or regularization reflects its tie-breaking prior. The same learner and prespecified tie rule must be used for both arms. Nonnegativity alone leaves the whole interval beta_x+beta_h=b when b>0 and hence does not resolve this ambiguity.
+
+5. The query contrast and transfer to a genuinely different query
+
+On AC, h=0; on AF, EC and EF, h=X. Hence with query order (AC,AF,EC,EF),
+
+  v=(1,-1,-1,1),
+  Delta=v^T mu_query=-p beta_h.
+
+The intercept, beta_x term and all linear mediator terms cancel. Although the outcome includes linear endpoint effects, the additional nonlinear coefficient is transferred across different knockouts by the shared h basis.
+
+There is also a particularly transparent high-training formula:
+
+  mu_AB - mu_A - mu_B + mu_control = -p beta_h = Delta.
+
+Thus this minimal witness permits prediction of the untouched query rectangle from a measured four-term contrast. It does not require fitting a large network. Its force is in showing an information requirement and a transferable declared mechanism, not in demonstrating algorithmic complexity. It should be compared with this exact contrast-transfer baseline, not only with a deliberately disadvantaged generic predictor.
+
+The observed equality above also explains the principal limitation: h was explicitly supplied as a shared functional form. The known-basis learner is told that AB and AC both turn it off. A generic GRN learner has not thereby learned that relation. If h were learned from a broad dictionary, that would be a different capability test requiring its own identifiability check.
+
+6. Projection and exact minimax constants
+
+Let U be the unsigned 4-by-6 query-incidence matrix. This is a K_2,2 rectangle on partitions {A,E} and {C,F}; rank(U)=3. Its endpoint-eliminating projector is
+
+  P=I-U pinv(U)=v v^T/4,   rank(P)=1.
+
+The query mean difference between World D and World H is d=(pb,0,0,0). Since their entire low-training distributions are identical, for any data-based prediction t and any quadratic norm, the average risk over the two worlds is at least one quarter of the squared separation. Therefore the worst-world risk is at least the same amount. This is the midpoint/parallelogram bound and allows randomized estimators.
+
+With b the separation used above:
+
+  scalar rectangle squared error:       >= p^2 b^2 / 4;
+  four-query mean MSE, ||t-mu||^2/4:     >= p^2 b^2 / 16;
+  projected partner MSE, ||P(t-mu)||^2/4:>= p^2 b^2 / 64;
+  projected partner SSE, ||P(t-mu)||^2:  >= p^2 b^2 / 16.
+
+Indeed ||d||^2=p^2 b^2, while ||P d||^2=p^2 b^2/4. Also the projected MSE equals the squared rectangle error divided by 16. These are population-mean prediction bounds. They must not be reused for per-cell Y prediction, whose signal separation is weighted by p rather than p^2 and whose total risk includes observation noise.
+
+The bound must be reported over the paired two-world problem (equal weighting or worst case). A low-information learner can guess one world perfectly from a prior; good performance on that world alone does not refute nonidentifiability. High information removes the population ambiguity but does not guarantee a finite-sample advantage at arbitrary b, n or noise. Those quantities must be fixed before outcome inspection and capability/noise calibration reported separately.
+
+7. What can legitimately be claimed
+
+Correct: there exists a known binary mechanism family in which equal-cost, equal-degree double-intervention layouts differ in identifiability, and an identifying observed double enables prediction of a separate unmeasured query contrast. This provides a controlled test that an implementation can exploit relevant intervention information.
+
+Incorrect: all double interventions identify direct edges; a query rectangle is itself direct-edge evidence; scalar K562 data identify molecular causal graphs; this is a new general causal discovery algorithm; a synthetic positive validates previous real-data partner prediction; or the prechosen high layout proves a learned procurement policy.
+
+The original direct-edge intervention-order theorem requires its own path-blocking/model assumptions. This witness uses stronger parametric structure and should be credited as a concrete calibration/extension of the existing identifiability argument, not repackaged as a second broad discovery theorem. A correct known-basis ordinary estimator can exploit the informative design; superiority of a special causal algorithm is a separate same-data comparison.
+
+8. Exact verification
+
+enumerate_witness.py exhaustively checks both binary source values for every pilot/low condition; disjoint training/query identities; degree equality; exact rational ranks and kernel at p=1/5,1/2,4/5; the high/query contrast identity; and the exact projector. The algebra in sections 3–6 establishes the claims for general 0<p<1. ENUMERATION_RESULT.json is generated by the script. No model training, real query-label access or numerical parameter search is involved.

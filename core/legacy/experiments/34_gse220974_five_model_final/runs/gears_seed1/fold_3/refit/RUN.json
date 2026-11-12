@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE",
+  "epochs": 15,
+  "selected_epoch": 15,
+  "best": null,
+  "seconds": 452.0900877583772,
+  "parameters": 2925546,
+  "extended": false,
+  "training_cells": 23005
+}

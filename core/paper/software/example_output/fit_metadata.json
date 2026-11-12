@@ -1,0 +1,45 @@
+{
+  "configuration": "released_core/multihead_v14",
+  "alpha": 0.1,
+  "noise_ratio": 0.01,
+  "gamma": 1.0,
+  "known_single_genes": [
+    "G0",
+    "G1",
+    "G2",
+    "G3",
+    "G4",
+    "G5",
+    "G6"
+  ],
+  "training_doubles": [
+    "G0+G1",
+    "G0+G2",
+    "G0+G3",
+    "G0+G4",
+    "G0+G5",
+    "G0+G6",
+    "G0+G7",
+    "G1+G2",
+    "G1+G3",
+    "G1+G4",
+    "G1+G5",
+    "G1+G6",
+    "G1+G7",
+    "G2+G3",
+    "G2+G4",
+    "G2+G5",
+    "G2+G6",
+    "G2+G7"
+  ],
+  "validation_doubles": [
+    "G3+G4",
+    "G3+G5",
+    "G3+G6",
+    "G3+G7",
+    "G4+G5"
+  ],
+  "input_sha256": "567a9d225315779aadc1fc3c2e6cfc9a99fd67c11d54569f01b316ff3684312b",
+  "normalization": "Inherited from user input; no raw-count normalization performed",
+  "output_scope": "Predicted normalized condition means and nonlinear baseline; no calibrated uncertainty or partner-extension score"
+}

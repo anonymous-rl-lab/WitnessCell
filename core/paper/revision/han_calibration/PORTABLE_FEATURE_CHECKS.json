@@ -1,0 +1,107 @@
+{
+  "source_replay": {
+    "HeLa": {
+      "M0": 0.0,
+      "phase2_M0": 0.0,
+      "rank1": 6.7220534694101275e-18,
+      "spectral": 5.204170427930421e-18,
+      "sf12": 6.667843360785852e-18,
+      "v4": 6.396792817664476e-18,
+      "sf12_feature_map": 0.0
+    },
+    "A549": {
+      "M0": 0.0,
+      "phase2_M0": 0.0,
+      "rank1": 6.938893903907228e-18,
+      "spectral": 6.938893903907228e-18,
+      "sf12": 0.0,
+      "v4": 6.858611062375282e-18,
+      "sf12_feature_map": 0.0
+    },
+    "293T": {
+      "M0": 0.0,
+      "phase2_M0": 0.0,
+      "rank1": 6.938893903907228e-18,
+      "spectral": 6.938893903907228e-18,
+      "sf12": 6.938893903907228e-18,
+      "v4": 6.938893903907228e-18,
+      "sf12_feature_map": 0.0
+    }
+  },
+  "common_projected_direction": [
+    {
+      "panel": "common_raw",
+      "source": "HeLa",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 1.8318679906315083e-15
+    },
+    {
+      "panel": "common_raw",
+      "source": "HeLa",
+      "family": "v4",
+      "projected_direction_max_abs_error": 2.220446049250313e-16
+    },
+    {
+      "panel": "common_raw",
+      "source": "A549",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 0.0
+    },
+    {
+      "panel": "common_raw",
+      "source": "A549",
+      "family": "v4",
+      "projected_direction_max_abs_error": 5.022024462952857e-16
+    },
+    {
+      "panel": "common_raw",
+      "source": "293T",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 9.159339953157541e-16
+    },
+    {
+      "panel": "common_raw",
+      "source": "293T",
+      "family": "v4",
+      "projected_direction_max_abs_error": 6.661338147750939e-16
+    },
+    {
+      "panel": "common_published",
+      "source": "HeLa",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 2.1094237467877974e-15
+    },
+    {
+      "panel": "common_published",
+      "source": "HeLa",
+      "family": "v4",
+      "projected_direction_max_abs_error": 2.7755575615628914e-16
+    },
+    {
+      "panel": "common_published",
+      "source": "A549",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 0.0
+    },
+    {
+      "panel": "common_published",
+      "source": "A549",
+      "family": "v4",
+      "projected_direction_max_abs_error": 5.9761223747401e-16
+    },
+    {
+      "panel": "common_published",
+      "source": "293T",
+      "family": "sf12",
+      "projected_direction_max_abs_error": 8.881784197001252e-16
+    },
+    {
+      "panel": "common_published",
+      "source": "293T",
+      "family": "v4",
+      "projected_direction_max_abs_error": 7.355227538141662e-16
+    }
+  ],
+  "source_weights_unchanged": true,
+  "target_model_fits": 0
+}

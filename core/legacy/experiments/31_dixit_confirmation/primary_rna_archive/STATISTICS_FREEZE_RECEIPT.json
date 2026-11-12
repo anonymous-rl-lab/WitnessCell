@@ -1,0 +1,26 @@
+{
+  "frozen_utc": "2026-10-19T10:21:38.806280+00:00",
+  "path": "STATISTICS_IMPLEMENTATION_FREEZE_v1.txt",
+  "sha256": "7f1f182407a5c80ce23c16df12a70353097b563ed626e584d476d4da330cb1d9",
+  "parent_sha256": "8b1426f43aa5f040ddf1b8e837cb2a6d7a61a2b5513f3f5fbb7aa344a525500f",
+  "before_real_data_fit_and_scoring": true,
+  "labels_only_audit": {
+    "scope": "label-only geometry, no expression values read",
+    "node_weight_scheme": "10 draws from 10 genes, multinomial",
+    "draws": 10000,
+    "positive_total_projected_dimension_draws": 7325,
+    "zero_total_projected_dimension_draws": 2675,
+    "individual_zero_dimension_folds": 17204,
+    "histogram_total_projected_dimension": {
+      "2": 1986,
+      "4": 907,
+      "0": 2675,
+      "1": 3247,
+      "3": 512,
+      "5": 413,
+      "9": 165,
+      "6": 93,
+      "15": 2
+    }
+  }
+}

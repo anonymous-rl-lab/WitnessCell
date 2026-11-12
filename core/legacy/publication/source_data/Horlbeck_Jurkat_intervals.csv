@@ -1,0 +1,5 @@
+model,lower,upper,draws,role
+M0,0.0,0.0,10000,conditional gene-composition sensitivity
+M0_repeat_mean,-0.4057604669716627,-0.08939542237762992,10000,conditional gene-composition sensitivity
+rank1_selected,0.01733451159381759,0.12129045811157542,10000,conditional gene-composition sensitivity
+spectral_selected,0.030017069108490044,0.1318729369142008,10000,conditional gene-composition sensitivity

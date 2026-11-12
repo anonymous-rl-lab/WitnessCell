@@ -1,0 +1,5 @@
+panel,n_pairs,n_endpoints,n_models,prior_scored_pairs,outside_prior_score_pairs,pairs_with_imputed_knowledge
+common_raw,88,14,12,88,0,0
+common_published,88,14,12,88,0,0
+full_raw,20359,206,6,88,20271,197
+full_published,20791,205,6,91,20700,203

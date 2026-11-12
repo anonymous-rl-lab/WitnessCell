@@ -1,0 +1,45 @@
+{
+  "checked_on": "2026-10-17",
+  "source_records": [
+    {
+      "key": "wessels_carpool",
+      "confirmed": "Wessels et al., Cas13 RNA Perturb-seq/CaRPool-seq, RNA-targeting Cas13d; study accession GSE213957.",
+      "doi": "10.1038/s41592-022-01705-x",
+      "primary_urls": [
+        "https://www.nature.com/articles/s41592-022-01705-x",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10030154/",
+        "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE213957"
+      ],
+      "limits": "Study provenance does not identify the intersection of the processed cell-barcode sets."
+    },
+    {
+      "key": "schmidt",
+      "confirmed": "Schmidt, R. et al. CRISPR activation and interference screens decode stimulation responses in primary human T cells. Science 375, eabj4008 (2022).",
+      "doi": "10.1126/science.abj4008",
+      "primary_urls": [
+        "https://www.science.org/doi/10.1126/science.abj4008",
+        "https://pubmed.ncbi.nlm.nih.gov/35113687/"
+      ],
+      "input_role": "Original biological study; WitnessCell used its scPerturBench-processed Schmidt input."
+    },
+    {
+      "key": "scouter",
+      "confirmed": "Zhu, O. & Li, J. Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings. Nature Computational Science 6, 21–28 (2026).",
+      "doi": "10.1038/s43588-025-00912-8",
+      "primary_urls": [
+        "https://www.nature.com/articles/s43588-025-00912-8",
+        "https://pubmed.ncbi.nlm.nih.gov/41350457/"
+      ],
+      "date_note": "Online publication 5 December 2025; volume/issue citation year 2026."
+    },
+    {
+      "key": "miller",
+      "confirmed": "Miller, H. E. et al. Deep learning perturbation models can outperform baselines on calibrated metrics. Nature Biotechnology (2026).",
+      "doi": "10.1038/s41587-026-03307-w",
+      "primary_urls": [
+        "https://www.nature.com/articles/s41587-026-03307-w"
+      ],
+      "date_note": "Published 1 October 2026. Citation updated; no change to the archived metric implementation."
+    }
+  ]
+}

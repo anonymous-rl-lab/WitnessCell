@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "comparison_rule": "all statistical fields; exact text/counts and finite floats within atol/rtol",
+  "absolute_tolerance": 1e-12,
+  "relative_tolerance": 1e-12,
+  "numeric_values_compared": 10096,
+  "maximum_absolute_numeric_difference": 0.0,
+  "excluded_top_level_fields": [
+    "completed_utc",
+    "elapsed_seconds",
+    "freeze_sha256"
+  ],
+  "results_groups_compared": 480,
+  "effect_quartile_control_groups_compared": 2,
+  "confidence_intervals_compared": 962,
+  "reproduction": "delivered seen analysis, unchanged protocol and risk methods",
+  "reference_results_sha256": "ce309c44e0d6768fb7911bc67e52af0a5e9c28a431b9f9683709ddeaee2c6659",
+  "reproduced_results_sha256": "0836d38f94b18a61ba9e9191c75b9e79b0bdae14e6a22f951aa50712a9b3a259",
+  "frozen_script_sha256": "c734b294eb3ffc3fe62a05bbcf8ba15ee23d4c6484af615c5cf0068d6dfb34c4",
+  "frozen_plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 3.5548613749997457,
+  "temporary_source_removed": true,
+  "output_directory": "/tmp/witnesscell_seen_reproduction_20261017_independent",
+  "reproduced_results": "/tmp/witnesscell_seen_reproduction_20261017_independent/seen/evaluation/results.json"
+}

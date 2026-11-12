@@ -1,0 +1,61 @@
+{
+  "version": "v39",
+  "status": "PASS",
+  "word_counts": {
+    "version": "v39",
+    "rule": "Whitespace-delimited; Introduction, Results and Discussion; excluding headings, abstract, Methods, availability, references and legends.",
+    "abstract": 127,
+    "main_body": 4774,
+    "methods_excluding_headings": 5538,
+    "references": 46,
+    "main_figures": 5,
+    "supplementary_figures": 7,
+    "supplementary_notes": 24,
+    "supplementary_tables": 57
+  },
+  "pdf_pages": {
+    "WitnessCell_v39_Main_Figures.pdf": 5,
+    "WitnessCell_v39_Supplementary_Information.pdf": 63,
+    "WitnessCell_v39_Main_Methods.pdf": 25,
+    "WitnessCell_v39_Supplementary_Figures.pdf": 7
+  },
+  "si_notes": 24,
+  "si_tables": 57,
+  "off_page_text": [],
+  "fresh_refit_configurations": 7,
+  "independent_sse_max_abs": 4.440892098500626e-16,
+  "all_replay_tables_compared": [
+    "GENE_LOADINGS.csv",
+    "GLOBAL_ATTRIBUTION.csv",
+    "HAN_MODE_DIAGNOSTICS.csv",
+    "HAN_MODE_LOADINGS.csv",
+    "MATCHED_REFERENCE_POOLED.csv",
+    "MATCHED_REFERENCE_SCORES.csv",
+    "MODE_DIAGNOSTICS.csv",
+    "MODULE_GAIN_ATTRIBUTION.csv",
+    "NUMERICAL_CHECKS.csv"
+  ],
+  "new_sources": 0,
+  "preserved_original_figures": [
+    "figures/Fig2_Joint_Intervention_Information.pdf",
+    "figures/Fig3_Prediction_Benchmark.pdf",
+    "figures/Fig3_Prediction_Benchmark.svg",
+    "figures/Fig1_Method.svg",
+    "figures/Fig1_Method.pdf",
+    "figures/Fig5_RNA_Partner_Response.svg",
+    "figures/Fig5_RNA_Partner_Response.pdf",
+    "figures/Fig2_Joint_Intervention_Information.svg",
+    "supplementary_figures/SuppFig1_Research_Applications.svg",
+    "supplementary_figures/SuppFig3_Combination_Support.pdf",
+    "supplementary_figures/SuppFig4_Component_Control.svg",
+    "supplementary_figures/SuppFig1_Research_Applications.pdf",
+    "supplementary_figures/SuppFig2_All_Comparator_Intervals.svg",
+    "supplementary_figures/SuppFig5_Direction_Repeatability.pdf",
+    "supplementary_figures/SuppFig3_Combination_Support.svg",
+    "supplementary_figures/SuppFig4_Component_Control.pdf",
+    "supplementary_figures/SuppFig2_All_Comparator_Intervals.pdf",
+    "supplementary_figures/SuppFig5_Direction_Repeatability.svg"
+  ],
+  "scope": "New v39 global-reference analyses and document integrity; no new retraining of historical RNA, benchmark or Han models.",
+  "author_actions": "Metadata, scientific-module permissions and reviewer access remain author release decisions."
+}

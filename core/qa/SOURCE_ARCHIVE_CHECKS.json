@@ -1,0 +1,26 @@
+[
+  {
+    "archive": "grn_repo_v27.zip",
+    "members": 1472,
+    "all_member_bytes_unchanged": true,
+    "source_sha256": "c57c9bede1ea6458af193d8299701e77e322b816962111c82c9d29f74efeb407"
+  },
+  {
+    "archive": "WitnessCell_Shen2017_Formal_20261108.zip",
+    "members": 204,
+    "all_member_bytes_unchanged": true,
+    "source_sha256": "5f9a840244b41294fe85ddfb2f79e1408753f1a8157da4f98e1969fea73b3985"
+  },
+  {
+    "archive": "WitnessCell_Shen_Jurkat_Partner_Repair_20261108.zip",
+    "members": 351,
+    "all_member_bytes_unchanged": true,
+    "source_sha256": "4b66d24f6fe76a584e9a6a9df981ffd8d8c75efe9ba4840b42b967d3c50aefe3"
+  },
+  {
+    "archive": "WitnessCell_Model_Matched_Gain_and_Calibration_20261108.zip",
+    "members": 57,
+    "all_member_bytes_unchanged": true,
+    "source_sha256": "671691a649992544c5a0078a2aeb68f5e89c40b0322b85ea349fed04ed1f5860"
+  }
+]

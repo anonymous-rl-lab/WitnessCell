@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "score_max_abs": 5.684341886080802e-14,
+  "SF12_coefficient_max_abs": 4.440892098500626e-16,
+  "case_R_coefficient_max_abs": 1.7763568394002505e-15,
+  "case_R_quadratic_max_abs": 4.263256414560601e-14,
+  "contrast_identity_rank": 3,
+  "unique_query_edges": 8
+}

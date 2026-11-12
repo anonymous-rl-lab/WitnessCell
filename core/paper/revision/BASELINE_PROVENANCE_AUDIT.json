@@ -1,0 +1,9 @@
+{
+  "records": 540,
+  "nonidentical_mse": 529,
+  "maximum_absolute_mse_difference": 0.02350000000000002,
+  "scope": "Top-100 double-perturbation saved score rows; no raw baseline cell predictions rescored",
+  "root_cause": "Not adjudicated: exact historical adapted objects and score-generation states are not present in this paper package",
+  "resolution": "Withdraw score-level equivalence; retain official rows; weighted analysis refers only to named archived training-mean additive reference",
+  "score_source_sha256": "795dfc7a51d0539138b7c0510602d8e1bc88d8affe6509d23222ce73994fd4ee"
+}

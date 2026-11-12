@@ -1,0 +1,5149 @@
+{
+  "status": "PASS",
+  "checks": 1028,
+  "inner_svd_max_abs_difference_pp": 2.7422508708241367e-14,
+  "outer_svd_max_sse_difference": 4.440892098500626e-16,
+  "scope": "Independent SVD rescore of all 55 functional inner/outer configurations, exact archived regression metric and selection verification; no RNA predictor retraining or independent biological confirmation.",
+  "items": [
+    {
+      "check": "eligible_rows_configs_panels_studies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_outer_gain_definitions",
+      "passed": true,
+      "details": 3.552713678800501e-14
+    },
+    {
+      "check": "zero_corrections_have_zero_gain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "twelve_coefficients_not_matrix_rank",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no_missing_inner_scores",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "panel_weights_equal",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_K562_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_K562_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_K562_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_Jurkat_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_HeLa_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_A549_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_293T_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_CaRPool_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_CaRPool_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_CaRPool_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_CaRPool_fold3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_CaRPool_fold4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_Dixit_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_Dixit_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_Dixit_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "purged_query_Joung_four_queries",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "study_exclusion_Horlbeck2018",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "study_exclusion_Shen2017",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "study_exclusion_Wessels",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "study_exclusion_Dixit2016",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "study_exclusion_Joung",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_low_fold0",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_low_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_low_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_high_fold0",
+      "passed": true,
+      "details": 1.7763568394002505e-15
+    },
+    {
+      "check": "training_only_alpha_K562_high_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_high_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_low_fold1",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_low_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_low_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_high_fold1",
+      "passed": true,
+      "details": 1.7763568394002505e-14
+    },
+    {
+      "check": "training_only_alpha_K562_high_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_high_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_low_fold2",
+      "passed": true,
+      "details": 2.220446049250313e-14
+    },
+    {
+      "check": "training_only_alpha_K562_low_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_low_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_high_fold2",
+      "passed": true,
+      "details": 8.881784197001252e-15
+    },
+    {
+      "check": "training_only_alpha_K562_high_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_high_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_Jurkat_high",
+      "passed": true,
+      "details": 1.7763568394002505e-15
+    },
+    {
+      "check": "training_only_alpha_Jurkat_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_Jurkat_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_HeLa_high",
+      "passed": true,
+      "details": 1.7319479184152442e-14
+    },
+    {
+      "check": "training_only_alpha_HeLa_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_HeLa_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_A549_high",
+      "passed": true,
+      "details": 4.551914400963142e-15
+    },
+    {
+      "check": "training_only_alpha_A549_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_A549_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_293T_high",
+      "passed": true,
+      "details": 1.1546319456101628e-14
+    },
+    {
+      "check": "training_only_alpha_293T_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_293T_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s0_high_local_support",
+      "passed": true,
+      "details": 1.709743457922741e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s0_low_local_support",
+      "passed": true,
+      "details": 2.220446049250313e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s1_high_local_support",
+      "passed": true,
+      "details": 1.6431300764452317e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s1_low_local_support",
+      "passed": true,
+      "details": 4.884981308350689e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s2_high_local_support",
+      "passed": true,
+      "details": 2.220446049250313e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s2_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s3_high_local_support",
+      "passed": true,
+      "details": 2.2148949341271873e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s3_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": 2.220446049250313e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s4_high_local_support",
+      "passed": true,
+      "details": 2.2148949341271873e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s4_low_local_support",
+      "passed": true,
+      "details": 4.773959005888173e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s0_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s0_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s1_high_local_support",
+      "passed": true,
+      "details": 6.300515664747763e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s1_low_local_support",
+      "passed": true,
+      "details": 1.1324274851176597e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": 1.1102230246251565e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s2_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s2_low_local_support",
+      "passed": true,
+      "details": 4.385380947269368e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s3_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s3_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": 3.9968028886505635e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s4_high_local_support",
+      "passed": true,
+      "details": 2.7422508708241367e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s4_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s0_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s0_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s1_high_local_support",
+      "passed": true,
+      "details": 8.548717289613705e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s1_low_local_support",
+      "passed": true,
+      "details": 1.7319479184152442e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s2_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s2_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s3_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s3_low_local_support",
+      "passed": true,
+      "details": 4.218847493575595e-15
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s4_high_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s4_low_local_support",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_training_SVD_K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": 2.225997164373439e-14
+    },
+    {
+      "check": "training_only_alpha_K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "inner_quadratic_minimizer_K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "decision_hash_unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_low_fold0_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold0_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold0_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold0_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_low_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_low_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_high_fold0_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold0_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold0_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold0_inner_shrink",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_high_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_high_fold0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_low_fold1_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold1_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold1_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold1_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_low_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_low_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_high_fold1_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold1_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold1_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold1_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_high_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_high_fold1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_low_fold2_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_low_fold2_original",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold2_inner_gate",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_low_fold2_inner_shrink",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_low_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_low_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_high_fold2_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold2_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold2_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_high_fold2_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_high_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_high_fold2",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_Jurkat_high_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_Jurkat_high_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_Jurkat_high_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_Jurkat_high_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_Jurkat_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_Jurkat_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_HeLa_high_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_HeLa_high_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_HeLa_high_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_HeLa_high_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_HeLa_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_HeLa_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_A549_high_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_A549_high_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_A549_high_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_A549_high_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_A549_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_A549_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_293T_high_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_293T_high_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_293T_high_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_293T_high_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_293T_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_293T_high",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_high_local_support_zero",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_high_local_support_original",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_high_local_support_inner_gate",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_low_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_low_local_support_original",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_low_local_support_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s0_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_high_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_high_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_low_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_low_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s1_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_high_local_support_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_high_local_support_original",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_high_local_support_inner_gate",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_low_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_low_local_support_original",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_low_local_support_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s2_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_high_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_high_local_support_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_low_local_support_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_low_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_low_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s3_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_high_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_high_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_high_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_low_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f0_s4_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_high_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_high_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_low_local_support_zero",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_low_local_support_original",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_low_local_support_inner_gate",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s0_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_high_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_high_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_high_local_support_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s1_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_high_local_support_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_high_local_support_original",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_high_local_support_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_low_local_support_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_low_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_low_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s2_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_high_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_high_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s3_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_high_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_high_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f1_s4_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_high_local_support_zero",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_high_local_support_original",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_high_local_support_inner_gate",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s0_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s0_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s0_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 3.3306690738754696e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_high_local_support_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_high_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_high_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s1_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_low_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_low_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s1_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s1_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_high_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_high_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_high_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s2_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_low_local_support_zero",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_low_local_support_original",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_low_local_support_inner_gate",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s2_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s2_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_high_local_support_zero",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_high_local_support_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_high_local_support_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s3_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_low_local_support_zero",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s3_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s3_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_high_local_support_zero",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_high_local_support_original",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_high_local_support_inner_gate",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_high_local_support_inner_shrink",
+      "passed": true,
+      "details": 4.440892098500626e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s4_high_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_low_local_support_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_low_local_support_original",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_low_local_support_inner_gate",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_low_local_support_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s4_low_local_support",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_random_degree_switch_chain_zero",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_random_degree_switch_chain_original",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_random_degree_switch_chain_inner_gate",
+      "passed": true,
+      "details": 0.0
+    },
+    {
+      "check": "outer_SVD_K562_layout_f2_s4_random_degree_switch_chain_inner_shrink",
+      "passed": true,
+      "details": 2.220446049250313e-16
+    },
+    {
+      "check": "partner_only_SVD_K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "endpoint_component_preserved_K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_and_inner_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_only_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_data_validation_capacity_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_full_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_inner_partner_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_mean_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_and_capacity_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_fit_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_fit_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_panel_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_panel_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_query_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_query_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_study_all",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "regression_metric_validation_reward_cost_hold_study_active",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b279d3d090",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b279d3d090",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b279d3d090",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b279d3d090",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b21dfa3cbd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b21dfa3cbd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b21dfa3cbd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b21dfa3cbd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_115648e4b3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_115648e4b3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_115648e4b3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_115648e4b3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c7f8ba5c2f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c7f8ba5c2f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c7f8ba5c2f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c7f8ba5c2f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_802a8224c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_802a8224c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_802a8224c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_802a8224c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_158df1704d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_158df1704d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_158df1704d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_158df1704d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_751808a8c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_751808a8c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_751808a8c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_751808a8c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_30d3fa52bd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_30d3fa52bd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_30d3fa52bd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_30d3fa52bd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_42a71790be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_42a71790be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_42a71790be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_42a71790be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_13365fd20d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_13365fd20d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_13365fd20d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_13365fd20d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_4438d18d53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_4438d18d53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_4438d18d53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_4438d18d53",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f77fd1c056",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f77fd1c056",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f77fd1c056",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f77fd1c056",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a0f85a8980",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a0f85a8980",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a0f85a8980",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a0f85a8980",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b7908aeddb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b7908aeddb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b7908aeddb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b7908aeddb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_64e591212b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_64e591212b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_64e591212b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_64e591212b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_6cf9c928fd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_6cf9c928fd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_6cf9c928fd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_6cf9c928fd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_210f28eb76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_210f28eb76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_210f28eb76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_210f28eb76",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_43e41e6343",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_43e41e6343",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_43e41e6343",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_43e41e6343",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_1d9d2c435a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_1d9d2c435a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_1d9d2c435a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_1d9d2c435a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_25f75b4a4d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_25f75b4a4d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_25f75b4a4d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_25f75b4a4d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_8c0b0c6367",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_8c0b0c6367",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_8c0b0c6367",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_8c0b0c6367",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_4f0c2d570a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_4f0c2d570a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_4f0c2d570a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_4f0c2d570a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_38f159f677",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_38f159f677",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_38f159f677",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_38f159f677",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a58e2054de",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a58e2054de",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a58e2054de",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a58e2054de",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_675fc99336",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_675fc99336",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_675fc99336",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_675fc99336",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7a9f8dce19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7a9f8dce19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7a9f8dce19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7a9f8dce19",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_0f51d934f5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_0f51d934f5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_0f51d934f5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_0f51d934f5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f3af84b9e1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f3af84b9e1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f3af84b9e1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f3af84b9e1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a786d18a9b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a786d18a9b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a786d18a9b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a786d18a9b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_6a848bdf18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_6a848bdf18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_6a848bdf18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_6a848bdf18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_df3c2c56bb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_df3c2c56bb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_df3c2c56bb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_df3c2c56bb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_34f2c495dd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_34f2c495dd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_34f2c495dd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_34f2c495dd",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_891b067f5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_891b067f5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_891b067f5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_891b067f5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f33ecaacd0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f33ecaacd0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f33ecaacd0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f33ecaacd0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7bafcdd1fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7bafcdd1fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7bafcdd1fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7bafcdd1fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_51e39c44d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_51e39c44d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_51e39c44d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_51e39c44d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_28f42a4962",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_28f42a4962",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_28f42a4962",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_28f42a4962",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_e57dfd322c",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_e57dfd322c",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_e57dfd322c",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_e57dfd322c",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7267f53444",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7267f53444",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7267f53444",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7267f53444",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_2507af0ebf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_2507af0ebf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_2507af0ebf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_2507af0ebf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_e2bd51bce8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_e2bd51bce8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_e2bd51bce8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_e2bd51bce8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_00811dccd8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_00811dccd8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_00811dccd8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_00811dccd8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_30397c54d5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_30397c54d5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_30397c54d5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_30397c54d5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_64ca741c1e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_64ca741c1e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_64ca741c1e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_64ca741c1e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_bb0f6621e6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_bb0f6621e6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_bb0f6621e6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_bb0f6621e6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_802c53cf74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_802c53cf74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_802c53cf74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_802c53cf74",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_cfd489d3ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_cfd489d3ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_cfd489d3ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_cfd489d3ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_8eef932b79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_8eef932b79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_8eef932b79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_8eef932b79",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_55c399b840",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_55c399b840",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_55c399b840",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_55c399b840",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_5724c8417f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_5724c8417f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_5724c8417f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_5724c8417f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c8d3e7c207",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c8d3e7c207",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c8d3e7c207",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c8d3e7c207",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_1191675f6b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_1191675f6b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_1191675f6b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_1191675f6b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7075d0546a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7075d0546a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7075d0546a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7075d0546a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_58d1a270ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_58d1a270ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_58d1a270ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_58d1a270ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b941ad0141",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b941ad0141",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b941ad0141",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b941ad0141",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_3c335acac9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_3c335acac9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_3c335acac9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_3c335acac9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_99320a0320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_99320a0320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_99320a0320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_99320a0320",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_8c78b3ab77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_8c78b3ab77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_8c78b3ab77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_8c78b3ab77",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f5a8a2dbdc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f5a8a2dbdc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f5a8a2dbdc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f5a8a2dbdc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f1942ea931",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f1942ea931",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f1942ea931",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f1942ea931",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b33ed658a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b33ed658a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b33ed658a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b33ed658a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_6c28c1d02e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_6c28c1d02e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_6c28c1d02e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_6c28c1d02e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_55c1c3b43e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_55c1c3b43e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_55c1c3b43e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_55c1c3b43e",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_8ae1190ddf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_8ae1190ddf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_8ae1190ddf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_8ae1190ddf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a2f2293792",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a2f2293792",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a2f2293792",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a2f2293792",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7d2b6d07c8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7d2b6d07c8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7d2b6d07c8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7d2b6d07c8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a1485f485b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a1485f485b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a1485f485b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a1485f485b",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c1a22419db",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c1a22419db",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c1a22419db",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c1a22419db",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_9349269e36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_9349269e36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_9349269e36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_9349269e36",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c5dbf32461",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c5dbf32461",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c5dbf32461",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c5dbf32461",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_129964ab29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_129964ab29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_129964ab29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_129964ab29",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_89c37082f3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_89c37082f3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_89c37082f3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_89c37082f3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_36014601d6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_36014601d6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_36014601d6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_36014601d6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_7554256bd1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_7554256bd1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_7554256bd1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_7554256bd1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a703f1da18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a703f1da18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a703f1da18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a703f1da18",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_34e9a0a8c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_34e9a0a8c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_34e9a0a8c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_34e9a0a8c3",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_332d8d4568",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_332d8d4568",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_332d8d4568",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_332d8d4568",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_2c8524f52a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_2c8524f52a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_2c8524f52a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_2c8524f52a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a6341ac3fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a6341ac3fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a6341ac3fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a6341ac3fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_5ea2712533",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_5ea2712533",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_5ea2712533",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_5ea2712533",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_39a8fc7d7a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_39a8fc7d7a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_39a8fc7d7a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_39a8fc7d7a",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_b17a689acf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_b17a689acf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_b17a689acf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_b17a689acf",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_1de428b0ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_1de428b0ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_1de428b0ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_1de428b0ad",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_fea938c2fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_fea938c2fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_fea938c2fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_fea938c2fc",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_3ae52dfbf9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_3ae52dfbf9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_3ae52dfbf9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_3ae52dfbf9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f221ee94c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f221ee94c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f221ee94c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f221ee94c6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_4c1779e5a1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_4c1779e5a1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_4c1779e5a1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_4c1779e5a1",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_0dad20d50d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_0dad20d50d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_0dad20d50d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_0dad20d50d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c9219997ac",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c9219997ac",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c9219997ac",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c9219997ac",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_695f2a57be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_695f2a57be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_695f2a57be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_695f2a57be",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_da7e8f4986",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_da7e8f4986",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_da7e8f4986",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_da7e8f4986",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_39f64ecf5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_39f64ecf5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_39f64ecf5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_39f64ecf5d",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_0b8231a685",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_0b8231a685",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_0b8231a685",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_0b8231a685",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_4c47543c38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_4c47543c38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_4c47543c38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_4c47543c38",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_2ecd2bc969",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_2ecd2bc969",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_2ecd2bc969",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_2ecd2bc969",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_163d37b8b7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_163d37b8b7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_163d37b8b7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_163d37b8b7",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_008cb27ce6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_008cb27ce6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_008cb27ce6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_008cb27ce6",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_2f64d254f4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_2f64d254f4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_2f64d254f4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_2f64d254f4",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_d0267f79e9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_d0267f79e9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_d0267f79e9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_d0267f79e9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_3e11892450",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_3e11892450",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_3e11892450",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_3e11892450",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_dda65585d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_dda65585d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_dda65585d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_dda65585d9",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_3a4bdc526f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_3a4bdc526f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_3a4bdc526f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_3a4bdc526f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_5e9b9bee48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_5e9b9bee48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_5e9b9bee48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_5e9b9bee48",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_f2dc4361ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_f2dc4361ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_f2dc4361ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_f2dc4361ef",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_6dcb8bf8a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_6dcb8bf8a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_6dcb8bf8a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_6dcb8bf8a8",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c7844dfacb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c7844dfacb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c7844dfacb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c7844dfacb",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_27036edde0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_27036edde0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_27036edde0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_27036edde0",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_c257446c35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_c257446c35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_c257446c35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_c257446c35",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_33b04bb89f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_33b04bb89f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_33b04bb89f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_33b04bb89f",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "matched_baseline_a378756bf5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_partner_a378756bf5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_full_a378756bf5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "selection_inner_both_nonnegative_a378756bf5",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all_historical_records_retained_in_coverage",
+      "passed": true,
+      "details": null
+    }
+  ]
+}

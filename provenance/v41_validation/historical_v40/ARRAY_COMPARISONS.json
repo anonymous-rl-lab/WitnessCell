@@ -1,0 +1,222 @@
+[
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "B",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "B_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "query_edges",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "rank1_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "rank1_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "rank1_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "rank1_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "spectral_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "spectral_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "spectral_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+    "array": "spectral_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "B",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "B_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "query_edges",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "rank1_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "rank1_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "rank1_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "rank1_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "spectral_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "spectral_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "spectral_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+    "array": "spectral_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "B",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "B_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "query_edges",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "rank1_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "rank1_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "rank1_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "rank1_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "spectral_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "spectral_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "spectral_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+    "array": "spectral_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "B",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "B_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "query_edges",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "rank1_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "rank1_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "rank1_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "rank1_controlled",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "spectral_D",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "spectral_G",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "spectral_D_oof",
+    "max_abs_difference": 0.0
+  },
+  {
+    "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+    "array": "spectral_controlled",
+    "max_abs_difference": 0.0
+  }
+]

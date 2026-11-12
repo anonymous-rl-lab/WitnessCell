@@ -1,0 +1,10 @@
+{
+  "utc": "2026-10-19T21:23:21.498470+00:00",
+  "seconds": 1.960603353996703,
+  "primary": "ref_full",
+  "status": "complete exploratory fixed-reference model",
+  "universe_size": 45,
+  "known_measured_single_endpoints": 10,
+  "single_query_supported": true,
+  "candidate_batch_independent": true
+}

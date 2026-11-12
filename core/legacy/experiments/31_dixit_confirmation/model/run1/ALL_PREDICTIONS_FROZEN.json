@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-19T21:23:47.979500+00:00",
+  "sha256": "3f20bade64eff9a0ba75ba5dbefe355c57db2f7fbc473f03c81614ad6053bf78",
+  "arrays": {
+    "scalar_saturation": "2faf02a9f6908fb9ec01f560e8a961b7cb0428d44fb297e0e2a3c739b9855035",
+    "measured_additive": "c4bdb448293fe1e0b6d3e2afd8e928ebcf0185aa89d9268f191ea88940799777",
+    "raw_matched": "2c0ef55bf02532d65e5cad1c5c26690995dd8a4d931cb3a9c239951394213c1b",
+    "raw_selected": "87aaa4a8d6478444deb21559bfae45f5e0b912321a5b987a001eb980a0f311ed",
+    "raw_fixed_0.1": "42a5132f70cb4c171180ac4b585342be56a2b5f412f8376313306a8bad01a98b",
+    "raw_fixed_1.0": "1396e6d1b621dc18c2cb628f85e31df0817710e6282e9c92353b75831856a18c",
+    "raw_fixed_10.0": "2c3020a42a916b8386b0621e95676341634c34dc544377c3f2f0bed378b5acb5",
+    "query_matched": "c7ff6ca1deb1b57bd0a2f4d29d18d67def70e7d0b82e7d94798e1ce5997e3367",
+    "query_selected": "c7ff6ca1deb1b57bd0a2f4d29d18d67def70e7d0b82e7d94798e1ce5997e3367",
+    "query_fixed_0.1": "8b722bfc60e2e8de2ddfec1f1f40ef75867cb9ef14b552db05c76d9e27e69296",
+    "query_fixed_1.0": "1f9bab44d9107670dd3e72e5dac629bc2eac578fc4b90ef6083a6c4311893449",
+    "query_fixed_10.0": "a070fe3e6e62e5acc4eac96fdd03054bade7d890141483a10fc582c0bd3b8a4d",
+    "global_matched": "f9723bc5c09655b69eb9329a816ed9384cdd489c37df43c1ab4812c66b5b99e3",
+    "global_selected": "f9723bc5c09655b69eb9329a816ed9384cdd489c37df43c1ab4812c66b5b99e3",
+    "global_fixed_0.1": "3193126b37e4c2d7cb3f6463533d338bc56261fc329f0f4037cdbdd9027dff1a",
+    "global_fixed_1.0": "b4267644a1cdf44bda268e5ab5215b78d4988adda53366f05a36bd5210698600",
+    "global_fixed_10.0": "8e628c5465a407e4d8816c732c888a6d5f632afb3f126ac8c17181816a57388a",
+    "complement_matched": "f36b2cd50558f30dd6206e5e07e3e2539aee9d456924cd0716bd3dc0fcf54b1f",
+    "complement_selected": "50455472484080630d752de9b3b34b9e0a585c6e2ced06e4b683a563c8382af6",
+    "complement_fixed_0.1": "0d191a81f4914d1b18ed3b211dfbcdc6eaa841c96e847dc391bb1e53b258b468",
+    "complement_fixed_1.0": "b1bcba97b241e03ace40017b95ced3bb0f1109da530cb26dd9fff4ffe39b9fa6",
+    "complement_fixed_10.0": "a96bcada5398e7336f4b305543779a3f35d40483c9ee0c7da46376172f48d728"
+  },
+  "outer_scored": false
+}

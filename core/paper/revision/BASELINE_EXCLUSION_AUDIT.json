@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "source_sha256": "795dfc7a51d0539138b7c0510602d8e1bc88d8affe6509d23222ce73994fd4ee",
+  "metric_score_columns": [
+    "cor",
+    "mse_score",
+    "edistance_score",
+    "sym_score",
+    "was_score",
+    "DEG_score"
+  ],
+  "higher_scores_are_better": true,
+  "tie_rule": "competition / minimum rank at both metric and operation levels",
+  "original_metric_ranks_exactly_reconstructed": 51840,
+  "original_operation_ranks_exactly_reconstructed": 540,
+  "all_four_WitnessCell_ranks_match_expert_review_within": 1e-12,
+  "conditions": [
+    {
+      "removed": "none",
+      "method": "WitnessCell",
+      "mean_operation_rank": 3.5148148148148146,
+      "position": 1,
+      "methods": 16,
+      "operation_records": 540
+    },
+    {
+      "removed": "linearModel",
+      "method": "WitnessCell",
+      "mean_operation_rank": 3.3407407407407406,
+      "position": 1,
+      "methods": 15,
+      "operation_records": 540
+    },
+    {
+      "removed": "trainMean",
+      "method": "WitnessCell",
+      "mean_operation_rank": 3.3666666666666667,
+      "position": 1,
+      "methods": 15,
+      "operation_records": 540
+    },
+    {
+      "removed": "linearModel+trainMean",
+      "method": "WitnessCell",
+      "mean_operation_rank": 3.1796296296296296,
+      "position": 1,
+      "methods": 14,
+      "operation_records": 540
+    }
+  ],
+  "interpretation": "Sensitivity to comparator inclusion on fixed scores. Mean ranks across different-sized method sets are not performance improvements. Historical score-generation differences remain unresolved.",
+  "no_training": true
+}

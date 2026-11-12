@@ -1,0 +1,12 @@
+{
+  "version": "v38",
+  "rule": "Whitespace-delimited; body includes Introduction, Results, Discussion; excludes headings, abstract, Methods, availability, references and legends. Math tokens are counted under the same rule.",
+  "abstract": 132,
+  "main_body": 4576,
+  "methods_excluding_headings": 5214,
+  "references": 43,
+  "main_figures": 5,
+  "supplementary_figures": 6,
+  "supplementary_notes": 23,
+  "supplementary_tables": 53
+}

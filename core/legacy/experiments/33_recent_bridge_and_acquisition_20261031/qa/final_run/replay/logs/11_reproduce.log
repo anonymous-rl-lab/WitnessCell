@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "exact_json_equal": {
+    "fit/DECISIONS.json": true,
+    "scores/calibration/rows.json": true,
+    "scores/calibration/summary.json": true,
+    "scores/calibration/cases.json": true,
+    "predictions/calibration/geometry.json": true,
+    "gate/ADMISSION.json": true
+  },
+  "outer_files_present": false,
+  "scope": "Frozen training-side experiment; original admission remains false; no outer execution"
+}

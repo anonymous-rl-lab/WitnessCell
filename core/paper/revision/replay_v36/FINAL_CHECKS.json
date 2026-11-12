@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-09T01:49:44.433004+00:00",
+  "folds": 60,
+  "independent_qr_max_abs_sse_difference": 1.5916157281026244e-12,
+  "immutable_model_files_verified": true,
+  "locked_run_files_verified": true,
+  "query_isolation": [
+    {
+      "panel": "common_raw",
+      "calibration_function_accepts_no_query_outcomes": true,
+      "no_file_reads": true,
+      "query_file_values_changed_by": 1000000.0,
+      "alpha_max_change": 0.0,
+      "actual_prediction_runner_max_change": 0.0
+    },
+    {
+      "panel": "common_published",
+      "calibration_function_accepts_no_query_outcomes": true,
+      "no_file_reads": true,
+      "query_file_values_changed_by": 1000000.0,
+      "alpha_max_change": 0.0,
+      "actual_prediction_runner_max_change": 0.0
+    },
+    {
+      "panel": "full_raw",
+      "calibration_function_accepts_no_query_outcomes": true,
+      "no_file_reads": true,
+      "query_file_values_changed_by": 1000000.0,
+      "alpha_max_change": 0.0,
+      "actual_prediction_runner_max_change": 0.0
+    },
+    {
+      "panel": "full_published",
+      "calibration_function_accepts_no_query_outcomes": true,
+      "no_file_reads": true,
+      "query_file_values_changed_by": 1000000.0,
+      "alpha_max_change": 0.0,
+      "actual_prediction_runner_max_change": 0.0
+    }
+  ],
+  "base_model_fit_calls": 0,
+  "scope": "Independent QR rescoring of every pooled arm/model/fold. Control calibration uses target training outcomes; query labels never enter its function. Checks are implementation evidence, not additional biological replications."
+}

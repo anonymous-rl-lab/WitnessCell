@@ -1,0 +1,114 @@
+{
+  "status": "DEPLOYED_GPU_RUNNING",
+  "remote_root": "/root/autodl-tmp/witnesscell_20261107",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "gpu_memory_mib": 32760,
+  "browser_tab": 5,
+  "cpu_jobs_unmodified": true,
+  "local_bundle": "/workspace/shared/witnesscell_autodl_20261107/WitnessCell_AutoDL_Deployment_20261107.zip",
+  "updated_unix": 1794016751.573248,
+  "remote_queue_script": "run_cuda_parallel_20261107.py",
+  "gpu_jobs": [
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      4,
+      2
+    ]
+  ],
+  "source_runtime_fingerprint": {
+    "train_cell_models.py": "e852b201d8dba8021fd7ba45a019c18efbbb1ee42c70de1e5890cb053a29cb1c",
+    "train_cell_models_runtime.py": "87fca328deb2fcd024c734448244023d5ad6b22af722736b477c299e45aeceda",
+    "lazy_cell_data.py": "140e514aca1303a2b1e743f29c3b11ec4c6e22b0968cb3a9d94cb295bf0d121a",
+    "fast_gears_ops.py": "18a1e8f6d43557917705e433763f78a6a08d1e3b82efd1f70476ab09ea2a4f95"
+  },
+  "cpu_jobs_paused_at_checkpoints": true,
+  "cpu_migration_sha256": "046099acbe0cff2c6a92cef15dd8c5da5d46fcd340f03ca1676fff674feb02e5",
+  "gpu_probe_speedup": 15.215156457540878,
+  "reference_replay_max_difference": 4.7524774074858223e-07,
+  "control_library_file_id": "libfile_c40d962a4da481919f6d15dff8562a7f",
+  "cpu_resume_probe": "PASS",
+  "reference_replay": "PASS",
+  "last_remote_status": {
+    "status": "RUNNING",
+    "worker_limit": 2,
+    "active": [
+      {
+        "fold": 3,
+        "seed": 2,
+        "adopted": true,
+        "pid": null,
+        "heartbeat": {
+          "event": "TRAINING",
+          "steps_in_process": 15340,
+          "unix": 1794016492.0925639
+        }
+      },
+      {
+        "fold": 4,
+        "seed": 0,
+        "adopted": false,
+        "pid": 4514,
+        "heartbeat": {
+          "event": "TRAINING",
+          "steps_in_process": 7540,
+          "unix": 1794016492.2665102
+        }
+      }
+    ],
+    "queued": [
+      {
+        "fold": 3,
+        "seed": 0,
+        "ready": true
+      },
+      {
+        "fold": 3,
+        "seed": 1,
+        "ready": true
+      },
+      {
+        "fold": 4,
+        "seed": 1,
+        "ready": true
+      },
+      {
+        "fold": 4,
+        "seed": 2,
+        "ready": true
+      }
+    ],
+    "complete": [],
+    "failures": [],
+    "unix": 1794016492.2987888
+  },
+  "formal_parallel_epoch_seconds": [
+    30.17,
+    28.62
+  ],
+  "remote_queue_log": "/root/autodl-tmp/witnesscell_20261107/queue_parallel.log",
+  "local_coordinator_state": "RUNNING_EXTERNAL_ONLY",
+  "old_completed_jobs": 24,
+  "remote_evidence_sha256": "492f9752f08d41c64868483935b1e8ae784166b7ae113d55bd85f3dfc643b661",
+  "control_library_version": 1,
+  "cpu_migration_library_file_id": "libfile_2985be04e36481918b2d4c21484bd19e",
+  "deployment_artifacts_saved": true
+}

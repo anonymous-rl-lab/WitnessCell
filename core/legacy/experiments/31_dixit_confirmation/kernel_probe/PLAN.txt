@@ -1,0 +1,39 @@
+Fixed-reference fit-time product-kernel probe, 2026-10-20 (Asia/Shanghai)
+
+Status: adaptive retrospective Dixit development, not independent confirmation.
+Purpose: obtain a partner correction defined for a single query and unchanged by
+other requested queries. Primary outcome is FULL G2M program SSE vs the same
+training-local scalar saturation baseline. Query endpoint-P SSE is diagnostic.
+
+Before empirical scoring, freeze these choices:
+1. Same original 45 pair / 10 measured-single endpoint / 3 outer-fold task.
+2. G2M list and training-local scaling are exactly the prior scalar probe's
+   52 uniquely mapped non-target genes. Alpha grid and fit match prior baseline.
+3. Fixed reference F is all unordered, distinct pairs of the allowed measured-
+   single node universe, generated from node identities independently of which
+   queries happen to be requested. Uniform reference weight. Here |F|=45.
+4. K is the full-RNA measured-single symmetric-product kernel. X_F incidence,
+   P_F=I-X_F X_F^+. Globally constrained kernel H=P_F K P_F.
+5. Primary model: fit full scalar saturation residual r_T by KRR in H_TT,
+   normalized by trace(H_TT)/|T|. Predict G_F=H_FT(H_TT+lambda*sI)^-1 r_T.
+   No train endpoint extrapolation and no query-batch projection are appended.
+6. One mechanistic ablation: train endpoint-orthogonal loss, using
+   A=P_T H_TT P_T, G_F=H_FT P_T(A+lambda*sI)^-1 r_T with
+   s=trace(A)/|T|. Its global reference constraint is still exact; only the
+   training fit objective differs. This is not the primary model.
+7. Lambda grid fixed at .1,1,10. The old labels-only cycle3 algorithm generates
+   3 inner held-out sets within each outer train. Sum FULL program SSE on inner
+   held-out queries; tie-break to larger lambda. All normalizations and baseline
+   fitting repeat within each inner training set. No outer labels enter choices.
+8. Selected models and each fixed-grid candidate retained. Optional no-harm
+   train-CV gate is reported as a prespecified comparator, not a new grid.
+9. All selected/fixed predictions freeze before aggregate outer scoring.
+   Saved model is a reference correction vector plus training-local program
+   scale and scalar baseline alpha. Requests simply select entries. Validate
+   singleton, reorder, deletion, addition, duplicated queries and label poisoning.
+10. Bound: initial run within 10 minutes, stop once empirical output and essential
+    engineering checks are complete; no adaptive outer-loss parameter expansion.
+
+Known scope: endpoints already have allowed single-perturbation measurements.
+Reference definition is tied to a frozen endpoint universe; adding a new endpoint
+is a model update. The same Dixit data has already been used in development.

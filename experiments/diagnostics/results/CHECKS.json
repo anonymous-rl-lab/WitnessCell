@@ -1,0 +1,26 @@
+[
+  {
+    "check": "source_direction_replay",
+    "panel": "full_raw",
+    "source": "HeLa",
+    "max_abs": 4.440892098500626e-16
+  },
+  {
+    "check": "source_direction_replay",
+    "panel": "full_raw",
+    "source": "293T",
+    "max_abs": 1.6653345369377348e-16
+  },
+  {
+    "check": "source_direction_replay",
+    "panel": "full_published",
+    "source": "HeLa",
+    "max_abs": 6.661338147750939e-16
+  },
+  {
+    "check": "source_direction_replay",
+    "panel": "full_published",
+    "source": "293T",
+    "max_abs": 2.220446049250313e-16
+  }
+]

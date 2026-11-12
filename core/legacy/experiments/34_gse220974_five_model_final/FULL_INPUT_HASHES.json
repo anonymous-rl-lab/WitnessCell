@@ -1,0 +1,26 @@
+{
+  "data/moments.npz": {
+    "bytes": 22916481,
+    "sha256": "0df41c46a3e395595d4dc4320e4ec4e3c5c4b3b024921a507cb944a606bfc27d"
+  },
+  "data/cells_X.npy": {
+    "bytes": 470283792,
+    "sha256": "cafe69965745334eaf275601151aa8e6e26ae156bc1f29e1319d05d2be0f4047"
+  },
+  "data/cells_index.npz": {
+    "bytes": 23112,
+    "sha256": "8f32e69b71d8c6d51f52ab2312d8235d20debac453397ab692b2baa47a5e6543"
+  },
+  "data/cells.h5": {
+    "bytes": 397030186,
+    "sha256": "4e46cd7bf0bf5585783d4f5c7c4d10395e69d772deccc3b51cd6efb6e6ffb9d9"
+  },
+  "priors/gears/graphs.pt": {
+    "bytes": 9392723,
+    "sha256": "df40ccdfbc3ff1376dff6f76aaa2199f1308393077476151fd7dbfdf80b7c79a"
+  },
+  "priors/genept/mode_embeddings.npz": {
+    "bytes": 121817,
+    "sha256": "a6ea954e6bf997539e1f827d244841454bcdb96ec5a0d5296e166adea425ca30"
+  }
+}

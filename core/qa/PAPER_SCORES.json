@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "mode": "paper_scores",
+  "checks": [
+    {
+      "file": "BENCHMARK_DECOMPOSITION.csv",
+      "rows": 176,
+      "passed": true
+    },
+    {
+      "file": "BENCHMARK_PAIRED_INTERVALS.csv",
+      "rows": 165,
+      "passed": true
+    },
+    {
+      "file": "BENCHMARK_DATASET_ABSOLUTE.csv",
+      "rows": 120,
+      "passed": true
+    },
+    {
+      "file": "RNA_ERROR_BUDGET.csv",
+      "rows": 9,
+      "passed": true
+    },
+    {
+      "file": "RNA_ALL_READOUT_CONTRIBUTIONS.csv",
+      "rows": 14985,
+      "passed": true
+    },
+    {
+      "file": "RNA_ALL_RECTANGLE_GAINS.csv",
+      "rows": 33,
+      "passed": true
+    },
+    {
+      "file": "PAIRPICK_ALL_28_TASKS.csv",
+      "rows": 28,
+      "passed": true
+    },
+    {
+      "file": "PAIRPICK_ALL_TASK_SUMMARY.csv",
+      "rows": 6,
+      "passed": true
+    },
+    {
+      "file": "JURKAT_FOUR_CORNERS_V28.csv",
+      "rows": 32,
+      "passed": true
+    },
+    {
+      "file": "JURKAT_FOUR_CORNER_CONTRASTS_V28.csv",
+      "rows": 12,
+      "passed": true
+    },
+    {
+      "file": "BASELINE_EXCLUSION_SENSITIVITY.csv",
+      "rows": 60,
+      "passed": true
+    }
+  ],
+  "base_model_fits": 0,
+  "scope": "Figures redraw from numerical sources; score replay uses frozen per-operation metrics and saved biological predictions, not original single-cell preprocessing or all competitor inference."
+}

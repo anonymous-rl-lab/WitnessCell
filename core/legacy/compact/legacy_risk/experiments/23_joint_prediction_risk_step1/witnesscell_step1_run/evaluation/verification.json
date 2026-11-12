@@ -1,0 +1,7 @@
+{
+  "all_prespecified_selection_flags_equal": true,
+  "compared_flags": 6224,
+  "query_seed_units": 389,
+  "all_full_replays_float32_exact": true,
+  "all_six_risks_frozen_before_label_evaluation": true
+}

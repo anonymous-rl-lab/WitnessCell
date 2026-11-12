@@ -1,0 +1,18 @@
+{
+  "cell": "A549",
+  "code_sha256": "541eddfe16f8bc5813bbb96398330e9bcb9060994fddd7f73693bb3ac3941a79",
+  "plan_sha256": "5533a026399e46bfb6db4d558b052b2c73b99a08f99eca81441c5826834dcb9b",
+  "input_sha256": "9fcd5cecb2d889d0328690d20fc5c0e414ccf4dfa2d5d03013a00304bd6e4256",
+  "files": {
+    "inner_2_audit.json": "31e820f6e040e5c94f0b559bb6fa09ff050a5f4275c9f512f676e265f59d74ca",
+    "inner_2.npz": "bf3e2c2bb5728603dfcdd202bd1a0ad02108077e8b32e6a435ac256aa02d007f",
+    "inner_1.npz": "053ea5938585933a4e9bbdcf80de6a5cec2deca2cc9182ae39d2cf4a76492810",
+    "inner_1_audit.json": "71213d46557b5006654466e6b0b28e8b2763e2c8ff57ea623c40db4246cd8a62",
+    "final_audit.json": "fd05d62dc9f8d987f52a0faffeca3d3f563bf714270936eeb672609e2f4258d5",
+    "SELECTION_BEFORE_OUTER.json": "515961e8172e9ae478a5cfb3cafb894c04a2c07fdb7ceb32e31c7fb4f5e1cc0f",
+    "PREDICTIONS.npz": "2470454196d853b7a00c4969475350e38f21930c4a0644febbb631c6a8403a22",
+    "inner_0.npz": "5fd2be189f3f10235ebd355b2a5796f1532aff52b2ec2a9592042ec5b1f940e7",
+    "inner_0_audit.json": "b671d2c1bd0118635ae4df29495dc520f5316dcfb5e6dbc00bfea8105e83ce03"
+  },
+  "outer_truth_read": false
+}

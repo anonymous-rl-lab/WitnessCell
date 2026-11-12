@@ -1,0 +1,190 @@
+{
+  "status": "PASS",
+  "requested_stages": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "checks": [
+    {
+      "stages": [
+        "01",
+        "02"
+      ],
+      "result": "PASS",
+      "evidence": "bridge_replay/COMPACT_BRIDGE_REPLAY_RESULT.json"
+    },
+    {
+      "stage": "03",
+      "result": "PASS",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "paired_comparisons.csv",
+        "paired_world_seed_scores.csv",
+        "summary.csv",
+        "weight_replay.csv",
+        "world_summary.csv"
+      ]
+    },
+    {
+      "stage": "04",
+      "result": "PASS",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "coverage_flags.csv",
+        "paired_comparisons.csv",
+        "replay.csv",
+        "seed_scores.csv",
+        "summary.csv",
+        "world_summary.csv"
+      ]
+    },
+    {
+      "stage": "05",
+      "result": "PASS",
+      "scope": "original complete deterministic replay + independent audit"
+    },
+    {
+      "stage": "06",
+      "result": "PASS",
+      "scope": "original complete deterministic replay + independent audit"
+    },
+    {
+      "stage": "07",
+      "result": "PASS",
+      "compared": [
+        "alignment_diagnostic.json",
+        "summary.json",
+        "reference_probe.json"
+      ],
+      "ignored_metadata": [
+        "opened_npz",
+        "npz_opened"
+      ]
+    },
+    {
+      "stage": "08",
+      "result": "PASS",
+      "scope": "fixed local fit/selection/score replay; original failed gate preserved"
+    },
+    {
+      "stage": "09",
+      "result": "PASS",
+      "scope": "30 prediction arrays exact and five JSON exact"
+    }
+  ],
+  "commands": [
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/compact_bridge_replay.py",
+      "args": [
+        "--bridge",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/bridge_experiment_20261031",
+        "--retrospective",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/bridge_retrospective_20261031",
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/bridge_replay"
+      ],
+      "returncode": 0,
+      "log": "logs/00_compact_bridge_replay.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/stage03_rescore/calibration/independent_score.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/01_independent_score.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/stage04_rescore/score_cached.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/02_score_cached.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/stage04_rescore/verify_frozen_statistics.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/03_verify_frozen_statistics.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/one_step_smoke_20261031/independent_audit.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/04_independent_audit.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/one_step_smoke_20261031/reproduce.py",
+      "args": [
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/fresh_smoke"
+      ],
+      "returncode": 0,
+      "log": "logs/05_reproduce.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/admission_calibration_20261031/audit.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/06_audit.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/admission_calibration_20261031/reproduce.py",
+      "args": [
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/fresh_admission"
+      ],
+      "returncode": 0,
+      "log": "logs/07_reproduce.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/direction_alignment_20261031/diagnose_alignment.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/08_diagnose_alignment.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/direction_alignment_20261031/probe_reference.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/09_probe_reference.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/target_aligned_run_20261031/independentcheck.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/10_independentcheck.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/target_aligned_run_20261031/reproduce.py",
+      "args": [
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/fresh_aligned_calibration"
+      ],
+      "returncode": 0,
+      "log": "logs/11_reproduce.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/target_aligned_outer_20261031/independent_outer_audit.py",
+      "args": [],
+      "returncode": 0,
+      "log": "logs/12_independent_outer_audit.log"
+    },
+    {
+      "script": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/target_aligned_outer_20261031/reproduce_outer.py",
+      "args": [
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/fresh_outer"
+      ],
+      "returncode": 0,
+      "log": "logs/13_reproduce_outer.log"
+    }
+  ],
+  "scope": "reproduction of historical frozen outcomes; no new tuning, labels, targets or scientific result",
+  "inner_cache_rebuild_requested": false
+}

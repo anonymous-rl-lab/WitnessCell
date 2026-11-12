@@ -1,0 +1,289 @@
+{
+  "protocol_id": "WitnessCell-step1-v1-20261017",
+  "analysis_role": "prespecified_descriptive_diagnostics_no_new_significance_gate",
+  "source_sha256": "bea09158ea18182e60d53ed93da38b7497058c9ec795571bf84e31e26856c2d8",
+  "inputs": [
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed1/scored_queries.csv",
+      "sha256": "a25b9b914f64abd2216433f96c0b338747d8b6ccf173bda59b064ee81d4f575f",
+      "dataset": "Norman",
+      "seed": 1,
+      "queries": 73
+    },
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed2/scored_queries.csv",
+      "sha256": "a78d1898ed151d7680babeae3b5e3e960cd7b6582457b884f80264c50b98861a",
+      "dataset": "Norman",
+      "seed": 2,
+      "queries": 66
+    },
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed3/scored_queries.csv",
+      "sha256": "3824d97b39945942419b3e941271a1fe3fe68a63cc7f6f10b0aa012592591855",
+      "dataset": "Norman",
+      "seed": 3,
+      "queries": 69
+    },
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed1/scored_queries.csv",
+      "sha256": "b37d985f275f131ddad8aefffa593231310ed199a4f59182b758bfbad737cb46",
+      "dataset": "Wessels",
+      "seed": 1,
+      "queries": 63
+    },
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed2/scored_queries.csv",
+      "sha256": "5fe1470a2e81f58432b1c970ca58949fa5d325e07001ff0d409545c140551546",
+      "dataset": "Wessels",
+      "seed": 2,
+      "queries": 54
+    },
+    {
+      "path": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed3/scored_queries.csv",
+      "sha256": "9020e0cf04cf98253a3b18092427df87320d96b101cb5fc2bda76d4f5425af4c",
+      "dataset": "Wessels",
+      "seed": 3,
+      "queries": 64
+    }
+  ],
+  "endpoint_sensitivity": {
+    "Norman": {
+      "baseline_ratio": 0.7755685377784631,
+      "endpoints": 67,
+      "evaluable_exclusions": 67,
+      "undefined_exclusions": 0,
+      "minimum_leave_endpoint_out_ratio": 0.7279844618299474,
+      "maximum_leave_endpoint_out_ratio": 0.8261414690309379,
+      "exclusions_with_S_ratio_at_least_one": 0,
+      "interpretation": "descriptive sensitivity only; no refitting, confidence interval, significance gate, or best-endpoint selection"
+    },
+    "Wessels": {
+      "baseline_ratio": 0.8572721663865454,
+      "endpoints": 25,
+      "evaluable_exclusions": 25,
+      "undefined_exclusions": 0,
+      "minimum_leave_endpoint_out_ratio": 0.7977082780598981,
+      "maximum_leave_endpoint_out_ratio": 0.8984483571879192,
+      "exclusions_with_S_ratio_at_least_one": 0,
+      "interpretation": "descriptive sensitivity only; no refitting, confidence interval, significance gate, or best-endpoint selection"
+    }
+  },
+  "target_coordinate_summary": [
+    {
+      "dataset": "Norman",
+      "metric": "loss_mse",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.002064548617012819,
+      "mean_seed_B": 0.0026644245196103243,
+      "mean_seed_all": 0.0026739950059194626,
+      "mean_seed_S_minus_B": -0.0005998759025975052,
+      "geometric_seed_ratio_S_B": 0.7755685377784631,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "loss_mse",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.0020905411195104103,
+      "mean_seed_B": 0.002702834346406,
+      "mean_seed_all": 0.0027101542981163864,
+      "mean_seed_S_minus_B": -0.0006122932268955899,
+      "geometric_seed_ratio_S_B": 0.7739482259535944,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "loss_wmse",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.038664457551576645,
+      "mean_seed_B": 0.06073944603077477,
+      "mean_seed_all": 0.051304264363406925,
+      "mean_seed_S_minus_B": -0.02207498847919812,
+      "geometric_seed_ratio_S_B": 0.6289761748168676,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "loss_wmse",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.042522442094976236,
+      "mean_seed_B": 0.0652061916145195,
+      "mean_seed_all": 0.055628575177357274,
+      "mean_seed_S_minus_B": -0.02268374951954326,
+      "geometric_seed_ratio_S_B": 0.6467716803241833,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "loss_top100",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.042291856521130766,
+      "mean_seed_B": 0.0666522408358514,
+      "mean_seed_all": 0.05936691205139858,
+      "mean_seed_S_minus_B": -0.024360384314720634,
+      "geometric_seed_ratio_S_B": 0.6246643136378912,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "loss_top100",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.04333116854986124,
+      "mean_seed_B": 0.06808216285087897,
+      "mean_seed_all": 0.06079945534148313,
+      "mean_seed_S_minus_B": -0.02475099430101772,
+      "geometric_seed_ratio_S_B": 0.6266418040112299,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "weighted_delta_r2",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.5710239732435054,
+      "mean_seed_B": 0.38795959042639677,
+      "mean_seed_all": 0.484333286630394,
+      "mean_seed_S_minus_B": 0.18306438281710866,
+      "geometric_seed_ratio_S_B": null,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Norman",
+      "metric": "weighted_delta_r2",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.6425130006586314,
+      "mean_seed_B": 0.46663127601212767,
+      "mean_seed_all": 0.5550206434554766,
+      "mean_seed_S_minus_B": 0.17588172464650376,
+      "geometric_seed_ratio_S_B": null,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_mse",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.0022521948530842555,
+      "mean_seed_B": 0.002648971290167307,
+      "mean_seed_all": 0.003165016985814073,
+      "mean_seed_S_minus_B": -0.00039677643708305134,
+      "geometric_seed_ratio_S_B": 0.8572721663865454,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_mse",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.0022533960348891957,
+      "mean_seed_B": 0.0026507431337061352,
+      "mean_seed_all": 0.003167304177673328,
+      "mean_seed_S_minus_B": -0.0003973470988169394,
+      "geometric_seed_ratio_S_B": 0.85712123426864,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_wmse",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.03551194386469012,
+      "mean_seed_B": 0.05193583628171671,
+      "mean_seed_all": 0.053152533877637055,
+      "mean_seed_S_minus_B": -0.01642389241702659,
+      "geometric_seed_ratio_S_B": 0.7459742918339751,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_wmse",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.035413505975414226,
+      "mean_seed_B": 0.05180629955857325,
+      "mean_seed_all": 0.05303971352238238,
+      "mean_seed_S_minus_B": -0.016392793583159027,
+      "geometric_seed_ratio_S_B": 0.7457120145151578,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_top100",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.03993334740603967,
+      "mean_seed_B": 0.054662586110188045,
+      "mean_seed_all": 0.06347281912390705,
+      "mean_seed_S_minus_B": -0.014729238704148382,
+      "geometric_seed_ratio_S_B": 0.766150907546303,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "loss_top100",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.03992946184214637,
+      "mean_seed_B": 0.05466390448357774,
+      "mean_seed_all": 0.06347027164905959,
+      "mean_seed_S_minus_B": -0.014734442641431362,
+      "geometric_seed_ratio_S_B": 0.7660605420550507,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "weighted_delta_r2",
+      "coordinate_scope": "without_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.6264582227537129,
+      "mean_seed_B": 0.5398222840595667,
+      "mean_seed_all": 0.44635331329462685,
+      "mean_seed_S_minus_B": 0.0866359386941462,
+      "geometric_seed_ratio_S_B": null,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    },
+    {
+      "dataset": "Wessels",
+      "metric": "weighted_delta_r2",
+      "coordinate_scope": "including_targets",
+      "seeds_required": 3,
+      "mean_seed_S": 0.6268615040875605,
+      "mean_seed_B": 0.5401052179656555,
+      "mean_seed_all": 0.4469408583395979,
+      "mean_seed_S_minus_B": 0.08675628612190502,
+      "geometric_seed_ratio_S_B": null,
+      "seeds_with_unequal_evaluable_S_B_counts": 0,
+      "selection_rule": "original full-batch S/B identities, unchanged across losses and coordinate scopes"
+    }
+  ],
+  "limitations": [
+    "No predictor or score refitting",
+    "Original acceptance identities are fixed for coordinate comparisons",
+    "Only endpoint exclusion reselects half of remaining queries",
+    "Missing optional metrics reduce their paired evaluable sets and may change evaluable S/B counts; counts are reported",
+    "R2 is summarized by arithmetic seed means and S-minus-B, not a ratio",
+    "These diagnostics do not introduce new significance tests or selection gates"
+  ]
+}

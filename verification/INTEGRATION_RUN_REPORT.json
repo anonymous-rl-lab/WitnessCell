@@ -1,0 +1,263 @@
+{
+  "release": "31.0.0",
+  "paper": "v41",
+  "status": "PASS",
+  "predictor_refit_tasks": [],
+  "precision": "exact cache restoration + task-specific numeric tolerances",
+  "tasks": [
+    {
+      "task": "paper_scores",
+      "status": "PASS",
+      "task_fingerprint": "863a40e1758eb2a1598771d4af1f42f748ebaba386d1502320f63e51f39d0fbb",
+      "scope": "Current double-only and full benchmark, original paired bootstrap, RNA rectangle/error budgets, all-task PairPick and baseline exclusion; scoring from frozen metrics and predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/tools/replay_paper.py",
+        "--out",
+        "<OUTPUT>/paper_scores"
+      ],
+      "returncode": 0,
+      "seconds": 3.2725432890001684
+    },
+    {
+      "task": "theory_growth",
+      "status": "PASS",
+      "task_fingerprint": "ed0d4f740c0be2815c3fe4df4f5aa8550da92ee62175a1d204d060fbc4a7fd2d",
+      "scope": "Finite-family target identities/lower bound and saved synthetic prediction scoring; all saved growth predictions independently projected and rescored.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/tools/replay_theory_growth.py",
+        "--out",
+        "<OUTPUT>/theory_growth"
+      ],
+      "returncode": 0,
+      "seconds": 1.0169352430020808
+    },
+    {
+      "task": "core_scores",
+      "status": "PASS",
+      "task_fingerprint": "7f35c724bbacea86410ebc59710cf2c9fc8f5382163a4a4c933b92bbc56a4ed8",
+      "scope": "Original released-core score rows, ablations, aggregate ranks and frozen bootstrap. No competitor retraining.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/legacy/compact/legacy_core/run.py",
+        "--out",
+        "<OUTPUT>/core_scores"
+      ],
+      "returncode": 0,
+      "seconds": 31.715923643001588
+    },
+    {
+      "task": "risk_scores",
+      "status": "PASS",
+      "task_fingerprint": "bc882add9d3d91e65320b54833d2a55dd039ecfef627af18af824628102f3986",
+      "scope": "Original risk-selection and calibration score/moment replay. No new response fitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/legacy/compact/legacy_risk/run.py",
+        "--out",
+        "<OUTPUT>/risk_scores"
+      ],
+      "returncode": 0,
+      "seconds": 6.429071882004791
+    },
+    {
+      "task": "gse220974",
+      "status": "PASS",
+      "task_fingerprint": "bf53b8ab3cbeb007a560c911feb9589b08fb68a2f1dd87fc0b93b1fdf96c58fb",
+      "scope": "Closed five-model experiment; lossless residual/utility replay, all 420 choices and paired comparisons. Large external raw prediction/weight asset indexes retained.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/legacy/experiments/34_gse220974_five_model_final/reproduce.py",
+        "--out",
+        "<OUTPUT>/gse220974"
+      ],
+      "returncode": 0,
+      "seconds": 0.36516546499478864
+    },
+    {
+      "task": "component_control",
+      "status": "PASS",
+      "task_fingerprint": "0383a07314ff5c9f7fb89ccc84ed5030058cb4a8805e237cb36f99c7c3f5156b",
+      "scope": "All 55 functional configurations and 265 RNA candidate/fold rows, repeat and query-panel checks from archived predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/tools/run_portable.py",
+        "--task",
+        "control",
+        "--out",
+        "<OUTPUT>/component_control"
+      ],
+      "returncode": 0,
+      "seconds": 6.838606165001693
+    },
+    {
+      "task": "interfaces",
+      "status": "PASS",
+      "task_fingerprint": "31f180ab7176d9c30c889ec8754eaa591065f5f56f581262aa76e06e384d9eea",
+      "scope": "Runnable RNA/growth/control interface checks; no biological predictor training.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/core/tools/run_portable.py",
+        "--task",
+        "interfaces",
+        "--out",
+        "<OUTPUT>/interfaces"
+      ],
+      "returncode": 0,
+      "seconds": 2.1214118670031894
+    },
+    {
+      "task": "han_transfer_history",
+      "status": "PASS",
+      "task_fingerprint": "984d49b2d0af043c3f3dbc4272311af19c9f1739d59bd7351151e6f10435981b",
+      "scope": "Historical Han compact-count reconstruction, saved frozen predictions, fresh target calibration and independent QR scoring; all original primary and expansion outcomes. No Torch required.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_han_history.py",
+        "--out",
+        "<OUTPUT>/han_transfer_history"
+      ],
+      "returncode": 0,
+      "seconds": 24.92814700600138
+    },
+    {
+      "task": "paper_tables",
+      "status": "PASS",
+      "task_fingerprint": "def2464c3fd9f46cfda7067887a7e2f992b3f952e5eaa1d4d15777004cef1dbf",
+      "scope": "Reaggregate 1,080 native Han scores, rebuild S44-S53 and validate current v41 manuscript identities and claims.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_current.py",
+        "--task",
+        "paper_tables",
+        "--out",
+        "<OUTPUT>/paper_tables"
+      ],
+      "returncode": 0,
+      "seconds": 0.9163757389978855
+    },
+    {
+      "task": "diagnostics",
+      "status": "PASS",
+      "task_fingerprint": "876c6444f938d689335e1dd4c9bf082132c8127fadf46a0acf49b17aa4c6b5f6",
+      "scope": "Training/query repeat correlations and outcome-informed fixed-direction reference optima from saved raw arrays; SI S52\u2013S53.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_current.py",
+        "--task",
+        "diagnostics",
+        "--out",
+        "<OUTPUT>/diagnostics"
+      ],
+      "returncode": 0,
+      "seconds": 0.6658409419978852
+    },
+    {
+      "task": "han_attribution_history",
+      "status": "PASS",
+      "task_fingerprint": "8a17ea96a3f1dbd266569cf481b0c11922e118fe0ae40422691b849c2e38b3b7",
+      "scope": "Historical 999 random directions and nonlinear references; refit comparator baselines/scalars, not source predictors; SI S51.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_current.py",
+        "--task",
+        "attribution",
+        "--out",
+        "<OUTPUT>/han_attribution_history"
+      ],
+      "returncode": 0,
+      "seconds": 22.172042792000866
+    },
+    {
+      "task": "figures",
+      "status": "PASS",
+      "task_fingerprint": "4a50edd15d299d6964091e3031d7017351093dc16bd0864ee6bd6ef98cba93b7",
+      "scope": "Redraw all five current main and seven supplementary figures, including v41 global-reference diagnostics; compare rendered vectors with the paper references.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_current.py",
+        "--task",
+        "figures",
+        "--out",
+        "<OUTPUT>/figures"
+      ],
+      "returncode": 0,
+      "seconds": 22.72848079799587
+    },
+    {
+      "task": "han_native",
+      "status": "PASS",
+      "task_fingerprint": "9182877bb3eb244f302cbe52b9d15cbc760b5da98fe9fedd2d28b98b458f593a",
+      "scope": "Reconstruct final and selected inner predictions from saved rank-one/spectral weights, re-estimate training-side coefficients and reproduce all 60 batches / 1,080 score rows. No predictor retraining.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/experiments/han_native/verification/compact_replay.py",
+        "--root",
+        "<REPOSITORY>/experiments/han_native",
+        "--out",
+        "<OUTPUT>/han_native"
+      ],
+      "returncode": 0,
+      "seconds": 9.989145026003825
+    },
+    {
+      "task": "coverage",
+      "status": "PASS",
+      "task_fingerprint": "6b0235cbc9486fe2d60a89c9de113c3b0149d9b742330e6a820faf3f6862a135",
+      "scope": "Check current v41 titles and source/task mapping for all 57 SI tables and 12 figures.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/check_coverage.py",
+        "--out",
+        "<OUTPUT>/coverage"
+      ],
+      "returncode": 0,
+      "seconds": 0.06403375700028846
+    },
+    {
+      "task": "global_reference",
+      "status": "PASS",
+      "task_fingerprint": "9dc02374e5f1c3d6502a60e4147a0f2d40b4001a2faf62d28d573aa27f42783b",
+      "scope": "v39 seven-configuration saved-matrix replay, scalar/reference diagnostics, S54-S57, Han saved modes and bounded-model checks. No matrix refitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_global.py",
+        "--out",
+        "<OUTPUT>/global_reference"
+      ],
+      "returncode": 0,
+      "seconds": 3.974082897999324
+    },
+    {
+      "task": "reference_sensitivity",
+      "status": "PASS",
+      "task_fingerprint": "2cc12617cbffddf6974593f6e28717f14af6681a28ffe7e597055d29429ee598",
+      "scope": "Current S54D-F and S57B: common-denominator gains, four saturation-reference configurations and full Han direction decomposition; nine CSV tables and independent least-squares checks. Saved predictor replay.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/replay_reference.py",
+        "--out",
+        "<OUTPUT>/reference_sensitivity"
+      ],
+      "returncode": 0,
+      "seconds": 6.732919492002111
+    }
+  ]
+}

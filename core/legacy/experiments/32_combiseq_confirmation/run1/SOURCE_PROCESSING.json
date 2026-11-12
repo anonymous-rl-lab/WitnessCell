@@ -1,0 +1,11 @@
+{
+  "utc": "2026-10-19T22:16:14.107766+00:00",
+  "n_gene_rows": 25912,
+  "n_raw_samples": 1263,
+  "count_file_sha256": "5524623316ae773d4d1d6ea03818934614db3a0ab3763eabc3b0e0aef5d65367",
+  "normalization": "log1p(10000*reads/sample_total)",
+  "min_sample_reads": 948.0,
+  "median_sample_reads": 33434.0,
+  "max_sample_reads": 428940.0,
+  "gene_selection": "none; fixed program lookup only"
+}

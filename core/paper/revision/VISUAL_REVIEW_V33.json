@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reviewed": [
+    "Main manuscript pages1and2 at readable scale",
+    "Main manuscript first12-page contact sheet",
+    "Figure4 complete preview including corrected panel-e title",
+    "Figure4 full caption on manuscript page21",
+    "Final SI first page: title explicitly broken between response task and endpoint/partner learning"
+  ],
+  "findings": "No clipping or overlapping text observed in modified content. Control appears in abstract second sentence before benchmark results and in first Results heading. Figure4e distinguishes retained benefit from exact endpoint preservation. SI title is now two complete lines without a split final word; rendering logs contain no missing-character warnings.",
+  "source": "Current v33 rendered outputs"
+}

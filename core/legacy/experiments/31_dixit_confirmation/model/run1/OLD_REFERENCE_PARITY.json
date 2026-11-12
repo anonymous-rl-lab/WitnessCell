@@ -1,0 +1,30 @@
+{
+  "old_archive_sha256": "58fe36e0693af30c44954a0c066fe79914c80c72bc6209cb7bdb5ea619101ff5",
+  "new_archive_sha256": "3f20bade64eff9a0ba75ba5dbefe355c57db2f7fbc473f03c81614ad6053bf78",
+  "rows": [
+    {
+      "old": "scalar_saturation",
+      "new": "scalar_saturation",
+      "max_abs_difference": 0.0,
+      "PASS": true
+    },
+    {
+      "old": "measured_additive",
+      "new": "measured_additive",
+      "max_abs_difference": 0.0,
+      "PASS": true
+    },
+    {
+      "old": "product_inductive",
+      "new": "raw_matched",
+      "max_abs_difference": 1.124100812432971e-15,
+      "PASS": true
+    },
+    {
+      "old": "product_batch",
+      "new": "query_matched",
+      "max_abs_difference": 2.220446049250313e-16,
+      "PASS": true
+    }
+  ]
+}

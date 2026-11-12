@@ -1,50 +1,34 @@
-# WitnessCell 匿名 GitHub 复现仓库
+# WitnessCell v41精准复现总代码包（代码v31）
 
-这是由 `grn_repo_v18` 整理得到的双盲公开版本，包含：
+**v41配套补充包R1已并入；无需再拼接v39总代码包或v40/v41补丁。** 当前论文、图注与结果对应统一到v41语言精修版。主文、SI和既有科学成果保持完整。
 
-- 工业化 `witnesscell 0.1.0` Python API、CLI、测试与发布工作流；
-- WitnessCell v14 最终条件均值算法及四数据集三种子复现入口；
-- scPerturBench 正式评分表、Gate 21 选择性预测与 Gate 22 指标压力测试；
-- 精确 Witness Risk、estimated Witness Risk 与几何规律验证代码。
+## 快速运行
 
-原始 v18 证据包约 430 MiB。本仓库删除了历史嵌套压缩包、重复版本预测、原始
-公开单细胞矩阵、缓存、编译产物和包含机器绝对路径的日志；保留了最终算法、冻结
-协议、紧凑结果、必要派生输入和原资产校验值。
-
-## 1. 快速验证
+建议Linux、Python 3.12.14；安装依赖后：
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements-repro-v14.txt
-python -m pip install -e ".[dev]" --no-deps
-bash scripts/run_smoke.sh
+python -m pip install -r requirements.txt
+python -B tools/verify.py
+python -B reproduce.py --out ../witnesscell-replay --jobs 2
+python -B tools/verify.py --restored
 ```
 
-## 2. 单个正式 split 复现
+默认16项任务包括原有理论、正式榜单、RNA、功能、风险与选择、分量控制、接口、Han原生权重重放、历史参照、匹配全局参照、v41饱和参照与方向归因、全部12张图及论文对应检查。默认运行不重新训练生物学预测器。
 
-```bash
-DATASETS=Norman SEEDS=1 bash scripts/reproduce_v14.sh
-```
+中断后执行同一命令并增加`--resume`。只运行特定部分用`--tasks`，任务名称见`python reproduce.py --list`。输出必须放在仓库外。
 
-## 3. 四数据集 × 三种子完整均值预测
+可选`global_refit`重拟合七个匹配乘积参照配置；`saturation_refit`重拟合四个饱和参照配置；`paper_pdf`重新排版论文。它们与默认评分重放明确区分。原生Han完整拟合代码和协议仍在`experiments/han_native/`，默认执行保存权重推断与校准。
 
-```bash
-bash scripts/reproduce_v14.sh
-```
+## 清理原则与检查
 
-默认只保留不含测试真值的 `deploy_predictions.npz`，并按数组内容而非 ZIP 时间戳
-核验冻结语义摘要。
+- 当前入口、文稿、图注、参照图和映射统一到v41；过时包装与文稿快照删除并记录。
+- 科学输入、参数、划分、数值精度及必要历史协议不删改。
+- 相同字节的重复文件仅保存一份，运行前按散列恢复原逻辑路径；大CSV无损压缩。
+- 120份Han派生缓存由保存权重重建，无需重复装入；不读取查询结局、不重新训练。
+- 57张SI表和12张图逐项对应到来源、运行任务及复现层级；描述性/协议表不冒称数值实验复算。
 
-## 4. 完整细胞级评分
+详细审计见`docs/AUDIT_REPORT_CN.md`；本次实际运行结果在`verification/`。原始FASTQ及部分大型历史神经权重仍沿用上游获取索引，不属于本包默认重放所需输入。代码文件名中的历史版本号用于固定来源；以根目录入口为准。
 
-```bash
-bash scripts/download_full_data.sh
-```
+## 交付状态
 
-该步骤会下载约 0.9 GiB 的四个公开 `.h5ad.gz`。详细环境隔离、预计耗时、数据
-校验值和完整命令见 `REPRODUCIBILITY.md` 与 `DATA.md`。
-
-公开前请按 `docs/GITHUB_UPLOAD.md` 操作。仓库保持双盲匿名；不要补入作者、单位、
-个人 GitHub 账号、项目 DOI、邮箱或 OSF 身份信息。
+已按GitHub仓库结构整理，包含英文README、依赖锁定、环境诊断、CI流程、本地测试、引用信息和许可证范围。CI配置随包提供，未声称已在GitHub托管环境运行。科学模块统一授权尚需作者完成，本次没有擅自扩大原MIT范围，也没有替用户公开发布仓库。

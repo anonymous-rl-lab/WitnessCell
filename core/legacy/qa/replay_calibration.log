@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "scope": "Compact full-RNA score and selection replay; independent preprocessing-operator fit. No raw-cell or full-expression retraining.",
+  "input_files_hash_verified": 18,
+  "condition_half_scores": 168,
+  "selected_models_verified": 20,
+  "preprocessing_operators_refit": 80,
+  "max_score_abs": 5.204170427930421e-18,
+  "max_selection_gamma_abs": 0.0,
+  "max_selection_risk_abs": 0.0,
+  "independent_WLS_operator_max_abs": 3.1051550219984847e-16,
+  "held_condition_coefficient_max": 0.0,
+  "affine_row_sum_error": 2.220446049250313e-16,
+  "max_headline_mse_abs": 4.336808689942018e-19,
+  "MSE": {
+    "raw": 0.0016236980412967878,
+    "B1_direct7": 0.0014765569342902465,
+    "B2_cal9": 0.0014138392849066214,
+    "B2_cal7": 0.0014362030653591931
+  },
+  "gain_vs_raw_pct": {
+    "raw": 0.0,
+    "B1_direct7": 9.06209795566577,
+    "B2_cal9": 12.924740379840582,
+    "B2_cal7": 11.547404207487332
+  },
+  "cal7_gain_vs_direct7_pct": 2.732970737118967,
+  "cal9_gain_vs_direct7_pct": 4.247560519145999,
+  "cal9_improved_conditions": 20,
+  "condition_count": 21,
+  "cal9_vs_raw_fold_gains_pct": {
+    "0": 5.78723936888077,
+    "1": 19.003442425079374,
+    "2": 12.090947870044221,
+    "3": 25.359070238604208,
+    "4": 20.027609670156842
+  },
+  "cal9_vs_raw_technical_half_gains_pct": {
+    "0": 11.390349841443149,
+    "1": 14.424248318888056
+  },
+  "leave_one_condition_cal9_vs_raw_range_pct": [
+    11.530349980332566,
+    17.96870846772548
+  ],
+  "module_files_verified": 26
+}

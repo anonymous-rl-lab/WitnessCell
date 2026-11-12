@@ -1,0 +1,4 @@
+fold,test_pairs,incidence_rank,contrast_dimensions,selected_policy,lambda,uniform_scalar,amplitude_tau,M0_alpha,M0_eta,M0_gamma,full_gain_percent,projected_gain_percent
+0,15,10,5,uniform,10.0,0.5,16.0,0.5,1.0,0.7769089513584019,0.20136106131053433,0.02930498014194205
+1,15,10,5,uniform,10.0,0.75,4.0,0.5,1.0,0.781382082938934,0.41490274370634683,-0.04778823924496134
+2,15,10,5,uniform,10.0,0.75,4.0,0.5,1.0,0.7655884322038077,0.19528448795314013,-0.07726922836650552

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "01_bridge",
+    "archive": "WitnessCell_NM_NCS_Bridge_20261031.zip",
+    "source_root": "WitnessCell_NM_NCS_Bridge_20261031",
+    "work_alias": "bridge_experiment_20261031",
+    "commands": [
+      "python verify_release.py",
+      "python causal_run/independent_score.py --output ../bridge_causal_rescored",
+      "python growth_run/score_locked.py --allow-evaluation-read"
+    ],
+    "prepare": [
+      "Before score_locked only: move growth_run/scoring_v2 to growth_run/scoring_v2_expected in disposable copy."
+    ],
+    "compare": [
+      "causal scores case_scores.csv,graph_seed_summary.csv,truth_audit.csv,weight_replay.csv and all 144 truth NPZ",
+      "growth TASK_METRICS.csv/.json,SEED_AGGREGATES.json,PAIRED_CONTRASTS.json"
+    ],
+    "caveat": "verify_release,replay_predictions,score_locked require all original SHA-locked inner-model caches; use separately labeled compact verifier if omitted."
+  },
+  {
+    "id": "02_retrospective",
+    "archive": "WitnessCell_Bridge_Retrospective_20261031.zip",
+    "source_root": "bridge_retrospective_20261031",
+    "work_alias": "bridge_retrospective_20261031",
+    "commands": [
+      "python causal_audit/diagnose.py",
+      "python causal_audit/crn_structure_audit.py",
+      "python growth_audit/audit_frozen_design.py",
+      "python growth_audit/exact_invariant.py"
+    ],
+    "requires_alias": [
+      "bridge_experiment_20261031"
+    ],
+    "compare": [
+      "saved diagnostic numeric JSON/CSV; exclude absolute path fields and source execution timing only"
+    ],
+    "caveat": "CRN script regenerates diagnostic synthetic samples, not new fitting or replacement main outcomes."
+  },
+  {
+    "id": "03_known_gate",
+    "archive": "WitnessCell_Targeted_Bridge_Calibration_20261031.zip",
+    "source_root": "WitnessCell_Targeted_Bridge_Calibration_20261031",
+    "work_alias": "target_bridge_calibration_20261031",
+    "commands": [
+      "python calibration/independent_score.py"
+    ],
+    "prepare": [
+      "Move calibration/scores to calibration/scores_expected in disposable copy."
+    ],
+    "compare": [
+      "all scoring CSV files and SCORE_MANIFEST.json"
+    ],
+    "refit": [
+      "Move calibration/frozen_run and calibration/scores; python calibration/prepare_frozen_run.py; python calibration/independent_score.py"
+    ]
+  },
+  {
+    "id": "04_hidden_gate",
+    "archive": "WitnessCell_Formal_Hidden_Mechanism_Bridge_20261031.zip",
+    "source_root": "WitnessCell_Formal_Hidden_Mechanism_Bridge_20261031",
+    "work_alias": "formal_bridge_20261031",
+    "commands": [
+      "python score_cached.py",
+      "python verify_frozen_statistics.py"
+    ],
+    "prepare": [
+      "Move scores to scores_expected in disposable copy."
+    ],
+    "compare": [
+      "statistical scores JSON/CSV, frozen coefficients/predictions; exclude CACHE_EXECUTION elapsed_seconds only"
+    ],
+    "refit": [
+      "Move frozen and scores; python runner.py; python score_cached.py"
+    ]
+  },
+  {
+    "id": "05_smoke",
+    "archive": "WitnessCell_OneStep_Minimal_Smoke_20261031.zip",
+    "source_root": "WitnessCell_OneStep_Minimal_Smoke_20261031",
+    "work_alias": "one_step_smoke_20261031",
+    "commands": [
+      "python independent_audit.py"
+    ],
+    "refit": [
+      "python reproduce.py --out ../fresh_one_step_smoke"
+    ],
+    "compare": [
+      "scores/summary.json exact; core arrays exact in archived environment"
+    ]
+  },
+  {
+    "id": "06_admission",
+    "archive": "WitnessCell_Training_Admission_Calibration_20261031.zip",
+    "source_root": "WitnessCell_Training_Admission_Calibration_20261031",
+    "work_alias": "admission_calibration_20261031",
+    "commands": [
+      "python audit.py"
+    ],
+    "refit": [
+      "python reproduce.py --out ../fresh_admission"
+    ],
+    "compare": [
+      "scores/calibration/summary.json and gate/ADMISSION.json exact; verify no protected outer read"
+    ]
+  },
+  {
+    "id": "07_alignment_diagnosis",
+    "archive": "WitnessCell_Target_Aligned_Repair_20261031.zip",
+    "source_root": "direction_alignment_20261031",
+    "work_alias": "direction_alignment_20261031",
+    "commands": [
+      "python diagnose_alignment.py",
+      "python probe_reference.py"
+    ],
+    "requires_alias": [
+      "admission_calibration_20261031"
+    ],
+    "compare": [
+      "alignment_diagnostic.json,summary.json,reference_probe.json numeric fields; ignore opened_npz/npz_opened absolute paths only"
+    ],
+    "caveat": "probe_reference performs the same 3 fixed training-background spectral refits; no new search or outer read."
+  },
+  {
+    "id": "08_aligned_calibration",
+    "archive": "WitnessCell_Target_Aligned_Run_20261031.zip",
+    "source_root": "target_aligned_run_20261031",
+    "work_alias": "target_aligned_run_20261031",
+    "commands": [
+      "python independentcheck.py",
+      "python reproduce.py --out ../fresh_aligned_calibration"
+    ],
+    "compare": [
+      "six fit/score/prediction/gate JSON exactly; original 5percent gate remains false"
+    ],
+    "caveat": "reproduce.py recomputes 6 dense local posteriors and fixed choices, no background refit."
+  },
+  {
+    "id": "09_outer",
+    "archive": "WitnessCell_Target_Aligned_Outer_20261031.zip",
+    "source_root": "target_aligned_outer_20261031",
+    "work_alias": "target_aligned_outer_20261031",
+    "commands": [
+      "python independent_outer_audit.py",
+      "python reproduce_outer.py ../fresh_outer"
+    ],
+    "compare": [
+      "30 prediction arrays exact and 5 JSON exact; original gate false, continuation authorization remains"
+    ],
+    "caveat": "Replays already-opened six outer outcomes; no refitting or target changes."
+  }
+]

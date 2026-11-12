@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_scientific_files_preserved": 4577,
+  "v39_source_files_integrated": 327,
+  "duplicate_logical_paths": 802,
+  "duplicate_payload_bytes_removed": 53511537,
+  "han_reconstructible_cache_files": 120,
+  "han_reconstructible_cache_bytes_removed": 32449690,
+  "numeric_precision_changed": false,
+  "negative_results_removed": false,
+  "new_source_dependency_zips": 0
+}

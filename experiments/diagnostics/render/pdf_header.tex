@@ -1,0 +1,24 @@
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{fvextra}
+\usepackage{seqsplit}
+\usepackage{etoolbox}
+\usepackage{needspace}
+\definecolor{WitnessTeal}{HTML}{087F8C}
+\definecolor{WitnessInk}{HTML}{233747}
+\AtBeginDocument{\hypersetup{colorlinks=true,linkcolor=WitnessTeal,urlcolor=WitnessTeal}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{WitnessInk}WitnessCell}
+\fancyhead[R]{\small\color{WitnessInk}v37 | Reviewer manuscript}
+\fancyfoot[C]{\small\thepage}
+\setlength{\headheight}{14pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\parskip}{5pt}
+\setcounter{secnumdepth}{0}
+\AtBeginEnvironment{longtable}{\scriptsize\setlength{\tabcolsep}{3pt}}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\},fontsize=\footnotesize}
+\RecustomVerbatimEnvironment{verbatim}{Verbatim}{breaklines,fontsize=\footnotesize}
+\pretocmd{\subsection}{\Needspace{5\baselineskip}}{}{}
+\pretocmd{\subsubsection}{\Needspace{5\baselineskip}}{}{}

@@ -1,0 +1,3 @@
+dataset,comparison,gain,gain_ci_low,gain_ci_high,valid_bootstrap,invalid_bootstrap,adjustment
+Norman,S/C,-0.02841646753385607,-0.13211827240152108,0.0792562462968065,4964,36,50% separately within original TRAIN-OOF predicted-effect quartiles
+Wessels,S/C,0.06683443038222481,-0.0044272517786885235,0.10020794871000882,4970,30,50% separately within original TRAIN-OOF predicted-effect quartiles

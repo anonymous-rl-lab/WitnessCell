@@ -1,0 +1,7 @@
+metric,model,gain_percent
+Repeat 1,rank1_selected,4.454151248519533
+Repeat 1,spectral_selected,8.073014403477895
+Repeat 2,rank1_selected,8.88450601951808
+Repeat 2,spectral_selected,8.269239363511794
+Partner contrast,rank1_selected,6.175030847578611
+Partner contrast,spectral_selected,5.8975342565064315

@@ -1,0 +1,32 @@
+{
+  "models": 15,
+  "tasks": 28,
+  "physical_anchors": 8,
+  "RG_PRESAGE_identical_choices": 28,
+  "RG_regret_reduction_vs_additive_percent": 49.2842094703687,
+  "RG_RNA_reduction_vs_PRESAGE_percent": 2.6975552741595132,
+  "TargetRank_regret_increase_vs_RG_percent": 27.594923265158844,
+  "RG_partner_reduction_vs_additive_percent": 0.4711965911451399,
+  "projection_independent_checks": 13,
+  "partner_degrees": 4,
+  "RG_vs_GEARS_Ensemble": {
+    "mean_regret": 39.586219611289444,
+    "RNA_MSE": 18.90390403959078,
+    "partner_MSE": -2.461934924951814
+  },
+  "RG_vs_Scouter_Ensemble": {
+    "mean_regret": 6.424805560847724,
+    "RNA_MSE": 5.6866456879582135,
+    "partner_MSE": 0.35617720096690064
+  },
+  "RG_vs_StandardRidge_RNA": {
+    "mean_regret": 5.9753096575632,
+    "RNA_MSE": -0.49006598359357945,
+    "partner_MSE": 0.4711965911451399
+  },
+  "RG_vs_SingleB_additive": {
+    "mean_regret": 49.2842094703687,
+    "RNA_MSE": 19.562941008577607,
+    "partner_MSE": 0.4711965911451399
+  }
+}

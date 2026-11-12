@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "round": "WitnessCell_Targeted_Bridge_Calibration_20261031",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "paired_comparisons.csv",
+        "paired_world_seed_scores.csv",
+        "summary.csv",
+        "weight_replay.csv",
+        "world_summary.csv"
+      ],
+      "status": "PASS"
+    },
+    {
+      "round": "WitnessCell_Formal_Hidden_Mechanism_Bridge_20261031",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "coverage_flags.csv",
+        "paired_comparisons.csv",
+        "replay.csv",
+        "seed_scores.csv",
+        "summary.csv",
+        "world_summary.csv"
+      ],
+      "status": "PASS"
+    }
+  ]
+}

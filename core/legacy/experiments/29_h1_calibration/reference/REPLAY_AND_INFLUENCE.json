@@ -1,0 +1,89 @@
+{
+  "score_max_abs_error": 5.204170427930421e-18,
+  "selection_gamma_max_abs": 0.0,
+  "selection_mse_max_abs": 0.0,
+  "candidate_selections_verified": 20,
+  "condition_half_scores_verified": 168,
+  "cal9_conditions_better_than_B1": 18,
+  "cal7_conditions_better_than_B1": 15,
+  "per_arm_diagnostics": {
+    "B1_direct7": {
+      "improved_conditions_vs_raw": 15,
+      "total_conditions": 21,
+      "leave_one_condition_out_gain_pct_range": [
+        7.662626856448107,
+        13.317158440697597
+      ],
+      "largest_positive_contributors": [
+        {
+          "condition": "FERD3L+NR5A2",
+          "absolute_mse_reduction": 0.0005459274268698042
+        },
+        {
+          "condition": "FERD3L+KLF4",
+          "absolute_mse_reduction": 0.0005042801191483715
+        },
+        {
+          "condition": "FERD3L+MSGN1",
+          "absolute_mse_reduction": 0.0004364175873950146
+        }
+      ],
+      "half_gains_pct": {
+        "0": 7.8304471603350745,
+        "1": 10.265748590569657
+      }
+    },
+    "B2_cal9": {
+      "improved_conditions_vs_raw": 20,
+      "total_conditions": 21,
+      "leave_one_condition_out_gain_pct_range": [
+        11.530349980332566,
+        17.96870846772548
+      ],
+      "largest_positive_contributors": [
+        {
+          "condition": "FERD3L+KLF4",
+          "absolute_mse_reduction": 0.0006646986847016565
+        },
+        {
+          "condition": "FERD3L+NR5A2",
+          "absolute_mse_reduction": 0.000568639717088309
+        },
+        {
+          "condition": "FERD3L+MSGN1",
+          "absolute_mse_reduction": 0.0005569246279999687
+        }
+      ],
+      "half_gains_pct": {
+        "0": 11.390349841443149,
+        "1": 14.424248318888056
+      }
+    },
+    "B2_cal7": {
+      "improved_conditions_vs_raw": 17,
+      "total_conditions": 21,
+      "leave_one_condition_out_gain_pct_range": [
+        10.070963505159803,
+        16.145173876330144
+      ],
+      "largest_positive_contributors": [
+        {
+          "condition": "FERD3L+KLF4",
+          "absolute_mse_reduction": 0.0005939518367043218
+        },
+        {
+          "condition": "FERD3L+MSGN1",
+          "absolute_mse_reduction": 0.0005745902540427908
+        },
+        {
+          "condition": "FERD3L+NR5A2",
+          "absolute_mse_reduction": 0.0005617052838202429
+        }
+      ],
+      "half_gains_pct": {
+        "0": 10.224445048604524,
+        "1": 12.840287415599628
+      }
+    }
+  }
+}

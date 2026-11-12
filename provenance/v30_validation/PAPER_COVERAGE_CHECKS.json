@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "supplementary_tables": 57,
+  "main_figures": 5,
+  "supplementary_figures": 7,
+  "mapped_items": 69,
+  "scope": "Complete current item/title/source/task mapping; numerical verification is performed by the mapped task, not inferred from presence."
+}

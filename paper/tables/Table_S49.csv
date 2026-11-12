@@ -1,0 +1,9 @@
+Readout,Baseline,Learner,Vs same-α whole: full (%),Vs optimized-γ whole: full (%),Vs optimized-γ whole: partner (%)
+Reconstructed,Native,Rank one,2.3229,0.5513,0.3386
+Reconstructed,Native,Spectral,0.0044,-0.0016,-0.0018
+Reconstructed,Saturation,Rank one,0.0012,-0.0257,-0.0284
+Reconstructed,Saturation,Spectral,0.0317,-0.0294,-0.0571
+Published,Native,Rank one,3.1683,0.4454,0.3623
+Published,Native,Spectral,0.0000,0.0000,0.0000
+Published,Saturation,Rank one,0.0000,0.0000,0.0000
+Published,Saturation,Spectral,0.0034,-0.0484,-0.0512

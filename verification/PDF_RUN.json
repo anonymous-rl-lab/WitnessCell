@@ -1,0 +1,24 @@
+{
+  "release": "31.0.0",
+  "paper": "v41",
+  "status": "PASS",
+  "predictor_refit_tasks": [],
+  "precision": "exact cache restoration + task-specific numeric tolerances",
+  "tasks": [
+    {
+      "task": "paper_pdf",
+      "status": "PASS",
+      "task_fingerprint": "80c82c3cbb748e1fdc1266db849e6d692a9a25a9f4ddc855cce5e2d0b6d4ccca",
+      "scope": "Render canonical v41 main/Methods, SI and vector figure collections. Requires Pandoc/XeLaTeX and fonts.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "<REPOSITORY>/tools/render_paper.py",
+        "--out",
+        "<PDF_OUTPUT>/paper_pdf"
+      ],
+      "returncode": 0,
+      "seconds": 59.020497846999206
+    }
+  ]
+}

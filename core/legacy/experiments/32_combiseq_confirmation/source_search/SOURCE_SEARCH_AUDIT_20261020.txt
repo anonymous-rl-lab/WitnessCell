@@ -1,0 +1,108 @@
+WitnessCell frozen-program confirmation: public source search audit
+Date: 2026-10-20 Asia/Shanghai
+Scope: identify a new gene-combination RNA source by study design and accessible assets, without computing WitnessCell predictions or inspecting expression matrices.
+
+FINAL UPDATED DECISION: no eligible new genetic-RNA source established in this bounded audit. Joung2023 was downloaded and passed the pair/single graph gate, but lacks an independent unperturbed control required by the pre-existing frozen predictor. It is excluded before expression access or model fitting. DLD-1 was found by the parent access audit to have already been label-screened and insufficiently covered. These exclusions must remain in the confirmation record. The parent is independently checking a clearly labeled drug-combination RNA extension.
+
+JOUNG2023 ACTUAL METADATA AUDIT (PRIMARY CANDIDATE AT TIME OF DOWNLOAD)
+Study: Joung J, Ma S, Tay T, et al. A transcription factor atlas of directed differentiation. Cell 186(1):209-229.e26 (2023).
+DOI: 10.1016/j.cell.2022.11.026
+Primary paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC10344468/
+Combinatorial source GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE217066
+SuperSeries: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE216481
+Separate single-TF atlas (NOT substituted as a matched control): GSE217460.
+Harmonized file: https://zenodo.org/records/13350497/files/JoungZhang2023_combinatorial.h5ad?download=1
+Actual file bytes: 834,073,300. Actual md5: e3d5f50d228b4d90652b6146e97c605c, identical to official Zenodo listing.
+Download completed in about 32 seconds. No expression, count, embedding or model result was inspected.
+
+Design: H1 human embryonic stem cells overexpressing TF ORFs. Cells were transduced in arrayed combinations, pooled at day 4, differentiated in STEMdiff APEL2 and profiled at day 7 using SHARE-seq RNA. This is an ORF overexpression/context extension, not the same intervention as CRISPRi. GEO describes nine RNA libraries S1-S9 and three TF-barcode mapping libraries; the numerical h5ad batch field must not be called nine biological replicates.
+
+Observed metadata only:
+- 167,947 cells x 37,302 annotated genes.
+- 10 TF+GFP single-perturbation conditions (55,925 cells).
+- 44 true double-TF conditions (109,553 cells), representing 10 TF endpoints.
+- Three triple-TF conditions (2,469 cells), outside the planned primary scope.
+- All 44 pairs have matching TF+GFP singles within this same combinatorial arm.
+- No GFP-only, GFP+GFP, mCherry-only, untreated or NT condition exists in the harmonized file.
+- Full graph unsigned incidence rank 10 and endpoint-orthogonal dimension 34.
+- Requiring pair and both singles >=20 cells gives 40 pairs, 10 endpoints, rank 10, orthogonal dimension 30; median pair cells 398.
+- Requiring >=50 cells gives 34 pairs, 10 endpoints, rank 10, orthogonal dimension 24.
+- All nine batches have all ten singles; per-batch >=20-cell eligibility is only 21-28 pairs.
+
+CONTROL RESCUE CHECK (bounded to five minutes):
+The scPerturb authors' converter constructs AnnData using tdata.raw.X, tdata.obs and tdata.raw.var from the original GSE217066 h5ad, then cleans TF strings and adds annotations. It contains no combinatorial-cell filtering step that could explain missing zero-perturbation controls. The original paper enumerates exactly 44 doubles, three triples and ten singles, matching our 57 conditions. The GEO SOFT metadata lists the same day-7 combinatorial libraries, with no separate zero-perturbation control sample. Thus no matched control rescue was established. Original 5.4-GB h5ad was NOT downloaded; no unsupported baseline was invented.
+
+Converter primary source: https://github.com/sanderlab/scPerturb/blob/master/dataset_processing/notebooks/JoungZhang2023.ipynb
+Converter raw download: https://raw.githubusercontent.com/sanderlab/scPerturb/master/dataset_processing/notebooks/JoungZhang2023.ipynb
+GEO metadata: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE217nnn/GSE217066/soft/GSE217066_family.soft.gz
+Only converter code cells were rendered; stored notebook expression outputs were not inspected. The converter describes using raw counts, but that code fact is not a numerical expression inspection.
+
+Audit deliverables, relative to source_search:
+audit_joung_metadata.py
+metadata/metadata_audit.json
+metadata/condition_counts.csv
+metadata/batch_condition_counts.csv
+metadata/pair_coverage.csv
+metadata/cell_metadata_only.csv.gz
+metadata/gene_names_only.csv
+GSE217066_family.soft.gz and .soft
+JoungZhang2023_scPerturb_converter.ipynb and .source.py
+
+HISTORICAL CANDIDATE: DLD-1, SUPERSEDED BY ACCESS AND COVERAGE AUDIT
+The parent audit found its MOI0.5 arm had already been label-screened in v20: 889 pairs in 3,284 exact-double cells, none with >=20 cells. No expression outcomes had been scored. This candidate was not advanced here; the following original source inventory is retained for provenance, not as a current recommendation.
+
+ORIGINAL DLD-1 SOURCE INVENTORY
+Study: Joint analysis of multiply perturbed cells improves statistical power and cost efficiency in Perturb-seq.
+Primary preprint: https://www.biorxiv.org/content/10.64898/2026.07.10.737863v1.full
+DOI: 10.64898/2026.07.10.737863
+Author repository: https://github.com/Genentech/perturbmatch_analysis
+GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337988
+BioProject: https://www.ncbi.nlm.nih.gov/bioproject/1492064
+Status: public 10 July 2026; preprint rather than peer-reviewed paper at source-check time.
+
+Design facts supported by the primary preprint/GEO:
+- A new DLD-1 CRISPRi pilot, 45 targeted promoters representing 35 genes, plus non-targeting guides. GEO describes a 94-guide physical library.
+- Six nominal MOI conditions: 0.1, 0.2, 0.5, 1.0, 3.0, 5.0, with direct infection and spinfection conditions. Do not equate MOI strata with independent biological replicates.
+- Primary study reports 93,305 cells after QC, 88,287 with at least one assigned guide. These totals do NOT certify sufficient exact-double conditions for our task.
+- DLD-1 has inducible Zim3-dCas9; induction is five days. Control, single-guide, and multiply-perturbed cells are part of the design.
+- Its independent newly generated pilot must be distinguished from the same paper's Replogle 2022 reanalysis (Zenodo 21232999); the latter is excluded from this confirmation.
+
+Accessible assets (GEO listing; approximate displayed sizes):
+Base URL: https://ftp.ncbi.nlm.nih.gov/geo/series/GSE337nnn/GSE337988/suppl/
+GSE337988_pilot_processed_objects_MOI_0.1_se.rds     83.4 MB
+GSE337988_pilot_processed_objects_MOI_0.2_se.rds     90.1 MB
+GSE337988_pilot_processed_objects_MOI_0.5_se.rds     83.8 MB
+GSE337988_pilot_processed_objects_MOI_1.0_se.rds     71.8 MB
+GSE337988_pilot_processed_objects_MOI_3.0_se.rds     71.5 MB
+GSE337988_pilot_processed_objects_MOI_5.0_se.rds     54.4 MB
+The corresponding filenames ending _assays.h5 are 21.7, 23.8, 21.8, 17.8, 17.5, 12.4 MB respectively.
+GSE337988_pilot_samplesheet.csv.gz                  219 bytes displayed
+
+The official sample page explains that se.rds provides SummarizedExperiment cell metadata (colData) and gene annotations (rowData); assays.h5 provides QC-filtered count matrices. Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM9864212
+Do NOT use the small released DE matrices as test response labels: their GLM estimates use pooled cells and study-wide modeling, whereas this confirmation requires held-out observed condition responses.
+
+REQUIRED METADATA GATE BEFORE EXPRESSION ACCESS
+1. Verify guide assignment fields and promoter-to-gene mapping. Collapse guides by true target gene only under a fixed rule; two guides against one gene are not a double-gene perturbation.
+2. Count cells with exactly two unique non-targeting-excluded target genes; separately record total guide burden and exclude/stratify additional guides by a predeclared rule.
+3. Verify measured singles and non-targeting controls in the SAME infection/MOI/capture strata, including adequate single endpoints for the fixed-reference domain.
+4. Determine whether enough unique pairs, endpoints, retained graph contrast dimensions, and cells per pair survive a prespecified minimum. Publish failures, not only a selected successful subset.
+5. Check readout annotations for the frozen 54-gene G2M list without reading response values. A failure to map enough fixed readouts must not trigger outcome-guided program substitution.
+6. Fix outer holdout gene pairs across all associated cells, guide variants and capture strata; endpoints may be observed via allowed single perturbations.
+7. Avoid mixing different guide burdens or infection strata so that guide-loading effects on cell cycle masquerade as partner biology. The preprint already discusses guide-burden/cell-cycle effects. This is known background information, not a newly discovered WitnessCell result.
+8. Record exact input downloads, hashes, access times, exclusions and frozen analysis before new expression or prediction evaluation.
+
+INDEPENDENCE AND ACCESS RECORD
+The Joung h5ad was downloaded and its checksum verified, but no expression array was read. Only observation labels/counts of cells, gene names and shape were inspected. No DLD-1 expression matrix was downloaded/read by this source-search agent. No WitnessCell model fit, new prediction, candidate score, response ranking or target-specific effect estimate was computed. Searches returned primary-paper prose, including automatically displayed published conclusions, so sources are outcome-unseen at the measurement/model-evaluation level, not literature-blinded. Prior WitnessCell use was checked by the parent against the project access ledger.
+
+SECONDARY CANDIDATES CHECKED
+1. Yao et al., Scalable genetic screening for regulatory circuits using compressed Perturb-seq. NBT 42, 1282-1295 (2024), online 23 Oct 2023. DOI 10.1038/s41587-023-01964-9; GSE221321. https://www.nature.com/articles/s41587-023-01964-9 ; https://github.com/douglasyao/FR-Perturb . Contains real high-MOI guide-pooling over 598 genes in THP-1 macrophage/LPS experiments, plus a distinct cell-pooling mode. Only the former can supply true multi-gene cells. Exactly-two pair coverage is unverified and likely sparse; broad panel and macrophage context are less directly matched to this frozen G2M task. Do not use FR-Perturb's fitted all-data effects as held-out labels.
+2. Pacalin et al., Bidirectional epigenetic editing reveals hierarchies in gene regulation. NBT 43, 355-368 (2025), online17 May2024. DOI10.1038/s41587-024-02213-3. https://www.nature.com/articles/s41587-024-02213-3 . The primary paper reports a19-gene K562 panel with22 designed dual-guide perturbations (18mixed activation/repression,4same-direction),21detected. It has measured singles but sparse graph and signed-intervention endpoint definitions; not a good primary confirmation of the current fixed gene-knockdown program head without further structural validation.
+3. Snetkova et al., A tunable Cas12a platform for single-cell perturbation screening and CRISPRi. Nature Communications17,7054(2026), DOI10.1038/s41467-026-73955-8, GSE283574. https://pmc.ncbi.nlm.nih.gov/articles/PMC13392366/ . REJECT for primary source: the45factor single-cell library uses two crRNAs directed at EACH SAME gene. Guide multiplexing here does not establish a45gene pairwise RNA panel.
+4. Chang et al., PertSpectra (PSB2026). https://psb.stanford.edu/psb-online/proceedings/psb26/chang_s.pdf . Reports in-house A549 combinatorial TNFa/IL1B/NFkB data,65,648cells and182 perturbation labels. No public download was established in the bounded search. Not executable confirmation yet.
+5. PAIR/scPAIR-seq2026 preprint. https://pmc.ncbi.nlm.nih.gov/articles/PMC13174470/ . Selected NBN-centered combinations and2,271filtered cells; essentially a small hub-centered validation, with bidirectional activation/RNAknockdown and DSB/no-DSB conditions. Insufficient evidence of a broad connected pair graph for current partner-transfer confirmation.
+
+EXCLUDED AS ALREADY USED/RELATED BY TASK INSTRUCTION
+Norman2019; Wessels/CaRPool; Schmidt; Replogle_exp6 and related previously used panels; Dixit2016; Horlbeck K562/Jurkat growth data.
+
+FINAL SOURCE-SEARCH STATUS
+Joung2023 is feasible for future method development with an explicitly redesigned control-free baseline, but INELIGIBLE for the existing control-dependent frozen predictor. Do not change that predictor after viewing this design and then call the result a confirmation of the pre-existing procedure. No expression-based positive or negative result is claimed. The bounded search stopped after documenting the control exclusion.

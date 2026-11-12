@@ -1,0 +1,70 @@
+{
+  "version": "v41",
+  "status": "PASS",
+  "scope": "Editorial revision; saved-prediction replay and independent score checks, no predictor refitting.",
+  "word_counts": {
+    "version": "v41",
+    "rule": "Whitespace-delimited; headings excluded; main is Introduction, Results and Discussion.",
+    "abstract": 136,
+    "main_body": 4765,
+    "methods_excluding_headings": 5736,
+    "references": 46,
+    "main_figures": 5,
+    "supplementary_figures": 7,
+    "supplementary_notes": 24,
+    "supplementary_tables": 57
+  },
+  "source_checks": 60,
+  "markdown_table_rows_checked": 837,
+  "scientific_assets_identical_to_v40": 91,
+  "main_numeric_tokens_unchanged": true,
+  "S42_pdf_all_cells_present": true,
+  "fig4c_reference_label_verified": true,
+  "supplementary_legend_copies_identical": true,
+  "replay": {
+    "status": "PASS",
+    "four_configurations_refitted": false,
+    "han_predictors_refitted": false,
+    "base_code": "grn_repo_v30_paper_v39.zip",
+    "paper_version": "v41"
+  },
+  "nine_tables_max_abs_difference": 0.0,
+  "independent_baseline_solves": 16,
+  "independent_baseline_max_abs_difference": 1.554312234475219e-14,
+  "han_gain_max_abs_difference": 2.220446049250313e-14,
+  "pdf_checks": [
+    {
+      "file": "WitnessCell_v41_Main_Figures.pdf",
+      "pages": 5,
+      "outside": []
+    },
+    {
+      "file": "WitnessCell_v41_Main_Methods.pdf",
+      "pages": 26,
+      "outside": []
+    },
+    {
+      "file": "WitnessCell_v41_Supplementary_Figures.pdf",
+      "pages": 7,
+      "outside": []
+    },
+    {
+      "file": "WitnessCell_v41_Supplementary_Information.pdf",
+      "pages": 64,
+      "outside": []
+    }
+  ],
+  "visual_review": [
+    "Main first page",
+    "Fig.4",
+    "SI S1",
+    "SI interface page",
+    "SI S42"
+  ],
+  "unchanged_main_figures": [
+    1,
+    2,
+    3,
+    5
+  ]
+}

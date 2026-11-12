@@ -1,0 +1,218 @@
+{
+  "source": "Pre-existing Dixit gene-identifier annotations, read only identifiers, not expression values",
+  "source_npz_sha256": "b306ac40bb9dd365b4b0b1b7291bf1d7c18f8e4d990f289928cce603ac526d1e",
+  "rows": [
+    {
+      "symbol": "HMGB2",
+      "ensembl": "ENSG00000164104"
+    },
+    {
+      "symbol": "CDK1",
+      "ensembl": "ENSG00000170312"
+    },
+    {
+      "symbol": "NUSAP1",
+      "ensembl": "ENSG00000137804"
+    },
+    {
+      "symbol": "UBE2C",
+      "ensembl": "ENSG00000175063"
+    },
+    {
+      "symbol": "BIRC5",
+      "ensembl": "ENSG00000089685"
+    },
+    {
+      "symbol": "TPX2",
+      "ensembl": "ENSG00000088325"
+    },
+    {
+      "symbol": "TOP2A",
+      "ensembl": "ENSG00000131747"
+    },
+    {
+      "symbol": "NDC80",
+      "ensembl": "ENSG00000080986"
+    },
+    {
+      "symbol": "CKS2",
+      "ensembl": "ENSG00000123975"
+    },
+    {
+      "symbol": "NUF2",
+      "ensembl": "ENSG00000143228"
+    },
+    {
+      "symbol": "CKS1B",
+      "ensembl": "ENSG00000173207"
+    },
+    {
+      "symbol": "MKI67",
+      "ensembl": "ENSG00000148773"
+    },
+    {
+      "symbol": "TMPO",
+      "ensembl": "ENSG00000120802"
+    },
+    {
+      "symbol": "CENPF",
+      "ensembl": "ENSG00000117724"
+    },
+    {
+      "symbol": "TACC3",
+      "ensembl": "ENSG00000013810"
+    },
+    {
+      "symbol": "SMC4",
+      "ensembl": "ENSG00000113810"
+    },
+    {
+      "symbol": "CCNB2",
+      "ensembl": "ENSG00000157456"
+    },
+    {
+      "symbol": "CKAP2L",
+      "ensembl": "ENSG00000169607"
+    },
+    {
+      "symbol": "CKAP2",
+      "ensembl": "ENSG00000136108"
+    },
+    {
+      "symbol": "AURKB",
+      "ensembl": "ENSG00000178999"
+    },
+    {
+      "symbol": "BUB1",
+      "ensembl": "ENSG00000169679"
+    },
+    {
+      "symbol": "KIF11",
+      "ensembl": "ENSG00000138160"
+    },
+    {
+      "symbol": "ANP32E",
+      "ensembl": "ENSG00000143401"
+    },
+    {
+      "symbol": "TUBB4B",
+      "ensembl": "ENSG00000188229"
+    },
+    {
+      "symbol": "GTSE1",
+      "ensembl": "ENSG00000075218"
+    },
+    {
+      "symbol": "KIF20B",
+      "ensembl": "ENSG00000138182"
+    },
+    {
+      "symbol": "HJURP",
+      "ensembl": "ENSG00000123485"
+    },
+    {
+      "symbol": "CDCA3",
+      "ensembl": "ENSG00000111665"
+    },
+    {
+      "symbol": "CDC20",
+      "ensembl": "ENSG00000117399"
+    },
+    {
+      "symbol": "TTK",
+      "ensembl": "ENSG00000112742"
+    },
+    {
+      "symbol": "CDC25C",
+      "ensembl": "ENSG00000158402"
+    },
+    {
+      "symbol": "KIF2C",
+      "ensembl": "ENSG00000142945"
+    },
+    {
+      "symbol": "RANGAP1",
+      "ensembl": "ENSG00000100401"
+    },
+    {
+      "symbol": "NCAPD2",
+      "ensembl": "ENSG00000010292"
+    },
+    {
+      "symbol": "DLGAP5",
+      "ensembl": "ENSG00000126787"
+    },
+    {
+      "symbol": "CDCA2",
+      "ensembl": "ENSG00000184661"
+    },
+    {
+      "symbol": "CDCA8",
+      "ensembl": "ENSG00000134690"
+    },
+    {
+      "symbol": "ECT2",
+      "ensembl": "ENSG00000114346"
+    },
+    {
+      "symbol": "KIF23",
+      "ensembl": "ENSG00000137807"
+    },
+    {
+      "symbol": "HMMR",
+      "ensembl": "ENSG00000072571"
+    },
+    {
+      "symbol": "AURKA",
+      "ensembl": "ENSG00000087586"
+    },
+    {
+      "symbol": "PSRC1",
+      "ensembl": "ENSG00000134222"
+    },
+    {
+      "symbol": "ANLN",
+      "ensembl": "ENSG00000011426"
+    },
+    {
+      "symbol": "LBR",
+      "ensembl": "ENSG00000143815"
+    },
+    {
+      "symbol": "CKAP5",
+      "ensembl": "ENSG00000175216"
+    },
+    {
+      "symbol": "CENPE",
+      "ensembl": "ENSG00000138778"
+    },
+    {
+      "symbol": "CTCF",
+      "ensembl": "ENSG00000102974"
+    },
+    {
+      "symbol": "NEK2",
+      "ensembl": "ENSG00000117650"
+    },
+    {
+      "symbol": "G2E3",
+      "ensembl": "ENSG00000092140"
+    },
+    {
+      "symbol": "GAS2L3",
+      "ensembl": "ENSG00000139354"
+    },
+    {
+      "symbol": "CBX5",
+      "ensembl": "ENSG00000094916"
+    },
+    {
+      "symbol": "CENPA",
+      "ensembl": "ENSG00000115163"
+    }
+  ],
+  "unresolved_symbols_in_frozen_dictionary": [
+    "PIMREG",
+    "JPT1"
+  ]
+}

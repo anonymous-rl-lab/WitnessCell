@@ -1,0 +1,148 @@
+Dixit fixed-reference partner correction: independent design audit
+2026-10-20. All analysis in this run is adaptive development.
+
+1. The actual estimand and the unavoidable tradeoff
+
+Let X_Q be the unsigned endpoint-incidence matrix for candidate batch Q,
+and g(Q) be a correction computed by a model fitted only on allowed training
+labels. The previous delivery rule was P_Q g(Q), P_Q = I-X_Q X_Q^+.
+Changing Q changes P_Q. Requiring endpoint orthogonality for EVERY possible
+query subset is incompatible with a nonzero pointwise correction: for a
+singleton pair, X_Q has full row rank and P_Q=0. Therefore a useful batch-
+invariant rule must choose one reference measure/gauge. It cannot preserve
+endpoint orthogonality simultaneously for every arbitrary subset.
+
+2. A valid batch-invariant extension
+
+Choose endpoint universe U from the measured-single experiments, before using
+combination labels. Let F be all unordered distinct pairs in U, generated
+from U rather than copied from an observed/test-pair list. For this Dixit
+panel, ten measured-single endpoints give 45 reference pairs.
+
+beta_F = X_F^+ g(F)
+g_F(q) = g(q) - x_q beta_F.
+
+Both g and beta_F are part of the fitted model. They are not recomputed when
+the user changes the query batch. F may contain the identities of eventually
+evaluated pairs, but g(F) consists exclusively of model predictions, never
+their measured responses. Such a closed-vocabulary reference is label-free
+and deployable for individual queries within U. Adding endpoints to U is a
+new reference/model version and is outside this invariance guarantee.
+
+For any Q and fixed fitted model:
+P_Q g_F(Q) = P_Q g(Q), because P_Q X_Q = 0.
+
+Thus the old partner-contrast improvement is preserved algebraically when
+baseline and regularization are held fixed. Preserved P improvement is not
+new predictive evidence. The substantive new test is whether this pointwise
+extension also improves full program prediction error. It can fail, because
+its endpoint component relative to a particular test subset need not vanish.
+
+Full error decomposition (e=B-y, H_Q=I-P_Q):
+||e+g_F||^2 = ||P_Q(e+g)||^2 + ||H_Q e+H_Q g-X_Q beta_F||^2.
+
+The previous batch projection set the added endpoint component to zero; it
+did not prove that every endpoint-direction correction would be biologically
+incorrect. Fixed-reference residualization chooses a consistent extension,
+not a universally optimal endpoint correction.
+
+3. Existing implementation simplifies exactly
+
+gm.projected_blocks produces
+g(q) = [K_qT - x_q X_T^+ K_TT] P_T c / scale.
+For full-column-rank X_F, reference subtraction cancels the training-gauge
+term and gives
+g_F(q) = [K_qT - x_q X_F^+ K_FT] P_T c / scale.
+
+This provides an implementation independent of subtracting stored g(F).
+The equality should be verified at machine precision for every selected fold.
+
+4. A symmetric PSD reference kernel
+
+Let A=X_F^+. Residualize the feature map itself: phi_F(q)=phi(q)-x_q A Phi_F.
+Then
+k_F(q,r) = k(q,r)-x_q A k(F,r)-k(q,F) A^T x_r^T
+           +x_q A K_FF A^T x_r^T.
+
+This kernel is PSD whenever the original kernel is PSD. If its training
+block is projected again by P_T, then P_T K_F(T,T) P_T=P_T K(T,T) P_T.
+With matching scale and ridge, its fit is identical to the original model;
+it only produces the fixed-reference gauge at prediction. Do not count that
+algebraically equivalent construction as a new representation experiment.
+
+Fitting the PSD reference kernel WITHOUT a second training projection is a
+different model. It constrains the complete reference function, while its
+values on a training subset can contain endpoint components. This candidate
+needs its own inner validation and fair full-task baseline comparisons.
+
+5. Reference weighting
+
+For fixed positive weights W_F, replace X_F^+ by
+A_W=(X_F^T W_F X_F)^+ X_F^T W_F.
+The corrected reference function obeys X_F^T W_F g_F(F)=0. All preceding
+batch-invariance and query-P identities remain valid.
+
+Complete-graph uniform reference has full rank for n>=3 and
+X_F^T X_F=(n-2)I+11^T. Its closed-form coefficient is
+beta_i = [sum_{j != i} g_ij - sum_{a<b}g_ab/(n-1)]/(n-2).
+This gives a second independent numerical check with no pseudoinverse.
+
+Use full uniform F as the primary reference. If testing sensitivities, fix
+a small grid before observing new outer errors: e.g. the same all-pair F
+with uniform weights and positive degree-based weights derived only from
+training identities. Report every grid result; do not choose the best outer
+reference. Training-derived weights change across fitted models, which is
+allowed, but remain fixed across query requests to each model.
+
+6. Leakage and validation contract
+
+- Each inner fit rebuilds program normalization, scalar saturation baseline,
+  residuals, and reference predictions from its allowed training conditions.
+- Measured singles may define U and the endpoint Gram if the task already
+  permits them. Validation/test double responses, means, and halves may not.
+- Re-selecting ridge must score the FINAL fixed-reference rule in inner folds.
+  Ridge selected for P_Q-gated delivery is a diagnostic fixed-parameter arm,
+  not automatically the correct production hyperparameter.
+- Apply the same information and tuning budget to simple endpoint/saturation
+  alternatives. A zero-correction/no-harm option uses only inner scores.
+- An exact outer-test-pool reference can reproduce the old batch policy and
+  cache it for singleton API calls. This is mechanical caching of the old
+  cohort and not an inductive scientific advance. Report it only as a control.
+- Global all-pair reference is scientifically stronger because it is defined
+  without knowing the realized query subset. In Dixit it happens to coincide
+  with the full measured 45-pair panel, but the construction should explicitly
+  enumerate measured-single endpoints rather than inspect double labels.
+
+7. Minimum independent checks
+
+(a) Pointwise predictions equal batched/partitioned/permuted predictions with
+    the same fitted model and F; use singletons, random subsets, duplicates.
+(b) A correction that is exactly endpoint-additive is annihilated on F.
+(c) Adding arbitrary endpoint gauge X beta to g leaves g_F unchanged.
+(d) P_Q residuals are exactly invariant to reference choice at fixed fit.
+(e) Direct subtraction, kernel formula, and complete-graph closed form agree.
+(f) Symmetry/PSD and query self-kernel consistency for the two-sided kernel.
+(g) Poison every excluded double response/half and confirm no prediction change.
+(h) Original baseline/prediction assets are unchanged, and all new choices
+    are labeled adaptive exploratory development.
+
+8. Compact inference without enumerating the reference pairs
+
+For the symmetric product kernel, let A be the endpoint Gram, and training
+pair t=(u,v). Write s_u=sum_g A_gu. The reference sums of its kernel column are
+S_g,t = .5 (A_gu s_v + A_gv s_u) - A_gu A_gv,
+T_t = .5 (s_u s_v - sum_g A_gu A_gv),
+B_g,t = [S_g,t - T_t/(n-1)]/(n-2).
+Then B=X_F^+ K_FT exactly and the stable predictor is
+g_F(q)=[K_qT-x_q B] P_T c / scale.
+
+This requires only the endpoint Gram and fitted training state. Reference
+pair enumeration or cached predictions for a realized query cohort is not
+needed at inference. It makes the mathematical independence operational.
+The identity is valid for the complete uniform reference with n>=3 and
+distinct endpoint pairs. A different weighted reference needs its own formula.
+
+Success is batch-invariant single-query prediction with meaningful full
+program error improvement against the matched baseline, with no test-label
+access and no selection of reference using outer outcomes. The existing
+full-transcriptome null result remains unchanged by this program-head study.

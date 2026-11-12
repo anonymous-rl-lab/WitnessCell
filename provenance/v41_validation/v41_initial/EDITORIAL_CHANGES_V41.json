@@ -1,0 +1,233 @@
+[
+  {
+    "item": "A01 Abstract subject and attribution",
+    "occurrences": 1,
+    "before": "Jurkat identifies gains largely captured by a global term, while RNA shrinkage preserves concentrated improvements and reduces adverse corrections.",
+    "after": "In Jurkat, an explicit global term accounts for much of the original gain; RNA shrinkage preserves concentrated improvements and reduces adverse corrections."
+  },
+  {
+    "item": "A02 Identity wording",
+    "occurrences": 1,
+    "before": "The identity identifies the response component changed by this endpoint-based residual-transfer branch:",
+    "after": "This identity specifies the response component changed by the endpoint-based residual-transfer branch:"
+  },
+  {
+    "item": "A03 Separate a test from its outcome",
+    "occurrences": 1,
+    "before": "tested against that actual baseline, establishing its added predictive value beyond nonlinear composition",
+    "after": "tested against that actual baseline to quantify its added predictive value beyond nonlinear composition"
+  },
+  {
+    "item": "A04 Introduce both reference families before use",
+    "occurrences": 1,
+    "before": "We therefore added one unpenalized product coefficient per repeat to the original baseline, jointly refitted its other coefficients, and reapplied the same internal selection rules and zero-correction option. This matched reference asks whether the learner adds predictive structure after a simple global cross-term is available.",
+    "after": "We examined two global references: an explicit single-effect product and a saturating transformation of the single-effect sum, each fitted using permitted training combinations. For the first, we added one unpenalized product coefficient per repeat to the original baseline, jointly refitted its other coefficients, and reapplied the same internal selection rules and zero-correction option. This matched comparison tests the learner after a simple global cross-term is available."
+  },
+  {
+    "item": "A05 Remove forward dependency on Han",
+    "occurrences": 1,
+    "before": "To compare the same global response family across functional studies, we also refitted the existing Han saturation reference on the three K562 high-support folds and Jurkat.",
+    "after": "We next applied the saturation reference to the three K562 high-support folds and Jurkat, fitting it within each permitted training subset."
+  },
+  {
+    "item": "A06 Replace relocation history with scientific purpose",
+    "occurrences": 1,
+    "before": "The original Jurkat four-corner example is retained in Supplementary Fig. S7e,f.",
+    "after": "A four-combination Jurkat example illustrates the predicted partner contrast (Supplementary Fig. S7e,f)."
+  },
+  {
+    "item": "A07 Descriptive analysis timing",
+    "occurrences": 1,
+    "before": "were fixed before the new fitting.",
+    "after": "were fixed before fitting the Han models."
+  },
+  {
+    "item": "A08 Merge RNA weighting paragraphs",
+    "occurrences": 1,
+    "before": "The usefulness of a correction can differ between transcripts. A common amplitude may preserve a strong response change but also carry weak or inconsistent changes into other readouts. WitnessCell instead compares endpoint-eliminated responses in two disjoint halves of the training cells. A transcript with weaker agreement receives a smaller correction. Because the weights depend only on training measurements, the held-out combinations provide a separate test of whether this adjustment improves prediction.\n\nAgreement between cell halves estimates sampling consistency in the available training measurements and determines the amplitude applied to each transcript. A training-selected uniform shrinkage control tests whether transcript-specific weighting adds value beyond reducing the correction by one common factor. Methods specifies the measurement scope of this consistency estimate.",
+    "after": "The usefulness of a correction can differ between transcripts. A common amplitude may preserve a strong response change but also carry weak or inconsistent changes into other readouts. WitnessCell compares endpoint-eliminated responses in two disjoint halves of the training cells and assigns smaller corrections to transcripts with weaker agreement. This agreement measures sampling consistency within the source experiment. A training-selected uniform shrinkage control tests whether transcript-specific weighting adds value beyond reducing all corrections by one factor. Held-out combinations then provide a separate test of the training-derived adjustment; Methods specifies the measurement scope."
+  },
+  {
+    "item": "A09 Merge RNA concentration and sensitivity interpretation",
+    "occurrences": 1,
+    "before": "The largest benefits concerned a defined group of strongly changing readouts. Ten transcripts, including S100A9, S100A8, S100A12 and LYZ, accounted for over 90% of positive error reductions. Removing that fixed set or standardizing by training-condition variance eliminated the aggregate gain (Fig. 5e,f). Outside the set, shrinkage substantially reduced the harm caused by the unweighted correction, leaving the net gain close to zero and slightly negative. The useful RNA correction was therefore concentrated in a small subset of measured responses.\n\nThese sensitivity analyses distinguish effect size from breadth. Original-scale error emphasizes larger discrepancies; variance standardization changes readout weights; deletion tests the benefit outside the selected transcripts. Together, they locate the responsive readouts and establish how their magnitude contributes to overall improvement.",
+    "after": "The largest benefits concerned a defined group of strongly changing readouts. Ten transcripts, including S100A9, S100A8, S100A12 and LYZ, accounted for over 90% of positive error reductions. Removing that fixed set or standardizing by training-condition variance eliminated the aggregate gain (Fig. 5e,f). These checks distinguish magnitude from breadth: standardization reduces the influence of large-scale discrepancies, while deletion tests prediction outside the selected transcripts. Outside that set, shrinkage substantially reduced the harm caused by the unweighted correction, leaving the net gain close to zero and slightly negative. Thus, its useful RNA improvement was concentrated, while its reduction of adverse corrections extended to other readouts."
+  },
+  {
+    "item": "A10 Discussion progression",
+    "before": "contribution; information; control; attribution; interpretation; repeatability; literature; use",
+    "after": "contribution; information; attribution; interpretation; repeatability; control; literature; use"
+  },
+  {
+    "item": "A11 Centralize scope of training-half agreement",
+    "occurrences": 1,
+    "before": "Zero denominators yield zero weights. The equivalent half-mean/half-difference energy expression is an algebraic identity, not an independent control. Shared experimental effects can persist in both halves. The multiplier controls correction amplitude. It scales predictions before evaluation on a common unweighted axis.",
+    "after": "Zero denominators yield zero weights. The equivalent half-mean/half-difference energy expression is an algebraic identity, not an independent control. Training-half agreement measures sampling consistency within the source experiment; shared guide and preparation effects can persist in both halves. The weights are operational training-derived amplitudes rather than estimates of reproducibility across biological preparations. They scale predictions before evaluation on a common unweighted axis."
+  },
+  {
+    "item": "A12 Remove duplicated Methods scope paragraph",
+    "occurrences": 1,
+    "before": "\n\nTraining-half agreement measures sampling consistency within the source experiment; shared guide and preparation effects can persist in both halves. The readout weights are operational training-derived amplitudes, not estimates of reproducibility across biological preparations.",
+    "after": ""
+  },
+  {
+    "item": "A13 Name the analysis",
+    "occurrences": 1,
+    "before": "The new analysis fixes the established rank-one primary and spectral secondary procedures,",
+    "after": "The native Han analysis uses the established rank-one primary and spectral secondary procedures,"
+  },
+  {
+    "item": "A14 Remove revision-relative experiment wording",
+    "occurrences": 1,
+    "before": "The new native experiment starts from the archived Han phenotype matrices;",
+    "after": "Native Han fitting starts from the archived phenotype matrices;"
+  },
+  {
+    "item": "B01 Current companion",
+    "occurrences": 1,
+    "before": "the v40 revision supplement",
+    "after": "the v41 revision supplement"
+  },
+  {
+    "item": "B02 Correct pool-count sentence",
+    "occurrences": 1,
+    "before": "K562's eligible pool is the 3,160 pairs among eighty endpoints after exclusion of the original registered 632-pair test set.",
+    "after": "K562's eligible pool contains 2,528 of the 3,160 pairs among eighty endpoints, after excluding the original registered 632-pair test set."
+  },
+  {
+    "item": "B03 S42 Han native three-column repair",
+    "occurrences": 1,
+    "before": "| Han native functional fitting | Fixed reanalysis after earlier Han access | Learning rules fixed before new fitting; all query predictions locked before scoring | Independent study; related reconstructed/published readouts | Partner learning beyond its own baseline and nonlinear reference; secondary control |",
+    "after": "| Han native functional fitting | Partner learning beyond native and nonlinear references; secondary component control | Independent-study reanalysis after prior access; learning rules fixed and predictions locked before scoring; related reconstructed/published readouts |"
+  },
+  {
+    "item": "B04 S42 Han transfer three-column repair",
+    "occurrences": 1,
+    "before": "| Earlier Han weight transfer | Previously inspected shared-function extension | Source weights fixed, target scalar fitted; original primary retained | Same Han study | Historical comparison summarized in Note 22 |",
+    "after": "| Earlier Han weight transfer | Fixed-source-function transfer with target scalar calibration; historical comparison in Note 22 | Previously inspected Han study; source weights fixed; original primary analysis and its outcome reported in Note 22 |"
+  },
+  {
+    "item": "B05 Correct interface and current-figure entry paths",
+    "occurrences": 1,
+    "before": "From `paper/` inside the base code release, the retained interface and historical-figure checks can be run as:\n\n```bash\npython -m pip install -r software/requirements.txt\npython software/witnesscell_predict.py --input software/example_input.json --output my_predictions\npython software/test_interface.py\npython code/analyze_revision.py\npython code/analyze_applications.py\npython code/audit_construct_identity.py\npython code/make_figures_v36.py\npython software/test_growth_interface.py\npython code/verify_v36.py\n```",
+    "after": "Run the following interface example and checks from `core/paper/` inside the extracted `grn_repo_v30` directory:\n\n```bash\npython -m pip install -r software/requirements.txt\npython software/witnesscell_predict.py --input software/example_input.json --output my_predictions\npython software/test_interface.py\npython software/test_growth_interface.py\n```\n\nTo regenerate the current manuscript tables and figures, run `reproduce.py` from the extracted `WitnessCell_v41_Revision_Supplement` directory, supplying the extracted base archive and a new output directory:\n\n```bash\npython reproduce.py --base /path/to/grn_repo_v30 --out /path/to/v41_replay --render\n```\n\nThe default route replays saved fits. The separate `--refit` option reruns the four saturation-reference fits; the companion README specifies dependencies and scope."
+  },
+  {
+    "item": "B06 Current rendering dependencies",
+    "occurrences": 1,
+    "before": "Figures and supplementary audits require the additional dependencies in `code/requirements.txt`.",
+    "after": "Current figure and document rendering uses the dependencies listed in the companion supplement."
+  },
+  {
+    "item": "B07 Consolidated archive and licence paths",
+    "occurrences": 1,
+    "before": "The historical v27 archive is supplied as unpacked, unchanged members under `legacy/` in `grn_repo_v28_paper_v36.zip`. It contains scientific implementations, compact numerical evidence and external-asset indexes. MIT permission applies only to the five adapter/test files explicitly named in the base licence; it does not automatically cover other scientific modules or the new analysis scripts. The author release checklist records outstanding rights decisions. The base `paper/RIGHTS_AND_RELEASE.md` identifies the existing component-specific scope.",
+    "after": "The consolidated `grn_repo_v30_paper_v39.zip` includes historical scientific implementations and compact evidence under `core/legacy/`, together with current experiment modules and external-asset indexes. MIT permission applies only to the five adapter/test files explicitly named in the base licence; other scientific modules and analysis scripts retain their component-specific rights status. `RIGHTS_AND_RELEASE.md` at the archive root and `core/paper/RIGHTS_AND_RELEASE.md` identify that scope. The author release checklist records outstanding rights decisions."
+  },
+  {
+    "item": "B08 Correct four-corner figure pointer",
+    "occurrences": 1,
+    "before": "The main figure uses ACTR10.",
+    "after": "Supplementary Fig. S7e,f uses ACTR10."
+  },
+  {
+    "item": "B09 S1 attribution evidence identity",
+    "occurrences": 1,
+    "before": "| Han native functional learning | Target-refitted rank-one primary and spectral secondary | Independent Han study, fixed refitting after prior access | Partner gain beyond native baseline and saturation reference; secondary component control |",
+    "after": "| Han native functional learning | Target-refitted rank-one primary and spectral secondary | Independent Han study, fixed refitting after prior access | Partner gain beyond native baseline and saturation reference; secondary component control |\n| Matched global-reference analysis | Jointly refitted product/saturation baselines and unchanged rank-one/spectral selection; saved-correction decomposition | Existing K562, Jurkat and Han evaluations | Increment beyond specified references (Table S54); attribution to a single-product direction and its orthogonal remainder (Table S57) |"
+  },
+  {
+    "item": "B10 S30 attribution evaluation status",
+    "occurrences": 1,
+    "before": "| Earlier Han weight transfer | Previously inspected shared-function extension | Source weights fixed, target scalar fitted; original primary retained | Same Han study | Historical comparison summarized in Note 22 |",
+    "after": "| Earlier Han weight transfer | Previously inspected shared-function extension | Source weights fixed, target scalar fitted; original primary retained | Same Han study | Historical comparison summarized in Note 22 |\n| Global-reference refitting and direction attribution | Retrospective sensitivity on previously examined data | Reference and learner refitted within allowed subsets; saved Han correction decomposed descriptively | Existing Horlbeck and Han studies | Distinguish gains beyond specified global references and contributions of the product direction; Tables S54 and S57 |"
+  },
+  {
+    "item": "B11 S36 connection to attribution results",
+    "occurrences": 1,
+    "before": "Training and query repeatability for the ten historical primary functional fits are reported in Table S52, with each fit’s original and controlled gain; the Han fold ranges are reported alongside them.",
+    "after": "Training and query repeatability for the ten historical primary functional fits are reported in Table S52, with each fit’s original and controlled gain; the Han fold ranges are reported alongside them. Matched global-reference gains and common-denominator comparisons are reported in Table S54; Table S57 decomposes the saved Han correction into product and orthogonal contributions."
+  },
+  {
+    "item": "B12 SI contents titles",
+    "after": "Notes 13, 14 and 24 match their section headings exactly."
+  },
+  {
+    "item": "B13 S7 scientific title",
+    "occurrences": 1,
+    "before": "Global-reference sensitivity and the preserved Jurkat example",
+    "after": "Global-reference sensitivity and a Jurkat partner contrast"
+  },
+  {
+    "item": "C01 Standalone S7 title synchronization",
+    "occurrences": 1,
+    "before": "Global-reference sensitivity and the preserved Jurkat example",
+    "after": "Global-reference sensitivity and a Jurkat partner contrast"
+  },
+  {
+    "item": "C02 All four dataset decompositions and native-scale losses are ",
+    "occurrences": 1,
+    "before": "All four dataset decompositions and native-scale losses are retained in",
+    "after": "All four dataset decompositions and native-scale losses are reported in"
+  },
+  {
+    "item": "C02 The original support-budget analysis is retained in",
+    "occurrences": 1,
+    "before": "The original support-budget analysis is retained in",
+    "after": "The support-budget analysis is shown in"
+  },
+  {
+    "item": "C02 weaker Wasserstein and common-DEG ranks remain in",
+    "occurrences": 1,
+    "before": "weaker Wasserstein and common-DEG ranks remain in",
+    "after": "Wasserstein and common-DEG ranks are reported in"
+  },
+  {
+    "item": "C02 Panels a and b preserve the original evaluation.",
+    "occurrences": 1,
+    "before": "Panels a and b preserve the original evaluation.",
+    "after": "Panels a and b use the original functional baseline."
+  },
+  {
+    "item": "C02 All configurations and absolute losses are retained.",
+    "occurrences": 1,
+    "before": "All configurations and absolute losses are retained.",
+    "after": "Table S54 includes all configurations and absolute losses."
+  },
+  {
+    "item": "C02 Gene labels are illustrative; all loadings are retained.",
+    "occurrences": 1,
+    "before": "Gene labels are illustrative; all loadings are retained.",
+    "after": "Gene labels are illustrative; the source table includes all loadings."
+  },
+  {
+    "item": "C02 Tables S45–S50 and Supplementary Fig. S6 retain all readouts",
+    "occurrences": 1,
+    "before": "Tables S45–S50 and Supplementary Fig. S6 retain all readouts, baselines, learners and control outcomes.",
+    "after": "Tables S45–S50 and Supplementary Fig. S6 report all readouts, baselines, learners and control outcomes."
+  },
+  {
+    "item": "C02 Native Han fitting and the new global-reference sensitivity",
+    "occurrences": 1,
+    "before": "Native Han fitting and the new global-reference sensitivity",
+    "after": "Native Han fitting and the matched global-reference sensitivity"
+  },
+  {
+    "item": "C02 Permutation and random-increment controls remain in",
+    "occurrences": 1,
+    "before": "Permutation and random-increment controls remain in",
+    "after": "Permutation and random-increment controls are reported in"
+  },
+  {
+    "item": "C02 All model selections, adverse results and independent-source",
+    "occurrences": 1,
+    "before": "All model selections, adverse results and independent-source checks are retained in",
+    "after": "All model selections, adverse results and independent-source checks are reported in"
+  },
+  {
+    "item": "C03 Fig4c reference label",
+    "occurrences": 1,
+    "before": "'Attribution: global reference'",
+    "after": "'Single-product reference'"
+  }
+]

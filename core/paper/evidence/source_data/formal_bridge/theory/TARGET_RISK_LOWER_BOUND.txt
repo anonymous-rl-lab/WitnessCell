@@ -1,0 +1,44 @@
+Query-specific information lower bound for the fixed four-world benchmark
+2026-10-31
+
+This is an elementary squared-risk/identifiability calculation for this declared
+family, not a claim of a new general minimax theorem.
+
+Under every low-layout condition and both source states, hA=hB=hC=X.
+The four generating worlds share the same nuisance coefficients and noise law,
+and beta_x+beta_h=1. Their full low-training joint distributions are therefore
+identical. This equality concerns all observed data, not just their means.
+
+For the fixed untouched query rectangle AC-AF-CE+EF, the four population targets
+are respectively (0,-0.5,0,-0.5) for (direct_only,hA,hB,hC). For any estimator T
+based only on the low-layout data, with any independent randomization, its
+distribution is the same in these four worlds. Consequently
+
+  (1/4) sum_w E[(T-Delta_w)^2]
+    = (1/2) E[T^2] + (1/2) E[(T+0.5)^2]
+    = E[(T+0.25)^2] + 1/16
+    >= 1/16 = 0.0625.
+
+This is independent of the point estimator's canonical tie rule, parameter
+regularization or network capacity. It applies to the fixed equal-world problem,
+and hence implies the same lower bound for worst-world risk. It does not imply
+that each single world has risk at least 0.0625: a prior can guess one world.
+
+A constant oracle midpoint -0.25 attains the bound on this four-world population
+problem; it is an information-theoretic benchmark, not evidence of learned
+mechanism. The frozen low minimum-norm/tie-A estimator estimates a similar
+midpoint from training data and includes finite-sample estimation noise.
+
+If high-layout risk is below 0.0625, the observation advantage cannot be
+explained merely by choosing a weak low-layout implementation. Reporting a
+Monte Carlo upper confidence endpoint below the floor is supplementary evidence;
+the predeclared primary comparison remains the seed-paired high-minus-low risk.
+
+For these four queries the endpoint-eliminating projector is rr^T/4 with
+r=(1,-1,-1,1). Mean projected squared error across the four entries equals
+rectangle squared error /16. Do not interchange rectangle MSE, projected MSE
+and overall four-query mean MSE; they have different denominators and targets.
+
+The entire argument conditions on the specified shared upstream structure and
+at-most-one-gate family. The supplied three-gate-mixture counterexample shows
+that widening this family can restore ambiguity even under the high layout.

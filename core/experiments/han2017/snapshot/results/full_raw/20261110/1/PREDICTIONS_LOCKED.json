@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-08T13:19:18.668898+00:00",
+  "panel": "full_raw",
+  "seed": 20261110,
+  "fold": 1,
+  "n_query": 6786,
+  "n_calibration": 13573,
+  "query_contrasts": 6581,
+  "query_labels_read": false,
+  "base_model_fit_calls": 0,
+  "control_coefficients_target_fitted": true,
+  "all_arm_array_sha256": {
+    "original": "8fb3fdbd8f2014668ee7ff3d44acb7193068e04a0691855bbc63853060cfb3d3",
+    "partner_off": "f6953942841922b00ee9c859266c2c734bcaeadc3c32f667e1afcb04227471ae",
+    "source_control": "8efcaea8bb4e443ea3b04d89cbb6ae7bf384dd76835b0f29f05ec8d22336e8ba",
+    "target_control": "d0b18a5d2db8a1786aec9a36495c5fcaf84bd0124dceecabc907374a1b94a8d1",
+    "single_additive": "f6953942841922b00ee9c859266c2c734bcaeadc3c32f667e1afcb04227471ae"
+  },
+  "files": {
+    "PARAMETERS.json": "c57cf2786b8a89a8c2b3e95dbc8bd312c0c7c1592cfb03111577073ad9948091",
+    "QUERY_PREDICTIONS.npz": "1aaa6dcb4aa2fedfc87f25150d588b4366cf273c91052a3f75caf5c58dea502d"
+  },
+  "input_prediction_sha256": "04dc2cbffc454f40148e43af00f9e3ffed588614a468ecf2a8347c02e6464a2a"
+}

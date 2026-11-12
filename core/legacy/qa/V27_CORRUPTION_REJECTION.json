@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "damaged_member": "data/arrays.xz",
+  "mutation": "One byte flipped in isolated copy",
+  "rejected_before_scoring": true,
+  "returncode": 1
+}

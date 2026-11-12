@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "scope": "Reorganization and recomputation of frozen aggregate outcomes; no model fitting.",
+  "settings": [
+    {
+      "setting": "CaRPool RNA",
+      "eligible_pair_pool": 55,
+      "endpoints": 14,
+      "training_pairs_by_fold": "43;44;44;44;45",
+      "query_pairs_by_fold": "12;11;11;11;10",
+      "readout": "4995 non-target RNA readouts",
+      "correction_and_reference": "Readout-shrunk product-kernel R versus M0",
+      "primary_partner_loss": "11 same-fit four-corner rectangle MSE",
+      "primary_partner_gain_percent": 15.962232110364095,
+      "evaluation_status": "Development panel; shared source with Wessels benchmark",
+      "additional_scope": "Raw scale primary; variance-standardized and ten-readout-deletion sensitivity retained"
+    },
+    {
+      "setting": "Dixit RNA",
+      "eligible_pair_pool": 45,
+      "endpoints": 10,
+      "training_pairs_by_fold": "30;30;30",
+      "query_pairs_by_fold": "15;15;15",
+      "readout": "23519 non-target RNA readouts",
+      "correction_and_reference": "Frozen selected RNA correction versus refitted M0",
+      "primary_partner_loss": "Full query-graph projected SSE",
+      "primary_partner_gain_percent": -0.03260130792246407,
+      "evaluation_status": "Frozen procedure; independent source",
+      "additional_scope": "Later program-specific analyses use a different target/reference and are not substituted"
+    },
+    {
+      "setting": "Combi-seq",
+      "eligible_pair_pool": 374,
+      "endpoints": 36,
+      "training_pairs_by_fold": "249;249;250",
+      "query_pairs_by_fold": "125;125;124",
+      "readout": "51 program genes; drug combinations",
+      "correction_and_reference": "Fixed-reference program correction B+E+gF versus B+E",
+      "primary_partner_loss": "Full query-graph projected SSE",
+      "primary_partner_gain_percent": -0.030240085044375142,
+      "evaluation_status": "Frozen procedure; independent drug source",
+      "additional_scope": "Different intervention and readout task from gene-pair whole-transcriptome prediction"
+    },
+    {
+      "setting": "K562 low",
+      "eligible_pair_pool": 2528,
+      "endpoints": 80,
+      "training_pairs_by_fold": "421;421;422",
+      "query_pairs_by_fold": "211;211;210",
+      "readout": "Growth; two measured repeats",
+      "correction_and_reference": "Primary rank-one correction versus same-budget refitted M0",
+      "primary_partner_loss": "Full query-graph projected SSE",
+      "primary_partner_gain_percent": -0.03263911989310753,
+      "evaluation_status": "Revised development",
+      "additional_scope": "K562 low pools nested within high pools; same queries"
+    },
+    {
+      "setting": "K562 high",
+      "eligible_pair_pool": 2528,
+      "endpoints": 80,
+      "training_pairs_by_fold": "2317;2317;2318",
+      "query_pairs_by_fold": "211;211;210",
+      "readout": "Growth; two measured repeats",
+      "correction_and_reference": "Primary rank-one correction versus same-budget refitted M0",
+      "primary_partner_loss": "Full query-graph projected SSE",
+      "primary_partner_gain_percent": 11.683842924592991,
+      "evaluation_status": "Revised development",
+      "additional_scope": "K562 low pools nested within high pools; same queries"
+    },
+    {
+      "setting": "Jurkat high",
+      "eligible_pair_pool": 3081,
+      "endpoints": 79,
+      "training_pairs_by_fold": "2464",
+      "query_pairs_by_fold": "617",
+      "readout": "Growth; two measured repeats",
+      "correction_and_reference": "Primary rank-one correction versus same-budget refitted M0",
+      "primary_partner_loss": "Full query-graph projected SSE",
+      "primary_partner_gain_percent": 6.175030847578611,
+      "evaluation_status": "Frozen procedure; refitted in another cell context within the same study",
+      "additional_scope": "Approximately 80% pair training coverage; not frozen-weight transfer"
+    }
+  ],
+  "CaRPool_standardized_gain_percent": -0.11798671234388713,
+  "CaRPool_ten_readout_deletion_gain_percent": -0.3798138363970027,
+  "sources": [
+    {
+      "path": "evidence/source_data/publication/Step2_ED5_Folds.csv",
+      "sha256": "28d4e80ae5901c64f9f2c3a2f6fa962c5851130ba5ec871044aec7ce3b20e67b"
+    },
+    {
+      "path": "evidence/source_data/publication/RNA_controls.json",
+      "sha256": "89457675752db90ae7fb46a88f3152166083efedb3b56046f81fd10fbd823268"
+    },
+    {
+      "path": "evidence/source_data/publication/RNA_control_scale.json",
+      "sha256": "ef5c7772de664bf71afb5089e9f4261e0d93a63dbe7d31df5865be2495e1c41f"
+    },
+    {
+      "path": "evidence/source_data/publication/independent_RNA/EVALUATION.json",
+      "sha256": "9bfb1344e0ebb411e99ff6086db9ce8bcfaefa41c18e8ecf172760861d842af3"
+    },
+    {
+      "path": "evidence/source_data/publication/CombiSeq_confirmation/RESULTS.csv",
+      "sha256": "f4294f3d2065726d461ac67767ff046671168324cc078124b53a63e3e9adec7a"
+    },
+    {
+      "path": "evidence/source_data/publication/CombiSeq_confirmation/FOLD_RESULTS.csv",
+      "sha256": "7476c92f20c89be2ea8733084c6a304035552618eb17b0f013cf30c3c8907762"
+    },
+    {
+      "path": "evidence/source_data/publication/Horlbeck_design.csv",
+      "sha256": "fee2eafa6951435e9471bde882e09d51285ecbebaa03945c87bb06466fe4af4d"
+    },
+    {
+      "path": "evidence/source_data/publication/Horlbeck_figure_metrics.csv",
+      "sha256": "18f011e782cd168d84f3eaa9a5b29491e84e289c335c23f75e3e92debd6b5880"
+    }
+  ],
+  "metadata_sources": [
+    "Supplementary Notes 5, 7, 10 and 11; Table S21; original source metadata retained unchanged"
+  ],
+  "formula": "100 * (1 - correction loss / reference loss)"
+}

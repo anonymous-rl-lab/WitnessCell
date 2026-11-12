@@ -1,0 +1,29 @@
+{
+  "paper_version": "v33",
+  "base_paper": "v32",
+  "scientific_calculation_version": "v32",
+  "new_response_model_training": false,
+  "new_experiment": false,
+  "main_edits": [
+    "Abstract second-sentence contribution before performance",
+    "Introduction active contribution statement",
+    "First Results heading: separation and control"
+  ],
+  "figure_edits": [
+    "Figure4e title; precise explanatory legend"
+  ],
+  "si_edits": [
+    "Current paper-version and executable documentation links"
+  ],
+  "word_counts": {
+    "abstract_words": 128,
+    "main_prose_whitespace_words": 4118,
+    "sections": {
+      "Introduction": 485,
+      "Results": 3140,
+      "Discussion": 493
+    },
+    "counting_rule": "Whitespace tokens; title, abstract, section headings, Methods, references and figure legends excluded from main prose; displayed equations retained. The first unheaded introduction paragraph is included.",
+    "references": 42
+  }
+}

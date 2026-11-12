@@ -1,0 +1,16 @@
+{
+  "removed_from_compact_replay": [
+    "E20 result_archive/WitnessCell_preregistered_replication_20260810T105615Z.tar.gz (39.36 MB duplicate predictions)",
+    "E22 full-gene contracts and smoke raw data (~84 MB), replaced by exact scalar moments, metric rows and source identities",
+    "E23 597 fit NPZ caches plus raw expression/prediction matrices (~266 MB), replaced by query-level loss moments, frozen decisions and regenerated bootstrap"
+  ],
+  "exceptions": [
+    "E21 remains small and is retained byte-for-byte (excluding interpreter caches).",
+    "E22 bootstrap reference arrays are retained to verify all numerical draws, not only endpoints.",
+    "E25 canonical Wessels allowed_input / baseline_predictions / evaluation_only dependencies must remain at root, managed by the integrator."
+  ],
+  "unchanged": [
+    "E25 through E32 compact experiments"
+  ],
+  "scope": "No scientific outcomes or frozen decisions deleted. Historical raw-training reconstruction requires external original assets."
+}

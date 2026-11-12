@@ -1,0 +1,28 @@
+K562_low_fold0 inner 0 seconds 0.6
+K562_low_fold0 inner 1 seconds 1.2
+K562_low_fold0 inner 2 seconds 1.8
+K562_low_fold0 LOCKED {'rank1': {'selected': 'G0', 'best_regularized': 'rank1_t0.3_n1', 'alpha': 0.0, 'inner_sse': 4.694535518150657, 'baseline_inner_sse': 4.655587800445058, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.01_n0.1', 'best_regularized': 'spectral_t0.01_n0.1', 'alpha': 0.2549634551865208, 'inner_sse': 4.619241691586393, 'baseline_inner_sse': 4.655587800445058, 'final_converged': True}}
+K562_low_fold1 inner 0 seconds 0.7
+K562_low_fold1 inner 1 seconds 1.3
+K562_low_fold1 inner 2 seconds 1.9
+K562_low_fold1 LOCKED {'rank1': {'selected': 'G0', 'best_regularized': 'rank1_t0.3_n1', 'alpha': 0.0, 'inner_sse': 4.297772215581615, 'baseline_inner_sse': 4.253620114678102, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.1_n1', 'best_regularized': 'spectral_t0.1_n1', 'alpha': 0.9651205334177596, 'inner_sse': 4.237329958246448, 'baseline_inner_sse': 4.253620114678102, 'final_converged': True}}
+K562_low_fold2 inner 0 seconds 0.6
+K562_low_fold2 inner 1 seconds 1.2
+K562_low_fold2 inner 2 seconds 1.8
+K562_low_fold2 LOCKED {'rank1': {'selected': 'rank1_t0.3_n1', 'best_regularized': 'rank1_t0.3_n1', 'alpha': 1.0, 'inner_sse': 3.9572932892752144, 'baseline_inner_sse': 3.9795164419015294, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.01_n1', 'best_regularized': 'spectral_t0.01_n1', 'alpha': 0.0, 'inner_sse': 3.978502431963637, 'baseline_inner_sse': 3.9795164419015294, 'final_converged': True}}
+K562_high_fold0 inner 0 seconds 0.5
+K562_high_fold0 inner 1 seconds 0.8
+K562_high_fold0 inner 2 seconds 1.2
+K562_high_fold0 LOCKED {'rank1': {'selected': 'rank1_t0.03_n0.1', 'best_regularized': 'rank1_t0.03_n0.1', 'alpha': 0.9661577787949309, 'inner_sse': 15.799705900085801, 'baseline_inner_sse': 17.449996939558936, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.3_n0.1', 'best_regularized': 'spectral_t0.3_n0.1', 'alpha': 1.0, 'inner_sse': 15.925536637860176, 'baseline_inner_sse': 17.449996939558936, 'final_converged': True}}
+K562_high_fold1 inner 0 seconds 0.5
+K562_high_fold1 inner 1 seconds 0.8
+K562_high_fold1 inner 2 seconds 1.2
+K562_high_fold1 LOCKED {'rank1': {'selected': 'rank1_t0.03_n0.1', 'best_regularized': 'rank1_t0.03_n0.1', 'alpha': 0.9740309339491363, 'inner_sse': 15.80445144052266, 'baseline_inner_sse': 17.28783314544365, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.3_n0.1', 'best_regularized': 'spectral_t0.3_n0.1', 'alpha': 1.0, 'inner_sse': 16.01156043222015, 'baseline_inner_sse': 17.28783314544365, 'final_converged': True}}
+K562_high_fold2 inner 0 seconds 0.4
+K562_high_fold2 inner 1 seconds 0.8
+K562_high_fold2 inner 2 seconds 1.2
+K562_high_fold2 LOCKED {'rank1': {'selected': 'rank1_t0.03_n0.1', 'best_regularized': 'rank1_t0.03_n0.1', 'alpha': 0.9728395515647328, 'inner_sse': 15.511719963422989, 'baseline_inner_sse': 17.12670962875632, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.3_n0.1', 'best_regularized': 'spectral_t0.3_n0.1', 'alpha': 1.0, 'inner_sse': 15.982195436020717, 'baseline_inner_sse': 17.12670962875632, 'final_converged': True}}
+Jurkat_high inner 0 seconds 0.4
+Jurkat_high inner 1 seconds 0.8
+Jurkat_high inner 2 seconds 1.2
+Jurkat_high LOCKED {'rank1': {'selected': 'rank1_t0.01_n1', 'best_regularized': 'rank1_t0.01_n1', 'alpha': 0.5933478230178318, 'inner_sse': 4.494149244047549, 'baseline_inner_sse': 4.558271069081016, 'final_converged': True}, 'spectral': {'selected': 'spectral_t0.3_n1', 'best_regularized': 'spectral_t0.3_n1', 'alpha': 0.5398881622056508, 'inner_sse': 4.512544278995287, 'baseline_inner_sse': 4.558271069081016, 'final_converged': True}}

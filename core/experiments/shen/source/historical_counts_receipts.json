@@ -1,0 +1,82 @@
+[
+  {
+    "git_blob": "4e324e4307d8ea6121a602360617e2a946acc084",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+    "file": "historical_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+    "bytes": 1572223,
+    "sha256": "e34c9956b7d5e7a68083eb7343bff00c07c2f47ddcdf7464594fd6257c75ac59",
+    "header": "construct_id\tHela-CV4-d14-1_S3_trimmed53_len_filtered_counts\tHela-CV4-d14-2_S4_trimmed53_len_filtered_counts\tHela-CV4-d28-1_S5_trimmed53_len_filtered_counts\tHela-CV4-d28-2_S6_trimmed53_len_filtered_counts\tHela-CV4-d3-1_S1_trimmed53_len_filtered_counts\tHela-CV4-d3-2_S2_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "28f91c6d535b7135f10b72c0b48b29869508b157",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160504_Hela_MV4_19mer_1mm_py_20160622213213_counts_combined.txt",
+    "file": "historical_counts/20160504_Hela_MV4_19mer_1mm_py_20160622213213_counts_combined.txt",
+    "bytes": 815482,
+    "sha256": "8f85922409eef0d3c953c6b97731349b404ae388012b8c41d99b26793e596217",
+    "header": "construct_id\tHela_MV4_d14_1_S3_trimmed53_len_filtered_counts\tHela_MV4_d14_2_S4_trimmed53_len_filtered_counts\tHela_MV4_d28_1_S5_trimmed53_len_filtered_counts\tHela_MV4_d28_2_S6_trimmed53_len_filtered_counts\tHela_MV4_d3_1_S1_trimmed53_len_filtered_counts\tHela_MV4_d3_2_S2_trimmed53_len_filtered_counts\tMV4_plasmid_S7_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "0a1ea849b7d04625d0ad5f09d0e2a904028c94e6",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+    "file": "historical_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+    "bytes": 1605960,
+    "sha256": "fc2b2626d1dea6f95e449c063f3e8705cc0ad68b7a87a3206d6fc442509edabd",
+    "header": "construct_id\tA549_CV4_d14_1_S3_trimmed53_len_filtered_counts\tA549_CV4_d14_2_S4_trimmed53_len_filtered_counts\tA549_CV4_d28_1_S5_trimmed53_len_filtered_counts\tA549_CV4_d28_2_S6_trimmed53_len_filtered_counts\tA549_CV4_d3_1_S1_trimmed53_len_filtered_counts\tA549_CV4_d3_2_S2_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "3bd8248d7f942bb849b59a0f8a05c78816581ef4",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160510_HeLa_19mer_1mm_py_20160618165153_counts_combined.txt",
+    "file": "historical_counts/20160510_HeLa_19mer_1mm_py_20160618165153_counts_combined.txt",
+    "bytes": 1252725,
+    "sha256": "173c8c3b285744947ba1a673a06a4f49a76276c5b3c8ac2f145145450c1663d4",
+    "header": "construct_id\tHela-CV4R4R_d3_1_S7_trimmed53_len_filtered_counts\tHela-CV4R4R_d3_2_S8_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "2d31c72a25d365cb02340ec428f76ba650f915db",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+    "file": "historical_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+    "bytes": 1618538,
+    "sha256": "c340d7bdf8f4fb5b392ea1b1e2e16d6706de752485ce58787a064a48541434b1",
+    "header": "construct_id\tA549-CV4-d21-1_S3_trimmed53_len_filtered_counts\tA549-CV4-d21-2_S4_trimmed53_len_filtered_counts\tA549-CV4-d28-1_S5_trimmed53_len_filtered_counts\tA549-CV4-d28-2_S6_trimmed53_len_filtered_counts\tHela-CV4-d21-1_S1_trimmed53_len_filtered_counts\tHela-CV4-d21-2_S2_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "96b98a399b2d2b433683cdda68c212724397099f",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160706_HeLa_A549_MV4_19mer_1mm_py_20160713235254_counts_combined.txt",
+    "file": "historical_counts/20160706_HeLa_A549_MV4_19mer_1mm_py_20160713235254_counts_combined.txt",
+    "bytes": 971335,
+    "sha256": "18fbae9abbeced982abd57dfbeaaba1ebcd4bab282653a6bdb36dc7edc85ef7c",
+    "header": "construct_id\tA549_MV4_d28_1_S7_trimmed53_len_filtered_counts\tA549_MV4_d14_2_S4_trimmed53_len_filtered_counts\tA549_MV4_d28_2_S8_trimmed53_len_filtered_counts\tA549_MV4_d3_2_S2_trimmed53_len_filtered_counts\tA549_MV4_d20_2_S6_trimmed53_len_filtered_counts\tHela_MV4_d20_2_S10_trimmed53_len_filtered_counts\tA549_MV4_d14_1_S3_trimmed53_len_filtered_counts\tA549_MV4_d3_1_S1_trimmed53_len_filtered_counts\tHela_MV4_d20_1_S9_trimmed53_len_filtered_counts\tA549_MV4_d20_1_S5_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "868d643875e32973e4cced62e479edbb48a659f4",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160801_HeLa-Trex2_CV4_19mer_1mm_py_20160803204159_counts_combined.txt",
+    "file": "historical_counts/20160801_HeLa-Trex2_CV4_19mer_1mm_py_20160803204159_counts_combined.txt",
+    "bytes": 1607589,
+    "sha256": "53a9063c15497b9571114f5d93c7b12da683989d6577c086d571bce6cab000d3",
+    "header": "construct_id\tHela_Trex2_CV4_d14_2_S4_trimmed53_len_filtered_counts\tHela_Trex2_CV4_d3_1_S1_trimmed53_len_filtered_counts\tHela_Trex2_CV4_d28_2_S6_trimmed53_len_filtered_counts\tHela_Trex2_CV4_d14_1_S3_trimmed53_len_filtered_counts\tHela_Trex2_CV4_d3_2_S2_trimmed53_len_filtered_counts\tHela_Trex2_CV4_d28_1_S5_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "5569819228a74d7fe0aef84c764c5fb4f33b8686",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+    "file": "historical_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+    "bytes": 1768915,
+    "sha256": "c3b453bd63b999cca27ee5799f78ca94bdd6c8f744541b2a819bddf504cba657",
+    "header": "construct_id\t293_CV4_d21_3_S5_trimmed53_len_filtered_counts\t293_CV4_d3_3_S1_trimmed53_len_filtered_counts\t293_CV4_d3_4_S2_trimmed53_len_filtered_counts\t293_CV4_d14_3_S3_trimmed53_len_filtered_counts\t293_CV4_d28_4_S8_trimmed53_len_filtered_counts\t293_CV4_d14_4_S4_trimmed53_len_filtered_counts\t293_CV4_d28_3_S7_trimmed53_len_filtered_counts\t293_CV4_d21_4_S6_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "bddeb762c06ff3c87c592038287de857064790a4",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160817_HeLa_CRV4_19mer_1mm_py_20160823040912_counts_combined.txt",
+    "file": "historical_counts/20160817_HeLa_CRV4_19mer_1mm_py_20160823040912_counts_combined.txt",
+    "bytes": 744453,
+    "sha256": "094d9212ff474bcc065eca4b86f041a5fd4561fbf19cf2ffe857de82fa35911e",
+    "header": "construct_id\tHela_KRAB_CRV4_d14_2_S4_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d21_2_S6_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d21_1_S5_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d28_1_S7_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d3_1_S1_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d28_2_S8_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d3_2_S2_trimmed53_len_filtered_counts\tHela_KRAB_CRV4_d14_1_S3_trimmed53_len_filtered_counts"
+  },
+  {
+    "git_blob": "08b6106f28bb36ab08f93414f617f220be907ccc",
+    "historical_path": "notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160823_HeLa_CRV4_19mer_1mm_py_20160830185219_counts_combined.txt",
+    "file": "historical_counts/20160823_HeLa_CRV4_19mer_1mm_py_20160830185219_counts_combined.txt",
+    "bytes": 737304,
+    "sha256": "3ead1d16daa5ae2f700a0386a3c33abeedcaefafddeb02c872a25379d4ceaa55",
+    "header": "construct_id\tHela_par_CRV4_d21_2_S6_trimmed53_len_filtered_counts\tHela_par_CRV4_d3_1_S1_trimmed53_len_filtered_counts\tHela_par_CRV4_d3_2_S2_trimmed53_len_filtered_counts\tHela_par_CRV4_d21_1_S5_trimmed53_len_filtered_counts\tHela_par_CRV4_d28_2_S8_trimmed53_len_filtered_counts\tHela_par_CRV4_d14_2_S4_trimmed53_len_filtered_counts\tHela_par_CRV4_d14_1_S3_trimmed53_len_filtered_counts\tHela_par_CRV4_d28_1_S7_trimmed53_len_filtered_counts"
+  }
+]

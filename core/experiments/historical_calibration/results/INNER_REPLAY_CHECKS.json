@@ -1,0 +1,222 @@
+[
+  {
+    "key": "K562_low_fold0",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_high_fold0",
+    "inner_full_sse_replay_error": 8.881784197001252e-16
+  },
+  {
+    "key": "K562_low_fold1",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_high_fold1",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_low_fold2",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_high_fold2",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "Jurkat_high",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "HeLa_high",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "A549_high",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "293T_high",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f0_s0_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s0_low_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f0_s0_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f0_s1_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s1_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s1_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f0_s2_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s2_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s2_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f0_s3_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s3_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s3_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s4_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f0_s4_low_local_support",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f0_s4_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f1_s0_high_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s0_low_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s0_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s1_high_local_support",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f1_s1_low_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s1_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f1_s2_high_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s2_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f1_s2_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f1_s3_high_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f1_s3_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f1_s3_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 8.881784197001252e-16
+  },
+  {
+    "key": "K562_layout_f1_s4_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f1_s4_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f1_s4_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f2_s0_high_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s0_low_local_support",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f2_s0_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 8.881784197001252e-16
+  },
+  {
+    "key": "K562_layout_f2_s1_high_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s1_low_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f2_s1_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s2_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f2_s2_low_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s2_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f2_s3_high_local_support",
+    "inner_full_sse_replay_error": 0.0
+  },
+  {
+    "key": "K562_layout_f2_s3_low_local_support",
+    "inner_full_sse_replay_error": 2.220446049250313e-16
+  },
+  {
+    "key": "K562_layout_f2_s3_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s4_high_local_support",
+    "inner_full_sse_replay_error": 8.881784197001252e-16
+  },
+  {
+    "key": "K562_layout_f2_s4_low_local_support",
+    "inner_full_sse_replay_error": 4.440892098500626e-16
+  },
+  {
+    "key": "K562_layout_f2_s4_random_degree_switch_chain",
+    "inner_full_sse_replay_error": 0.0
+  }
+]

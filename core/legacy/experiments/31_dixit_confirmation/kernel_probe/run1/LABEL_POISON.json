@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "correction_max_abs": 0.0,
+  "alpha_equal": true,
+  "sigma_max_abs": 0.0,
+  "outer_query_means_poisoned": true,
+  "test_halves_never_used": true
+}

@@ -1,0 +1,960 @@
+{
+  "experiments/21_frozen_selective_prediction/results/formal_reveal/inference_arrays.npz": {
+    "npz_sha256": "b2fd5395bb945a6ca0f16daaefeaf9bf3394750de42d9357ecdf8df85726247d",
+    "arrays": {
+      "bootstrap_accepted_over_all_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "7b1a672da77b23fdbc09910d581c8bd8be5c8cde76e02db61ed47d6f7de4849e"
+      },
+      "random_selection_accepted_mse": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "d16c450662263c061df1072f8ea4661df39e514a711c71ca7ea2aa0eb4226e5c"
+      }
+    }
+  },
+  "experiments/22_metric_calibration_stress/results/formal_e22/P/cluster_bootstrap_arrays.npz": {
+    "npz_sha256": "97649c2d400b70f12cdc4d9328d06ea645e7d9b86fb117c072f720723171a83b",
+    "arrays": {
+      "WitnessCell_v13__wmse_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "662be5ea09c341cb416febbafb5e46a1f22833c5df57da36273ee279719ad1f4"
+      },
+      "WitnessCell_v13__weighted_r2_difference": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "ba079beac3457da78b2a9999dfb4075baca3c81239fdad6747658244bf3a92f1"
+      },
+      "trainMean__wmse_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "e32c603e88fe7ad268707984fc351e8eab3b9c1b3fbea502b1d5d139ca745658"
+      },
+      "trainMean__weighted_r2_difference": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "c634e7c145b671a9fbf93d80cba54e702833b085230d391da57a4e32e3e0d32c"
+      },
+      "baseControl__wmse_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "8864f128979dac14412e494bf86817560d619baab053529e769dd19b42e9e450"
+      },
+      "baseControl__weighted_r2_difference": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "bebd2ea4a3ed3804e3f5790d30e845e99bb684706fcba5c65728146c02dae889"
+      }
+    }
+  },
+  "experiments/22_metric_calibration_stress/results/formal_e22/D/gate21/gate21_inference_arrays.npz": {
+    "npz_sha256": "4462d8b5e4976b311d0458186cf7e57dcf2af9e524532842df3f9dc306f0c31c",
+    "arrays": {
+      "witness_bootstrap_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "a5e6d444f8a73b9a9e9a5c1a206983a14572de9d43503114686f10568d7c9bc0"
+      },
+      "witness_random_selection_wmse": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "d5c050efb52ea2298b01c56e1d2bd90af36dc9fb5aff56e89811b3a6c36acc1f"
+      },
+      "geometry_bootstrap_ratio": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "87c78d2b0a4fdbc2f52e3ded2d7bab9b6c2725a80baaa966e35489479819216d"
+      },
+      "geometry_random_selection_wmse": {
+        "shape": [
+          20000
+        ],
+        "dtype": "float64",
+        "sha256": "24daaaedb11d4c7b1b7194ce613d16645788bcb9fc5f9759cbfc53f5b971d1a9"
+      }
+    }
+  },
+  "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/evaluation/bootstrap_ratios.npz": {
+    "npz_sha256": "6ac7a6a5fef8182fe177867b8c51c1cfb6bb1894766a5f1e820673b753979a05",
+    "arrays": {
+      "Norman__c0p5__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5acce967c0afb2b94a3661c1e4cbcd2f6f3d7fc554261aa3120454db24cf9bbd"
+      },
+      "Norman__c0p5__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4c7d68d6f87dec7410aac0825711f7a0597b10153ad9fa614a8ddbebf151c33b"
+      },
+      "Norman__c0p5__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "9f8c4f9ba897007a5d1c83a1a2c4381cf76a2423da75017af9e236fec362f3e0"
+      },
+      "Norman__c0p5__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "97461e74647f208929a4aafb30aec38c66aff0790281efe03cb5f5eceb40d678"
+      },
+      "Norman__c0p5__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4d6623b900d85c9df08b3ee2ad944fd7b6326a627571b497413033a1fb17aa95"
+      },
+      "Norman__c0p5__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "bfc180537a36ddebfccb703b91d724011e9f7c29c966268802e722e844ae99ce"
+      },
+      "Norman__c0p5__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0dc341eb9574c079005d6f45a24c36faeb0a49f3dd81601f9a8ee9651a92ce21"
+      },
+      "Norman__c0p5__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "3b84bcb41df276571c039410fa1d7a366d339c2580fe70edcb616609a8f02b2f"
+      },
+      "Norman__c0p5__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "536af9abca5a39ffad042f4cc49de1885b285a9e9db917f4008643d475f405ca"
+      },
+      "Norman__c0p5__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "42f2aa69e0a3ffb57f38aae06f4635f2232fff7638a36718a9d162fc2332fbf3"
+      },
+      "Norman__c0p5__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "cfbcd7a114b6121a838b973b3dadeda6589c62a927be05eaec5717ad74c9e17c"
+      },
+      "Norman__c0p5__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5b7369d649f4e4d015911aed6b81b7a1383731e85832861e422dd981b37dcf8d"
+      },
+      "Norman__c0p5__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "3eed84137238878f886cc27a25a9c3771da13660bf7fa505330900387683869e"
+      },
+      "Norman__c0p5__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4bd121dfa0cc896cb56be3e49123c20558c4cd3b64c5fdd558d6566a21a24ba0"
+      },
+      "Norman__c0p5__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "73b41c5790bfd3e301b57f06446077ddaa6c80038d48aef798e3452e3a75b51a"
+      },
+      "Norman__c0p3__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "bfaef9471b711df940f8572cb70538f55fe2e9eb7a2347941aae49ab23888e6b"
+      },
+      "Norman__c0p3__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a89770424df87c5ea101aa407bbdf5054a197a6e33a11d58c35daaa20ba82ae7"
+      },
+      "Norman__c0p3__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "700bd9370958aaa0de6591b077f6627318c0b723ea0b53f53c6ede5a7645548b"
+      },
+      "Norman__c0p3__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "1911ba348aff1c3271dfb4cfb1c5c5193533bf5405f8dac5760f37a0e4b0ba1b"
+      },
+      "Norman__c0p3__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0b4aec5578d91acf7c98b0530369f3fef6c661e232616dc32dcfa29314d0aabc"
+      },
+      "Norman__c0p3__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "b51acdfe480ebfdee8600cba2adffded5a594ae90b74832961b31bf2ba813484"
+      },
+      "Norman__c0p3__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "878a3933ca8773b3db61e53f317a2b7b17f1ed92e4dbfb872a378143f2f4bd86"
+      },
+      "Norman__c0p3__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0ec4345a5482bf1e07dc35602362dcde80f5a6ed365536a30b22a4f6a30b4d3d"
+      },
+      "Norman__c0p3__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "2f57246956bc5cec0754f8a5a091af668f0e103dd8e47e93cb3d2626a80996b2"
+      },
+      "Norman__c0p3__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "602d0dc03bac3c3d46042cb053377d94a88f5d0f018bfd9f7fa09ca6d9a3b838"
+      },
+      "Norman__c0p3__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f71de1b92547e7e94096009da8ef3e89df617aa38fcefc95eb6519b3008e6132"
+      },
+      "Norman__c0p3__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "54d60bf2be684a716f5c34e342780ecb2280d94149c57b2a0a71d591763ce11b"
+      },
+      "Norman__c0p3__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0f18bdd61631aa0dfc9407c2fabdf1c0c2118672adbea045374d30ed4cd0b290"
+      },
+      "Norman__c0p3__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "9daf1305358aa5a63f2f80d17240cf19a3c747fe6ea34045bb94d77ce1e10521"
+      },
+      "Norman__c0p3__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "6aca45997550794f93024f5a87450b9d68bc74ae57728c92dc0c6f82170358cd"
+      },
+      "Norman__c0p7__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "96b996b4600e4bb50e2e4b1f3cd022c23dc26b898f33216be87816a74cdb2223"
+      },
+      "Norman__c0p7__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f7c05b2550f4359dc07559ee134eee98d59bcd764a994a28c131fc46083956a9"
+      },
+      "Norman__c0p7__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "1c012f6d0d70f89ea7a476aab78de2a68cb870ab0300e91dc0223981ff37a112"
+      },
+      "Norman__c0p7__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "fff77f5ac20c6bf4be5cdcc3b493e1f37e370ecc2293816c9bf7d1636c63b065"
+      },
+      "Norman__c0p7__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "c06c9ceddd30be9d7adb08fd55648a03e616335ee0fdce3fd4f53878aa4b6463"
+      },
+      "Norman__c0p7__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "caf4f7acae94cc4855e8bf5f1dea89e756e325e639f1f3e94e232c44fdc40ec2"
+      },
+      "Norman__c0p7__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "efff44080156cec2b9bfcbf817ff33379a69f661d433a64f8c491010da7fa2ea"
+      },
+      "Norman__c0p7__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "6c7d77dafb7f1104f68364afd5c667f3c4b6ec9af5a0200695df18e6108c8fc7"
+      },
+      "Norman__c0p7__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "24278183a9c20490639b2c188ad08884f8144651f6c01686dd099c4576fc9ecc"
+      },
+      "Norman__c0p7__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "c46dcfd212cf3f171f58a3859d5f7f5477df6547a8146f42d441f1b41fb5ef4e"
+      },
+      "Norman__c0p7__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0111c6a1a946003d76ea44b8f982ffbad482ee925cdc093c8d51e66089ba97fa"
+      },
+      "Norman__c0p7__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a70b2b413d461975d235066182ebeab678bd02810c746399c34c07c8737cfdf5"
+      },
+      "Norman__c0p7__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "d74a580d091579fbc9f11a011b78d6d33fef2b4b8bf6aec2f2b83d05c1a571bb"
+      },
+      "Norman__c0p7__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "3efc0a3730f83ea48bba9fd17a67b9929d87c6ffda488059ea738432e1d09ae7"
+      },
+      "Norman__c0p7__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a7d47f93dc1c1c827e5b4bff937225558b2391b407aaa9521ff15176b84a1af1"
+      },
+      "Norman__c0p9__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "6e7bf5db79cec11591711edd90f2b0dc55ea1e1ad3ef4d8060a743fedd9791cc"
+      },
+      "Norman__c0p9__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "49db4436bd2ff3f8d99cc7df502e1f8ffb6197869f18757195dba52dfdf9b3b7"
+      },
+      "Norman__c0p9__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "b6a0e46fedfad8f0c53ae0af57e21f3a3abd6640b4bfa023a54e66dc1258ef1b"
+      },
+      "Norman__c0p9__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "ebefd8f273185790affb4735a0761b875bf5026b587ab999b98c3d147503fd81"
+      },
+      "Norman__c0p9__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "28f85edd3e73a1d3243cb21cae5aaa6ab861cd7dccc0c4853f662a4ff834d78e"
+      },
+      "Norman__c0p9__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "3ee78edd236857bccebe990fb0a6bd47b48cf6982f6168bd7100b67181f5dd1e"
+      },
+      "Norman__c0p9__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0cc56c43066e96329ebb18c3dde6fec4c010e069b6bd23212e81ad68633b70f9"
+      },
+      "Norman__c0p9__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "84cb50ddce0c5b4ea04a754cf5b651ef07461f9e8ef683e9356090e0f9de08b9"
+      },
+      "Norman__c0p9__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4a93c6175b2b51d9ee8b70127a2535192da6711d8f59a3bca8bd428bd2cb168d"
+      },
+      "Norman__c0p9__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "42f6aaf1cdf29b434a1738dc0bc047735f6269460d685284ee00078d2fd867a2"
+      },
+      "Norman__c0p9__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "fdfa8d97f68cf839d8092b81fde621450659a80c53f6e6079f45b764fa7c01a2"
+      },
+      "Norman__c0p9__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "d92a71c98cd6aac769dd065bb8acba5f6ccf11656de0fc973095164397919350"
+      },
+      "Norman__c0p9__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "ec571087f4ce971d2465660dc542618dfc23ef8dd54a6960cac6bcc85747e8bb"
+      },
+      "Norman__c0p9__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "acf043d053af49407af4773d609dfd46d31d49849a3dc692d9de60acc5e72a10"
+      },
+      "Norman__c0p9__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "05a75f33c52a0048f5028f4ddbe53cf25d2842bb654b59bf5420a1e642e3dcb8"
+      },
+      "Norman__within_effect_quartile_control__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5ef3c3f1fc1ee14a41f2b4def360d970262e7cca849152182339c29fb4207fe3"
+      },
+      "Wessels__c0p5__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "88203bc208a4137980c8f2e7184f81f970f0373e5132a0c7766be5c9108191c6"
+      },
+      "Wessels__c0p5__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "09ceb68c78a42f2ae069cf274aa4e5f62664a50f9727266ac39c4d0d169acded"
+      },
+      "Wessels__c0p5__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "c3afa7b411f2f07965b2d565fa786c56e7d644052fe5441432b8bee3c887d85c"
+      },
+      "Wessels__c0p5__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "b545eb2fae0e186667e80091a5102fbc9e10d71355c4feb41267c5cf05f73170"
+      },
+      "Wessels__c0p5__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "896f5c816ddf5e0b6848ec17e8a1627e10525d80e9515a0e25baea7b984c009d"
+      },
+      "Wessels__c0p5__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "30d6228f2c56a70e8b84b9a7924dfa7f19756dea23bfc5ece2f4d0374e42038a"
+      },
+      "Wessels__c0p5__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4e5c2bf180c87e9d63dfe87aded4b49e1c9f8033603c70987781b906e750984d"
+      },
+      "Wessels__c0p5__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "73c16f90314b63852ccdb558dc159339bd02765f2bdc23f8309d9cd892a995b3"
+      },
+      "Wessels__c0p5__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "d8a3ec84ffd6ab21bb326f456873c7178aee27bd68996fdb10ad2e86af0947f1"
+      },
+      "Wessels__c0p5__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5c8644c2aa7054cbb1295d215e94a20275991ef6cc9de371da3bea922cd6146c"
+      },
+      "Wessels__c0p5__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "fce254070a0c4629e0bdaf5634cdc867111a341b48bb9835129d1f755d8da905"
+      },
+      "Wessels__c0p5__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "39642e4885359105d71a70f9d36998f200a3acbde281537028ae4b95d2cc9d46"
+      },
+      "Wessels__c0p5__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "133bf2f102e86ac16b27175261ddd5f975d327ee35f9191bdcb914ddc51d2b7f"
+      },
+      "Wessels__c0p5__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "27fbb6cc2a5520ce7a9e31118517a0cabd503b7cb0a1228498bb37d788022cda"
+      },
+      "Wessels__c0p5__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a63afb2a654bbc091c5f76322d14fb42adb9e4888a2f738f16bc55c9a0a0976d"
+      },
+      "Wessels__c0p3__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "e93c72f13d34a908aba9321f9cd0d61005c403a4efa73879de56b880953a0d93"
+      },
+      "Wessels__c0p3__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "98a2de685882aaf7657f6e0bc52d6cca88e688a6c75ac458f1998c56e2ff0c10"
+      },
+      "Wessels__c0p3__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "1c14a48d39fc1d3470e9ff29939230975d08b0c707a3137eb5f2abe5bd9cb75c"
+      },
+      "Wessels__c0p3__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "fd327473b8a6ac6458b4dfb89122e50855a0d45566495955f42b4d26f753bee4"
+      },
+      "Wessels__c0p3__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "98fcfd1d1dc3b6f4fb0e9b2116f54b4993ade1012fa58e43b304716e758efe8a"
+      },
+      "Wessels__c0p3__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "3948eee0f997cd38cdf481450bbc3b751e3e47a634ee1fc7e5d865d84219cb4e"
+      },
+      "Wessels__c0p3__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a09dc9fa018d672765dfd9fc0eacf78d6652c2b22a01024865f5772c6e1d4e13"
+      },
+      "Wessels__c0p3__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "7ad5df8761c1ff7529b04b40c502591e77e4ec49255e1d1ce1eafe69f2eb94a2"
+      },
+      "Wessels__c0p3__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "cffde2ee12dd20e8263dbd7bfc0807ffe47f416ad2946dc2408c754f086ab23a"
+      },
+      "Wessels__c0p3__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "8662c7ea36e4d03ece02d9f19edbd27bc4ac87ee22ce9429e6e5207e8923368f"
+      },
+      "Wessels__c0p3__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "e2c07d37119e410f585481d7ae2651c524f1fa8cde7392e19c14eb2a7e0288ec"
+      },
+      "Wessels__c0p3__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f83b772cf09e7915d44ca91121d58ff3462742de01ede2a4e8ca43bb9705b920"
+      },
+      "Wessels__c0p3__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "e134b8531767e9b71c3c50016b2548edc068198b36342f6967db3023f26cb73c"
+      },
+      "Wessels__c0p3__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "2c873a266aa5a7d4eb4e02ee967303777b9cb7d1c9b1e208d82c552274d42aab"
+      },
+      "Wessels__c0p3__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4f5d20ecb3145b94cf284d5c6928cd53d147477e4bac8ecc19a95d2572335ae6"
+      },
+      "Wessels__c0p7__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "8265021745411698593ed02a143929827e0b80240d21b444186b1e0e62f660b3"
+      },
+      "Wessels__c0p7__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5d80063c8265375bfe302bbd4f09a6423077b4e9576e4f5e209b879d9c2e3c1e"
+      },
+      "Wessels__c0p7__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "18f1fb57cde8639698d54b7df3e9e9d8a503afa1723502956f5051670723a958"
+      },
+      "Wessels__c0p7__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "d1f96ca30b11459b334ceec2cf18d6745b8d4d74ede1e4858b4acfc320f077a0"
+      },
+      "Wessels__c0p7__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f297c99cb14974347376222101959a5fde6a782cdc51ba3bf21e790315b40d64"
+      },
+      "Wessels__c0p7__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "d38ddab9fa09d61a93b81a7babe7707679f182c8778a04dd39f80e3d702e94ce"
+      },
+      "Wessels__c0p7__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a396678381b0ad53011fd96716aba64d29e4a36b4421e845735c20ad377cb08b"
+      },
+      "Wessels__c0p7__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f8378273a0823594b799edb37ca8e16cb64b41203d21887ba932075d5854114c"
+      },
+      "Wessels__c0p7__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "4eb9857733552b6614acebc2b9adbd8aa8c31e17762dde8a0e6d855df0788a46"
+      },
+      "Wessels__c0p7__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a524c3482aaab3a4d9eb876f4f842f6ef70df8d813b24836593f520d5bff7bef"
+      },
+      "Wessels__c0p7__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "ff0162dd3539cf368475c7a0c5a27924f9c9b591675575e04ed798953b981669"
+      },
+      "Wessels__c0p7__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "5d27789a534de761f6ccdd77193dada80d738af2c9ab5a249dfc3dcc80b5b484"
+      },
+      "Wessels__c0p7__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "9d41e5043c7d5f6f5705b10e94f9458e11eeb487917f386d0d90f9a1c5beb1e9"
+      },
+      "Wessels__c0p7__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "f26ef48073812d123b92f2a70306fb0aa824b6fa7c6286d12cd6c2357ee52d9c"
+      },
+      "Wessels__c0p7__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "58f0040d28fb66f5e4a7c2abbd206e53c8c528777a8d7095eca1605c461ffafa"
+      },
+      "Wessels__c0p9__loss_mse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "e9cf46861caef3d1225e5c54db54edde0c4a373597ceed8792c78bf60e891143"
+      },
+      "Wessels__c0p9__loss_mse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a4eefe0bd1ea5e2d1e0022a0db23c74e22bafe0f91fcc640ae3c63634c9baa95"
+      },
+      "Wessels__c0p9__loss_mse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "da027a4bd9c24a5f692bc3af3db7056870f11317c45bb2a697a3879f2e6f97a9"
+      },
+      "Wessels__c0p9__loss_wmse__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0491f0aec02a2f3b52abe97a8600dc8b2690b665601e551b3c2a7b876a2df13d"
+      },
+      "Wessels__c0p9__loss_wmse__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "228fad806a2b6fa5428cc5891ccc2b96bcdac7e22b8b9d9149190d3dbf1b2bf9"
+      },
+      "Wessels__c0p9__loss_wmse__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "274c0f9ab5ab3acdf8ac336352bdacd7f3811897b7b821e5e39e20d6ef442454"
+      },
+      "Wessels__c0p9__loss_relative__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "05aa414aed22c77729446a141a02d59e26bb68e82f2688995da99773047f25b3"
+      },
+      "Wessels__c0p9__loss_relative__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "18f2a661a44a667af217a1b76125876407f9a289ac323d067694d0ebb2f12f45"
+      },
+      "Wessels__c0p9__loss_relative__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "027d7184edaca9b850152fc3bcd6adf772de11df60b51c4aba9834639bbd95c7"
+      },
+      "Wessels__c0p9__loss_cosine__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0101d077ef70f430ae2eb7d14f9f38a5350e396e8d95892be37e469d81f880d5"
+      },
+      "Wessels__c0p9__loss_cosine__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "8a7c1bc0258be31dd95c3d6eb242a766bb0fc10a7bb9fa1ba6babcd3600606b8"
+      },
+      "Wessels__c0p9__loss_cosine__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "59219a0dcc7c1ae6237872b96082cd7473f5e719463662612aa5b9a278f3a7cc"
+      },
+      "Wessels__c0p9__loss_top100__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "768aae4ccd5044ff66907fa020d83b0ff36ea3bc992a3dd1b7e2e2b52e8367e5"
+      },
+      "Wessels__c0p9__loss_top100__S_vs_effect": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "baed565c3263d770cbfeebbf68458dca7cfc9af8c42eefc6b6a8d622a6e0d3a0"
+      },
+      "Wessels__c0p9__loss_top100__S_vs_variance": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "0aefbe27135e8554f21509a6d99878f2a6f855d315d72a0844b8d8ea8f67b2f7"
+      },
+      "Wessels__within_effect_quartile_control__S_vs_B": {
+        "shape": [
+          5000
+        ],
+        "dtype": "float64",
+        "sha256": "a9a8ca5971e9f18412a7937b4d3404f0670df6750ea01142a6c495245cf1cd2b"
+      }
+    }
+  }
+}

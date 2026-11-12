@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-10-19T21:33:18.575897+00:00",
+  "status": "retrospective development candidate; not independent confirmation",
+  "name": "fixed-reference program partner predictor",
+  "task": "Dixit predefined G2M52",
+  "reference_rule": "all unordered distinct pairs of measured-single endpoint universe",
+  "reference_labels_required": false,
+  "request_batch_invariant": true,
+  "kernel": "original full-RNA measured-single symmetric product",
+  "training": "training-endpoint-orthogonal residual/kernel; program scalar saturation baseline",
+  "reference_correction": "g(q)-x_q X_F^+ g(F)",
+  "lambda_grid": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "selection": "cycle3 inner final full-program SSE",
+  "selected_lambdas_by_outer_fold": [
+    0.1,
+    10.0,
+    10.0
+  ],
+  "normalization": "fit-local, from allowed condition means",
+  "per_gene_R_applied": false,
+  "new_native_RNA_primary_pass": false,
+  "observed_full_gain_percent": 2.267123287406314,
+  "observed_P_gain_percent": 14.299409657064166,
+  "guarantee": "same fitted state and endpoint universe; not same prediction after retraining",
+  "endpoint_preservation": "reference-space orthogonality only, not every query subset"
+}

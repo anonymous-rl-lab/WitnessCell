@@ -1,0 +1,50 @@
+{
+  "protocol_id": "WitnessCell-step1-followup-v1-20261017",
+  "analysis": "fixed-endpoint Wessels witness-library pair bootstrap",
+  "locked_unix": 1792224091.8416474,
+  "source_path": "/workspace/scratch/7517238e1d04/step1_followup_20261017/wessels_witness/bootstrap_witness_quantity.py",
+  "source_sha256": "ade002974a6f45c9248ee88117b50876d78bb9dad7660afa1a5f03ab6c5e38be",
+  "central_analysis_plan_path": "/workspace/scratch/7517238e1d04/step1_followup_20261017/analysis_plan.json",
+  "central_analysis_plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+  "inputs_sha256": {
+    "protocol.json": "1dbdc841c4800308f087976f44c4e8643d1294a6855d659d0f0f4ae5b3be0b6f",
+    "protocol_freeze.json": "89580631fda89450b0722c45c29e7ffb796e0aa7bcd55b6c1e5c48621567985f",
+    "subsets.json": "b28f629693f60fd782baa34e0ad2941ebd80a3149d3da71f118281a1172efe0d",
+    "predictions_frozen.json": "706082029a3347753dedde04370688e5f83fbd40eafd8c6037c104c80cd7d3df",
+    "evaluation/query_losses.csv": "ed0bd7d9e94ef495c437460dc2dc5cfe2d9dc22fb5b5d4c0e47db7c4ffaceb7e",
+    "evaluation/fixed_comparator_losses.csv": "47e0adb13bbf64a1252b271023a6cb38823edb2c6a6af4c850025e46893fe90e",
+    "evaluation/witness_counts.csv": "ec27b586ec53e8009e27970be978034e5b93bf697fabdeba33657a6c727568cb",
+    "evaluation/point_summary.json": "c6e0b80edfc31930c5c686df891dc4412bb15f3830b8e6cb87f66ea3a646267f",
+    "evaluation/evaluation_manifest.json": "f1fe968d02d050dcf1660749cf5cd9b30f533e4721d56692356a707c5a444daa"
+  },
+  "new_witness_experiment_point_results_previously_inspected": true,
+  "historical_status": "retrospective follow-up; script/hash locked after inspecting point estimates and before calculating these intervals; not new independent analysis or prospective validation",
+  "replicates": 5000,
+  "rng_seed": 2026101702,
+  "rng": "numpy.random.default_rng, PCG64",
+  "draw": "One shared rng.multinomial(106, repeat(1/106,106), size=5000) over lexically sorted canonical-pair union; retain all seed/order/fraction records for every sampled pair",
+  "query_aggregation": "Average three order losses for each seed/fraction/query before applying shared pair multiplicities; then compute each seed weighted query mean",
+  "seed_aggregation": "Geometric mean of the 3 seed mean-loss ratios against the same seed's fixed comparator",
+  "gain": "G_fraction=1-rho_fraction",
+  "primary_contrast": "Delta=G100-G25=rho25-rho100; calculate within the same bootstrap draw",
+  "references": [
+    "factorized_prediction",
+    "shared_endpoint_additive"
+  ],
+  "metrics": [
+    "loss_mse",
+    "loss_wmse"
+  ],
+  "primary": {
+    "metric": "loss_mse",
+    "reference": "factorized_prediction",
+    "contrast": "Delta_G100_minus_G25"
+  },
+  "interval": "Pointwise percentile 95%, numpy.percentile(method='linear'); Delta interval from draw-wise Delta, never subtracting endpoint interval limits",
+  "invalid_draws": "A replicate is invalid for the relevant estimate if any seed has zero included queries, nonpositive comparator or numerator loss, or nonfinite ratios; report valid/invalid counts",
+  "training_resampling": false,
+  "orders_are_independent_replicates": false,
+  "subset_namespace_execution_note": "Actual pre-evaluation experiment protocol locked SHA256(protocol_id|wessels_witness_quantity|seed|order|canonical_pair). Central plan abbreviated the namespace as dataset. Preserve the locked subsets without redrawing or changing them after results; the actual protocol/subsets hashes are recorded above.",
+  "numpy_version": "2.3.5",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]"
+}

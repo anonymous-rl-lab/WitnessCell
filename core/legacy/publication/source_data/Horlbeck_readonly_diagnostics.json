@@ -1,0 +1,396 @@
+{
+  "audit_scope": "Read-only recomputation from saved observations and predictions; no new model fitting or confirmatory experiment.",
+  "fraction_units": "All gains and sensitivity intervals are fractions; multiply by 100 for percent.",
+  "source_archive_name": "WitnessCell_Horlbeck_TwoStage_Repro_20261018.zip",
+  "source_archive_bytes": 2491533,
+  "source_archive_sha256": "b60e01230f3f43f156271697fe1fdc52b6c4ce5f68b522c3664c6e4aa6ff4082",
+  "matches_reviewed_v16_archive_sha256": true,
+  "normalization_note": "Projected error over truth energy is ||P(y-prediction)||^2 / ||Py||^2. A zero-contrast prediction has ratio 1. K562 uses its own projection within each outer evaluation fold and sums SSE before division.",
+  "K562_partition_checks": [
+    {
+      "fold": 0,
+      "n_low": 421,
+      "n_high": 2317,
+      "n_test": 211,
+      "low_subset_high": true,
+      "test_disjoint": true,
+      "formal_disjoint": true,
+      "equals_pool": true,
+      "low": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 4,
+        "degree_median": 10.0,
+        "degree_max": 19
+      },
+      "high": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 47,
+        "degree_median": 59.0,
+        "degree_max": 64
+      }
+    },
+    {
+      "fold": 1,
+      "n_low": 421,
+      "n_high": 2317,
+      "n_test": 211,
+      "low_subset_high": true,
+      "test_disjoint": true,
+      "formal_disjoint": true,
+      "equals_pool": true,
+      "low": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 3,
+        "degree_median": 10.0,
+        "degree_max": 20
+      },
+      "high": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 48,
+        "degree_median": 58.0,
+        "degree_max": 65
+      }
+    },
+    {
+      "fold": 2,
+      "n_low": 422,
+      "n_high": 2318,
+      "n_test": 210,
+      "low_subset_high": true,
+      "test_disjoint": true,
+      "formal_disjoint": true,
+      "equals_pool": true,
+      "low": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 4,
+        "degree_median": 10.0,
+        "degree_max": 17
+      },
+      "high": {
+        "incidence_rank": 80,
+        "n_genes": 80,
+        "degree_min": 48,
+        "degree_median": 58.0,
+        "degree_max": 66
+      }
+    }
+  ],
+  "K562_low": {
+    "n_pairs": 632,
+    "projected_dimensions_by_fold": [
+      132,
+      131,
+      130
+    ],
+    "projected_truth_energy_each": [
+      1.9201101166470558,
+      1.133257504073609
+    ],
+    "results": {
+      "M0": {
+        "mse": 0.004255134485907605,
+        "raw_gain": 0.0,
+        "raw_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_gain": 0.0,
+        "projected_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_error_over_truth_energy": 0.9739529284899091,
+        "projected_error_over_truth_energy_each": [
+          0.9890635758014767,
+          0.948350533034567
+        ]
+      },
+      "M0_repeat_mean": {
+        "mse": 0.005282137220062048,
+        "raw_gain": -0.24135611637087595,
+        "raw_gain_each": [
+          -0.17929212499515668,
+          -0.33880120250138934
+        ],
+        "projected_gain": 0.001017435168360059,
+        "projected_gain_each": [
+          0.010435319616277083,
+          -0.015624591196456983
+        ],
+        "projected_error_over_truth_energy": 0.9729619945281361,
+        "projected_error_over_truth_energy_each": [
+          0.9787423812671705,
+          0.9631681224241742
+        ]
+      },
+      "rank1_selected": {
+        "mse": 0.0042438499895456365,
+        "raw_gain": 0.0026519717295283574,
+        "raw_gain_each": [
+          0.0001615228645007738,
+          0.006562161821672019
+        ],
+        "projected_gain": -0.00032639119893107527,
+        "projected_gain_each": [
+          -0.00012157904844589673,
+          -0.0006883078509201113
+        ],
+        "projected_error_over_truth_energy": 0.9742708181539412,
+        "projected_error_over_truth_energy_each": [
+          0.9891838252098751,
+          0.9490032901518788
+        ]
+      },
+      "spectral_selected": {
+        "mse": 0.004267384074743824,
+        "raw_gain": -0.0028787783034327497,
+        "raw_gain_each": [
+          -0.0020001668981441956,
+          -0.0042582636082906244
+        ],
+        "projected_gain": -0.008591114078332796,
+        "projected_gain_each": [
+          -0.008369782340960974,
+          -0.00898222193584397
+        ],
+        "projected_error_over_truth_energy": 0.9823202692054921,
+        "projected_error_over_truth_energy_each": [
+          0.9973418226523076,
+          0.9568688279952593
+        ]
+      }
+    }
+  },
+  "K562_high": {
+    "n_pairs": 632,
+    "projected_dimensions_by_fold": [
+      132,
+      131,
+      130
+    ],
+    "projected_truth_energy_each": [
+      1.9201101166470558,
+      1.133257504073609
+    ],
+    "results": {
+      "M0": {
+        "mse": 0.0038244100803470345,
+        "raw_gain": 0.0,
+        "raw_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_gain": 0.0,
+        "projected_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_error_over_truth_energy": 0.9625562621346037,
+        "projected_error_over_truth_energy_each": [
+          0.9754223442634822,
+          0.9407568967048849
+        ]
+      },
+      "M0_repeat_mean": {
+        "mse": 0.004845628078340431,
+        "raw_gain": -0.26702628027293773,
+        "raw_gain_each": [
+          -0.19079451505891076,
+          -0.383537860244747
+        ],
+        "projected_gain": 0.01792810199124084,
+        "projected_gain_each": [
+          0.017683507731989345,
+          0.01835779578504837
+        ],
+        "projected_error_over_truth_energy": 0.9452994552947469,
+        "projected_error_over_truth_energy_each": [
+          0.9581734556967437,
+          0.9234866737118008
+        ]
+      },
+      "rank1_selected": {
+        "mse": 0.0034026075630991873,
+        "raw_gain": 0.11029217797940016,
+        "raw_gain_each": [
+          0.09230574626881938,
+          0.13778239246900537
+        ],
+        "projected_gain": 0.11683842924593002,
+        "projected_gain_each": [
+          0.0930512187047643,
+          0.1586268864763294
+        ],
+        "projected_error_over_truth_energy": 0.8500927004059629,
+        "projected_error_over_truth_energy_each": [
+          0.8846581063779071,
+          0.7915275592494552
+        ]
+      },
+      "spectral_selected": {
+        "mse": 0.0033889442505053314,
+        "raw_gain": 0.11386483684882143,
+        "raw_gain_each": [
+          0.09291593701983802,
+          0.14588284680691832
+        ],
+        "projected_gain": 0.10671005905005393,
+        "projected_gain_each": [
+          0.08232838803511633,
+          0.14954284159301512
+        ],
+        "projected_error_over_truth_energy": 0.859841826563221,
+        "projected_error_over_truth_energy_each": [
+          0.8951173950068354,
+          0.8000734371234098
+        ]
+      }
+    }
+  },
+  "K562_shared_evaluation": true,
+  "K562_distinct_evaluation_pairs": 632,
+  "K562_M0_density_gain": 0.10122462803163279,
+  "Jurkat": {
+    "n_pairs": 617,
+    "projected_dimensions_by_fold": [
+      538
+    ],
+    "projected_truth_energy_each": [
+      0.6076748727339414,
+      0.5505929588253067
+    ],
+    "results": {
+      "M0": {
+        "mse": 0.0009291855399048041,
+        "raw_gain": 0.0,
+        "raw_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_gain": 0.0,
+        "projected_gain_each": [
+          0.0,
+          0.0
+        ],
+        "projected_error_over_truth_energy": 0.801349991083684,
+        "projected_error_over_truth_energy_each": [
+          0.8376761190547314,
+          0.7612578053085169
+        ]
+      },
+      "M0_repeat_mean": {
+        "mse": 0.001126891712592451,
+        "raw_gain": -0.21277362184080273,
+        "raw_gain_each": [
+          -0.19488242267637812,
+          -0.2349820926082804
+        ],
+        "projected_gain": 0.009176681644816775,
+        "projected_gain_each": [
+          0.014948835058623544,
+          0.0021666033782040683
+        ],
+        "projected_error_over_truth_energy": 0.7939962573294324,
+        "projected_error_over_truth_energy_each": [
+          0.8251538369184344,
+          0.7596084615758514
+        ]
+      },
+      "rank1_selected": {
+        "mse": 0.0008694311524766367,
+        "raw_gain": 0.06430834839970645,
+        "raw_gain_each": [
+          0.04454151248519633,
+          0.08884506019518135
+        ],
+        "projected_gain": 0.06175030847578611,
+        "projected_gain_each": [
+          0.038147772612799,
+          0.09041476207369448
+        ],
+        "projected_error_over_truth_energy": 0.7518663819371981,
+        "projected_error_over_truth_energy_each": [
+          0.8057206409418596,
+          0.6924288619648047
+        ]
+      },
+      "spectral_selected": {
+        "mse": 0.0008533587615783659,
+        "raw_gain": 0.08160563748571326,
+        "raw_gain_each": [
+          0.08073014403477996,
+          0.08269239363511871
+        ],
+        "projected_gain": 0.058975342565064315,
+        "projected_gain_each": [
+          0.05398487110771222,
+          0.06503609545837052
+        ],
+        "projected_error_over_truth_energy": 0.7540901008450125,
+        "projected_error_over_truth_energy_each": [
+          0.7924542817375532,
+          0.7117485700140427
+        ]
+      }
+    }
+  },
+  "Jurkat_partition": {
+    "n_train": 2464,
+    "n_test": 617,
+    "disjoint": true,
+    "frozen_hash_split_exact": true,
+    "query_has_no_labels": true
+  },
+  "Jurkat_sensitivity": {
+    "rank1_selected": {
+      "delete_one_endpoint_count": 79,
+      "delete_one_endpoint_positive": 79,
+      "delete_one_endpoint_gain_range": [
+        0.0494921294352485,
+        0.07102549983141337
+      ],
+      "nominal_95_gene_reweighting_interval": [
+        0.01733451159381759,
+        0.12129045811157542
+      ],
+      "reweighting_draw_count": 10000
+    },
+    "spectral_selected": {
+      "delete_one_endpoint_count": 79,
+      "delete_one_endpoint_positive": 79,
+      "delete_one_endpoint_gain_range": [
+        0.07428441453025669,
+        0.08967142456346056
+      ],
+      "nominal_95_gene_reweighting_interval": [
+        0.030017069108490044,
+        0.1318729369142008
+      ],
+      "reweighting_draw_count": 10000
+    }
+  },
+  "Jurkat_sensitivity_note": "gene-composition reweighting sensitivity interval, nominal 95%, conditional on fitted models and observed measurements; coverage not calibrated; excludes retraining, shared batch effects, cross-study variability",
+  "Jurkat_deletion_note": "Delete each endpoint and all incident test pairs; predictions remain fixed, with no refitting. This audits endpoint concentration, not performance on an unseen gene.",
+  "source_members_read": [
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/PLAN.json",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/SUMMARY.json",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/inputs/query.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/inputs/training.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/results/evaluation_predictions.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/Jurkat/results/node_reweighting_draws.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/INPUT_PROVENANCE.json",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer0/inputs/evaluation.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer0/inputs/training.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer1/inputs/evaluation.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer1/inputs/training.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer2/inputs/evaluation.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer2/inputs/training.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/predictions_high_all_folds.npz",
+    "WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/predictions_low_all_folds.npz"
+  ]
+}

@@ -1,0 +1,2 @@
+# Minimal offline reproduction environment; no raw-cell neural retraining.
+-r requirements-reproduction.txt

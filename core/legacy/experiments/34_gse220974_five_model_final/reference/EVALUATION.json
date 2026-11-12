@@ -1,0 +1,45 @@
+{
+  "status": "COMPLETE_MAIN_ROSTER_15_ROWS",
+  "pairs": 49,
+  "groups": 28,
+  "models": 15,
+  "previous_outcomes_opened_for_other_models": true,
+  "all_predictions_frozen": true,
+  "outer_outcomes_used_for_training": false,
+  "scope": "detected guide assignments; intended construct whitelist unresolved",
+  "partner_geometry": [
+    {
+      "fold": 0,
+      "query_count": 10,
+      "degrees": 0
+    },
+    {
+      "fold": 1,
+      "query_count": 10,
+      "degrees": 1
+    },
+    {
+      "fold": 2,
+      "query_count": 11,
+      "degrees": 2
+    },
+    {
+      "fold": 3,
+      "query_count": 9,
+      "degrees": 0
+    },
+    {
+      "fold": 4,
+      "query_count": 9,
+      "degrees": 1
+    }
+  ],
+  "outputs": {
+    "CHOICES.csv": "0c349a916794a413c2c23097b9869331e21a9a06bd11031fe85f00096fe29e0b",
+    "PAIRED_COMPARISONS.csv": "33bd61fb3f73b538ec572cc951bfe78c04e19e694b4aaf0a96602ccfd45f5c03",
+    "SUMMARY.csv": "aae2cc72cbf0f92a5d8fab9d17843069642db8e81aa17584dc828a43f0df31a8",
+    "REPORT_CN.txt": "f48804955b69ed653d09b0c95d2b1dc67e1fb62d8fcb3442bc084f5563f4dd23",
+    "GROUPS.json": "b24337b9863b9d3428846915a7f241a33a698e71ec57092a735e308fe6114dd3",
+    "FROZEN_PREDICTIONS.npz": "6bda836eb0f474c9918b27d0ea401b8acc598f17276b954548fe944debad636a"
+  }
+}

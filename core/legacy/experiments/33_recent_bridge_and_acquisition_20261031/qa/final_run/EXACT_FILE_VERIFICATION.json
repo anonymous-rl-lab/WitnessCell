@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "original_archive_count": 9,
+  "original_member_records_verified": 6838,
+  "unique_original_paths_verified": 6838,
+  "stored_member_records": 3605,
+  "regenerated_member_records": 3233,
+  "bytes_across_original_member_records": 146395423,
+  "per_archive_member_records": {
+    "WitnessCell_Bridge_Retrospective_20261031.zip": 32,
+    "WitnessCell_Formal_Hidden_Mechanism_Bridge_20261031.zip": 61,
+    "WitnessCell_NM_NCS_Bridge_20261031.zip": 5021,
+    "WitnessCell_OneStep_Minimal_Smoke_20261031.zip": 138,
+    "WitnessCell_Target_Aligned_Outer_20261031.zip": 134,
+    "WitnessCell_Target_Aligned_Repair_20261031.zip": 35,
+    "WitnessCell_Target_Aligned_Run_20261031.zip": 90,
+    "WitnessCell_Targeted_Bridge_Calibration_20261031.zip": 1237,
+    "WitnessCell_Training_Admission_Calibration_20261031.zip": 90
+  },
+  "every_original_size_and_sha256_exact": true,
+  "numeric_tolerance_used": false,
+  "scope": "All original archive file members; generated external audit reports are not original members."
+}

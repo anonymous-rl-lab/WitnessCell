@@ -1,0 +1,23 @@
+[
+  {
+    "name": "author_pipeline.zip",
+    "url": "https://idekerlab.ucsd.edu/papers/rsasik2017/dual_crispr_pipeline.zip",
+    "status": 200,
+    "final_url": "https://idekerlab.ucsd.edu/papers/rsasik2017/dual_crispr_pipeline.zip",
+    "bytes": 6021154,
+    "sha256": "2c8abe069a5d57b35d66225d23c2ff668d5a0e4d16e0623d5e3af0352f1bc71d",
+    "seconds": 6.634159564971924
+  },
+  {
+    "name": "author_index.html",
+    "url": "https://ideker.ucsd.edu/papers/rsasik2017/",
+    "error": "<HTTPError 503: 'Service Unavailable'>",
+    "seconds": 5.803937196731567
+  },
+  {
+    "name": "author_index_alt.html",
+    "url": "https://idekerlab.ucsd.edu/papers/rsasik2017/",
+    "error": "<HTTPError 403: 'Forbidden'>",
+    "seconds": 6.349040746688843
+  }
+]

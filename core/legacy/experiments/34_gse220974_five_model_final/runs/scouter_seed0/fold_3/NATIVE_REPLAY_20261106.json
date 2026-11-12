@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "model": "scouter",
+  "seed": 0,
+  "fold": 3,
+  "maximum_absolute_difference": 0.0,
+  "native_source": true,
+  "weight_sha256": "16cfe4cbd507eb82ddadd5f05ebffdf612672c1cb193a55f30f333af30a556e4",
+  "prediction_sha256": "ec4f6b3102d3045433472c0b1a47861361e0c30a4dbf14d3530495b4591e98b0",
+  "outer_outcomes_scored": false,
+  "checked_unix": 1793975737.7679572
+}

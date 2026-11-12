@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "scope": "Arithmetic and algebra checks of existing arrays only; no new model fit, model selection, cohort or independent validation.",
+  "checks": [
+    {
+      "check": "Saved precision statistic is explicitly an error-ratio change",
+      "passed": true,
+      "value": {
+        "query_graphs": 12,
+        "contrast_dimensions": 212,
+        "maximum_absolute_projected_error_ratio_change": 6.337747127105331e-08
+      }
+    },
+    {
+      "check": "Rectangle squared-error identity: M1",
+      "passed": true,
+      "value": {
+        "left": 21.962986743723434,
+        "right": 21.9629867437234,
+        "absolute_discrepancy": 3.552713678800501e-14
+      }
+    },
+    {
+      "check": "Readout signed budget equals total gain: M1",
+      "passed": true,
+      "value": {
+        "positive": 48.46481740654159,
+        "adverse": 26.501830662818197
+      }
+    },
+    {
+      "check": "Rectangle squared-error identity: R",
+      "passed": true,
+      "value": {
+        "left": 37.1444569443085,
+        "right": 37.14445694430851,
+        "absolute_discrepancy": 7.105427357601002e-15
+      }
+    },
+    {
+      "check": "Readout signed budget equals total gain: R",
+      "passed": true,
+      "value": {
+        "positive": 41.054402489037855,
+        "adverse": 3.9099455447293483
+      }
+    },
+    {
+      "check": "84.71% compares independently signed aggregate positive budgets",
+      "passed": true,
+      "value": 84.70970218387018
+    },
+    {
+      "check": "85.25% compares aggregate adverse increments",
+      "passed": true,
+      "value": 85.2465077055414
+    },
+    {
+      "check": "Projected squared-error identity: Jurkat repeat 1",
+      "passed": true,
+      "value": {
+        "pairs": 617,
+        "left": 0.019418541095390818,
+        "right": 0.019418541095390783,
+        "absolute_discrepancy": 3.469446951953614e-17
+      }
+    },
+    {
+      "check": "Growth correction has both endpoint and partner components: repeat 1",
+      "passed": true,
+      "value": {
+        "endpoint_component_squared_norm": 0.0032030273501956552,
+        "partner_component_squared_norm": 0.01545661163136687
+      }
+    },
+    {
+      "check": "Projected squared-error identity: Jurkat repeat 2",
+      "passed": true,
+      "value": {
+        "pairs": 617,
+        "left": 0.03789673156843376,
+        "right": 0.03789673156843375,
+        "absolute_discrepancy": 1.3877787807814457e-17
+      }
+    },
+    {
+      "check": "Growth correction has both endpoint and partner components: repeat 2",
+      "passed": true,
+      "value": {
+        "endpoint_component_squared_norm": 0.0032030273501956427,
+        "partner_component_squared_norm": 0.015456611631366874
+      }
+    }
+  ],
+  "sources": [
+    {
+      "path": "figure_source_data/Fig1_branch_capacity_check.csv",
+      "sha256": "db0b3dac38676fcd828c3e65a9ddd42fc864138f9f02299e60ddbf3020c8cd9c"
+    },
+    {
+      "path": "evidence/source_data/publication/RNA_signed_rectangle_predictions.npz",
+      "sha256": "110a9455d87535412b145c8aa88efbfbe8f1b8ec4f9cf653a3820235d94b747e"
+    },
+    {
+      "path": "evidence/source_data/publication/biological_examples/jurkat/Jurkat_all_617_pairs_two_repeats.csv",
+      "sha256": "a1e259f14a1a9d51c7b7280dab62b815c2b784cc4b7bdc54d515bcfd615d6c18"
+    }
+  ]
+}

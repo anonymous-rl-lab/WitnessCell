@@ -1,0 +1,222 @@
+{
+  "passed": true,
+  "repository_version": "25.0.0",
+  "mode": "reproduce",
+  "new_models_trained": 0,
+  "installed_software": false,
+  "external_downloads": 0,
+  "archive_verification": {
+    "archive_bytes": 7679888,
+    "archive_sha256": "7f9f63bc812df611955a824b2573066d893c5c6d63b8bfc6294e550db562ec41",
+    "manifest_files_verified": 42,
+    "archive_members": 43,
+    "scope": "Saved-table numerical checks and figure reconstruction; no model training"
+  },
+  "table_verification": {
+    "status": "PASS",
+    "RNA_four_corner_checks": [
+      {
+        "case": "failure_global_largest_harm",
+        "model": "M0",
+        "observed_C": -0.11530717095774135,
+        "predicted_C": -0.10407779830745595
+      },
+      {
+        "case": "failure_global_largest_harm",
+        "model": "M1",
+        "observed_C": -0.11530717095774135,
+        "predicted_C": 0.36149027182739213
+      },
+      {
+        "case": "failure_global_largest_harm",
+        "model": "R",
+        "observed_C": -0.11530717095774135,
+        "predicted_C": 0.30560580291112566
+      },
+      {
+        "case": "failure_global_largest_harm",
+        "model": "scalar",
+        "observed_C": -0.11530717095774135,
+        "predicted_C": 0.36149027182739213
+      },
+      {
+        "case": "positive_LYZ",
+        "model": "M0",
+        "observed_C": 1.092195039431046,
+        "predicted_C": -0.13450597208173856
+      },
+      {
+        "case": "positive_LYZ",
+        "model": "M1",
+        "observed_C": 1.092195039431046,
+        "predicted_C": 0.6057844533960262
+      },
+      {
+        "case": "positive_LYZ",
+        "model": "R",
+        "observed_C": 1.092195039431046,
+        "predicted_C": 0.5199928969781753
+      },
+      {
+        "case": "positive_LYZ",
+        "model": "scalar",
+        "observed_C": 1.092195039431046,
+        "predicted_C": 0.4863349480587047
+      },
+      {
+        "case": "positive_S100A9",
+        "model": "M0",
+        "observed_C": 3.033850822221913,
+        "predicted_C": -0.5364977957552564
+      },
+      {
+        "case": "positive_S100A9",
+        "model": "M1",
+        "observed_C": 3.033850822221913,
+        "predicted_C": 1.1664058874646497
+      },
+      {
+        "case": "positive_S100A9",
+        "model": "R",
+        "observed_C": 3.033850822221913,
+        "predicted_C": 1.034414358121789
+      },
+      {
+        "case": "positive_S100A9",
+        "model": "scalar",
+        "observed_C": 3.033850822221913,
+        "predicted_C": 1.1664058874646497
+      }
+    ],
+    "RNA_all_coordinate_count": 54945,
+    "RNA_C_MSE": {
+      "M0": 0.0042351833236234215,
+      "M1": 0.003835456565160926,
+      "R": 0.0035591535312072277,
+      "scalar": 0.003824421124072389
+    },
+    "Jurkat_pairs": 617,
+    "Jurkat_rows": 1234,
+    "Jurkat_SSE": {
+      "M0": 1.1466149562425276,
+      "rank1_selected": 1.0728780421561703
+    },
+    "Jurkat_gain": 0.06430834839970534,
+    "new_model_fits": 0
+  },
+  "renderer_compatibility": {
+    "passed": true,
+    "adaptation": "Derive plotting row/column labels from four ordered pair identities in memory",
+    "case_axes": [
+      {
+        "case": "failure_global_largest_harm",
+        "fold": "5",
+        "rectangle": "5",
+        "axes": {
+          "A": "GFI1",
+          "B": "RING1",
+          "C": "RCOR1",
+          "D": "SMARCD1"
+        }
+      },
+      {
+        "case": "positive_LYZ",
+        "fold": "1",
+        "rectangle": "6",
+        "axes": {
+          "A": "GSE1",
+          "B": "HDAC3",
+          "C": "SMARCD1",
+          "D": "MED24"
+        }
+      },
+      {
+        "case": "positive_S100A9",
+        "fold": "2",
+        "rectangle": "2",
+        "axes": {
+          "A": "EP300",
+          "B": "FLI1",
+          "C": "GFI1",
+          "D": "INTS1"
+        }
+      }
+    ],
+    "archived_renderer_and_corner_csv_unchanged": true,
+    "source_sha256": {
+      "renderer": "ad23c8fe778704081c5635d48602298e5091f6ac9fc76cf772237f46ae1c6eee",
+      "corner_csv": "eb7901e1c0af92915ec2439738ac9358e89de5de72323c00e34bb63261a5c91b"
+    },
+    "new_model_fits": 0,
+    "figures_created": 4,
+    "formats": [
+      "pdf",
+      "svg",
+      "png"
+    ]
+  },
+  "rebuilt_figures": [
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_four_corner_responses.pdf",
+      "bytes": 29918,
+      "sha256": "9faae67ed43855588acb60e46dbf90c8b1cc26c544fed0335e031067286c6db5"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_four_corner_responses.svg",
+      "bytes": 61136,
+      "sha256": "50a97ab2c553441afe30456928eb9e5a1c8ad5cb32cb50c8371a46d30d103155"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_four_corner_responses.png",
+      "bytes": 359956,
+      "sha256": "2a8c9a48f17d6cdfe0e3f577e1b8ba4e04df680fc8a2848a2d4d72bfc735fae5"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_all_contrasts_and_limitation.pdf",
+      "bytes": 31957,
+      "sha256": "0b60b57be077c2e4d48fdf68613d4a9e5b4788086b0a50f6ed9657795eb5458d"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_all_contrasts_and_limitation.svg",
+      "bytes": 68154,
+      "sha256": "7c21e42e119e419e5a2a2ead9ba0c696736ccea2c07acce4b17c557d0d75e399"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/RNA_all_contrasts_and_limitation.png",
+      "bytes": 425664,
+      "sha256": "805e2fccd2643f1e2163775bbe81318159cf08fc5c1ce860b639a5f70399fe07"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_specific_combinations.pdf",
+      "bytes": 39341,
+      "sha256": "be90fa9acf347e937cb08cbbd15b29f63dad4af35f781db0ee310ce5b247de5c"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_specific_combinations.svg",
+      "bytes": 141699,
+      "sha256": "44db470d84bffcfb96f0d3d776d672076f707209541b020271e3b3212fc74b7b"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_specific_combinations.png",
+      "bytes": 324750,
+      "sha256": "4c85147f5ee105c7414e0a982b045569807baee9b18228bc8ef2b65f28c1b0a8"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_all_pairs_and_limitation.pdf",
+      "bytes": 22455,
+      "sha256": "c6b83fb75c4631d4316b4fea24feefb361bb9ff121cd0338526b8ceedce4fc9c"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_all_pairs_and_limitation.svg",
+      "bytes": 21169,
+      "sha256": "8459e846d15cfbde4e549b7c1e404cdda22e88ebe923c6aace949c5fcb7c3346"
+    },
+    {
+      "path": "payload/WitnessCell_RNA_Jurkat_Response_Examples_20261019/figures/Jurkat_all_pairs_and_limitation.png",
+      "bytes": 109435,
+      "sha256": "2a89741c2cad857080686a71731e3c198f687a5c2fcf8e7d07f94388216cce6a"
+    }
+  ],
+  "figure_identity_note": "Numerical tables are checked against archived values. Figure bytes can vary with Matplotlib versions, fonts and PDF/SVG metadata. The extracted MANIFEST describes original bundled files before rebuilding.",
+  "elapsed_seconds": 5.0789635149994865
+}

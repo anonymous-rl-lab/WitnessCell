@@ -1,0 +1,40 @@
+{
+  "source_files_checked": 164,
+  "source_hashes": "PASS",
+  "claim_source_rows_checked": 35,
+  "tables": 24,
+  "notes": 12,
+  "unresolved_placeholders": 0,
+  "formal_recalculation": {
+    "paired_difference": -0.06062010146619638,
+    "MC95": [
+      -0.06110272951916521,
+      -0.06013747341322755
+    ],
+    "risk_reduction_percent": 92.84093431859591,
+    "status": "PASS"
+  },
+  "RNA_pooled_gains": {
+    "M1": {
+      "rectangle_gain_percent": 9.438239809665072,
+      "complete_gain_percent": 5.238667482986992
+    },
+    "R": {
+      "rectangle_gain_percent": 15.962232110364106,
+      "complete_gain_percent": 9.281860797202624
+    }
+  },
+  "GSE_choice_recalculation": {
+    "summary_rows": 15,
+    "choice_rows": 420,
+    "max_absolute_difference": 1.3877787807814457e-17,
+    "RG_PRESAGE_choices_identical": true,
+    "status": "PASS"
+  },
+  "neural_jobs_checked": 30,
+  "neural_selection_refit_match": "PASS",
+  "main_sha256": "4c6e8078af52663db48f2bf1b8ab5a0a7293b6552579784b72f7a77ddb46bb7c",
+  "SI_sha256": "26b979b09c1e35f0186e41ce662c57769d88aa292d2c6b3b28ab4c21456e33a8",
+  "SI_words_including_tables": 14817,
+  "scope": "Document/source verification and saved-result recalculation only; no model retraining."
+}

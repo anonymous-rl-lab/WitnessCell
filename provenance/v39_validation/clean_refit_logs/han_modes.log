@@ -1,0 +1,10 @@
+                                    selected  rank_min  rank_max     r_min     r_max
+panel          baseline   family                                                    
+full_published native     rank1           15         1         1  0.048109  0.174520
+                          spectral        15        12        16  0.112564  0.177316
+               saturation rank1            0         0         0       NaN       NaN
+                          spectral        15        20        29  0.281826  0.428327
+full_raw       native     rank1           15         1         1  0.136060  0.214178
+                          spectral        15        13        19  0.123450  0.187184
+               saturation rank1           13         0         1  0.000218  0.128839
+                          spectral        15        29        36  0.011907  0.193322

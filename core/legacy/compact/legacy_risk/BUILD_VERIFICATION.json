@@ -1,0 +1,47 @@
+{
+  "E20_exact_prediction_array_identities": 156,
+  "E22_original_vs_rescored_max_absolute_delta": 4.440892098500626e-16,
+  "E22_NIR_max_absolute_delta": 1.1102230246251565e-16,
+  "E22_prediction_rows": 2616,
+  "E23_original_vs_rescored_max_absolute_delta": 4.440892098500626e-16,
+  "E23_loss_moment_rows": 2334,
+  "E23_official_prediction_identity": [
+    {
+      "dataset": "Norman",
+      "seed": 1,
+      "rows": 73,
+      "official_prediction_exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": 2,
+      "rows": 66,
+      "official_prediction_exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": 3,
+      "rows": 69,
+      "official_prediction_exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "rows": 63,
+      "official_prediction_exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "rows": 54,
+      "official_prediction_exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "rows": 64,
+      "official_prediction_exact_equal": true
+    }
+  ],
+  "scope": "Computed from decoded original v24 expression/prediction/weight arrays, then verified against frozen per-query scores; compact replay recomputes scores from retained moments and all resampling from rows."
+}

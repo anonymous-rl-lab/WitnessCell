@@ -1,0 +1,4 @@
+{"utc": "2026-10-19T21:33:26.771252+00:00", "event": "reference_kernel_fold_frozen", "outer": 0, "seconds": 0.8887013549974654, "outer_scored": false}
+{"utc": "2026-10-19T21:33:27.563977+00:00", "event": "reference_kernel_fold_frozen", "outer": 1, "seconds": 1.6813864289943012, "outer_scored": false}
+{"utc": "2026-10-19T21:33:28.279968+00:00", "event": "reference_kernel_fold_frozen", "outer": 2, "seconds": 2.39741961099935, "outer_scored": false}
+{"utc": "2026-10-19T21:33:28.311401+00:00", "event": "reference_kernel_complete", "seconds": 2.428857822997088}

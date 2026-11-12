@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "Norman",
+    "seed": 1,
+    "method": "B",
+    "max_abs_score_difference": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "Norman",
+    "seed": 1,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Norman",
+    "seed": 2,
+    "method": "B",
+    "max_abs_score_difference": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "Norman",
+    "seed": 2,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Norman",
+    "seed": 3,
+    "method": "B",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Norman",
+    "seed": 3,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 1,
+    "method": "B",
+    "max_abs_score_difference": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 1,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 2,
+    "method": "B",
+    "max_abs_score_difference": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 2,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 3,
+    "method": "B",
+    "max_abs_score_difference": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 3,
+    "method": "S",
+    "max_abs_score_difference": 0.0
+  }
+]

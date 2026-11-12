@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "release": "30.0.0",
+  "paper": "v39",
+  "default_tasks_passed": 15,
+  "default_tasks_total": 15,
+  "optional_global_refit": "PASS: all seven matched-reference configurations",
+  "optional_torch_inference": "Not rerun for this consolidation; retained original optional route",
+  "full_han_training": "Not rerun for packaging; native selected-weight replay passed",
+  "pdf_typesetting": "Current source/renderer included; typesetting not rerun for packaging",
+  "main_figures": 5,
+  "supplementary_figures": 7,
+  "si_tables": 57,
+  "source_files_integrated": 327,
+  "unchanged_original_scientific_files": 4577,
+  "exact_alias_paths": 802,
+  "han_cache_exact_reconstructions": 120,
+  "resume_skipped": 15,
+  "scientific_precision_changed": false,
+  "new_scientific_claims": false,
+  "scope": "Offline reconstruction from archived metrics, arrays and weights; does not imply fresh raw-data processing or all external predictor training."
+}

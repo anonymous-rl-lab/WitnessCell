@@ -1,0 +1,26 @@
+{
+  "rank1": {
+    "selected": "rank1_t0.1_n1",
+    "best_regularized": "rank1_t0.1_n1",
+    "inner_gain_pct": 1.5829082120600524,
+    "alpha": 1.0,
+    "gamma": 1.0,
+    "partner_cross": 40.75005280481514,
+    "partner_energy": 40.30319272911915,
+    "full_cross": 42.94372506230654,
+    "full_energy": 41.5984965447064,
+    "final_converged": true
+  },
+  "spectral": {
+    "selected": "spectral_t0.3_n0.1",
+    "best_regularized": "spectral_t0.3_n0.1",
+    "inner_gain_pct": 2.834472321461956,
+    "alpha": 0.8939807612687019,
+    "gamma": 0.9134843448415316,
+    "partner_cross": 81.39728834308775,
+    "partner_energy": 91.05038035446307,
+    "full_cross": 87.604002646076,
+    "full_energy": 95.90093485540058,
+    "final_converged": true
+  }
+}

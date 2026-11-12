@@ -1,0 +1,14 @@
+[
+  {
+    "name": "grn_repo_v30_paper_v39.zip",
+    "sha256": "9fdd1163541db8b35bad4c45014eef74fd1bf03a916a259c022487adedb9a0f2",
+    "bytes": 235401829
+  },
+  {
+    "name": "WitnessCell_v41_Revision_Supplement.zip",
+    "sha256": "bf070bbf51cfff8f192ac8758ea41d542798c87c10882edb8b63141f59e06202",
+    "bytes": 1935281,
+    "library_version": 1,
+    "language_revision": "R1"
+  }
+]

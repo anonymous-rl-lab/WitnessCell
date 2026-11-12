@@ -1,0 +1,30 @@
+{
+  "inputs": [
+    {
+      "filename": "TRAINING_BATCH_ONLY.npz",
+      "sha256": "6901f8aa807ccb42de387fce2ba62ac9f40fba1ba918bab3e040edcb0e62767e",
+      "included": false,
+      "module_path": null
+    },
+    {
+      "filename": "TRAINING_RAW_HALVES.npz",
+      "sha256": "8829d0d3c02f98cdf84d2d21e97860038c1abe6e9ab2851c90e5e38dd25e3f27",
+      "included": false,
+      "module_path": null
+    },
+    {
+      "filename": "KNOWLEDGE_NODE.npz",
+      "sha256": "e8fcbef57090a8e124ab31f9a7509d81b2a0e47f4988bd7ebde8853a85e03b27",
+      "included": true,
+      "module_path": "data/KNOWLEDGE_NODE.npz"
+    },
+    {
+      "filename": "ORIGINAL_SPLIT.json",
+      "sha256": "50b4aff635d0d6e9f40393b1ae292617c9d674a755f2b8e6e8db1d5f0dbf9a51",
+      "included": true,
+      "module_path": "source/ORIGINAL_SPLIT.json"
+    }
+  ],
+  "scope": "Optional upstream intermediate-data reconstruction; compact replay needs no external files.",
+  "raw_cell_reconstruction": false
+}

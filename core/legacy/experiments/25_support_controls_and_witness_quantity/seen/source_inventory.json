@@ -1,0 +1,182 @@
+[
+  {
+    "dataset": "Norman",
+    "seed": 1,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "6be175ce56ddfbf339a680db8128ecf4227bb2d395819f1b35777dea892c8054",
+        "relative_copy": "results/Norman_seed1/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "dc3bec44dba55c13705ef38cf14c90bd0fc92cee605387b5be75fea8355453a8",
+        "relative_copy": "results/Norman_seed1/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "e4542c1a5dbd4c4f33fa843e61b535fb6bcfa34a30e50e1ee9a05a25f00c21ff",
+        "relative_copy": "results/Norman_seed1/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "7a6fb6e0b18844c68fde2fbe62e3cdd001ea8307df00f4665e462da217d38f1a",
+        "relative_copy": "results/Norman_seed1/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "18fd78fe3a98cb7fe331d35709be4d7ecfb764201c8eca2e9263d5395ffa452f",
+        "relative_copy": "results/Norman_seed1/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "5ec8d33de3c3739fb9ecbe143bc59b46ce35ce4829330b4930e4255704cf0c48",
+        "relative_copy": "results/Norman_seed1/original_frozen_selections.csv"
+      }
+    }
+  },
+  {
+    "dataset": "Norman",
+    "seed": 2,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "95cd1b79bca3f98d68cec1d214aa4d5f1164e66c9ba560102a8bbcc70f38cedd",
+        "relative_copy": "results/Norman_seed2/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "38136ba6c64d126445f2f52544069fa97fe195be876c41dd1e43a5eca378120c",
+        "relative_copy": "results/Norman_seed2/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "fbdc3c9344675e721c8c3714413df3500bbc9c6a9bc821c85195fca12d67cd76",
+        "relative_copy": "results/Norman_seed2/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "a27ffb42ed87b613a6a0246a3dd45c7d9df75a92a99f0677329c1831405e5ee1",
+        "relative_copy": "results/Norman_seed2/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "67b9f45748dc7dd4da73479a2cf66a96ab1040334e4eb452e056c962b6925b03",
+        "relative_copy": "results/Norman_seed2/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "32fc99fec7cdebdbc586b5f201f976b5d3a16cd4f35993d8ab79e7b5c4e9daad",
+        "relative_copy": "results/Norman_seed2/original_frozen_selections.csv"
+      }
+    }
+  },
+  {
+    "dataset": "Norman",
+    "seed": 3,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "4fe7010b6f229a0410c16cbba0072737a15573cc15b34df7eaa903ee32b5cbb6",
+        "relative_copy": "results/Norman_seed3/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "2a727ff4a5e78cf2de867a8c1535d2a4939bb3cf4cf8ee7a3e57b8e8aab0e894",
+        "relative_copy": "results/Norman_seed3/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "4afd4034b06bdd782bf8b5d4aa66bde465d3b50bac0628875c94b6ecdc88ea02",
+        "relative_copy": "results/Norman_seed3/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "be7783b51bd957eefd3d69af0ac2aee39a7db64fcc4bf3c3aaf651cd465009b1",
+        "relative_copy": "results/Norman_seed3/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "8186dffbab8392c110463b321548779266bae119986855df123cca14bf406766",
+        "relative_copy": "results/Norman_seed3/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "0e9f3fbf44b58d13154b244d97059871e92cc078509cb0f7dd3d278ff0a9f722",
+        "relative_copy": "results/Norman_seed3/original_frozen_selections.csv"
+      }
+    }
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 1,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "84fb95da1c357b56645b4e6c5dcd8fbc5a94814062c379814c16db16058a81a0",
+        "relative_copy": "results/Wessels_seed1/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "2d88f655b37c3d04c01a355d87a56dc5a91e46211bdb4e938ebdc196abc9fd88",
+        "relative_copy": "results/Wessels_seed1/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "c7dad71b1a7bcae8048d96bf874a5f8b64065abee00b2bb9caca47b4a8aced17",
+        "relative_copy": "results/Wessels_seed1/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "0068202cf7098e2e1c0ae5e7d2d43c229cc72c54f998dbc199d97b496cc160bb",
+        "relative_copy": "results/Wessels_seed1/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "eb5ab71d7f2cf620ed8c363b1a86dcdcc10ee0343f6283b66dfb552075f8bba0",
+        "relative_copy": "results/Wessels_seed1/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "542f11a07a64d645ce1917c8f2c77360b6c1a92fc4dd51fe2950bb57e088beca",
+        "relative_copy": "results/Wessels_seed1/original_frozen_selections.csv"
+      }
+    }
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 2,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "0fa19a7d53d765fb225d79c9ff8ea54a3210c1aaa245400da8e0ba647f087373",
+        "relative_copy": "results/Wessels_seed2/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "2a07cf415f74bc14cb7563c050bb92ef49264b8d9306e9984ec0d4722c7e26f0",
+        "relative_copy": "results/Wessels_seed2/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "2364a38fb47a4628105932ee64a701d1cb30b5861e084d70e22423c2a33cc49e",
+        "relative_copy": "results/Wessels_seed2/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "6b43cb53075ef9cdd3740a6c73cba8c2048d02abd8e0a65d8895d6fda3ce9126",
+        "relative_copy": "results/Wessels_seed2/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "a23fb460fac7598ec003fd330ec0b4c6bd7f1fc00a6514420ae387739a66a140",
+        "relative_copy": "results/Wessels_seed2/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "aafd8757d537c33dedc4d945ef01d7ae11cd5bcdaec451fe3ce8db4e4a01b483",
+        "relative_copy": "results/Wessels_seed2/original_frozen_selections.csv"
+      }
+    }
+  },
+  {
+    "dataset": "Wessels",
+    "seed": 3,
+    "files": {
+      "training_oof_records.csv": {
+        "sha256": "40b9e831fd55c5f2f49db1f49007408d16f79191361835297dbc0df3589fb05c",
+        "relative_copy": "results/Wessels_seed3/original_training_oof_records.csv"
+      },
+      "risk_models.json": {
+        "sha256": "2658d41290b5a1b5339ac6120a4d1f088313f7947b1c0c02d76fc462071a1c61",
+        "relative_copy": "results/Wessels_seed3/original_risk_models.json"
+      },
+      "frozen_query_outputs.csv": {
+        "sha256": "f0c0607ec3e9aa774d63e95f95a2b40e7f39200346328f35a6bf54fa2fb8ba3f",
+        "relative_copy": "results/Wessels_seed3/original_frozen_query_outputs.csv"
+      },
+      "evaluation_metadata.json": {
+        "sha256": "28e1fbb8d6841b484e32e91546b3bfce1f80246b39ee43bbfe3310cfc1d95f94",
+        "relative_copy": "results/Wessels_seed3/original_evaluation_metadata.json"
+      },
+      "split_manifest.json": {
+        "sha256": "fd8b1a7d87dc813c89db35c43b4326eb358b1a9b88f86b90b042d86c45ee0a04",
+        "relative_copy": "results/Wessels_seed3/original_split_manifest.json"
+      },
+      "frozen_selections.csv": {
+        "sha256": "58bded048e18b58191b928c0604a7aa9b5c1e2fb5a8bc6d15de48f59880920a4",
+        "relative_copy": "results/Wessels_seed3/original_frozen_selections.csv"
+      }
+    }
+  }
+]

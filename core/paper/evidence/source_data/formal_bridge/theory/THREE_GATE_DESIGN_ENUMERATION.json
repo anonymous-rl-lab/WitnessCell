@@ -1,0 +1,101 @@
+{
+  "status": "PASS_exact_rational_design_review_NOT_EXECUTED",
+  "formal_fits_added": 0,
+  "high": [
+    [
+      "A",
+      "B"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "D",
+      "E"
+    ],
+    [
+      "D",
+      "F"
+    ]
+  ],
+  "low": [
+    [
+      "A",
+      "D"
+    ],
+    [
+      "B",
+      "D"
+    ],
+    [
+      "B",
+      "E"
+    ],
+    [
+      "C",
+      "F"
+    ]
+  ],
+  "degree": {
+    "A": 1,
+    "B": 2,
+    "C": 1,
+    "D": 2,
+    "E": 1,
+    "F": 1
+  },
+  "query_disjoint": true,
+  "ranks": {
+    "low": {
+      "single_gate": [
+        8,
+        8,
+        8
+      ],
+      "all_three_gate_free_sum": 8
+    },
+    "high": {
+      "single_gate": [
+        9,
+        9,
+        9
+      ],
+      "all_three_gate_free_sum": 10
+    }
+  },
+  "all_pairs_of_candidate_gates_high_rank": 10,
+  "all_pairs_of_candidate_gates_low_rank": 8,
+  "AB_BC_contrasts_by_gate_at_p_half": [
+    [
+      "-1/2",
+      "-1/2",
+      "0"
+    ],
+    [
+      "0",
+      "-1/2",
+      "-1/2"
+    ]
+  ],
+  "query_rectangle_by_gate_at_p_half": [
+    "-1/2",
+    "0",
+    "-1/2"
+  ],
+  "unrestricted_three_gate_kernel": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -1,
+    1,
+    -1,
+    1
+  ],
+  "query_functional_on_free_sum_kernel_at_p_half": -1,
+  "interpretation": "Identifying within union of exactly-one-active-gate model classes, not arbitrary linear sum of all three."
+}

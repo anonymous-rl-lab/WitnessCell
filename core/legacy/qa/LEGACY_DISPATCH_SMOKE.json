@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "task": "sf12",
+  "scope": "Smoke check of unchanged legacy task through the updated common dispatcher; not a full rerun of the twelve legacy tasks",
+  "evidence": {
+    "status": "PASS",
+    "release": "26.0.0",
+    "paper": "22",
+    "tasks": [
+      {
+        "task": "sf12",
+        "scope": "60 SF12 coefficients re-solved; five qualified tasks and rejected case_R reproduced",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-B",
+          "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/30_h1_sf12_qualified/run.py",
+          "--out",
+          "/workspace/scratch/55b8063c9ed0/pack_dispatch_sf12/sf12"
+        ],
+        "log": "sf12.log",
+        "timeout_seconds": 300.0,
+        "returncode": 0,
+        "status": "PASS",
+        "seconds": 0.4663775299995905
+      }
+    ],
+    "passed": 1
+  }
+}

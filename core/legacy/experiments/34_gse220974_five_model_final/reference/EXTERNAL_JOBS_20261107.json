@@ -1,0 +1,47 @@
+{
+  "jobs": {
+    "gears_seed0_fold3": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_QUEUED",
+      "assigned_unix": 1794015787.820247,
+      "updated_unix": 1794016674.5800366
+    },
+    "gears_seed1_fold3": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_QUEUED",
+      "assigned_unix": 1794015787.8202488,
+      "updated_unix": 1794016674.5800383
+    },
+    "gears_seed2_fold3": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_RUNNING",
+      "assigned_unix": 1794015787.820249,
+      "updated_unix": 1794016674.5800397
+    },
+    "gears_seed0_fold4": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_RUNNING",
+      "assigned_unix": 1794015787.8202493,
+      "updated_unix": 1794016674.5800402
+    },
+    "gears_seed1_fold4": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_QUEUED",
+      "assigned_unix": 1794015787.8202496,
+      "updated_unix": 1794016674.580041
+    },
+    "gears_seed2_fold4": {
+      "host": "AutoDL",
+      "remote_root": "/root/autodl-tmp/witnesscell_20261107/deployment/gse220974_run_20261102",
+      "state": "REMOTE_QUEUED",
+      "assigned_unix": 1794015787.8202496,
+      "updated_unix": 1794016674.5800414
+    }
+  },
+  "reason": "User-authorized GPU migration; preserve existing checkpoints; no CPU duplicate jobs"
+}

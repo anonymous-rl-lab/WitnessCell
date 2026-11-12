@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "seed": 0,
+      "phase": "select_schedule5",
+      "epoch_completed": 3,
+      "next_start": 16000,
+      "loss": 0.5420438647270203,
+      "model_optimizer_restored": true
+    },
+    {
+      "seed": 1,
+      "phase": "select_schedule1",
+      "epoch_completed": 15,
+      "next_start": 3200,
+      "loss": 0.6448140740394592,
+      "model_optimizer_restored": true
+    }
+  ],
+  "formal_checkpoint_modified": false,
+  "outer_outcomes_used": false
+}

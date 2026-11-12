@@ -1,21 +1,7 @@
 # Contributing
 
-Thank you for improving WitnessCell. During double-blind review, do not add
-names, affiliations, email addresses, repository usernames, DOI values, grant
-identifiers, or machine-specific paths to issues, commits, source files,
-documentation, metadata, fixtures, or generated artifacts.
+Keep scientific results traceable to permitted inputs, fixed splits and the named task. Submit code or documentation changes separately from changes to a frozen analysis. Do not overwrite reference predictions or expected results to make a check pass. Add a new analysis identity for changed estimation rules.
 
-Create a focused branch, add tests for behavioral changes, and run:
+Run `python -B -m unittest discover -s tests -v` and the affected reproduction task. Record the environment and numerical differences. Regenerate release manifests only when intentionally building a new version, with changes reviewed against the previous manifest. Local output should remain outside the repository.
 
-```bash
-python -m pip install -e ".[dev]"
-ruff check .
-pytest
-python scripts/audit_anonymity.py .
-python -m build
-twine check dist/*
-```
-
-Changes to the numerical contract require an explicit contract version, a
-reference-parity report, and release notes. Never silently change an evidence
-gate, fallback, target role, or risk interpretation.
+Public contribution and distribution arrangements depend on the licence scope described in LICENSE.md.

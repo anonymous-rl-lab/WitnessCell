@@ -1,0 +1,206 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/compare_v14_v13.py",
+      "bytes": 6062,
+      "sha256": "b4542d60619b26f596583e3fc3968ff8bbc51a58ed48648595d0180f879a59a0",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/dual_head.py",
+      "bytes": 26536,
+      "sha256": "f5f1abb1ed8f229c1de4579e2cb1d830115df10e6d65f2ef50ddca384432f837",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/go_identity_head.py",
+      "bytes": 7226,
+      "sha256": "d50d8dd47472eca032c4f438a21fbac3fb3a20400428f7b418b36b6e19fdc9fa",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/identity_head.py",
+      "bytes": 9011,
+      "sha256": "6c666709cf0d42bb5a57a98e820c7ec7a4b3a32237fdfc2e924e8de7b3caa89f",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/multihead_v14.py",
+      "bytes": 9668,
+      "sha256": "d5526d7de72e8a7696c2f628c59c42e1e82558b61adfb98e8524ec52f7787409",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/official_split.py",
+      "bytes": 5189,
+      "sha256": "24ca24c37801cb63d386c2a1eff303d002e52fd764e51e3066df4f64ae85146e",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/probe_multhead_training.py",
+      "bytes": 31539,
+      "sha256": "65298e95b064414bdab8cf25643b1e1a7703e10f783c04e3ce07694e063f7176",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/run_v14_from_cache.py",
+      "bytes": 12814,
+      "sha256": "1dada7fe0da457fdc95dc7bfa8b4390caa6238191a59b0ff3d510796c4c1229f",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v1_core.py",
+      "bytes": 8865,
+      "sha256": "64bd372a3ec037a500e4cd5679adbc3f3fe3168c897a26f15b444ced2e5496e7",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v4_core.py",
+      "bytes": 11895,
+      "sha256": "8841a49ecf266da1e28acdfb4f604f5f33fdb6783faa4701d4a624307c729e75",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/fast_amplitude_bank.py",
+      "bytes": 1626,
+      "sha256": "ae3b5d67f1ed49b8fe6648f7e6663a1848f9961ba04822c0e7e777a5a4480987",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/baselines.py",
+      "bytes": 12747,
+      "sha256": "b766dd66a640e47d10834f01b74713703c15f134f9c2f168cf38a778e82740bd",
+      "source": "physical",
+      "role": "original hash-locked source"
+    },
+    {
+      "path": "experiments/15_scperturbench_sota/module/data/gears_assets/gene2go_all.pkl",
+      "bytes": 9462558,
+      "sha256": "f145c5e84a53048d87942a417d870a4f2d8db50200b96e492b358c13aba8c771",
+      "source": "lossless_store",
+      "role": "endpoint GO prior"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/allowed_input.npz",
+      "bytes": 3430967,
+      "sha256": "10eeb1eb8c83494c27bdc883316d8bd05fe2ad5ab7922dfcbc5d38c27c190e6c",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/fits/full_replay.json",
+      "bytes": 3804,
+      "sha256": "972e23ca2ff80c19e47519e8c897e506ba7c8a9d66a56dd0fe0a3d43cebca75d",
+      "source": "physical",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/baseline_predictions.npz",
+      "bytes": 6751197,
+      "sha256": "922746bd7fa13a923e50c22cc7bdfb238b30f7b7b7376ce328678395167456c8",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/evaluation_only.npz",
+      "bytes": 3418610,
+      "sha256": "caa72b18e417e07287abb42f46b733e1c2cdcfa11e9faa238427f5d4ec14473c",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/manifest.json",
+      "bytes": 2694,
+      "sha256": "752410c2684bab38b5b72d9509c005b4f0b95cbd290fe0bca94176cf59d84e2b",
+      "source": "physical",
+      "role": "formal v14 selected parameters"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/allowed_input.npz",
+      "bytes": 3856863,
+      "sha256": "0377171654e02f6385cfdba740ff7af645b0331b5b3976374e076130df9b5bec",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/fits/full_replay.json",
+      "bytes": 3983,
+      "sha256": "f224235dc18c79f127e10ff982e78fc942878c446e800d9cf9e85f051a657c5f",
+      "source": "physical",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/baseline_predictions.npz",
+      "bytes": 5814853,
+      "sha256": "060f27dc662bf273c4555da12acefa7c9579f097b698bb6f6d144b7037487276",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/evaluation_only.npz",
+      "bytes": 2923808,
+      "sha256": "d629bfda826e1d6c4ee2788284f9703a724cf70566a84c0fa9400323fdfc6536",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/manifest.json",
+      "bytes": 2681,
+      "sha256": "fa9127a386ab0818a3ad16ca7c8bc40e82371d8d66794c84e60ab02078ea1d7e",
+      "source": "physical",
+      "role": "formal v14 selected parameters"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/allowed_input.npz",
+      "bytes": 3501301,
+      "sha256": "820d5d86d13c2398259f5bcd7da6612d7bf84dd3b3fc2f39c2c4959b92304d71",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/fits/full_replay.json",
+      "bytes": 3748,
+      "sha256": "3be8e5e10516c7408735343e6a50d34e0a3d46b45e46340a139a9d730cdb5b2e",
+      "source": "physical",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/baseline_predictions.npz",
+      "bytes": 6880174,
+      "sha256": "f8f92ae15600cf794b3ea93d3285c9b5d61a4603d478248b9fc0c08518b1c5bb",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/evaluation_only.npz",
+      "bytes": 3477124,
+      "sha256": "b2f3c23026df60779f23a74acff042430a446d7d580c15f579a2ba9166ff9e0e",
+      "source": "lossless_store",
+      "role": "frozen condition-level input and comparison"
+    },
+    {
+      "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/manifest.json",
+      "bytes": 2667,
+      "sha256": "4ac686adee7003147607cda56bb4a54ce6692e9fbefc81e9630edb720b058ab5",
+      "source": "physical",
+      "role": "formal v14 selected parameters"
+    }
+  ],
+  "file_count": 28,
+  "raw_bytes": 49680210,
+  "zip_bytes": 42009580,
+  "unchanged_e25_scope": "Retain all canonical inputs needed for original E25 --mode all endpoint-to-prediction-to-bootstrap reproduction",
+  "existing_e25_bytes_untouched": true
+}

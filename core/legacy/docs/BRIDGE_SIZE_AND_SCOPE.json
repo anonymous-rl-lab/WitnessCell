@@ -1,0 +1,9 @@
+{
+  "raw_bytes": 4946176,
+  "compressed_bytes": 3109009,
+  "file_count": 74,
+  "source_data_files": 65,
+  "source_members_hash_verified": 71,
+  "runtime_validation": "code_cleanup_v25_20261026/validation/paper_figures_final/PAPER_REPRODUCTION.json",
+  "artifact_scope": "36 publication objects mapped, 17 figures redrawn, 19 exact table references; not 36 full model retrainings"
+}

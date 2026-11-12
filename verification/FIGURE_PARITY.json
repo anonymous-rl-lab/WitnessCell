@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "main_figures": 5,
+  "supplementary_figures": 7,
+  "checks": [
+    {
+      "file": "Fig1_Method.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "Fig2_Joint_Intervention_Information.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "Fig3_Prediction_Benchmark.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "Fig4_Functional_Growth.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "Fig5_RNA_Partner_Response.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig1_Research_Applications.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig2_All_Comparator_Intervals.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig3_Combination_Support.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig4_Component_Control.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig5_Direction_Repeatability.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig6_Han_Native_Controls.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    },
+    {
+      "file": "SuppFig7_Global_Reference_Diagnostics.pdf",
+      "pixel_mean_absolute_difference": 0.0,
+      "changed_channel_fraction": 0.0
+    }
+  ],
+  "scope": "Scientific data and redraw parity; no model fitting; PDF metadata need not be identical."
+}

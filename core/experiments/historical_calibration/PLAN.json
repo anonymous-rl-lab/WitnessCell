@@ -1,0 +1,11 @@
+{
+ "date":"2026-11-08",
+ "objective":"Test whether archived model-specific inner validation, amplitude and complexity improve prediction of held-out partner gain, then test training-only model selection",
+ "scope":"Reuse existing measurements, coefficients, predictions and inner scores; no retraining biological predictors",
+ "features":"Inner endpoint-projected gain and full-response gain kept separate; correction reward/cost when recoverable; inner contrast dimensions, amplitude, regularization, effective degrees where defined",
+ "validation":"Purged whole queried-combination groups, whole panels and whole studies; no random row split. Leave-source tests remain retrospective",
+ "regression":"Fixed standardized ridge alpha=1; compare same-row data-only baseline, inner-gain-only, combined and complexity models. Persist all candidates and both success/failure outcomes",
+ "selection":"Compare zero correction, maximum inner partner gain, maximum inner full-response gain, and cross-fitted regression choices on identical eligible candidate pools. Zero is always available. No outer-score-based threshold tuning",
+ "weighting":"Balance panels and training configurations. Repeated archive aliases split their weight. Keep baseline and validation metric distinctions explicit",
+ "eligibility":"Missing inner coefficients or nonmatching metric are disclosed, not fabricated. Recoverable diagnostic regularized rank-one outputs can be rescored from already saved predictions"
+}

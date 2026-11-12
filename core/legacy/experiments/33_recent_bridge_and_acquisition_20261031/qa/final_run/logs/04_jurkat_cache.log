@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "cache_files_exact": 64,
+  "restored_files": 64,
+  "mode": "restore_missing_only",
+  "seconds": 3.7494753469945863,
+  "scientific_source_modified": false,
+  "query_answers_read": false,
+  "source_archive_existing_boundary": {
+    "unavailable_historical_protocol_files": [
+      "protocol/v1_before_availability_amendment.zip"
+    ],
+    "note": "Historical availability snapshot ZIP was already absent from original bridge archive; all present frozen scientific source, plan and permitted inputs are SHA-checked."
+  }
+}

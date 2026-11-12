@@ -1,0 +1,119 @@
+{
+  "active_newly_scored_splits": 8,
+  "condition_seed_units": 654,
+  "exact_fallback_splits": 4,
+  "metric_rows": 6540,
+  "official_split_count": 12,
+  "protocol": "8 active v14 splits newly scored; 4 inactive splits reused only after exact deploy-array identity; aggregate all 12 official splits.",
+  "split_provenance": [
+    {
+      "condition_units": 93,
+      "dataset": "Norman",
+      "metric_rows": 930,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "b69fea80cf890720b38aa7916fa6cf400873244c2dd3522ff74f7cb3a220250d",
+      "seed": 1,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 86,
+      "dataset": "Norman",
+      "metric_rows": 860,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "6c5667d083aa4e560dc7086c8a24b826478168b0b2ecd655504ebb547a992833",
+      "seed": 2,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 89,
+      "dataset": "Norman",
+      "metric_rows": 890,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "2018c9aec16f455cf9143905aff7ea3d45d1ca8859887b33c726a4c291152e31",
+      "seed": 3,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 42,
+      "dataset": "Replogle_exp6",
+      "metric_rows": 420,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "3f582fa5976d18d8e8ddce24b464fb82e9e5a006cfbb70c758ce086ce5edb6f7",
+      "seed": 1,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 36,
+      "dataset": "Replogle_exp6",
+      "metric_rows": 360,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "a0e9ad79020cbb006ba6cc14645fc4a51f9df62176ee367ff80a48c1c6faa00a",
+      "seed": 2,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 34,
+      "dataset": "Replogle_exp6",
+      "metric_rows": 340,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "26e9a99d4b0e2ec6c1ca1053cc1ccdbd99d50cddf2bf008fce134f8a1fa4e138",
+      "seed": 3,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 31,
+      "dataset": "Schmidt",
+      "metric_rows": 310,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "72797c81abd3cb59e91f3c8ce908c0d959b9a9f05c6d2575dadd72898a665073",
+      "seed": 1,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 28,
+      "dataset": "Schmidt",
+      "metric_rows": 280,
+      "mode": "new_v14_official_six_metric_score",
+      "raw_sha256": "804e32b431e1a76df1c33bdbb3cc69bd70e840485209c41745c41e5b0ed2ffd9",
+      "seed": 2,
+      "wasserstein_all_converged": true
+    },
+    {
+      "condition_units": 28,
+      "dataset": "Schmidt",
+      "metric_rows": 280,
+      "mode": "exact_prediction_fallback_reuse_v13_official_score",
+      "prediction_all_arrays_exact_equal": true,
+      "raw_sha256": "6abf7e91eff419fa4680ff1ac40f5ae103098472ca42a8b744003633dd1ce592",
+      "seed": 3
+    },
+    {
+      "condition_units": 65,
+      "dataset": "Wessels",
+      "metric_rows": 650,
+      "mode": "exact_prediction_fallback_reuse_v13_official_score",
+      "prediction_all_arrays_exact_equal": true,
+      "raw_sha256": "fc60d964345b2348a802c18e028d58d9a512a3e6eed9b7cf5743a50f8215659d",
+      "seed": 1
+    },
+    {
+      "condition_units": 55,
+      "dataset": "Wessels",
+      "metric_rows": 550,
+      "mode": "exact_prediction_fallback_reuse_v13_official_score",
+      "prediction_all_arrays_exact_equal": true,
+      "raw_sha256": "02541eb2ad9a04dcfd0a7f9d92770553382097a268074c486f6dea008c6a6005",
+      "seed": 2
+    },
+    {
+      "condition_units": 67,
+      "dataset": "Wessels",
+      "metric_rows": 670,
+      "mode": "exact_prediction_fallback_reuse_v13_official_score",
+      "prediction_all_arrays_exact_equal": true,
+      "raw_sha256": "35e661baca88d0b528aeff1837d86e08dfdac3522b52c1199ec1b526665d4d8e",
+      "seed": 3
+    }
+  ],
+  "status": "PASS_V14_OFFICIAL_SIX_METRIC_INPUT_ASSEMBLY"
+}

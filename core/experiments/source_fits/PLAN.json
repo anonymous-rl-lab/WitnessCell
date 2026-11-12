@@ -1,0 +1,54 @@
+{
+  "status": "retrospective development, previous outer results already known",
+  "primary_goal": "improve endpoint-eliminated prediction on unchanged original functional outcomes",
+  "cells": [
+    "Jurkat",
+    "HeLa",
+    "A549",
+    "293T"
+  ],
+  "selection": "three training-only folds; baseline refitted each fold; partner scalar quadratic calibration under full-response SSE no-worse-than-M0 guard; zero correction included",
+  "new_input_policy": "query identities only; no query outcomes in fitting",
+  "frozen_originals_unchanged": true,
+  "feature_families": [
+    "native_product",
+    "next2_nonlinear",
+    "single_rbf",
+    "profile_mean4",
+    "profile_mean8",
+    "profile_consensus4",
+    "profile_consensus8"
+  ],
+  "ridge": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "rank1_tau_fractions": [
+    0.3,
+    0.1,
+    0.03,
+    0.01
+  ],
+  "rank1_nu": [
+    0.1,
+    1
+  ],
+  "rank1_families": [
+    "original_with_separate_endpoint_and_partner_amplitudes",
+    "projected_rank1"
+  ],
+  "reliability": "training two-repeat projected agreement, clipped [0,1], fixed-shrink comparator; separate from primary calibrated amplitude",
+  "score_after_all_cells_frozen": true,
+  "code_provenance": {
+    "frozen_models.py": "e40c4ea80ba3c8bb6f2d42110fcaff8bf23148ebb174c1764c23476e086846c9",
+    "run_smoke.py": "6789dd1bb21a3032559a3bbbfde7121dfbc1dc1b076c67cdee3e09ce5f486500",
+    "next2_relation_model.py": "0c0ee822439f662a96a90887f386f70ff2fa255f6634a9949f5a6ecaa634c5f9",
+    "next2_kernel_features.py": "5714403f929106cc2777509c3bf494c0e2500492e5b6d21ef0de393c0d70a3e7",
+    "spectral_models.py": "b0a8cd477964d664c4e5dbb398a284c12b80fafa00b1e9a5b9d7e7511a16c027",
+    "next2_baseline_core.py": "17d238f964bdeae2324a36b20a19343bd83e3f727560d7dfae101fbb31a4ba6a",
+    "next2_edge_stability.py": "b7b33e530d5aea2dedf4c5b9541547ab3f43a5c32371eb031a7ad657d6304ce6",
+    "next2_global_pair_model.py": "d19f8c423c4b8a693644381b0863e6a016300f51075a9e2fb1247cc605c2a404"
+  }
+}

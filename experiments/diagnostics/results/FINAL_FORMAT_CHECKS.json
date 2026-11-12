@@ -1,0 +1,15 @@
+{
+  "Fig4_Functional_Growth_portable_pixel_diff": 0,
+  "SuppFig6_Direction_Repeatability_portable_pixel_diff": 0,
+  "SuppFig7_Han_Attribution_portable_pixel_diff": 0,
+  "HAN_ORACLE_SUMMARY.csv_summary_diff": 0.0,
+  "BASELINE_COMPARISON.csv_summary_diff": 0.0,
+  "WitnessCell_v37_Main_Methods.pdf": {
+    "pages": 25,
+    "outside": []
+  },
+  "WitnessCell_v37_Supplementary_Information.pdf": {
+    "pages": 61,
+    "outside": []
+  }
+}

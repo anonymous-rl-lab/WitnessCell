@@ -1,0 +1,1459 @@
+{
+  "status": "COMPLETE_FROZEN",
+  "jobs": [
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 0,
+      "epochs": 12,
+      "schedule": 5,
+      "freeze_sha256": "1767c5c71f791c870e3e3074c90a5443a51ed2a74a2d6c3960da50c09dba0aeb",
+      "predictions_sha256": "7d30a95293ba66bc7db4ad48d923f90008d0181f132331b3a5c5e1ea5cafee06",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 12,
+          "selected_epoch": 12,
+          "best": null,
+          "seconds": 1022.1388876990004,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22337
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 17,
+          "selected_epoch": 7,
+          "best": [
+            0.026517783843243766,
+            0.010127812409903805,
+            7
+          ],
+          "seconds": 4351.0750469310005,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 22,
+          "selected_epoch": 12,
+          "best": [
+            0.02645104349343635,
+            0.01044333099968943,
+            12
+          ],
+          "seconds": 503.8887469780002,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 1,
+      "epochs": 5,
+      "schedule": 5,
+      "freeze_sha256": "5d6191e2240e301c8f2a80268d6ee318e81dd9b235bbbf09a6a457909a353dcb",
+      "predictions_sha256": "e6bbc31ac170c10c05bbc234a86e99f172b18c13218779a6bfff0f0715a139d8",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 5,
+          "selected_epoch": 5,
+          "best": null,
+          "seconds": 407.97806233600204,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22451
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.0338934028093864,
+            0.008532383001751156,
+            5
+          ],
+          "seconds": 2256.87559485,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.0322058364873154,
+            0.008378610336857644,
+            5
+          ],
+          "seconds": 1620.209877456,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 2,
+      "epochs": 20,
+      "schedule": 5,
+      "freeze_sha256": "abeaba32ad56332a8c07f5405206eb8ac3c10c31f915ada685cecbc5c9f18800",
+      "predictions_sha256": "fac3bd9e2f4fc11f6414166dafd122d4d1314bdd207452e19488e3944648cdbd",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 20,
+          "selected_epoch": 20,
+          "best": null,
+          "seconds": 1269.3184136869968,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20185
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.018257958384681628,
+            0.009331152484330406,
+            5
+          ],
+          "seconds": 2529.3595727639986,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 30,
+          "selected_epoch": 20,
+          "best": [
+            0.01824424820158351,
+            0.009019655798262588,
+            20
+          ],
+          "seconds": 613.8738005569903,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 3,
+      "epochs": 30,
+      "schedule": 5,
+      "freeze_sha256": "f2848b6f89df267c80711fcd801ccb0ee82fd9e9e43fad26082d7c0e38501610",
+      "predictions_sha256": "fd74f9b64dbcc48c078a9a367122ea886e2ff9f29e78588534fa4cb6e8ebe1a3",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 30,
+          "selected_epoch": 30,
+          "best": null,
+          "seconds": 927.7448059991002,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23005
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 14,
+          "selected_epoch": 4,
+          "best": [
+            0.017632196569601535,
+            0.009083649807399669,
+            4
+          ],
+          "seconds": 5677.862291625002,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 30,
+          "best": [
+            0.017536581917860318,
+            0.008448085297655688,
+            30
+          ],
+          "seconds": 1017.5343000683933,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 0,
+      "fold": 4,
+      "epochs": 10,
+      "schedule": 5,
+      "freeze_sha256": "54b513d222e23dd1e312c3a81f7e1b3da505171327d3efe320c96fee8b7aaecd",
+      "predictions_sha256": "b56160097a679c464baf438fc74cb3fa2e064b70d0c5c7a3ba24e7ca53e05e5b",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 10,
+          "selected_epoch": 10,
+          "best": null,
+          "seconds": 313.89655213803053,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23136
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 11,
+          "selected_epoch": 1,
+          "best": [
+            0.01164311134429833,
+            0.016314535056119815,
+            1
+          ],
+          "seconds": 313.2755317352712,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 20,
+          "selected_epoch": 10,
+          "best": [
+            0.011254168516496972,
+            0.007850877164000751,
+            10
+          ],
+          "seconds": 559.8787800110877,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 0,
+      "epochs": 26,
+      "schedule": 5,
+      "freeze_sha256": "8bd0e04bc6261b589f1b9e3bf5044d492bdecd416ce02295f80b05184f80b01c",
+      "predictions_sha256": "2d212b715ee9bfb2004ea73f7bf92d8a864b084778a580f02e91c8a4ed01554f",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 26,
+          "selected_epoch": 26,
+          "best": null,
+          "seconds": 2243.792502204,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22337
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 20,
+          "selected_epoch": 10,
+          "best": [
+            0.027149841244241083,
+            0.009846123866640012,
+            10
+          ],
+          "seconds": 11511.621471629,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 36,
+          "selected_epoch": 26,
+          "best": [
+            0.026679302728563937,
+            0.01020053831709314,
+            26
+          ],
+          "seconds": 408.28919396700076,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 1,
+      "epochs": 5,
+      "schedule": 1,
+      "freeze_sha256": "6ec94726473dccc636a8e0e835ed53ee93472841c7b1b82a5ea23c3ef17a63fc",
+      "predictions_sha256": "eb0fbcc17059f0070bd5e92fa3d8adc323c4212dc7e26e3935396e442b95133d",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 5,
+          "selected_epoch": 5,
+          "best": null,
+          "seconds": 2443.555278107,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22451
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.030670977568035412,
+            0.007906095519310154,
+            5
+          ],
+          "seconds": 2007.2318059829995,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 21,
+          "selected_epoch": 11,
+          "best": [
+            0.03335984722590091,
+            0.008184942936248411,
+            11
+          ],
+          "seconds": 460.2120124619978,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 2,
+      "epochs": 5,
+      "schedule": 1,
+      "freeze_sha256": "132dc357520e07db93e811710ab738be9fb896e769c5f10147970a6b747c9ce2",
+      "predictions_sha256": "7712f3e07266451d5dfc8adda11d91c21e1d59d22626f31a9908ca7950ff1e38",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 5,
+          "selected_epoch": 5,
+          "best": null,
+          "seconds": 1842.0752593080106,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20185
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.01793109735011285,
+            0.009540860979203614,
+            5
+          ],
+          "seconds": 3952.2140650200017,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 19,
+          "selected_epoch": 9,
+          "best": [
+            0.01824022536881008,
+            0.009204929622020068,
+            9
+          ],
+          "seconds": 2097.425205769003,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 3,
+      "epochs": 15,
+      "schedule": 1,
+      "freeze_sha256": "dc064e67e1e053b13371fe084cd85468e2089b0c15b971cd481938e524fb821e",
+      "predictions_sha256": "ef7ba79923d21dc8caba91975a05dcfa1f0f75ab4e8e88dc52a7ae9813486bc5",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 15,
+          "best": null,
+          "seconds": 452.0900877583772,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23005
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 20,
+          "selected_epoch": 15,
+          "best": [
+            0.017626168767717856,
+            0.008345679215058138,
+            15
+          ],
+          "seconds": 143.1264673396945,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 12,
+          "selected_epoch": 2,
+          "best": [
+            0.017663906494471745,
+            0.008932452761752705,
+            2
+          ],
+          "seconds": 352.86547739990056,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 1,
+      "fold": 4,
+      "epochs": 5,
+      "schedule": 5,
+      "freeze_sha256": "ee697e3ee4306fe1bf34a08bdfbb1d002d7240192018b2fe61c49c122af69c0c",
+      "predictions_sha256": "f15dcad5fba9970385316333ad919c1778a570ba6ee3bb53b20f82c86e12b0f4",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 5,
+          "selected_epoch": 5,
+          "best": null,
+          "seconds": 155.95107314921916,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23136
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 12,
+          "selected_epoch": 2,
+          "best": [
+            0.011573659505732675,
+            0.008534163897611104,
+            2
+          ],
+          "seconds": 335.77511429041624,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 5,
+          "best": [
+            0.011302825885006536,
+            0.00864797660323734,
+            5
+          ],
+          "seconds": 417.49203135818243,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 0,
+      "epochs": 7,
+      "schedule": 1,
+      "freeze_sha256": "16a8b529c6952254cac78231549d275d7a833f81cc7be830d4b805c7700ad81d",
+      "predictions_sha256": "906c4453c18ddf2338847f727542edae7f1d6b89e03da45bc9563d904ca11286",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 7,
+          "selected_epoch": 7,
+          "best": null,
+          "seconds": 2679.3527762030008,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22337
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 17,
+          "selected_epoch": 7,
+          "best": [
+            0.026782924306647644,
+            0.010208685875170136,
+            7
+          ],
+          "seconds": 9847.887869946999,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 13,
+          "selected_epoch": 3,
+          "best": [
+            0.02899854714207675,
+            0.010302496383680018,
+            3
+          ],
+          "seconds": 1156.1574413099997,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21874
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 1,
+      "epochs": 7,
+      "schedule": 1,
+      "freeze_sha256": "78fa84ff9a6ef6e0b9b35c7ac7b600e3becdae211496b951f4333e47919c635a",
+      "predictions_sha256": "65819276c7250669d4b72f5ca7219a2f3d5c155e218a4fd53cf272795c8d2abd",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 7,
+          "selected_epoch": 7,
+          "best": null,
+          "seconds": 2891.9282585570036,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 22451
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 17,
+          "selected_epoch": 7,
+          "best": [
+            0.032584978332626996,
+            0.008257971562589223,
+            7
+          ],
+          "seconds": 1252.7078228950013,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 20,
+          "selected_epoch": 10,
+          "best": [
+            0.03422238470255585,
+            0.008422449841752153,
+            10
+          ],
+          "seconds": 2872.106747452999,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20598
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 2,
+      "epochs": 1,
+      "schedule": 1,
+      "freeze_sha256": "6bbf14249295980dad3fb8b9ba0dd5a9d64cfb88d70171dc1a11da2c892a0e1c",
+      "predictions_sha256": "2bbe0f51b1d9302c10ceab409ad923300addad67439a5f69d138cfe726fe9261",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 1,
+          "selected_epoch": 1,
+          "best": null,
+          "seconds": 368.56799284101,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20185
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 11,
+          "selected_epoch": 1,
+          "best": [
+            0.01832711353921509,
+            0.00950021536064781,
+            1
+          ],
+          "seconds": 3793.021275777006,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 11,
+          "selected_epoch": 1,
+          "best": [
+            0.01832711353921509,
+            0.00950021536064781,
+            1
+          ],
+          "seconds": 3306.4187504270085,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 19630
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 3,
+      "epochs": 7,
+      "schedule": 1,
+      "freeze_sha256": "cc53829ea33ce2dbd1b7847fb5dd1d2917af173e068b3779e3f4cc917411f176",
+      "predictions_sha256": "cdac677ae2b7ff6b0347ae12c13ffebf94fbc9d7eda71fc21363a1bcc946070e",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 7,
+          "selected_epoch": 7,
+          "best": null,
+          "seconds": 217.7203847821802,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23005
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 17,
+          "selected_epoch": 7,
+          "best": [
+            0.017657571764523376,
+            0.008752918834586959,
+            7
+          ],
+          "seconds": 481.65428487583995,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 31,
+          "selected_epoch": 21,
+          "best": [
+            0.017662599281363288,
+            0.008564408196501137,
+            21
+          ],
+          "seconds": 929.942608717829,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 21971
+        }
+      }
+    },
+    {
+      "model": "gears",
+      "seed": 2,
+      "fold": 4,
+      "epochs": 1,
+      "schedule": 5,
+      "freeze_sha256": "d0d0bd6501681a311fd5fe75020169ce7d7bef14810d0d6b430ff58e89e16dbc",
+      "predictions_sha256": "45e520b7b0412a33fc2e896c612b56e268a3f5fd00d1f5c33c6a403a81e243d8",
+      "execution": {
+        "adapter_sha256": "d5c4ddbe19d3c074353371ab6833a53355343732c24058b58c7b71dc03cfc937",
+        "device": "cuda:0",
+        "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+        "torch": "2.1.2+cu118",
+        "cuda": "11.8",
+        "numpy": "1.26.4",
+        "torch_geometric": "2.6.1",
+        "fp32": true,
+        "amp": false,
+        "tf32": false,
+        "forward_device": "cuda",
+        "loss_device": "cpu",
+        "training_rules_changed": false,
+        "initialization": "frozen CPU initial state for each seed"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 1,
+          "selected_epoch": 1,
+          "best": null,
+          "seconds": 29.018941521644592,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 23136
+        },
+        "select_schedule1": {
+          "status": "COMPLETE",
+          "epochs": 11,
+          "selected_epoch": 1,
+          "best": [
+            0.011747787761803703,
+            0.008446603900045983,
+            1
+          ],
+          "seconds": 283.0728805363178,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        },
+        "select_schedule5": {
+          "status": "COMPLETE",
+          "epochs": 11,
+          "selected_epoch": 1,
+          "best": [
+            0.011493095333243629,
+            0.011006706087470551,
+            1
+          ],
+          "seconds": 281.1449904832989,
+          "parameters": 2925546,
+          "extended": false,
+          "training_cells": 20764
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 0,
+      "epochs": 40,
+      "schedule": 5,
+      "freeze_sha256": "88707349a86bc87b2b5c746297e1f55e8cdde318ee666ff78f3eaa57e39c4814",
+      "predictions_sha256": "2dbdc8ef303d77aae0f4acd41745bb259be1e214f721a83f79ee978e1587e708",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": null,
+          "seconds": 80.64102913500028,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18393
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": [
+            0.029847742443471676,
+            0.007122128689526716,
+            40
+          ],
+          "seconds": 0.07047224499910953,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 17930
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 1,
+      "epochs": 40,
+      "schedule": 5,
+      "freeze_sha256": "8abb068cb6bca5bbec874cde35ad125bab0acffa67bdd66ef1ed4fe08aac9be5",
+      "predictions_sha256": "1c083676bf49d6d81cbbbc49ac0a7200d20940b2839bc84bf601b1831b34f93c",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": null,
+          "seconds": 3049.497632953,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18507
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": [
+            0.03428017487467463,
+            0.004929963966217425,
+            40
+          ],
+          "seconds": 2638.002794146001,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16654
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 2,
+      "epochs": 5,
+      "schedule": 5,
+      "freeze_sha256": "2214327f841f9881cef0cdcb9366464360a8600015e58b59aaa8d9845c77bf6e",
+      "predictions_sha256": "576b2f097cb8ede58168a0a89ce674093b56be722ecd8f8f5aea24bdb893ec47",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 5,
+          "selected_epoch": 5,
+          "best": null,
+          "seconds": 273.9754105489992,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16241
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 5,
+          "best": [
+            0.01854602153069531,
+            0.006178960534821958,
+            5
+          ],
+          "seconds": 2003.3260784470003,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 15686
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 3,
+      "epochs": 37,
+      "schedule": 5,
+      "freeze_sha256": "75621a43c34982b81a6f00054f12d4669a9866f0268d37ca100ff11fc070222e",
+      "predictions_sha256": "ec4f6b3102d3045433472c0b1a47861361e0c30a4dbf14d3530495b4591e98b0",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 37,
+          "selected_epoch": 37,
+          "best": null,
+          "seconds": 319.88531563599827,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19061
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 37,
+          "best": [
+            0.01766070239228915,
+            0.005420098367822134,
+            37
+          ],
+          "seconds": 1943.7684339619955,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18027
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 0,
+      "fold": 4,
+      "epochs": 3,
+      "schedule": 5,
+      "freeze_sha256": "0c9537781bdcd8052c865ef34f0d7094ec27d1a91adfff85fea79fe2a56b8efd",
+      "predictions_sha256": "5ce07c00b6ef7fef9b216c2d66ae8ab04a5cefd960e9a3d766d3ce417a362a4d",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 3,
+          "selected_epoch": 3,
+          "best": null,
+          "seconds": 146.2333925399871,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19192
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 3,
+          "best": [
+            0.012073807180854441,
+            0.004885613357678714,
+            3
+          ],
+          "seconds": 748.5144461199961,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16820
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 0,
+      "epochs": 40,
+      "schedule": 5,
+      "freeze_sha256": "868709a246a6ae152f2f29eda02d89a2cc2534932c9dedfa33fa3f2990ba5e5b",
+      "predictions_sha256": "94a337a46ed6f653231a277c23c1dac0f89baf0f8fbd029484769d70e49b3e2f",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": null,
+          "seconds": 318.20442885400007,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18393
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": [
+            0.029785285043327774,
+            0.007154954885603805,
+            40
+          ],
+          "seconds": 1348.0320795430007,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 17930
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 1,
+      "epochs": 39,
+      "schedule": 5,
+      "freeze_sha256": "0ffb49f3a72cc9e3b885c324f076b8bb44058a00d65d43b99d8c1d4ab2c670b2",
+      "predictions_sha256": "626f898441c7e0588505ef18ced4f8757b4a1bf6f42f039ac71dbb917f6458c3",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 39,
+          "selected_epoch": 39,
+          "best": null,
+          "seconds": 2988.530391267999,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18507
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 39,
+          "best": [
+            0.03443475632441389,
+            0.0050048235403472845,
+            39
+          ],
+          "seconds": 2637.932428676999,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16654
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 2,
+      "epochs": 15,
+      "schedule": 5,
+      "freeze_sha256": "61df73319fb85e87b32d33792259a2fffed128e8e88199364a8d1ea6ab11f673",
+      "predictions_sha256": "79c80201d087f6dd9bc5270b1f7b2c8a677b4e6823cd0363b6b9913d465899b5",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 15,
+          "selected_epoch": 15,
+          "best": null,
+          "seconds": 794.0163521799986,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16241
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 15,
+          "best": [
+            0.018362914094636366,
+            0.005819625301119093,
+            15
+          ],
+          "seconds": 1070.4075899399977,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 15686
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 3,
+      "epochs": 26,
+      "schedule": 5,
+      "freeze_sha256": "9b0dedcf3e301c971f2a6a92e55d693cfb258fb9b0dd576fcfb95d6e9743e4de",
+      "predictions_sha256": "95b9e3aebb2e86c6d99ddca2447846084732371aca4fba93cf127b198ca529a8",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 26,
+          "selected_epoch": 26,
+          "best": null,
+          "seconds": 1315.3227992659959,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19061
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 26,
+          "best": [
+            0.017661324324731976,
+            0.005530631767773031,
+            26
+          ],
+          "seconds": 400.72189309499663,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18027
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 1,
+      "fold": 4,
+      "epochs": 3,
+      "schedule": 5,
+      "freeze_sha256": "22effc3968c29b0eeff966517fc5c4b736b80015cc66a970124e616830c38346",
+      "predictions_sha256": "5293bf1c5b8714648e9c430f5ad738ed6a44ac4c7abfbe868bd8a7531bc546b9",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 3,
+          "selected_epoch": 3,
+          "best": null,
+          "seconds": 156.24416901299264,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19192
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 3,
+          "best": [
+            0.011649984089034754,
+            0.008045677592675254,
+            3
+          ],
+          "seconds": 1701.7594079280098,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16820
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 0,
+      "epochs": 39,
+      "schedule": 5,
+      "freeze_sha256": "8885d5ba32858505676281f4c526b4168f550910e2ee2b0b8b9407b5e2117ab7",
+      "predictions_sha256": "469f883b5bf4ae2aa93d188b3a36610132ac132314bdca675b7efb0894b25786",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 39,
+          "selected_epoch": 39,
+          "best": null,
+          "seconds": 426.45891377800035,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18393
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 39,
+          "best": [
+            0.029678245839638108,
+            0.0071148278921985735,
+            39
+          ],
+          "seconds": 1537.7115032840002,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 17930
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 1,
+      "epochs": 40,
+      "schedule": 5,
+      "freeze_sha256": "686496c7ffb1cf348683616653c689192098ef875b67c0a2b63f5301d3ed7583",
+      "predictions_sha256": "f37d194f8107cf905040eac657b22a8b5f6503c4d5106a95101757e0d1277db9",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": null,
+          "seconds": 877.9001453939995,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18507
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 40,
+          "best": [
+            0.03414743758766442,
+            0.00489466022958369,
+            40
+          ],
+          "seconds": 2803.129959337002,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16654
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 2,
+      "epochs": 2,
+      "schedule": 5,
+      "freeze_sha256": "9e70e470039b4895dc0820296b08173cc416ba055c8db1b2a02e9486bf1186de",
+      "predictions_sha256": "d2bb29fbafc44bff2e20c8504c48450d9c0b0686bc6c87faaef6f8c0862d5157",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 2,
+          "selected_epoch": 2,
+          "best": null,
+          "seconds": 112.21871613000258,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16241
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 2,
+          "best": [
+            0.01838613698517488,
+            0.010478327996789579,
+            2
+          ],
+          "seconds": 469.16260923499794,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 15686
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 3,
+      "epochs": 34,
+      "schedule": 5,
+      "freeze_sha256": "0d6f5cd1aa98adda98c45848cbd23def0e2bee7f77cd24e31da146a95dffcb50",
+      "predictions_sha256": "0e2721133204137fce076b8fb2dad31a05de8f815d0db41445f10d42fe0bcb44",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 34,
+          "selected_epoch": 34,
+          "best": null,
+          "seconds": 1709.9734148669959,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19061
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 34,
+          "best": [
+            0.017662091564062312,
+            0.005418806908760809,
+            34
+          ],
+          "seconds": 809.6998671280016,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 18027
+        }
+      }
+    },
+    {
+      "model": "scouter",
+      "seed": 2,
+      "fold": 4,
+      "epochs": 1,
+      "schedule": 5,
+      "freeze_sha256": "58ccc5690938172ee31111b726598e15580a29dba7b5c5cf43d4e1f8d18378ef",
+      "predictions_sha256": "21368269e95dbc9977146ad0a8ce6cb2ec37dbcef5ed2b195d4fe2ed939ec390",
+      "execution": {
+        "device": "cpu",
+        "torch": "2.14.1+cpu"
+      },
+      "phase_runs": {
+        "refit": {
+          "status": "COMPLETE",
+          "epochs": 1,
+          "selected_epoch": 1,
+          "best": null,
+          "seconds": 44.7388591140043,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 19192
+        },
+        "selection": {
+          "status": "COMPLETE",
+          "epochs": 40,
+          "selected_epoch": 1,
+          "best": [
+            0.01177047792549699,
+            0.08757976606807373,
+            1
+          ],
+          "seconds": 950.9783732890064,
+          "parameters": 28137934,
+          "extended": false,
+          "training_cells": 16820
+        }
+      }
+    }
+  ],
+  "count": 30,
+  "further_training_authorized": false
+}

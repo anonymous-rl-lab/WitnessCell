@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "utc": "2026-10-19T21:33:30.164514+00:00",
+  "seconds": 9.81190354499995,
+  "stages": [
+    {
+      "stage": "postfit_reference",
+      "seconds": 5.2343080489954446
+    },
+    {
+      "stage": "reference_kernel",
+      "seconds": 2.7807659289974254
+    },
+    {
+      "stage": "algebra",
+      "seconds": 0.16481072799797403
+    },
+    {
+      "stage": "independent_real_audit",
+      "seconds": 1.0799274379969575
+    },
+    {
+      "stage": "export_single_query",
+      "seconds": 0.466075391996128
+    }
+  ],
+  "exact_named_arrays": 237,
+  "tables": {
+    "model/RESULTS.csv": {
+      "rows": 22,
+      "max_abs_difference": 0.0
+    },
+    "model/FOLD_RESULTS.csv": {
+      "rows": 66,
+      "max_abs_difference": 0.0
+    },
+    "kernel/RESULTS.csv": {
+      "rows": 12,
+      "max_abs_difference": 0.0
+    },
+    "kernel/FOLD_RESULTS.csv": {
+      "rows": 36,
+      "max_abs_difference": 0.0
+    },
+    "audit/INDEPENDENT_RESULTS.csv": {
+      "rows": 5,
+      "max_abs_difference": 0.0
+    },
+    "audit/INDEPENDENT_FOLD_RESULTS.csv": {
+      "rows": 15,
+      "max_abs_difference": 0.0
+    },
+    "audit/REAL_IDENTITY_CHECKS.csv": {
+      "rows": 9,
+      "max_abs_difference": 0.0
+    },
+    "audit/CONDITIONAL_ENDPOINT_DELETION.csv": {
+      "rows": 10,
+      "max_abs_difference": 0.0
+    }
+  },
+  "network_required": false,
+  "historical_workspace_reads_blocked": true,
+  "large_fit_states_regenerated_from_exact_condition_means": true
+}

@@ -1,0 +1,259 @@
+[
+  {
+    "key": "conditions",
+    "shape": [
+      49
+    ],
+    "dtype": "<U15",
+    "bytes": 2940,
+    "sha256": "4a81f203fc30af11632fcd6e9b13dea2340b1432ffc874ee85d794066d84a854"
+  },
+  {
+    "key": "targets",
+    "shape": [
+      35
+    ],
+    "dtype": "<U8",
+    "bytes": 1120,
+    "sha256": "de6ef33c71b191b4a0aa196006ad5e9fecac97c176589401fa7aa41e572e4af6"
+  },
+  {
+    "key": "genes",
+    "shape": [
+      4987
+    ],
+    "dtype": "<U12",
+    "bytes": 239376,
+    "sha256": "8c66a6b5412d097ef529584f1eb87f6a8c9dcf0df68f8e3d8ac73f4be02e8e29"
+  },
+  {
+    "key": "fold",
+    "shape": [
+      49
+    ],
+    "dtype": "<i8",
+    "bytes": 392,
+    "sha256": "3b62a32b21cb939650db4160655171dae6b2ce9d3a6a81b2992fb6d7e306ecf9"
+  },
+  {
+    "key": "half_U",
+    "shape": [
+      2,
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 27440,
+    "sha256": "d721e3764d76e187790a806ff57744507de35bc44bd8175ca403b2964c22b5c0"
+  },
+  {
+    "key": "truth_U",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "d4ae1ab1614579d9017670f0a28e23c98238cae6ca54122ef388e6f0e553c98e"
+  },
+  {
+    "key": "U__PairPick_TargetRank",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "5b034d390f36dabcc2d30a7cb6edc4b4494597408513352385df64fa5b894f92"
+  },
+  {
+    "key": "U__PairPick_Stable",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "a7c2c6c5760cc6a3bb082d95f7eb997649480b445e898c80f38ea3485d2e076a"
+  },
+  {
+    "key": "U__R_G",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "ea77afc243c8311d8c7e7bc83a2552c87f7413196e556d0655817f7ebc8977a6"
+  },
+  {
+    "key": "U__SingleB_additive",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "50fe103e79500efd7dc66a9785360e8e29a7162e73f5bcc5fe2430c2982955e8"
+  },
+  {
+    "key": "U__StandardRidge_RNA",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "927bad6e38fae09dec85ea892411648910fb8bef1d62961924b5c683750fba76"
+  },
+  {
+    "key": "U__StandardRidge_Choice",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "f5fbbfe6239626bc9e96a7eb636ab519e4c285a9560aecfa27bf8b07da167bf0"
+  },
+  {
+    "key": "U__PRESAGE_Combo_seed24",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "e42e3395770e1f1a53ecf4c8d161dc8634e54d923101ce1f7a8aaeeec117a413"
+  },
+  {
+    "key": "U__GEARS_seed0",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "b287817cd8417253186e4fdf05e42454a4e29f7e7b26034534ae46ad85c2ccd4"
+  },
+  {
+    "key": "U__GEARS_seed1",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "906356766c1305855d802ede395df74fa64297a8d6f53ee9e95dc23391aa4df5"
+  },
+  {
+    "key": "U__GEARS_seed2",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "adf3c6fc22fd3c05e675b81276950e4dd2e77daa26a5b961f5d6d3f1d455e5ab"
+  },
+  {
+    "key": "U__GEARS_Ensemble",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "74b916b162b9e147683c64d5c105ee1f1b132fddfd6f113b21dd3b0ff8d05967"
+  },
+  {
+    "key": "U__Scouter_seed0",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "1f8bdcc960dbb378aa83d3aec0a23cfb5a63e7a4715d4fd5543fff56e8d1527b"
+  },
+  {
+    "key": "U__Scouter_seed1",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "37efdfd102ab341c24daac8e80fe489803cd916fec6bce578da5ef84bd03f73e"
+  },
+  {
+    "key": "U__Scouter_seed2",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "f909b0d2d1121d485676a3f8afa961ddc17052d8f882d687612a651e3d0351b6"
+  },
+  {
+    "key": "U__Scouter_Ensemble",
+    "shape": [
+      49,
+      35
+    ],
+    "dtype": "<f8",
+    "bytes": 13720,
+    "sha256": "d275488b7ad98d1915a09e94b0866041c0cdee92563f8af74a0872713b9d7097"
+  },
+  {
+    "key": "ERR__R_G",
+    "shape": [
+      49,
+      4987
+    ],
+    "dtype": "<f8",
+    "bytes": 1954904,
+    "sha256": "dd88c4c909c09561a5c3367d861c02d6ec7842aa2486f444030bcd48d765ca5f"
+  },
+  {
+    "key": "ERR__GEARS_Ensemble",
+    "shape": [
+      49,
+      4987
+    ],
+    "dtype": "<f8",
+    "bytes": 1954904,
+    "sha256": "9947e3543672039b8de29ab8b4183412e9b95b5ea7336aa7fd1728b55d79b65f"
+  },
+  {
+    "key": "ERR__Scouter_Ensemble",
+    "shape": [
+      49,
+      4987
+    ],
+    "dtype": "<f8",
+    "bytes": 1954904,
+    "sha256": "f267381103d570ca59e7e439b2a5fafef41fbb00b20bf738415a393ac4a0fe82"
+  },
+  {
+    "key": "ERR__StandardRidge_RNA",
+    "shape": [
+      49,
+      4987
+    ],
+    "dtype": "<f8",
+    "bytes": 1954904,
+    "sha256": "09419620ba2c481ab48c157b0502028a257ded9de9fed4df0d5fa2c985627bcb"
+  },
+  {
+    "key": "ERR__SingleB_additive",
+    "shape": [
+      49,
+      4987
+    ],
+    "dtype": "<f8",
+    "bytes": 1954904,
+    "sha256": "32a9ed6357ce302ede8a706ace9dca5b7ab96ba63dca2c774da0f409717608b7"
+  }
+]

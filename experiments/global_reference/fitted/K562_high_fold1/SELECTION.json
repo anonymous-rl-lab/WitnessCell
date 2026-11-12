@@ -1,0 +1,18 @@
+{
+  "rank1": {
+    "selected": "rank1_t0.03_n0.1",
+    "best_regularized": "rank1_t0.03_n0.1",
+    "alpha": 0.9740309339491363,
+    "inner_sse": 15.80445144052266,
+    "baseline_inner_sse": 17.28783314544365,
+    "final_converged": true
+  },
+  "spectral": {
+    "selected": "spectral_t0.3_n0.1",
+    "best_regularized": "spectral_t0.3_n0.1",
+    "alpha": 1.0,
+    "inner_sse": 16.01156043222015,
+    "baseline_inner_sse": 17.28783314544365,
+    "final_converged": true
+  }
+}

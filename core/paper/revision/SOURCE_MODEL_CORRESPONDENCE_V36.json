@@ -1,0 +1,42 @@
+{
+  "frozen_parameters_match_original_training_archive": true,
+  "selected": [
+    {
+      "source": "HeLa",
+      "family": "SF12",
+      "key": "sf12_r10",
+      "beta_source": 3.130823864617491
+    },
+    {
+      "source": "HeLa",
+      "family": "V4",
+      "key": "v4_w0.1_s300",
+      "beta_source": 0.0821636361910201
+    },
+    {
+      "source": "A549",
+      "family": "SF12",
+      "key": "M0",
+      "beta_source": 0.0
+    },
+    {
+      "source": "A549",
+      "family": "V4",
+      "key": "v4_w0.1_s50",
+      "beta_source": 0.002973768557982626
+    },
+    {
+      "source": "293T",
+      "family": "SF12",
+      "key": "sf12_r10",
+      "beta_source": 4.0467336919682495
+    },
+    {
+      "source": "293T",
+      "family": "V4",
+      "key": "v4_w0.1_s300",
+      "beta_source": 0.03992785897512816
+    }
+  ],
+  "source_archive": "reproduction/WitnessCell_Shen_Jurkat_Partner_Repair_20261108.zip"
+}

@@ -1,0 +1,15 @@
+{
+  "source_article": "https://doi.org/10.1038/s41587-024-02213-3",
+  "table": "Supplementary Table 2, Double gRNA K562",
+  "retrieved": "2026-11-07",
+  "download": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11569274/supplementaryFiles",
+  "supplement_sha256": "705173fc435f7a596c8cb851abda30a7725e60505ec93b82d7e767faaace54d2",
+  "detected_labels": 49,
+  "status_counts": {
+    "enhancer_only_correspondence": 1,
+    "exact_gene_mode_design_match": 15,
+    "not_listed_as_designed_pair": 33
+  },
+  "conclusion": "Detected-label cohort is not equivalent to the published designed-construct panel. Matching labels still require cell-level guide/construct validation. All 28 original tasks are retained as a retrospective detected-label demonstration, not independent biological confirmation.",
+  "no_outcome_filtering": true
+}

@@ -1,0 +1,291 @@
+{
+  "source_paper": "WitnessCell_Paper_v22_Full",
+  "source_paper_sha256": "99e029152f170ac3fa83414ea3b5db950f2415dacc554b0eda5a929624e19fb1",
+  "source_files": {
+    "FIGURE_LEGENDS_v22.md": {
+      "bytes": 13911,
+      "sha256": "952eddb3fb40e5a98fd0f0b13d3c9bf2525f99d7d20074eaf648007f2a863db8"
+    },
+    "PUBLISHED_TABLES_v22.md": {
+      "bytes": 36350,
+      "sha256": "b73a22ca5116a70a7080eeb9b62f48d31ab51a431311ca8ae7c16c4782c5d242"
+    },
+    "figure_code/build_execution_panels.py": {
+      "bytes": 7955,
+      "sha256": "1db2e7cbfa8697312d9d448c3b74e40aab13641150e2689e7c4bc3cf97eaecd7"
+    },
+    "figure_code/build_figures.py": {
+      "bytes": 13729,
+      "sha256": "abb53750124beb5b5124839caca74f5b83fc671aea45b52fffd4da087cc9ee75"
+    },
+    "figure_code/build_historical_panels.py": {
+      "bytes": 36363,
+      "sha256": "c68118ff9338b3b6d5f4251134a9e6353215b316b61cb71ad26c6d8c90531f75"
+    },
+    "figure_code/build_v22_figures.py": {
+      "bytes": 10226,
+      "sha256": "6b4eb17ddb611d3dd4ec70967c54425adb712f51528f8480b177845bf76cc88c"
+    },
+    "source_data/CombiSeq_confirmation/ENDPOINT_DELETION.csv": {
+      "bytes": 1455,
+      "sha256": "fcbe583d4599d5aac6d5d5a077f96655b781231ea97ac90cb087514efc30cd94"
+    },
+    "source_data/CombiSeq_confirmation/FOLD_RESULTS.csv": {
+      "bytes": 1000,
+      "sha256": "7476c92f20c89be2ea8733084c6a304035552618eb17b0f013cf30c3c8907762"
+    },
+    "source_data/CombiSeq_confirmation/RESULTS.csv": {
+      "bytes": 783,
+      "sha256": "f4294f3d2065726d461ac67767ff046671168324cc078124b53a63e3e9adec7a"
+    },
+    "source_data/CombiSeq_confirmation/RUN_TARGET_RESULTS.csv": {
+      "bytes": 1201,
+      "sha256": "ae4efa4daa5752391c3d8b781a5fed6f59f149d2eb29a483a3e5665869f495ef"
+    },
+    "source_data/CombiSeq_confirmation/WitnessCell_Frozen_Program_Confirmation_20261020_KeyResults.csv": {
+      "bytes": 783,
+      "sha256": "f4294f3d2065726d461ac67767ff046671168324cc078124b53a63e3e9adec7a"
+    },
+    "source_data/Dixit_fixed_reference/WitnessCell_Dixit_FixedReference_20261020_Key_Results.csv": {
+      "bytes": 1019,
+      "sha256": "ff98de1cc74936baf052a92beae6996e8d44cdd595ab177b9db1dfb2e78be9e9"
+    },
+    "source_data/ED1_coverage_comparisons.csv": {
+      "bytes": 7801,
+      "sha256": "bd8e69bd604ee11fdb3a7cde131bca24a1fbc8ebf7d91cba59d675411798b028"
+    },
+    "source_data/ED2_secondary_losses.csv": {
+      "bytes": 2575,
+      "sha256": "d08c01bc6e7b66f7d93bed93ea5b8c87200c483b8ad85f8350ac86ff159f02ec"
+    },
+    "source_data/Fig2_prediction_ratios.csv": {
+      "bytes": 2353,
+      "sha256": "8eace57ef2e3b0da25256f2bae2c23eb3a9691d93fc539351050656c46005782"
+    },
+    "source_data/Fig2_seed_ratios.csv": {
+      "bytes": 3063,
+      "sha256": "b80ca0defd24845ab28b3a1de02036543e592b83090412573bcdc114b91a59ba"
+    },
+    "source_data/Fig3_ED4_witness_contrasts.csv": {
+      "bytes": 765,
+      "sha256": "91555ab2a8215ba34d7555cc20108a20e0a2b4c8a75716244c2ef202be966e14"
+    },
+    "source_data/Fig3_ED4_witness_gains.csv": {
+      "bytes": 2074,
+      "sha256": "25689f6b8fea83f1fcaef5710200b371661e8b6b78e668e52a5e3e1ff8b5488d"
+    },
+    "source_data/Fig3_ED4_witness_order_paths.csv": {
+      "bytes": 7169,
+      "sha256": "f1d76e5b5e9362b726b3a4c2e80193a66cead946f0bd0253a90c769d5b021c59"
+    },
+    "source_data/Fig4_ED3_effect_quartile_control.csv": {
+      "bytes": 396,
+      "sha256": "6c0ccfa3ebe6c2b076cdf3c7b503abb2e5aefdc1bcfde23e26a5707a44a24bc8"
+    },
+    "source_data/Fig4_risk_comparisons.csv": {
+      "bytes": 2046,
+      "sha256": "660459c2a9a379f1d9ce2538d17ea923649d2ba442bd7e8696aa02e0d935d801"
+    },
+    "source_data/Fig4_risk_input_definitions.csv": {
+      "bytes": 257,
+      "sha256": "04c15c73f6ce199df93144cc969e33959fd4d1e5f3d0f10a8ed108b07a32a3d3"
+    },
+    "source_data/Fig4_seen_allocation.csv": {
+      "bytes": 401,
+      "sha256": "433f040742788022fae8040b118e4faaec4c59d6852ecb8e4974e068ce6f0785"
+    },
+    "source_data/Horlbeck_Jurkat_gene_deletion.csv": {
+      "bytes": 13642,
+      "sha256": "674e4b6aeb655d038b7105c8c01047ff61b2c75aeafdc277890e4d392a0729c0"
+    },
+    "source_data/Horlbeck_Jurkat_genes.csv": {
+      "bytes": 817,
+      "sha256": "c975c3043a65a66b3cd86d42b429910bf7bb52c66ce02635f24ba6159b9d98c9"
+    },
+    "source_data/Horlbeck_Jurkat_intervals.csv": {
+      "bytes": 402,
+      "sha256": "5a2c3f7ac77881dca80080d75359ec536cf3b529eaac1c8b0a14366063234a33"
+    },
+    "source_data/Horlbeck_Jurkat_node_reweighting.csv": {
+      "bytes": 705489,
+      "sha256": "e2fd259cb88071384521da215a1c57c273c2d3e31e8e05012bebb9ffac6d6368"
+    },
+    "source_data/Horlbeck_design.csv": {
+      "bytes": 391,
+      "sha256": "fee2eafa6951435e9471bde882e09d51285ecbebaa03945c87bb06466fe4af4d"
+    },
+    "source_data/Horlbeck_figure_metrics.csv": {
+      "bytes": 15127,
+      "sha256": "18f011e782cd168d84f3eaa9a5b29491e84e289c335c23f75e3e92debd6b5880"
+    },
+    "source_data/Horlbeck_predictions.csv": {
+      "bytes": 481913,
+      "sha256": "0556a4b40813bffb129b46354f18b156cf933d7077386e42f0e16f99b00cf19d"
+    },
+    "source_data/Horlbeck_readonly_diagnostics.json": {
+      "bytes": 12270,
+      "sha256": "5957198ecc2ea0217be72a8ef07eb4ded3611eb7e2bdda0da923149406496408"
+    },
+    "source_data/Horlbeck_source_provenance.json": {
+      "bytes": 3294,
+      "sha256": "056412505c201bb519126a3bce5f1c94ec1c78e5db8e43f67ed186f64c1b285b"
+    },
+    "source_data/Horlbeck_zero_contrast_ratios.csv": {
+      "bytes": 1032,
+      "sha256": "38060a5017d43d80b6063835ce959f7615eacecb0b1c906907c0770b2c106f9f"
+    },
+    "source_data/Official12_MAIN_TABLE_all_genes_raw.csv": {
+      "bytes": 1720,
+      "sha256": "a6ae5794b2f2d82a0fca2101ccc96ea0e09273989dc74d5ce946921fbb326584"
+    },
+    "source_data/Official12_MAIN_TABLE_exclude_panel_targets.csv": {
+      "bytes": 1709,
+      "sha256": "e97ceb458d82e2e0c82d147b43d6ea588b1be5aa6b774ea402ef6700006d8a17"
+    },
+    "source_data/Official12_MAIN_TABLE_training_variance_standardized.csv": {
+      "bytes": 1595,
+      "sha256": "3a050ba8e1e40c4ed5d5c51d1a37c1c1678b4a40f6be73cc6b18096d84060ad9"
+    },
+    "source_data/RNA_control_scale.json": {
+      "bytes": 20623,
+      "sha256": "ef5c7772de664bf71afb5089e9f4261e0d93a63dbe7d31df5865be2495e1c41f"
+    },
+    "source_data/RNA_controls.json": {
+      "bytes": 7847,
+      "sha256": "89457675752db90ae7fb46a88f3152166083efedb3b56046f81fd10fbd823268"
+    },
+    "source_data/RNA_displayed_signed_examples.csv": {
+      "bytes": 15678,
+      "sha256": "dbe23259a47355c3950412fa3b4dc5a5a2af81429202d169d1084100d60ee38b"
+    },
+    "source_data/RNA_rectangle_definition.csv": {
+      "bytes": 721,
+      "sha256": "bd1013d78443d27d05c6c9e8f00b00056f2b87d79db9b474640899571f6790e8"
+    },
+    "source_data/RNA_signed_rectangle_predictions.npz": {
+      "bytes": 1999567,
+      "sha256": "110a9455d87535412b145c8aa88efbfbe8f1b8ec4f9cf653a3820235d94b747e"
+    },
+    "source_data/RNA_supplement_controls.json": {
+      "bytes": 18922,
+      "sha256": "247fec28f1aa43ebf2707e46990b581c6659249ad095726897776e1cdc9531c6"
+    },
+    "source_data/RNA_weight_shuffles.csv": {
+      "bytes": 9120,
+      "sha256": "1bec2df1cd50a3af5e371b9ab0d0503c180be51c0a990791fd1cef9377848041"
+    },
+    "source_data/Step2_ED5_Folds.csv": {
+      "bytes": 12675,
+      "sha256": "28d4e80ae5901c64f9f2c3a2f6fa962c5851130ba5ec871044aec7ce3b20e67b"
+    },
+    "source_data/Step2_ED5_GeneGains.csv": {
+      "bytes": 306663,
+      "sha256": "ee29d1e2e996dda4284d8a0acaa98a52cff5eaeb168eada99cfff390dc1ad222"
+    },
+    "source_data/Step2_ED5_Rectangles.csv": {
+      "bytes": 19950,
+      "sha256": "2dfaa4750e4234450c76b6ce1e7345b95781dc168feeef2250397baa56d131e9"
+    },
+    "source_data/Step2_Fig5_Matched55.csv": {
+      "bytes": 1926,
+      "sha256": "1ec29498716fe3313593179a287433950273650955be4698f451f1134dec322a"
+    },
+    "source_data/Step2_Fig5_Official12.csv": {
+      "bytes": 668,
+      "sha256": "00f6ebf72852bd42f33cbe1452ea4e42f1140a0344395900fd6a5da9b45d96d8"
+    },
+    "source_data/Step2_Fig5_SeedMetrics.csv": {
+      "bytes": 6643,
+      "sha256": "a2000f9b53104316c0d91f15619ca31abd2136d683b270648c2d0cd040374687"
+    },
+    "source_data/biological_examples/jurkat/Jurkat_all_617_pair_scores.csv": {
+      "bytes": 328984,
+      "sha256": "568595cbcc8fd3dcc2081a9cb364468b57c48b47a189bc6b0428beb27af54137"
+    },
+    "source_data/biological_examples/jurkat/Jurkat_all_617_pairs_two_repeats.csv": {
+      "bytes": 632056,
+      "sha256": "a1e259f14a1a9d51c7b7280dab62b815c2b784cc4b7bdc54d515bcfd615d6c18"
+    },
+    "source_data/biological_examples/jurkat/Jurkat_selected_pairs_two_repeats.csv": {
+      "bytes": 5059,
+      "sha256": "d793b2e13464a57fbb9e77b30a64a592751ee2a4b1aecc27be288018fa638b91"
+    },
+    "source_data/biological_examples/rna/RNA_EXAMPLES.json": {
+      "bytes": 6128,
+      "sha256": "6fbcae22e00f121d61fd03e6f9d3fcce40e6c460890bc74e82d12facfe8c3bfa"
+    },
+    "source_data/biological_examples/rna/selected_four_corners.csv": {
+      "bytes": 2960,
+      "sha256": "eb7901e1c0af92915ec2439738ac9358e89de5de72323c00e34bb63261a5c91b"
+    },
+    "source_data/biological_examples/rna/selected_readouts_all_11_rectangles.csv": {
+      "bytes": 4066,
+      "sha256": "403da6f3a6205c5ff01be45689c9a767fc342ab60be939c554c35964513e4344"
+    },
+    "source_data/independent_RNA/EVALUATION.json": {
+      "bytes": 54374,
+      "sha256": "9bfb1344e0ebb411e99ff6086db9ce8bcfaefa41c18e8ecf172760861d842af3"
+    },
+    "source_data/original_system_extension/DATASET_RESULTS.csv": {
+      "bytes": 2731,
+      "sha256": "8a2c3c3f5b36ec8ad581f3ab87ee8a592f6f6b1c7d794c1ace43d280a1698f2c"
+    },
+    "source_data/original_system_extension/INDEPENDENT_IMPLEMENTATION_REVIEW.json": {
+      "bytes": 18517,
+      "sha256": "c5702a830ab2bd184a2dc8d1a074d05ed6ece63879fd4b793d4b177d6368691a"
+    },
+    "source_data/original_system_extension/INTEGRATION_SUMMARY.json": {
+      "bytes": 7675,
+      "sha256": "311d5229b57275185f4f333eae6a8e35637fe015bc734b8590c2516a0f27737d"
+    },
+    "source_data/original_system_extension/READOUT_IDENTITY_AUDIT.json": {
+      "bytes": 4465,
+      "sha256": "02b3a3ecf090ba39c4b3c1d861670a9aa3e04281bb590d287391d39e28e0bc09"
+    },
+    "source_data/original_system_extension/SEEN_RESULTS.csv": {
+      "bytes": 4898,
+      "sha256": "8e6021c29c1fa8287704a8b44e03612a6bcc04bc24ce4a41a6ef6cf918813e87"
+    },
+    "source_data/original_system_extension/SPLIT_RESULTS.csv": {
+      "bytes": 7029,
+      "sha256": "4d5e8c59eff1f9bc024260cfeb891116547f196180afeb8c48066dd532d4adb2"
+    },
+    "source_data/released_benchmark/dataset_panel_leaderboard.csv": {
+      "bytes": 11137,
+      "sha256": "9086874febafdbef59b97844b285136b28de4690f627ddf1082ae2e4d0800c17"
+    },
+    "source_data/released_benchmark/formal_top100_leaderboard.csv": {
+      "bytes": 1269,
+      "sha256": "4684f197a28b6b32c9ede0b48c750f186932015ddd20f15638d48f626f23823f"
+    },
+    "source_data/released_benchmark/formal_verdict.json": {
+      "bytes": 2828,
+      "sha256": "7bf9685e92848d56ba3d16f4425b81d2aec95ff8194aec4cf67211cf57aee12f"
+    },
+    "source_data/released_benchmark/official_top100_per_metric_leaderboard.csv": {
+      "bytes": 3902,
+      "sha256": "071c8f00e623810e4ce4725f2a3eca285370d01a1976f5c50a170c317aabbed4"
+    },
+    "source_data/released_benchmark/paired_cluster_bootstrap.csv": {
+      "bytes": 429,
+      "sha256": "37c28aa7bfbe9b179b38c57fa354e914ca20e86e2b0f18b79eab99f09b6b9eb7"
+    },
+    "source_data/v22_synthesis/SF12_and_case_by_task.csv": {
+      "bytes": 526,
+      "sha256": "2cbb315189aa6fbb6e2d7682a5712f53482fff1150d1b6b9e040a86f26d0e762"
+    },
+    "source_data/v22_synthesis/SOURCE_IDENTITIES.json": {
+      "bytes": 752,
+      "sha256": "e0dbc949f2dd3340f526e78a6f8b19f93550b8f411a886b53f0b33f6174b62d0"
+    },
+    "source_data/v22_synthesis/calibration_main_summary.csv": {
+      "bytes": 261,
+      "sha256": "be97ed19207a2f92042c9987d759fe2b7ae35335d6671cad867ab45dd0ff025d"
+    },
+    "source_data/v22_synthesis/qualified_rectangles_scores.json": {
+      "bytes": 13502,
+      "sha256": "5ff9f8dff3d6213492b2aead5e6fcdd47c2609f75778a7f2572013cf6ae4a399"
+    }
+  },
+  "scope": "Publication figure redraw and published table reference, no scientific refitting"
+}

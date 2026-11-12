@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PREFREEZE_CANDIDATE_BLIND_CONTRACT",
+  "created_utc": "2026-08-11T06:07:34.994613+00:00",
+  "dataset": "Replogle_exp6",
+  "source_sha256": "87762c9e34bc36f5ab9e6e31d89d162fc35a528fb86aa1d051f0a55479bf3949",
+  "shape": [
+    27104,
+    5019
+  ],
+  "conditions": 70,
+  "supported_conditions": 70,
+  "evaluable_weight_conditions": 69,
+  "prepare_only": true,
+  "formal_rows": null,
+  "formal_evaluable_rows": null,
+  "contract_sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1",
+  "metric_validity_sha256": null,
+  "split_ledger_sha256": "e146f407abaffee8c33bbccf5205f8f133aaa8975a95a01412b6de0fbbbdde17"
+}

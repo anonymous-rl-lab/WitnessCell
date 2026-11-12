@@ -1,0 +1,20 @@
+{
+  "utc": "2026-10-19T22:16:10.186951+00:00",
+  "status": "FROZEN BEFORE EXPRESSION PROCESSING",
+  "expression_outcomes_examined": false,
+  "files": {
+    "CONFIRMATION_PROTOCOL.txt": "b0d1ac5129855c7513b878bd4b9f698009895a4d3ff51d15d87f8d9fe2e5ea5f",
+    "COHORT_AND_SPLITS.json": "ba3ad1c5ade5b5175228d93a25ef70d07e211e00523dc26ef5c771e29b893870",
+    "model/frozen_graph_folds.py": "4b4bc54d53238f7be9eeeede4deca342b06dda2845bd8aa5b80ac2f68ca564cf",
+    "model/frozen_legacy_baseline.py": "d19f8c423c4b8a693644381b0863e6a016300f51075a9e2fb1247cc605c2a404",
+    "model/frozen_reference_core.py": "25c8d38a6f1c73fa4b7e2ccdee3535d8b80a5c3abac24a4cdecf2887c4759032",
+    "model/run_confirmation.py": "343a27e8221d52a5985ef84d0e77dc5225f717e539564d2be53ef481e37be0f9",
+    "model/FROZEN_PROGRAM_ID_MAPPING.json": "1983d6be8470733c7e36385a9c56aeef5d499e303922a0a1d93665901eb0da40",
+    "model/PREDEFINED_G2M_PROGRAM.json": "ccd9e710ef7ef448c9234ca007ea02aef5c190157060d639d75b090b63b07895",
+    "combi_metadata/GSE174695_large_scale_meta.csv.gz": "0854604900885b71ac706eca3a03a14a286935fe4ca3045f078a98636a6a5a6d",
+    "combi_metadata/GSE174695_large_scale_matrix.csv.gz": "5524623316ae773d4d1d6ea03818934614db3a0ab3763eabc3b0e0aef5d65367",
+    "combi_metadata/matrix_gene_names_only.txt": "bd079c95f2709c4ec8591a3bbbe8ac4b714c93f3da5e399c6e49f3884c7e327e"
+  },
+  "new_source": "Combi-seq / GSE174695",
+  "confirmation_scope": "cross-intervention-type RNA, refitted frozen procedure"
+}

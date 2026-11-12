@@ -1,0 +1,182 @@
+{
+  "status": "six original splits completed; conditional original-system extension",
+  "elapsed_seconds": 164.9283650239995,
+  "pair_seed_records": 389,
+  "distinct_pair_counts": {
+    "Norman": 118,
+    "Wessels": 106
+  },
+  "dataset_results": [
+    {
+      "dataset": "Norman",
+      "method": "zero",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": 0.0,
+      "endpoint_removed_geometric_gain": 0.0,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "unit",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.03225700471854687,
+      "endpoint_removed_geometric_gain": 0.026757844323130664,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "uniform",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": 0.0034104224349056356,
+      "endpoint_removed_geometric_gain": 0.00919145802011656,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "amplitude_only",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.011020877213584912,
+      "endpoint_removed_geometric_gain": 0.025681785645138455,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "R_amplitude_noise",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.011652538073556151,
+      "endpoint_removed_geometric_gain": 0.023472630319933185,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "selected",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": 0.0034104224349056356,
+      "endpoint_removed_geometric_gain": 0.00919145802011656,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "shared_endpoint_additive",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.10514957809346992,
+      "endpoint_removed_geometric_gain": 0.004579328056919851,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "saturation_only",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.06895497994606181,
+      "endpoint_removed_geometric_gain": 0.0017232500121694416,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Norman",
+      "method": "factorized_prediction",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": -0.06476130517370726,
+      "endpoint_removed_geometric_gain": 1.0540424089100497e-10,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "zero",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.0,
+      "endpoint_removed_geometric_gain": 0.0,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "unit",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.004920926132742198,
+      "endpoint_removed_geometric_gain": 0.0016803535027564154,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "uniform",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.00253472285695433,
+      "endpoint_removed_geometric_gain": 0.00121435610691345,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "amplitude_only",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.006992806755681258,
+      "endpoint_removed_geometric_gain": 0.0020036427004771484,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "R_amplitude_noise",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.006335150508198106,
+      "endpoint_removed_geometric_gain": 0.001613837060729817,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "selected",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.0062829732981265485,
+      "endpoint_removed_geometric_gain": 0.0017162373701025135,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "shared_endpoint_additive",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": -0.5481478948345859,
+      "endpoint_removed_geometric_gain": -0.0021520843282720747,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "saturation_only",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": -0.47831485693649656,
+      "endpoint_removed_geometric_gain": 0.0007146389580221513,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "factorized_prediction",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": -0.4981342479258337,
+      "endpoint_removed_geometric_gain": 1.1136419564294897e-09,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    }
+  ],
+  "selected_policy_results": [
+    {
+      "dataset": "Norman",
+      "method": "selected",
+      "pair_seed_records": 208,
+      "non_target_geometric_gain": 0.0034104224349056356,
+      "endpoint_removed_geometric_gain": 0.00919145802011656,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    },
+    {
+      "dataset": "Wessels",
+      "method": "selected",
+      "pair_seed_records": 181,
+      "non_target_geometric_gain": 0.0062829732981265485,
+      "endpoint_removed_geometric_gain": 0.0017162373701025135,
+      "aggregation": "geometric mean of three seed-specific loss ratios, not independent experiments"
+    }
+  ],
+  "zero_policy_selected": [
+    "Norman_seed2"
+  ],
+  "rule_selected_using_test_scores": false,
+  "claim": "partner component is now callable with the original full system; selected incremental gains on these original tasks are small",
+  "does_not_establish": "new benchmark first place, independent RNA confirmation, universal readout-consistency advantage, or a large original-task partner improvement",
+  "fair_external_competitor_status": "original-task full-vector competitor not found in recovered Step1 assets; other-task GEARS vectors and compact loss summaries cannot substitute",
+  "full_vs_partner_metrics": "primary removes two targets per query; secondary projection uses a common axis that removes every perturbed gene in that outer test batch",
+  "statistics": "seed geometric ratios and seen strata are descriptive; six splits/389 pair-seed records are not independent biological replicates"
+}

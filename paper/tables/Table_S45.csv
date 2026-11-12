@@ -1,0 +1,9 @@
+Readout,Baseline,Learner,Original full (%),Original partner (%),Controlled full (%),Controlled partner (%)
+Reconstructed,Native,Rank one,9.0885,1.9105,9.5212,2.4431
+Reconstructed,Native,Spectral,13.7912,5.6538,13.7899,5.6521
+Reconstructed,Saturation,Rank one,1.2258,1.2295,1.0206,1.0133
+Reconstructed,Saturation,Spectral,4.9094,4.8245,4.7041,4.6083
+Published,Native,Rank one,12.1686,2.3017,12.5283,2.7695
+Published,Native,Spectral,20.3141,7.8806,20.3141,7.8806
+Published,Saturation,Rank one,0.0000,0.0000,0.0000,0.0000
+Published,Saturation,Spectral,7.0662,7.0357,6.9641,6.9279

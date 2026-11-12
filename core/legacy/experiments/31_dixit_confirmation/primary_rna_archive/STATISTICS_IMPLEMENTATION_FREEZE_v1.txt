@@ -1,0 +1,12 @@
+WitnessCell v20 independent RNA confirmation: statistics implementation freeze v1
+Frozen at UTC: 2026-10-19T10:21:38.806280+00:00
+Parent: FROZEN_PROTOCOL_v1.txt; its existing scope, primary estimand and decision gates are unchanged.
+This document completes choices left unspecified in the parent protocol before real-data model fitting or outcome scoring.
+
+For the fixed outer-fold predictions, use 10,000 node-multiplier draws, NumPy default_rng seed 20261019. Each of the 10 endpoint multipliers is independent Exp(1), strictly positive; each query pair receives the product of its two endpoint multipliers. Rebuild the weighted endpoint projection independently for each outer test graph using sqrt(weight) times its incidence matrix, and fit weighted endpoint least squares to each error matrix. Pool weighted residual sums of squares over the three folds before calculating the relative gain. Do not merely weight previously projected residuals. Report the central 95% range as a conditional, fixed-prediction sensitivity range, not a biological-replicate confidence interval or a calibrated significance test.
+
+Compute all 10 leave-one-endpoint evaluation sensitivities separately, rebuilding the incidence matrix and projection after deletion. No refitting is implied by these fixed-prediction sensitivity summaries. If a geometry yields no contrast dimension, report it as not estimable rather than divide numerical near-zero residuals.
+
+Rationale recorded before outcome inspection: the labels-only graph audit found that multinomial sampling of ten endpoints produced zero total contrast dimension in 2,675 of 10,000 draws and zero contrast dimension in 17,204 of 30,000 fold-draws. Positive multipliers preserve the observed graph. This defines an interpretable sensitivity analysis without treating genes, cells, or overlapping contrasts as independent biological replication.
+
+Freeze all three outer-fold candidate predictions and training-only selections, plus runner and imported dependency hashes, before computing any outer-fold outcome metric. Each outer fold makes its own hyperparameter and policy decisions. Existing protocol tie preference remains simpler zero correction first.

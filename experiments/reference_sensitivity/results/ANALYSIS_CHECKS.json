@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "saturation_configurations": 4,
+  "control_checks": [
+    {
+      "configuration": "K562_high_fold0",
+      "family": "rank1",
+      "endpoint_change_max": 4.4777549723651333e-17,
+      "sse_identity_gap": 2.927345865710862e-18
+    },
+    {
+      "configuration": "K562_high_fold0",
+      "family": "spectral",
+      "endpoint_change_max": 0.0,
+      "sse_identity_gap": 5.917081001942924e-17
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "family": "rank1",
+      "endpoint_change_max": 5.42643187328995e-17,
+      "sse_identity_gap": 2.168404344971009e-17
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "family": "spectral",
+      "endpoint_change_max": 0.0,
+      "sse_identity_gap": 6.2784466285513326e-18
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "family": "rank1",
+      "endpoint_change_max": 6.331740687315346e-17,
+      "sse_identity_gap": 1.5612511283791264e-17
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "family": "spectral",
+      "endpoint_change_max": 0.0,
+      "sse_identity_gap": 7.747837624136269e-17
+    },
+    {
+      "configuration": "Jurkat_high",
+      "family": "rank1",
+      "endpoint_change_max": 0.0,
+      "sse_identity_gap": 0.0
+    },
+    {
+      "configuration": "Jurkat_high",
+      "family": "spectral",
+      "endpoint_change_max": 1.5476986012230576e-17,
+      "sse_identity_gap": 0.0
+    }
+  ],
+  "han_attribution": {
+    "saved_batches": 60,
+    "model_outputs": 120,
+    "rows": 360,
+    "max_sse_decomposition_gap": 3.623767952376511e-13,
+    "max_orthogonality_gap": 2.2818542438603553e-15
+  },
+  "scope": "Retrospective reference sensitivity and saved-prediction attribution; no new sources or independent confirmation."
+}

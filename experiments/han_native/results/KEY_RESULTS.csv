@@ -1,0 +1,17 @@
+panel,baseline,method,partner_gain_pct,full_gain_pct
+full_raw,native,rank1_original,1.9105216722823612,9.088481126936298
+full_published,native,rank1_original,2.3017377537150274,12.168552567274936
+full_raw,native,rank1_controlled,2.443072901937815,9.521168453510963
+full_published,native,rank1_controlled,2.7694920725238603,12.528289330762444
+full_raw,native,spectral_original,5.653762604707557,13.791216311903032
+full_published,native,spectral_original,7.8806026385345955,20.31412826024257
+full_raw,native,spectral_controlled,5.652095233257048,13.789861605622878
+full_published,native,spectral_controlled,7.8806026385345955,20.31412826024257
+full_raw,saturation,rank1_original,1.2295163704739265,1.225793406073672
+full_published,saturation,rank1_original,0.0,0.0
+full_raw,saturation,rank1_controlled,1.0133020303734752,1.0206196387977706
+full_published,saturation,rank1_controlled,0.0,0.0
+full_raw,saturation,spectral_original,4.824540863529658,4.909363703244429
+full_published,saturation,spectral_original,7.035739240655148,7.06620853673825
+full_raw,saturation,spectral_controlled,4.60825978666628,4.704126606991088
+full_published,saturation,spectral_controlled,6.927861295844839,6.964085883831328

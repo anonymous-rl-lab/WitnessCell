@@ -1,0 +1,144 @@
+{
+  "files": [
+    {
+      "path_relative_to_repo": "experiments/18_dual_head_evidence_gate/cache/Norman.condition_moments.npz",
+      "size_bytes": 6873827,
+      "sha256": "b410c768fe9ca15459a1819ab86fa32d1cac0f2930713a6eb13021680d279c68"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Norman.phase_m_contract.npz",
+      "size_bytes": 31816948,
+      "sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Norman.split_ledger.json",
+      "size_bytes": 96919,
+      "sha256": "6a46bc07f4eef9ff29844888924bf808f3647e6f6842ba1b15deed1d19616b28"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "size_bytes": 5763879,
+      "sha256": "456b2655f1f33538301f02abf36fb89f9883a6f1ecf94bbd2f06410d0a6945a9"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "size_bytes": 5438725,
+      "sha256": "7e0979b42076657bd61cfb256b4c1470ad68cb955e938cdd38281fe5fd985642"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "size_bytes": 5763113,
+      "sha256": "10675e7fc727e3af79f798783e1731fd7b9cd4699ffba2b560f3634df044b532"
+    },
+    {
+      "path_relative_to_repo": "experiments/18_dual_head_evidence_gate/cache/Wessels.condition_moments.npz",
+      "size_bytes": 4009505,
+      "sha256": "0daec98eca57dee28a7f4cfe2678b2d684f3b9f98b84c0cd59390e5bb65cd91a"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Wessels.phase_m_contract.npz",
+      "size_bytes": 17328133,
+      "sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Wessels.split_ledger.json",
+      "size_bytes": 57528,
+      "sha256": "012ecd1df234f2013afe86fdb96989207abfe601e280acb0b74e1387c3fd1189"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "size_bytes": 3050745,
+      "sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "size_bytes": 3227203,
+      "sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "size_bytes": 3330643,
+      "sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c"
+    },
+    {
+      "path_relative_to_repo": "experiments/18_dual_head_evidence_gate/cache/Schmidt.condition_moments.npz",
+      "size_bytes": 4273916,
+      "sha256": "169894b51933e7e544a6f17fff7eb9b1b7947c87d2ae73c048a1420f35eaff82"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Schmidt.phase_m_contract.npz",
+      "size_bytes": 18806925,
+      "sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Schmidt.split_ledger.json",
+      "size_bytes": 56913,
+      "sha256": "b61f2e87525a252d3558958b917c747dcddc7118871e07a6da98b73908c2ca14"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "size_bytes": 2036532,
+      "sha256": "e2de9b3b8ba471fb11a4a228e02f4c7124f2df2815870b46bfaf23369a72e1b9"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "size_bytes": 1814390,
+      "sha256": "fe6e87edba74c936ab633469113e464c26ffd4cfb1744ac5cda93334b6c050c1"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "size_bytes": 1741292,
+      "sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72"
+    },
+    {
+      "path_relative_to_repo": "experiments/18_dual_head_evidence_gate/cache/Replogle_exp6.condition_moments.npz",
+      "size_bytes": 2185209,
+      "sha256": "c7f1978c4ef79b20f515e5d2393bf75af1b76e67ae72def1ae60f44cf680b56b"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Replogle_exp6.phase_m_contract.npz",
+      "size_bytes": 9453580,
+      "sha256": "859cdda0265f45ad3c29109c5b4a976e4374cca3ded3da78b4f1ea17e2fc3bc1"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/assets/formal_contracts/Replogle_exp6.split_ledger.json",
+      "size_bytes": 31217,
+      "sha256": "e146f407abaffee8c33bbccf5205f8f133aaa8975a95a01412b6de0fbbbdde17"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "size_bytes": 2642684,
+      "sha256": "a1308cba2d65ff63994dbc15ac9a3b81fa44b4d339bbc561bfc5c0f7d6d540bc"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "size_bytes": 2318687,
+      "sha256": "643ecdbea094528af402f723c4678311bc1e15ac1590bc371177aadaaa27afb8"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "size_bytes": 2248286,
+      "sha256": "a8274e4703e9350efd5beb38ac68da6980155c6289f77931206ab9a2656cf971"
+    },
+    {
+      "path_relative_to_repo": "experiments/15_scperturbench_sota/module/data/gears_assets/gene2go_all.pkl",
+      "size_bytes": 9462558,
+      "sha256": "f145c5e84a53048d87942a417d870a4f2d8db50200b96e492b358c13aba8c771"
+    },
+    {
+      "path_relative_to_repo": "experiments/15_scperturbench_sota/module/data/gears_assets/essential_all_data_pert_genes.pkl",
+      "size_bytes": 558811,
+      "sha256": "46c3dfe354d8ad5c0da22c69f3d0ca451987b1a61ed9d984279b22b9565ff8d7"
+    }
+  ],
+  "new_oof_required": true,
+  "strong_competitor_vectors_available": false,
+  "missing_900_external_npz_blocks_this_design": false,
+  "forbidden_risk_input_fields": [
+    "test_cell_counts",
+    "test_means",
+    "test_variances",
+    "test_DE_weights",
+    "test_true_effect"
+  ]
+}

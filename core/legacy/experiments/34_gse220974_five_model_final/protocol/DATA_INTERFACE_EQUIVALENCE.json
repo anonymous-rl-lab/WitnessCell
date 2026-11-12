@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "fold": 0,
+  "seed": 0,
+  "models": [
+    "gears",
+    "scouter"
+  ],
+  "phases": [
+    "selection",
+    "refit"
+  ],
+  "all_response_and_control_rows_exact": true,
+  "nonzero_masks_exact": true
+}

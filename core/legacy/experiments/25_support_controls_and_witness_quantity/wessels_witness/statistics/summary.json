@@ -1,0 +1,364 @@
+{
+  "protocol_id": "WitnessCell-step1-followup-v1-20261017",
+  "study_status": "retrospective follow-up; script/hash locked after inspecting point estimates and before calculating these intervals; not new independent analysis or prospective validation",
+  "rng_seed": 2026101702,
+  "replicates": 5000,
+  "pair_union_count": 106,
+  "original_queries_by_seed": {
+    "1": 63,
+    "2": 54,
+    "3": 64
+  },
+  "fraction_results": [
+    {
+      "metric": "loss_mse",
+      "reference": "factorized_prediction",
+      "fraction": 0.25,
+      "rho": 0.8090019051872144,
+      "gain": 0.19099809481278562,
+      "rho_ci95": [
+        0.7767679842295706,
+        0.8383201685197667
+      ],
+      "gain_ci95": [
+        0.1616798314802333,
+        0.22323201577042937
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "factorized_prediction",
+      "fraction": 0.5,
+      "rho": 0.7258214292561839,
+      "gain": 0.27417857074381613,
+      "rho_ci95": [
+        0.6877982877404002,
+        0.7618751225800049
+      ],
+      "gain_ci95": [
+        0.23812487741999508,
+        0.3122017122595997
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "factorized_prediction",
+      "fraction": 1.0,
+      "rho": 0.667496922511784,
+      "gain": 0.33250307748821595,
+      "rho_ci95": [
+        0.625119868432781,
+        0.7072288140948384
+      ],
+      "gain_ci95": [
+        0.2927711859051616,
+        0.374880131567219
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 0.25,
+      "rho": 0.7828667176062731,
+      "gain": 0.21713328239372687,
+      "rho_ci95": [
+        0.7526221248604867,
+        0.8112920512487599
+      ],
+      "gain_ci95": [
+        0.18870794875124014,
+        0.24737787513951326
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 0.5,
+      "rho": 0.7023734261275787,
+      "gain": 0.2976265738724213,
+      "rho_ci95": [
+        0.6663041704515634,
+        0.7368608011638711
+      ],
+      "gain_ci95": [
+        0.26313919883612885,
+        0.3336958295484366
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 1.0,
+      "rho": 0.6459331200439649,
+      "gain": 0.35406687995603514,
+      "rho_ci95": [
+        0.6050553209918291,
+        0.6844164002324522
+      ],
+      "gain_ci95": [
+        0.3155835997675478,
+        0.3949446790081709
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "factorized_prediction",
+      "fraction": 0.25,
+      "rho": 0.7319172425144099,
+      "gain": 0.2680827574855901,
+      "rho_ci95": [
+        0.6548186150720798,
+        0.829273260845912
+      ],
+      "gain_ci95": [
+        0.170726739154088,
+        0.3451813849279201
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "factorized_prediction",
+      "fraction": 0.5,
+      "rho": 0.6609352191077669,
+      "gain": 0.33906478089223313,
+      "rho_ci95": [
+        0.5726025319125952,
+        0.7700857708059502
+      ],
+      "gain_ci95": [
+        0.2299142291940498,
+        0.42739746808740475
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "factorized_prediction",
+      "fraction": 1.0,
+      "rho": 0.6234131870401087,
+      "gain": 0.37658681295989127,
+      "rho_ci95": [
+        0.5225677678333712,
+        0.7382157143964403
+      ],
+      "gain_ci95": [
+        0.26178428560355976,
+        0.4774322321666286
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 0.25,
+      "rho": 0.8189653738671532,
+      "gain": 0.18103462613284682,
+      "rho_ci95": [
+        0.7058045099385681,
+        0.9713942627396923
+      ],
+      "gain_ci95": [
+        0.028605737260307674,
+        0.2941954900614318
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 0.5,
+      "rho": 0.7395413407109402,
+      "gain": 0.26045865928905976,
+      "rho_ci95": [
+        0.6185637630259724,
+        0.8941038720184886
+      ],
+      "gain_ci95": [
+        0.10589612798151136,
+        0.3814362369740276
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "shared_endpoint_additive",
+      "fraction": 1.0,
+      "rho": 0.6975567511486307,
+      "gain": 0.3024432488513693,
+      "rho_ci95": [
+        0.5635826729886447,
+        0.8646033477754934
+      ],
+      "gain_ci95": [
+        0.1353966522245066,
+        0.4364173270113552
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0
+    }
+  ],
+  "contrasts": [
+    {
+      "metric": "loss_mse",
+      "reference": "factorized_prediction",
+      "contrast": "Delta_G100_minus_G25",
+      "estimate": 0.14150498267543032,
+      "ci95": [
+        0.12423070763865822,
+        0.160639175187223
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "interval_construction": "percentile of same-draw rho25-rho100"
+    },
+    {
+      "metric": "loss_mse",
+      "reference": "shared_endpoint_additive",
+      "contrast": "Delta_G100_minus_G25",
+      "estimate": 0.13693359756230827,
+      "ci95": [
+        0.11986943154242446,
+        0.15529859647612024
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "interval_construction": "percentile of same-draw rho25-rho100"
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "factorized_prediction",
+      "contrast": "Delta_G100_minus_G25",
+      "estimate": 0.1085040554743012,
+      "ci95": [
+        0.07521280341878657,
+        0.1436232648640238
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "interval_construction": "percentile of same-draw rho25-rho100"
+    },
+    {
+      "metric": "loss_wmse",
+      "reference": "shared_endpoint_additive",
+      "contrast": "Delta_G100_minus_G25",
+      "estimate": 0.12140862271852249,
+      "ci95": [
+        0.08639314915174814,
+        0.15967161666059823
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "interval_construction": "percentile of same-draw rho25-rho100"
+    }
+  ],
+  "stability": [
+    {
+      "metric": "loss_mse",
+      "seed_order_paths": 9,
+      "full_better_than_quarter": 9,
+      "half_better_than_quarter": 9,
+      "full_better_than_half": 9,
+      "seeds": [
+        {
+          "seed": 1,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        },
+        {
+          "seed": 2,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        },
+        {
+          "seed": 3,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        }
+      ],
+      "interpretation": "Descriptive direction consistency; nine paths are not nine independent replicates"
+    },
+    {
+      "metric": "loss_wmse",
+      "seed_order_paths": 9,
+      "full_better_than_quarter": 8,
+      "half_better_than_quarter": 7,
+      "full_better_than_half": 8,
+      "seeds": [
+        {
+          "seed": 1,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        },
+        {
+          "seed": 2,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        },
+        {
+          "seed": 3,
+          "full_better_than_quarter": true,
+          "monotone_mean_loss": true
+        }
+      ],
+      "interpretation": "Descriptive direction consistency; nine paths are not nine independent replicates"
+    }
+  ],
+  "zero_incident_witness_summary": [
+    {
+      "fraction": 0.25,
+      "seed_equal_mean_zero_fraction": 0.31707451499118167,
+      "query_order_pooled_zero_fraction": 0.32044198895027626,
+      "zero_query_order_rows": 174,
+      "total_query_order_rows": 543,
+      "seed1_mean_zero_fraction": 0.4708994708994709,
+      "seed2_mean_zero_fraction": 0.24074074074074073,
+      "seed3_mean_zero_fraction": 0.23958333333333334,
+      "caveat": "Order/query records describe repeated predictions; not independent sample sizes"
+    },
+    {
+      "fraction": 0.5,
+      "seed_equal_mean_zero_fraction": 0.197879923574368,
+      "query_order_pooled_zero_fraction": 0.2007366482504604,
+      "zero_query_order_rows": 109,
+      "total_query_order_rows": 543,
+      "seed1_mean_zero_fraction": 0.30158730158730157,
+      "seed2_mean_zero_fraction": 0.13580246913580246,
+      "seed3_mean_zero_fraction": 0.15625,
+      "caveat": "Order/query records describe repeated predictions; not independent sample sizes"
+    },
+    {
+      "fraction": 1.0,
+      "seed_equal_mean_zero_fraction": 0.16319444444444445,
+      "query_order_pooled_zero_fraction": 0.16574585635359115,
+      "zero_query_order_rows": 90,
+      "total_query_order_rows": 543,
+      "seed1_mean_zero_fraction": 0.2222222222222222,
+      "seed2_mean_zero_fraction": 0.1111111111111111,
+      "seed3_mean_zero_fraction": 0.15625,
+      "caveat": "Order/query records describe repeated predictions; not independent sample sizes"
+    }
+  ],
+  "max_point_difference_from_already_seen_summary": 1.1102230246251565e-16,
+  "interval_scope": "Pointwise 95% percentile intervals; secondary metrics/references are not independent confirmations",
+  "training_resampled": false,
+  "subset_orders_resampled": false,
+  "primary_key": "loss_mse / factorized_prediction / Delta_G100_minus_G25"
+}

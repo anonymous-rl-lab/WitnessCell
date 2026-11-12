@@ -1,0 +1,4 @@
+{"cell": "A549", "phase": "inner_complete", "fold": 0, "seconds": 0.9063488729998426}
+{"cell": "A549", "phase": "inner_complete", "fold": 1, "seconds": 1.7225463749991832}
+{"cell": "A549", "phase": "inner_complete", "fold": 2, "seconds": 2.5343992689995503}
+{"cell": "A549", "phase": "frozen", "selected": {"key": "native_decomp_t0.3_n1", "eligible": true, "reason": "RNA_feasible_interval", "beta": 0.348147847880642, "partner_sse": 2.2681562407608404, "rna_sse": 2.7970827920560666, "interval_low": 0.0, "interval_high": 2.1081437123811395, "guard_delta": -0.06496347654112977, "stats": {"C_e2": 2.2696962286901234, "C_ea": -0.004423373399139065, "C_a2": 0.012705445189641274, "RNA_e2": 2.7955567179578074, "RNA_ea": -0.0004941812350832448, "RNA_a2": 0.015429567088278053}}, "seconds": 3.3619461629996295}

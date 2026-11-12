@@ -1,0 +1,202 @@
+from pathlib import Path
+import csv,json,datetime,shutil,os
+os.environ.setdefault('MPLCONFIGDIR','/tmp/witnesscell_reference_mpl')
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+
+ROOT=Path(__file__).resolve().parent
+OUT=ROOT/'deliverables';OUT.mkdir(exist_ok=True)
+PREFIX='WitnessCell_Dixit_FixedReference_20261020'
+def rows(p):
+    with p.open() as f:return list(csv.DictReader(f))
+m={r['method']:r for r in rows(ROOT/'model/run1/RESULTS.csv')}
+k={r['method']:r for r in rows(ROOT/'kernel_probe/run1/RESULTS.csv')}
+fold=rows(ROOT/'model/run1/FOLD_RESULTS.csv')
+def gains(name):return [100*float(r.get('full_sse_gain_vs_saturation',r.get('full_sse_gain_vs_scalar_saturation'))) for r in fold if r['method']==name]
+audit=json.loads((ROOT/'theory_audit/real_run1/REAL_AUDIT_RECEIPT.json').read_text())
+report='''WitnessCell：Dixit 固定参考与单查询交付实验报告
+2026年10月20日（北京时间）
+
+一、结论
+
+本轮已解决“同一拟合模型的预测随当前查询批次改变”的工程边界。
+用已测单扰动的10个端点定义完整45对参考空间，拟合完成时固定端点校正系数，
+之后逐对计算预测。同一个组合单独请求、分块请求、改变顺序、重复请求或加入
+其他组合时，预测在数值精度内一致；45个外层留出组合的单查询校正均非零。
+
+相对于相同训练信息下独立拟合的G2M程序级饱和基线，正式内层选择的固定参考
+方法降低总体SSE 2.267123287%，降低去端点SSE 14.299409657%。三个外层划分的
+总体收益为1.4553%、3.0489%、2.3187%。它付出部分预测收益，获得稳定单查询函数。
+
+本轮属于已经查看过Dixit结果之后的开发分析。程序目标与全转录组目标不同：
+原始全转录组伙伴主终点尚未通过；本轮未提供独立来源确认、前瞻验证或生物学
+命中率证据。2.27%是正向点估计，当前相关样本上的不确定性仍不能忽略。
+
+二、锁定的数据与公平比较
+
+数据：45个独立双扰动基因对、10个已测单扰动端点、3个原外层划分，每折训练
+30对、测试15对。原非靶RNA为23519个读出。G2M原预定义基因表有54个基因，
+其中52个唯一映射到本数据的非靶读出。
+
+程序为52个训练侧尺度化读出的均值；每个训练阶段重新用允许的条件均值确定
+尺度。基线保持为原程序级饱和模型，饱和参数只在允许训练标签上拟合。伙伴核
+仍为全RNA实测单扰动响应构造的对称乘积核。不引入新基因集、不增加MLP或秩。
+伙伴正则化网格保持0.1、1、10；cycle3内层划分只根据组合身份和图结构确定。
+每种交付规则按自己最终的程序总体SSE在训练内部选参。外层预测先冻结后计分。
+
+主参考F由10个已测单扰动基因名单的全部无序非自配对构成。F含45对，由允许
+端点身份确定，与本次API实际收到哪些查询无关。它不需要45对的实测组合结果。
+训练30对的响应只用于训练；其余15对响应不参与参考、尺度、模型或内层选择。
+
+三、实现与数学边界
+
+原方法：h_hat(Q)=B(Q)+P_Q g(Q)，P_Q=I-X_Q X_Q^+。
+当Q变更时，P_Q改变；单个查询的对比空间为零，额外校正归零。
+
+固定参考方法：
+    beta_F = X_F^+ g(F)
+    h_hat(q) = B(q) + g(q) - x_q beta_F
+
+g(F)是当前训练模型在参考身份上的预测校正，并非参考组合的真实测量。
+beta_F在模型拟合时固定。推断接口只接受一对端点身份，不需要同行查询或响应。
+交换A与B、增删同行查询、分批执行不改变同一组合的预测含义。
+
+边界是明确的：X_F^T g_F(F)=0在完整参考空间成立，不保证任何交付子集都保持
+基线的端点部分。若要求每个可能查询子集都端点正交，单元素子集即强迫所有
+额外校正为零。因此非零单查询预测必须选定一个固定参考约定。
+
+对固定拟合系数，P_Q[g(Q)-X_Q beta_F]=P_Q g(Q)。因此本轮保留14.30%去端点
+收益含有严格代数原因，不能把它当作一次新的独立伙伴学习成功。主要新增证据
+是批次不变性成立，以及总体误差依然有正向改善。
+
+四、主要数值（总体与去端点SSE均在相同45个查询上汇总）
+
+方法                              总体SSE       去端点SSE     总体收益
+独立拟合程序饱和基线               6.538922596   2.307093784   0
+原直接校正，匹配旧lambda           6.695915797   1.977192992  -2.4009%
+原直接校正，各自训练内部选参        6.550751732   1.961337847  -0.1809%
+原查询批次投影                     6.209021805   1.977192992  +5.0452%
+固定全域参考，训练内部选参          6.390677159   1.977192992  +2.2671%
+全域核直接拟合完整残差              6.710468769   2.234667612  -2.6235%
+
+固定全域参考三个lambda为0.1/10/10，和旧查询投影一致。相对于实测单扰动
+相加，总体误差降低约2.5500%。全部固定lambda与未测池参考对照已保留在CSV。
+外层某个固定lambda的数值较好不构成改选理由；正式数值固定为2.2671%。
+
+另有“固定未测池参考”对照，其外层参考恰好等于旧测试池。在匹配lambda时它
+精确重现旧批次预测，但其语义仍受预先指定未测池限制，不作为本轮实质突破。
+
+五、第二种实现与失败候选带来的机制定位
+
+另一路从参考约束核H=P_F K P_F出发。直接对饱和基线的完整训练残差做核回归
+取得-2.6235%总体收益，未通过。预先规定的训练端点正交损失消融则得到完全相同
+的2.2671%和14.2994%结果。两种正向实现是同一个算子的等价表示，不能当成两份
+独立实验。当前数据支持保留训练端点正交的学习方式，在交付时固定参考约定。
+
+相同伙伴修正在原始查询对比方向减少SSE 0.3299007913。直接加入时额外端点方向
+SSE成本为0.4868939922，超过收益；固定参考把成本降至0.1816553544，留下净收益
+0.1482454369，即2.2671%。原逐查询批次投影将这项额外端点成本降为零，因此
+获得5.0452%，但预测随同行查询改变。
+
+六、稳定性与证据强度
+
+固定参考三个外层总体收益1.4553%、3.0489%、2.3187%；原批次规则分别为
+13.468%、0.490%、1.459%。前者三折幅度较接近，但这不等于生物学稳定性确认。
+
+独立复核用2000次端点Exp(1)权重（组合权重为两个端点权重乘积），保持预测固定，
+重新计算加权评价投影。总体收益中心95%范围为-8.8576%至+10.8142%；去端点收益
+为+5.0483%至+29.0841%。这只是条件敏感性范围，不是生物学置信区间，不包含
+重新训练、模型选择或反复开发的不确定性。
+
+逐个移除端点相关评价记录，固定预测并重算评价投影，总体收益9/10为正、
+去端点收益10/10为正。移除IRF1记录后总体收益为-1.2635%。没有据此删组合或
+调整终点。10个端点和重叠划分不能解释为大量独立重复。
+
+七、复核、精简与交付
+
+原基线与实测加性预测逐元素完全一致。单查询、分块、乱序、端点互换、重复
+以及扩展到完整参考名单的检查通过。两种实现及独立线性求解重构一致，最大
+误差约7.61e-15。查询均值污染后完整训练、内层选择与预测不变。原完整输入
+运行另有实际细胞半污染检查；精简复现中学习器不读取细胞半，不伪造占位数据。
+
+精简数据保留原条件均值、基因身份、预定义程序和冻结划分，全部双精度无损，
+主输入为6.50MB。没有恢复原始细胞矩阵，没有替换旧论文或旧实验结果。
+程序数据适配器与原输入的所有56个条件均值、预测目标、加性输入、核及划分
+逐位一致。全部新预测和内层选择已用精简输入重跑。冗余的大拟合中间状态可由
+输入在秒级重建；包内保留逐数组哈希以验证。小型单查询模型随包直接提供。
+
+运行入口：python REPRODUCE.py --output /tmp/witnesscell_fixed_reference_reproduced
+单查询入口见README_CN.txt和model/predict_program.py；模型对应三个已评估的
+训练划分，部署状态内不包含查询真值，不能把它们当成已完成外部确认的产品。
+
+八、当前可写的科学结论与下一步
+
+可以写：在Dixit的既定端点空间和预定义G2M程序任务中，WitnessCell可将训练
+组合支持的伙伴校正表示为固定参考下的逐对预测函数；在消除交付批次依赖后，
+保留了正向的总体留出预测收益。
+
+工程边界已经解决到“固定拟合状态、固定已测端点空间”这一层级。基因名单或
+允许训练数据发生变化时，需要重新拟合并生成新版本，不能要求跨模型预测相同。
+原全转录组伙伴主终点、未测端点外推、独立来源复现与生物学命中均保持原状态。
+接下来应冻结程序、核、参考生成规则、训练投影和内层选参，在未参与本轮选择
+的数据上检验总体收益；继续调当前外层结果无法替代这项确认。
+'''
+(OUT/(PREFIX+'_Report.txt')).write_text(report,encoding='utf-8')
+selected=['scalar_saturation','raw_matched','raw_selected','query_selected','global_selected','complement_selected']
+table=[]
+for name in selected:
+    r=m[name]
+    table.append({'method':name,'family':'postfit_reference','full_sse':r['full_sse'],'P_sse':r['P_sse'],
+                  'full_gain_percent':100*float(r.get('full_sse_gain_vs_saturation',r.get('full_sse_gain_vs_scalar_saturation'))),
+                  'P_gain_percent':100*float(r.get('P_sse_gain_vs_saturation',r.get('P_sse_gain_vs_scalar_saturation'))),
+                  'batch_invariant':name!='query_selected','primary_selected_result':name=='global_selected'})
+for name in ('ref_full','ref_trainP'):
+    r=k[name]
+    table.append({'method':name,'family':'reference_kernel','full_sse':r['full_sse'],'P_sse':r['P_sse'],
+                  'full_gain_percent':100*float(r.get('full_sse_gain_vs_saturation',r.get('full_sse_gain_vs_scalar_saturation'))),
+                  'P_gain_percent':100*float(r.get('P_sse_gain_vs_saturation',r.get('P_sse_gain_vs_scalar_saturation'))),
+                  'batch_invariant':True,'primary_selected_result':False})
+with (OUT/(PREFIX+'_Key_Results.csv')).open('w',newline='') as f:
+    w=csv.DictWriter(f,fieldnames=list(table[0]));w.writeheader();w.writerows(table)
+cfg={'created_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),
+     'status':'retrospective development candidate; not independent confirmation',
+     'name':'fixed-reference program partner predictor','task':'Dixit predefined G2M52',
+     'reference_rule':'all unordered distinct pairs of measured-single endpoint universe',
+     'reference_labels_required':False,'request_batch_invariant':True,
+     'kernel':'original full-RNA measured-single symmetric product',
+     'training':'training-endpoint-orthogonal residual/kernel; program scalar saturation baseline',
+     'reference_correction':'g(q)-x_q X_F^+ g(F)',
+     'lambda_grid':[.1,1.,10.],'selection':'cycle3 inner final full-program SSE',
+     'selected_lambdas_by_outer_fold':[.1,10.,10.],
+     'normalization':'fit-local, from allowed condition means',
+     'per_gene_R_applied':False,'new_native_RNA_primary_pass':False,
+     'observed_full_gain_percent':100*float(m['global_selected']['full_sse_gain_vs_saturation']),
+     'observed_P_gain_percent':100*float(m['global_selected']['P_sse_gain_vs_saturation']),
+     'guarantee':'same fitted state and endpoint universe; not same prediction after retraining',
+     'endpoint_preservation':'reference-space orthogonality only, not every query subset'}
+(OUT/'CANDIDATE_FIXED_REFERENCE_v2.json').write_text(json.dumps(cfg,indent=2)+'\n')
+
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.spines.top':False,'axes.spines.right':False})
+fig,axs=plt.subplots(1,3,figsize=(15,4.8),gridspec_kw={'width_ratios':[1.12,1,1.05]})
+names=['Raw correction','Batch projection','Fixed reference'];methods=['raw_matched','query_selected','global_selected']
+vals=[100*float(m[n]['full_sse_gain_vs_saturation']) for n in methods]
+colors=['#888888','#5580ac','#17705b']
+axs[0].barh(names,vals,color=colors,height=.55);axs[0].axvline(0,color='black',lw=.8);axs[0].invert_yaxis();axs[0].set_xlim(-4.1,7.2)
+for i,v in enumerate(vals):
+    axs[0].text(v+.16 if v>=0 else v/2,i,f'{v:+.2f}%',va='center',ha='left' if v>=0 else 'center',fontweight='bold',color='black' if v>=0 else 'white')
+axs[0].set_xlabel('Full program SSE improvement (%)');axs[0].set_title('A  Positive point estimate retained',loc='left',fontweight='bold',pad=14)
+xx=np.arange(3);ww=.34
+axs[1].bar(xx-ww/2,gains('query_selected'),ww,label='Batch projection',color=colors[1]);axs[1].bar(xx+ww/2,gains('global_selected'),ww,label='Fixed reference',color=colors[2])
+axs[1].set_xticks(xx,['Fold 1','Fold 2','Fold 3']);axs[1].set_ylabel('Full program improvement (%)');axs[1].legend(frameon=False,fontsize=9);axs[1].set_ylim(0,16)
+axs[1].set_title('B  All three fold signs positive',loc='left',fontweight='bold',pad=14)
+axs[2].axis('off');axs[2].set_title('C  Fixed-model delivery contract',loc='left',fontweight='bold',pad=14)
+lines=[('Singleton / chunk / reorder','Invariant'),('Add or duplicate queries','Invariant'),('Nonzero held-out singleton corrections','45 / 45'),('Shared-reference P-gain preservation','Algebraic'),('Full-gain sensitivity range*','-8.86% to +10.81%')]
+for i,(label,val) in enumerate(lines):
+    yy=.90-i*.175;axs[2].text(0,yy,label,fontsize=9.4,transform=axs[2].transAxes);axs[2].text(0,yy-.067,val,fontsize=11,fontweight='bold',color=colors[2] if i<3 else '#333333',transform=axs[2].transAxes)
+fig.suptitle('Dixit G2M: a fixed reference removes request-batch dependence',fontsize=16,fontweight='bold',y=.98)
+fig.text(.055,.035,'Development data: 45 pairs, 10 measured-single endpoints. *Conditional fixed-prediction endpoint weighting; not a biological confidence interval.',fontsize=9,color='#444444')
+fig.subplots_adjust(left=.09,right=.985,top=.80,bottom=.18,wspace=.45)
+fig.savefig(OUT/(PREFIX+'_Figure.png'),dpi=180);fig.savefig(OUT/(PREFIX+'_Figure.svg'));plt.close(fig)
+print(json.dumps({'report_bytes':(OUT/(PREFIX+'_Report.txt')).stat().st_size,'key_result_rows':len(table),'out':str(OUT)}))

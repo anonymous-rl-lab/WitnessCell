@@ -1,0 +1,10 @@
+{
+  "matched_records": 265,
+  "score_rows": 1060,
+  "training_folds": 5,
+  "source_snapshot_pools": 35,
+  "calibrated_nontrivially": 45,
+  "inner_replay_max_error": 2.664535259100376e-14,
+  "outer_replay_max_error": 2.753353101070388e-14,
+  "scope": "Retrospective saved-candidate analysis on global query projection. Archive snapshots and candidate aliases share data; not independent experiments. Original eleven-rectangle R result is unchanged."
+}

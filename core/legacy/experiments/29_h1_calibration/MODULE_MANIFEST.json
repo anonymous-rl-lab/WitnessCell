@@ -1,0 +1,136 @@
+{
+  "module": "h1_calibration",
+  "file_count": 26,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6204,
+      "sha256": "7751db8b0874cf66cd01ee389afcb210e368a4464156ff7a9785b38a5c0ff816"
+    },
+    {
+      "path": "SOURCE_PROVENANCE.json",
+      "bytes": 4860,
+      "sha256": "8c30c2db045c444cac0ade46db378ee3bdeb60458140726ffaa94f78ff391789"
+    },
+    {
+      "path": "metadata/design.npz",
+      "bytes": 2689,
+      "sha256": "4aec5c358645efe882be799fd74229a8a32e50d8bbb007bb4282769ac06fdc00"
+    },
+    {
+      "path": "qa/REPLAY_VERIFIED.json",
+      "bytes": 1474,
+      "sha256": "a646d78d272a7bbe0c3575a071ae0237b54e3e0c41c224ba1b7ce462fd89558c"
+    },
+    {
+      "path": "reference/ALL_CANDIDATES.csv",
+      "bytes": 59618,
+      "sha256": "52c3432e44e43125e1ae6af0f54cec555782f2c2d39571a41b5deb82f0045c0d"
+    },
+    {
+      "path": "reference/FIVE_GENE_EXAMPLES.npz",
+      "bytes": 28165,
+      "sha256": "3335edbe098984c1488625c2f0fa76bb040de7baafc896b4ea428a3254e17919"
+    },
+    {
+      "path": "reference/FOLD_SUMMARY.csv",
+      "bytes": 879,
+      "sha256": "b5aec60455eabaef26cbd0a681777d79423da46697cb33669345988f60f6bdce"
+    },
+    {
+      "path": "reference/PER_CONDITION_HALF_ERRORS.csv",
+      "bytes": 7835,
+      "sha256": "a68009dad1c90b0980511f92dc29e3e9478225e62fb9c1b37760ec506a24b17a"
+    },
+    {
+      "path": "reference/PREPROCESS_COEFFICIENTS.npz",
+      "bytes": 1650264,
+      "sha256": "6ed3c3623ebd6cf887957211170386be5e78211ffbf4faf53ab0e0c2516cf514"
+    },
+    {
+      "path": "reference/PREPROCESS_FITS.json",
+      "bytes": 72601,
+      "sha256": "2c307cdac058235ba1f3a05a81afb8872c02cf0dc2f33e7fe9d319fc4caa1a60"
+    },
+    {
+      "path": "reference/PROTOCOL_BEFORE_FIT.json",
+      "bytes": 4866,
+      "sha256": "eb6b20ad4c212b181a76780439edb2ce0857604e2de51b2597514026cb39d1e4"
+    },
+    {
+      "path": "reference/REPLAY_AND_INFLUENCE.json",
+      "bytes": 2435,
+      "sha256": "a697d0958812b57872f109b3d442d00ab4fe8328d05950faf108be922b42cacb"
+    },
+    {
+      "path": "reference/REPORT_CN.txt",
+      "bytes": 6494,
+      "sha256": "a59fc50c9d7a678f2575bf7af84d59373fa933a69acc9ba5e5c60418608458a1"
+    },
+    {
+      "path": "reference/SCORE_GRAM.npz",
+      "bytes": 105728,
+      "sha256": "5defb293cfbb526ea78ef256807e9d3b5b12a7772c46790ea145a80c65c5827c"
+    },
+    {
+      "path": "reference/SCORE_GRAM_ROWS.json",
+      "bytes": 14604,
+      "sha256": "ab3be1a2aac904184dc1eeda955afd21a2973f517f7abf5420f8cf37829c1300"
+    },
+    {
+      "path": "reference/SELECTION.json",
+      "bytes": 15421,
+      "sha256": "62805970d65e12aafafcc630482110f406bf1cf53501cc151ad957860c89f4c7"
+    },
+    {
+      "path": "reference/SELECTION_QUADRATICS.npz",
+      "bytes": 25445,
+      "sha256": "3a874f0732e15a4d47b1f6232dd6d171bc807a6bb2857a604783031353309bd4"
+    },
+    {
+      "path": "reference/SOURCE_INPUT_HASHES.json",
+      "bytes": 534,
+      "sha256": "b16a81b2cd3aa98a1a5208944eac1121fcc1528675e602b3f3aa0a83e2e332f5"
+    },
+    {
+      "path": "reference/SUMMARY.json",
+      "bytes": 1097,
+      "sha256": "9f940d3ee9b80ccf7a954c58309e989a0f6720ddc73120718fb293b7e729d308"
+    },
+    {
+      "path": "replay.py",
+      "bytes": 8859,
+      "sha256": "ddeef4ee7bd690a0d7e3e36e2cdba8ae918bbd12eb40842457ff1db7452a17db"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 12,
+      "sha256": "a83a2a4ed7ab2e022b9b8a83cfa2b8cf52cc243006c597e8b96f90a8365590ac"
+    },
+    {
+      "path": "retrain_from_intermediates.py",
+      "bytes": 2159,
+      "sha256": "b9b41b08b8f14cb83e78af35abafdc9879851ad44069458611aa7f32849d3309"
+    },
+    {
+      "path": "run.py",
+      "bytes": 1326,
+      "sha256": "2d73c601a9f94ba9f001b073c70d68ec08affd5120946078c655abff392a1258"
+    },
+    {
+      "path": "source/origin_free_model_frozen.py",
+      "bytes": 9515,
+      "sha256": "fb81189d4801882e58905de8473a88d6da02829ae0354856bbc7f2075f1d8e22"
+    },
+    {
+      "path": "source/replay_m0.py",
+      "bytes": 3597,
+      "sha256": "f758a21d561f50544ee942756198b0ba2d7beeece2d253c9d1b57d0e98376af1"
+    },
+    {
+      "path": "source/run_m0.py",
+      "bytes": 13370,
+      "sha256": "5aad050a258c3818f42cb80d63401ab3778e24c348a15e96084b5b8c01b21a1c"
+    }
+  ]
+}

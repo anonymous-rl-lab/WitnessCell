@@ -1,0 +1,731 @@
+{
+  "status": "PASS",
+  "mode": "compatible",
+  "regenerated_files": 180,
+  "exact_file_matches": 180,
+  "all_derived_files_byte_exact": true,
+  "base_model_fits": 0,
+  "files": [
+    {
+      "path": "data/splits/common_published/20261108/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261108/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261108/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261108/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261108/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261108/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261109/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261110/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261111/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_published/20261112/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261108/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261109/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261110/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261111/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/common_raw/20261112/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261108/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261109/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261110/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261111/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_published/20261112/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261108/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261109/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261110/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261111/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/0/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/0/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/1/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/1/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/2/calibration.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "data/splits/full_raw/20261112/2/query_outcomes.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261108/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261108/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261108/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261109/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261109/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261109/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261110/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261110/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261110/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261111/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261111/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261111/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261112/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261112/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_published/20261112/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261108/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261108/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261108/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261109/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261109/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261109/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261110/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261110/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261110/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261111/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261111/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261111/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261112/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261112/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/common_raw/20261112/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261108/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261108/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261108/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261109/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261109/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261109/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261110/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261110/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261110/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261111/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261111/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261111/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261112/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261112/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_published/20261112/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261108/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261108/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261108/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261109/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261109/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261109/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261110/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261110/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261110/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261111/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261111/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261111/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261112/0/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261112/1/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    },
+    {
+      "path": "results/full_raw/20261112/2/QUERY_PREDICTIONS.npz",
+      "exact_file_bytes": true
+    }
+  ],
+  "scope": "Stored scientific inputs, coefficients and reference scores remain byte-identical. Exact mode additionally requires original bytes for all 180 deterministic duplicates. Compatible mode delegates fresh inference and scoring acceptance to the stagewise replay comparator; this materialization alone does not establish numerical equivalence."
+}

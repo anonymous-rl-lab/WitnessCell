@@ -1,0 +1,93 @@
+{
+  "histories": [
+    {
+      "seed": 17,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.739025354385376,
+          "symmetry_max": 2.7900383219037206e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.2920190393924713,
+          "symmetry_max": 8.370114965711162e-10
+        },
+        {
+          "step": 300,
+          "loss": 0.16779759526252747,
+          "symmetry_max": 2.232030656221934e-09
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7343214750289917,
+          "symmetry_max": 1.1160153287614882e-09
+        },
+        {
+          "step": 150,
+          "loss": 0.28660595417022705,
+          "symmetry_max": 1.1160153278941265e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.15450677275657654,
+          "symmetry_max": 1.1160153270267648e-09
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7408998608589172,
+          "symmetry_max": 8.370114957037544e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.29393666982650757,
+          "symmetry_max": 1.116015328110967e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.16874483227729797,
+          "symmetry_max": 1.6740229922748706e-09
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.736112654209137,
+          "symmetry_max": 1.1160153287614882e-09
+        },
+        {
+          "step": 150,
+          "loss": 0.2858259975910187,
+          "symmetry_max": 2.232030655788253e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.15720444917678833,
+          "symmetry_max": 0.0
+        }
+      ]
+    }
+  ],
+  "output_scale": 0.01872363021888378,
+  "network_parameters": 8517,
+  "new_functional_adapter": true,
+  "source_RNA_weights_used": false,
+  "sf12_feature_rank": 12
+}

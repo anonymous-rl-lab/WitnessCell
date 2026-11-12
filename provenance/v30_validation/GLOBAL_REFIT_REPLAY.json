@@ -1,0 +1,27 @@
+{
+  "release": "30.0.0",
+  "paper": "v39",
+  "status": "PASS",
+  "predictor_refit_tasks": [
+    "global_refit"
+  ],
+  "precision": "exact cache restoration + task-specific numeric tolerances",
+  "tasks": [
+    {
+      "task": "global_refit",
+      "status": "PASS",
+      "task_fingerprint": "78a825a5d5512d2d7b35d731033dc76ee591b39a55d1cb49cdbf48aec299abfe",
+      "scope": "Actually refit all seven v39 matched-reference configurations using unchanged original internal folds and grids, then verify results.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/stage/grn_repo_v30/tools/replay_global.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/optional_refit/global_refit",
+        "--refit"
+      ],
+      "returncode": 0,
+      "seconds": 17.058244789001037
+    }
+  ]
+}

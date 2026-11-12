@@ -1,0 +1,69 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "packages": [
+    {
+      "package": "numpy",
+      "expected": "2.3.5",
+      "installed": "2.3.5",
+      "exact": true
+    },
+    {
+      "package": "scipy",
+      "expected": "1.17.0",
+      "installed": "1.17.0",
+      "exact": true
+    },
+    {
+      "package": "pandas",
+      "expected": "2.2.3",
+      "installed": "2.2.3",
+      "exact": true
+    },
+    {
+      "package": "matplotlib",
+      "expected": "3.10.8",
+      "installed": "3.10.8",
+      "exact": true
+    },
+    {
+      "package": "openpyxl",
+      "expected": "3.1.5",
+      "installed": "3.1.5",
+      "exact": true
+    },
+    {
+      "package": "pypdf",
+      "expected": "6.21.4",
+      "installed": "6.21.4",
+      "exact": true
+    },
+    {
+      "package": "reportlab",
+      "expected": "4.4.9",
+      "installed": "4.4.9",
+      "exact": true
+    },
+    {
+      "package": "sympy",
+      "expected": "1.14.0",
+      "installed": "1.14.0",
+      "exact": true
+    },
+    {
+      "package": "pymupdf",
+      "expected": "1.26.6",
+      "installed": "1.26.6",
+      "exact": true
+    },
+    {
+      "package": "Pillow",
+      "expected": "13.0.0",
+      "installed": "13.0.0",
+      "exact": true
+    }
+  ],
+  "all_present": true,
+  "pinned_versions_match": true,
+  "python_312": true
+}

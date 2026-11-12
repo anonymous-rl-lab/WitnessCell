@@ -1,0 +1,29 @@
+{
+  "main_relative_risk_reduction": 0.9284093431859591,
+  "main_relative_to_information_floor": 0.07479171401194376,
+  "main_reduction_relative_information_floor": 0.9252082859880563,
+  "strong_baseline_relative_reduction_vs_low": 0.9196402051952436,
+  "main_vs_strong_point_difference": -0.00057257721356406,
+  "full_query_mean_MSE": {
+    "OLS_low": 0.01858265006414861,
+    "OLS_high": 0.004189488979476863
+  },
+  "full_query_relative_reduction": 0.7745483574724567,
+  "full_query_paired_MC95": [
+    -0.014616916864904683,
+    -0.014169405304438807
+  ],
+  "joint_true_parameter_and_unique_gate_counts": {
+    "OLS_high": {
+      "hA": 950,
+      "hB": 950,
+      "hC": 950
+    },
+    "contrast_GLS_high": {
+      "hA": 948,
+      "hB": 948,
+      "hC": 948
+    }
+  },
+  "independent_seeds": 1000
+}

@@ -1,0 +1,5 @@
+{
+  "max_abs_error": 0.0,
+  "within_tolerance": true,
+  "float32_exact": true
+}

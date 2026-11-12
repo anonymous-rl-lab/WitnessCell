@@ -1,0 +1,1854 @@
+{
+  "arrays": [
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U6",
+      "sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "conditions",
+      "shape": [
+        93
+      ],
+      "dtype": "<U15",
+      "sha256": "8c60e1dc398393a587e17202498b6ae748c208dc668331d467b14fe5bd7c584e",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "subgroups",
+      "shape": [
+        93
+      ],
+      "dtype": "<U13",
+      "sha256": "4d89266d30ce089430f4b914d655719aa2ef82dcc9a3661278f3e3d627223d06",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "genes",
+      "shape": [
+        5025
+      ],
+      "dtype": "<U15",
+      "sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "prediction",
+      "shape": [
+        93,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "53127873dead120b8bf45481897a3944abe2fb0eb1b092ee4d884d702271c54e",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "factorized_prediction",
+      "shape": [
+        93,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "63a1f95ae643b9bc32d73c416c3e4a5c34b66b76ad3e390cdb85027b73980508",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "baseline_prediction",
+      "shape": [
+        93,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "e968992895efe27dc7ccd6764cf0fa8ffa6ebf22896336bf1e2e4767617bde0e",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        93,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "28746d85ce105cc605547ec94b6e5f3773dca51b698c6f3b1af7ca9399047dc2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "control",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "control_variance",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed1",
+      "array": "test_cell_counts",
+      "shape": [
+        93
+      ],
+      "dtype": "int64",
+      "sha256": "8b7befe0075c966da137f767697887c94540cbe027c8ba8fe6bef75692ee39d8",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U6",
+      "sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "conditions",
+      "shape": [
+        86
+      ],
+      "dtype": "<U15",
+      "sha256": "224e344015babac455a48df1f8f1b855e47109414229815ebd9a210aa082c30c",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "subgroups",
+      "shape": [
+        86
+      ],
+      "dtype": "<U13",
+      "sha256": "15721294bb63499d0b657d2e1d9fad87a1a7ea42093bdce1dfe92f87b430d78e",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "genes",
+      "shape": [
+        5025
+      ],
+      "dtype": "<U15",
+      "sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "prediction",
+      "shape": [
+        86,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "db6fd4ac48602d2ed7a74ab899ec70f8f94216e5d35fd62138ef9da33db622e2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "factorized_prediction",
+      "shape": [
+        86,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "927e1d36fafb1103ebce548ece62aa48b1410fb4406a382a7c08cf1f3b9cdc72",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "baseline_prediction",
+      "shape": [
+        86,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "e960092ec39691d40b81c9bf1e160a31b7967a7c011d677cb948312646875c25",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        86,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "f0b24345d629cfa0fa31244d6ad86d089911858ee3f245c7d809df2ce675e412",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "control",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "control_variance",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed2",
+      "array": "test_cell_counts",
+      "shape": [
+        86
+      ],
+      "dtype": "int64",
+      "sha256": "a0b73de4fe40145eddf61c3432712d682954695f1dc7d2551bd7862d90ebc553",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U6",
+      "sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "conditions",
+      "shape": [
+        89
+      ],
+      "dtype": "<U15",
+      "sha256": "83bebc62c11071c89b2fe0a098e90e45fe47f319b69081200039229f17f3f99e",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "subgroups",
+      "shape": [
+        89
+      ],
+      "dtype": "<U13",
+      "sha256": "34c08d5195bba00df9cc2d47e10d29341cf1aaa7844d82150fdee902cbdd9e0a",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "genes",
+      "shape": [
+        5025
+      ],
+      "dtype": "<U15",
+      "sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "prediction",
+      "shape": [
+        89,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "b2bb69eb186968b12a7295af3f3863477973602c129d3643494fd994e8d4d289",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "factorized_prediction",
+      "shape": [
+        89,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "29e206ac7794c4cebf033f7d96b66b1d661ed1938ad02d1a0af4c9becdb02430",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "baseline_prediction",
+      "shape": [
+        89,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "5646fa2bec59182204b656ac598eeba9b10de6124b12cf01af5d4730679b670d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        89,
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "13554d6dc37616e901113233ba5cb59d22e72540dcdf85a7fee59eac69320ccf",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "control",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "control_variance",
+      "shape": [
+        5025
+      ],
+      "dtype": "float32",
+      "sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Norman",
+      "seed": "seed3",
+      "array": "test_cell_counts",
+      "shape": [
+        89
+      ],
+      "dtype": "int64",
+      "sha256": "c83f243b2c8fe9b7b6f380231bfddddeab244c6b19abed3f27928a375bfbcfd3",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U13",
+      "sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "conditions",
+      "shape": [
+        42
+      ],
+      "dtype": "<U12",
+      "sha256": "f42b680c8b376a7fc2b226ed87ce51d4bfb047c87a60e061da7496a18be20564",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "subgroups",
+      "shape": [
+        42
+      ],
+      "dtype": "<U13",
+      "sha256": "d7120262d46d64da9eaf63ffe4740e0217efdcb78377fa912b771a19614cd542",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "genes",
+      "shape": [
+        5019
+      ],
+      "dtype": "<U18",
+      "sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "prediction",
+      "shape": [
+        42,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "dd062746a8e53ae3d6cf3be23649489c058310faf0eb304485da11339af0dee1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "factorized_prediction",
+      "shape": [
+        42,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "dd062746a8e53ae3d6cf3be23649489c058310faf0eb304485da11339af0dee1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "baseline_prediction",
+      "shape": [
+        42,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        42,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "control",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "control_variance",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed1",
+      "array": "test_cell_counts",
+      "shape": [
+        42
+      ],
+      "dtype": "int64",
+      "sha256": "96e937f4e5a9d0cb9bf2544941c5257f63907c9628d0e939e4c0a602b86e8503",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U13",
+      "sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "conditions",
+      "shape": [
+        36
+      ],
+      "dtype": "<U12",
+      "sha256": "ff281ee3d9199389f66b67ec4edc8741abaf0860564708ded50d1dcb0789b78a",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "subgroups",
+      "shape": [
+        36
+      ],
+      "dtype": "<U13",
+      "sha256": "046705ed10d8c08ccdeecebe363e13c62db66d46aa92be186361ad928b450186",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "genes",
+      "shape": [
+        5019
+      ],
+      "dtype": "<U18",
+      "sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "prediction",
+      "shape": [
+        36,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "860e8153263a7bd899d54b1348bcbb9a32302afb0a354baaf28e194c1b94b176",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "factorized_prediction",
+      "shape": [
+        36,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "7df2545a3a915b2a2caac636c5a6fb81efba5a87b4da99850a041006cc9d82cc",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "baseline_prediction",
+      "shape": [
+        36,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "22f6123b8a941a41edb93072666949089cef38d5f509cfd36d26e618ff5aa2da",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        36,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "cfe382e89afdece67d3808318a7ca63dc9fff6d7c6db9cbdf53459ac31db5122",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "control",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "control_variance",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed2",
+      "array": "test_cell_counts",
+      "shape": [
+        36
+      ],
+      "dtype": "int64",
+      "sha256": "b269161f4d6dba007ba38b33aa7275c9ab9a5918e8383df294440b62dc92f751",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U13",
+      "sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "conditions",
+      "shape": [
+        34
+      ],
+      "dtype": "<U12",
+      "sha256": "7b3be0fbd26bf23489e72ccb3e58cc7e1e4fd570a2ff68f724e1761e2c2fc228",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "subgroups",
+      "shape": [
+        34
+      ],
+      "dtype": "<U13",
+      "sha256": "5b42bba6865fc3d692e3c02182252b41ec10760bfd3169245af9817c96d30ccf",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "genes",
+      "shape": [
+        5019
+      ],
+      "dtype": "<U18",
+      "sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "prediction",
+      "shape": [
+        34,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "b27fae063cc8bc2f586b50d074e0d6f8d25192d024d09f562ee238a33f174fda",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "factorized_prediction",
+      "shape": [
+        34,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "8dfb8a03370a9839bc4b28462ab05fe1ee2d10a676e4400aeb2230b8e19fcdf9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "baseline_prediction",
+      "shape": [
+        34,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "a014cb26ae6bc347347fab577dded75b36a7659a0a92720ea7b7cf1ea4a1bf5d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        34,
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "e22cffa10d96437f8d2b3d226a26f0f3d443a2fc562a410d7e296711b504ad7d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "control",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "control_variance",
+      "shape": [
+        5019
+      ],
+      "dtype": "float32",
+      "sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": "seed3",
+      "array": "test_cell_counts",
+      "shape": [
+        34
+      ],
+      "dtype": "int64",
+      "sha256": "819ddf3799754b38103bbc7022586cd92a03eb9c6444a3be0274247854d749b2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "conditions",
+      "shape": [
+        31
+      ],
+      "dtype": "<U18",
+      "sha256": "26d396a2bba5d453040129ce60daabf8d393d6329f7dd4720cebfafe7e2a254a",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "subgroups",
+      "shape": [
+        31
+      ],
+      "dtype": "<U13",
+      "sha256": "911adcb61dd254569eeaf6a0636658aa7708015788edaeb040111980a908ac32",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "genes",
+      "shape": [
+        5005
+      ],
+      "dtype": "<U10",
+      "sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "prediction",
+      "shape": [
+        31,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "91e878b2d652f238c86b6b56c21f013d9c3232f2673bcf327657467ce20ad8f4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "factorized_prediction",
+      "shape": [
+        31,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "1b965222ef6cbc48b7a1c00106a278bdce779948194a92ce125a48b63ef28d74",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "baseline_prediction",
+      "shape": [
+        31,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "fd87a95ee8df7a7bb6e22acee9864be91d1f186e17e859cbde1cb1fa58272bdc",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        31,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "3168b859f6ef077418181977ca43dad877ea865d44706cf202db2bfa7a5f5314",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "control",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "control_variance",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed1",
+      "array": "test_cell_counts",
+      "shape": [
+        31
+      ],
+      "dtype": "int64",
+      "sha256": "93a2fdca4926a335d60e46f3784fd74fcf2845e6c5544ab4bb20d60f766b655b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "conditions",
+      "shape": [
+        28
+      ],
+      "dtype": "<U18",
+      "sha256": "ecd27fa48ecaedabbc7e5eb3eadfeeea30a7ff3d76fe48645327c293478876ba",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "subgroups",
+      "shape": [
+        28
+      ],
+      "dtype": "<U13",
+      "sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "genes",
+      "shape": [
+        5005
+      ],
+      "dtype": "<U10",
+      "sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "dd9e8dadca8dec479e8af5c7baf2a17f26234d045f3e51e6ea8780645d3df895",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "factorized_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "992417041e0c5f148ca61903787b2bb8ef19d9c9e62da826ac95d88e645c83c9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "baseline_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "91655dd8c3efa10efdfba91c2ca74be1bb5dabc1ed3a5fabf7bee6626ae19865",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "4617ebc171edb59341d32aa2b3880f9b023eb4a70592cc9d1023d1dff9bebb27",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "control",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "control_variance",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed2",
+      "array": "test_cell_counts",
+      "shape": [
+        28
+      ],
+      "dtype": "int64",
+      "sha256": "15818f712d1c8525674f5fa6bf525acdb3ef214d89233e0c8149dc9982d6f326",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "conditions",
+      "shape": [
+        28
+      ],
+      "dtype": "<U18",
+      "sha256": "592ddfadaa1e1cc0c287c4ae8a4560104f1619b2fdb87803efca80835e52bc5d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "subgroups",
+      "shape": [
+        28
+      ],
+      "dtype": "<U13",
+      "sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "genes",
+      "shape": [
+        5005
+      ],
+      "dtype": "<U10",
+      "sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "7daf20edb21589d8579ed01fd6cb9edbb3fc39e091813a514fa6c448b7c7fe87",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "factorized_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "cdf0e5d06b49dcb576317eced2f7644ea24842603bfa1c9888da8f903fe35dda",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "baseline_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "c0d0a7fdaf552141fc6f839f2badfae4e4c6451681b7a04d734d2be4c8bc8d5f",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        28,
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "33981b929dba600a01f6472c0150dbfbfa57db3b2c3611595a12cb20119ac023",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "control",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "control_variance",
+      "shape": [
+        5005
+      ],
+      "dtype": "float32",
+      "sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": "seed3",
+      "array": "test_cell_counts",
+      "shape": [
+        28
+      ],
+      "dtype": "int64",
+      "sha256": "7a40906c98ab8989f7304ec3730122045744f9288c61a9bf3d903158435be4c5",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "conditions",
+      "shape": [
+        65
+      ],
+      "dtype": "<U15",
+      "sha256": "dff10bf235c46e285c3cf743e1a74cee46e38fe9e8ff9663eb80f91835bf1302",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "subgroups",
+      "shape": [
+        65
+      ],
+      "dtype": "<U13",
+      "sha256": "fdf1f2efff3c33d9f6bd409c78009f6e904cbd40db76a1d391237aec17eced85",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "genes",
+      "shape": [
+        5020
+      ],
+      "dtype": "<U15",
+      "sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "prediction",
+      "shape": [
+        65,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "factorized_prediction",
+      "shape": [
+        65,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "baseline_prediction",
+      "shape": [
+        65,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        65,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "control",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "control_variance",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed1",
+      "array": "test_cell_counts",
+      "shape": [
+        65
+      ],
+      "dtype": "int64",
+      "sha256": "d68c2eeebe7a7d8432e59c64620d3855eab3e4d7475bb013e83f19fcdcecedb9",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "conditions",
+      "shape": [
+        55
+      ],
+      "dtype": "<U13",
+      "sha256": "e0b5bcf83fd9d16390350138d8116b672e69f179526dc44ae9ee6ee8cabb0d2b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "subgroups",
+      "shape": [
+        55
+      ],
+      "dtype": "<U13",
+      "sha256": "2817930e28a2fab9f10e8a8c7a3ac109bdd5182e7dee679ed7221c8b294355ee",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "genes",
+      "shape": [
+        5020
+      ],
+      "dtype": "<U15",
+      "sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "prediction",
+      "shape": [
+        55,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "factorized_prediction",
+      "shape": [
+        55,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "baseline_prediction",
+      "shape": [
+        55,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        55,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "control",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "control_variance",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed2",
+      "array": "test_cell_counts",
+      "shape": [
+        55
+      ],
+      "dtype": "int64",
+      "sha256": "7f8bd8b8d66bdf35a83a59c94394ca8f8ec9f70f62cacde656d002dc7e2a0a62",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "dataset",
+      "shape": [],
+      "dtype": "<U7",
+      "sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "seed",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "conditions",
+      "shape": [
+        67
+      ],
+      "dtype": "<U14",
+      "sha256": "9cb30747bf49db113b2bd3ef5af23b682bb0f72d2767de18dee5b35129bbbd53",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "subgroups",
+      "shape": [
+        67
+      ],
+      "dtype": "<U13",
+      "sha256": "009b84dcdc26054d93044cf24420fd109062ba622f5cd6b69b0dfdd0854f68b1",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "genes",
+      "shape": [
+        5020
+      ],
+      "dtype": "<U15",
+      "sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "prediction",
+      "shape": [
+        67,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "factorized_prediction",
+      "shape": [
+        67,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "baseline_prediction",
+      "shape": [
+        67,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "baseline_factorized_prediction",
+      "shape": [
+        67,
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "control",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "control_variance",
+      "shape": [
+        5020
+      ],
+      "dtype": "float32",
+      "sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "control_count",
+      "shape": [],
+      "dtype": "int64",
+      "sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": "seed3",
+      "array": "test_cell_counts",
+      "shape": [
+        67
+      ],
+      "dtype": "int64",
+      "sha256": "d77daf70df7ee4fa96eb20a010ade7d09c10b50a69975bf4f97797e6bfe7b5f2",
+      "canonical_source": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "exact_equal": true
+    }
+  ],
+  "count": 156,
+  "scope": "Exact array identity checked against v24 canonical E19 predictions during compaction; this digest receipt is not a raw-array re-execution."
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "path": "core/experiments/shen/measurement/canonical_counts.csv",
+    "packed": "assets/packed/a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee.gz",
+    "bytes": 63697499,
+    "sha256": "a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee",
+    "packed_bytes": 4269506,
+    "packed_sha256": "563e82f94a97e50c2eafbd0afe3f82d746ee5dcb17e68b036f6777d3ac024a68"
+  }
+]

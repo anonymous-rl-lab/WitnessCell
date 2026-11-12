@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "mode": "statistics",
+  "new_scientific_experiment": false,
+  "source_inputs_read_only": true,
+  "max_seconds": 60.0,
+  "steps": {
+    "seen_statistics": {
+      "status": "PASS",
+      "comparison_rule": "all statistical fields; exact text/counts and finite floats within atol/rtol",
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-12,
+      "numeric_values_compared": 10096,
+      "maximum_absolute_numeric_difference": 0.0,
+      "excluded_top_level_fields": [
+        "completed_utc",
+        "elapsed_seconds",
+        "freeze_sha256"
+      ],
+      "results_groups_compared": 480,
+      "effect_quartile_control_groups_compared": 2,
+      "confidence_intervals_compared": 962,
+      "reproduction": "delivered seen analysis, unchanged protocol and risk methods",
+      "reference_results_sha256": "ce309c44e0d6768fb7911bc67e52af0a5e9c28a431b9f9683709ddeaee2c6659",
+      "reproduced_results_sha256": "32c7d0c4d424acb2a8b76c65f0a2d87679d05efb843b72dd29a845111ab1ec0e",
+      "frozen_script_sha256": "c734b294eb3ffc3fe62a05bbcf8ba15ee23d4c6484af615c5cf0068d6dfb34c4",
+      "frozen_plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+      "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "elapsed_seconds": 3.578966709002998,
+      "temporary_source_removed": true,
+      "output_directory": "/tmp/witnesscell_v20_supplement_stats_only/seen_reproduction",
+      "reproduced_results": "/tmp/witnesscell_v20_supplement_stats_only/seen_reproduction/seen/evaluation/results.json"
+    },
+    "seen_frozen_artifacts": {
+      "status": "PASS",
+      "risk_scores_decisions_models_and_losses": [
+        {
+          "path": "results/Norman_seed1/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_scored_queries.csv",
+          "byte_exact": true
+        }
+      ],
+      "bootstrap_arrays": {
+        "path": "seen/evaluation/bootstrap_ratios.npz",
+        "status": "PASS",
+        "npy_members_bit_exact": 482,
+        "npz_archive_byte_exact": true
+      }
+    },
+    "witness": {
+      "status": "PASS",
+      "scope": "statistics",
+      "new_scientific_experiment": false,
+      "original_inputs_modified": false,
+      "statistics_replay": {
+        "maximum_absolute_numeric_difference": 0.0,
+        "numeric_values_compared": 173,
+        "status": "PASS",
+        "all_reported_summary_fields_compared": true,
+        "bootstrap_replicates": 5000,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 1e-12,
+        "bootstrap_arrays": {
+          "path": "wessels_witness/statistics/bootstrap_draws.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 8,
+          "npz_archive_byte_exact": true
+        }
+      },
+      "elapsed_seconds": 0.2541714540020621
+    }
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 4.044501198000944
+}

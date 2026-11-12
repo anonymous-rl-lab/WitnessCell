@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-08T13:24:07.299862+00:00",
+  "status": "Post-score robustness checks, no model changes or primary-result replacement",
+  "filters": [
+    "remove_prior_scored_pairs_from_calibration_and_query",
+    "remove_missing_knowledge_endpoints_from_calibration_and_query"
+  ],
+  "prior_scored_pairs": 91,
+  "missing_genes": [
+    "ADRBK1"
+  ],
+  "fixed_seeds": true,
+  "fixed_alpha_rule": true,
+  "base_model_fits": 0
+}

@@ -1,0 +1,14 @@
+claim,manuscript_location,source,role
+Complete response method,Fig.1; Methods; S1/S29,evidence; software; reproduction/grn_repo_v27.zip,Principal method; input-based implementation choice
+Target identification under joint interventions,Fig.2; SI Note 2,evidence/source_data/publication; reproduction/grn_repo_v27.zip,Mechanism-class theory and controlled system
+Released-core prediction competition,Fig.3; S5-S9/S25-S26/S31-S32,evidence/source_data/formal_bridge,Frozen full and double-only benchmark; heterogeneity retained
+K562 support and Jurkat functional increment,Fig.4a-d; S14-S15/S23/S35-S36,figure_source_data/Fig4_growth_gains.csv; reproduction/grn_repo_v27.zip,Functional learning; fixed procedure refitted in Jurkat
+RNA partner increment and shrinkage,Fig.5; S10-S13/S27,evidence/source_data/publication; reproduction/grn_repo_v27.zip,Original eleven-rectangle comparison and concentration
+Component-specific control,Fig.1e/4e-f; S37-S43,partner_control/METHOD_DERIVATION.md; partner_control/results,Exact endpoint preservation; retrospective external utility
+Risk and decision applications,Supplementary Fig.S1; S16-S20/S28/S33,evidence/source_data/gse220974,Separate application objectives and identity qualifications
+Independent-source and acquisition outcomes,S21-S22/S36,reproduction/grn_repo_v27.zip,Positive and adverse outcomes retained
+Historical gain diagnostics,S42; SI Note20,reproduction/WitnessCell_Model_Matched_Gain_and_Calibration_20261108.zip,"Retrospective diagnostic coverage, not universal gain prediction"
+Han target calibration,Fig.4g-h; Supplementary Fig.S5; S44-S48,revision/han_calibration/POOLED_SCORES.csv,"Six frozen functions, two related readouts, target scalar refit"
+Original Han primary and extension,S49,revision/han_calibration/PROTOCOL.json; revision/han_calibration/PRIMARY_COMMON_RANK1.csv,Original primary identity and all signs preserved
+SF12/V4 complete definition,Methods; SI Note22; S50-S52,reproduction/WitnessCell_Shen_Jurkat_Partner_Repair_20261108.zip,"Recovered source fitting, selected parameters byte-matched"
+Numerical reproducibility,Computational reproducibility; SI21.6,revision/replay_v36; reproduction/NUMERICAL_REPLAY.md,Frozen inference and scalar replay; not new biological evidence

@@ -1,0 +1,10 @@
+{
+  "paper_version": "v41",
+  "numerical_analysis_version": "v40",
+  "base_archive": "grn_repo_v30_paper_v39.zip",
+  "model_refits_this_revision": false,
+  "previous_companion_superseded": "WitnessCell_v40_Revision_Supplement.zip",
+  "scientific_inputs_predictions_and_csv_unchanged": true,
+  "language_revision": "R1",
+  "language_scope": "Paragraph and sentence structure, terminology, repeated qualifications and editorial traces; no change to scientific results, formulae, tables or figure images."
+}

@@ -1,0 +1,7 @@
+{
+  "projection_lstsq_equivalence": true,
+  "symmetric_tensor_native_kernel_equivalence": true,
+  "next2_train_query_projection_equivalence": true,
+  "next2_scalar_solver_reused": true,
+  "projected_rank1_positive_control_mse": 1.0791622875050115e-20
+}

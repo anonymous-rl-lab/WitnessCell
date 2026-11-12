@@ -1,0 +1,23 @@
+[
+  {
+    "fold": 0,
+    "query_invariance_max_abs": 9.43689570931383e-16,
+    "poison_prediction_max_abs": 0.0,
+    "poison_all_choices_identical": true,
+    "PASS": true
+  },
+  {
+    "fold": 1,
+    "query_invariance_max_abs": 1.587618925213974e-14,
+    "poison_prediction_max_abs": 0.0,
+    "poison_all_choices_identical": true,
+    "PASS": true
+  },
+  {
+    "fold": 2,
+    "query_invariance_max_abs": 9.853229343548264e-15,
+    "poison_prediction_max_abs": 0.0,
+    "poison_all_choices_identical": true,
+    "PASS": true
+  }
+]

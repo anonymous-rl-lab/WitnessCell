@@ -1,0 +1,9 @@
+Readout,Baseline,Learner,Zero selected,Partner α range,Complete γ range,Final matrix rank
+Reconstructed,Native,Rank one,0/15,0.478552–0.696088,0.886071–0.996803,At most 1
+Reconstructed,Native,Spectral,0/15,0.991435–1.000000,1.000000–1.000000,13–19
+Reconstructed,Saturation,Rank one,2/15,0.000000–1.000000,0.000000–1.000000,At most 1
+Reconstructed,Saturation,Spectral,0/15,0.705313–0.986343,0.736999–1.000000,29–36
+Published,Native,Rank one,0/15,0.417605–0.877838,0.927206–1.000000,At most 1
+Published,Native,Spectral,0/15,1.000000–1.000000,1.000000–1.000000,12–16
+Published,Saturation,Rank one,15/15,0.000000–0.000000,0.000000–0.000000,At most 1
+Published,Saturation,Spectral,0/15,0.822009–1.000000,0.862929–1.000000,20–29

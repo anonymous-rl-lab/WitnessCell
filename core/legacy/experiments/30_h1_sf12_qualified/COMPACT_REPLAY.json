@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "coefficient_max_abs": 1.7763568394002505e-15,
+  "score_max_abs": 5.684341886080802e-14,
+  "quadratic_full_partner_max_abs": 4.263256414560601e-14,
+  "scope": "All partner scores directly from saved vectors; full scores from per-edge losses and case_R quadratic statistics. Not raw-cell/full-feature reconstruction."
+}

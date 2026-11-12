@@ -1,0 +1,26 @@
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.3, "nu": 0.1, "seconds": [0.020091432000072018, 0.052204047000032006], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.1, "nu": 0.1, "seconds": [0.01780225400011659, 0.07952614700002414], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.03, "nu": 0.1, "seconds": [0.021924234000152865, 0.06012897100004011], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.01, "nu": 0.1, "seconds": [0.03037353600007009, 0.06011737699986952], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.3, "nu": 1.0, "seconds": [0.025299162000010256, 0.024621394999940094], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.1, "nu": 1.0, "seconds": [0.02054913300003136, 0.021863089000135005], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.03, "nu": 1.0, "seconds": [0.02150812699983362, 0.030560631999833276], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 0, "fraction": 0.01, "nu": 1.0, "seconds": [0.02182891099982953, 0.024904762000005576], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.3, "nu": 0.1, "seconds": [0.019377873999928852, 0.04047390200003065], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.1, "nu": 0.1, "seconds": [0.013817087000006723, 0.0583099929999662], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.03, "nu": 0.1, "seconds": [0.020730549000063547, 0.064917024000124], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.01, "nu": 0.1, "seconds": [0.021167942000147377, 0.057823771000130364], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.3, "nu": 1.0, "seconds": [0.015595828000186884, 0.02337412400015637], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.1, "nu": 1.0, "seconds": [0.015351678000115498, 0.021548927000139884], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.03, "nu": 1.0, "seconds": [0.02188680199992632, 0.0318314769999688], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 1, "fraction": 0.01, "nu": 1.0, "seconds": [0.023327147999907538, 0.022933287000114433], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.3, "nu": 0.1, "seconds": [0.021601561999887053, 0.04135342800009312], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.1, "nu": 0.1, "seconds": [0.018394171999943865, 0.054485840000097596], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.03, "nu": 0.1, "seconds": [0.02167892300008134, 0.07026878700003181], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.01, "nu": 0.1, "seconds": [0.02578495800003111, 0.06403320499998699], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.3, "nu": 1.0, "seconds": [0.01416650800001662, 0.022820616999979393], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.1, "nu": 1.0, "seconds": [0.02044978600019931, 0.02515101499989214], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.03, "nu": 1.0, "seconds": [0.021263758000031885, 0.024965808999922956], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "inner", "fold": 2, "fraction": 0.01, "nu": 1.0, "seconds": [0.019383801000003587, 0.02751724099994135], "converged": [true, true], "objective_order_ok": true}
+{"budget": "high", "phase": "refit_complete_no_outer_scoring", "selection": {"rank1": {"selected": "rank1_t0.3_n0.1", "best_regularized": "rank1_t0.3_n0.1", "inner_gain_each": [0.027678965512445086, 0.048515258796931526], "inner_gain_pooled": 0.03861386937104361, "regularized_result_role": "chosen predictor", "final_converged": true}, "spectral": {"selected": "spectral_t0.3_n0.1", "best_regularized": "spectral_t0.3_n0.1", "inner_gain_each": [0.032231302052280864, 0.040456797879476425], "inner_gain_pooled": 0.03654804902985642, "regularized_result_role": "chosen predictor", "final_converged": true}}}
+{"status": "PREDICTIONS_FROZEN_NOT_SCORED", "stage": "smoke", "contexts": ["HeLa"]}

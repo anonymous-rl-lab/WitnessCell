@@ -1,0 +1,24 @@
+{
+  "source_paper_zip_sha256": "99e029152f170ac3fa83414ea3b5db950f2415dacc554b0eda5a929624e19fb1",
+  "read_only_audit_inputs": {
+    "main.md": {
+      "bytes": 93385,
+      "sha256": "72639275324ae7d74324ac3bc873789775215a47c801a0b5178715aa262ad250"
+    },
+    "si.md": {
+      "bytes": 142582,
+      "sha256": "180b8c5f7cb0cfb6890e912322a7b3e87dd16891fae218891cf57b5542273f85"
+    },
+    "ED.md": {
+      "bytes": 14333,
+      "sha256": "260c674a096f80d58ef6efd91798ebff7c3410ad9fadaa9d18189fd22126f91a"
+    },
+    "EXPERIMENT_PRIORITY.csv": {
+      "bytes": 2296,
+      "sha256": "f9610d0316e23302202b556f309fcd95581cd0747773d1985066f554376a1b3b"
+    }
+  },
+  "coverage_rows": 36,
+  "figures": 17,
+  "supplementary_tables": 19
+}

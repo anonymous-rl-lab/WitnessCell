@@ -1,0 +1,26 @@
+{
+  "release": "25.0.0",
+  "paper": "22",
+  "status": "PASS",
+  "source_archive": {
+    "file": "grn_repo_v24.zip",
+    "bytes": 495069754,
+    "sha256": "dae2d0f616bdbd025a0452c63e317848d504cf5832c2fd12f0e471f0c9895330"
+  },
+  "protected_experiments": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "protected_files_byte_identical": 461,
+  "reproduction_tasks_passed": 12,
+  "reproduction_tasks_total": 12,
+  "archive_limit_exclusive_bytes": 100000000,
+  "precise_scope": "Existing paper metrics, intervals, models and figures at each stated replay level. No change to predictions, split, selection or parameter rules. Raw-cell neural retraining assets are retained only in v24, not this compact package. See docs/REPRODUCTION_SCOPE.md.",
+  "validation": "qa/INTEGRATED_REPRODUCTION.json"
+}

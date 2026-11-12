@@ -1,0 +1,75 @@
+{
+  "snapshot": "v14_source_corrections_20261017",
+  "scope": "SOURCE_AND_TERMINOLOGY_CORRECTIONS_ONLY; historical results retained; register new evidence before substantive integration.",
+  "main": "WitnessCell_NM_Manuscript_Final_v14.md",
+  "si": "si.v14.md",
+  "ed": "extended_data_legends.md",
+  "historical_numeric_contract": "historical_v14/V14_NUMERIC_CONTRACT.json",
+  "historical_numeric_contract_sha256": "f92ff4dd2ff5c347b489c01f656bcd2b5f17e6563d57c8c4622b9d25462d4bc2",
+  "editorial_upper_bounds": {
+    "abstract_words": 250,
+    "introduction_words": 900,
+    "nonmethods_words": 6500,
+    "methods_words": 6500,
+    "figure_legends_words": 2200,
+    "total_main_words": 14000
+  },
+  "upper_bound_note": "Local editorial ceilings for this revision workflow, not a statement of verified journal limits. No exact section word counts or exact abstract sentences are required.",
+  "abstract_semantic_roles": {
+    "predictor_identity": "WitnessCell",
+    "biological_domain": "perturb|genetic|cell",
+    "prediction_task": "predict|inference",
+    "experimental_support": "support|intervention design|experimental evidence",
+    "reported_evidence": "error|MSE|rank|coverage"
+  },
+  "release": {
+    "filename": "grn_repo_v19.zip",
+    "sha256": "abdb6f34a6ddb248ca01705310171ea6efa36a328d507b237059c87d1db92c93",
+    "public_repository_url": null,
+    "public_archive_doi": null
+  },
+  "required_publication_dois": [
+    "10.1126/science.abj4008",
+    "10.1038/s43588-025-00912-8",
+    "10.1038/s41587-026-03307-w",
+    "10.1038/s41592-022-01705-x"
+  ],
+  "unresolved": [
+    {
+      "item": "Current ED graphical assets",
+      "status": "UNRESOLVED",
+      "detail": "Six current SI captions are synchronized. The bundled manuscript_snapshot ED is a different IC-Perturb/IC-Yield manuscript; figure-to-caption graphical content has not been verified."
+    },
+    {
+      "item": "Cell-level overlap between Wessels and CaRPool processed panels",
+      "status": "NOT_ESTABLISHED",
+      "detail": "Same original study/GSE213957 is established; complete barcode identity, exact split overlap and leakage are not inferred."
+    },
+    {
+      "item": "Public repository/archival identifiers",
+      "status": "NOT_PROVIDED",
+      "detail": "The existing v19 reviewer ZIP and full checksum are used; no public DOI or URL is invented."
+    },
+    {
+      "item": "Step1 and subsequent seen/density integration",
+      "status": "PENDING_SCIENTIFIC_INTEGRATION",
+      "detail": "Completed Step1 and follow-up results are not yet integrated; historical abstract and full manuscript need separate scientific revision and target-length editing."
+    }
+  ],
+  "editorial_status_metadata": {
+    "historical_benchmark_operations": 654,
+    "historical_combination_subset": 540,
+    "historical_analytic_policy_queries": 213,
+    "historical_weighted_complete_case_queries": 207,
+    "new_final_model_equal_batch_units_pending_integration": 389,
+    "historical_abstract_replacement_pending": true,
+    "target_submission_length_completed": false
+  },
+  "baseline_conventions": {
+    "historical_combination_missing_endpoint": "equal-condition mean of training-single effects",
+    "historical_unseen_single_query": "cell-count-weighted mean across training-single cells",
+    "step1_combination_missing_endpoint": "equal-condition mean of training-single effects",
+    "cross_panel_vector_identity_claimed": false,
+    "new_baselines_executed_for_this_correction": false
+  }
+}

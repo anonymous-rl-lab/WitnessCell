@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "experiment": "GSE220974 detected49 final five-model comparison",
+  "training_restarted": false,
+  "frozen_jobs": 30,
+  "increment_bytes": 9188806,
+  "increment_strictly_under_10000000_bytes": true,
+  "increment_sha256": "71630a58ab8be3d7d0abba46fc85403ea9a02d0b81fd6dd4384f300e44e44e3c",
+  "original_v26_files_preserved": 1053,
+  "original_files_same_path_unchanged": 1047,
+  "protected_experiment_files": 461,
+  "default_main_table_byte_identical": true,
+  "all_420_choice_rows_byte_identical": true,
+  "arrays_lossless_sha256_verified": 26,
+  "paired_interval_max_absolute_difference": 1.0408340855860843e-17,
+  "full_15_model_replay_max_absolute_difference": 2.7755575615628914e-17,
+  "reference_prediction_archive_verified": true,
+  "isolated_corruption_rejected": true,
+  "new_task_and_legacy_sf12_dispatcher": "PASS",
+  "old_tasks_all_rerun": false,
+  "scope": "Compact default replays five-model residual metrics and all15 utility choices. Full15 raw prediction replay additionally verified using identified external full archive. Thirty trained weights remain in their separately SHA-verified durable archives.",
+  "evidence": [
+    "V27_INTEGRITY_INITIAL.json",
+    "V27_MAIN_DISPATCHER.json",
+    "V27_MAIN_REPLAY.json",
+    "V27_RELOCATED_REPLAY.json",
+    "V27_FULL_PREDICTION_REPLAY.json",
+    "V27_LEGACY_SF12_SMOKE.json",
+    "V27_CORRUPTION_REJECTION.json"
+  ]
+}

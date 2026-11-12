@@ -1,0 +1,10 @@
+{
+  "model": "scouter",
+  "seed": 1,
+  "fold": 2,
+  "status": "PASS",
+  "maximum_absolute_difference": 0.0,
+  "rms_difference": 0.0,
+  "native_source": true,
+  "weight_sha256": "df725a07e2e7675ec3b8713809888beaf451c7378af7fc775b7faa374087cb74"
+}

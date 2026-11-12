@@ -1,0 +1,17 @@
+{
+  "total": 41,
+  "new": 18,
+  "retained": 23,
+  "all_references_cited_in_main": true,
+  "first_appearance_order": true,
+  "seven_required_papers": {
+    "GEARS": 8,
+    "Ahlmann_Eltze_2025": 10,
+    "Systema": 11,
+    "Miller_2026": 12,
+    "Geneformer": 25,
+    "Replogle_Cell_2022": 37,
+    "Schmidt_Science_2022": 2
+  },
+  "scope": "All 41 v28 references retained and renumbered by first appearance; no new literature or bibliographic claim in v29."
+}

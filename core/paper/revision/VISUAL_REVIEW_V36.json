@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "scope": "Manual visual review of page contact sheets for all 24 main/Methods pages and all 57 SI pages; full-size review of main pages 1 and 13, SI pages 49 and 52\u201354, and revised figures 1 and 4. Page-bound and missing-glyph checks are separate in PDF_LAYOUT_AUDIT.json.",
+  "observations": [
+    "No cropped text or table overflow observed.",
+    "New SF12 feature table, V4 architecture and original-primary status table are readable.",
+    "Five-figure order and K562/Jurkat visual priority are retained.",
+    "Han source labels distinguish HeLa/293T source functions from Han K562 target."
+  ],
+  "files": [
+    {
+      "path": "WitnessCell_v36_Main_Methods.pdf",
+      "sha256": "619dc3ba9c3b6ef0bf44021726863c786d58e4101b5343aeae11c550e005942a"
+    },
+    {
+      "path": "WitnessCell_v36_Supplementary_Information.pdf",
+      "sha256": "16cb02c8cbe0043b0150ca2d134b6246a34675af5125e6250ff6e923c99fb3d2"
+    },
+    {
+      "path": "figures/Fig1_Method.pdf",
+      "sha256": "7e94180302c2d66d66ef5393027a259a41acc2dd31d88b233006d3b8ab86273c"
+    },
+    {
+      "path": "figures/Fig4_Functional_Growth.pdf",
+      "sha256": "4756edefa6e00a23e2a55f2e6d3b72dfe50d83d2035744af03852ee092ec36f7"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-07T23:38:17.436650+00:00",
+  "passed": true,
+  "objective_probes": 24,
+  "all_final_models_converged": true,
+  "proceed_rule": "Technical validity only; no improvement threshold and no model/parameter changes after smoke",
+  "protocol_sha256": "19b553f46431c68c4c57ea3580a71ce92ec7c3a57345355ac9bd78211218fb56"
+}

@@ -1,0 +1,39 @@
+{
+  "task": {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native"
+  },
+  "started_utc": "2026-11-09T04:51:02.830054+00:00",
+  "completed_utc": "2026-11-09T04:51:14.698616+00:00",
+  "seconds": 11.868577929000821,
+  "query_outcomes_opened_by_worker": false,
+  "training_sha256": "ab542b2a1a565dc16b693b23d787a39169e870416eb19a88e725ba59570980df",
+  "protocol_sha256": "7d7ec18012c4e71e84831c0b24a1689a1792576ef7d9da63da7202214d3379a5",
+  "source_hashes": {
+    "code/baselines.py": "ac58de64d64db92731df7081449f5969dbf45343de96a0ee6cde0037d4fa726f",
+    "code/common.py": "62ae5ca3285e41e8986715715cfbddcbd2a05ecec6060d2a4ab8f69677971ee9",
+    "code/engineering_checks.py": "8a579ca2f6b7cfb0d5c86f8aed0e7e3f8b010a4027e708d1bac53426ea5e7d41",
+    "code/fit_task.py": "79386f74bf072ae466c9e275699b3cc7de0496e69adce84fda901e04a56322ca",
+    "code/launch.py": "4ecf910717f49fa733bea96d10777bfcbc9448ef25889c9cc3c98fda09474b42",
+    "code/prepare.py": "e365e626f9bd151c84ca2da07ad45933a99498454dbf6ac88fd247ef588df8be",
+    "code/score.py": "a454f091fc30a46172395e0600b21f3c6a208b60ec75e2b892a99b6ed208238c",
+    "code/vendor/frozen_models.py": "e40c4ea80ba3c8bb6f2d42110fcaff8bf23148ebb174c1764c23476e086846c9",
+    "code/vendor/run_smoke.py": "6789dd1bb21a3032559a3bbbfde7121dfbc1dc1b076c67cdee3e09ce5f486500",
+    "code/vendor/spectral_models.py": "b0a8cd477964d664c4e5dbb398a284c12b80fafa00b1e9a5b9d7e7511a16c027"
+  },
+  "files": {
+    "predictions.npz": "e2822793ba8e39dfb1729355b5eb223d58c50742ff72ad41eb5638f73f89f00f",
+    "SELECTION.json": "ea6e0bbcd32a5c894d28b2ebfac98385786dbc62091efc9c46a9f7b3bd8fb1f2",
+    "baseline.json": "adb5c586c6cba25b801346fdb98d797dbacd3ef7bb4be36901e6210832ea1cab",
+    "ALL_INNER_PREDICTIONS.npz": "b7858d1b5b379b116cc1ba3729934d81bb5d45fe5bb749b00502c09e520d03bc",
+    "INNER_SELECTION_SCORES.json": "1f1be19bfb01a0684032f080d117ef3d9e778a94c7690467fef820c9bafd6872",
+    "spectral_final.json": "42ad2a43a860502d6a6b349d7a81b909e0edbcbd0b3de28153ce633b1c1d655e",
+    "rank1_final.npz": "2ec8060ac497901a580f666db695030be9a52c3fdff182e76768f7b19c7be36d",
+    "rank1_final.json": "6a73e96097b49a9846626b57ee28b6f2fc936be1d08871e895c0fab5bf968b46",
+    "spectral_final.npz": "71f0aacd70eefadf37e4d8099010e548faa077ac559620b858a503cc220fa3d8",
+    "rank1_selected_inner.npz": "8d93df955e8466f593131da7168a76ff2e70720efc9095025148699a35ae4442",
+    "spectral_selected_inner.npz": "836b60022d928844e697b5796bf74051122e3f94801554a6d7c7088b1b3e3d63"
+  }
+}

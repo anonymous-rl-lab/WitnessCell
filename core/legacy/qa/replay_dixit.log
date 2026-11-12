@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scientific_decision": "PRIMARY_RNA_PARTNER_NOT_CONFIRMED",
+  "source": "Dixit 2016 GSE90063/GSM2396860",
+  "pairs": 45,
+  "non_target_readouts": 23519,
+  "methods_checked": 8,
+  "folds_checked": 3,
+  "max_fold_sum_relative_difference": 2.2165120559854507e-16,
+  "complete_core_vs_additive_full_gain_percent": 23.432832171294272,
+  "selected_vs_core_full_gain_percent": 0.26980124059068356,
+  "selected_vs_core_partner_gain_percent": -0.03260130792246407,
+  "reproduction_level": "Per-pair full-MSE and fold-SSE arithmetic audit only.",
+  "limitations": "Original full-RNA prediction arrays, projection refit and full source runner are not included here. G2M REPRODUCE.py is a distinct, later development fit and cannot replace this frozen primary outcome."
+}
+{"start": "postfit_reference"}
+{"stage": "postfit_reference", "seconds": 3.525452578000113}
+{"start": "reference_kernel"}
+{"stage": "reference_kernel", "seconds": 1.6689367569997557}
+{"start": "algebra"}
+{"stage": "algebra", "seconds": 0.11428708400126197}
+{"start": "independent_real_audit"}
+{"stage": "independent_real_audit", "seconds": 0.7666481209998892}
+{"start": "export_single_query"}
+{"stage": "export_single_query", "seconds": 0.36607791099959286}
+{"status": "PASS", "utc": "2026-10-26T04:08:50.436269+00:00", "seconds": 6.529563061998488, "stages": [{"stage": "postfit_reference", "seconds": 3.525452578000113}, {"stage": "reference_kernel", "seconds": 1.6689367569997557}, {"stage": "algebra", "seconds": 0.11428708400126197}, {"stage": "independent_real_audit", "seconds": 0.7666481209998892}, {"stage": "export_single_query", "seconds": 0.36607791099959286}], "exact_named_arrays": 237, "tables": {"model/RESULTS.csv": {"rows": 22, "max_abs_difference": 0.0}, "model/FOLD_RESULTS.csv": {"rows": 66, "max_abs_difference": 0.0}, "kernel/RESULTS.csv": {"rows": 12, "max_abs_difference": 0.0}, "kernel/FOLD_RESULTS.csv": {"rows": 36, "max_abs_difference": 0.0}, "audit/INDEPENDENT_RESULTS.csv": {"rows": 5, "max_abs_difference": 0.0}, "audit/INDEPENDENT_FOLD_RESULTS.csv": {"rows": 15, "max_abs_difference": 0.0}, "audit/REAL_IDENTITY_CHECKS.csv": {"rows": 9, "max_abs_difference": 0.0}, "audit/CONDITIONAL_ENDPOINT_DELETION.csv": {"rows": 10, "max_abs_difference": 0.0}}, "network_required": false, "historical_workspace_reads_blocked": true, "large_fit_states_regenerated_from_exact_condition_means": true}
+{
+  "status": "PASS",
+  "primary_rna": {
+    "status": "PASS",
+    "scientific_decision": "PRIMARY_RNA_PARTNER_NOT_CONFIRMED",
+    "source": "Dixit 2016 GSE90063/GSM2396860",
+    "pairs": 45,
+    "non_target_readouts": 23519,
+    "methods_checked": 8,
+    "folds_checked": 3,
+    "max_fold_sum_relative_difference": 2.2165120559854507e-16,
+    "complete_core_vs_additive_full_gain_percent": 23.432832171294272,
+    "selected_vs_core_full_gain_percent": 0.26980124059068356,
+    "selected_vs_core_partner_gain_percent": -0.03260130792246407,
+    "reproduction_level": "Per-pair full-MSE and fold-SSE arithmetic audit only.",
+    "limitations": "Original full-RNA prediction arrays, projection refit and full source runner are not included here. G2M REPRODUCE.py is a distinct, later development fit and cannot replace this frozen primary outcome."
+  },
+  "g2m_development_named_arrays_exact": 237,
+  "g2m_is_independent_confirmation": false,
+  "primary_rna_predictions_refitted": false,
+  "g2m_development_refitted_from_condition_means": true
+}

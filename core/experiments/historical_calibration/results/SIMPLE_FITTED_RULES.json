@@ -1,0 +1,23 @@
+{
+  "all": {
+    "intercept": 0.4901551212116191,
+    "slope": 0.4071213846761648,
+    "unit": "percentage points",
+    "rule": "Known zero corrections forecast zero; otherwise intercept + slope * inner partner gain",
+    "n": 788
+  },
+  "no_terminal": {
+    "intercept": 0.7119528239412699,
+    "slope": 0.9533037459123936,
+    "unit": "percentage points",
+    "rule": "Known zero corrections forecast zero; otherwise intercept + slope * inner partner gain",
+    "n": 783
+  },
+  "growth_rank1": {
+    "intercept": 0.8523484370355785,
+    "slope": 1.2109784609005088,
+    "unit": "percentage points",
+    "rule": "Known zero corrections forecast zero; otherwise intercept + slope * inner partner gain",
+    "n": 55
+  }
+}

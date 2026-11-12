@@ -1,0 +1,44 @@
+{
+  "release": "26.0.0",
+  "paper": "22",
+  "status": "PASS",
+  "source_archive": {
+    "file": "grn_repo_v25.zip",
+    "bytes": 92355743,
+    "sha256": "95efc581ddaddfa120f3edc56dd2dd34cae004e30caaeb6516497e1d67d8f134"
+  },
+  "legacy_evidence_preservation": "All original scientific/data/result/protocol paths are byte-identical. Eight release-navigation files are updated, with their complete original bytes retained under provenance/base_release_v25.",
+  "protected_experiments": [
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "protected_files_byte_identical": 461,
+  "legacy_reproduction": {
+    "tasks": 12,
+    "original_v25_status": "PASS",
+    "rerun_in_v26_packaging": false,
+    "meaning": "Historical validation belongs to v25; this packaging run does not claim to rerun the old twelve experiments.",
+    "dispatcher_smoke_rerun": "sf12: PASS; the other eleven legacy tasks were not rerun"
+  },
+  "new_experiment": {
+    "directory": "experiments/33_recent_bridge_and_acquisition_20261031",
+    "rounds": 9,
+    "task": "recent_bridge",
+    "timeout_seconds": 900,
+    "status": "PASS",
+    "increment_archive_limit_exclusive_bytes": 10000000,
+    "original_file_records_sha256_exact": 6838,
+    "replayed_rounds": 9,
+    "precise_scope": "Fresh offline restoration + original cache regeneration + original/independent frozen-result replay; not nine full training pipelines from scratch"
+  },
+  "archive_limit_exclusive_bytes": null,
+  "size_scope": "The <10MB limit applies to the new nine-round standalone increment. The integrated code package includes the existing v25 content and does not claim a 10MB or 100MB total limit.",
+  "precise_scope": "Legacy reproduction levels remain as documented in v25. Added experiment33 declares source-byte restoration, regenerated model caches and actual score/refit replay separately; no changed scientific decisions, splits, predictions or negative results.",
+  "validation": "qa/V26_FINAL_INTEGRATION.json"
+}

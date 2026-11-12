@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "comparison": "Direct original ZIP bytes against restored file bytes; independent of compact index",
+  "original_archives": 9,
+  "original_member_records_byte_identical": 6838,
+  "unique_paths": 6838,
+  "archives": [
+    {
+      "source": "WitnessCell_Bridge_Retrospective_20261031.zip",
+      "sha256": "ba09770ca8aa9de54923db624d29452728b491f5266f99b33777cf47a7387781",
+      "original_member_records_byte_identical": 32
+    },
+    {
+      "source": "WitnessCell_Formal_Hidden_Mechanism_Bridge_20261031.zip",
+      "sha256": "3a9e8ba736160db5892936c91dd30c3c8dd3f56f6aa42a13761bd130f325963c",
+      "original_member_records_byte_identical": 61
+    },
+    {
+      "source": "WitnessCell_NM_NCS_Bridge_20261031.zip",
+      "sha256": "35f1c7bcbc1634b1a97801f836eff90fc0bbcb1bcff75b51e2edaff0e7d02b77",
+      "original_member_records_byte_identical": 5021
+    },
+    {
+      "source": "WitnessCell_OneStep_Minimal_Smoke_20261031.zip",
+      "sha256": "1ba238916657fffb16a38d36b1703ba976bb77808ab730e878e9f9d51f7a3b98",
+      "original_member_records_byte_identical": 138
+    },
+    {
+      "source": "WitnessCell_Target_Aligned_Outer_20261031.zip",
+      "sha256": "81df093fa7e37a53e1bf7a492644006a91931dfb9453f0a58ff794e9a4a54140",
+      "original_member_records_byte_identical": 134
+    },
+    {
+      "source": "WitnessCell_Target_Aligned_Repair_20261031.zip",
+      "sha256": "a1bbdc2af8ffded61759016a6646d4c1de0fe121360aa1031e38f2c3b5d26ea1",
+      "original_member_records_byte_identical": 35
+    },
+    {
+      "source": "WitnessCell_Target_Aligned_Run_20261031.zip",
+      "sha256": "792997645db3f71f6f49a16cc78c363654a798a1ffc095843f40efa704b9f604",
+      "original_member_records_byte_identical": 90
+    },
+    {
+      "source": "WitnessCell_Targeted_Bridge_Calibration_20261031.zip",
+      "sha256": "a080b5cccb7a1f7344a64aa8bf62e411c6842e4976beeb8a868c8f6cf6384c14",
+      "original_member_records_byte_identical": 1237
+    },
+    {
+      "source": "WitnessCell_Training_Admission_Calibration_20261031.zip",
+      "sha256": "da1cdba8d4b74332ad297c127b6560634ba8321d46a91db676446e6b66f3efd8",
+      "original_member_records_byte_identical": 90
+    }
+  ]
+}

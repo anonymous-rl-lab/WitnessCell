@@ -1,0 +1,159 @@
+{
+  "analysis": "Post-hoc explanatory examples from saved v17 original-protocol predictions; no new training.",
+  "selection_rule": "S100A9 and LYZ were named before this analysis among v17 top-ten gain readouts. For each, show the rectangle with the largest absolute R-versus-M0 squared-error reduction. Show additionally the globally largest harmful R-versus-M0 correction across all 11 x 4,995 coordinates (LYZ rectangle5). These are deliberately contrasting illustrative extrema, not representative estimates, prespecified tests or new biological discoveries.",
+  "units": "Source-processed expression units: each condition mean minus the shared control mean; contrast is a difference of differences in the same units. No raw-count or fold-change interpretation.",
+  "shared_control_cancels_in_rectangle": true,
+  "independence": "Cell halves are within-experiment splits, not biological replicates. Overlapping rectangles/readouts not independent.",
+  "verification": {
+    "max_four_corner_vs_archived_contrast_difference": 0.0,
+    "max_recomputed_training_weight_difference": 4.3298697960381105e-15
+  },
+  "all_candidate_counts": {
+    "positive_R_vs_M0": 14819,
+    "negative_R_vs_M0": 16667,
+    "zero_R_vs_M0": 23459,
+    "positive_readouts_net": 1929,
+    "negative_readouts_net": 2122,
+    "zero_readouts_net": 944
+  },
+  "aggregate_C_MSE": {
+    "M0": 0.004235183323623444,
+    "M1": 0.0038354565651609186,
+    "R": 0.0035591535312072364,
+    "scalar": 0.003824421124072377
+  },
+  "example_records": [
+    {
+      "case": "positive_S100A9",
+      "readout": "S100A9",
+      "rectangle": 2,
+      "outer_fold": 2,
+      "ordered_pairs": [
+        "EP300+FLI1",
+        "EP300+INTS1",
+        "FLI1+GFI1",
+        "GFI1+INTS1"
+      ],
+      "signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "training_pairs": 44,
+      "training_projected_dof": 32,
+      "training_weight": 0.9224903142535421,
+      "weight_percentile_within_fold": 99.95995995995996,
+      "raw_training_half_agreement": 0.9224903142535421,
+      "training_projected_half_cosine": 0.9224958632584233,
+      "training_projected_half1_RMS": 0.37843863202828704,
+      "training_projected_half2_RMS": 0.37975352463193096,
+      "uniform_inner_selected_c": 1.0,
+      "gene_net_gain_rank": 1,
+      "case_raw_gain_rank_among_54945": 1,
+      "case_gain_percentile": 100.0,
+      "absolute_observed_contrast_percentile": 100.0,
+      "gain_R_vs_M0_squared_units": 8.749643079918279,
+      "contrast_error_reduction_R_vs_M0": 0.6863870637077483,
+      "observed_contrast": 3.033850822221913,
+      "M0_contrast": -0.5364977957552566,
+      "M1_contrast": 1.1664058874646497,
+      "R_contrast": 1.034414358121789,
+      "scalar_contrast": 1.1664058874646497
+    },
+    {
+      "case": "positive_LYZ",
+      "readout": "LYZ",
+      "rectangle": 6,
+      "outer_fold": 1,
+      "ordered_pairs": [
+        "GSE1+HDAC3",
+        "GSE1+MED24",
+        "HDAC3+SMARCD1",
+        "MED24+SMARCD1"
+      ],
+      "signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "training_pairs": 43,
+      "training_projected_dof": 31,
+      "training_weight": 0.8841109469131886,
+      "weight_percentile_within_fold": 99.91991991991992,
+      "raw_training_half_agreement": 0.8841109469131888,
+      "training_projected_half_cosine": 0.8854285662113529,
+      "training_projected_half1_RMS": 0.27724099664575264,
+      "training_projected_half2_RMS": 0.26251243775637834,
+      "uniform_inner_selected_c": 0.8386450760048236,
+      "gene_net_gain_rank": 4,
+      "case_raw_gain_rank_among_54945": 10,
+      "case_gain_percentile": 99.98361998361999,
+      "absolute_observed_contrast_percentile": 99.97997997997999,
+      "gain_R_vs_M0_squared_units": 1.1773800798188334,
+      "contrast_error_reduction_R_vs_M0": 0.782418727491559,
+      "observed_contrast": 1.092195039431046,
+      "M0_contrast": -0.13450597208173853,
+      "M1_contrast": 0.6057844533960262,
+      "R_contrast": 0.5199928969781753,
+      "scalar_contrast": 0.4863349480587048
+    },
+    {
+      "case": "failure_global_largest_harm",
+      "readout": "LYZ",
+      "rectangle": 5,
+      "outer_fold": 5,
+      "ordered_pairs": [
+        "GFI1+RING1",
+        "GFI1+SMARCD1",
+        "RCOR1+RING1",
+        "RCOR1+SMARCD1"
+      ],
+      "signs": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "training_pairs": 45,
+      "training_projected_dof": 34,
+      "training_weight": 0.8799649879338154,
+      "weight_percentile_within_fold": 99.93993993993993,
+      "raw_training_half_agreement": 0.8799649879338153,
+      "training_projected_half_cosine": 0.8814828806338502,
+      "training_projected_half1_RMS": 0.27365159241336395,
+      "training_projected_half2_RMS": 0.2580435536654595,
+      "uniform_inner_selected_c": 1.0,
+      "gene_net_gain_rank": 4,
+      "case_raw_gain_rank_among_54945": 54945,
+      "case_gain_percentile": 0.0018200018200018198,
+      "absolute_observed_contrast_percentile": 94.23241423241423,
+      "gain_R_vs_M0_squared_units": -0.17704163276101453,
+      "contrast_error_reduction_R_vs_M0": -1403.9913032801096,
+      "observed_contrast": -0.11530717095774135,
+      "M0_contrast": -0.10407779830745595,
+      "M1_contrast": 0.36149027182739213,
+      "R_contrast": 0.30560580291112566,
+      "scalar_contrast": 0.36149027182739213
+    }
+  ],
+  "sources": {
+    "signed": {
+      "path": "witnesscell_paper_v17_full/source_data/RNA_signed_rectangle_predictions.npz",
+      "sha256": "110a9455d87535412b145c8aa88efbfbe8f1b8ec4f9cf653a3820235d94b747e"
+    },
+    "rectangles": {
+      "path": "witnesscell_paper_v17_full/source_data/RNA_rectangle_definition.csv",
+      "sha256": "bd1013d78443d27d05c6c9e8f00b00056f2b87d79db9b474640899571f6790e8"
+    },
+    "predictions": {
+      "path": "confirmation_20261018/controls/CONTROL_PREDICTIONS.npz",
+      "sha256": "e618326480ffadb8c946b3aa0eaf5cd307e51686c06ec5f5f6d9ad6e6a13eeee"
+    },
+    "observations": {
+      "path": "head_to_head_20261018/data/evaluation_only.npz",
+      "sha256": "7f274258af3d5e7912917c58f9005dfdc8179ad6e57d4cee24e09b98b87ab983"
+    }
+  }
+}

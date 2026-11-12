@@ -1,0 +1,17 @@
+{
+  "total": 41,
+  "new": 18,
+  "retained": 23,
+  "all_references_cited_in_main": true,
+  "first_appearance_order": true,
+  "seven_required_papers": {
+    "GEARS": 16,
+    "Ahlmann_Eltze_2025": 22,
+    "Systema": 23,
+    "Miller_2026": 24,
+    "Geneformer": 20,
+    "Replogle_Cell_2022": 8,
+    "Schmidt_Science_2022": 10
+  },
+  "scope": "Bibliographic and claim-placement review, not an independent reproduction of the cited papers."
+}

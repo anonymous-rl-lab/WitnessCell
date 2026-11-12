@@ -1,0 +1,204 @@
+{
+  "status": "PASS",
+  "release": "25.0.0",
+  "paper": "22",
+  "tasks": [
+    {
+      "task": "core",
+      "scope": "Exact released per-operation metrics, paired ablations, rankings and historical bootstrap",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/compact/legacy_core/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/core"
+      ],
+      "log": "core.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 34.21695059599733
+    },
+    {
+      "task": "risk",
+      "scope": "Compact moment/row replay of frozen registration, risk selection, metric calibration, bootstrap and intervals",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/compact/legacy_risk/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/risk"
+      ],
+      "log": "risk.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 6.482886584002699
+    },
+    {
+      "task": "support",
+      "scope": "Unchanged experiment25 full endpoint-state, prediction-array and statistics reconstruction",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/experiments/25_support_controls_and_witness_quantity/reproduce.py",
+        "--repo",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25",
+        "--output",
+        "/tmp/witnesscell_v25_final_replay_20261026/support",
+        "--mode",
+        "all",
+        "--max-seconds",
+        "240"
+      ],
+      "log": "support.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 9.892617819998122
+    },
+    {
+      "task": "growth",
+      "scope": "Actual K562 and Jurkat model fitting, selection, prediction and scoring from original compact condition inputs",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/tools/run_growth.py",
+        "--mode",
+        "reproduce",
+        "--stage",
+        "all",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/growth",
+        "--max-seconds",
+        "240"
+      ],
+      "log": "growth.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 17.110652375002246
+    },
+    {
+      "task": "step2",
+      "scope": "Unchanged compact main RNA/structural score replay",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/tools/run_step2.py",
+        "--mode",
+        "reproduce",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/step2"
+      ],
+      "log": "step2.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.866129149999324
+    },
+    {
+      "task": "rna_shrinkage",
+      "scope": "11x4995 signed vectors; M0/M1/uniform/R comparisons",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/tools/run_rna_shrinkage.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/rna_shrinkage.json"
+      ],
+      "log": "rna_shrinkage.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.7165470729996741
+    },
+    {
+      "task": "examples",
+      "scope": "Unchanged RNA/Jurkat example tables and four figures",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/tools/run_examples.py",
+        "--mode",
+        "reproduce",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/examples"
+      ],
+      "log": "examples.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 5.12827550899965
+    },
+    {
+      "task": "calibration",
+      "scope": "168 scores,20 inner selections,80 independently reconstructed calibration operators",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/experiments/29_h1_calibration/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/calibration"
+      ],
+      "log": "calibration.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.31553595700097503
+    },
+    {
+      "task": "sf12",
+      "scope": "60 SF12 coefficients re-solved; five qualified tasks and rejected case_R reproduced",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/experiments/30_h1_sf12_qualified/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/sf12"
+      ],
+      "log": "sf12.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.2649068280006759
+    },
+    {
+      "task": "dixit",
+      "scope": "Primary RNA archived summary audit; separate post-confirmation G2M actual refit",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/experiments/31_dixit_confirmation/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/dixit"
+      ],
+      "log": "dixit.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 6.734322034000797
+    },
+    {
+      "task": "combiseq",
+      "scope": "Frozen program actual refit from compact count matrices",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/experiments/32_combiseq_confirmation/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/combiseq"
+      ],
+      "log": "combiseq.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 8.738134000999707
+    },
+    {
+      "task": "paper",
+      "scope": "7 main +10 ED figures redraw;19 supplementary table references; exact scalar checks",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/2c1de068d91a/code_cleanup_v25_20261026/grn_repo_v25/publication/run.py",
+        "--out",
+        "/tmp/witnesscell_v25_final_replay_20261026/paper"
+      ],
+      "log": "paper.log",
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 16.767801930000132
+    }
+  ],
+  "passed": 12
+}

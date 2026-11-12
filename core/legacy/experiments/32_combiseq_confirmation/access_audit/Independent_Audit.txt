@@ -1,0 +1,23 @@
+WitnessCell Combi-seq independent saved-prediction audit
+Audit status: PASS
+Scientific result: NOT_CONFIRMED
+Primary SYSTEM vs endpoint baseline: -0.023282270% full SSE gain; -0.030240085% projected SSE gain.
+Unique pairs 374; compounds 36; G2M readouts 51.
+Max table absolute discrepancy: 5.68e-14; max saved per-pair loss discrepancy: 4.26e-14; stability quantile discrepancy: 6.6e-16.
+All freeze/source/prediction hashes and recorded chronological order checked. Predictions are finite, every unordered pair occurs exactly once in outer evaluation, and no outer fitting/query overlap exists.
+Principal method identity, all decision gates, fold/run loss tables, full and projected per-pair losses, and all four multiplier ranges were independently recomputed from saved predictions and targets.
+Gain values in CSV/JSON are fractions. Multiply by 100 to obtain percentage. Thus -0.0002328227 is -0.02328227%, not -2.328% and not +0.023%.
+Source unit is a barcoded cell pool. The three run-specific targets are assessed against a predictor trained using other conditions from those same runs; this is not a leave-run-out experiment.
+Metadata checks passed for matched internal DMSO_DMSO controls, exclusion of extra ctrlReadsPerGene samples, allowed condition coverage per run and equal orientation sample counts. Metadata cannot independently establish identical numerical delivered concentrations, which the protocol discloses.
+The P stability range reweights fixed projected losses. It does not recompute a weighted projection. This is a conditional sensitivity description and not a biological confidence interval.
+
+One post-score measurement-adequacy diagnostic (does not alter status or selection):
+baseline_residual rep1 vs rep2: Pearson=0.037295; cosine=0.021805; cross-energy=7.329443; energies=82.344587/1372.160074.
+baseline_residual rep1 vs rep3: Pearson=0.177472; cosine=0.109800; cross-energy=7.539182; energies=82.344587/57.254705.
+baseline_residual rep2 vs rep3: Pearson=-0.011619; cosine=0.012634; cross-energy=3.541219; energies=1372.160074/57.254705.
+same_fold_P_baseline_residual rep1 vs rep2: Pearson=0.042660; cosine=0.042660; cross-energy=10.187527; energies=55.803556/1021.972311.
+same_fold_P_baseline_residual rep1 vs rep3: Pearson=0.072093; cosine=0.072093; cross-energy=3.295792; energies=55.803556/37.451203.
+same_fold_P_baseline_residual rep2 vs rep3: Pearson=-0.009065; cosine=-0.009065; cross-energy=-1.773461; energies=1021.972311/37.451203.
+
+No model, scientific rule, source, sample or program was changed. No run was removed. These residual diagnostics do not prove a technical cause or the absence of biological interactions.
+Machine-readable exact values and every identity gate are in Independent_Audit.json.

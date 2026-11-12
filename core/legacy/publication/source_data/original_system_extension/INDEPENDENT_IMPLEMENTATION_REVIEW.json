@@ -1,0 +1,400 @@
+{
+  "created_utc": "2026-10-19T10:07:17.137103+00:00",
+  "reviewer_role": "independent read-only implementation review",
+  "spec_runner_hash_matches": true,
+  "spec_readout_hash_matches": true,
+  "splits": [
+    {
+      "dataset": "Norman",
+      "seed": 1,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        1,
+        0,
+        0
+      ],
+      "inner_zero_kernels": [
+        false,
+        true,
+        true
+      ],
+      "outer_training_contrast_dimension": 4,
+      "selected_policy": "uniform",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.3729924336635122e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": -0.0215567596774926,
+          "endpoint_removed_mse": 0.00524358701959049
+        },
+        "amplitude_only": {
+          "non_target_mse": -0.009771973376613952,
+          "endpoint_removed_mse": 0.009533753927666533
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": -0.011395373292686584,
+          "endpoint_removed_mse": 0.008245947196297454
+        },
+        "selected": {
+          "non_target_mse": 0.0032277442105774767,
+          "endpoint_removed_mse": 0.0062407855812250945
+        }
+      }
+    },
+    {
+      "dataset": "Norman",
+      "seed": 2,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        6,
+        1,
+        4
+      ],
+      "inner_zero_kernels": [
+        false,
+        false,
+        false
+      ],
+      "outer_training_contrast_dimension": 11,
+      "selected_policy": "zero",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.384185791015625e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": -0.02628985719263377,
+          "endpoint_removed_mse": 0.0326827162329445
+        },
+        "amplitude_only": {
+          "non_target_mse": -0.013365580211984307,
+          "endpoint_removed_mse": 0.02483952912434917
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": -0.013347718055904734,
+          "endpoint_removed_mse": 0.024177250725286425
+        },
+        "selected": {
+          "non_target_mse": 0.0,
+          "endpoint_removed_mse": 0.0
+        }
+      }
+    },
+    {
+      "dataset": "Norman",
+      "seed": 3,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        0,
+        2,
+        2
+      ],
+      "inner_zero_kernels": [
+        true,
+        false,
+        false
+      ],
+      "outer_training_contrast_dimension": 7,
+      "selected_policy": "uniform",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.384185791015625e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": -0.049134037191277624,
+          "endpoint_removed_mse": 0.04197456243321407
+        },
+        "amplitude_only": {
+          "non_target_mse": -0.009929154580503141,
+          "endpoint_removed_mse": 0.04239435770903721
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": -0.010216993736795521,
+          "endpoint_removed_mse": 0.0377712306837068
+        },
+        "selected": {
+          "non_target_mse": 0.006991235737822676,
+          "endpoint_removed_mse": 0.02121330398016108
+        }
+      }
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        7,
+        7,
+        7
+      ],
+      "inner_zero_kernels": [
+        false,
+        false,
+        false
+      ],
+      "outer_training_contrast_dimension": 15,
+      "selected_policy": "uniform",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.384185791015625e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": 0.000959833152347489,
+          "endpoint_removed_mse": -0.0002797709085395894
+        },
+        "amplitude_only": {
+          "non_target_mse": 0.0019351329770740389,
+          "endpoint_removed_mse": -7.2482921568362e-05
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": 0.001673478729348754,
+          "endpoint_removed_mse": -1.4384736747752314e-05
+        },
+        "selected": {
+          "non_target_mse": 0.0005138250572308545,
+          "endpoint_removed_mse": -1.1441489722097131e-05
+        }
+      }
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        12,
+        13,
+        15
+      ],
+      "inner_zero_kernels": [
+        false,
+        false,
+        false
+      ],
+      "outer_training_contrast_dimension": 26,
+      "selected_policy": "R_amplitude_noise",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.384185791015625e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": 0.011579690561583256,
+          "endpoint_removed_mse": 0.005776906919524705
+        },
+        "amplitude_only": {
+          "non_target_mse": 0.01585325691086381,
+          "endpoint_removed_mse": 0.005433140313442997
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": 0.015143746742552588,
+          "endpoint_removed_mse": 0.004512878198008163
+        },
+        "selected": {
+          "non_target_mse": 0.015143746742552588,
+          "endpoint_removed_mse": 0.004512878198008163
+        }
+      }
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "train_validation_test_canonical_disjoint": true,
+      "unique_canonical_train_pairs": true,
+      "unique_canonical_test_pairs": true,
+      "fit_log_canonical_violations": [],
+      "frozen_array_equal_original": true,
+      "frozen_hash_matches": true,
+      "selection_hash_matches": true,
+      "max_primary_rescore_difference": 0.0,
+      "per_query_mask_counts_constant": true,
+      "inner_training_contrast_dimensions": [
+        10,
+        8,
+        9
+      ],
+      "inner_zero_kernels": [
+        false,
+        false,
+        false
+      ],
+      "outer_training_contrast_dimension": 20,
+      "selected_policy": "amplitude_only",
+      "selected_lambda": 10.0,
+      "amplitude_tau": 16.0,
+      "half_counts_reconstruct_full_counts": true,
+      "half_mean_reconstruction_max_abs": 8.881784197001252e-16,
+      "half_contract_vs_float32_core_cache_max_abs": 2.384185791015625e-07,
+      "gains": {
+        "unit": {
+          "non_target_mse": 0.0021892699455369202,
+          "endpoint_removed_mse": -0.00046873519094248195
+        },
+        "amplitude_only": {
+          "non_target_mse": 0.0031299328900491474,
+          "endpoint_removed_mse": 0.0006412791214568392
+        },
+        "R_amplitude_noise": {
+          "non_target_mse": 0.0021291734820618746,
+          "endpoint_removed_mse": 0.000336658073375129
+        },
+        "selected": {
+          "non_target_mse": 0.0031299328900491474,
+          "endpoint_removed_mse": 0.0006412791214568392
+        }
+      }
+    }
+  ],
+  "synthetic_math": {
+    "symmetric_kernel_vs_explicit_tensor_max_abs": 8.881784197001252e-16,
+    "projected_blocks_vs_residualized_features_max_abs": 2.220446049250313e-15,
+    "eigensolver_vs_primal_ridge_prediction_max_abs": 1.6542323066914832e-14,
+    "endpoint_residual_addition_invariance_max_abs": 4.518607710224387e-14,
+    "joint_residual_kernel_min_eigenvalue": -1.3663796181670801e-15,
+    "zero_trace_tree": true,
+    "zero_tree_kernel_max_abs": 0.0,
+    "readout_formula_max_abs": 3.3306690738754696e-16,
+    "zero_anti_agreement_weights": [
+      0.0,
+      0.0
+    ],
+    "random_seed": 431289,
+    "design": "7 endpoint embeddings, width 4, explicit symmetrized tensor features, 14 train edges, 7 query edges; separately a six-edge full-row-rank star."
+  },
+  "independent_component_replay": {
+    "dataset": "Wessels",
+    "seed": 2,
+    "core_max_abs": 0.0,
+    "partner_max_abs": 0.0,
+    "readout_weight_max_abs": 0.0
+  },
+  "scope_conclusion": "No demonstrated test-label fitting leakage or numerical kernel defect; conditional original-system integration with modest incremental gains, limited Norman inner contrast support, and no independent optimized neural comparison.",
+  "findings": [
+    {
+      "id": "A01",
+      "severity": "material_scope",
+      "topic": "conditional core",
+      "detail": "Original validation outcomes are reused in all core fits under their historical selection role. Pair OOF targets exclude their own labels, but this is a conditional extension of original v14, not a fully nested refit of all original model-development decisions."
+    },
+    {
+      "id": "A02",
+      "severity": "material_scope",
+      "topic": "sparse inner contrast support",
+      "detail": "Norman seed1 inner dimensions are 1,0,0 and seed3 0,2,2; three of eighteen selection kernels are structurally zero. Weak additional gains cannot establish absence of partner signal."
+    },
+    {
+      "id": "A03",
+      "severity": "material_scope",
+      "topic": "fixed-G control question",
+      "detail": "Lambda is selected for the unit correction, then the same selected G is used for all readout controls. This is valid for a fixed-G control comparison; it does not optimize each policy jointly over lambda and cannot establish their best achievable ordering."
+    },
+    {
+      "id": "A04",
+      "severity": "descriptive_diagnostic",
+      "topic": "boundary regularization",
+      "detail": "All six fits select maximum lambda 10 and all amplitude-only fits maximum tau 16. This suggests unresolved shrinkage scale within the allowed development grid, not numerical convergence failure; no post-test change is licensed as frozen confirmation."
+    },
+    {
+      "id": "A05",
+      "severity": "wording_correction",
+      "topic": "test access vs computation",
+      "detail": "The all-condition half-contract arrays are decompressed before training-row selection. Test entries do not enter fitting calculations, but physical inaccessibility or first-ever test-expression access at scoring is not established. State training-row restriction and prediction-before-scoring sequence."
+    },
+    {
+      "id": "A06",
+      "severity": "provenance_improvement",
+      "topic": "freeze dependency coverage",
+      "detail": "The saved spec directly hashes runner/readout code, while imported core/fast-amplitude/projected-kernel dependencies need source-archive or dependency hashes for a complete freeze. The observed historical source files and exact core replay support current reproducibility."
+    },
+    {
+      "id": "A07",
+      "severity": "claim_limit",
+      "topic": "gain magnitude",
+      "detail": "Selected extension gains are small, and one Norman split selects zero. This supports a callable integration preserving the original core and modest observed gains; it does not constitute a large partner breakthrough or unique readout-agreement mechanism."
+    },
+    {
+      "id": "A08",
+      "severity": "claim_limit",
+      "topic": "OOF residual interpretation",
+      "detail": "Residual targets combine predictions from smaller refitted cores. Their endpoint/baseline coefficients vary between OOF folds; the resulting projected residual can include baseline-estimation variability. The final held-out comparison is valid, but the trained target is an empirical predictive residual rather than an identified molecular-interaction tensor."
+    },
+    {
+      "id": "A09",
+      "severity": "wording_precision",
+      "topic": "amplitude comparator",
+      "detail": "The amplitude-only control uses energy of the projected half-mean, ||(Z1+Z2)/2||². It is not the average of the two half energies, not predicted-effect amplitude, and not a noise-free signal estimate. State its exact formula."
+    }
+  ],
+  "dixit_B_necessary_freeze_points": [
+    "Hold each of the 45 canonical pairs out with all its guide/capture/cell records; hide its response from every outer fitting and selection stage. All ten singles may remain available if prespecified.",
+    "Use per-cell normalization fixed in advance. Gene-axis selection, variance/HVG ranking and data-derived feature or program standardization must be constructed inside each allowed training set; label-only threefold construction may use all pair identities.",
+    "Form disjoint halves within capture (and guide/condition strata where feasible) to avoid artificial capture imbalance. Treat half agreement as within-experiment sampling support, not independent biology.",
+    "Fix zero/one/two-target and control-guide multiplicity rules before expression outcomes. Explain whether control is one-NT or two-NT and preserve the same reference across competing predictors.",
+    "Use a complete training-only baseline at every nesting depth and rebuild OOF residuals within each partner-training subset. No held inner fold may enter baseline tuning, residual targets, features, shrinkage or initialization.",
+    "Freeze whether lambda is selected for unit G before control selection (A-style fixed-G comparison) or jointly by each policy. These answer different questions; B cannot be called an unchanged A learning rule after an unrecorded change.",
+    "Keep the common non-target axis for projected loss and a separate per-query mask for full-response MSE. With 10 genes and 5 contrast dimensions per outer fold, 15 total dimensions and 9 overlapping rectangles are not independent replicates.",
+    "Hash all imported modeling/preprocessing dependencies and freeze program genes/directions/standardization before evaluating outer test predictions.",
+    "Only 10 endpoint clusters limits uncertainty calibration. Use the fixed node-deletion/reweighting sensitivity interpretation; do not assert biological significance, 80% power or general noninferiority from a nominal 45-pair count.",
+    "The new experimental source can provide an independent-source, frozen-procedure assessment if its responses were not used for design, while all source data remain retrospective public observations. It is not prospective wetlab confirmation or parameter transfer.",
+    "For gene deletion or graph-changing resampling of projected loss, recompute the query incidence projector on each retained graph. Deleting rows after applying the full-graph projector can retain information from removed outcomes; it answers a different fixed-transformation sensitivity question."
+  ],
+  "review_time_dependency_hashes": {
+    "witnesscell_v20_20261019/experiment_assets/WitnessCell_Partner_Component_Run_20261018/model/global_pair_model.py": "d19f8c423c4b8a693644381b0863e6a016300f51075a9e2fb1247cc605c2a404",
+    "witnesscell_v20_20261019/experiment_assets/witnesscell_step1_run/fast_amplitude_bank.py": "ae3b5d67f1ed49b8fe6648f7e6663a1848f9961ba04822c0e7e777a5a4480987",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v4_core.py": "8841a49ecf266da1e28acdfb4f604f5f33fdb6783faa4701d4a624307c729e75",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/multihead_v14.py": "d5526d7de72e8a7696c2f628c59c42e1e82558b61adfb98e8524ec52f7787409",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/dual_head.py": "f5f1abb1ed8f229c1de4579e2cb1d830115df10e6d65f2ef50ddca384432f837",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/identity_head.py": "6c666709cf0d42bb5a57a98e820c7ec7a4b3a32237fdfc2e924e8de7b3caa89f",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/go_identity_head.py": "d50d8dd47472eca032c4f438a21fbac3fb3a20400428f7b418b36b6e19fdc9fa",
+    "witnesscell_v20_20261019/experiment_assets/repo/experiments/19_v14_incremental_amplitude_gate/src/probe_multhead_training.py": "65298e95b064414bdab8cf25643b1e1a7703e10f783c04e3ce07694e063f7176"
+  },
+  "dependency_hash_timing": "Collected at independent review time after execution; these do not retrospectively establish a prior freeze."
+}

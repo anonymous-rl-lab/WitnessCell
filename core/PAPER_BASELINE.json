@@ -1,0 +1,40 @@
+{
+  "paper": "v36",
+  "code_release": "28.0.0",
+  "source_paper_zip_sha256": "c3fe8fe79d1a741db20709ece21bc546cbea9be9d5e3747415ba06d93001d5e5",
+  "manuscript_files": [
+    {
+      "path": "WitnessCell_v36_Main_Methods.md",
+      "sha256": "79b66a4e6e69354b5346cc1ea07286e5435a4d7e0cf78dcffa057e895abc411a"
+    },
+    {
+      "path": "WitnessCell_v36_Main_Methods.pdf",
+      "sha256": "619dc3ba9c3b6ef0bf44021726863c786d58e4101b5343aeae11c550e005942a"
+    },
+    {
+      "path": "WitnessCell_v36_Supplementary_Information.md",
+      "sha256": "29638978db4bb1a8d70483ea92c965a4faf46a78f151db173db7f5f433690cfa"
+    },
+    {
+      "path": "WitnessCell_v36_Supplementary_Information.pdf",
+      "sha256": "16cb02c8cbe0043b0150ca2d134b6246a34675af5125e6250ff6e923c99fb3d2"
+    },
+    {
+      "path": "WitnessCell_v36_Main_Figures.pdf",
+      "sha256": "40d6e9a7a06228ecfb15196a56f225d4363596aa0f2f88dbcb5725432f8e7a8d"
+    },
+    {
+      "path": "WitnessCell_v36_Supplementary_Figures.pdf",
+      "sha256": "4d463b4eed34957e592eb5bfc533d0da74f890d6dafcf6c194b71863efaecfd6"
+    },
+    {
+      "path": "Figure_Legends.md",
+      "sha256": "1505c32f5f499092fabbc44bc9c8038f173de26d87b7f83eee23af67831d7286"
+    },
+    {
+      "path": "Supplementary_Figure_Legends.md",
+      "sha256": "fbe498feaa67fc1144ee0c66c797f9c5563220a423e1f7399b4fecb08752cc2b"
+    }
+  ],
+  "scientific_results_changed": false
+}

@@ -1,0 +1,38 @@
+{
+  "copied_unix": 1792224386.4923496,
+  "protocol_sha256": "1dbdc841c4800308f087976f44c4e8643d1294a6855d659d0f0f4ae5b3be0b6f",
+  "copy_mode": "byte-preserving copy; original inputs unchanged",
+  "purpose": "self-contained prediction/loss replay from already frozen numerical state; original endpoint training is outside this replay scope",
+  "files": [
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "relative_path": "evaluation_inputs/Wessels_seed1.evaluation_only.npz",
+      "source_path": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed1/evaluation_only.npz",
+      "source_filename": "evaluation_only.npz",
+      "sha256": "caa72b18e417e07287abb42f46b733e1c2cdcfa11e9faa238427f5d4ec14473c",
+      "size_bytes": 3418610,
+      "matches_locked_original_evaluation_sha256": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "relative_path": "evaluation_inputs/Wessels_seed2.evaluation_only.npz",
+      "source_path": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed2/evaluation_only.npz",
+      "source_filename": "evaluation_only.npz",
+      "sha256": "d629bfda826e1d6c4ee2788284f9703a724cf70566a84c0fa9400323fdfc6536",
+      "size_bytes": 2923808,
+      "matches_locked_original_evaluation_sha256": true
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "relative_path": "evaluation_inputs/Wessels_seed3.evaluation_only.npz",
+      "source_path": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed3/evaluation_only.npz",
+      "source_filename": "evaluation_only.npz",
+      "sha256": "b2f3c23026df60779f23a74acff042430a446d7d580c15f579a2ba9166ff9e0e",
+      "size_bytes": 3477124,
+      "matches_locked_original_evaluation_sha256": true
+    }
+  ]
+}

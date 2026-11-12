@@ -1,0 +1,11 @@
+{
+  "configuration": "Jurkat_high",
+  "seconds": 1.325415357001475,
+  "query_outcomes_opened": false,
+  "native_baseline_replay_max_abs": 0.0,
+  "plan_sha256": "3919d5be27299ee03c52e6b26ab8d7265527de95b4375773f334fbe153e9ca81",
+  "training_sha256": "770c183773af58768f3fe9625fd8278f3be7131e1afa5ebed37c530546398e1c",
+  "predictions_sha256": "eb71563c8c7c6053a6812f789ed0441da3db765b9a1cd7908ca6be7adfd3d342",
+  "selection_sha256": "8f905acff68a7ac7d9ec8ad061449bdb1967b0115ad3ba7ef1c102d8b8b4f391",
+  "code_sha256": "72a4289e6b28063d379463c7ef14c7d2fba257bf22ea7b7efada39a37f16ff1d"
+}

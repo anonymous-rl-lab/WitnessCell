@@ -1,0 +1,150 @@
+from pathlib import Path
+import pandas as pd,numpy as np,json,shutil,hashlib,platform,sys
+R=Path(__file__).resolve().parents[1];O=R/'results';old=R.parent/'partner_gain_regression_20261108'
+d=pd.read_csv(O/'ENRICHED_INPUT.csv');perf=pd.read_csv(O/'REGRESSION_PERFORMANCE.csv');sens=pd.read_csv(O/'REGRESSION_SENSITIVITY.csv');sel=pd.read_csv(O/'SELECTION_SUMMARY.csv');dec=pd.read_csv(O/'CALIBRATION_DECISIONS.csv');cal=pd.read_csv(O/'CALIBRATION_BY_CONDITION.csv');component=pd.read_csv(O/'PARTNER_COMPONENT_BY_CONDITION.csv');reps=pd.read_csv(O/'CALIBRATION_REPEATS.csv');audit=json.loads((O/'VERIFICATION.json').read_text())
+def table(frame):return frame.to_string(index=False,float_format=lambda v:f'{v:.6f}')
+summary=d.groupby('panel').agg(records=('model','size'),training_configs=('feature_id','nunique')).reset_index()
+stats=perf[(perf.scope=='all')&perf.regression.isin(['data_only','data_and_inner','inner_partner','inner_full'])][['regression','scheme','rmse_pp','R2']]
+rob=sens[(sens.scope=='all')&(sens.scheme=='hold_study')&sens.subset.isin(['all','no_terminal_checkpoints','growth_selected_rank1'])&sens.regression.isin(['mean','data_only','inner_partner','inner_full','data_and_inner'])][['subset','regression','n','rmse_pp','R2']]
+se=sel[sel.policy.isin(['historical_default','inner_partner','inner_both_nonnegative','hold_study__data_and_inner'])][['policy','mean_gain_pp','mean_regret_pp','negative_rate']]
+cells=['Jurkat','HeLa','A549','293T'];inner=dec[dec.cell.isin(cells)][['cell','inner_full_gain','inner_partner_gain','inner_reward','inner_cost','alpha']]
+rows=[]
+for group in ['Jurkat_high','K562_high','K562_low','K562_layout','HeLa_high','A549_high','293T_high']:
+ a=cal[(cal.group==group)&(cal.policy=='original')].iloc[0];b=cal[(cal.group==group)&(cal.policy=='inner_shrink')].iloc[0];c=component[component.group==group].iloc[0]
+ rows.append(dict(condition=group,original_partner=a.partner_gain_pp,calibrated_partner=b.partner_gain_pp,original_full=a.full_gain_pp,whole_shrink_full=b.full_gain_pp,partner_only_full=c.full_gain_pp))
+rs=pd.DataFrame(rows);rs.to_csv(O/'KEY_RESULT_TABLE.csv',index=False)
+rr=reps[reps.group.isin([x+'_high' for x in cells])&reps.policy.isin(['original','inner_shrink'])][['group','policy','repeat','gain_pp']]
+source=R.parent/'gain_regression_sources/WitnessCell_Shen_Jurkat_Partner_Repair_20261108/evaluation/SCORES.csv'
+if source.exists():shutil.copy2(source,R/'inputs/PRIOR_REPAIR_SCORES.csv')
+manifest=old/'history/SOURCE_MANIFEST.csv'
+if manifest.exists():shutil.copy2(manifest,R/'inputs/ORIGINAL_SOURCE_MANIFEST.csv')
+env={'python':sys.version,'platform':platform.platform(),'numpy':np.__version__,'pandas':pd.__version__}
+import matplotlib;env['matplotlib']=matplotlib.__version__
+(R/'ENVIRONMENT.json').write_text(json.dumps(env,indent=2));(R/'requirements.txt').write_text(f'numpy=={np.__version__}\npandas=={pd.__version__}\nmatplotlib=={matplotlib.__version__}\n')
+report=f'''WitnessCell：历史回归、模型选择与训练侧伙伴校准
+日期：2026-11-08
+
+结论
+
+本轮把历史回归推进到实际的训练侧决策。得到的主要认识是：伙伴增益不能只写成数据集规模或重复性的函数；还必须加入“当前模型的修正是否对准剩余伙伴信号、修正有多大”。训练内部的伙伴验证比单独增加复杂度变量更接近这个问题。以此得到的幅度校准规则在55种原秩一训练配置上完成回顾检验，保留Jurkat的6.175%伙伴增益，减轻Shen三组的伙伴损伤，并在A549和293T上形成很小的正向点估计。它尚未建立Shen三组都稳定阳性的结论。
+
+本轮没有重新训练GEARS、Scouter、RNA伙伴网络或功能秩一模型；重放了保存模型的内部预测，拟合历史增益回归，并新增训练内部的标量校准。全部新规则均按回顾性开发处理，没有称为新预注册或独立确认。这里的y是某个模型相对指定基线的实际留出伙伴增益，不是已经估计出的数据集最佳可达上限。
+
+一、确实扩展到了历史模型，而非只拟合Jurkat与Shen
+
+上一包保留1280条历史评分、74种训练配置、9个面板、6项研究。本轮按能否恢复相应模型的内部伙伴验证记录纳入，而非按外层成绩选择：得到788条匹配记录、64种训练配置、8个面板、5项研究、110个候选池。包含R系列、12参数分支、早期表示/输入核探针、功能秩一以及Joung伙伴网络。原1280条全部留在覆盖清单中；其中部分原始记录不满足新分析所需的内部记录条件，另有从保存预测补算的10条功能正则化候选。没有把未恢复的记录视为零分。
+
+{table(summary)}
+
+这些记录包含同一划分上的多个参数、共享查询和归档别名，不是788个独立实验。本轮先分摊相同配置下的评分别名，再使训练配置在各面板内等权、各面板等权；留出查询组时剔除任何包含同一实测查询组合的训练记录。另分别留出整个面板和整个研究。模型家族、RNA/功能读出及评价口径均保留，不把参数个数、矩阵秩和有效自由度当成相同概念。
+
+二、回归：内部成绩有用，但未得到一个跨全部历史稳定的复杂公式
+
+目标统一为 y=100×(1−伙伴误差平方和/相应基线伙伴误差平方和)，正值表示改善。主目标是全查询图的端点投影；它与论文CaRPool的11个矩形误差口径不同，不能把本表结果替换成论文15.96%。标准化和删读出的敏感性分数不混入这一原量纲回归。
+
+原有数据因素：训练组合数/端点度，训练重复一致性q，跨重复领先模式一致性c。新增因素：同一模型在训练内部留出组合上的伙伴增益、完整响应增益、修正与残差的交叉项、修正平方范数、内部对比维数、幅度和可恢复的模型复杂度。
+
+q=2<r1,r2>/(||r1||²+||r2||²)；c为一份训练测量构造的领先伙伴模式与另一份测量的方向一致性，双向平均。这两者描述允许训练测量，不自动等于生物学信号比例或因果结构。Dixit部分配置缺少允许侧重复信息，缺失保留，由每次回归训练侧填补并加缺失标记。
+
+全部回归采用固定标准化岭惩罚1；填补、缩放和拟合只发生在各次回归训练侧。表中比较使用完全相同的788条记录，不能与上一包1180条主分析直接相减解释为算法增益。数学上已知的零修正对所有比较方法都预测零收益。
+
+{table(stats)}
+
+加入内部成绩后，data_only与data_and_inner的查询组留出RMSE从12.277降到7.341个百分点，R²由−0.240提高到0.557；但整个研究留出时，组合模型R²仍为−0.084。因此“拟合解释得更好”与“新研究上可靠预测”必须分开。
+
+三、关键敏感性：不能让几个严重失败的网络检查点定义规律
+
+全部记录中，完整响应内部成绩的研究留出R²为0.635，看起来很好。但移除5条末次检查点后，它降至−0.244；相反，内部伙伴成绩的一因素回归达到R²=0.510、RMSE=3.372个百分点。这个筛选按检查点身份完成，包含所有验证选中模型，不是按外层好坏删异常值。原始全表始终保留。
+
+{table(rob)}
+
+这说明全响应内部成绩能识别某些严重训练失败，却不能由此推断它比伙伴评价更适合细微的伙伴增量预测。复杂度变量也没有形成稳定额外收益。
+
+在55种同类功能秩一配置上，一因素描述拟合为：
+    预测外层伙伴增益（百分点）=0.852348+1.210978×内部伙伴增益（百分点）。
+已知零修正仍按零处理。整个研究留出R²=0.346567、RMSE=2.517246个百分点。这个子集只有Horlbeck与Shen两项研究，且K562配置共享数据；该公式是当前描述性预测器，不能称为普遍定律，也不能用其拟合优度给新细胞来源保证。
+
+四、实际选模：有小幅总体改善，也有明确反例
+
+每个候选池必须共享相同基线与评分分母，并显式提供零修正。比较历史默认、最大内部伙伴增益、同时要求内部完整响应不降，以及研究留出回归选模。每个规则都在相同110个池中执行。汇总先平均同一训练配置内候选池，再平均面板内配置，最后各面板等权。
+
+{table(se)}
+
+简单内部伙伴规则把面板均衡平均收益从2.1704%提高到2.3994%；加完整响应非负条件为2.3987%。这是约0.23个百分点的改善，不是数倍提高。negative_rate是按相同层次加权的负收益比例，不是独立试验失败概率。复杂回归选模没有超过简单内部规则。
+
+反例完整保留：Joung内部伙伴增益+0.3815%、完整响应+2.4454%的候选，在外层仍为−0.8235%；内部对比很少时，略正分数并不保证真正的外推收益。Dixit总体也仍略负。不能把“内部伙伴分数>0”宣传成可靠保胜门。
+
+五、找到可以直接处理的原因：Shen按完整响应选中了伙伴幅度过大的修正
+
+功能原流程以完整响应误差选择秩一修正。现在从保存的u、lambda和内部M0恢复了伙伴评价：Jurkat在两种目标上均为正；Shen三组完整响应内部收益为正，伙伴收益却为负。
+
+{table(inner)}
+
+设内部每折投影后的基线残差为r、对应模型修正为d；所有内折分别投影后合并：
+    B=100×2Σ<r,d>/Σ||r||²
+    C=100×Σ||d||²/Σ||r||²
+使用幅度a时，内部伙伴增益精确等于 aB−a²C。
+B衡量当前模型修正与目标残差的对齐程度，C衡量修正幅度的平方代价。两者都依赖当前模型，不是数据集固定属性。对0≤a≤1，直接取：
+    a=clip(B/(2C),0,1)，C=0时取0。
+
+这个系数仅由内部训练测量和内部预测确定，计算并保存之后才用于外层评分；没有搜索最有利的外层阈值。它是已有一维二次损失的解析校准，不宣称新颖的收缩理论。新意和实用问题在于针对伙伴目标校准，并验证它是否保留原有有用响应。
+
+Shen三组内部B都略正，但C大于B，因此原幅度a=1导致负伙伴收益。对应a约为HeLa0.119、A5490.239、293T0.143；Jurkat为1。这个结果指出了具体的目标错配和过大幅度，不能据此排除噪声、方向错配及跨布局失配等其他原因。
+
+六、把同一条规则用于全部55种功能配置
+
+{table(rs)}
+
+单位均为相对指定基线的误差降低百分比。
+original_partner/full：原始发布流程选中的秩一结果。
+calibrated_partner：只用内部数据定系数后，整个修正缩幅得到的伙伴结果。
+whole_shrink_full：整个修正缩幅后的完整响应结果。
+partner_only_full：只缩小伙伴分量后的完整响应结果，见下一节。
+
+Jurkat伙伴收益保持6.1750%；K562高支持从11.6838%小降到11.5924%；K562低支持仍为−0.0326%；45种布局配置从−0.2217%到+0.1924%。这45种配置含共享外层查询的折、种子和布局，合并误差是描述性配置平均，不增加独立生物样本数。
+
+Shen的A549和293T由负转为小正值，HeLa仍略负。但重复结果是：
+
+{table(rr)}
+
+Shen三个细胞的校准结果均未做到两重复同时为正，故不能称为稳定跨重复确认。Jurkat两重复均保留正向改善。
+
+七、保留有用端点贡献：已做固定查询批次的结构性复算
+
+整个修正一起缩小，会同时削弱有用的端点部分。例如HeLa完整响应收益由4.1613%降到0.7792%。因此，作为本轮后续结构分析，另按相同查询组合身份构造端点投影P_Q：
+    原修正delta=delta_endpoint+delta_partner
+    delta_partner=P_Q delta
+    新预测=M0+delta_endpoint+a×delta_partner
+
+这里沿用同一个训练内部a，不重新优化。预测计算不读取查询结局，但使用固定查询批次的组合身份；因此是依赖查询批次的变换，查询集改变时预测可能改变，不能当作已经交付的逐查询、批次无关模型。单个查询的伙伴对比空间还可能为零。
+
+此变换保留原端点部分，伙伴成绩与整修正缩幅完全相同。由正交性，完整误差的减少量正好等于伙伴误差的减少量。实际复算后，Shen三组完整收益为HeLa4.9183%、A5493.8169%、293T6.5956%，而原始为4.1613%、3.6498%、6.1823%。因此这里有明确的方法设计启示：如果只发现伙伴分量幅度过大，应优先约束这一分量，而非把全部响应一起压小。
+
+这只是当前固定查询图上的构造验证，未重新开发批次无关的部署模型，也没有提升证据独立性。
+
+八、与早先修复的关系：不是把旧阳性重命名成新突破
+
+早先Shen/Jurkat修复包已有A549 native_decomposed约+0.1147%、293T约+0.0595%，与本轮+0.1164%、+0.0601%接近。早先HeLa phase1_selected为+0.4856%，也高于本轮秩一校准的−0.0372%。原成绩完整复制到inputs/PRIOR_REPAIR_SCORES.csv。
+
+所以本轮不宣称刷新Shen最佳成绩。推进是：从大量历史结果找出模型相关的预测因素，恢复训练内部目标错配，形成一条无需看外层标签的明确幅度规则，并把它放回55种功能配置统一检查。是否能进一步用这些因素选出早先HeLa有效分支，仍需要那些分支的匹配内部记录，不能直接把外层赢家填进选模结果。
+
+九、对 y=f(x1,x2,x3) 的更新
+
+当前更准确的写法是 y=f(训练数据及布局，候选模型，拟合/选择规则)。三个可操作层面分别为：
+1. 数据里有没有可重复的伙伴变化：q及跨重复结构指标提供信息；
+2. 这个模型能否把变化学到新组合：内部整组合留出分数及B提供直接检验；
+3. 修正是否过大、验证是否有足够分辨力：C、内部对比维数和折间变化帮助诊断。
+
+这三层不是三个已经被因果分离的决定因素。新增B/C规则已实际计算和验证，实验设计收益还没有被本轮证明。现阶段不能据此宣布“需要约2000对组合”，也不能把内部伙伴增益当成训练组合数的替代普遍门槛。下一项有针对性的设计工作，应在等预算下比较哪些新增组合能改善独立内折上的模型—残差对齐、降低失配或增加有效伙伴对比；这需要新的受控设计比较，而非由当前回归系数直接推导实验节省比例。
+
+十、核验与复现范围
+
+独立SVD核验全部55种功能内折与外层投影，内部校准量最大差{audit['inner_svd_max_abs_difference_pp']:.3g}个百分点，外层误差平方和最大差{audit['outer_svd_max_sse_difference']:.3g}。验证同时覆盖查询重叠剔除、回归权重、110个候选池的训练侧选择、零修正和伙伴分量变换。检查项数不是新增实验证据。
+
+包内保留原1280条评分表、本轮788条匹配表、覆盖理由、全部回归/选模正负结果、55种功能内部/外层充分数组、决策系数、源码、精确数值图和来源哈希。
+运行 python reproduce.py 在临时目录重拟合回归、重做选模和伙伴分量预测，并独立重算内部系数与外层误差。不需要再次下载原始单细胞矩阵或训练神经网络。
+从原始RNA矩阵重新恢复全部因素、重训生物模型，仍需ORIGINAL_SOURCE_MANIFEST.csv列出的历史归档；本包没有伪装成包含所有原始数据的全量训练包。
+'''
+(R/'REPORT_CN.txt').write_text(report)
+(R/'README.txt').write_text('WitnessCell model-matched partner gain and calibration — 2026-11-08\n\nStart: REPORT_CN.txt\nRun: python reproduce.py\nDependencies: requirements.txt (recorded runtime versions; Python version in ENVIRONMENT.json).\n\nScope: retrospective secondary analysis of recovered experiments, not new preregistration or new biological confirmation.\n788 eligible model outcomes / 64 training configurations / 8 panels / 5 studies / 110 candidate pools. Historical input preserves all 1280 prior records. Functional calibration includes 55 configurations.\n\ninputs/INNER_GROWTH_REPLAY.npz: training inner outcomes, M0 and regularized predictions, fold labels, graph edges, selected-zero indicators.\ninputs/CALIBRATION_OUTCOMES.npz: outer outcomes, M0, original predictions and query identities.\nresults/CALIBRATION_DECISIONS.csv: alpha uses training inner reward and cost only.\nresults/REGRESSION_SENSITIVITY.csv: terminal-checkpoint and panel exclusions retained alongside the main analysis.\nresults/KEY_RESULT_TABLE.csv: original, whole-correction and partner-only calibration results.\nresults/VERIFICATION.json, PORTABLE_REPLAY.json: validation and independent sufficient-array replay.\nresults/FIGURE_NOTES.txt: interpretation and scope of both scientific figures.\n\nExtraction scripts enrich.py and calibrate_growth.py require the original archive paths listed in the source manifests. Portable reproduce.py does not. common.py contains the fixed regression specification. verify.py uses independent SVD scoring.\n\nKnown limitations: overlapping historical experiments; only five studies; selected inner scores can be optimistic; heterogeneous repeat definitions and model implementations; small Shen pooled gains are not positive in both repeats. Partner-only shrinkage uses fixed query-batch identities and is not batch-invariant. No claim of surpassing all earlier repairs.\n\nPrevious package: https://chatgpt.com/library?file_id=libfile_0089fa8bf37881919f6094146d490ac8&account_id=personal\n')
+print('Report, README, key table and provenance written.')

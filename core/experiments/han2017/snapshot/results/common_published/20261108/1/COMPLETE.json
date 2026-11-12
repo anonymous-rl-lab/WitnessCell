@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-08T13:19:15.858677+00:00",
+  "endpoint_max_abs": 2.664535259100388e-15,
+  "sse_identity_error": 1.3472556403826275e-13,
+  "anchored_partner_change": 1.3766765505351941e-14,
+  "n_rows": 144,
+  "score_sha256": "09902cfbad23e033cfd5fb3ec9a363a2117197f0565cc7d078e73e3c5eef6ca2",
+  "prediction_lock_sha256": "5fa70d879b9c6940804f51239fd07deb9a38b7ab7ebe7f4e87515f6261f8dc2f"
+}

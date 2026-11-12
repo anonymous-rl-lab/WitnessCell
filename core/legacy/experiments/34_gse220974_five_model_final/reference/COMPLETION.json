@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_VERIFIED",
+  "frozen": 30,
+  "independently_archived": 30,
+  "replayed": 30,
+  "independent_numpy": "PASS",
+  "weights_index_library_file_id": "libfile_779552821f7481919637f91db3bdd364"
+}

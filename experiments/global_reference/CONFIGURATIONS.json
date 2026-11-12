@@ -1,0 +1,51 @@
+[
+  {
+    "label": "K562_low_fold0",
+    "budget": "low",
+    "training_pairs": 421,
+    "query_pairs": 211,
+    "source": "K562/cases/outer0"
+  },
+  {
+    "label": "K562_low_fold1",
+    "budget": "low",
+    "training_pairs": 421,
+    "query_pairs": 211,
+    "source": "K562/cases/outer1"
+  },
+  {
+    "label": "K562_low_fold2",
+    "budget": "low",
+    "training_pairs": 422,
+    "query_pairs": 210,
+    "source": "K562/cases/outer2"
+  },
+  {
+    "label": "K562_high_fold0",
+    "budget": "high",
+    "training_pairs": 2317,
+    "query_pairs": 211,
+    "source": "K562/cases/outer0"
+  },
+  {
+    "label": "K562_high_fold1",
+    "budget": "high",
+    "training_pairs": 2317,
+    "query_pairs": 211,
+    "source": "K562/cases/outer1"
+  },
+  {
+    "label": "K562_high_fold2",
+    "budget": "high",
+    "training_pairs": 2318,
+    "query_pairs": 210,
+    "source": "K562/cases/outer2"
+  },
+  {
+    "label": "Jurkat_high",
+    "budget": "high",
+    "training_pairs": 2464,
+    "query_pairs": 617,
+    "source": "Jurkat"
+  }
+]

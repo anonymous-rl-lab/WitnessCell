@@ -1,0 +1,58 @@
+WitnessCell v20 Work B: frozen new-source RNA confirmation
+Source: Dixit 2016, GSE90063/GSM2396860, high-MOI K562.
+
+DECISION
+The endpoint-orthogonal transcriptome-wide primary confirmation was not established.
+The fixed training-only selection preserves full-response quality but adds only a small full-response gain.
+No learning rule, input gene set, endpoint or candidate policy was changed after outer scoring.
+
+DESIGN AND TIMING
+45 distinct double-TF pairs, 10 TF endpoints, 23,519 non-target readouts.
+Three outer folds contain 15 pairs each; each test incidence has rank 10 and 5 contrast dimensions.
+The 9 within-fold rectangles overlap and are descriptive, not independent replicates.
+Runner/dependencies frozen: 2026-10-19T10:26:22.631759+00:00
+All candidate predictions and selections frozen: 2026-10-19T10:26:30.998528+00:00
+Evaluation completed: 2026-10-19T10:26:36.264689+00:00; total 13.507 seconds.
+
+RESULTS: POSITIVE NUMBERS MEAN LOWER ERROR THAN THE REFERENCE
+Method | full-response improvement vs M0 (%) | projected improvement vs M0 (%) | G2M full (%) | G2M projected (%)
+zero | 0.000000000 | 0.000000000 | 0.000000000 | 0.000000000
+unit | 0.222042406 | -0.129010658 | 3.023277471 | 6.608383464
+uniform | 0.269801241 | -0.032601308 | 2.569688972 | 4.033911175
+amplitude_only | 0.259867588 | -0.033220050 | 2.450739375 | 3.602349005
+R_amplitude_noise | 0.079272802 | -0.003545331 | 0.568854241 | 0.391418357
+selected | 0.269801241 | -0.032601308 | 2.569688972 | 4.033911175
+additive | -30.604282274 | 0.004733027 | 19.145086970 | 0.012296463
+saturation_only | -30.268075751 | 0.000000000 | 19.212811273 | 0.000000000
+
+Selected primary projected gain: -0.032601308%.
+Selected secondary full-response gain: 0.269801241%.
+Conditional central 95% projected range: [-0.10915879124553442, 0.0736565889280485] (%).
+Conditional central 95% full-response range: [0.10351329783852505, 0.4421354216245939] (%).
+These ranges use 10,000 independent Exp(1) node-weight draws, pair products and a rebuilt weighted projection.
+They condition on the fixed fitted predictions and are not biological or between-study confidence intervals.
+The 10 leave-one-endpoint sensitivity evaluations also rebuild P and do not refit predictions.
+
+REFERENCE-BASELINE COMPARISONS
+M0 reduces complete response error relative to measured-single additive by 23.432832171% and saturation-only by 23.235221352%.
+Selected full system reduces complete response error relative to additive by 23.639411340% and saturation-only by 23.442333677%.
+Selected complete G2M score error is 20.500174173% greater than additive and 20.601190069% greater than saturation-only.
+The fixed G2M score maps 52 of 54 source genes. It is a secondary transcriptional program score, not a measured phenotype or a hit rate.
+
+FOLD SELECTION
+All folds select uniform shrinkage; lambda=10, shrinkage=0.5/0.75/0.75.
+M0 alpha=0.5 and eta=1 in every outer fold; gamma is fitted on pooled allowed-training OOF predictions.
+This source has all endpoints measured; its training-only core tuning entry replaces the unavailable historical validation split.
+
+SCOPE
+This is a retrospective public-source evaluation with fresh training-fold parameters. No supplied development asset exposed this source; earlier author exposure outside those assets cannot be audited.
+All predictor inputs, folds, gene axis, program, candidates and selection rules were frozen before model scoring.
+A new-source partner gain, a biological hit-rate benefit, and a prospective validation have not been established.
+Qualified external neural predictor comparison and biological uncertainty remain incomplete; the complete resource gate is not passed.
+These findings do not negate earlier within-source results, but they bound the generality of those results.
+
+REPLAY SOURCES
+EVALUATION.json is the unmodified machine-readable result. BASELINE_COMPARISONS.csv makes all reference denominators explicit.
+ALL_PREDICTIONS_FROZEN.npz preserves every candidate vector, correction, readout weight, training scale and common gene axis.
+FOLD_*_CORE_FITS.json and FOLD_*_SELECTION.json preserve all training partitions and tuning choices.
+The two independent synthetic isolation audits preceded the real-source run.

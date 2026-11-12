@@ -1,0 +1,538 @@
+[
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "ATM",
+      "BRCA2"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "ATM",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "FLT3",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "KDM6A",
+      "RB1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "MAP3K1",
+      "SMAD4"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "RB1",
+      "TOP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "SMAD4",
+      "TOP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "SMAD4",
+      "WEE1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "HeLa",
+    "pair": [
+      "TOP1",
+      "VHL"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "A549",
+    "pair": [
+      "ATM",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "A549",
+    "pair": [
+      "FNTA",
+      "RRM2"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "A549",
+    "pair": [
+      "PIK3R1",
+      "RRM2"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ALK",
+      "BRCA1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "APC",
+      "FNTA"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ARID1A",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ATM",
+      "BRCA2"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ATM",
+      "BRD4"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ATM",
+      "IGF1R"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ATM",
+      "TOP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "BRCA2"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "BRD4"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "CDK9"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "FNTA"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "JAK2"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "KDM5C"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "KIT"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "MTOR"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "PBRM1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "PIK3CA"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA1",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA2",
+      "CHEK1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA2",
+      "FNTA"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA2",
+      "RRM2"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRCA2",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRD4",
+      "CHEK1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRD4",
+      "FNTA"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRD4",
+      "HDAC1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BRD4",
+      "MTOR"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "BTK",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CDK4",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CDK9",
+      "FNTA"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CDK9",
+      "PARP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "HDAC1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "KDM5C"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "MAP3K1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "PBRM1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "SMARCB1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "CHEK1",
+      "SRC"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "ERBB2",
+      "TOP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "FGFR2",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "FNTA",
+      "PARP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "FNTA",
+      "PRKDC"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "FNTA",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "HDAC1",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "HDAC2",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "IGF1R",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "KDM5C",
+      "MTOR"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "KDM5C",
+      "PIK3R1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "MTOR",
+      "PBRM1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "PARP1",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "PBRM1",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "PIK3R1",
+      "TOP1"
+    ],
+    "common_constructs": 0
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "PTEN",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "RRM2",
+      "TOP1"
+    ],
+    "common_constructs": 1
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "SETD2",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "SMAD4",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  },
+  {
+    "cell_line": "293T",
+    "pair": [
+      "SMARCB1",
+      "TOP1"
+    ],
+    "common_constructs": 2
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "checks": [
+    {
+      "cell_line": "HeLa",
+      "model": "M0",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "HeLa",
+      "model": "rank1_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "HeLa",
+      "model": "spectral_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "A549",
+      "model": "M0",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "A549",
+      "model": "rank1_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "A549",
+      "model": "spectral_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "293T",
+      "model": "M0",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "293T",
+      "model": "rank1_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    },
+    {
+      "cell_line": "293T",
+      "model": "spectral_selected",
+      "maximum_difference": 0.0,
+      "pass_tolerance": true
+    }
+  ],
+  "all_passed": true,
+  "scope": "Numerical reproducibility, not independent biological evidence"
+}

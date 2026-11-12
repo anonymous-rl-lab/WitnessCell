@@ -1,0 +1,7 @@
+reference,tasks,physical_anchors,mean_regret,median_regret,hits,RG_wins,RG_ties,RG_losses,RG_same_choice
+R_G,28,8,0.006197428732470987,0.0,19,0,28,0,28
+StandardRidge_RNA,28,8,0.0065912780035754705,0.0,18,1,27,0,27
+Scouter_Ensemble,28,8,0.006622939732709714,0.0,17,2,26,0,26
+GEARS_Ensemble,28,8,0.010258303143084046,0.0,18,6,17,5,17
+SingleB_additive,28,8,0.012219919413165938,0.0,18,5,20,3,20
+PRESAGE_Combo_seed24,28,8,0.006197428732470987,0.0,19,0,28,0,28

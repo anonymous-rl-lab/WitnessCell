@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "tables": [
+    {
+      "file": "DECISIONS.csv",
+      "rows": 55,
+      "exact_dataframe_match": true
+    },
+    {
+      "file": "FOUR_ARM_SCORES.csv",
+      "rows": 220,
+      "exact_dataframe_match": true
+    },
+    {
+      "file": "REPEAT_DECISIONS.csv",
+      "rows": 110,
+      "exact_dataframe_match": true
+    },
+    {
+      "file": "REPEAT_SCORES.csv",
+      "rows": 990,
+      "exact_dataframe_match": true
+    },
+    {
+      "file": "QUERY_PANEL_SCORES.csv",
+      "rows": 220,
+      "exact_dataframe_match": true
+    },
+    {
+      "file": "RNA_FOUR_ARM_SCORES.csv",
+      "rows": 1060,
+      "exact_dataframe_match": true
+    }
+  ],
+  "scope": "fresh-directory scalar fitting, scoring and interface replay; no biological response-model retraining"
+}

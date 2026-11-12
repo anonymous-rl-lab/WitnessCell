@@ -1,0 +1,243 @@
+WITNESSCELL V20 — WORK B: INDEPENDENT RNA SOURCE QUALIFICATION
+Prepared 2026-10-19. Scope: source qualification and frozen preprocessing only.
+No predictor was fitted or evaluated by this source-preparation workstream.
+
+DECISION
+
+The locked primary source is Dixit et al. (2016), GEO GSE90063, sample
+GSM2396860, K562 TFs at high MOI. It supplies all 45 unordered pairs of ten
+target transcription factors, measured single perturbations, and both one-
+guide and two-guide intergenic controls. All 45 pairs pass the frozen minimum
+of 20 cells per disjoint half; the observed minimum is 30. Prepared compact
+inputs are ready for the separately frozen model evaluation.
+
+This is a source-independent, retrospective public-data confirmation of a
+learning rule. It is not prospective validation, an independent biological
+replication within this dataset, or transfer of previously fitted weights.
+Root's audit of supplied grn_repo_v23 experimental code/data text and v19
+sources found no references to Dixit, GSE90063, or GSM2396860. This establishes
+no recorded development use in the available assets, not an assertion about
+unrecorded author exposure. The primary source was selected from metadata,
+coverage, accessibility, and label geometry before expression aggregation or
+prediction scoring. It must not be replaced according to model results.
+
+1. PRIMARY PUBLIC SOURCES AND EXPERIMENT
+
+Dixit et al., Perturb-Seq: Dissecting Molecular Circuits with Scalable
+Single-Cell RNA Profiling of Pooled Genetic Screens. Cell 167 (2016),
+1853–1866.e17. DOI: https://doi.org/10.1016/j.cell.2016.11.038
+Primary full text: https://pmc.ncbi.nlm.nih.gov/articles/PMC5181115/
+Study: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE90063
+Sample: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2396860
+Files: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2396nnn/GSM2396860/suppl/
+
+The primary Methods describe Cas9-expressing K562 cells, pooled lentiviral
+guide delivery, and 10x Chromium RNA profiling. This is a Cas9 perturbation
+experiment, not a CRISPRi experiment. Methods and GEO sample metadata specify
+13 days after transduction for the later TF time point. Figure 6 describes
+the later time point as 14 days, and barcode suffixes retain the original
+ph14d names. We use the deposited sample identifier and report 13 days per
+Methods/GEO, preserving source labels verbatim.
+
+Eleven suffixes occur in the chosen sample's cell barcodes. The Methods
+describe loading multiple Chromium channels, but no retrieved primary
+annotation maps those eleven suffixes to independently grown biological
+replicates. They are therefore used only as capture strata. We do not assert
+that they are eleven independent cultures, nor infer biological replication
+from the suffixes. Disjoint cell halves are sampling splits of this sample.
+
+Access: the GEO files are publicly downloadable without credentials. No
+dataset-specific Creative Commons license was identified in the retrieved
+GEO record; no CC license is imputed. Preserve the study attribution and
+public source URLs when redistributing derived summaries. The working copy
+of the publisher/PMC article is for source verification, not part of the
+redistributed computational data package.
+
+2. WHAT WAS COUNTED FROM THE SOURCE LABELS
+
+The deposited expression axis has 23,529 rows and 51,898 cells. The strict
+guide-to-cell dictionary assigns at least one guide to 50,453 of these cells;
+none of its labeled cells fall outside the expression axis. The remaining
+1,445 RNA cells have no strict assignment and are excluded.
+
+The guide dictionary contains 30 guide identities: active guides for ten TFs
+and four intergenic controls. Eligibility is defined by guide identities,
+not by collapsing arbitrary multi-guide cells into a gene-pair label:
+
+* A double perturbation has exactly two guides targeting two different TFs.
+* A single perturbation has exactly one guide targeting one TF.
+* The one-guide control has exactly one intergenic guide.
+* The two-guide control has exactly two intergenic guides.
+* Active-plus-intergenic cells, two guides to the same TF, three or more
+  guides, and unassigned cells are excluded.
+
+The only additional expression-based exclusion permitted by the freeze was
+total library UMI equal to zero. No otherwise-eligible cell had zero UMI.
+No expression threshold, mitochondrial percentage, HVG, DE test, or observed
+treatment effect was used to choose cells, genes, combinations, or folds.
+
+Final counts:
+  Target TFs                         10
+  Distinct exact double TF pairs     45
+  Cells in those double pairs        6,591
+  Cells per double pair              62–353
+  Exact single-TF cells              28,365
+  One-intergenic-guide controls      8,802
+  Two-intergenic-guide controls      310
+  Total included cells               44,068
+  Minimum cells per double half      30
+
+Singles and unique source ENSG IDs:
+  CREB1  ENSG00000118260   3,582 cells
+  E2F4   ENSG00000205250   2,132 cells
+  EGR1   ENSG00000120738   2,896 cells
+  ELF1   ENSG00000120690   5,557 cells
+  ELK1   ENSG00000126767   3,421 cells
+  ETS1   ENSG00000134954   2,218 cells
+  GABPA  ENSG00000154727   2,453 cells
+  IRF1   ENSG00000125347   1,741 cells
+  NR2C2  ENSG00000177463   2,416 cells
+  YY1    ENSG00000100811   1,949 cells
+
+All 23,529 ENSG IDs are unique. The source gene-symbol column has 34 repeated
+symbols, so symbols are retained as annotation and never used to merge
+expression rows. All ten target TFs have unique source IDs. The primary
+shared non-target mask removes these ten IDs from every query, leaving
+23,519 readout coordinates.
+
+3. LABEL-ONLY FOLDS AND THE ACTUAL INFERENTIAL SCALE
+
+The locked three-fold split is the existing sorted-TF round-robin
+one-factorization of the complete ten-gene graph, grouped into three
+consecutive sets of three perfect matchings. Each outer fold contains 15
+held-out pairs and 30 training pairs; all guides, cells, captures, and halves
+of a pair remain together. The exact CSV is
+Dixit_labels_only_threefold_candidate.csv, whose historical filename is
+retained despite its adoption as the locked split.
+
+In each held-out fold every gene has degree three, the unsigned endpoint
+incidence matrix has rank ten, and the endpoint-orthogonal evaluation space
+has dimension five. There are three complete rectangles per fold. Thus the
+three folds provide 15 endpoint-orthogonal dimensions in total, not thousands
+of independent cell- or readout-level replicates. The panel has only ten
+perturbed genes. Fold, node, and readout sensitivity analyses in the locked
+protocol are necessary to describe this scope; a favorable result cannot by
+itself establish broad universality or biological-repeat uncertainty.
+
+4. FROZEN PREPROCESSING AND DATA INTERFACE
+
+Freeze: FROZEN_PROTOCOL_v1.txt, 2026-10-19 10:10:16.522 UTC.
+Freeze receipt: PROTOCOL_FREEZE_RECEIPT.json.
+
+Each source UMI count is converted per cell to
+  log1p(10000 * UMI / total_library_UMI),
+then averaged arithmetically within condition and cell half. Full and half
+means are float64; unbiased per-condition sample variances include implicit
+zeros. This is a declared normalized expression scale, not raw-count means.
+All 23,529 source gene coordinates are retained.
+
+Within each condition and capture suffix, cells are sorted by SHA256 of
+20261019|cell_half|condition|capture|barcode and divided into disjoint halves.
+An odd leftover is assigned deterministically by the hash of the condition
+and capture. Each capture contributes as evenly as possible to the halves.
+This creates sampling halves, not biological replicates.
+
+The raw compact file contains 57 conditions: two control multiplicities,
+ten singles, and 45 pairs. Raw count-weighted half means reconstruct full
+means with maximum absolute error 1.7763568394002505e-15.
+
+The ready compact file contains 56 conditions: control (the two-guide
+control), ten singles, and 45 pairs. Single full means are rebased to the
+two-guide control reference:
+  ready_single = raw_single - one_guide_control + two_guide_control.
+The same formula is applied separately using the corresponding controls
+within each half, exactly as specified in the frozen protocol. Full means
+and double-perturbation half means are unaffected by the implementation
+correction described below.
+
+The two-guide control and exactly-two-active-guide queries therefore share
+guide multiplicity in the prediction reference, while single effects use
+the matched one-guide control. This controls that defined reference mismatch;
+it is not a claim that every guide-delivery or sample-selection confound has
+been eliminated.
+
+Important implementation correction before any prediction fit or score:
+the originally hashed script added the full-control difference to both
+single halves, contrary to the already frozen prose. The discrepancy was
+identified and corrected to half-specific controls at 10:15:14 UTC. The old
+script and old manifest are retained. IMPLEMENTATION_CORRECTION.json records
+old/new hashes and the unchanged protocol hash. Raw source aggregation was
+not repeated or changed. Ready single half means need not count-weight-
+reconstruct the ready full mean because half-count fractions differ between
+conditions; the maximum difference, 0.0008605780223616133, is explicitly
+recorded, not mislabeled as an exact reconstruction. The frozen G/R inputs
+use full singles and double halves, both unchanged by this correction.
+
+Prepared files:
+  Dixit_external_raw_compact.npz       raw controls/singles/pairs and halves
+  Dixit_external_ready_compact.npz     model-ready frozen inputs
+  Dixit_cell_assignment_frozen.csv.gz  cell, capture, condition, half, UMI, guides
+  Dixit_gene_axis.csv                 source IDs, symbols, shared target mask
+  Dixit_preprocessing_manifest.json   counts, source and output hashes, rules
+  Dixit_interface_QC.json             dimensions, uniqueness, reconstruction
+  prepare_dixit_frozen_inputs.py       corrected reproducible streaming code
+  historical_prepare_v1.py            original freeze-receipt script bytes
+  IMPLEMENTATION_CORRECTION.json      transparent pre-score correction chain
+
+5. DOWNLOAD SIZE, COST, AND PACKAGING
+
+Source MTX gzip: 435,376,422 bytes; SHA256
+cd9abbbe4dd080803440467945a1c93ebceba9c7601d087ed1a7c63c0902635f.
+Its matrix shape is 23,529 x 51,898 with 154,803,161 nonzero entries.
+Observed download time was 11.08 seconds. The two-pass streaming summary
+completed in 116.30 seconds in this environment, without a dense gene-by-cell
+allocation. Timing is an observed local cost, not a runtime guarantee.
+
+The raw and ready condition summaries are about 24–25 MB each. Reproducing
+the frozen prediction evaluation requires these sufficient summaries, gene
+axis, pair splits, protocol, code, and receipts. Reproducing preprocessing
+from original cells additionally requires re-downloading the public matrix
+and the three small axis/strict-label files using their recorded hashes.
+The original 435 MB matrix, failed-download fragments, full-paper working
+copies, temporary R parsers, and backup RDS/pickle caches should not enter the
+compact total code package.
+
+6. BOUNDED BACKUP QUALIFICATION: DLD1
+
+Backup source: Yeung, Tan et al. (2026), Joint analysis of multiply perturbed
+cells improves statistical power and cost efficiency in Perturb-seq.
+Primary DOI: https://doi.org/10.64898/2026.07.10.737863
+GEO: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE337988
+Author code: https://github.com/Genentech/perturbmatch_analysis
+The author repository specifies MIT for code and CC BY 4.0 for its data.
+
+One already processed MOI=0.5 pilot object was inspected only for metadata.
+The downloaded RDS is 87,837,271 bytes and identifies an associated H5 assay
+file; no H5 was downloaded. Its 17,671 cells all carry Biological_replicate=1.
+Four sample identifiers ending rep1–rep4 therefore cannot be promoted to
+four independent biological replicates.
+
+The released assignment.fishash field is promoter-identity level, not raw
+guide-index level. Exactly two different active promoter identities yield
+889 promoter pairs and 3,284 cells. Only 30 pairs have at least ten cells;
+none have twenty or forty. There are 45 single-promoter conditions with
+11,229 cells and 609 NTC-only cells. These are our label counts, not model
+results. This inspected object cannot satisfy the frozen requirement of
+two disjoint halves of at least twenty cells per pair. Promoters were not
+collapsed to genes and other MOIs were not pooled to manufacture eligibility.
+No new backup downloads were pursued after that bounded qualification.
+
+The backup remains an availability record, not a qualified replacement
+confirmation panel. A failed or underpowered Dixit evaluation must be
+reported at its actual evidence level instead of triggering a search for a
+dataset on which the model succeeds.
+
+7. HANDOFF LIMIT
+
+This workstream has checked source identity, actual double perturbations,
+guide multiplicity, gene IDs, cell coverage, fold geometry, normalization,
+sampling-half assignment, and exact raw mean reconstruction. It has not
+computed prediction accuracy, interaction magnitude, program performance,
+or any other test-outcome metric. Success or failure of the frozen scientific
+test belongs to the separate model-evaluation workstream and must be reported
+regardless of direction.

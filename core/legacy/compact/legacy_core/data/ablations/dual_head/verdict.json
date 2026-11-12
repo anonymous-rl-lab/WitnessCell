@@ -1,0 +1,19 @@
+{
+  "archives": 12,
+  "condition_seed_units": 654,
+  "contract": "same conditions, truth panels and frozen v1 predictions; paired v2-v1 comparison",
+  "overall": {
+    "all_gene_mse_v1": 0.003258736059840293,
+    "all_gene_mse_v2": 0.003094006287189992,
+    "condition_seed_units": 654,
+    "relative_all_gene_mse_gain": 0.05055020401326216,
+    "relative_top100_mse_gain": 0.09158277275778803,
+    "scope": "all",
+    "top100_mse_v1": 0.05194849019384439,
+    "top100_mse_v2": 0.04719090342131136,
+    "top100_pcc_delta": 0.08226608067063927,
+    "top100_pcc_v1": 0.7053412839192322,
+    "top100_pcc_v2": 0.7876073645898714
+  },
+  "status": "PASS_PAIRED_ENDPOINT_UPGRADE_DIRECTIONAL_AUDIT"
+}

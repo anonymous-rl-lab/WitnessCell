@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "assertions": 3040,
+  "dense_local_fits": 6,
+  "candidate_branches": 244,
+  "policy_updates": 24,
+  "max_absolute_difference": 1.2434497875801753e-14,
+  "calibrated_gains": {
+    "no_acquire": {
+      "partner": 0.05620735750915795,
+      "AB": 0.2912374852832579,
+      "full": 0.17348236522135208
+    },
+    "uniform_expected": {
+      "partner": 0.046832397199987996,
+      "AB": 0.22521095225460475,
+      "full": 0.13688485555697816
+    },
+    "target": {
+      "partner": -5.1183209814231745e-05,
+      "AB": 0.1106535104443771,
+      "full": 0.08142243311288833
+    },
+    "uncertainty": {
+      "partner": 0.012668898826296071,
+      "AB": -0.24794259500776472,
+      "full": 0.009569916534083789
+    }
+  },
+  "checks": {
+    "partner_vs_uniform_5pct": false,
+    "AB_vs_uniform_positive": true,
+    "AB_vs_none_positive": true,
+    "partner_vs_uniform_positive_each": true,
+    "partner_vs_none_positive": true
+  },
+  "run_outer_smoke": false,
+  "joint_positive_mean": 3,
+  "joint_positive_both_repeats": 2,
+  "outer_outcome_files_opened": false,
+  "access_log_counts": {
+    "freeze.json": 60,
+    "predict_calibration.json": 55,
+    "score_calibration.json": 61,
+    "select.json": 74
+  },
+  "access_interpretation": "Freeze copied calibration query bytes as custodian; numeric select/reveal phases read no query arrays; no outer outcomes or outer access attempts. Whole-target LOO is verified by donor dependencies, not by pretending all donor pools were unopened.",
+  "scope": "Independent normal equations, matrix fractional powers, selection, calibration prediction, random risk, decomposition and gate; no background refit or outer outcomes"
+}

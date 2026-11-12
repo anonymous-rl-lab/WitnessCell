@@ -1,0 +1,766 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "main_all_numeric_tokens_unchanged",
+      "pass": true,
+      "detail": {
+        "added": [],
+        "removed": []
+      }
+    },
+    {
+      "check": "all_markdown_table_rows_match_header",
+      "pass": true,
+      "detail": 837
+    },
+    {
+      "check": "57_numbered_SI_tables",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "24_numbered_SI_notes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_1",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_2",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_3",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_4",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_6",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_7",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_8",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_9",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_10",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_11",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_12",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_13",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_14",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_15",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_16",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_17",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_18",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_19",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_20",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_21",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_22",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_23",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "contents_title_24",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supplementary_legends_exactly_synchronized",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S35_points_to_S7ef",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "S42_is_three_columns",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/requirements.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/witnesscell_predict.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/example_input.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/test_interface.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/test_growth_interface.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/witnesscell_growth.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "interface_path_software/growth_example_input.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "base_path_RIGHTS_AND_RELEASE.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "base_path_core/paper/RIGHTS_AND_RELEASE.md",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "base_path_core/legacy/tools/reproduce.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_The identity identifies",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_establishing its added predictive value",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_existing Han saturation reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_the preserved Jurkat example",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_The main figure uses ACTR10.",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_The new analysis fixes",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "removed_editorial_phrase_The new native experiment",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Fig4c_explicit_reference",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "current_code_companion",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unchanged_scientific_code_or_plan_ANALYSIS_PLAN.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unchanged_scientific_code_or_plan_code/analyze_v40.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unchanged_scientific_code_or_plan_code/validate_v40.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "unchanged_scientific_code_or_plan_code/refit_saturation.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all_scientific_assets_byte_identical",
+      "pass": true,
+      "detail": 91
+    },
+    {
+      "check": "main_figure_1_byte_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main_figure_2_byte_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main_figure_3_byte_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main_figure_5_byte_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_editorial_placeholders",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "unchanged_assets": [
+    {
+      "path": "inputs/V39_MATCHED_REFERENCE_POOLED.csv",
+      "unchanged": true,
+      "sha256": "e1a5ee1bd420f7401502016a468c29b2e9902803304d3ca48c75dc39cbbbc0a9"
+    },
+    {
+      "path": "inputs/K562_high_fold1/training.npz",
+      "unchanged": true,
+      "sha256": "26a650dec02a528b46681e9fdb762de60b1f29fd4faefbc76e51634634fdc6b8"
+    },
+    {
+      "path": "inputs/K562_high_fold1/original.npz",
+      "unchanged": true,
+      "sha256": "d62308baa1d30e3f3f313f0cc109d3b92625cfa8b24646aafa38983f469c90b7"
+    },
+    {
+      "path": "inputs/K562_high_fold1/rank1_model.json",
+      "unchanged": true,
+      "sha256": "2ae43d25db5b770da2ddb1068f47e86e94514abd591370290c18e7aa56933818"
+    },
+    {
+      "path": "inputs/K562_high_fold1/spectral_model.json",
+      "unchanged": true,
+      "sha256": "89a9f3652c5634bed540bf3cf35cbad7a53419a459bc5a6d294ebbe3397d9e3f"
+    },
+    {
+      "path": "inputs/K562_high_fold1/outcomes.npz",
+      "unchanged": true,
+      "sha256": "87b58701f04c99635c6693c0827abf126039ff6ac2ce1cc05091397057fd213c"
+    },
+    {
+      "path": "inputs/K562_high_fold1/selection.json",
+      "unchanged": true,
+      "sha256": "9f619ef092d5d5ae90c53b853bb89638809e704b96b9082877a237f9059a1ca8"
+    },
+    {
+      "path": "inputs/K562_high_fold1/M0_models.json",
+      "unchanged": true,
+      "sha256": "048c4164a5b1cb9b321c76c302b332bb8b6cf1d3a66aeb52970d455e7a2c80f0"
+    },
+    {
+      "path": "inputs/K562_high_fold0/training.npz",
+      "unchanged": true,
+      "sha256": "07d77609f7ea694535dc9050eadc6abc9aeadfd64ecc9de0570d69527b3dd625"
+    },
+    {
+      "path": "inputs/K562_high_fold0/original.npz",
+      "unchanged": true,
+      "sha256": "fb887b74ea5f87c1d01f2ae59dbb34ef44676b3df4d6d67124f43f0d85080945"
+    },
+    {
+      "path": "inputs/K562_high_fold0/rank1_model.json",
+      "unchanged": true,
+      "sha256": "08e14f72a32d04b8d01ae8ab4fd04247c47a47cbd19b0f5537ff471a3a951893"
+    },
+    {
+      "path": "inputs/K562_high_fold0/spectral_model.json",
+      "unchanged": true,
+      "sha256": "61707caba5eeada1a4d5e5e3b733b69d0c184a7e80b83ca9cdec94a1ae37e44f"
+    },
+    {
+      "path": "inputs/K562_high_fold0/outcomes.npz",
+      "unchanged": true,
+      "sha256": "1c6c51d19f6e2b36c390bbb5c9fd4293f487151e010da50f3969b42da588e8b9"
+    },
+    {
+      "path": "inputs/K562_high_fold0/selection.json",
+      "unchanged": true,
+      "sha256": "5608d10d7e818998f1220b0fa0cb1b316a14992d027feece2d2a8d92ac062b3c"
+    },
+    {
+      "path": "inputs/K562_high_fold0/M0_models.json",
+      "unchanged": true,
+      "sha256": "d6a008ebf76abc9749bd8fc72e3f6d69e1ac12c73bf86791958ac525c5a06a5c"
+    },
+    {
+      "path": "inputs/K562_high_fold2/training.npz",
+      "unchanged": true,
+      "sha256": "4a57d88806bd741471a1110a84055c088c640334db91ec73e4788ac0218ea8a8"
+    },
+    {
+      "path": "inputs/K562_high_fold2/original.npz",
+      "unchanged": true,
+      "sha256": "fbb0f11affd66a3771adc6b5e790a9df63678ca1bfe64733b865f49d41309bf1"
+    },
+    {
+      "path": "inputs/K562_high_fold2/rank1_model.json",
+      "unchanged": true,
+      "sha256": "d05f70934f02797f4229438e354d17c0eeab97902359f10fcf32579ddd390c1c"
+    },
+    {
+      "path": "inputs/K562_high_fold2/spectral_model.json",
+      "unchanged": true,
+      "sha256": "6828713d1668501ac372123b135f4d907029d5411b5825b4f476487b8c0634e0"
+    },
+    {
+      "path": "inputs/K562_high_fold2/outcomes.npz",
+      "unchanged": true,
+      "sha256": "80545f59aaeff592071fc0f87ea8237411297ddad9ee918303b549be8fc06742"
+    },
+    {
+      "path": "inputs/K562_high_fold2/selection.json",
+      "unchanged": true,
+      "sha256": "ff0eb5f70d9b9bdba34c9cf70157d6b184dc962704e7d6dbb0dfb786ccffd041"
+    },
+    {
+      "path": "inputs/K562_high_fold2/M0_models.json",
+      "unchanged": true,
+      "sha256": "334556599f9a0498bbdd7c85c4ae7b732280e096b7c3b4bd55a6c5109880c6f1"
+    },
+    {
+      "path": "inputs/Jurkat_high/training.npz",
+      "unchanged": true,
+      "sha256": "770c183773af58768f3fe9625fd8278f3be7131e1afa5ebed37c530546398e1c"
+    },
+    {
+      "path": "inputs/Jurkat_high/original.npz",
+      "unchanged": true,
+      "sha256": "9de7e108c9d98d691a864770fcf947d3f796276cb047ba8c47718e03cbe4b043"
+    },
+    {
+      "path": "inputs/Jurkat_high/rank1_model.json",
+      "unchanged": true,
+      "sha256": "48783485df5e030e6cfc43888d9058c6b7a257909155bf38bebb0c1c2f08b815"
+    },
+    {
+      "path": "inputs/Jurkat_high/spectral_model.json",
+      "unchanged": true,
+      "sha256": "324d9fa7b0c3008787cbf86a315fcfdee0cccdb145cb86ac9ae6c894d25e3fa3"
+    },
+    {
+      "path": "inputs/Jurkat_high/outcomes.npz",
+      "unchanged": true,
+      "sha256": "13efbad16ccd4b5ff4a8f71446156734a11cacf7fd7cc92d15300b25e20d3d5b"
+    },
+    {
+      "path": "inputs/Jurkat_high/selection.json",
+      "unchanged": true,
+      "sha256": "bc37c2fbc95175083f1b3e40ddef4fd9f85ec789fff861808622d9d5d7f9f15a"
+    },
+    {
+      "path": "inputs/Jurkat_high/M0_models.json",
+      "unchanged": true,
+      "sha256": "4745f8189aecf5496ba7b3227ba0ad66579b518f36f78151f5f4b93e688b7e33"
+    },
+    {
+      "path": "fitted/K562_high_fold1/inner0_baseline.json",
+      "unchanged": true,
+      "sha256": "45f7a1139c6da3ace1433ae41fff0a38421e948845e9fcdffd3b5af8618b93da"
+    },
+    {
+      "path": "fitted/K562_high_fold1/rank1_fit.json",
+      "unchanged": true,
+      "sha256": "53e03612a7259c72220496267115e4e469fa54e36523e62c720bfa459135c8e6"
+    },
+    {
+      "path": "fitted/K562_high_fold1/inner1_baseline.json",
+      "unchanged": true,
+      "sha256": "9caa3cc269c8daa7e0e7ae0eb8b3a0d714406431e79678df8a591421ea123e32"
+    },
+    {
+      "path": "fitted/K562_high_fold1/inner2_baseline.json",
+      "unchanged": true,
+      "sha256": "4d0724087226de0ebc1469686d2b7a43f949a21bfadc393c76144aea7882f696"
+    },
+    {
+      "path": "fitted/K562_high_fold1/INNER_GRID.json",
+      "unchanged": true,
+      "sha256": "d5ba5532ea45ffc2de9d4875775216de346c5bd641a7471711a8cf0d7a1be6eb"
+    },
+    {
+      "path": "fitted/K562_high_fold1/SELECTION.json",
+      "unchanged": true,
+      "sha256": "314c1dda5ab75367d2af3b558e216ba78ab193d2c262e6ef98220c727cc31248"
+    },
+    {
+      "path": "fitted/K562_high_fold1/LOCK.json",
+      "unchanged": true,
+      "sha256": "063f514d2c03679192bdc14138ea8c8aa424d67befd53b7f378fd4a69623d01c"
+    },
+    {
+      "path": "fitted/K562_high_fold1/PREDICTIONS.npz",
+      "unchanged": true,
+      "sha256": "a6382e3e9a1f75a4a7bc0b0052dbfec1d2a4043687f622e5d07da8a06e0b31f2"
+    },
+    {
+      "path": "fitted/K562_high_fold1/baseline.json",
+      "unchanged": true,
+      "sha256": "062824cf6b8d91fa8fc8eca38727f035e54135f25276d76363bb3fe47beaa4d0"
+    },
+    {
+      "path": "fitted/K562_high_fold1/spectral_fit.json",
+      "unchanged": true,
+      "sha256": "c3ed9aa2a5476e653c4ead0865ac6688290d13eb7f943493f37a04f36a66f033"
+    },
+    {
+      "path": "fitted/K562_high_fold0/inner0_baseline.json",
+      "unchanged": true,
+      "sha256": "224fd3a8a266da6bebc6e9f84e463ed8269338e419624b4b7ee1da24ebfceea4"
+    },
+    {
+      "path": "fitted/K562_high_fold0/rank1_fit.json",
+      "unchanged": true,
+      "sha256": "570fdcaf07c37adcc21eefb8b258e49d8bda42e32b6018656115db901afd51b5"
+    },
+    {
+      "path": "fitted/K562_high_fold0/inner1_baseline.json",
+      "unchanged": true,
+      "sha256": "94389f75ae438de8a6922792c8eae347641843eada3c5b338501c2a96b9edd6f"
+    },
+    {
+      "path": "fitted/K562_high_fold0/inner2_baseline.json",
+      "unchanged": true,
+      "sha256": "b49c064b7a809fe8b73425e423c16963830ecbe0df0f6756a3a84e74a2299ee4"
+    },
+    {
+      "path": "fitted/K562_high_fold0/INNER_GRID.json",
+      "unchanged": true,
+      "sha256": "b597a453372515580153ac927ff35a3cbc342b6b7de7d181e74b3a5b47b64cd1"
+    },
+    {
+      "path": "fitted/K562_high_fold0/SELECTION.json",
+      "unchanged": true,
+      "sha256": "b653e2d2809043eb72f0eff777a72320bc9160bc81f161d24a510539f40164bb"
+    },
+    {
+      "path": "fitted/K562_high_fold0/LOCK.json",
+      "unchanged": true,
+      "sha256": "b056ee0ad6b3a3cd2e77785887e1801ede64e26c8b67c1c0ac2236e006ed2955"
+    },
+    {
+      "path": "fitted/K562_high_fold0/PREDICTIONS.npz",
+      "unchanged": true,
+      "sha256": "88f10bca94ca814e94c108a55843401bd31ea49a2701661673fc72ee56ed6729"
+    },
+    {
+      "path": "fitted/K562_high_fold0/baseline.json",
+      "unchanged": true,
+      "sha256": "60b2173153d81263e2fb9cfba8130060e84ee72652925428aea9f45ae01af07b"
+    },
+    {
+      "path": "fitted/K562_high_fold0/spectral_fit.json",
+      "unchanged": true,
+      "sha256": "537dcf2033109e2f53b56bb2f54e816c2d2249b2fd5941ef9e0ad357201d9b17"
+    },
+    {
+      "path": "fitted/K562_high_fold2/inner0_baseline.json",
+      "unchanged": true,
+      "sha256": "3f64435299f7b9603ee5a4d34fa94e8bdf0f8f9ec10096e14d2d372814abc759"
+    },
+    {
+      "path": "fitted/K562_high_fold2/rank1_fit.json",
+      "unchanged": true,
+      "sha256": "edd318eb0051b46cfc7d3a77fd50c6d242cd9c8528d1a3cb01a70d2045bd3ce8"
+    },
+    {
+      "path": "fitted/K562_high_fold2/inner1_baseline.json",
+      "unchanged": true,
+      "sha256": "0e0baf87cb6768faa060df66fdd9447a497f982be0415a6ff292b65c8189199c"
+    },
+    {
+      "path": "fitted/K562_high_fold2/inner2_baseline.json",
+      "unchanged": true,
+      "sha256": "0e1bd9d8de22c43490d07b1d76f8bdadbc9694b1974195dec59a60885d32f1ff"
+    },
+    {
+      "path": "fitted/K562_high_fold2/INNER_GRID.json",
+      "unchanged": true,
+      "sha256": "4d8bd560eaa9235bee8e2684af9a0d0b779a8fb5f19710c903a24be0d415b539"
+    },
+    {
+      "path": "fitted/K562_high_fold2/SELECTION.json",
+      "unchanged": true,
+      "sha256": "497ea5ad9418302fe3e2abe030d0f90913dff0b18c02963fde45254a61bc19a4"
+    },
+    {
+      "path": "fitted/K562_high_fold2/LOCK.json",
+      "unchanged": true,
+      "sha256": "39cef60def913de813252a5e2e5d51e6cd61dbb1a49877e9c30a2162467259fa"
+    },
+    {
+      "path": "fitted/K562_high_fold2/PREDICTIONS.npz",
+      "unchanged": true,
+      "sha256": "4859cd022c22de981b47ff5a75f09903809a0479ebddc1b2727103b317db293f"
+    },
+    {
+      "path": "fitted/K562_high_fold2/baseline.json",
+      "unchanged": true,
+      "sha256": "19ce3560e70fd33f311c6899e7e7e40358416aacb949ccc22532f559fabe90f2"
+    },
+    {
+      "path": "fitted/K562_high_fold2/spectral_fit.json",
+      "unchanged": true,
+      "sha256": "d14e11567be8ced1653425dde6d159a2466fcee92086c6f96cc2e0a4fdd4840b"
+    },
+    {
+      "path": "fitted/Jurkat_high/inner0_baseline.json",
+      "unchanged": true,
+      "sha256": "79b368b57bfca711a5280a85f5363dfcf12708d1b553a592573b8316e5c4cd4e"
+    },
+    {
+      "path": "fitted/Jurkat_high/rank1_fit.json",
+      "unchanged": true,
+      "sha256": "1eb1475a3cdeac96cb8394e3e40fee170c777cf111da103e764efb9c3b0d5c43"
+    },
+    {
+      "path": "fitted/Jurkat_high/inner1_baseline.json",
+      "unchanged": true,
+      "sha256": "69accbf8e97571a23281defe5610ce4780b1d480cb4ffc073610f80e4188cfd5"
+    },
+    {
+      "path": "fitted/Jurkat_high/inner2_baseline.json",
+      "unchanged": true,
+      "sha256": "dd397573afe14f079c2c0ce8df8230c5462ac4980ec0ddcf42001afa7d4be2eb"
+    },
+    {
+      "path": "fitted/Jurkat_high/INNER_GRID.json",
+      "unchanged": true,
+      "sha256": "f1283d97178498a9384285fa9efe8f563857d9a6e8156d3e745ec7605495838b"
+    },
+    {
+      "path": "fitted/Jurkat_high/SELECTION.json",
+      "unchanged": true,
+      "sha256": "8f905acff68a7ac7d9ec8ad061449bdb1967b0115ad3ba7ef1c102d8b8b4f391"
+    },
+    {
+      "path": "fitted/Jurkat_high/LOCK.json",
+      "unchanged": true,
+      "sha256": "e9428256191e4b5b1099344c8ef4483ed548dcee0255ecf7f02b25b3bcc75839"
+    },
+    {
+      "path": "fitted/Jurkat_high/PREDICTIONS.npz",
+      "unchanged": true,
+      "sha256": "eb71563c8c7c6053a6812f789ed0441da3db765b9a1cd7908ca6be7adfd3d342"
+    },
+    {
+      "path": "fitted/Jurkat_high/baseline.json",
+      "unchanged": true,
+      "sha256": "a4bc0b9387e379a3e4e62c53f10ca055949071519ddddcee0f52cffb25d24c98"
+    },
+    {
+      "path": "fitted/Jurkat_high/spectral_fit.json",
+      "unchanged": true,
+      "sha256": "49ce479dd9eaef8eab0174b1c718fd99ca2a566cc422ed62023edfc25745850a"
+    },
+    {
+      "path": "figure_inputs/JURKAT_FOUR_CORNERS_V28.csv",
+      "unchanged": true,
+      "sha256": "4523974c2cbe285110dc35d00b8253be9ae35bacc45f46829ae28a87bb74c4c0"
+    },
+    {
+      "path": "figure_inputs/Horlbeck_figure_metrics.csv",
+      "unchanged": true,
+      "sha256": "18f011e782cd168d84f3eaa9a5b29491e84e289c335c23f75e3e92debd6b5880"
+    },
+    {
+      "path": "figure_inputs/JURKAT_FOUR_CORNER_CONTRASTS_V28.csv",
+      "unchanged": true,
+      "sha256": "77464da4e406029ddb6866d005855d25beb92c5cfd94dcc86d7ce25f1a5c7a33"
+    },
+    {
+      "path": "figure_inputs/FOUR_ARM_BY_CONDITION.csv",
+      "unchanged": true,
+      "sha256": "d773f73e45931c109a0576de5271a309580d113e333f1ba10ec13f669a73c837"
+    },
+    {
+      "path": "figure_inputs/HAN_POOLED.csv",
+      "unchanged": true,
+      "sha256": "39ad8fc9e85baa4b7ed2c2694bb126425bae314b44d41baf8e7b958459f7c7b8"
+    },
+    {
+      "path": "figure_inputs/HAN_BY_PARTITION.csv",
+      "unchanged": true,
+      "sha256": "9f54d4f8682202e4fa36c70542c7d10408a57f74238da6e1dcfec3c53e14ab0e"
+    },
+    {
+      "path": "vendor/frozen_models.py",
+      "unchanged": true,
+      "sha256": "e40c4ea80ba3c8bb6f2d42110fcaff8bf23148ebb174c1764c23476e086846c9"
+    },
+    {
+      "path": "vendor/spectral_models.py",
+      "unchanged": true,
+      "sha256": "b0a8cd477964d664c4e5dbb398a284c12b80fafa00b1e9a5b9d7e7511a16c027"
+    },
+    {
+      "path": "results/HAN_ATTRIBUTION_POOLED.csv",
+      "unchanged": true,
+      "sha256": "0ec92913464e569dc907fabb96aa84c1b65d626c6bd30f90e49db5f906b43531"
+    },
+    {
+      "path": "results/SATURATION_SCORES.csv",
+      "unchanged": true,
+      "sha256": "3192abebeb0f2dcaf8b3fe9ca179479111431e5589fa48c7eef8ad4105e40f2f"
+    },
+    {
+      "path": "results/COMMON_REFERENCE.csv",
+      "unchanged": true,
+      "sha256": "f20183e2d99d3f697954ffdeefddba9593c4bfb53a22c550751fcc22bf807586"
+    },
+    {
+      "path": "results/SATURATION_POOLED.csv",
+      "unchanged": true,
+      "sha256": "31b4010cac37dec6d434e9fac75b4b91cb6a7a042fc596e4d92aeb06839ddc48"
+    },
+    {
+      "path": "results/HAN_DIRECTION_ATTRIBUTION.csv",
+      "unchanged": true,
+      "sha256": "d060c47d366092a18eddf33d5883e9f2c268024bbb47fbdc5d44ed5f15479611"
+    },
+    {
+      "path": "results/SATURATION_BY_REPEAT.csv",
+      "unchanged": true,
+      "sha256": "537b153e9044a026be96e041d8647a22c6d66b0d506378a6bac2106738548f7a"
+    },
+    {
+      "path": "results/MATCHED_REFERENCE_SCORES.csv",
+      "unchanged": true,
+      "sha256": "3ac9d0b5640b16865b1cff17fd0f2081a73a77913c5b61ec5129ef3e226b7d8a"
+    },
+    {
+      "path": "results/SATURATION_BY_CONFIGURATION.csv",
+      "unchanged": true,
+      "sha256": "e9f88400bf0b9e00b236ff8c19a4e920d13958e84594767e89ca308d6cb4d39c"
+    },
+    {
+      "path": "results/HAN_ATTRIBUTION_BY_REPEAT.csv",
+      "unchanged": true,
+      "sha256": "f1d36872c2b3b98487cf045a1c4e31d6f8a2fcd567a1f1300364e88f534e2981"
+    },
+    {
+      "path": "results/MATCHED_REFERENCE_POOLED.csv",
+      "unchanged": true,
+      "sha256": "e1a5ee1bd420f7401502016a468c29b2e9902803304d3ca48c75dc39cbbbc0a9"
+    },
+    {
+      "path": "results/GENE_LOADINGS.csv",
+      "unchanged": true,
+      "sha256": "d4bf2e9c7aa7782f4d06bda3bf1e31c1f15ad5c7d631fe25c09a506aa837977e"
+    },
+    {
+      "path": "results/HAN_ATTRIBUTION_BY_PARTITION.csv",
+      "unchanged": true,
+      "sha256": "2b0fb009ba3df90c758848d04b997ca6f0458017666564c603271e0da0fa08d4"
+    },
+    {
+      "path": "results/MODE_DIAGNOSTICS.csv",
+      "unchanged": true,
+      "sha256": "104a3f39630f5c0f3ba4777dd33b7c0cb25e250457a1c94e5fe6457bbb49b852"
+    },
+    {
+      "path": "results/MODULE_GAIN_ATTRIBUTION.csv",
+      "unchanged": true,
+      "sha256": "25ca88009e251977e0a8eab39161865d20dc76a13422d08937b72a42e576b493"
+    }
+  ],
+  "model_refits_this_revision": false
+}

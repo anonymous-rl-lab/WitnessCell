@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "model": "scouter",
+  "seed": 0,
+  "fold": 2,
+  "original_upstream_forward": true,
+  "maximum_absolute_difference": 0.0,
+  "weight_sha256": "2963cd598fcad00cb3172e03c4c5d590440b169235c217e83ab075f3ff385810"
+}

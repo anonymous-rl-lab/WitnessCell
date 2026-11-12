@@ -1,0 +1,31 @@
+{
+  "seed": 3,
+  "config_hash": "1dbdc841c4800308f087976f44c4e8643d1294a6855d659d0f0f4ae5b3be0b6f",
+  "alpha": 0.0,
+  "noise": 0.3,
+  "gamma": 1.0,
+  "training_singles": 10,
+  "training_combinations": 36,
+  "queries": 64,
+  "identity_restoration_seconds": 0.2688076079994062,
+  "restoration_total_seconds": 1.0266268169998511,
+  "checks": {
+    "full_prediction": {
+      "allclose": true,
+      "max_abs_error": 0.0,
+      "float32_exact": true
+    },
+    "factorized_prediction": {
+      "allclose": true,
+      "max_abs_error": 0.0,
+      "float32_exact": true
+    },
+    "shared_endpoint_additive": {
+      "allclose": true,
+      "max_abs_error": 2.384185791015625e-07,
+      "float32_exact": true
+    }
+  },
+  "state_sha256": "e68804eb962034bb023182a0d87df8d394cea3e7eae17fb6222dda557e1a4104",
+  "test_truth_decoded": false
+}

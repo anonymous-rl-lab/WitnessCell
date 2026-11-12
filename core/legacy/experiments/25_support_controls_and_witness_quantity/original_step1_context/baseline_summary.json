@@ -1,0 +1,2194 @@
+{
+  "protocol_id": "WitnessCell-step1-v1-20261017",
+  "design": "retrospective_development_and_diagnostic",
+  "aggregation": "exp(mean_over_three_seeds(log(mean_loss_WitnessCell / mean_loss_comparator)))",
+  "ratio_direction": "less than one favors WitnessCell",
+  "bootstrap": "canonical pair clusters shared across seeds and methods; S reranked and exact half quota reselected",
+  "selection": "frozen risk_S ascending; ties by protocol/dataset/pair SHA256; floor(n/2) per seed",
+  "seen2_in_S": "intersection of the full-batch S accepted set with seen2; no independent stratum reselection",
+  "loss_contract": "upstream non-target MSE and E22-weighted WMSE using E18 full-cell condition means",
+  "verification_limit": "Only two CSVs read; non-target construction and temporal score freeze are upstream responsibilities",
+  "missing_value_rule": "no candidate removal or method-specific reselection; undefined weighted losses reported",
+  "diagnostic_only": false,
+  "bootstrap_master_seed": 1729,
+  "input_inventory": [
+    {
+      "dataset": "Norman",
+      "seed": 1,
+      "query_count": 73,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed1/baseline_losses.csv",
+      "baseline_sha256": "bb31763a2e9577cecf2d22e9b6c0f69d27bc8abce889f4de5726b05d0cba96a7",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed1/frozen_query_outputs.csv",
+      "frozen_query_sha256": "e4542c1a5dbd4c4f33fa843e61b535fb6bcfa34a30e50e1ee9a05a25f00c21ff"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 2,
+      "query_count": 66,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed2/baseline_losses.csv",
+      "baseline_sha256": "6a2df176031f32a51711fe1eb6ecdb223bb042941586c46f85263435656bce14",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed2/frozen_query_outputs.csv",
+      "frozen_query_sha256": "fbdc3c9344675e721c8c3714413df3500bbc9c6a9bc821c85195fca12d67cd76"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 3,
+      "query_count": 69,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed3/baseline_losses.csv",
+      "baseline_sha256": "0623d6b3e2b1a0148ffe807d40266864fee4f46336451fe1e4eb6e5ee6796496",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Norman_seed3/frozen_query_outputs.csv",
+      "frozen_query_sha256": "4afd4034b06bdd782bf8b5d4aa66bde465d3b50bac0628875c94b6ecdc88ea02"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "query_count": 63,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed1/baseline_losses.csv",
+      "baseline_sha256": "b842efe06f82fd1c1eb7c2661225466fa72fccfa52822bae986946c9109b6879",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed1/frozen_query_outputs.csv",
+      "frozen_query_sha256": "c7dad71b1a7bcae8048d96bf874a5f8b64065abee00b2bb9caca47b4a8aced17"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "query_count": 54,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed2/baseline_losses.csv",
+      "baseline_sha256": "6b1d198bdaf76d24cded88b897ccd67e19d133c82fe929b500a9b28a82fff6cc",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed2/frozen_query_outputs.csv",
+      "frozen_query_sha256": "2364a38fb47a4628105932ee64a701d1cb30b5861e084d70e22423c2a33cc49e"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "query_count": 64,
+      "baseline_losses": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed3/baseline_losses.csv",
+      "baseline_sha256": "e84e6b743d137253f6489ef6cdbb6117bad036abed8f70e0953c022be83db240",
+      "frozen_query_outputs": "/workspace/scratch/2c1de068d91a/output/witnesscell_step1_run/results/Wessels_seed3/frozen_query_outputs.csv",
+      "frozen_query_sha256": "f0c0607ec3e9aa774d63e95f95a2b40e7f39200346328f35a6bf54fa2fb8ba3f"
+    }
+  ],
+  "summarizer_sha256": "e2eaa4ca04c0a08de052d217b4a487e42f6ed659efcc335f12662e1100219d88",
+  "datasets": {
+    "Norman": {
+      "dataset": "Norman",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "query_seed_units": 208,
+      "unique_pair_clusters": 118,
+      "bootstrap_seed": 1677340895,
+      "bootstrap_replicates": 5000,
+      "nonfinite_loss_counts": {
+        "loss_mse": {
+          "WitnessCell": 0,
+          "trainMean": 0,
+          "shared_endpoint_additive": 0,
+          "saturation_only": 0,
+          "factorized_prediction": 0
+        },
+        "loss_wmse": {
+          "WitnessCell": 0,
+          "trainMean": 0,
+          "shared_endpoint_additive": 0,
+          "saturation_only": 0,
+          "factorized_prediction": 0
+        }
+      },
+      "results": [
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.8701197542471613,
+          "gain": 0.12988024575283874,
+          "ratio_ci95": [
+            0.8304093124630241,
+            0.9069869941615007
+          ],
+          "gain_ci95": [
+            0.09301300583849924,
+            0.16959068753697593
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0026739950059194613,
+          "comparator_seed_equal_mean_loss": 0.0030675752451233933,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9438960898548608,
+          "gain": 0.05610391014513916,
+          "ratio_ci95": [
+            0.897154105303205,
+            1.0001488292229643
+          ],
+          "gain_ci95": [
+            -0.0001488292229642523,
+            0.10284589469679495
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05130426436340691,
+          "comparator_seed_equal_mean_loss": 0.05392978304818976,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9048548900730095,
+          "gain": 0.09514510992699055,
+          "ratio_ci95": [
+            0.8562758282950289,
+            0.9474622606389207
+          ],
+          "gain_ci95": [
+            0.05253773936107925,
+            0.1437241717049711
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0026739950059194613,
+          "comparator_seed_equal_mean_loss": 0.002959038586156053,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.999597989955992,
+          "gain": 0.00040201004400797213,
+          "ratio_ci95": [
+            0.9464114403963636,
+            1.0621832353548541
+          ],
+          "gain_ci95": [
+            -0.062183235354854136,
+            0.05358855960363635
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05130426436340691,
+          "comparator_seed_equal_mean_loss": 0.05131895808371675,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9354930925626624,
+          "gain": 0.06450690743733756,
+          "ratio_ci95": [
+            0.902252326798896,
+            0.9668980590906064
+          ],
+          "gain_ci95": [
+            0.03310194090939359,
+            0.09774767320110404
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0026739950059194613,
+          "comparator_seed_equal_mean_loss": 0.0028556019527570843,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9612489856535482,
+          "gain": 0.038751014346451784,
+          "ratio_ci95": [
+            0.9255622570107934,
+            0.9980816686726277
+          ],
+          "gain_ci95": [
+            0.001918331327372306,
+            0.07443774298920662
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05130426436340691,
+          "comparator_seed_equal_mean_loss": 0.05303491009147265,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9391776308370425,
+          "gain": 0.06082236916295747,
+          "ratio_ci95": [
+            0.9082869466953843,
+            0.9685183273739246
+          ],
+          "gain_ci95": [
+            0.03148167262607534,
+            0.09171305330461567
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0026739950059194613,
+          "comparator_seed_equal_mean_loss": 0.002841565302578864,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            73,
+            66,
+            69
+          ],
+          "ratio": 0.9676526595874735,
+          "gain": 0.032347340412526515,
+          "ratio_ci95": [
+            0.9377190858450837,
+            0.9997023103424978
+          ],
+          "gain_ci95": [
+            0.00029768965750219,
+            0.06228091415491633
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05130426436340691,
+          "comparator_seed_equal_mean_loss": 0.05331709362826722,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.8299269806753967,
+          "gain": 0.17007301932460328,
+          "ratio_ci95": [
+            0.7702115285624307,
+            0.9018516695503399
+          ],
+          "gain_ci95": [
+            0.09814833044966005,
+            0.22978847143756934
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002064548617012819,
+          "comparator_seed_equal_mean_loss": 0.002488641010729598,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.9777185751302636,
+          "gain": 0.022281424869736388,
+          "ratio_ci95": [
+            0.8915933443842751,
+            1.1335971027628862
+          ],
+          "gain_ci95": [
+            -0.13359710276288697,
+            0.10840665561572488
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.038664457551576645,
+          "comparator_seed_equal_mean_loss": 0.03874268289192502,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.8582333683490727,
+          "gain": 0.1417666316509273,
+          "ratio_ci95": [
+            0.797144457890918,
+            0.9275110453701971
+          ],
+          "gain_ci95": [
+            0.0724889546298028,
+            0.20285554210908197
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002064548617012819,
+          "comparator_seed_equal_mean_loss": 0.002407268487708908,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 1.0179703108735616,
+          "gain": -0.0179703108735616,
+          "ratio_ci95": [
+            0.9218868482267861,
+            1.1766730566246375
+          ],
+          "gain_ci95": [
+            -0.17667305662463756,
+            0.07811315177321385
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.038664457551576645,
+          "comparator_seed_equal_mean_loss": 0.037289965844695384,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.8981200157257807,
+          "gain": 0.10187998427421929,
+          "ratio_ci95": [
+            0.8461551516166858,
+            0.9545232733708695
+          ],
+          "gain_ci95": [
+            0.04547672662913047,
+            0.1538448483833142
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002064548617012819,
+          "comparator_seed_equal_mean_loss": 0.002297893846723791,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.9292863282288668,
+          "gain": 0.07071367177113319,
+          "ratio_ci95": [
+            0.8599797668573352,
+            1.0191741665851826
+          ],
+          "gain_ci95": [
+            -0.019174166585182506,
+            0.1400202331426647
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.038664457551576645,
+          "comparator_seed_equal_mean_loss": 0.040482543327437344,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.8983830733287584,
+          "gain": 0.10161692667124156,
+          "ratio_ci95": [
+            0.8486949328528134,
+            0.953129267996543
+          ],
+          "gain_ci95": [
+            0.04687073200345704,
+            0.15130506714718656
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002064548617012819,
+          "comparator_seed_equal_mean_loss": 0.0022917072390854494,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            36,
+            33,
+            34
+          ],
+          "ratio": 0.9392839956296641,
+          "gain": 0.06071600437033586,
+          "ratio_ci95": [
+            0.8893137469188162,
+            1.0118936199481339
+          ],
+          "gain_ci95": [
+            -0.01189361994813396,
+            0.11068625308118381
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.038664457551576645,
+          "comparator_seed_equal_mean_loss": 0.04129090581420883,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.7174819492368271,
+          "gain": 0.28251805076317293,
+          "ratio_ci95": [
+            0.5917585666614282,
+            0.9009538420404413
+          ],
+          "gain_ci95": [
+            0.09904615795955873,
+            0.4082414333385718
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.001689813587632187,
+          "comparator_seed_equal_mean_loss": 0.002385733860683733,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.9320131860375016,
+          "gain": 0.0679868139624984,
+          "ratio_ci95": [
+            0.5271992515601412,
+            1.6776587296683787
+          ],
+          "gain_ci95": [
+            -0.6776587296683783,
+            0.47280074843985886
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01747801224881349,
+          "comparator_seed_equal_mean_loss": 0.01651112692146479,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.7174819492368271,
+          "gain": 0.28251805076317293,
+          "ratio_ci95": [
+            0.5917585666614282,
+            0.9009538420404413
+          ],
+          "gain_ci95": [
+            0.09904615795955873,
+            0.4082414333385718
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.001689813587632187,
+          "comparator_seed_equal_mean_loss": 0.002385733860683733,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.9320131860375016,
+          "gain": 0.0679868139624984,
+          "ratio_ci95": [
+            0.5271992515601412,
+            1.6776587296683787
+          ],
+          "gain_ci95": [
+            -0.6776587296683783,
+            0.47280074843985886
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01747801224881349,
+          "comparator_seed_equal_mean_loss": 0.01651112692146479,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.8348319682906298,
+          "gain": 0.16516803170937022,
+          "ratio_ci95": [
+            0.698897305704332,
+            0.9988795209629198
+          ],
+          "gain_ci95": [
+            0.0011204790370803424,
+            0.3011026942956681
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.001689813587632187,
+          "comparator_seed_equal_mean_loss": 0.0020345292592487984,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.8893587613887676,
+          "gain": 0.11064123861123243,
+          "ratio_ci95": [
+            0.706747348320499,
+            1.1790367877052133
+          ],
+          "gain_ci95": [
+            -0.1790367877052132,
+            0.29325265167950093
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01747801224881349,
+          "comparator_seed_equal_mean_loss": 0.017906041966872375,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.8613657281238188,
+          "gain": 0.13863427187618116,
+          "ratio_ci95": [
+            0.7290964677425777,
+            1.0014052293206503
+          ],
+          "gain_ci95": [
+            -0.0014052293206504472,
+            0.2709035322574223
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.001689813587632187,
+          "comparator_seed_equal_mean_loss": 0.001963412219200192,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            12
+          ],
+          "ratio": 0.8727411186983349,
+          "gain": 0.12725888130166507,
+          "ratio_ci95": [
+            0.760429813597012,
+            1.1193929299008833
+          ],
+          "gain_ci95": [
+            -0.11939292990088331,
+            0.23957018640298805
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01747801224881349,
+          "comparator_seed_equal_mean_loss": 0.019500130616584604,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.7827737256272601,
+          "gain": 0.2172262743727399,
+          "ratio_ci95": [
+            0.6396455899531263,
+            0.9421778450050935
+          ],
+          "gain_ci95": [
+            0.057822154994906456,
+            0.36035441004687385
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0016543087337295502,
+          "comparator_seed_equal_mean_loss": 0.0021257070304965204,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 1.1748853499800345,
+          "gain": -0.17488534998003447,
+          "ratio_ci95": [
+            0.6841770808747779,
+            1.8352859920286855
+          ],
+          "gain_ci95": [
+            -0.8352859920286854,
+            0.3158229191252221
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01778507634184116,
+          "comparator_seed_equal_mean_loss": 0.013050244929288975,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.7827737256272601,
+          "gain": 0.2172262743727399,
+          "ratio_ci95": [
+            0.6396455899531263,
+            0.9421778450050935
+          ],
+          "gain_ci95": [
+            0.057822154994906456,
+            0.36035441004687385
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0016543087337295502,
+          "comparator_seed_equal_mean_loss": 0.0021257070304965204,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 1.1748853499800345,
+          "gain": -0.17488534998003447,
+          "ratio_ci95": [
+            0.6841770808747779,
+            1.8352859920286855
+          ],
+          "gain_ci95": [
+            -0.8352859920286854,
+            0.3158229191252221
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01778507634184116,
+          "comparator_seed_equal_mean_loss": 0.013050244929288975,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.8819057670053919,
+          "gain": 0.11809423299460808,
+          "ratio_ci95": [
+            0.7197030354689395,
+            1.0356976690171111
+          ],
+          "gain_ci95": [
+            -0.0356976690171112,
+            0.28029696453106046
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0016543087337295502,
+          "comparator_seed_equal_mean_loss": 0.0018746573437597811,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.9529096846957599,
+          "gain": 0.04709031530424013,
+          "ratio_ci95": [
+            0.7694900011462502,
+            1.2620829696694928
+          ],
+          "gain_ci95": [
+            -0.26208296966949274,
+            0.2305099988537499
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01778507634184116,
+          "comparator_seed_equal_mean_loss": 0.016666175109937356,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.8886458618837594,
+          "gain": 0.11135413811624062,
+          "ratio_ci95": [
+            0.7316452544751948,
+            1.032599440075104
+          ],
+          "gain_ci95": [
+            -0.03259944007510396,
+            0.26835474552480526
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0016543087337295502,
+          "comparator_seed_equal_mean_loss": 0.0018608063276455086,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Norman",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            11,
+            17,
+            11
+          ],
+          "ratio": 0.8808720483388371,
+          "gain": 0.11912795166116286,
+          "ratio_ci95": [
+            0.7681960320562711,
+            1.1556967399199096
+          ],
+          "gain_ci95": [
+            -0.15569673991990943,
+            0.231803967943729
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.01778507634184116,
+          "comparator_seed_equal_mean_loss": 0.019534305703553436,
+          "valid_bootstrap_replicates": 4999,
+          "invalid_bootstrap_replicates": 1,
+          "status": "undefined_values_require_review"
+        }
+      ],
+      "saturation_only_noninferiority_component": "PASS_1.05_UPPER_BOUND",
+      "scouter": {
+        "status": "PENDING",
+        "reason": "No locked condition-by-gene scouter predictions supplied"
+      },
+      "prediction_competitiveness_gate": "PENDING_SCOUTER"
+    },
+    "Wessels": {
+      "dataset": "Wessels",
+      "seeds": [
+        1,
+        2,
+        3
+      ],
+      "query_seed_units": 181,
+      "unique_pair_clusters": 106,
+      "bootstrap_seed": 476282207,
+      "bootstrap_replicates": 5000,
+      "nonfinite_loss_counts": {
+        "loss_mse": {
+          "WitnessCell": 0,
+          "trainMean": 0,
+          "shared_endpoint_additive": 0,
+          "saturation_only": 0,
+          "factorized_prediction": 0
+        },
+        "loss_wmse": {
+          "WitnessCell": 0,
+          "trainMean": 0,
+          "shared_endpoint_additive": 0,
+          "saturation_only": 0,
+          "factorized_prediction": 0
+        }
+      },
+      "results": [
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6459331200439647,
+          "gain": 0.35406687995603525,
+          "ratio_ci95": [
+            0.6036479514871775,
+            0.6859720595580006
+          ],
+          "gain_ci95": [
+            0.3140279404419995,
+            0.39635204851282246
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.003165016985814073,
+          "comparator_seed_equal_mean_loss": 0.0048067141984540745,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6975567511486306,
+          "gain": 0.3024432488513694,
+          "ratio_ci95": [
+            0.5650287908632651,
+            0.8609548329047858
+          ],
+          "gain_ci95": [
+            0.13904516709521406,
+            0.43497120913673487
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05315253387763704,
+          "comparator_seed_equal_mean_loss": 0.07126238489154589,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6459331200439647,
+          "gain": 0.35406687995603525,
+          "ratio_ci95": [
+            0.6036479514871775,
+            0.6859720595580006
+          ],
+          "gain_ci95": [
+            0.3140279404419995,
+            0.39635204851282246
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.003165016985814073,
+          "comparator_seed_equal_mean_loss": 0.0048067141984540745,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6975567511486306,
+          "gain": 0.3024432488513694,
+          "ratio_ci95": [
+            0.5650287908632651,
+            0.8609548329047858
+          ],
+          "gain_ci95": [
+            0.13904516709521406,
+            0.43497120913673487
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05315253387763704,
+          "comparator_seed_equal_mean_loss": 0.07126238489154589,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6764458838439155,
+          "gain": 0.32355411615608454,
+          "ratio_ci95": [
+            0.6318349988903726,
+            0.7179908082882966
+          ],
+          "gain_ci95": [
+            0.2820091917117033,
+            0.3681650011096274
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.003165016985814073,
+          "comparator_seed_equal_mean_loss": 0.00461110359319943,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6185446732726778,
+          "gain": 0.3814553267273222,
+          "ratio_ci95": [
+            0.5184184644901069,
+            0.7329757455477232
+          ],
+          "gain_ci95": [
+            0.2670242544522766,
+            0.4815815355098931
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05315253387763704,
+          "comparator_seed_equal_mean_loss": 0.0761560192437379,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.667496922511784,
+          "gain": 0.33250307748821595,
+          "ratio_ci95": [
+            0.6237907550314281,
+            0.708415636467277
+          ],
+          "gain_ci95": [
+            0.29158436353272305,
+            0.37620924496857183
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.003165016985814073,
+          "comparator_seed_equal_mean_loss": 0.004676942539709927,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "all_queries",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            63,
+            54,
+            64
+          ],
+          "ratio": 0.6234131870401087,
+          "gain": 0.37658681295989127,
+          "ratio_ci95": [
+            0.5228311181358611,
+            0.7389578961227589
+          ],
+          "gain_ci95": [
+            0.2610421038772411,
+            0.47716888186413875
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.05315253387763704,
+          "comparator_seed_equal_mean_loss": 0.07550787897940908,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5064225927426699,
+          "gain": 0.4935774072573301,
+          "ratio_ci95": [
+            0.45247372929410185,
+            0.5615544144622241
+          ],
+          "gain_ci95": [
+            0.43844558553777585,
+            0.5475262707058981
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002252194853084255,
+          "comparator_seed_equal_mean_loss": 0.004299574524842745,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_or_equal_mean_completed_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.6781434719170164,
+          "gain": 0.3218565280829836,
+          "ratio_ci95": [
+            0.4680819625411992,
+            1.0123187910392697
+          ],
+          "gain_ci95": [
+            -0.012318791039269727,
+            0.5319180374588007
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.03551194386469012,
+          "comparator_seed_equal_mean_loss": 0.04987266925494637,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5064225927426699,
+          "gain": 0.4935774072573301,
+          "ratio_ci95": [
+            0.45247372929410185,
+            0.5615544144622241
+          ],
+          "gain_ci95": [
+            0.43844558553777585,
+            0.5475262707058981
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002252194853084255,
+          "comparator_seed_equal_mean_loss": 0.004299574524842745,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.6781434719170164,
+          "gain": 0.3218565280829836,
+          "ratio_ci95": [
+            0.4680819625411992,
+            1.0123187910392697
+          ],
+          "gain_ci95": [
+            -0.012318791039269727,
+            0.5319180374588007
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.03551194386469012,
+          "comparator_seed_equal_mean_loss": 0.04987266925494637,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5351297889354175,
+          "gain": 0.4648702110645825,
+          "ratio_ci95": [
+            0.47234220564767754,
+            0.597152542682379
+          ],
+          "gain_ci95": [
+            0.4028474573176209,
+            0.5276577943523224
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002252194853084255,
+          "comparator_seed_equal_mean_loss": 0.004082266387178938,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5528432032545882,
+          "gain": 0.44715679674541176,
+          "ratio_ci95": [
+            0.419683190829106,
+            0.682685860437963
+          ],
+          "gain_ci95": [
+            0.31731413956203697,
+            0.580316809170894
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.03551194386469012,
+          "comparator_seed_equal_mean_loss": 0.05897716806125808,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5230423905393697,
+          "gain": 0.47695760946063026,
+          "ratio_ci95": [
+            0.46136036720157825,
+            0.5835766396118148
+          ],
+          "gain_ci95": [
+            0.41642336038818506,
+            0.5386396327984218
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.002252194853084255,
+          "comparator_seed_equal_mean_loss": 0.004178000646070187,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "S_accept_50pct",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            31,
+            27,
+            32
+          ],
+          "ratio": 0.5580372324239926,
+          "gain": 0.4419627675760074,
+          "ratio_ci95": [
+            0.42389844465032284,
+            0.6910897414780147
+          ],
+          "gain_ci95": [
+            0.30891025852198517,
+            0.5761015553496771
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.03551194386469012,
+          "comparator_seed_equal_mean_loss": 0.058471878439562884,
+          "valid_bootstrap_replicates": 5000,
+          "invalid_bootstrap_replicates": 0,
+          "status": "estimable"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40640160173267315,
+          "gain": 0.5935983982673269,
+          "ratio_ci95": [
+            0.3547294897859643,
+            0.464007473331315
+          ],
+          "gain_ci95": [
+            0.5359925266686849,
+            0.6452705102140357
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.00335786022224634,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.9449774498783227,
+          "gain": 0.05502255012167734,
+          "ratio_ci95": [
+            0.6476574877119524,
+            1.1910448459100684
+          ],
+          "gain_ci95": [
+            -0.1910448459100685,
+            0.3523425122880475
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.010160450718288591,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40640160173267315,
+          "gain": 0.5935983982673269,
+          "ratio_ci95": [
+            0.3547294897859643,
+            0.464007473331315
+          ],
+          "gain_ci95": [
+            0.5359925266686849,
+            0.6452705102140357
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.00335786022224634,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.9449774498783227,
+          "gain": 0.05502255012167734,
+          "ratio_ci95": [
+            0.6476574877119524,
+            1.1910448459100684
+          ],
+          "gain_ci95": [
+            -0.1910448459100685,
+            0.3523425122880475
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.010160450718288591,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.4110321639599458,
+          "gain": 0.5889678360400542,
+          "ratio_ci95": [
+            0.366251293918695,
+            0.4647994635301786
+          ],
+          "gain_ci95": [
+            0.5352005364698214,
+            0.633748706081305
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.0033370304366955278,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.5606454472696011,
+          "gain": 0.4393545527303989,
+          "ratio_ci95": [
+            0.44595194205801797,
+            0.6720098157198883
+          ],
+          "gain_ci95": [
+            0.3279901842801116,
+            0.5540480579419821
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.02977275261648536,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40024938052347403,
+          "gain": 0.599750619476526,
+          "ratio_ci95": [
+            0.3557465621141528,
+            0.4531249682846557
+          ],
+          "gain_ci95": [
+            0.5468750317153444,
+            0.6442534378858472
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.0034189004701757745,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_all",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.5687137002062063,
+          "gain": 0.43128629979379374,
+          "ratio_ci95": [
+            0.4592822966041526,
+            0.6652896608598328
+          ],
+          "gain_ci95": [
+            0.33471033914016723,
+            0.5407177033958473
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.02966115643606106,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40640160173267315,
+          "gain": 0.5935983982673269,
+          "ratio_ci95": [
+            0.3547294897859643,
+            0.464007473331315
+          ],
+          "gain_ci95": [
+            0.5359925266686849,
+            0.6452705102140357
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.00335786022224634,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "trainMean",
+          "baseline_definition": "measured_single_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.9449774498783227,
+          "gain": 0.05502255012167734,
+          "ratio_ci95": [
+            0.6476574877119524,
+            1.1910448459100684
+          ],
+          "gain_ci95": [
+            -0.1910448459100685,
+            0.3523425122880475
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.010160450718288591,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40640160173267315,
+          "gain": 0.5935983982673269,
+          "ratio_ci95": [
+            0.3547294897859643,
+            0.464007473331315
+          ],
+          "gain_ci95": [
+            0.5359925266686849,
+            0.6452705102140357
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.00335786022224634,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "shared_endpoint_additive",
+          "baseline_definition": "shared_endpoint_additive",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.9449774498783227,
+          "gain": 0.05502255012167734,
+          "ratio_ci95": [
+            0.6476574877119524,
+            1.1910448459100684
+          ],
+          "gain_ci95": [
+            -0.1910448459100685,
+            0.3523425122880475
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.010160450718288591,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.4110321639599458,
+          "gain": 0.5889678360400542,
+          "ratio_ci95": [
+            0.366251293918695,
+            0.4647994635301786
+          ],
+          "gain_ci95": [
+            0.5352005364698214,
+            0.633748706081305
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.0033370304366955278,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "saturation_only",
+          "baseline_definition": "saturation_only",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.5606454472696011,
+          "gain": 0.4393545527303989,
+          "ratio_ci95": [
+            0.44595194205801797,
+            0.6720098157198883
+          ],
+          "gain_ci95": [
+            0.3279901842801116,
+            0.5540480579419821
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.02977275261648536,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_mse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.40024938052347403,
+          "gain": 0.599750619476526,
+          "ratio_ci95": [
+            0.3557465621141528,
+            0.4531249682846557
+          ],
+          "gain_ci95": [
+            0.5468750317153444,
+            0.6442534378858472
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.0013566374511927244,
+          "comparator_seed_equal_mean_loss": 0.0034189004701757745,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        },
+        {
+          "dataset": "Wessels",
+          "pool": "seen2_in_S",
+          "metric": "loss_wmse",
+          "comparator": "factorized_prediction",
+          "baseline_definition": "factorized_prediction",
+          "seeds": [
+            1,
+            2,
+            3
+          ],
+          "seed_pool_counts": [
+            5,
+            9,
+            8
+          ],
+          "ratio": 0.5687137002062063,
+          "gain": 0.43128629979379374,
+          "ratio_ci95": [
+            0.4592822966041526,
+            0.6652896608598328
+          ],
+          "gain_ci95": [
+            0.33471033914016723,
+            0.5407177033958473
+          ],
+          "witnesscell_seed_equal_mean_loss": 0.012404398539491374,
+          "comparator_seed_equal_mean_loss": 0.02966115643606106,
+          "valid_bootstrap_replicates": 4963,
+          "invalid_bootstrap_replicates": 37,
+          "status": "undefined_values_require_review"
+        }
+      ],
+      "saturation_only_noninferiority_component": "PASS_1.05_UPPER_BOUND",
+      "scouter": {
+        "status": "PENDING",
+        "reason": "No locked condition-by-gene scouter predictions supplied"
+      },
+      "prediction_competitiveness_gate": "PENDING_SCOUTER"
+    }
+  },
+  "prediction_competitiveness_gate": "PENDING_SCOUTER"
+}

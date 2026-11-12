@@ -1,0 +1,801 @@
+{
+  "status": "PASS",
+  "compact_array_count": 154,
+  "all_compact_arrays_bitwise_identical": true,
+  "result_tables_byte_identical": true,
+  "standalone_inference": [
+    {
+      "fold": 0,
+      "inference_vs_selected_max_abs": 0.0,
+      "single_vs_batch_max_abs": 1.609823385706477e-15,
+      "mean_or_label_inputs_required": false,
+      "PASS": true
+    },
+    {
+      "fold": 1,
+      "inference_vs_selected_max_abs": 0.0,
+      "single_vs_batch_max_abs": 5.551115123125783e-17,
+      "mean_or_label_inputs_required": false,
+      "PASS": true
+    },
+    {
+      "fold": 2,
+      "inference_vs_selected_max_abs": 0.0,
+      "single_vs_batch_max_abs": 7.632783294297951e-17,
+      "mean_or_label_inputs_required": false,
+      "PASS": true
+    }
+  ],
+  "files": [
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "foldids",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "pairs",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "scalar_saturation",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "measured_additive",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "raw_matched",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "raw_selected",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "raw_fixed_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "raw_fixed_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "raw_fixed_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "query_matched",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "query_selected",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "query_fixed_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "query_fixed_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "query_fixed_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "global_matched",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "global_selected",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "global_fixed_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "global_fixed_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "global_fixed_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "complement_matched",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "complement_selected",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "complement_fixed_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "complement_fixed_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "complement_fixed_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "nodes",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "fit_pairs",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "complement",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "sigma",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "pi",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "alpha",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "e",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "gram",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "xt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "et",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "plus",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "pt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "ktt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "scale",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "resid",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "eig",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "V",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "c_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "c_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "c_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_0.npz",
+      "array": "beta_complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "nodes",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "fit_pairs",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "complement",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "sigma",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "pi",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "alpha",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "e",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "gram",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "xt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "et",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "plus",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "pt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "ktt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "scale",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "resid",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "eig",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "V",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "c_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "c_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "c_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_1.npz",
+      "array": "beta_complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "nodes",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "fit_pairs",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "complement",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "sigma",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "pi",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "alpha",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "e",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "gram",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "xt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "et",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "plus",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "pt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "ktt",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "scale",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "resid",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "eig",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "V",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "c_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "c_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "c_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "FITTED_STATE_2.npz",
+      "array": "beta_complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "q",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "train",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "raw_universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "raw_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "raw_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "raw_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "query_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "query_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "query_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_0.npz",
+      "array": "complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "q",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "train",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "raw_universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "raw_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "raw_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "raw_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "query_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "query_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "query_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_1.npz",
+      "array": "complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "q",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "train",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "raw_universe",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "raw_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "raw_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "raw_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "query_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "query_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "query_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "global_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "global_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "global_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "complement_0.1",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "complement_1.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "CORRECTIONS_2.npz",
+      "array": "complement_10.0",
+      "bitwise_identical": true
+    },
+    {
+      "file": "EVALUATION_LABELS.npz",
+      "array": "truth",
+      "bitwise_identical": true
+    },
+    {
+      "file": "EVALUATION_LABELS.npz",
+      "array": "foldids",
+      "bitwise_identical": true
+    },
+    {
+      "file": "EVALUATION_LABELS.npz",
+      "array": "pairs",
+      "bitwise_identical": true
+    },
+    {
+      "file": "EVALUATION_LABELS.npz",
+      "array": "x",
+      "bitwise_identical": true
+    }
+  ]
+}

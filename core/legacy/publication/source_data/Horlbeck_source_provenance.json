@@ -1,0 +1,78 @@
+{
+  "source_package": "WitnessCell_Horlbeck_TwoStage_Repro_20261018.zip",
+  "source_package_sha256": "b60e01230f3f43f156271697fe1fdc52b6c4ce5f68b522c3664c6e4aa6ff4082",
+  "source_files": [
+    {
+      "path_in_compact_package": "stages/K562/SUMMARY.json",
+      "bytes": 48198,
+      "sha256": "1d165b41267ecc41b0059d23c304543b072f6cc22505ab4321878e1adb354adb"
+    },
+    {
+      "path_in_compact_package": "stages/Jurkat/SUMMARY.json",
+      "bytes": 13113,
+      "sha256": "7a5f50fa3b5a8e0beca0fc0f7c3493965b37808bcefe4d04914e13a87149149c"
+    },
+    {
+      "path_in_compact_package": "stages/K562/predictions_low_all_folds.npz",
+      "bytes": 67311,
+      "sha256": "11cdbfa930caad0826aa9bfccec6f1964743bb1210e548a0b9571bc4fc9e25fb"
+    },
+    {
+      "path_in_compact_package": "stages/K562/predictions_high_all_folds.npz",
+      "bytes": 67241,
+      "sha256": "ac1bac7fcf08fdf673c3727e564fac7124b906af1826f641e7f1c94e1e6d19f9"
+    },
+    {
+      "path_in_compact_package": "stages/Jurkat/results/evaluation_predictions.npz",
+      "bytes": 48381,
+      "sha256": "2e9de0cfd74a9c2012c6f6c58a33a906829f5be0991fff5b4feb1f06225d7efd"
+    },
+    {
+      "path_in_compact_package": "stages/Jurkat/results/node_reweighting_draws.npz",
+      "bytes": 223519,
+      "sha256": "9cdcb8bf118c3e0a87c913d6c4566e1f18c7a3c1c66f57602ffcb62453dc3442"
+    }
+  ],
+  "source_data": {
+    "Horlbeck_Jurkat_gene_deletion.csv": {
+      "bytes": 13642,
+      "sha256": "674e4b6aeb655d038b7105c8c01047ff61b2c75aeafdc277890e4d392a0729c0"
+    },
+    "Horlbeck_Jurkat_genes.csv": {
+      "bytes": 817,
+      "sha256": "c975c3043a65a66b3cd86d42b429910bf7bb52c66ce02635f24ba6159b9d98c9"
+    },
+    "Horlbeck_Jurkat_intervals.csv": {
+      "bytes": 402,
+      "sha256": "5a2c3f7ac77881dca80080d75359ec536cf3b529eaac1c8b0a14366063234a33"
+    },
+    "Horlbeck_Jurkat_node_reweighting.csv": {
+      "bytes": 705489,
+      "sha256": "e2fd259cb88071384521da215a1c57c273c2d3e31e8e05012bebb9ffac6d6368"
+    },
+    "Horlbeck_design.csv": {
+      "bytes": 391,
+      "sha256": "fee2eafa6951435e9471bde882e09d51285ecbebaa03945c87bb06466fe4af4d"
+    },
+    "Horlbeck_figure_metrics.csv": {
+      "bytes": 15127,
+      "sha256": "18f011e782cd168d84f3eaa9a5b29491e84e289c335c23f75e3e92debd6b5880"
+    },
+    "Horlbeck_predictions.csv": {
+      "bytes": 481913,
+      "sha256": "0556a4b40813bffb129b46354f18b156cf933d7077386e42f0e16f99b00cf19d"
+    }
+  },
+  "calculations": {
+    "gain": "1 - sum squared prediction error / sum squared M0 error; pooled sums before ratio",
+    "projection": "P=I-XX+; unsigned endpoint incidence X; computed separately for each K562 fold and each repeat, then sum SSE",
+    "delete_one_gene": "Remove all evaluation pairs touching one Jurkat gene; keep fitted predictions fixed",
+    "interval": "gene-composition reweighting sensitivity interval, nominal 95%, conditional on fitted models and observed measurements; coverage not calibrated; excludes retraining, shared batch effects, cross-study variability",
+    "dependence": "Repeats and folds are not independent biological replicates; no fold-level confidence intervals"
+  },
+  "verification": {
+    "n_saved_value_comparisons": 676,
+    "maximum_absolute_difference": 2.220446049250313e-15,
+    "source_interval_recalculation": "pass"
+  }
+}

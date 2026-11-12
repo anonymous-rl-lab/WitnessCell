@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-07T23:37:28.260086+00:00",
+  "status": "SOURCE_MAPPING_AND_INPUTS_LOCKED_BEFORE_REAL_FIT",
+  "protocol_sha256": "19b553f46431c68c4c57ea3580a71ce92ec7c3a57345355ac9bd78211218fb56",
+  "source_provenance_sha256": "6205c1fd89dc5bfb645b936594523e799bc2a651ff342713f3fe8b0400c570d0",
+  "prepared_receipt_sha256": "707de8dae19d87df85370f536a4251882ae5a06287e2b7a41593c721b20a92f5",
+  "scientific_modules_unchanged": {
+    "vendor/test_growth_interface.py": true,
+    "vendor/witnesscell_growth.py": true,
+    "vendor/make_example.py": true,
+    "vendor/test_interface.py": true,
+    "vendor/witnesscell_predict.py": true,
+    "vendor/growth_vendor/frozen_models.py": true,
+    "vendor/growth_vendor/run_smoke.py": true,
+    "vendor/growth_vendor/spectral_models.py": true,
+    "vendor/vendor/probe_multhead_training.py": true,
+    "vendor/vendor/multihead_v14.py": true,
+    "vendor/vendor/go_identity_head.py": true,
+    "vendor/vendor/dual_head.py": true,
+    "vendor/vendor/identity_head.py": true,
+    "vendor/vendor/witnesscell_v4_core.py": true,
+    "vendor/vendor/official_split.py": true
+  },
+  "source_refinement": "Actual raw counts are in official historical repository, whereas publisher S2 supplies design annotations and pooled results. Source mapping completes the preflight protocol without changing targets, thresholds, splits or estimators.",
+  "timepoint_note": "Use days 3,14,21,28 as published and in source count headers. Author demonstration notebook has a 20/21 discrepancy; its parameters are not reused.",
+  "measurement_preparation_reads_raw_query_counts": true,
+  "query_labels_not_used_for_fitting_or_selection": true,
+  "not_external_preregistration": true,
+  "summary": {
+    "HeLa": {
+      "genes": 73,
+      "train_pairs": 2096,
+      "queries": 523,
+      "partner_dimensions": 450,
+      "sealed_truth_sha256": "14d54e7796af03f607c877e20a77c6fd6e21be95d3a9154884ea8b2b222c1b11"
+    },
+    "A549": {
+      "genes": 73,
+      "train_pairs": 2100,
+      "queries": 525,
+      "partner_dimensions": 452,
+      "sealed_truth_sha256": "b29153b74ef394ad0c08f00962ca58f8261c973bd9da17fdc20a18534f8d7433"
+    },
+    "293T": {
+      "genes": 73,
+      "train_pairs": 2056,
+      "queries": 517,
+      "partner_dimensions": 444,
+      "sealed_truth_sha256": "8428770f057b3ee312a5500c6fb7aff39e188e406633a5a558979e4843435182"
+    }
+  }
+}

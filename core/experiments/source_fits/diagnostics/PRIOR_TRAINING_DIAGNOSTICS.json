@@ -1,0 +1,545 @@
+{
+  "status": "Retrospective diagnostic, not independent validation",
+  "new_training": false,
+  "outer_truth_read": false,
+  "new_outer_scoring": false,
+  "qualification": "Partner correlation uses each full training incidence graph; it is not an information-theoretic ceiling or a universal threshold.",
+  "support": [
+    {
+      "dataset": "Jurkat",
+      "source_sha256": "f403dd57916d75463bd642a91050d48e9cb8d3919b3670fb89816168696fbc5e",
+      "training_pairs": 2464,
+      "endpoints": 79,
+      "density": 0.7997403440441415,
+      "mean_degree": 62.379746835443036,
+      "min_degree": 52,
+      "max_degree": 70,
+      "contrast_dimension": 2385,
+      "full_repeat_correlation": 0.9143886518628209,
+      "partner_repeat_correlation": 0.4251532536475035,
+      "repeat_agreement": 0.4249942655348272,
+      "projected_energy_share": 0.016542839502364022
+    },
+    {
+      "dataset": "HeLa",
+      "source_sha256": "5f2e581b8c85dbbe2ebbe91d18272377529927e600bc01b865cd1031a9fa5c8d",
+      "training_pairs": 2096,
+      "endpoints": 73,
+      "density": 0.7975646879756468,
+      "mean_degree": 57.42465753424658,
+      "min_degree": 49,
+      "max_degree": 65,
+      "contrast_dimension": 2023,
+      "full_repeat_correlation": 0.381971237155673,
+      "partner_repeat_correlation": 0.07027837257829428,
+      "repeat_agreement": 0.07021586275796594,
+      "projected_energy_share": 0.6136869436387741
+    },
+    {
+      "dataset": "A549",
+      "source_sha256": "9fcd5cecb2d889d0328690d20fc5c0e414ccf4dfa2d5d03013a00304bd6e4256",
+      "training_pairs": 2100,
+      "endpoints": 73,
+      "density": 0.7990867579908676,
+      "mean_degree": 57.534246575342465,
+      "min_degree": 49,
+      "max_degree": 65,
+      "contrast_dimension": 2027,
+      "full_repeat_correlation": 0.3801922067851728,
+      "partner_repeat_correlation": 0.0718631542428571,
+      "repeat_agreement": 0.07186292181813508,
+      "projected_energy_share": 0.1906000163706347
+    },
+    {
+      "dataset": "293T",
+      "source_sha256": "406d3262fd454ecce43ff99d9eada9e26c95ac847a15c3b4f141565b8e44c26b",
+      "training_pairs": 2056,
+      "endpoints": 73,
+      "density": 0.7823439878234398,
+      "mean_degree": 56.32876712328767,
+      "min_degree": 41,
+      "max_degree": 65,
+      "contrast_dimension": 1983,
+      "full_repeat_correlation": 0.4977331161500081,
+      "partner_repeat_correlation": 0.08147642733404123,
+      "repeat_agreement": 0.08145820505266128,
+      "projected_energy_share": 0.24492964981362764
+    }
+  ],
+  "inner": [
+    {
+      "cell_line": "HeLa",
+      "selection_sha256": "04ee32e2a3c3d9598cf492aa5bf83bff89d81e39b4ef41575e51f98413e2cc04",
+      "original_selected": {
+        "key": "rank1_t0.3_n0.1",
+        "source_sha256": "950f6c85b9bdc8e7ff8bc69b2102ebf5282790aaf827f341293c627873925b33",
+        "partner_gain_percent": -1.8727156160784242,
+        "full_gain_percent": 3.4496950756509492,
+        "per_fold_partner_gain_percent": [
+          -2.118165204551037,
+          0.027518454813069138,
+          -3.490215680580655
+        ],
+        "per_repeat_partner_gain_percent": [
+          -2.7937386462032476,
+          -1.0141667203986238
+        ]
+      },
+      "best_saved_candidate_by_partner_loss": {
+        "key": "rank1_t0.3_n1",
+        "source_sha256": "288daa233d5aa0fe227381d1be34c83c34d062718376d63160f980cbfc54bb4b",
+        "partner_gain_percent": -0.36410737368897106,
+        "full_gain_percent": 2.769767114020416,
+        "per_fold_partner_gain_percent": [
+          -0.7638042026497871,
+          0.2846171097476202,
+          -0.6409994108053763
+        ],
+        "per_repeat_partner_gain_percent": [
+          -0.7988832512980659,
+          0.04117711690513337
+        ]
+      },
+      "positive_candidates": 0,
+      "all_candidates": [
+        {
+          "key": "rank1_t0.01_n0.1",
+          "source_sha256": "1a0f51381b8c2642975dd60d6a0f020bb3d1fb11779ab811ecf4ec45edca7592",
+          "partner_gain_percent": -5.565523764884328,
+          "full_gain_percent": 1.669360176301482,
+          "per_fold_partner_gain_percent": [
+            -4.186198190095669,
+            -0.7892940683239535,
+            -11.370848121329157
+          ],
+          "per_repeat_partner_gain_percent": [
+            -7.1978504984877345,
+            -4.043919778137228
+          ]
+        },
+        {
+          "key": "rank1_t0.01_n1",
+          "source_sha256": "f941835b10419f8d54111a6f7fa5eb21d02704da0d965978176e108270721f28",
+          "partner_gain_percent": -0.947783433255811,
+          "full_gain_percent": 3.3545934298947477,
+          "per_fold_partner_gain_percent": [
+            -1.39452669284863,
+            0.18995607218601496,
+            -1.6549778880761812
+          ],
+          "per_repeat_partner_gain_percent": [
+            -1.616302328204311,
+            -0.3246110040915351
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n0.1",
+          "source_sha256": "cb73089c51b43622e6b78d9ac01aa21d0de514a57a9804187a89b702f12106df",
+          "partner_gain_percent": -5.152340797376032,
+          "full_gain_percent": 1.9419588304656177,
+          "per_fold_partner_gain_percent": [
+            -4.012919140503057,
+            -0.7077531288753214,
+            -10.428958203278738
+          ],
+          "per_repeat_partner_gain_percent": [
+            -6.719269917663295,
+            -3.6916984227234995
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n1",
+          "source_sha256": "91cc5dd0a5d32702af5df292f5215d3794e574c945ca5cd7f522f838d17aa052",
+          "partner_gain_percent": -0.8973408479968192,
+          "full_gain_percent": 3.3277993305136255,
+          "per_fold_partner_gain_percent": [
+            -1.3447882389565846,
+            0.20111955302950513,
+            -1.5660651915307744
+          ],
+          "per_repeat_partner_gain_percent": [
+            -1.548568971682318,
+            -0.29028633563559225
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n0.1",
+          "source_sha256": "491c73c031c21ff5a975208bf5539040f2af3477ebbb7c877fbe32ccc00cab39",
+          "partner_gain_percent": -3.972692114170595,
+          "full_gain_percent": 2.6541693899362118,
+          "per_fold_partner_gain_percent": [
+            -3.44645888117483,
+            -0.45742424200587717,
+            -7.819254011170651
+          ],
+          "per_repeat_partner_gain_percent": [
+            -5.337583948788427,
+            -2.7003825855209884
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n1",
+          "source_sha256": "0104e5c91b430ba65cfa94288abd20e04681d4588da3d3e46350edafbc5b4e79",
+          "partner_gain_percent": -0.7333478529146786,
+          "full_gain_percent": 3.217425528273332,
+          "per_fold_partner_gain_percent": [
+            -1.1781008111011904,
+            0.23461749679729582,
+            -1.2786517302193712
+          ],
+          "per_repeat_partner_gain_percent": [
+            -1.3254828050757173,
+            -0.18137814896233007
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n0.1",
+          "source_sha256": "950f6c85b9bdc8e7ff8bc69b2102ebf5282790aaf827f341293c627873925b33",
+          "partner_gain_percent": -1.8727156160784242,
+          "full_gain_percent": 3.4496950756509492,
+          "per_fold_partner_gain_percent": [
+            -2.118165204551037,
+            0.027518454813069138,
+            -3.490215680580655
+          ],
+          "per_repeat_partner_gain_percent": [
+            -2.7937386462032476,
+            -1.0141667203986238
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n1",
+          "source_sha256": "288daa233d5aa0fe227381d1be34c83c34d062718376d63160f980cbfc54bb4b",
+          "partner_gain_percent": -0.36410737368897106,
+          "full_gain_percent": 2.769767114020416,
+          "per_fold_partner_gain_percent": [
+            -0.7638042026497871,
+            0.2846171097476202,
+            -0.6409994108053763
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.7988832512980659,
+            0.04117711690513337
+          ]
+        }
+      ],
+      "interpretation": "Retrospective inner diagnostics, not new held-out validation or refitting."
+    },
+    {
+      "cell_line": "A549",
+      "selection_sha256": "935184e7278189ec15cff293697f12591e23ef7fc54e08d31d4d526eebcadc75",
+      "original_selected": {
+        "key": "rank1_t0.01_n1",
+        "source_sha256": "84b59c2fc7425d3a88b2a7184c96a098c5b58ddf1f420ef2a37e29c628242944",
+        "partner_gain_percent": -0.606352233778229,
+        "full_gain_percent": 2.10609765358859,
+        "per_fold_partner_gain_percent": [
+          0.22100427710610715,
+          -0.31425797143194156,
+          -1.5964814297568353
+        ],
+        "per_repeat_partner_gain_percent": [
+          -0.48579274383719895,
+          -0.7258673402264826
+        ]
+      },
+      "best_saved_candidate_by_partner_loss": {
+        "key": "rank1_t0.3_n1",
+        "source_sha256": "5c2b3b21bae4d3ca96d5fe6c6dcac1965ac217921022d6fd6354cd348afb967c",
+        "partner_gain_percent": -0.17000946393559424,
+        "full_gain_percent": 1.8185710899352059,
+        "per_fold_partner_gain_percent": [
+          0.32929683274752763,
+          -0.017347959624824938,
+          -0.7464247945080826
+        ],
+        "per_repeat_partner_gain_percent": [
+          -0.06717575461616665,
+          -0.27195234476400376
+        ]
+      },
+      "positive_candidates": 0,
+      "all_candidates": [
+        {
+          "key": "rank1_t0.01_n0.1",
+          "source_sha256": "cd36aca6062752a9ab959667c6f48bb0e05d95da9162766ca88e244f536d4078",
+          "partner_gain_percent": -3.63933286981708,
+          "full_gain_percent": 0.7314895472832372,
+          "per_fold_partner_gain_percent": [
+            -1.0150911826740439,
+            -2.3472468799876856,
+            -7.106884932456059
+          ],
+          "per_repeat_partner_gain_percent": [
+            -3.5938902073543444,
+            -3.6843818713032883
+          ]
+        },
+        {
+          "key": "rank1_t0.01_n1",
+          "source_sha256": "84b59c2fc7425d3a88b2a7184c96a098c5b58ddf1f420ef2a37e29c628242944",
+          "partner_gain_percent": -0.606352233778229,
+          "full_gain_percent": 2.10609765358859,
+          "per_fold_partner_gain_percent": [
+            0.22100427710610715,
+            -0.31425797143194156,
+            -1.5964814297568353
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.48579274383719895,
+            -0.7258673402264826
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n0.1",
+          "source_sha256": "105d2819325dd7fa2a7f35ec68b969ddebba075f7e4262ded76b25bdf94881eb",
+          "partner_gain_percent": -3.3993884849631506,
+          "full_gain_percent": 0.9001112140847978,
+          "per_fold_partner_gain_percent": [
+            -0.9139354229635188,
+            -2.2036938202564027,
+            -6.658456293662973
+          ],
+          "per_repeat_partner_gain_percent": [
+            -3.3438292347176546,
+            -3.454466436193049
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n1",
+          "source_sha256": "81f9e23eb094b37351e4d1c928b74af0833cb2e67fc87f73e3a7e74e826834c1",
+          "partner_gain_percent": -0.5681833022236793,
+          "full_gain_percent": 2.0967217171990904,
+          "per_fold_partner_gain_percent": [
+            0.2336399782319365,
+            -0.2874807168549598,
+            -1.5256295240979822
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.4482231492251465,
+            -0.6871042636692026
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n0.1",
+          "source_sha256": "740a76ce933f4582301a3cdebe168eab72f04d54fb8af2a9035b7e9928d6fded",
+          "partner_gain_percent": -2.6783205225995976,
+          "full_gain_percent": 1.3754283591323468,
+          "per_fold_partner_gain_percent": [
+            -0.6021457821520304,
+            -1.746164726955346,
+            -5.341108831007091
+          ],
+          "per_repeat_partner_gain_percent": [
+            -2.594627841807373,
+            -2.761288189920652
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n1",
+          "source_sha256": "9920d6ceb792ce28593df202d70247f09e422b7ec0599595cedb0662ac0beb45",
+          "partner_gain_percent": -0.44438754388513857,
+          "full_gain_percent": 2.0512529369961174,
+          "per_fold_partner_gain_percent": [
+            0.2716493356390015,
+            -0.20134820383366225,
+            -1.2925717130460646
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.3272859993861177,
+            -0.560474660402499
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n0.1",
+          "source_sha256": "e4466a8bd0df62a0bb866dc12c2d22bbf622f9a99d384f260bc4d795827ae224",
+          "partner_gain_percent": -1.2607620404343267,
+          "full_gain_percent": 2.0544805999882954,
+          "per_fold_partner_gain_percent": [
+            0.0006877797607107716,
+            -0.7696755641628972,
+            -2.811297566527471
+          ],
+          "per_repeat_partner_gain_percent": [
+            -1.138186409078057,
+            -1.3822758228555942
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n1",
+          "source_sha256": "5c2b3b21bae4d3ca96d5fe6c6dcac1965ac217921022d6fd6354cd348afb967c",
+          "partner_gain_percent": -0.17000946393559424,
+          "full_gain_percent": 1.8185710899352059,
+          "per_fold_partner_gain_percent": [
+            0.32929683274752763,
+            -0.017347959624824938,
+            -0.7464247945080826
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.06717575461616665,
+            -0.27195234476400376
+          ]
+        }
+      ],
+      "interpretation": "Retrospective inner diagnostics, not new held-out validation or refitting."
+    },
+    {
+      "cell_line": "293T",
+      "selection_sha256": "56b54e544cda6b5145d85c10aba1a8f5c7e91ed007663a5c1a54a7192a73fb51",
+      "original_selected": {
+        "key": "rank1_t0.3_n0.1",
+        "source_sha256": "8c7d3d986cebaa36381ff0de4d8be021972e0e99133fdf5259521c5ffe35bf7d",
+        "partner_gain_percent": -1.503499432368982,
+        "full_gain_percent": 4.047950916268473,
+        "per_fold_partner_gain_percent": [
+          -0.9902735128213269,
+          -1.2901553047562908,
+          -2.2331433181854266
+        ],
+        "per_repeat_partner_gain_percent": [
+          -1.533371218861257,
+          -1.4750131231348274
+        ]
+      },
+      "best_saved_candidate_by_partner_loss": {
+        "key": "rank1_t0.3_n1",
+        "source_sha256": "39df2bd3d27e17cff3ac8e9b8c6b3d2b56d4d6d85a9c184f11bea270631b1409",
+        "partner_gain_percent": -0.25076145547882067,
+        "full_gain_percent": 3.1832365832753395,
+        "per_fold_partner_gain_percent": [
+          0.06829269554711193,
+          -0.2511999986778868,
+          -0.5706640844279631
+        ],
+        "per_repeat_partner_gain_percent": [
+          -0.24493013546060816,
+          -0.2563223142284521
+        ]
+      },
+      "positive_candidates": 0,
+      "all_candidates": [
+        {
+          "key": "rank1_t0.01_n0.1",
+          "source_sha256": "5ea14fbfbc2e1fcb48d3685004d97e5fc3a9c4bd4e7dbb37e7636ffefd44051c",
+          "partner_gain_percent": -4.266817127486089,
+          "full_gain_percent": 2.7557254352658433,
+          "per_fold_partner_gain_percent": [
+            -3.2263136889234323,
+            -3.7164885825931915,
+            -5.864433239084144
+          ],
+          "per_repeat_partner_gain_percent": [
+            -4.4659752574806255,
+            -4.076896110241868
+          ]
+        },
+        {
+          "key": "rank1_t0.01_n1",
+          "source_sha256": "42dbd756da9bd3d32ef93dbbeb280b3e0ffe3eade8414be5a51f8e12b87529a7",
+          "partner_gain_percent": -0.7680280138764983,
+          "full_gain_percent": 3.846701229407956,
+          "per_fold_partner_gain_percent": [
+            -0.3454218618788918,
+            -0.6535852634782957,
+            -1.307320931575151
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.7739386349115529,
+            -0.762391532154405
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n0.1",
+          "source_sha256": "aaa83321b94515b1c9331a57f6d94cd39876d82b7ee4388c3c74310d12b3e04a",
+          "partner_gain_percent": -3.984825018357596,
+          "full_gain_percent": 2.952740837852208,
+          "per_fold_partner_gain_percent": [
+            -3.018188037293701,
+            -3.4493725133893927,
+            -5.493330444081623
+          ],
+          "per_repeat_partner_gain_percent": [
+            -4.163302378188716,
+            -3.814625580679021
+          ]
+        },
+        {
+          "key": "rank1_t0.03_n1",
+          "source_sha256": "0c67b50ca047ef7c77cea19de6d9a5530c69fa4f947c99cabe5aaa6b235a5269",
+          "partner_gain_percent": -0.7231465166933848,
+          "full_gain_percent": 3.8152433900567995,
+          "per_fold_partner_gain_percent": [
+            -0.3077457669433681,
+            -0.6190552943456051,
+            -1.244804859699289
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.7276934039974536,
+            -0.7188105176453075
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n0.1",
+          "source_sha256": "5d391452b358bc0e882edec96ae05ffc6a55310df08c506509d9c68cb7613a32",
+          "partner_gain_percent": -3.1410499987652996,
+          "full_gain_percent": 3.4808846333933663,
+          "per_fold_partner_gain_percent": [
+            -2.36383355367884,
+            -2.6815096868760158,
+            -4.3831014695251636
+          ],
+          "per_repeat_partner_gain_percent": [
+            -3.2615302463897766,
+            -3.0261577210194845
+          ]
+        },
+        {
+          "key": "rank1_t0.1_n1",
+          "source_sha256": "423c01b6e71f85d704c62074ae4f7440dce1856cc15268d6c89cd4368d9cb8f3",
+          "partner_gain_percent": -0.5772764623743987,
+          "full_gain_percent": 3.687888302965592,
+          "per_fold_partner_gain_percent": [
+            -0.18680472220176103,
+            -0.5065185740452449,
+            -1.0404154601101556
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.5777826519185236,
+            -0.5767937503047049
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n0.1",
+          "source_sha256": "8c7d3d986cebaa36381ff0de4d8be021972e0e99133fdf5259521c5ffe35bf7d",
+          "partner_gain_percent": -1.503499432368982,
+          "full_gain_percent": 4.047950916268473,
+          "per_fold_partner_gain_percent": [
+            -0.9902735128213269,
+            -1.2901553047562908,
+            -2.2331433181854266
+          ],
+          "per_repeat_partner_gain_percent": [
+            -1.533371218861257,
+            -1.4750131231348274
+          ]
+        },
+        {
+          "key": "rank1_t0.3_n1",
+          "source_sha256": "39df2bd3d27e17cff3ac8e9b8c6b3d2b56d4d6d85a9c184f11bea270631b1409",
+          "partner_gain_percent": -0.25076145547882067,
+          "full_gain_percent": 3.1832365832753395,
+          "per_fold_partner_gain_percent": [
+            0.06829269554711193,
+            -0.2511999986778868,
+            -0.5706640844279631
+          ],
+          "per_repeat_partner_gain_percent": [
+            -0.24493013546060816,
+            -0.2563223142284521
+          ]
+        }
+      ],
+      "interpretation": "Retrospective inner diagnostics, not new held-out validation or refitting."
+    }
+  ]
+}

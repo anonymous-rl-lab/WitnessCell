@@ -1,0 +1,141 @@
+{
+  "utc": "2026-11-07T23:38:17.330230+00:00",
+  "stage": "smoke",
+  "source_declared": "Shen2017 CV4 raw counts recovered from the official author repository history",
+  "models": {
+    "HeLa": {
+      "M0": {
+        "query_pairs": 211,
+        "endpoint_rank": 73,
+        "partner_dimensions": 138,
+        "full_sse_M0": 0.3602663483132552,
+        "full_sse_model": 0.3602663483132552,
+        "full_gain": 0.0,
+        "partner_sse_M0": 0.2050973335321557,
+        "partner_sse_model": 0.2050973335321557,
+        "partner_gain": 0.0,
+        "partner_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "full_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "cosine": null,
+        "oracle_beta": null,
+        "E": 0.2050973335321557,
+        "A": 0.0,
+        "B": 0.0,
+        "identity_error": 0.0,
+        "posthoc_alignment_only": true
+      },
+      "rank1_primary": {
+        "query_pairs": 211,
+        "endpoint_rank": 73,
+        "partner_dimensions": 138,
+        "full_sse_M0": 0.3602663483132552,
+        "full_sse_model": 0.35474941201963345,
+        "full_gain": 0.015313493251456145,
+        "partner_sse_M0": 0.2050973335321557,
+        "partner_sse_model": 0.2107766064423202,
+        "partner_gain": -0.027690622848951296,
+        "partner_gain_each_repeat": [
+          -0.050475955358841196,
+          -0.007014421171978258
+        ],
+        "full_gain_each_repeat": [
+          0.0022486423430502223,
+          0.026979607779544112
+        ],
+        "cosine": 0.002884734192285031,
+        "oracle_beta": 0.01703770333076786,
+        "E": 0.2050973335321557,
+        "A": 0.00010017528039473367,
+        "B": 0.00587962347095399,
+        "identity_error": 1.0408340855860843e-17,
+        "posthoc_alignment_only": true
+      },
+      "spectral_secondary": {
+        "query_pairs": 211,
+        "endpoint_rank": 73,
+        "partner_dimensions": 138,
+        "full_sse_M0": 0.3602663483132552,
+        "full_sse_model": 0.34538225955935353,
+        "full_gain": 0.041314124462604074,
+        "partner_sse_M0": 0.2050973335321557,
+        "partner_sse_model": 0.2131984603790089,
+        "partner_gain": -0.03949893793028303,
+        "partner_gain_each_repeat": [
+          -0.007082919981094005,
+          -0.06891435788919287
+        ],
+        "full_gain_each_repeat": [
+          0.0616132089578727,
+          0.0231882808385655
+        ],
+        "cosine": -0.010650155202891934,
+        "oracle_beta": -0.05653596959129135,
+        "E": 0.2050973335321557,
+        "A": -0.00041147840040351314,
+        "B": 0.007278170046046158,
+        "identity_error": 0.0,
+        "posthoc_alignment_only": true
+      },
+      "single_additive": {
+        "query_pairs": 211,
+        "endpoint_rank": 73,
+        "partner_dimensions": 138,
+        "full_sse_M0": 0.3602663483132552,
+        "full_sse_model": 1.0390567761140572,
+        "full_gain": -1.884134976743892,
+        "partner_sse_M0": 0.2050973335321557,
+        "partner_sse_model": 0.20125311240463445,
+        "partner_gain": 0.018743398860027294,
+        "partner_gain_each_repeat": [
+          0.03026271411489767,
+          0.00829037232258456
+        ],
+        "full_gain_each_repeat": [
+          -1.7412193727922833,
+          -2.011749889094526
+        ],
+        "cosine": 0.16701096714586977,
+        "oracle_beta": 2.3404272016071728,
+        "E": 0.2050973335321557,
+        "A": 0.002444301977276483,
+        "B": 0.00104438282703174,
+        "identity_error": 2.6020852139652106e-17,
+        "posthoc_alignment_only": true
+      }
+    }
+  },
+  "mean_within_context_partner_gain": -0.027690622848951296,
+  "definition": "Equal context average of relative gains; not pooled cross-context SSE",
+  "conditional_sensitivity": {
+    "method": "Exp(1) endpoint products; shared gene weights across contexts; fixed P and predictions",
+    "draws": 10000,
+    "seed": 20261107,
+    "per_context": {
+      "HeLa": {
+        "valid_draws": 10000,
+        "central95": [
+          -0.07476098573038745,
+          0.007892641041898879
+        ]
+      }
+    },
+    "equal_context_mean": {
+      "valid_draws": 10000,
+      "central95": [
+        -0.07476098573038745,
+        0.007892641041898879
+      ]
+    },
+    "conditional_sensitivity_only": true,
+    "population_confidence_claim": false
+  },
+  "uncertainty_computed": "conditional sensitivity only",
+  "formal_score": false,
+  "no_sign_count_success_gate": true
+}

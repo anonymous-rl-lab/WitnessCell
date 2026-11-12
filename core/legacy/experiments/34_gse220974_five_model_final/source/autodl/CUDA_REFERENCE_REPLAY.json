@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "cpu_reference_max": 4.7524770163676067e-07,
+  "cuda_reference_max": 4.7524770074858225e-07,
+  "outer_truth_used": false,
+  "original_weight_sha256": "cee978529dac734e1bb2744d3fcf1d1b42fa77659568fbeb916ef2cf62078a18"
+}

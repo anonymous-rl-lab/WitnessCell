@@ -1,0 +1,295 @@
+{
+  "status": "PASS",
+  "checks": 72,
+  "details": [
+    {
+      "name": "alpha one recovers original",
+      "passed": true
+    },
+    {
+      "name": "alpha zero preserves endpoint correction",
+      "passed": true
+    },
+    {
+      "name": "zero correction preserves baseline",
+      "passed": true
+    },
+    {
+      "name": "endpoint-only correction is invariant",
+      "passed": true
+    },
+    {
+      "name": "whole and component partner predictions agree",
+      "passed": true
+    },
+    {
+      "name": "endpoint error preserved",
+      "passed": true
+    },
+    {
+      "name": "full and partner SSE changes agree",
+      "passed": true
+    },
+    {
+      "name": "query permutation equivariance",
+      "passed": true
+    },
+    {
+      "name": "unordered pair orientation invariance",
+      "passed": true
+    },
+    {
+      "name": "zero contrast dimension retains original",
+      "passed": true
+    },
+    {
+      "name": "reversed duplicate pairs rejected",
+      "passed": true
+    },
+    {
+      "name": "self pairs rejected",
+      "passed": true
+    },
+    {
+      "name": "invalid alpha rejected",
+      "passed": true
+    },
+    {
+      "name": "nonfinite predictions rejected",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: 293T_high",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: A549_high",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: HeLa_high",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: Jurkat_high",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_high_fold0",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_high_fold1",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_high_fold2",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s0_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s0_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s0_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s1_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s1_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s1_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s2_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s2_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s2_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s3_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s3_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s3_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s4_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s4_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f0_s4_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s0_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s0_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s0_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s1_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s1_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s1_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s2_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s2_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s2_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s3_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s3_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s3_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s4_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s4_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f1_s4_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s0_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s0_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s0_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s1_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s1_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s1_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s2_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s2_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s2_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s3_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s3_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s3_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s4_high_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s4_low_local_support",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_layout_f2_s4_random_degree_switch_chain",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_low_fold0",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_low_fold1",
+      "passed": true
+    },
+    {
+      "name": "training-query pair separation: K562_low_fold2",
+      "passed": true
+    },
+    {
+      "name": "real-data CLI equals all-config evaluation",
+      "passed": true
+    },
+    {
+      "name": "query-label field refused by CLI",
+      "passed": true
+    },
+    {
+      "name": "new-directory interface replay",
+      "passed": true
+    }
+  ],
+  "scope": "postprocessing interface and archived pair separation; does not certify original model-training provenance"
+}

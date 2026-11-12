@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks": {
+    "pairs": true,
+    "nodes": true,
+    "folds": true,
+    "primary_blocks": true,
+    "symbols": true,
+    "genes": true,
+    "d.y": true,
+    "d.additive": true,
+    "d.x": true,
+    "d.pair_kernel": true,
+    "all56_condition_means": true
+  }
+}

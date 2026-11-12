@@ -1,0 +1,70 @@
+{
+  "status": "PASS",
+  "repository_version": "25.0.0",
+  "mode": "reproduce",
+  "requested_stage": "all",
+  "max_seconds": 180.0,
+  "python": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "archive_sha256": "b60e01230f3f43f156271697fe1fdc52b6c4ce5f68b522c3664c6e4aa6ff4082",
+  "archive_bytes": 2491533,
+  "internal_manifest_files_verified": 180,
+  "archive_members": 181,
+  "scope": "numerical reproduction of existing results; not a new confirmation",
+  "software_installed": false,
+  "gpu_requested": false,
+  "external_downloads": 0,
+  "original_result": {
+    "status": "PASS",
+    "stages": {
+      "K562": {
+        "status": "PASS",
+        "seconds": 12.215412309000385,
+        "max_prediction_or_draw_difference": 0.0,
+        "max_summary_difference": 0.0,
+        "selected_models_identical": true,
+        "independent_check": "PASS",
+        "independent_counts": {
+          "assertions": 4768,
+          "inner_fits": 288,
+          "objective_order_probes": 144,
+          "outer_refits": 12,
+          "unique_assessment_pairs": 632,
+          "within_fold_contrast_dimensions": 393
+        },
+        "gain_pooled": {
+          "low": {
+            "rank1_selected": 0.0026519717295283574,
+            "spectral_selected": -0.0028787783034331937
+          },
+          "high": {
+            "rank1_selected": 0.11029217797940016,
+            "spectral_selected": 0.11386483684882154
+          }
+        }
+      },
+      "Jurkat": {
+        "status": "PASS",
+        "seconds": 3.2295744129987725,
+        "max_prediction_or_draw_difference": 0.0,
+        "max_summary_difference": 0.0,
+        "selected_models_identical": true,
+        "independent_check": "PASS",
+        "independent_counts": {
+          "assertions": 1092,
+          "inner_fits": 48,
+          "objective_order_probes": 24,
+          "final_refits": 2
+        },
+        "gain_pooled": {
+          "rank1_selected": 0.06430834839970645,
+          "spectral_selected": 0.08160563748571326
+        }
+      }
+    },
+    "scope": "numerical reproduction of existing results, not a new confirmation experiment",
+    "total_seconds": 15.456795359998068
+  },
+  "archive_sha256_after": "b60e01230f3f43f156271697fe1fdc52b6c4ce5f68b522c3664c6e4aa6ff4082",
+  "archive_unchanged": true,
+  "elapsed_seconds": 16.60413825300202
+}

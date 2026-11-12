@@ -1,0 +1,102 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.6296220526490799,
+    "steps": 723,
+    "seconds": 31.64469680003822,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 2,
+    "loss": 0.6247554429256734,
+    "steps": 723,
+    "seconds": 31.23764607682824,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 3,
+    "loss": 0.6236184397673705,
+    "steps": 723,
+    "seconds": 31.33329143561423,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 4,
+    "loss": 0.6229800887374957,
+    "steps": 723,
+    "seconds": 30.850507721304893,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 5,
+    "loss": 0.624686172394337,
+    "steps": 723,
+    "seconds": 31.13133049570024,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 6,
+    "loss": 0.6223163028475655,
+    "steps": 723,
+    "seconds": 31.462481820955873,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 7,
+    "loss": 0.6207886012180877,
+    "steps": 723,
+    "seconds": 31.289709182456136,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 8,
+    "loss": 0.6221585954703072,
+    "steps": 723,
+    "seconds": 31.346475366503,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 9,
+    "loss": 0.6218572080052904,
+    "steps": 723,
+    "seconds": 31.439679017290473,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 10,
+    "loss": 0.6217518374220794,
+    "steps": 723,
+    "seconds": 31.673972660675645,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  }
+]

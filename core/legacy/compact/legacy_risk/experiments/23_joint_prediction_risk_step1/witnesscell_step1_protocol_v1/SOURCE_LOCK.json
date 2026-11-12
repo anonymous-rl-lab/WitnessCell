@@ -1,0 +1,36 @@
+{
+  "local_repo": "/workspace/scratch/2c1de068d91a/grn_extracted/grn_repo_v18",
+  "note": "Existing source identity only; new scoring code has not been implemented or locked. No claim of matching a historical archive checksum.",
+  "files": [
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/src/run_v14_from_cache.py",
+      "size_bytes": 12814,
+      "sha256": "1dada7fe0da457fdc95dc7bfa8b4390caa6238191a59b0ff3d510796c4c1229f"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v4_core.py",
+      "size_bytes": 11895,
+      "sha256": "8841a49ecf266da1e28acdfb4f604f5f33fdb6783faa4701d4a624307c729e75"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/src/multihead_v14.py",
+      "size_bytes": 9668,
+      "sha256": "d5526d7de72e8a7696c2f628c59c42e1e82558b61adfb98e8524ec52f7787409"
+    },
+    {
+      "path_relative_to_repo": "experiments/19_v14_incremental_amplitude_gate/src/official_split.py",
+      "size_bytes": 5189,
+      "sha256": "24ca24c37801cb63d386c2a1eff303d002e52fd764e51e3066df4f64ae85146e"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/src/comparator_core.py",
+      "size_bytes": 3091,
+      "sha256": "99a2d7d04df88a0c8171e4e98a8cfcc3413a10bcdab3246f9055188a77b3ab02"
+    },
+    {
+      "path_relative_to_repo": "experiments/22_metric_calibration_stress/src/metric_core.py",
+      "size_bytes": 10641,
+      "sha256": "84722bef940abde162aa6e0e216764d200f84883635958d7085769b9cba76292"
+    }
+  ]
+}

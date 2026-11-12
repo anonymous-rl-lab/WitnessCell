@@ -1,0 +1,11 @@
+{
+  "configuration": "K562_high_fold0",
+  "seconds": 1.2405825070018182,
+  "query_outcomes_opened": false,
+  "native_baseline_replay_max_abs": 0.0,
+  "plan_sha256": "3919d5be27299ee03c52e6b26ab8d7265527de95b4375773f334fbe153e9ca81",
+  "training_sha256": "07d77609f7ea694535dc9050eadc6abc9aeadfd64ecc9de0570d69527b3dd625",
+  "predictions_sha256": "88f10bca94ca814e94c108a55843401bd31ea49a2701661673fc72ee56ed6729",
+  "selection_sha256": "b653e2d2809043eb72f0eff777a72320bc9160bc81f161d24a510539f40164bb",
+  "code_sha256": "72a4289e6b28063d379463c7ef14c7d2fba257bf22ea7b7efada39a37f16ff1d"
+}

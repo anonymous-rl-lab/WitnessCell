@@ -1,0 +1,48 @@
+      group                  method  full_gain_pct  partner_gain_pct
+Jurkat_high                global_B       0.000000          0.000000
+Jurkat_high            global_rank1       2.612881          0.407223
+Jurkat_high    global_rank1_control       2.708092          0.525210
+Jurkat_high         global_spectral       2.866075          1.313444
+Jurkat_high global_spectral_control       2.564267          0.939440
+Jurkat_high                native_B       0.000000          0.000000
+Jurkat_high            native_rank1       6.430835          6.175031
+Jurkat_high         native_spectral       8.160564          5.897534
+  K562_high                global_B       0.000000          0.000000
+  K562_high            global_rank1      10.896469         11.509739
+  K562_high    global_rank1_control      10.852681         11.438159
+  K562_high         global_spectral      11.421831         10.638882
+  K562_high global_spectral_control      11.421831         10.638882
+  K562_high                native_B       0.000000          0.000000
+  K562_high            native_rank1      11.029218         11.683843
+  K562_high         native_spectral      11.386484         10.671006
+   K562_low                global_B       0.000000          0.000000
+   K562_low            global_rank1       0.185638         -0.168182
+   K562_low    global_rank1_control       0.185638         -0.168182
+   K562_low         global_spectral      -0.689967         -1.590917
+   K562_low global_spectral_control      -0.348914         -0.977857
+   K562_low                native_B       0.000000          0.000000
+   K562_low            native_rank1       0.265197         -0.032639
+   K562_low         native_spectral      -0.287878         -0.859111
+  configuration  n_genes  training_pairs  query_pairs         selected  fitted_mode_single_abs_r  residual_mode_single_abs_r  fitted_residual_mode_abs_r  lambda_value global_refit_rank1_selected global_refit_spectral_selected
+ K562_low_fold0       80             421          211               G0                       NaN                    0.124303                         NaN      0.000000                          G0            spectral_t0.01_n0.1
+ K562_low_fold1       80             421          211               G0                       NaN                    0.143098                         NaN      0.000000                          G0               spectral_t0.1_n1
+ K562_low_fold2       80             422          210    rank1_t0.3_n1                  0.195751                    0.130665                    0.888587      0.707045               rank1_t0.3_n1              spectral_t0.01_n1
+K562_high_fold0       80            2317          211 rank1_t0.03_n0.1                  0.001970                    0.003979                    0.996430      1.552119            rank1_t0.03_n0.1             spectral_t0.3_n0.1
+K562_high_fold1       80            2317          211 rank1_t0.03_n0.1                  0.016239                    0.003563                    0.995814      1.491957            rank1_t0.03_n0.1             spectral_t0.3_n0.1
+K562_high_fold2       80            2318          210 rank1_t0.03_n0.1                  0.025153                    0.020311                    0.996360      1.508198            rank1_t0.03_n0.1             spectral_t0.3_n0.1
+    Jurkat_high       79            2464          617  rank1_t0.3_n0.1                  0.794949                    0.848937                    0.978759      0.448445              rank1_t0.01_n1               spectral_t0.3_n1
+  configuration       template  product_beta_repeat1  product_beta_repeat2  product_gain_pct  original_rank1_gain_pct  global_direction_gain_pp  orthogonal_gain_pp  global_share_of_net_gain
+ K562_low_fold0   mean_singles             -0.109829              0.632425         -0.209552                 0.000000                  0.000000            0.000000                       NaN
+ K562_low_fold0 repeat_singles             -0.101592              0.654228         -0.270738                 0.000000                  0.000000            0.000000                       NaN
+ K562_low_fold1   mean_singles             -0.106473              0.273986          0.693350                 0.000000                  0.000000            0.000000                       NaN
+ K562_low_fold1 repeat_singles             -0.091136              0.314271          0.592775                 0.000000                  0.000000            0.000000                       NaN
+ K562_low_fold2   mean_singles             -0.113872              0.612523          0.444377                -0.094780                  0.178124           -0.272904                 -1.879348
+ K562_low_fold2 repeat_singles             -0.118048              0.660542          0.272846                -0.094780                  0.171721           -0.266501                 -1.811794
+K562_high_fold0   mean_singles              0.330888              0.297217          0.144864                 6.530482                 -0.324077            6.854559                 -0.049625
+K562_high_fold0 repeat_singles              0.273829              0.322129         -0.026085                 6.530482                 -0.185885            6.716367                 -0.028464
+K562_high_fold1   mean_singles              0.335807              0.271872          0.102414                18.624398                  0.050842           18.573556                  0.002730
+K562_high_fold1 repeat_singles              0.273601              0.299118         -0.058478                18.624398                  0.053489           18.570909                  0.002872
+K562_high_fold2   mean_singles              0.358930              0.302663         -0.816972                 9.825550                  0.005109            9.820442                  0.000520
+K562_high_fold2 repeat_singles              0.289571              0.334475         -0.773020                 9.825550                 -0.014111            9.839661                 -0.001436
+    Jurkat_high   mean_singles              0.698938              0.718452          6.111817                 6.175031                  4.358167            1.816864                  0.705773
+    Jurkat_high repeat_singles              0.691369              0.707693          6.460582                 6.175031                  4.469370            1.705661                  0.723781

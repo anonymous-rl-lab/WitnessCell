@@ -1,0 +1,66 @@
+WitnessCell frozen program confirmation — source/access audit
+Audit date: 2026-10-20 Asia/Shanghai; retrieval completed 2026-10-19 21:50 UTC.
+Scope: source provenance, prior access status, metadata-only eligibility; no new source expression aggregation, model fitting, or prediction scoring was performed by this audit.
+
+DECISION
+No documented untouched RNA confirmation block was resolved from the scoped Library records. This is not evidence that none exists. Personal Context retrieval returned unavailable for this conversation. Teamwide unrecorded exposure cannot be inferred from local records. A new file, new split, new preprocessing version, or a new readout from already-developed experimental cells does not restore study independence.
+
+The best documented new-source candidate already in the source-qualification record is DLD1 from GSE337988: the prior workflow inspected labels at MOI 0.5 and excluded the object on counts before prediction evaluation. The inspected arm is ineligible under the established cell-count rule. Other genuinely separate experimental arms may be checked by metadata only, but must not be pooled across MOI or treatment and called homogeneous replication. A metadata-qualified alternative can support a new-source, retrospective frozen evaluation; it cannot support prospective validation.
+
+CONFIRMED PRIOR SOURCE RELATIONSHIPS
+1. Norman, GSE133344: developed benchmark source. Existing labels/splits/cells cannot provide a new independent confirmation of the revised G2M predictor.
+2. Wessels and CaRPool, GSE213957: the benchmark and RNA/FACS analyses share the same Cas13d study. Multiple processed packages or RNA/FACS readouts do not make independent sources.
+3. Replogle_exp6, GSE146194 experiment 6: developed benchmark and mechanism source. Other experiments in that accession require exact experimental-unit and prior-access verification; being an unprocessed experiment number alone proves neither independence nor eligibility.
+4. Schmidt: already-developed scPerturBench panel with experimental provenance from the primary human T-cell activation/interference study. A renamed processed object is not a new source.
+5. Horlbeck K562 and Jurkat, GSE116198: different cell environments within the same growth-screen study. K562 developed; Jurkat has already been evaluated under its own frozen revised procedure. These are growth phenotypes, not RNA confirmation of the new program predictor.
+6. Dixit later K562 TF timepoint, GSE90063/GSM2396860: used in v20 independent-source RNA evaluation, subsequently deeply developed during the current G2M and fixed-reference debugging. Current status is development. Original paper/figure labels use 13/14 days inconsistently; retain source-qualified naming.
+7. Dixit earlier timepoint: not identified as an explicitly reserved block in the records read. Access chronology would need inspection of original preprocessing records. At best it could become a same-study held-timepoint check, not independent-source replication; possible common culture ancestry further limits biological independence.
+
+CANDIDATE ASSESSMENT BEFORE EXPRESSION ACCESS
+
+Focused extension: Combi-seq (Mathur/Szalai et al., 2022), GSE174695 / parent GSE174696
+Searches used the exact tokens Combi-seq, GSE174695, GSE174696 and Mathur+Szalai. Ranked Library search returned only nonspecific candidates. Literal/regex checks of five resolved likely documents (WitnessCell_NM_Manuscript_Final_v6.md; OSF_D4_Preaccess_Addendum.txt; MANUSCRIPT_v5.md; Active_Self_Calibrating_Causal_Discovery_ICLR2027_v1.pdf; Pertrescue_NC投稿_修改提升方案(1).md) returned no exact matches. This scoped audit therefore found no documented prior use or consideration. It cannot certify teamwide non-access and should not be described as an exhaustive historical audit.
+The lead/source analyst is independently qualifying the proposed 420-condition RNA drug-combination screen and matched singles. This access audit has not opened its expression measurements or performance outcomes. The source is a candidate for an explicitly identified cross-modality RNA confirmation, conditional on validating drug/dose identities, controls, repeats and genuine pair coverage. It would not by itself establish a new genetic-double-perturbation confirmation. GSE174695 and its parent accession must be counted as one experimental source, not two. Status: no prior use documented in retrieved records; teamwide non-access unknown; experimental eligibility pending separate metadata audit.
+
+Additional scoped check requested by the lead analyst:
+Joung combinatorial RNA: no specific prior use record resolved in the scoped Library queries. Status must read "no prior use documented in retrieved records; cannot certify teamwide non-access", rather than "never used". Exact assay and experimental pair coverage remain to be qualified by the source analyst.
+GSE206741 / CPA A549 drug-combination RNA: an August 8, 2026 WitnessCell planning document (Library libfile_a411b091ab3881919093d3ca9c6060d8, lines 163-209) explicitly proposes it as a genetic-to-drug confirmation candidate and describes 32 single-drug/combination conditions. This is prior design/literature consideration, not evidence of expression or model-outcome access. No GSE206741 or sciPlex mention was found in the v20 main manuscript. The exact experimental pair graph still needs qualification. A drug-combination confirmation would test a different intervention modality and should say so; it does not replace genetic double-perturbation confirmation. Existing proposal status and any later execution must remain distinct.
+
+A. Adamson 2016, GSE90546, DOI 10.1016/j.cell.2016.11.048
+Status: distinct publication/study from Dixit, despite overlapping author teams; previously mentioned in the user's ACD public-data proposal, without a demonstrated expression-analysis record in the documents read. Absence of a WitnessCell hit does not prove never accessed by the team.
+Design: primary article states all single, double and triple combinations of ERN1/IRE1alpha, EIF2AK3/PERK and ATF6. The commonly reused larger screen is primarily single-target.
+Eligibility: the targeted double arm has three distinct pair identities on three genes. Its unsigned pair incidence matrix is the 3-by-3 triangle, determinant -2 and rank 3. Consequently n_pairs-rank(X)=0 and the endpoint-orthogonal response is identically zero. Guide multiplicity, cells, treatments and replicates cannot be counted as new partner pair identities. The present partner-primary estimand cannot be confirmed there. Treat as structurally ineligible without reading expression. Triple outcomes require a different task and predictor.
+
+B. DLD1 / GSE337988 (Yeung, Tan et al. 2026)
+Status: v20 SI Note 8.1 explicitly records labels-only inspection at MOI 0.5; no model evaluation before exclusion. A distinct-source candidate with recorded metadata exposure, not an unseen dataset in the literal sense.
+Prior metadata: 889 exact-two-promoter pair labels, 3,284 cells, no pair reaching 20 cells; existing rule required 20 cells in each half. Replicate field was one. The same arm cannot be rescued by relabeling captures as biological replicates.
+Source identity: author repository distinguishes new pilot/sublib2 data GSE337988 from a Replogle GSE146194 reanalysis. This distinction is critical; the latter cannot be counted as an independent experimental source just because it ships in a new paper/Zenodo package.
+Next permissible step: inspect raw guide/condition metadata for other GSE337988 arms under fixed count, exact-two-target and biological-unit criteria before means or program outcomes. Select among eligible arms by fixed metadata rule, not error or G2M response. Do not globally regress out G2M/cell cycle in preprocessing when G2M is the frozen response target.
+
+C. Compressed Perturb-seq, Yao et al., DOI 10.1038/s41587-023-01964-9, GSE221321
+Status: separate source. No explicit retained-outcome record was found in this scoped WitnessCell retrieval; prior literature familiarity is possible. Raw-response access remains unverified, not certified absent.
+Metadata: human THP1 macrophage-like cells, 598-target perturbation design, CRISPRi guide-pooled and Cas9 cell-pooled arms plus corresponding conventional screens. Published guide-pooled arm has 24,192 cells and mean 2.50 guides/cell; counts are design context, not a candidate-pair eligibility result.
+Eligibility hazard: cell-pooling combines multiple cells in a droplet and must never be mistaken for two genetic interventions in one cell. Only guide-pooled or valid conventional exact-two-target singlets could enter the current task. Many pairs may have insufficient repeated cells; exact pair counts and endpoint-orthogonal graph dimension must be checked before expression aggregation. Author-inferred FR-Perturb interaction coefficients are not the heldout measured target for this comparison.
+Scope: a new human cellular context, but G2M activity need not match proliferating K562. Do not choose a different program after inspecting this source's test outcomes and still call it the same frozen confirmation.
+
+D. Geiger-Schuller/Eraslan E3-ligase Perturb-seq, preprint 10.1101/2023.01.23.525198
+Status: primary source located; no raw data were read here. It studies a large E3-ligase set in primary dendritic cells and discusses combinatorial validation. Public data graph, exact double/single coverage, species mapping and prior access remain unqualified.
+Decision: secondary discovery lead only. Do not claim eligible or independent confirmation from its title/abstract alone. A frozen human G2M gene set would require predeclared ortholog handling if the chosen experiment is nonhuman.
+
+MINIMUM ACCESS LANGUAGE FOR A QUALIFIED NEXT RUN
+"The study uses previously collected public measurements. Before expression aggregation and predictive evaluation for this run, source identities, allowed experimental arms, pair/cell eligibility, program definition, model rules and evaluation were frozen. The recorded workflow found no prior outcome-driven use of the chosen arm for this predictor; unrecorded team exposure cannot be ruled out by this audit. Metadata and published source-design information had been inspected. This is a retrospective frozen evaluation in [a distinct source / a held experimental block], not a prospective experiment."
+Replace bracketed level according to actual experimental origin. If raw outcomes had influenced development, state development explicitly and retain the original fixed confirmation decision.
+
+EVIDENCE READ
+Internal source I1: WitnessCell_v20_Full_Supplementary_Information.pdf, Library libfile_7c7127b606388191b4f922f544484277, Note 6.1-6.2 and Note 8.1-8.2. Source/relationship portions read directly.
+Internal source I2: WitnessCell_v20_Full_Manuscript.pdf, Library libfile_57897df331108191ab3f44ddbb619b25, source-qualified Methods/data availability located via literal find.
+Internal source I3: WitnessCell_Horlbeck_OSF_Preregistration_Anonymous_v1_1.txt, Library libfile_e97a2506ee0481918c8891ddfb0ed41b, original data-access/held-Jurkat statements; later status superseded by I1.
+Internal source I4: ACD_Public_Data_Anchor_Proposal.md, Library libfile_9b681655030c81919aac4417e414e46b, candidate table explicitly names Adamson/GSE90546. This is contextual consideration, not proof of expression analysis.
+Internal source I5: WitnessCell_Dixit_FixedReference_20261020_Report.txt, Library libfile_0b6697850e108191993b1a6cf0ddb6eb, explicit development classification located by find.
+Primary external E1: Adamson et al. original author manuscript, https://escholarship.org/uc/item/9961h6m4 ; PubMed https://pubmed.ncbi.nlm.nih.gov/27984733/ ; original fulltext indexed at https://pmc.ncbi.nlm.nih.gov/articles/5315571/ . Browser open to PMC encountered recaptcha, so design attribution is supported by primary author-manuscript/fulltext search excerpts.
+Primary external E2: Yao et al. https://www.nature.com/articles/s41587-023-01964-9 ; full text and Data availability read.
+Primary external E3: https://github.com/Genentech/perturbmatch_analysis/blob/main/README.md ; author source identity/data availability read; original paper https://doi.org/10.64898/2026.07.10.737863 . No processed outcome tables opened.
+Primary external E4: https://pmc.ncbi.nlm.nih.gov/articles/PMC9900845/ ; primary preprint metadata only.
+
+RETRIEVAL LIMITATIONS
+Personal Context unavailable. Library searches return ranked/fuzzy matches; a missing exact hit cannot establish non-access. No broad filesystem scan occurred. New raw candidate expression, outcome tables and model predictions were not downloaded or analyzed. Existing published manuscript snippets occasionally expose already-public results; these were not used to choose among candidate datasets. Direct GEO webpage opens encountered recaptcha and were not bypassed; author repository and primary-paper provenance were used for metadata.

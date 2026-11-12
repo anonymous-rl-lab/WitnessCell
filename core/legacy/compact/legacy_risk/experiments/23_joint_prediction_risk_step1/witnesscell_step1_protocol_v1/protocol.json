@@ -1,0 +1,182 @@
+{
+  "protocol_id": "WitnessCell-step1-v1-20261017",
+  "status": "design_only_not_executed_not_registered",
+  "design_type": "retrospective_development_and_diagnostic",
+  "mean_predictor": {
+    "experiment": "19_v14_incremental_amplitude_gate",
+    "identity_mode": "multihead_v14",
+    "use_frozen_formal_predictions": true,
+    "replace_final_mean_with_ensemble_mean": false
+  },
+  "primary_dataset": "Norman",
+  "same_protocol_check_dataset": "Wessels",
+  "optional_transfer_datasets": [
+    "Schmidt",
+    "Replogle_exp6"
+  ],
+  "optional_transfer_donor_seed": 1,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "test_double_counts": {
+    "Norman": [
+      73,
+      66,
+      69
+    ],
+    "Wessels": [
+      63,
+      54,
+      64
+    ],
+    "Schmidt": [
+      22,
+      19,
+      19
+    ],
+    "Replogle_exp6": [
+      35,
+      29,
+      27
+    ]
+  },
+  "train_double_counts": {
+    "Norman": [
+      37,
+      46,
+      41
+    ],
+    "Wessels": [
+      28,
+      42,
+      36
+    ],
+    "Schmidt": [
+      5,
+      7,
+      6
+    ],
+    "Replogle_exp6": [
+      0,
+      2,
+      6
+    ]
+  },
+  "oof": {
+    "pair_folds": 5,
+    "endpoint_block_folds": 5,
+    "remove_endpoint_touching_training_and_validation_conditions": true,
+    "refit_full_allowed_pipeline": true,
+    "total_weight_per_canonical_pair": 1
+  },
+  "ensemble": {
+    "members": 8,
+    "sampling": "stratified_training_condition_subsampling_without_replacement",
+    "fraction": 0.8,
+    "retain_control": true,
+    "nonempty_type_sample_count": "max(1,floor(0.8*n))",
+    "variance_ddof": 1
+  },
+  "randomness": {
+    "master_seed": 1729,
+    "hash": "sha256",
+    "fold_assignment": "sort canonical identities by SHA256(protocol_id|dataset|seed|scheme|identity), then round-robin across five folds",
+    "member_seed": "first 8 hex digits of SHA256(protocol_id|dataset|seed|scheme|fold|member)",
+    "tie_break": "SHA256(protocol_id|dataset|canonical_pair) ascending"
+  },
+  "ordinary_features": [
+    "log1p_nontarget_predicted_effect_mean_square",
+    "log1p_nontarget_ensemble_variance_mean"
+  ],
+  "support_added_features": [
+    "missing_measured_single_endpoints",
+    "mean_reciprocal_one_plus_training_double_endpoint_degree"
+  ],
+  "risk_head": {
+    "model": "weighted_ridge",
+    "lambda": 1.0,
+    "objective": "weighted_mean_squared_error_plus_lambda_l2_squared",
+    "penalize_intercept": false,
+    "standardization": "training_oof_weighted_mean_and_sd",
+    "zero_sd_replacement": 1.0,
+    "target": "log1p(nontarget_mse/m)",
+    "m": "dataset_seed_global_training_oof_weighted_median_loss",
+    "m_floor": 1e-12,
+    "score": "unclipped_linear_output",
+    "hyperparameter_search": false
+  },
+  "selection": {
+    "primary_coverage": 0.5,
+    "secondary_coverages": [
+      0.3,
+      0.7,
+      0.9
+    ],
+    "policy": "batch_rank",
+    "batch": "dataset_seed",
+    "accepted_count": "floor(coverage*n)",
+    "absolute_threshold_claim": false
+  },
+  "primary_loss": "MSE_after_removing_both_perturbed_gene_coordinates",
+  "truth": "E18_full_cell_condition_means",
+  "secondary_weight_source": "E22_fixed_weights_remove_target_coordinates_then_renormalize",
+  "same_as_legacy_E22_first_means_estimand": false,
+  "relative_loss_floor": "max(weighted_training_oof_true_effect_mean_square_q10,1e-12)",
+  "primary_effect": "1-exp(mean_over_seeds(log(R_support/R_ordinary)))",
+  "bootstrap": {
+    "replicates": 5000,
+    "unit": "canonical_gene_pair",
+    "carry_all_seeds_and_methods": true,
+    "rerank_and_reselect_within_each_resampled_batch": true,
+    "boundary_duplicate_handling": "fractional_weight_to_exact_quota",
+    "interval": "percentile_95"
+  },
+  "risk_gate": {
+    "primary_gain_point_at_least": 0.1,
+    "primary_gain_ci_lower_greater_than": 0,
+    "wessels_direction": "positive",
+    "no_point_disadvantage_against_effect_only_and_variance_only": true,
+    "confounding_sensitivity_review_required": true
+  },
+  "prediction_gate": {
+    "loss": "nontarget_WMSE_full_mean_truth",
+    "comparators": [
+      "independently_tuned_saturation_only",
+      "scouter"
+    ],
+    "ratio_ci_upper_at_most": 1.05,
+    "scouter_vectors_status": "not_available_in_current_assets",
+    "missing_comparator_means_gate_pending": true,
+    "primary_dataset": "Norman",
+    "wessels": "report_separately_and_inspect_direction"
+  },
+  "budget": {
+    "smoke_progress_check_minutes": 10,
+    "pilot_budget_minutes": 60,
+    "core_fit_calls_per_main_split_upper": 98,
+    "main_core_fit_calls_upper": 588,
+    "optional_transfer_fit_calls": 48,
+    "formal_wall_time": "measure_before_commitment"
+  },
+  "pending_before_execution": [
+    "implement isolated train-score-evaluate wrappers",
+    "lock new module source and environment",
+    "freeze scouter source/training configuration before comparator results"
+  ],
+  "claims_excluded": [
+    "independent_prospective_confirmation",
+    "absolute_risk_calibration_guarantee",
+    "conformal_coverage",
+    "fixed_threshold_transfer",
+    "biological_hit_enrichment",
+    "superiority_to_all_uncertainty_methods"
+  ],
+  "replay_tolerance": {
+    "cast": "float32",
+    "atol": 1e-06,
+    "rtol": 1e-06,
+    "on_failure": "stop_and_investigate_without_algorithm_changes"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "loss_mse": {
+    "rho": {
+      "0.25": 0.8090019051872145,
+      "0.5": 0.7258214292561839,
+      "1.0": 0.6674969225117842
+    },
+    "G": {
+      "0.25": 0.1909980948127855,
+      "0.5": 0.27417857074381613,
+      "1.0": 0.33250307748821584
+    },
+    "Delta_G100_minus_G25": 0.14150498267543032,
+    "seed_results": [
+      {
+        "seed": 1,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.00465819549743946,
+        "factorized_mean_loss": 0.0055589650089639875,
+        "ratio": 0.8379609315633375
+      },
+      {
+        "seed": 2,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.0027903215522187544,
+        "factorized_mean_loss": 0.003760315205221513,
+        "ratio": 0.7420445893323407
+      },
+      {
+        "seed": 3,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.0040119769072328,
+        "factorized_mean_loss": 0.0047115474049442795,
+        "ratio": 0.8515200129415331
+      },
+      {
+        "seed": 1,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.0042015834437810085,
+        "factorized_mean_loss": 0.0055589650089639875,
+        "ratio": 0.7558211712082802
+      },
+      {
+        "seed": 2,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.0024035140350606994,
+        "factorized_mean_loss": 0.003760315205221513,
+        "ratio": 0.6391788730166074
+      },
+      {
+        "seed": 3,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.003729163796917451,
+        "factorized_mean_loss": 0.0047115474049442795,
+        "ratio": 0.7914944871411208
+      },
+      {
+        "seed": 1,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.0037917404929629526,
+        "factorized_mean_loss": 0.0055589650089639875,
+        "ratio": 0.6820946861238854
+      },
+      {
+        "seed": 2,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.002213633607561147,
+        "factorized_mean_loss": 0.003760315205221513,
+        "ratio": 0.5886829924489657
+      },
+      {
+        "seed": 3,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.003489676856918119,
+        "factorized_mean_loss": 0.0047115474049442795,
+        "ratio": 0.740664702483109
+      }
+    ]
+  },
+  "loss_wmse": {
+    "rho": {
+      "0.25": 0.7319172425144098,
+      "0.5": 0.6609352191077668,
+      "1.0": 0.6234131870401087
+    },
+    "G": {
+      "0.25": 0.2680827574855902,
+      "0.5": 0.33906478089223324,
+      "1.0": 0.37658681295989127
+    },
+    "Delta_G100_minus_G25": 0.10850405547430109,
+    "seed_results": [
+      {
+        "seed": 1,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.07867909166081016,
+        "factorized_mean_loss": 0.10467914837578375,
+        "ratio": 0.7516214344652771
+      },
+      {
+        "seed": 2,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.02323955017385885,
+        "factorized_mean_loss": 0.044505298139942674,
+        "ratio": 0.5221749127662125
+      },
+      {
+        "seed": 3,
+        "fraction": 0.25,
+        "witness_mean_loss": 0.07726279188346875,
+        "factorized_mean_loss": 0.07733919042250087,
+        "ratio": 0.999012162674386
+      },
+      {
+        "seed": 1,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.07154802031281528,
+        "factorized_mean_loss": 0.10467914837578375,
+        "ratio": 0.6834983033676174
+      },
+      {
+        "seed": 2,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.018996031371637724,
+        "factorized_mean_loss": 0.044505298139942674,
+        "ratio": 0.42682629182499826
+      },
+      {
+        "seed": 3,
+        "fraction": 0.5,
+        "witness_mean_loss": 0.0765398666489599,
+        "factorized_mean_loss": 0.07733919042250087,
+        "ratio": 0.9896646994987367
+      },
+      {
+        "seed": 1,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.06616450331288166,
+        "factorized_mean_loss": 0.10467914837578375,
+        "ratio": 0.6320695605524053
+      },
+      {
+        "seed": 2,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.017380411335728402,
+        "factorized_mean_loss": 0.044505298139942674,
+        "ratio": 0.390524545663695
+      },
+      {
+        "seed": 3,
+        "fraction": 1.0,
+        "witness_mean_loss": 0.07591268698430109,
+        "factorized_mean_loss": 0.07733919042250087,
+        "ratio": 0.9815552318248116
+      }
+    ]
+  }
+}

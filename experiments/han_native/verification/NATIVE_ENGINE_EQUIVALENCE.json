@@ -1,0 +1,8 @@
+{
+  "max_abs": {
+    "baseline": 0.0,
+    "rank1": 0.0,
+    "spectral": 0.0
+  },
+  "scope": "Original native training/selection/refit vs corrected resumable adapter; no query scoring"
+}

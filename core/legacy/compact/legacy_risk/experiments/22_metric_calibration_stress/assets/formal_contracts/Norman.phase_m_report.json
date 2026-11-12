@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PREFREEZE_CANDIDATE_BLIND_CONTRACT",
+  "created_utc": "2026-08-11T06:00:16.044647+00:00",
+  "dataset": "Norman",
+  "source_sha256": "72748687e175983d7456d825334f1a553650800c2510dc6dc36e20941d0b8b63",
+  "shape": [
+    96994,
+    5025
+  ],
+  "conditions": 227,
+  "supported_conditions": 225,
+  "evaluable_weight_conditions": 226,
+  "prepare_only": true,
+  "formal_rows": null,
+  "formal_evaluable_rows": null,
+  "contract_sha256": "13382303fa04d504102d212b69a3ca449feb691bb66b0221fb1c6b9d03510f7b",
+  "metric_validity_sha256": null,
+  "split_ledger_sha256": "6a46bc07f4eef9ff29844888924bf808f3647e6f6842ba1b15deed1d19616b28"
+}

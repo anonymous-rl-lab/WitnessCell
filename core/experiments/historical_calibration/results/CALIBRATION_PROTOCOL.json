@@ -1,0 +1,10 @@
+{
+  "scope": "Retrospective development on recovered historical splits; not new preregistration or new independent confirmation",
+  "rule": "alpha=clip(inner_reward/(2*inner_cost),0,1); zero for zero correction; no threshold search",
+  "objective": "Minimize pooled foldwise endpoint-projected inner SSE along the archived rank-one correction",
+  "reference": "Original full-response-selected rank-one model, not best outer predictor",
+  "data": "All 55 eligible functional training configurations",
+  "decision_sha256": "fb6e91a24a48f9e1d10af55be3821a7cff70d33141e68f48331ea0cbb94d39f8",
+  "outer_outcomes_used_for_alpha": false,
+  "fitting_biological_predictor": false
+}

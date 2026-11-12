@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "clipping_samples": 100000,
+  "latent_bound_max_excess": 4.440892098500626e-16,
+  "positive_clipping_formula_max_error": 0.0,
+  "cooperative_networks": 1000,
+  "network_envelope_max_excess": 0.0,
+  "one_intermediate_raw_rank": 3,
+  "one_intermediate_endpoint_removed_rank": 2,
+  "endpoint_block_identity_max_error": 2.1510571102112408e-16,
+  "scope": "Checks of specified mathematical constructions, not biological identification."
+}

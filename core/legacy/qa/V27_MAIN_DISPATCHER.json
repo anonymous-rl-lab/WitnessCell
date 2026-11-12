@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "release": "27.0.0",
+  "paper": "22",
+  "tasks": [
+    {
+      "task": "gse220974_final",
+      "scope": "Closed GSE220974 experiment: exact float64 residual/utility replay, five main models, 420 choices, six paired intervals; external full prediction/weight replay identities retained. No training.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/final_archive_build/grn_repo_v27/experiments/34_gse220974_five_model_final/reproduce.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/v27_dispatcher_main/gse220974_final"
+      ],
+      "log": "gse220974_final.log",
+      "timeout_seconds": 300.0,
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.36493058799533173
+    }
+  ],
+  "passed": 1
+}

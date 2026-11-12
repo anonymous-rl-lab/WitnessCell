@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "seconds": 2.3855983020002896,
+  "tasks": [
+    {
+      "task": "Q1",
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        9,
+        11,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "query_ids": [
+        5,
+        7,
+        10,
+        12
+      ],
+      "training_pair_count": 17,
+      "permitted_single_count": 10,
+      "query_expression_masked": true,
+      "original_trace_sha256": "2c12d30795bda13e19d3ba1bf219f1f4cca346a2d88656818444b138d8f9f9e9",
+      "theta_max_abs": 0.0,
+      "partner_correction_max_abs": 3.387047586844716e-16,
+      "rank": 12,
+      "effective_df": 10.069337835797816
+    },
+    {
+      "task": "Q2",
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "query_ids": [
+        5,
+        9,
+        10,
+        14
+      ],
+      "training_pair_count": 17,
+      "permitted_single_count": 10,
+      "query_expression_masked": true,
+      "original_trace_sha256": "4f42f9a2fc59c8c1791ec7106f1679292616a7d377a02fdff40dbc9efaa47b02",
+      "theta_max_abs": 0.0,
+      "partner_correction_max_abs": 3.608224830031759e-16,
+      "rank": 12,
+      "effective_df": 10.158766826322584
+    },
+    {
+      "task": "Q3",
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "query_ids": [
+        7,
+        9,
+        12,
+        14
+      ],
+      "training_pair_count": 17,
+      "permitted_single_count": 10,
+      "query_expression_masked": true,
+      "original_trace_sha256": "eef18d5e97ee3685bb41241056edb75b4e6f26de62eb90a8db29eb3f8fc0221d",
+      "theta_max_abs": 0.0,
+      "partner_correction_max_abs": 3.8120548384590336e-16,
+      "rank": 12,
+      "effective_df": 10.288967278869356
+    },
+    {
+      "task": "Q4",
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "query_ids": [
+        7,
+        9,
+        18,
+        19
+      ],
+      "training_pair_count": 17,
+      "permitted_single_count": 10,
+      "query_expression_masked": true,
+      "original_trace_sha256": "4a4fbd0ff90ef00b104d2183b8bc37a69efb99583202731022c1bc1186e178af",
+      "theta_max_abs": 0.0,
+      "partner_correction_max_abs": 3.3610267347050637e-16,
+      "rank": 12,
+      "effective_df": 10.357665777337663
+    },
+    {
+      "task": "Q5",
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "query_ids": [
+        12,
+        14,
+        18,
+        19
+      ],
+      "training_pair_count": 17,
+      "permitted_single_count": 10,
+      "query_expression_masked": true,
+      "original_trace_sha256": "508665d1c731f11227f45b0dbdf5e5ea44163eb58709bc7421e4eaec098c2c55",
+      "theta_max_abs": 0.0,
+      "partner_correction_max_abs": 3.2569433261464553e-16,
+      "rank": 12,
+      "effective_df": 10.291944087913791
+    }
+  ],
+  "scope": "Exact fixed-settings SF12 outer-support sufficient-statistic derivation from original hash-verified intermediate measurements; no hyperparameter search and no raw-cell preprocessing.",
+  "input_hashes": {
+    "TRAINING_BATCH_ONLY.npz": "6901f8aa807ccb42de387fce2ba62ac9f40fba1ba918bab3e040edcb0e62767e",
+    "KNOWLEDGE_NODE.npz": "e8fcbef57090a8e124ab31f9a7509d81b2a0e47f4988bd7ebde8853a85e03b27"
+  },
+  "code_hashes": {
+    "derive_sf12_statistics.py": "8b42e557aa533ce711679f011a1b04e47c95c6ed5a843a58a71b2919c008c97e",
+    "source/legacy_model.py": "003974f87883170d08f758de00ef11b6550b0c53b7edd3a4cb76f9bdd760021e",
+    "source/fold_factory.py": "3790b4731e7bd352c4e9cd1d0a4a6408ef3cb2488070ecf15802afae00a133ae"
+  }
+}

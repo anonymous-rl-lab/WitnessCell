@@ -1,0 +1,500 @@
+[
+  {
+    "document": "main",
+    "anchor": "Joint perturbation measurements can improve predictions",
+    "before": "Joint perturbation measurements can improve predictions by refining individual intervention effects or learning how those effects change with a partner. WitnessCell distinguishes these gains and learns partner corrections that its endpoint refinement cannot supply. The released predictor ranks first among sixteen entries in a four-dataset benchmark, including its double-perturbation subset. A functional procedure fixed before Jurkat fitting reduces growth-response error by 6.43% across 617 held-out combinations and partner-contrast error by 6.18%. In a developmental RNA panel, training-measurement agreement reduces harmful corrections while retaining useful changes, with gains concentrated in a small transcript subset. Controlled causal analysis explains how joint measurements distinguish otherwise unresolved responses within a specified mechanism family. WitnessCell provides executable tools to predict unmeasured combinations and test what existing combination measurements add beyond refined individual intervention effects.",
+    "after": "Joint perturbation measurements can improve predictions by refining individual intervention contributions or learning how responses change with a partner. WitnessCell distinguishes these gains and learns partner corrections that its endpoint refinement cannot supply. Its core predictor ranks first among sixteen entries in a four-dataset benchmark, including its double-perturbation subset. A functional procedure fixed before Jurkat fitting reduces growth-response error by 6.43% across 617 held-out combinations and partner-contrast error by 6.18%. In an RNA dataset used for model development, agreement between training measurements reduces harmful corrections, with gains concentrated in a small transcript subset. Controlled causal analysis explains how joint measurements distinguish otherwise unresolved responses within a specified mechanism family. WitnessCell provides executable tools to predict unmeasured combinations and test what combination measurements add beyond refined individual intervention contributions."
+  },
+  {
+    "document": "main",
+    "anchor": "Existing methods combine intervention representations",
+    "before": "Existing methods combine intervention representations, transform cellular states or use gene relationships to predict responses.[4,5,6,7,8] Large-scale benchmarks and strong simple references test whether these predictions improve on alternatives.[9,10] Systema examines whether predictions capture perturbation-specific changes beyond systematic variation, while Miller and colleagues test whether evaluation metrics distinguish informative predictions.[11,12] These questions also matter for combinations. Contributions associated with each intervention can vary across all measured genes and still leave a partner-exchange comparison unchanged. Distinguishing this case from improved partner prediction requires examining both the model's construction and its held-out responses.",
+    "after": "Existing methods combine intervention representations, transform cellular states or use gene relationships to predict responses.[4,5,6,7,8] Large-scale benchmarks and strong simple references test whether these predictions improve on alternatives.[9,10] Systema examines whether predictions capture perturbation-specific changes beyond systematic variation, while Miller and colleagues test whether evaluation metrics distinguish informative predictions.[11,12] For combinations, a further question concerns the source of an improvement. Measurements may reveal that a model consistently underestimates one intervention's contribution across several partners. Correcting that shared error improves prediction, but leaves open whether the model also predicts how exchanging partners changes the response in different backgrounds."
+  },
+  {
+    "document": "main",
+    "anchor": "For example, combination measurements may reveal",
+    "before": "For example, combination measurements may reveal that a model consistently underestimates the response associated with one intervention across several partners. Correcting that shared error is useful, but it does not establish that the model predicts why exchanging those partners has different effects in different backgrounds. Both improvements matter to a researcher; they answer different questions about what was learned from the screen.",
+    "after": "Consider replacing partner B with D, first alongside intervention A and then alongside C. If the replacement has different effects in the two backgrounds, predicting that difference requires more than refining the separate contributions of A, B, C and D. We call this difference a partner contrast. It gives a concrete way to ask what a model has learned from joint measurements: better estimates of contributions shared across combinations, or better predictions of changes specific to the pairing."
+  },
+  {
+    "document": "main",
+    "anchor": "WitnessCell addresses this distinction within a prediction method.",
+    "before": "WitnessCell addresses this distinction within a prediction method. Its released core combines single responses nonlinearly and learns a correction from measured combinations. We show that this correction refines contributions associated with individual intervention identities, termed endpoints, while leaving a defined set of partner comparisons unchanged. We then construct explicit partner corrections and test them against the same fitted baseline. A controlled causal system provides the accompanying information result: the choice of joint measurements can determine whether mechanisms giving different answers to an unmeasured combination can be distinguished at all.[13]",
+    "after": "WitnessCell addresses this distinction within a prediction method. Its core combines single responses nonlinearly and learns a correction from measured combinations. We show that this correction refines contributions associated with individual intervention identities, termed endpoints, while leaving partner contrasts unchanged. We then construct additional corrections that can change those contrasts and test them against the same fitted baseline. A controlled causal system examines the information needed for this task: the choice of joint measurements can determine whether mechanisms giving different answers to an unmeasured combination can be distinguished.[13]"
+  },
+  {
+    "document": "main",
+    "anchor": "The released predictor is evaluated across four transcriptomic datasets.",
+    "before": "The released predictor is evaluated across four transcriptomic datasets. A functional extension tests whether partner learning improves unmeasured growth responses, using a procedure fixed before fitting in a second cellular environment. An RNA extension examines how training measurements can restrain harmful corrections. Together, these analyses connect a precise limitation of endpoint refinement to a constructive way of predicting additional partner-dependent responses. The supplied interfaces let researchers fit the transcriptomic core or functional model to existing measurements, predict unmeasured combinations and inspect the contribution of each fitted correction.",
+    "after": "We evaluate the core predictor across four transcriptomic datasets, then test the additional partner learners in functional and RNA measurements. The functional analysis asks whether partner correction improves unmeasured growth responses when experimental support expands and when a fixed procedure is fitted in another cellular environment. The RNA analysis asks whether agreement between training measurements helps control the correction applied to each transcript. These tests establish where the additional predictions improve on their baselines. The supplied interfaces allow researchers to fit the transcriptomic core or functional model, predict unmeasured combinations and inspect the contribution of each correction."
+  },
+  {
+    "document": "main",
+    "anchor": "WitnessCell starts from control and available single-perturbation measurements",
+    "before": "WitnessCell starts from control and available single-perturbation measurements, observed combinations and the identities of requested combinations. For RNA, the released core uses measured single effects when available and estimates missing ones from permitted training responses and gene annotations. It combines the single effects through a saturation rule, then transfers residuals from measured combinations that share endpoints with the query (Fig. 1a). Training or validation measurements determine the fitted settings; the complete identity of each evaluation combination is held out. The resulting predictor can use combination data even when some requested single effects have not been measured.",
+    "after": "WitnessCell starts from control and available single-perturbation measurements, observed combinations and the identities of requested combinations. Its transcriptomic core, the configuration used in the benchmark, uses measured single effects when available and estimates missing ones from training responses and gene annotations. It combines the single effects through a saturation rule, then transfers residuals from measured combinations that share endpoints with the query (Fig. 1a). Training or validation measurements determine the fitted settings. All measurements from each test combination are excluded from model fitting. The resulting predictor can use combination data even when some requested single effects have not been measured."
+  },
+  {
+    "document": "main",
+    "anchor": "The two fitting steps have different roles.",
+    "before": "The two fitting steps have different roles. Nonlinear composition allows the predicted joint response to depart from the sum of the single responses. The residual step learns what remains unexplained in measured combinations and transfers that correction through shared intervention identities. An endpoint can therefore receive a better estimate across multiple combinations. These steps give a complete response prediction before any explicit partner extension is fitted, so the later tests ask what that extension adds to an already competitive predictor.",
+    "after": "Nonlinear composition allows the joint prediction to depart from the sum of the single responses. Residual transfer then estimates the errors associated with particular endpoints across measured combinations. For example, several combinations containing A may consistently exceed the nonlinear prediction; the residual branch can transfer an A-associated correction to another pair containing A. Such a correction can improve the complete response, meaning the prediction across all readouts before any endpoint removal. Whether it also improves partner contrasts depends on how that correction changes when partners are exchanged."
+  },
+  {
+    "document": "main",
+    "anchor": "asks whether exchanging B for D",
+    "before": "asks whether exchanging B for D has the same effect in backgrounds A and C. Any contribution depending only on A, B, C or D cancels. Thus, estimating these individual contributions more accurately can improve complete responses while leaving this contrast unchanged. Here an endpoint contribution spans all measured readouts; it is not restricted to the RNA coordinate of the targeted gene. The contrast compares population responses measured under different conditions, without requiring the same cells to undergo multiple interventions.",
+    "after": "asks whether exchanging B for D has the same effect in backgrounds A and C. Any contribution depending only on A, B, C or D cancels. Estimating those contributions more accurately can therefore improve complete responses while leaving this contrast unchanged. An endpoint contribution describes the intervention's contribution across all measured readouts, including downstream genes; it is broader than the targeted gene's own RNA response."
+  },
+  {
+    "document": "main",
+    "anchor": "The cancellation can be seen directly",
+    "before": "The cancellation can be seen directly by writing an endpoint-only response as $Y_{AB}=a_A+a_B$. The contribution $a_A$ enters both AB and AD and disappears in their difference; $a_C$ disappears in the corresponding CB and CD difference. Both differences then equal $a_B-a_D$, which also cancels when the backgrounds are compared. A nonzero contrast therefore records a background-dependent change in the partner exchange. It does not identify the molecular mechanism producing that change. This comparison also differs from subtracting a single common response across all perturbations: each endpoint is allowed its own contribution to every measured readout.",
+    "after": "The cancellation can be seen by writing an endpoint-only response as $Y_{AB}=a_A+a_B$. The contribution $a_A$ enters both AB and AD and disappears in their difference; $a_C$ disappears in the corresponding CB and CD difference. Both differences then equal $a_B-a_D$, which also cancels when the backgrounds are compared. A nonzero contrast records a background-dependent change in the partner exchange. This comparison removes a separate contribution for each endpoint, whereas subtracting one common response across all perturbations removes only their shared change. The contrast describes the measured response pattern; identifying its molecular mechanism requires additional information."
+  },
+  {
+    "document": "main",
+    "anchor": "This identity applies to the residual branch.",
+    "before": "This identity applies to the residual branch. The nonlinear baseline can already produce partner-dependent contrasts. The question is therefore whether an additional correction can improve those contrasts beyond that baseline, rather than whether all partner variation is absent from the core (Fig. 1b,d).",
+    "after": "The identity identifies an exact limitation of residual transfer: it cannot change the endpoint-eliminated part of the prediction. The nonlinear baseline can already produce partner contrasts. The added learner must therefore be evaluated against that actual baseline, so that any improvement concerns new predictions beyond those already supplied by nonlinear composition (Fig. 1b,d)."
+  },
+  {
+    "document": "main",
+    "anchor": "WitnessCell adds such corrections in two separately fitted implementations.",
+    "before": "WitnessCell adds such corrections in two separately fitted implementations. The RNA extension transfers information between combinations with similar single-response profiles after removing endpoint contributions. The functional extension fits a symmetric matrix to residual growth responses. Both can change the contrast above. Each is compared with its own baseline, fitted to exactly the same permitted observations, so any improvement measures the contribution of the added learner (Fig. 1c). RNA training measurements further control the correction applied to each transcript.",
+    "after": "WitnessCell adds corrections through two separately fitted learners (Fig. 1c). The RNA learner uses similarity between the two single-response profiles of a query and those of measured pairs, allowing either endpoint ordering. It removes endpoint contributions from the training problem before estimating the correction. The functional learner fits a signed symmetric matrix to residual growth responses, sharing patterns across partners. Both constructions can change partner contrasts, unlike the core's endpoint residual. Their complete outputs can also contain endpoint-associated changes; projected evaluation isolates the part relevant to partner prediction."
+  },
+  {
+    "document": "main",
+    "anchor": "The two partner learners share this design goal",
+    "before": "The two partner learners share this design goal but use different observations. For RNA, a pair can borrow information when its two single-response profiles resemble those of a training pair, allowing either ordering of the endpoints. Projection removes the part explained by endpoint effects before estimating the new correction. For growth, a signed matrix shares residual patterns across partners and can increase some predicted pair responses while decreasing others. Each construction can represent the additional contrasts, but only its held-out comparison determines whether the fitted changes are useful.",
+    "after": "Being able to change a contrast is only the first requirement for improving it. The fitted correction must also point toward the baseline's remaining error and have an appropriate magnitude. A change in the wrong direction, or an excessive change in the right direction, can increase error. Supplementary Note 4 expresses this relationship as an exact squared-error identity. We therefore compare each learner with its own baseline fitted to the same observations, and use training measurements to select or attenuate corrections before evaluating held-out pairs. This separates what the added model can express from what it learns usefully."
+  },
+  {
+    "document": "main",
+    "anchor": "Users choose a configuration from their measurements",
+    "before": "Users choose a configuration from their measurements and prediction objective before examining query outcomes. Normalized RNA summaries support the released core; measured single responses and training sampling halves support the RNA partner extension; repeated functional measurements support the growth model. The executable core and functional interfaces return predictions, baselines and fitted settings. Supplementary Table S29 specifies the required inputs for each configuration, and Table S30 records how each evaluation was developed and frozen.",
+    "after": "Users choose a configuration from their measurements and prediction objective before examining query outcomes. Normalized RNA summaries support the core; measured single responses and two disjoint halves of the training cells additionally support the RNA partner extension; repeated functional measurements support the growth model. The executable core and functional interfaces return predictions, baselines and fitted settings. Supplementary Table S29 specifies each configuration's inputs and outputs, while Table S30 records the development and evaluation status of the supporting experiments."
+  },
+  {
+    "document": "main",
+    "anchor": "We first asked whether the permitted training measurements determine the partner response of interest.",
+    "before": "We first asked whether the permitted training measurements determine the partner response of interest.",
+    "after": "We first asked whether the training measurements determine the partner response of interest."
+  },
+  {
+    "document": "main",
+    "anchor": "We evaluated the released core in the genetic-combination track",
+    "before": "We evaluated the released core in the genetic-combination track",
+    "after": "We evaluated the WitnessCell core in the genetic-combination track"
+  },
+  {
+    "document": "main",
+    "anchor": "WitnessCell ranked first in both the complete track",
+    "before": "WitnessCell ranked first in both the complete track and the double-only subset. For doubles, its mean operation rank was 3.515, compared with 5.150 for the next-ranked method, Scouter.[18] The paired difference had a 95% cluster-bootstrap interval of −2.117 to −1.141 (Fig. 3a,c). All fifteen comparator differences had pointwise intervals below zero. WitnessCell also ranked first by point estimate when neither, one or both query endpoints had been seen in training (Fig. 3b). These are decompositions of the same scoring archive, with pointwise rather than simultaneous uncertainty statements; complete rankings and intervals are in Supplementary Tables S25–S26.",
+    "after": "WitnessCell ranked first in both the complete track and the double-only subset. For doubles, its mean operation rank was 3.515, compared with 5.150 for the next-ranked method, Scouter.[18] The paired difference had a 95% cluster-bootstrap interval of −2.117 to −1.141 (Fig. 3a,c). All fifteen comparator differences had pointwise intervals below zero. WitnessCell also ranked first by point estimate when neither, one or both query endpoints had been seen in training (Fig. 3b). Complete rankings and paired intervals for these subsets of the benchmark are reported in Supplementary Tables S25–S26."
+  },
+  {
+    "document": "main",
+    "anchor": "The aggregate lead did not extend to every dataset",
+    "before": "The aggregate lead did not extend to every dataset or metric. WitnessCell led the combined evaluation in three datasets and ranked fourth in Schmidt. Its native-scale MSE was lower than Scouter's in Norman and Replogle_exp6 but higher in Wessels and Schmidt (Fig. 3d). Wasserstein and common differential-expression rankings were also weaker, and the linear model led on unseen singles. These differences show why the aggregate result should be read alongside the underlying response errors.",
+    "after": "The aggregate comparison summarizes ranks across metrics, while MSE measures error magnitude in each dataset's original response units. These views reveal different strengths. WitnessCell led the combined evaluation in three datasets and ranked fourth in Schmidt. Its MSE was lower than Scouter's in Norman and Replogle_exp6 but higher in Wessels and Schmidt (Fig. 3d). Wasserstein and common differential-expression rankings were also weaker, and the linear model led on unseen singles. The aggregate lead thus coexists with settings in which other methods predict particular response properties more accurately."
+  },
+  {
+    "document": "main",
+    "anchor": "Aggregation summarizes performance across the specified metrics",
+    "before": "Aggregation summarizes performance across the specified metrics and operations, whereas native-scale MSE retains the magnitude of expression errors within a dataset. A method can therefore lead the aggregate comparison while losing a particular error comparison. Keeping both views shows researchers the overall competitive result and the settings in which another predictor may be preferable. The benchmark's mean-based adapter evaluates selected distributional metrics without establishing that WitnessCell predicts complete cell-state distributions.",
+    "after": "The distinction matters when selecting a predictor for a particular experiment. Ranking across several metrics reduces dependence on any one measure, but does not retain the size of each error in its original units. We therefore report dataset-specific MSE alongside aggregate performance. The distributional metrics also have a defined interpretation here: the benchmark combines predicted means with training-control variation. Their scores assess that adapted prediction, rather than a directly learned distribution of perturbed cell states."
+  },
+  {
+    "document": "main",
+    "anchor": "Additional analyses examined where the core",
+    "before": "Additional analyses examined where the core's gains arose. Improvements persisted after removing the directly manipulated RNA coordinates, showing that prediction benefited downstream readouts. Holding the nonlinear baseline fixed and increasing the available Wessels combination measurements improved complete-response accuracy (Supplementary Fig. S3). The core therefore uses measured combinations to refine predictions beyond its single-response composition. Full effect sizes and the separately defined training-mean reference analysis are retained in Supplementary Note 15. Historical scores for the official linear and training-mean entries differ for an unresolved reason; excluding either or both leaves WitnessCell first under the unchanged aggregation rule (Supplementary Table S31).",
+    "after": "Additional analyses examined how the core uses combination measurements. Improvements persisted after removing directly manipulated RNA coordinates, showing that downstream readouts benefited. Holding the nonlinear baseline fixed and increasing the available Wessels combination measurements improved complete-response accuracy (Supplementary Fig. S3). This comparison isolates the contribution of the residual library from changes to the single-response composition. Supplementary Note 15 gives the effect sizes and separately defined training-mean reference analysis; Methods and Table S31 describe the historical scoring differences between official reference entries and the sensitivity to their inclusion."
+  },
+  {
+    "document": "main",
+    "anchor": "Growth measurements test the added partner learner",
+    "before": "Growth measurements test the added partner learner against a directly measured cellular phenotype. Using the Horlbeck genetic-interaction screen,[3] WitnessCell fits a baseline to permitted single and combination measurements from each repeat. A shared, signed low-rank matrix then predicts the residual growth response. The primary correction uses rank one; a more flexible spectral model provides a secondary comparison.[19] Both are selected using training combinations and evaluated against their corresponding refitted baseline. Fitness prediction already has precedents, including GEARS;[8] the question here is whether an explicit partner correction improves on a baseline that already uses combination measurements.",
+    "after": "Growth measurements test the added partner learner against a directly measured cellular phenotype. Using the Horlbeck genetic-interaction screen,[3] WitnessCell fits a baseline to single and combination measurements from each repeat. A shared, signed low-rank matrix then predicts the residual growth response. The primary correction uses rank one; a more flexible spectral model provides a secondary comparison.[19] Training combinations determine the correction, which is evaluated against its corresponding refitted baseline. Fitness prediction has precedents, including GEARS;[8] the question here is whether explicit partner learning improves a functional predictor that already uses combination measurements."
+  },
+  {
+    "document": "main",
+    "anchor": "The K562 experiment compared two training budgets",
+    "before": "The K562 experiment compared two training budgets while keeping each fold's query pairs fixed. The low pool contained 421–422 measured pairs and was nested within the high pool of 2,317–2,318 pairs. At each budget, the baseline and partner correction were refitted using only the allowed measurements. The primary correction's partner gain changed from approximately zero at low support to 11.68% at high support; the high-support complete-response gain was 11.03% (Fig. 4b). Partner gains were positive in each of the three high-support development folds. The figure displays only the two evaluated budgets.",
+    "after": "During model development in K562, we compared two training budgets while keeping each fold's query pairs fixed. The low pool contained 421–422 measured pairs and was nested within the high pool of 2,317–2,318 pairs. At each budget, the baseline and partner correction were refitted using only the training measurements. The primary correction's partner gain changed from approximately zero at low support to 11.68% at high support; the high-support complete-response gain was 11.03% (Fig. 4b). Partner gains were positive in each of the three high-support folds."
+  },
+  {
+    "document": "main",
+    "anchor": "Refitting the baseline at each budget is essential",
+    "before": "Refitting the baseline at each budget is essential to interpreting this comparison. More measurements already improve the baseline, so comparing the high-budget corrected model only with the low-budget baseline would combine two sources of improvement. The reported gains instead compare each correction with its own same-budget baseline. They show that the expanded screen supported an additional useful partner prediction, beyond the benefit of supplying more data to the baseline. This is revised development evidence; the original registered K562 outcomes remain in Supplementary Table S23.",
+    "after": "Refitting the baseline at each budget separates two benefits of additional measurements. A larger training set can improve the baseline itself and can also help estimate the partner correction. Comparing each corrected predictor with its own same-budget baseline measures the second benefit. In K562, the expanded screen supported a useful additional partner prediction beyond the benefit of supplying more data to the baseline. The full development history, including the original registered outcomes, is reported in Supplementary Table S23."
+  },
+  {
+    "document": "main",
+    "anchor": "Increasing the measured pairs changes condition count",
+    "before": "Increasing the measured pairs changes condition count, endpoint coverage and their pattern of overlap together. The experiment therefore measures the return from expanding combination support in this screen. It does not locate a minimum sample size, determine the behavior between the two budgets or establish a threshold transferable to RNA tasks. Detailed budgets, fitted choices and both model variants are reported in Supplementary Note 7.",
+    "after": "The added measurements expand both the number of observed pairs and the connections between endpoints. Each endpoint can be observed with more partners, and overlapping combinations can link residual responses across the screen. The comparison therefore evaluates this expanded experimental support as a whole. The two measured budgets establish where the tested correction did and did not improve the queries; they leave the behavior at intervening budgets unresolved. Supplementary Note 7 provides the exact training sets and fitted choices."
+  },
+  {
+    "document": "main",
+    "anchor": "With the procedure fixed before Jurkat fitting",
+    "before": "With the procedure fixed before Jurkat fitting, the primary correction reduced growth-response error by 6.43% across 617 held-out pairs and partner error by 6.18% (Fig. 4c,d). It improved complete-response prediction in both measured repeats. The model was refitted on Jurkat measurements covering approximately 80% of possible pairs among the included genes. This tests transfer of the fitting procedure between cellular environments within one study. The demonstrated use is completion of an already substantially measured screen; the training fraction is neither a validated minimum requirement nor an estimate of experimental savings.",
+    "after": "We next fixed the model family and selection rules before fitting Jurkat measurements. The primary correction reduced growth-response error by 6.43% across 617 held-out pairs and partner error by 6.18% (Fig. 4c,d), with complete-response improvements in both measured repeats. Coefficients were estimated anew from Jurkat measurements covering approximately 80% of possible pairs among the included genes. This evaluates transfer of the fitting procedure between cellular environments within the same study. Its demonstrated use is completion of an already substantially measured functional screen."
+  },
+  {
+    "document": "main",
+    "anchor": "Fixing the procedure before Jurkat fitting preserves",
+    "before": "Fixing the procedure before Jurkat fitting preserves the model family and selection rules while allowing its coefficients to adapt to the new cellular environment. This evaluates whether the same approach can use that environment's own measurements. The K562 budget comparison and Jurkat result thus address complementary questions: whether additional support helps within one setting, and whether a fixed procedure retains an increment after refitting in another.",
+    "after": "K562 and Jurkat address complementary aspects of that use. The K562 comparison tests whether additional measurements help within one screen, using the same queries at both budgets. Jurkat tests whether the fixed fitting procedure retains a useful correction when its coefficients are estimated in another cellular environment. In both cases, the complete-response loss measures the practical prediction improvement, while endpoint elimination tests how much improvement remains after removing contributions associated with individual interventions."
+  },
+  {
+    "document": "main",
+    "anchor": "The TTI2/ACTR10 backgrounds and PGK1/OGFOD1 partners",
+    "before": "The TTI2/ACTR10 backgrounds and PGK1/OGFOD1 partners provide a concrete example. Their measured repeat-mean growth contrast was −0.0581. The partner correction shifted the baseline prediction from −0.0233 to −0.0435, closer to the measured value (Fig. 4e,f). Because the four-corner contrast cancels contributions depending only on an individual endpoint, this change shows how the added learner adjusts the predicted effect of exchanging partners across backgrounds. It illustrates the response assessed in the complete held-out test. The example-selection rule, both repeats and every eligible continuation are retained in the figure legend and Supplementary Table S35.",
+    "after": "The TTI2/ACTR10 backgrounds and PGK1/OGFOD1 partners illustrate the response being improved. Their measured repeat-mean growth contrast was −0.0581. The partner correction shifted the baseline prediction from −0.0233 to −0.0435, closer to the measured value (Fig. 4e,f). This four-pair comparison cancels contributions depending only on an individual endpoint, so the change concerns the predicted difference between partner exchanges in the two backgrounds. Both repeats and all backgrounds completing this example are reported in Supplementary Table S35."
+  },
+  {
+    "document": "main",
+    "anchor": "The RNA extension asks whether training measurements",
+    "before": "The RNA extension asks whether training measurements can identify which transcript corrections to retain. We evaluated it on the matched CaRPool development panel.[16] Whole combinations were held out, and eleven four-pair rectangles were used to compare predictions from the same fitted model. The baseline already included nonlinear composition and endpoint refinement. The added kernel shares residual information between combinations with similar single responses and removes endpoint effects before transfer, allowing it to change the partner contrasts left unchanged by the core's endpoint residual.",
+    "after": "The RNA extension asks whether training measurements can regulate partner correction across thousands of transcripts. We evaluated it on the matched CaRPool dataset used for model development.[16] Whole combinations were held out, and eleven four-pair rectangles compared predictions from the same fitted model. The baseline already included nonlinear composition and endpoint refinement. The additional kernel estimates corrections from endpoint-eliminated training responses using similarities between pairs' single-response profiles. Its held-out rectangle error tests the added prediction of partner contrasts."
+  },
+  {
+    "document": "main",
+    "anchor": "To regulate the correction for each transcript",
+    "before": "To regulate the correction for each transcript, we split permitted training cells into disjoint halves and compared their responses after removing endpoint effects. A transcript with weak agreement received a smaller correction. This rule uses training measurements before scoring any query. Agreement between cell halves measures sampling consistency within an experiment; shared guide or preparation effects can persist in both halves. The weights therefore regulate the fitted prediction without establishing reproducibility across independent biological preparations.",
+    "after": "The usefulness of a correction can differ between transcripts. A common amplitude may preserve a strong response change but also carry weak or inconsistent changes into other readouts. WitnessCell instead compares endpoint-eliminated responses in two disjoint halves of the training cells. A transcript with weaker agreement receives a smaller correction. Because the weights depend only on training measurements, the held-out combinations provide a separate test of whether this adjustment improves prediction."
+  },
+  {
+    "document": "main",
+    "anchor": "Each transcript can carry a different amount",
+    "before": "Each transcript can carry a different amount of useful signal for the correction. Applying the same amplitude to all transcripts would retain weak or inconsistent changes alongside strong ones. The training-half rule instead attenuates a correction when the endpoint-eliminated training measurements disagree. The held-out comparison then tests whether this training-derived adjustment improves prediction; agreement itself is not substituted for a prediction test.",
+    "after": "Agreement between cell halves measures sampling consistency within the experiment. Shared guide or preparation effects can persist in both halves, so this weighting does not establish reproducibility across biological preparations. Its role is operational: it sets the amplitude applied to each transcript's prediction. A training-selected uniform shrinkage control tests whether transcript-specific weighting adds value beyond reducing the entire correction by one common factor."
+  },
+  {
+    "document": "main",
+    "anchor": "The resulting predictor, R, reduced held-out rectangle error",
+    "before": "The resulting predictor, R, reduced held-out rectangle error by 15.96% relative to its baseline and by 6.94% relative to a training-selected uniform shrinkage control (Fig. 5b,c). Shrinking every transcript by the same amount could not account for the full improvement. An error-budget analysis explains the difference: transcript-specific shrinkage retained most of the unweighted correction's helpful changes while removing most of its harmful changes (Fig. 5d). The complete positive, adverse and net contributions, matched neural comparisons and individual-seed results are given in Supplementary Notes 6, 13 and 15.",
+    "after": "The resulting predictor, R, reduced held-out rectangle error by 15.96% relative to its baseline and by 6.94% relative to uniform shrinkage (Fig. 5b,c). Thus, a single shrinkage factor did not account for the full improvement. An error-budget analysis separated transcripts with reduced error from those with increased error, determining the sign separately for each model. R preserved most of the unweighted correction's total positive error reduction while markedly lowering its total adverse increment (Fig. 5d). Supplementary Notes 6, 13 and 15 provide the full budgets, matched neural comparisons and individual-seed results."
+  },
+  {
+    "document": "main",
+    "anchor": "The benefit was concentrated.",
+    "before": "The benefit was concentrated. Ten transcripts, including S100A9, S100A8, S100A12 and LYZ, accounted for over 90% of positive error reductions. Removing that fixed set or standardizing by training-condition variance eliminated the aggregate gain (Fig. 5e,f). Outside the set, shrinkage substantially reduced the harm caused by the unweighted correction but left the net gain close to zero and slightly negative. These results locate the useful correction in a small subset of measured responses rather than establish broad recovery of transcriptome-wide partner structure.",
+    "after": "The benefit was concentrated. Ten transcripts, including S100A9, S100A8, S100A12 and LYZ, accounted for over 90% of positive error reductions. Removing that fixed set or standardizing by training-condition variance eliminated the aggregate gain (Fig. 5e,f). Outside the set, shrinkage substantially reduced the harm caused by the unweighted correction, leaving the net gain close to zero and slightly negative. The useful RNA correction was therefore concentrated in a small subset of measured responses."
+  },
+  {
+    "document": "main",
+    "anchor": "The sensitivity analyses ask different questions",
+    "before": "The sensitivity analyses ask different questions from the primary raw-scale score. Raw-scale error gives more weight to larger response discrepancies, so improving a small set of strongly changing transcripts can have substantial value on that scale. Training-variance standardization changes their relative influence, while deletion asks what benefit remains elsewhere. Reporting all three views preserves the positive result and makes clear how much of its apparent breadth depends on the readout scale.",
+    "after": "These sensitivity analyses distinguish the magnitude of the benefit from its breadth. Error on the original response scale gives greater weight to larger discrepancies, so correcting a few strongly changing transcripts can substantially improve that loss. Training-variance standardization changes the relative influence of readouts, whereas deletion asks how much benefit remains outside the selected set. The original-scale result demonstrates a useful correction for those responses; the two sensitivity results show why it should not be interpreted as improvement throughout the transcriptome."
+  },
+  {
+    "document": "main",
+    "anchor": "Frozen checks in Dixit and Combi-seq",
+    "before": "Frozen checks in Dixit and Combi-seq did not establish an additional partner gain, despite useful complete-response prediction in the Dixit baseline.[20,21] The RNA analysis thus adds a specific design lesson: a learner that can change partner contrasts still needs measurements that support those changes in the readouts being predicted. In this development panel, training-based shrinkage improved that balance; transfer of the RNA partner increment across sources remains unestablished.",
+    "after": "Evaluations in Dixit and Combi-seq using fixed analysis procedures did not establish an additional partner gain, despite useful complete-response prediction in the Dixit baseline.[20,21] Together with the functional results, these outcomes show that adding a learner capable of changing partner contrasts does not ensure an improvement in every task. Supplementary Table S36 places the gains alongside each task's training counts, readouts and evaluation status. Training-based shrinkage improved the balance of useful and adverse corrections in the CaRPool development dataset; transfer of the RNA partner increment across sources remains unestablished."
+  },
+  {
+    "document": "main",
+    "anchor": "Supplementary Table S36 brings the principal partner comparisons",
+    "before": "Supplementary Table S36 brings the principal partner comparisons together with their training counts, endpoints, readouts and evaluation status. It includes both the CaRPool raw-scale improvement and its sensitivity results. The tasks use different correction models and response scales, so their gains are not pooled into a single learning curve. The table describes observed uses and limits; it does not predict in advance which new dataset will benefit.",
+    "after": ""
+  },
+  {
+    "document": "main",
+    "anchor": "Separate retrospective analyses evaluated risk selection",
+    "before": "Separate retrospective analyses evaluated risk selection and PairPick partner recommendation (Supplementary Fig. S1). Risk selection retained a subset with lower prediction error. PairPick executed a fixed-objective recommendation task, but its choices largely matched existing alternatives. Moreover, many detected intervention labels could not be matched to the original design table.[22] These analyses show why improved response prediction, lower-risk selection and improved experimental choices require separate evaluation. All tasks, candidate pools, paired comparisons and identity qualifications are retained in Supplementary Notes 8, 9, 13–15.",
+    "after": "We separately examined whether response models could identify lower-error queries and rank partners for a fixed transcriptional objective (Supplementary Fig. S1). Risk selection retained a subset with lower prediction error. PairPick executed the recommendation task, but its choices largely matched existing alternatives. Many detected intervention labels could not be matched to the original design table.[22] The recommendation result is consequently a retrospective demonstration on detected labels. These analyses distinguish three practical outcomes: predicting responses more accurately, identifying predictions with lower error and making better choices among candidates. Their tasks, comparisons and identity qualifications are provided in Supplementary Notes 8, 9, 13–15."
+  },
+  {
+    "document": "main",
+    "anchor": "Combination measurements can improve a model",
+    "before": "Combination measurements can improve a model in two distinguishable ways: they can refine contributions associated with individual interventions, or help predict how a response changes with its partner. WitnessCell shows how to connect that distinction to a working predictor. The endpoint residual improves complete responses while leaving a specified partner contrast unchanged. Explicit partner learners can change that contrast, and the functional results show that doing so can improve held-out growth prediction beyond the same fitted baseline. The advance is a constructive link between what a correction can express and what it adds to prediction.",
+    "after": "Combination measurements can improve a predictor by refining contributions associated with individual interventions or by improving the predicted effect of exchanging partners. WitnessCell makes this distinction testable within a working prediction method. Its endpoint residual improves complete responses while leaving defined partner contrasts unchanged. The additional learners can change those contrasts, and the functional results show that their corrections can improve held-out growth prediction beyond the same fitted baseline. The resulting method both predicts missing combinations and identifies the response differences improved by its added correction."
+  },
+  {
+    "document": "main",
+    "anchor": "This link provides a practical order",
+    "before": "This link provides a practical order for designing combination predictors. First establish which response differences the training experiments can distinguish. Then identify which of those differences a proposed correction can change. Finally, test the correction on held-out combinations against a baseline using the same observations. The controlled causal result addresses the first question within its specified mechanism family; the endpoint identity answers the second exactly for the released residual; the growth and RNA analyses address the third empirically. These distinct tests prevent a gain in overall accuracy from carrying a stronger claim about partner learning than the fitted model supports.",
+    "after": "This distinction suggests a practical sequence for designing combination predictors. First ask which query responses the experiments can distinguish, then determine which response differences a proposed correction can change. Finally, compare the fitted correction with a baseline using the same observations on held-out combinations. The controlled causal system answers the first question within a specified mechanism family. The endpoint identity answers the second for the core's residual branch. The growth and RNA analyses answer the third empirically. This sequence joins an exact statement about the model with a direct test of its predictive value."
+  },
+  {
+    "document": "main",
+    "anchor": "The approach complements strong-baseline comparisons",
+    "before": "The approach complements strong-baseline comparisons, Systema's analysis of systematic variation and Miller's metric calibration.[10,11,12] It also supplies a question for increasingly powerful representations, including scGPT, scFoundation and Geneformer: which partner-dependent responses does a learned correction improve beyond its baseline?[23,24,25] Projection, kernel regression and matrix regularization provide established mathematical tools. Their use here makes a specific limitation visible and supplies corrections that can overcome it. The biological results determine where those corrections are useful: functional-screen completion with substantial combination support, and concentrated RNA improvements regulated by agreement in training measurements. Broader RNA transfer and accurate functional prediction from very sparse combination data remain open.",
+    "after": "The approach complements strong-baseline comparisons, Systema's analysis of systematic variation and Miller's metric calibration.[10,11,12] It asks a further question of a successful combination predictor: which changes between partners are improved by the added learner? That question also applies to increasingly powerful representations, including scGPT, scFoundation and Geneformer.[23,24,25] Projection, kernel regression and matrix regularization provide established tools; here they identify a limitation of endpoint refinement and construct corrections that can change the response component it leaves unchanged.\n\nThe experiments define where these corrections currently help. Functional gains support completion of screens with substantial combination measurements, with a fixed procedure retaining an increment after refitting in Jurkat. RNA gains are concentrated in a small readout subset and are increased by controlling adverse corrections. The two analyses demonstrate distinct uses of explicit partner learning; they also show why complete-response performance and the added partner increment need their own comparisons. Supplementary Table S36 keeps those comparisons on their original scales and records their development and source relationships."
+  },
+  {
+    "document": "main",
+    "anchor": "The K562 result suggests that experimental support",
+    "before": "The K562 result suggests that experimental support deserves explicit attention when partner corrections are developed. Its two budgets changed condition count, endpoint coverage and layout together, so they leave the contribution of each unresolved. Across RNA and growth tasks, readout structure and measurement noise also differ. Many RNA readouts may share a smaller set of response patterns, while a scalar phenotype can still depend on complex combinations. Output dimension alone therefore does not determine the data requirement. Separating these explanations would require controlled comparisons within a fixed task; the present results identify the question without claiming a universal threshold.",
+    "after": "The K562 comparison shows that expanding combination support can make partner correction useful, but does not identify a universal sample-size threshold. Condition count, endpoint coverage and layout changed together. Across RNA and growth tasks, readout structure and measurement noise also differ: many transcripts may share a small number of response patterns, while a scalar phenotype can depend on complex combinations. Output dimension alone therefore does not determine the required data. Controlled comparisons within a fixed task could distinguish these explanations and help establish when further combination measurements are most useful."
+  },
+  {
+    "document": "main",
+    "anchor": "For researchers, WitnessCell turns existing measurements",
+    "before": "For researchers, WitnessCell turns existing measurements into predictions for missing combinations and returns the fitted baseline and correction alongside them. This supports scrutiny of the predicted response, as well as comparison of overall errors. Targeted RNA and multimodal protein screens offer further settings for testing partner-dependent changes,[26,27,28] while choosing informative next combinations could connect prediction to experiment planning.[29,30] These directions contribute to the broader goal of predictive cellular models,[31,32] but require their own held-out tests. The present method delivers a concrete step: learning and testing additional partner responses within a usable combination predictor.",
+    "after": "For researchers, WitnessCell turns existing measurements into predictions for missing combinations and returns the baseline and correction alongside them. This allows users to inspect what changed, as well as evaluate overall accuracy. Targeted RNA and multimodal protein screens offer further settings for studying partner-dependent responses,[26,27,28] while selecting informative combinations could connect prediction to experiment planning.[29,30] These directions contribute to predictive cellular models.[31,32] The capability delivered here is concrete: using measured combinations to fit additional partner responses, and testing their value through predictions of unmeasured combinations."
+  },
+  {
+    "document": "main",
+    "anchor": "Naming changes do not alter fitted predictions, losses or archived model identifiers.",
+    "before": "Naming changes do not alter fitted predictions, losses or archived model identifiers.",
+    "after": "Model identifiers in the source archives are listed in Supplementary Table S1."
+  },
+  {
+    "document": "main",
+    "anchor": "The archive preserves original failures, subsequent development and local prediction freezes.",
+    "before": "The archive preserves original failures, subsequent development and local prediction freezes.",
+    "after": "The experiment records include unsuccessful registered analyses, subsequent development and locally frozen predictions."
+  },
+  {
+    "document": "main",
+    "anchor": "The fixed ten-readout set is retained unchanged from v24.",
+    "before": "The fixed ten-readout set is retained unchanged from v24.",
+    "after": "The fixed ten-readout set was identified during model development and is used for the deletion sensitivity analysis."
+  },
+  {
+    "document": "main",
+    "anchor": "Signs are determined after aggregation over rectangles, so opposite effects for one readout can cancel; the analysis is descriptive rather than a coordinatewise improvement guarantee.",
+    "before": "Signs are determined after aggregation over rectangles, so opposite effects for one readout can cancel; the analysis is descriptive rather than a coordinatewise improvement guarantee.",
+    "after": "Signs are determined after aggregation over rectangles, so opposite effects for one readout can cancel. Signs are determined separately for each model. The ratio of positive budgets compares their total magnitudes; it is not the fraction of M1-positive readouts or their gains retained by R."
+  },
+  {
+    "document": "main",
+    "anchor": "The multiplier is therefore a shrinkage coefficient, not a calibrated probability.",
+    "before": "The multiplier is therefore a shrinkage coefficient, not a calibrated probability.",
+    "after": "The multiplier controls correction amplitude."
+  },
+  {
+    "document": "main",
+    "anchor": "This distinction does not establish independent biological reproducibility.",
+    "before": "This distinction does not establish independent biological reproducibility.",
+    "after": ""
+  },
+  {
+    "document": "main",
+    "anchor": "The earlier unsuccessful registered K562 result remains in the archive.",
+    "before": "The earlier unsuccessful registered K562 result remains in the archive.",
+    "after": "Supplementary Table S23 reports the unsuccessful registered K562 analysis preceding this development comparison."
+  },
+  {
+    "document": "main",
+    "anchor": " Main conclusions use frozen or explicitly developmental endpoints as designated.",
+    "before": " Main conclusions use frozen or explicitly developmental endpoints as designated.",
+    "after": ""
+  },
+  {
+    "document": "main",
+    "anchor": "The v30 reviewer package supplies source code",
+    "before": "The v30 reviewer package supplies source code, dependencies, numerical evidence and figure-generation scripts. The complete unchanged implementation/reproduction archive is included at `reproduction/grn_repo_v27.zip`, with its SHA-256 and documented task entry points. The new-input interfaces are `software/witnesscell_predict.py` for the released `multihead_v14` core and `software/witnesscell_growth.py` for the frozen functional procedure. Both fit from permitted observations without query outcomes. The core demonstration is synthetic; the functional demonstration reuses the archived Jurkat training measurements and query identities. Neither is an additional biological validation. Native source hashes, interface checks and functional replay comparisons are supplied.",
+    "after": "Source code, dependencies, numerical evidence and figure-generation scripts are supplied with this manuscript. The complete implementation and reproduction archive is included at `reproduction/grn_repo_v27.zip`, with its SHA-256 and task entry points. The new-input interfaces are `software/witnesscell_predict.py` for the `multihead_v14` core and `software/witnesscell_growth.py` for the functional procedure. Both fit from training observations without query outcomes. The core demonstration uses synthetic inputs; the functional demonstration reproduces predictions from the archived Jurkat training measurements. Native source hashes and interface checks document the correspondence to the scientific implementations."
+  },
+  {
+    "document": "main",
+    "anchor": "The RNA R and mode-aware R-G implementations remain available",
+    "before": "The RNA R and mode-aware R-G implementations remain available through their experiment entry points in the complete archive. PairPick maps to the unchanged internal identifier `R_G`. Compact score replay, new-input fitting, neural-weight replay and raw-cell retraining have distinct documented scopes. The wrapper code and tests are supplied under the included MIT adapter licence. Original scientific modules retain their recorded rights; `RIGHTS_AND_RELEASE.md` identifies the author action required to grant a unified redistribution licence. No public repository or DOI is claimed by this reviewer delivery.",
+    "after": "The RNA R and mode-aware R-G implementations are available through their experiment entry points in the complete archive; PairPick uses the internal identifier `R_G`. Compact score replay, new-input fitting, neural-weight replay and raw-cell retraining have distinct documented scopes. The interface code and tests use the included MIT licence. Original scientific modules retain their recorded rights; no unified redistribution licence is included. Module-level licence information is provided in `RIGHTS_AND_RELEASE.md`."
+  },
+  {
+    "document": "SI",
+    "anchor": "Companion to the v30 main text",
+    "before": "Companion to the v30 main text",
+    "after": "Companion to the v31 main text"
+  },
+  {
+    "document": "SI",
+    "anchor": "Bibliographic numbers refer to the v30 main-text reference list",
+    "before": "Bibliographic numbers refer to the v30 main-text reference list",
+    "after": "Bibliographic numbers refer to the main-text reference list"
+  },
+  {
+    "document": "SI",
+    "anchor": "Added response capability on a developmental panel",
+    "before": "Added response capability on a developmental panel",
+    "after": "Additional partner predictions on a model-development dataset"
+  },
+  {
+    "document": "SI",
+    "anchor": "The original M1 developmental target",
+    "before": "The original M1 developmental target",
+    "after": "The original M1 model-development target"
+  },
+  {
+    "document": "SI",
+    "anchor": "The twelve released splits verify equality of projected final and paired-backbone outputs within saved-array precision, with maximum recorded discrepancy $6.33775\\times10^{-8}$.",
+    "before": "The twelve released splits verify equality of projected final and paired-backbone outputs within saved-array precision, with maximum recorded discrepancy $6.33775\\times10^{-8}$.",
+    "after": "Across the twelve released splits, projected-error ratios of the final predictor and its paired backbone differed by at most $6.34\\times10^{-8}$, consistent with the algebraic identity within saved-array precision. The recorded quantity is the change in projected-error ratio, not a norm of the difference between projected prediction arrays."
+  },
+  {
+    "document": "SI",
+    "anchor": "The method contribution additionally specifies a learner acting outside the endpoint span and tests its held-out increment.",
+    "before": "The method contribution additionally specifies a learner acting outside the endpoint span and tests its held-out increment.",
+    "after": "The method additionally specifies a learner capable of changing responses outside the endpoint span and tests its held-out increment."
+  },
+  {
+    "document": "SI",
+    "anchor": "the historical weighted benchmark is not silently decomposed by this identity.",
+    "before": "the historical weighted benchmark is not silently decomposed by this identity.",
+    "after": "the historical weighted benchmark uses a different weighting and is reported separately."
+  },
+  {
+    "document": "SI",
+    "anchor": " They are not calibrated probabilities, molecular mechanisms or certified uncertainty bounds.",
+    "before": " They are not calibrated probabilities, molecular mechanisms or certified uncertainty bounds.",
+    "after": ""
+  },
+  {
+    "document": "SI",
+    "anchor": "### 4.3 Query-graph dimension",
+    "before": "### 4.3 Query-graph dimension",
+    "after": "For a baseline $M_0$, let $e=Y-M_0$ be its error and $D$ an added correction, evaluated on the same query pairs and readout axis. Expanding the squared norm gives\n\n$$\\|P_Qe\\|_F^2-\\|P_Q(e-D)\\|_F^2=2\\langle P_Qe,P_QD\\rangle_F-\\|P_QD\\|_F^2.$$\n\nAn actual change in the partner prediction requires $P_QD\\ne0$. It lowers the measured partner error exactly when the right-hand side is positive: alignment with the baseline error must outweigh the squared correction magnitude. This is an identity on the evaluated arrays, not a guarantee that a training-selected correction will generalize. For a rectangle operator $C$, the same expansion holds with $C$ replacing $P_Q$; the reported rectangle and projector losses retain their different weighting of contrast directions.\n\nAn explicit partner learner need not output a pure endpoint-eliminated vector. Its correction decomposes as $D=(I-P_Q)D+P_QD$. The RNA kernel's projection is defined on the training pairs, and its continuation to query pairs need not lie entirely in the image of $P_Q$. Likewise, a signed low-rank growth matrix can change both components. Complete-response and projected losses therefore evaluate different contributions of the same fitted correction. The cancellation $P_Q\\delta_Q=0$ remains exact for the core endpoint branch.\n\n### 4.3 Query-graph dimension"
+  },
+  {
+    "document": "SI",
+    "anchor": "This SI accompanies `WitnessCell_v30_Main_Methods.md`.",
+    "before": "This SI accompanies `WitnessCell_v30_Main_Methods.md`. The v30 revision expands explanations in the main narrative, retains secondary numerical details in Note 15 and adds the cross-setting scope overview in Note 16 without changing the scientific results. The v28 predecessor sharpened the response-capability argument and its relation to existing methods, added a same-fit functional four-corner illustration, expanded the reference list to 41 sources, and retained the comparator-exclusion sensitivity and two executable interfaces. The functional example refits unchanged native code on the archived Jurkat training input and compares its predictions with the archive; it is not a new evaluation or model-development experiment. The complete code distribution is included at `reproduction/grn_repo_v27.zip`; its legacy `paper` renderer targets v22. The five main and three supplementary v30 figures instead use `code/make_figures.py` in the present package. Manuscript and code release numbers are distinct.",
+    "after": "This supplement provides the derivations, complete comparisons and reproduction instructions for the main manuscript. The full implementation archive is `reproduction/grn_repo_v27.zip`. The current five main and three supplementary figures are generated by `code/make_figures.py`; the archive's legacy `paper` task retains its own historical figure numbering. New-input core and functional interfaces call the original scientific modules. The functional example refits those modules on the archived Jurkat training input and compares the predictions with the saved output."
+  },
+  {
+    "document": "SI",
+    "anchor": "The v30 package contains the revised main text",
+    "before": "The v30 package contains the revised main text, this supplement, five main figures and three supplementary figures, frozen v24 evidence, additional revision tables and source files, the new-input example, and integrity/consistency checks. The `evidence/` tree preserves the historical files and their original version names; root-level v30 documents and the revision source map describe the current manuscript. Long tables remain machine-readable: complete benchmark panels and metrics, RNA fold and rectangle results, all GSE220974 choices and selections, and the source-specific confirmation comparisons. The paper sources are accompanied by the complete unchanged implementation archive. Large external raw matrices and neural assets remain subject to the archive's retrieval instructions; inclusion of the code archive does not mean all raw-cell training assets are embedded.",
+    "after": "The package contains the main text, this supplement, figure exports, numerical sources, executable examples and verification scripts. Long comparison tables remain machine-readable, including benchmark metrics, RNA fold and rectangle losses, all GSE220974 recommendations and source-transfer results. The `evidence/` tree preserves source files under their original names; `CLAIM_SOURCE_MAP_V31.csv` connects the current claims to these files. Large raw matrices and neural assets are retrieved according to the full archive's external-asset instructions."
+  },
+  {
+    "document": "SI",
+    "anchor": "### 12.1 Artifact and version correspondence",
+    "before": "### 12.1 Artifact and version correspondence",
+    "after": "### 12.1 Manuscript components and scientific sources"
+  },
+  {
+    "document": "SI",
+    "anchor": "### 12.3 New-document verification",
+    "before": "### 12.3 New-document verification",
+    "after": "### 12.3 Numerical and interface verification"
+  },
+  {
+    "document": "SI",
+    "anchor": "The v30 validation checks frozen-source identity",
+    "before": "The v30 validation checks frozen-source identity, revised table values, figure source correspondence, all 28 application tasks, original-construct matching and the new-input adapter. The benchmark analysis reconstructs all 654 operation ranks from six metric ranks; all 16 entries and all 15 comparator intervals are retained. The RNA error budget uses the original 11 × 4,995 signed arrays. Figure sources and every delivered file are covered by the current manifest. The checks verify numerical and document consistency rather than independently confirming biological assumptions.",
+    "after": "The verification scripts check source hashes, table values and correspondence between figures and numerical inputs. Benchmark checks reconstruct 654 operation ranks from six metric ranks and retain all sixteen entries and fifteen comparator intervals. RNA budgets are calculated from the 11 × 4,995 signed prediction arrays. Application checks include all 28 recommendation tasks and their design-label matches. The manifest records a hash for each delivered file."
+  },
+  {
+    "document": "SI",
+    "anchor": "The core example performs fitting using unchanged released-core modules",
+    "before": "The core example performs fitting using unchanged released-core modules and synthetic input. The functional example uses unchanged native modules and real archived training measurements, reproducing all 617 query predictions exactly. Neither interface receives query outcomes; validation includes native parity and leakage rejection. Public repository registration and a unified author-approved licence for the scientific sources remain release tasks; the new adapter has an explicit MIT licence. Data accessions and bibliographic provenance are given in the main Data availability statement.",
+    "after": "The core example fits the original core modules to synthetic input. The functional example fits native modules to archived training measurements and reproduces all 617 query predictions. The fitting interfaces reject query outcomes; separate tests check native-call parity and leakage rejection. Code and licence scope are described in Note 14.4, and public data accessions are listed in Data availability."
+  },
+  {
+    "document": "SI",
+    "anchor": "This revision retains the released eligible method set",
+    "before": "This revision retains the released eligible method set",
+    "after": "The benchmark decomposition retains the released eligible method set"
+  },
+  {
+    "document": "SI",
+    "anchor": "unchanged from the v24 sensitivity analysis.",
+    "before": "unchanged from the v24 sensitivity analysis.",
+    "after": "identified during model development and fixed for the deletion sensitivity analysis."
+  },
+  {
+    "document": "SI",
+    "anchor": "R therefore retains 84.7097% of the positive reduction and reduces the adverse increment by 85.2465%.",
+    "before": "R therefore retains 84.7097% of the positive reduction and reduces the adverse increment by 85.2465%.",
+    "after": "R's total positive error reduction is 84.7097% of M1's, and its total adverse increment is 85.2465% lower. Each model determines its own positive and adverse readout sets, so the first ratio compares aggregate magnitudes rather than matched-readout retention."
+  },
+  {
+    "document": "SI",
+    "anchor": "From the extracted v28 directory, run:",
+    "before": "From the extracted v28 directory, run:",
+    "after": "From the package root, run:"
+  },
+  {
+    "document": "SI",
+    "anchor": "python code/verify_v30.py",
+    "before": "python code/verify_v30.py",
+    "after": "python code/verify_v31.py"
+  },
+  {
+    "document": "SI",
+    "anchor": "python code/audit_v28.py\n",
+    "before": "python code/audit_v28.py\n",
+    "after": ""
+  },
+  {
+    "document": "SI",
+    "anchor": "No v28 reanalysis is relabelled as preregistered.",
+    "before": "No v28 reanalysis is relabelled as preregistered.",
+    "after": ""
+  },
+  {
+    "document": "SI",
+    "anchor": "The full unchanged `grn_repo_v27.zip` is included",
+    "before": "The full unchanged `grn_repo_v27.zip` is included under `reproduction/`, resolving the earlier missing-archive delivery problem. It includes original scripts, compact evidence and retrieval indexes for external assets. Licence scope is stated in `RIGHTS_AND_RELEASE.md`; the wrapper MIT licence does not relicense upstream scientific modules. Public release and author authorization of source redistribution remain explicit author release actions, rather than fabricated repository or DOI claims.",
+    "after": "The full `grn_repo_v27.zip` archive is included under `reproduction/`. It contains the scientific implementations, compact numerical evidence and retrieval indexes for external assets. The interface code and tests use the included MIT licence; upstream scientific modules retain their original rights. No unified redistribution licence is included. `RIGHTS_AND_RELEASE.md` records the scope for each component."
+  },
+  {
+    "document": "SI",
+    "anchor": "The descriptive extension of the v27 example fixes",
+    "before": "The descriptive extension of the v27 example fixes",
+    "after": "The descriptive four-corner example fixes"
+  },
+  {
+    "document": "SI",
+    "anchor": "Recovery corrects the earlier compact-delivery statement; it does not change the historical amendment chronology or establish external preregistration or independent third-party blinding.",
+    "before": "Recovery corrects the earlier compact-delivery statement; it does not change the historical amendment chronology or establish external preregistration or independent third-party blinding.",
+    "after": "This protocol records the original local freeze and subsequent availability amendment; it was not externally preregistered."
+  },
+  {
+    "document": "SI",
+    "anchor": "Detailed results accompanying the condensed main text",
+    "before": "Detailed results accompanying the condensed main text",
+    "after": "Additional quantitative results"
+  },
+  {
+    "document": "SI",
+    "anchor": "This note preserves the numerical details moved from the main text",
+    "before": "This note preserves the numerical details moved from the main text in the language revision. The underlying predictions, comparison populations, denominators and model choices are unchanged. These are the same analyses reported in the preceding tables, not additional confirmations. The main text retains the principal results and conclusions about their scope.",
+    "after": "This note reports the effect sizes and sensitivity analyses supporting the principal findings. It summarizes the same comparisons documented in the preceding tables, including their denominators, model choices and interpretation."
+  },
+  {
+    "document": "SI",
+    "anchor": "R therefore retained 84.71% of the positive reduction while suppressing 85.25% of the adverse increment.",
+    "before": "R therefore retained 84.71% of the positive reduction while suppressing 85.25% of the adverse increment.",
+    "after": "R's total positive error reduction was 84.71% of M1's, while its total adverse increment was 85.25% lower. Positive and adverse readout sets are defined separately for each model."
+  },
+  {
+    "document": "SI",
+    "anchor": "Reference numbers correspond to the main manuscript; citation identities are unchanged from v28.",
+    "before": "Reference numbers correspond to the main manuscript; citation identities are unchanged from v28.",
+    "after": "Reference numbers correspond to the main manuscript."
+  },
+  {
+    "document": "SI",
+    "anchor": "The earlier explanation that differing total ranks arose",
+    "before": "The earlier explanation that differing total ranks arose from the inclusion of unseen singles was incomplete and is withdrawn. The discrepancy persists in doubles alone. The source ledger `BASELINE_PROVENANCE_AUDIT.json` specifies the scoring-file hash, denominator and unresolved historical object. No arbitrary noise, sampling, preprocessing or version explanation is asserted. In particular, this audit does not prove that the original model means differed or that either original benchmark run was incorrect. It corrects the scope of an equivalence statement while preserving the original benchmark.",
+    "after": "The scoring discrepancy persists in double perturbations alone and cannot be explained by inclusion of unseen singles in the full track. `BASELINE_PROVENANCE_AUDIT.json` records the scoring-file hash, comparison denominator and unresolved historical scoring object. The available record does not identify which adaptation, sampling, preprocessing or file-generation step caused the difference. Both official scoring rows are preserved, and Table S31 evaluates the sensitivity to their inclusion under the unchanged formal ranking rule."
+  },
+  {
+    "document": "legends",
+    "anchor": "R retains 84.71% of M1’s positive reduction while reducing adverse increments by 85.25%.",
+    "before": "R retains 84.71% of M1’s positive reduction while reducing adverse increments by 85.25%.",
+    "after": "R's total positive error reduction is 84.71% of M1's, and its total adverse increment is 85.25% lower. The positive and adverse sets are determined separately for each model."
+  },
+  {
+    "document": "legends",
+    "anchor": "These fractions describe the tested support setting, not a validated minimum requirement.",
+    "before": "These fractions describe the tested support setting, not a validated minimum requirement.",
+    "after": "These fractions describe the evaluated support setting."
+  },
+  {
+    "document": "legends",
+    "anchor": "The evaluation averages eleven rectangles; the 212 algebraic dimensions reported for the separate core audit are not independent units in this RNA panel.",
+    "before": "The evaluation averages eleven rectangles; the 212 algebraic dimensions reported for the separate core audit are not independent units in this RNA panel.",
+    "after": "The evaluation averages eleven potentially overlapping rectangles. The 212 contrast dimensions in the separate core analysis do not describe this panel's sample size."
+  }
+]

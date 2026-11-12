@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-09T02:40:48.097900+00:00",
+  "raw_pairs": 20359,
+  "raw_genes": 206,
+  "published_pairs": 20791,
+  "published_genes": 205,
+  "common_pairs": 88,
+  "finite_raw_singles": 207,
+  "missing_knowledge": [
+    "ADRBK1"
+  ],
+  "normalization": [
+    {
+      "repeat": "r1",
+      "center": 1.202896245710651,
+      "scale": 0.4928083905330622,
+      "n_controls": 4059
+    },
+    {
+      "repeat": "r2",
+      "center": 1.0475455842677928,
+      "scale": 0.48954089129211853,
+      "n_controls": 4059
+    }
+  ],
+  "original_common_reconstruction_max_abs": 0.0,
+  "model_scores_computed": false,
+  "source_knowledge_sha256": "9197cce7e141bf1d5019a810a99205ff938b4400264dc827ca079d00982f8a90",
+  "source_workbook_sha256": "9275950cdd6e67c0439f1991a0cc73ef6c5ff8db9debe179f95cba8b2e9c95d9"
+}

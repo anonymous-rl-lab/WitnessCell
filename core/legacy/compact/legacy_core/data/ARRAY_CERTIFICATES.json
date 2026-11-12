@@ -1,0 +1,5539 @@
+{
+  "scope": "Producer-time full-array inspection; default compact replay does not re-load original gene-level matrices",
+  "records": [
+    {
+      "experiment": 17,
+      "dataset": "Norman",
+      "seed": 1,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "source_sha256": "1344a1ec0fcff3cc76e18e308556a1d30bc2a25b550ab5ce81ac3043413e21da",
+      "source_bytes": 5781385,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            93
+          ],
+          "dtype": "<U15",
+          "array_sha256": "8c60e1dc398393a587e17202498b6ae748c208dc668331d467b14fe5bd7c584e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            93
+          ],
+          "dtype": "<U13",
+          "array_sha256": "4d89266d30ce089430f4b914d655719aa2ef82dcc9a3661278f3e3d627223d06"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "ca8f5149140495f7ccbe699ddc73652d46619134c3ea7df4fb1541190ab5a216"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "5b01be93128a8cc21b5888a006bb8922a980a936021e33b7d8b645db10944e3d"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e968992895efe27dc7ccd6764cf0fa8ffa6ebf22896336bf1e2e4767617bde0e"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "28746d85ce105cc605547ec94b6e5f3773dca51b698c6f3b1af7ca9399047dc2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            93
+          ],
+          "dtype": "int64",
+          "array_sha256": "8b7befe0075c966da137f767697887c94540cbe027c8ba8fe6bef75692ee39d8"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.8195471812245221,
+        "gate_lower_bound": 0.013873013974891657,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 1.097165595425469,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.013873013974891657,
+        "loo_all_gene_gain_mean": 0.056578857981102626,
+        "loo_pcc_delta_mean": 0.05934935535196503,
+        "loo_top100_gain_lower": 0.0271271931456658,
+        "loo_top100_gain_mean": 0.0734855362997924,
+        "self_summary": "mean",
+        "self_weight": 0.9919579725041375,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Norman",
+      "seed": 1,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "source_sha256": "feb0c27ca5288b7d77b5efe8ca8c3db14f37e21a0286742b26794b049767a81f",
+      "source_bytes": 5763876,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            93
+          ],
+          "dtype": "<U15",
+          "array_sha256": "8c60e1dc398393a587e17202498b6ae748c208dc668331d467b14fe5bd7c584e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            93
+          ],
+          "dtype": "<U13",
+          "array_sha256": "4d89266d30ce089430f4b914d655719aa2ef82dcc9a3661278f3e3d627223d06"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "36b72709037621baaa89ff819d7a42537e9076414a898ac5253399fbfad2fc6a"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "3b507f0313ef6272c23ac8ff61abe97bb569fa177b07b7cc0521651f1b67f16b"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e968992895efe27dc7ccd6764cf0fa8ffa6ebf22896336bf1e2e4767617bde0e"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "28746d85ce105cc605547ec94b6e5f3773dca51b698c6f3b1af7ca9399047dc2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            93
+          ],
+          "dtype": "int64",
+          "array_sha256": "8b7befe0075c966da137f767697887c94540cbe027c8ba8fe6bef75692ee39d8"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.8689384683806153,
+          0.6615052518149812
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": -0.017354864249023008,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.8686890700320307,
+          0.6616633373524463
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.0025491648368400413,
+        "final_top100_pcc_delta_lower": 0.02733358480656698,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.0025491648368400413,
+        "loo_all_gene_gain_mean": 0.04284172351033469,
+        "loo_pcc_delta_mean": 0.05931876081315303,
+        "loo_top100_gain_lower": 0.02798258563969684,
+        "loo_top100_gain_mean": 0.07238969460035166,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.027922822966075057,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.9906937060544866
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Norman",
+      "seed": 1,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed1/deploy_predictions.npz",
+      "source_sha256": "456b2655f1f33538301f02abf36fb89f9883a6f1ecf94bbd2f06410d0a6945a9",
+      "source_bytes": 5763879,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            93
+          ],
+          "dtype": "<U15",
+          "array_sha256": "8c60e1dc398393a587e17202498b6ae748c208dc668331d467b14fe5bd7c584e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            93
+          ],
+          "dtype": "<U13",
+          "array_sha256": "4d89266d30ce089430f4b914d655719aa2ef82dcc9a3661278f3e3d627223d06"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "53127873dead120b8bf45481897a3944abe2fb0eb1b092ee4d884d702271c54e"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "63a1f95ae643b9bc32d73c416c3e4a5c34b66b76ad3e390cdb85027b73980508"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e968992895efe27dc7ccd6764cf0fa8ffa6ebf22896336bf1e2e4767617bde0e"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            93,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "28746d85ce105cc605547ec94b6e5f3773dca51b698c6f3b1af7ca9399047dc2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            93
+          ],
+          "dtype": "int64",
+          "array_sha256": "8b7befe0075c966da137f767697887c94540cbe027c8ba8fe6bef75692ee39d8"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.004199372709545962,
+        "all_gene_upgrade_mean": 0.011250997836416131,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.19496344849133182,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.01098574709826063,
+        "top100_mse_upgrade_mean": 0.02779924405618279,
+        "top100_pcc_upgrade_lower": 0.0038145819998675994,
+        "top100_pcc_upgrade_mean": 0.013160796343543295,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Norman",
+      "seed": 2,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "source_sha256": "a17ba2fc35edef6c4e034667f7c77bf5e1a50b00e6427750acbc4fb8f0a2156f",
+      "source_bytes": 5452777,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            86
+          ],
+          "dtype": "<U15",
+          "array_sha256": "224e344015babac455a48df1f8f1b855e47109414229815ebd9a210aa082c30c"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            86
+          ],
+          "dtype": "<U13",
+          "array_sha256": "15721294bb63499d0b657d2e1d9fad87a1a7ea42093bdce1dfe92f87b430d78e"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "3d64576fa4f62723a959b2c4ada90ddbe1f97faf5821ab0ff68d1118584288f7"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "a5b9d7fa4da390aebe9f89f8ff24966f78b4cfab124f54c0a61aa409a3d122b8"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e960092ec39691d40b81c9bf1e160a31b7967a7c011d677cb948312646875c25"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "f0b24345d629cfa0fa31244d6ad86d089911858ee3f245c7d809df2ce675e412"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            86
+          ],
+          "dtype": "int64",
+          "array_sha256": "a0b73de4fe40145eddf61c3432712d682954695f1dc7d2551bd7862d90ebc553"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.858303259627798,
+        "gate_lower_bound": 0.02606049216787374,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 1.1131240337595762,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.02606049216787374,
+        "loo_all_gene_gain_mean": 0.05391705339203146,
+        "loo_pcc_delta_mean": 0.06383076591017646,
+        "loo_top100_gain_lower": 0.03464212538743083,
+        "loo_top100_gain_mean": 0.07193059381365335,
+        "self_summary": "mean",
+        "self_weight": 0.9886276895826573,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Norman",
+      "seed": 2,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "source_sha256": "813aa6d7eef57f7642e5fcc2b5e4d22b8c6bf010f39bd3781f15d8082ca4e0ba",
+      "source_bytes": 5438728,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            86
+          ],
+          "dtype": "<U15",
+          "array_sha256": "224e344015babac455a48df1f8f1b855e47109414229815ebd9a210aa082c30c"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            86
+          ],
+          "dtype": "<U13",
+          "array_sha256": "15721294bb63499d0b657d2e1d9fad87a1a7ea42093bdce1dfe92f87b430d78e"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "997bbd990424775aeaf454d40a8dbc04b9cf11884c0a2cd83138535af4751ae0"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "03e796e3364223cf1cfe9f37e60a5cf39850ac1c8cff422c86b58ac9817df545"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e960092ec39691d40b81c9bf1e160a31b7967a7c011d677cb948312646875c25"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "f0b24345d629cfa0fa31244d6ad86d089911858ee3f245c7d809df2ce675e412"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            86
+          ],
+          "dtype": "int64",
+          "array_sha256": "a0b73de4fe40145eddf61c3432712d682954695f1dc7d2551bd7862d90ebc553"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.9043261995876563,
+          0.556531660822216
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": 0.0033546598673040717,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.904291392852476,
+          0.5558867909001662
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.018488871569219457,
+        "final_top100_pcc_delta_lower": 0.03202381110053404,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.018488871569219457,
+        "loo_all_gene_gain_mean": 0.04741255027389733,
+        "loo_pcc_delta_mean": 0.060394798010372876,
+        "loo_top100_gain_lower": 0.03308949444754414,
+        "loo_top100_gain_mean": 0.07258829292848605,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.027784854952675304,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.988974832045739
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Norman",
+      "seed": 2,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed2/deploy_predictions.npz",
+      "source_sha256": "7e0979b42076657bd61cfb256b4c1470ad68cb955e938cdd38281fe5fd985642",
+      "source_bytes": 5438725,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            86
+          ],
+          "dtype": "<U15",
+          "array_sha256": "224e344015babac455a48df1f8f1b855e47109414229815ebd9a210aa082c30c"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            86
+          ],
+          "dtype": "<U13",
+          "array_sha256": "15721294bb63499d0b657d2e1d9fad87a1a7ea42093bdce1dfe92f87b430d78e"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "db6fd4ac48602d2ed7a74ab899ec70f8f94216e5d35fd62138ef9da33db622e2"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "927e1d36fafb1103ebce548ece62aa48b1410fb4406a382a7c08cf1f3b9cdc72"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e960092ec39691d40b81c9bf1e160a31b7967a7c011d677cb948312646875c25"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            86,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "f0b24345d629cfa0fa31244d6ad86d089911858ee3f245c7d809df2ce675e412"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            86
+          ],
+          "dtype": "int64",
+          "array_sha256": "a0b73de4fe40145eddf61c3432712d682954695f1dc7d2551bd7862d90ebc553"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.000804681737044368,
+        "all_gene_upgrade_mean": 0.006453290214891437,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.21491547515750337,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.0019957977757676104,
+        "top100_mse_upgrade_mean": 0.011899162103486897,
+        "top100_pcc_upgrade_lower": 0.001096113711553319,
+        "top100_pcc_upgrade_mean": 0.00795369213674906,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Norman",
+      "seed": 3,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "source_sha256": "fbd370762b01f130dc66b3d47a4f232eeb5f57ac309238cb7a7930ee784c694f",
+      "source_bytes": 5772989,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            89
+          ],
+          "dtype": "<U15",
+          "array_sha256": "83bebc62c11071c89b2fe0a098e90e45fe47f319b69081200039229f17f3f99e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            89
+          ],
+          "dtype": "<U13",
+          "array_sha256": "34c08d5195bba00df9cc2d47e10d29341cf1aaa7844d82150fdee902cbdd9e0a"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5bf659a262d2bfca9f0eed789fb74fa63e3de5c6f7b5f2cae4a3bbde7ed5c27"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "7982a1d868e52fbb15d4669e2beca4436455b2eb53af06f795cea70c99118912"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "5646fa2bec59182204b656ac598eeba9b10de6124b12cf01af5d4730679b670d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "13554d6dc37616e901113233ba5cb59d22e72540dcdf85a7fee59eac69320ccf"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            89
+          ],
+          "dtype": "int64",
+          "array_sha256": "c83f243b2c8fe9b7b6f380231bfddddeab244c6b19abed3f27928a375bfbcfd3"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.908646463522986,
+        "gate_lower_bound": 0.015337704044255617,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.781016640594256,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.015337704044255617,
+        "loo_all_gene_gain_mean": 0.04006650552415504,
+        "loo_pcc_delta_mean": 0.05154303198243275,
+        "loo_top100_gain_lower": 0.016693303853934242,
+        "loo_top100_gain_mean": 0.05169769064203996,
+        "self_summary": "mean",
+        "self_weight": 0.9902016204035701,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Norman",
+      "seed": 3,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "source_sha256": "2326f7b6abb6fb99264bd6e24da96ac506673a170a66874ea1edbfea9d1c97c0",
+      "source_bytes": 5763111,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            89
+          ],
+          "dtype": "<U15",
+          "array_sha256": "83bebc62c11071c89b2fe0a098e90e45fe47f319b69081200039229f17f3f99e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            89
+          ],
+          "dtype": "<U13",
+          "array_sha256": "34c08d5195bba00df9cc2d47e10d29341cf1aaa7844d82150fdee902cbdd9e0a"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "6cc933f2dd8dd9c592d1a7d725d76260a7fda065cd5f6a2e80d30763156237e0"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "4ab47b07d7a3bc6adff517cf61ccd0354cdd6380885a62ecef980b5cdee94417"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "5646fa2bec59182204b656ac598eeba9b10de6124b12cf01af5d4730679b670d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "13554d6dc37616e901113233ba5cb59d22e72540dcdf85a7fee59eac69320ccf"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            89
+          ],
+          "dtype": "int64",
+          "array_sha256": "c83f243b2c8fe9b7b6f380231bfddddeab244c6b19abed3f27928a375bfbcfd3"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.9332133298093149,
+          0.4146663358583116
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": -0.008107549112118282,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.9328997674591006,
+          0.4154894126487323
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.0077354704711400935,
+        "final_top100_pcc_delta_lower": 0.022322987679817132,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": 0.0077354704711400935,
+        "loo_all_gene_gain_mean": 0.03226393939316752,
+        "loo_pcc_delta_mean": 0.05135542880879161,
+        "loo_top100_gain_lower": 0.009754769092513507,
+        "loo_top100_gain_mean": 0.04590968848021566,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.02306529572183701,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.988262324659441
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Norman",
+      "seed": 3,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Norman/seed3/deploy_predictions.npz",
+      "source_sha256": "10675e7fc727e3af79f798783e1731fd7b9cd4699ffba2b560f3634df044b532",
+      "source_bytes": 5763113,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U6",
+          "array_sha256": "596e91185b4df31658e8b987e719f21dd86b8efc5710c2cb8a896338df4afd00"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            89
+          ],
+          "dtype": "<U15",
+          "array_sha256": "83bebc62c11071c89b2fe0a098e90e45fe47f319b69081200039229f17f3f99e"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            89
+          ],
+          "dtype": "<U13",
+          "array_sha256": "34c08d5195bba00df9cc2d47e10d29341cf1aaa7844d82150fdee902cbdd9e0a"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5025
+          ],
+          "dtype": "<U15",
+          "array_sha256": "1eb8fbb202e70d77691b956ffd896399e3c12d8dde00296fca84589854d93638"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "b2bb69eb186968b12a7295af3f3863477973602c129d3643494fd994e8d4d289"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "29e206ac7794c4cebf033f7d96b66b1d661ed1938ad02d1a0af4c9becdb02430"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "5646fa2bec59182204b656ac598eeba9b10de6124b12cf01af5d4730679b670d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            89,
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "13554d6dc37616e901113233ba5cb59d22e72540dcdf85a7fee59eac69320ccf"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "44686109871ac56b8f41ebc9f6d759fd483aabab2ee796379cfd3b4b90424f85"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5025
+          ],
+          "dtype": "float32",
+          "array_sha256": "e4aed5e5bf42efc7f49a21ee4b3c2317f39606395ca83b876e9a83d2018d5b01"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            89
+          ],
+          "dtype": "int64",
+          "array_sha256": "c83f243b2c8fe9b7b6f380231bfddddeab244c6b19abed3f27928a375bfbcfd3"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.0010520155776900094,
+        "all_gene_upgrade_mean": 0.008413134705638212,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.21898822991854053,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 72,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.008485206599785999,
+        "top100_mse_upgrade_mean": 0.021687842389435788,
+        "top100_pcc_upgrade_lower": 0.002043593617850066,
+        "top100_pcc_upgrade_mean": 0.007843975016039605,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Replogle_exp6",
+      "seed": 1,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "source_sha256": "cacb1ed6880ff6f93603323ba3ddb14dee742d3d52e548273dd12d69fda51bdd",
+      "source_bytes": 2646690,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            42
+          ],
+          "dtype": "<U12",
+          "array_sha256": "f42b680c8b376a7fc2b226ed87ce51d4bfb047c87a60e061da7496a18be20564"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            42
+          ],
+          "dtype": "<U13",
+          "array_sha256": "d7120262d46d64da9eaf63ffe4740e0217efdcb78377fa912b771a19614cd542"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "1577639e259cbc8c7b8f70dd351e1965436126b5e73bda00e12930fdaac129e8"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "1577639e259cbc8c7b8f70dd351e1965436126b5e73bda00e12930fdaac129e8"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            42
+          ],
+          "dtype": "int64",
+          "array_sha256": "96e937f4e5a9d0cb9bf2544941c5257f63907c9628d0e939e4c0a602b86e8503"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.8660852362151488,
+        "gate_lower_bound": 0.012666675640394115,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 1.3290179160072992,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.012666675640394115,
+        "loo_all_gene_gain_mean": 0.07990200650001605,
+        "loo_pcc_delta_mean": 0.20144154470942754,
+        "loo_top100_gain_lower": -0.30502950328915246,
+        "loo_top100_gain_mean": -0.09465824679112378,
+        "self_summary": "mean",
+        "self_weight": 0.939751660154811,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Replogle_exp6",
+      "seed": 1,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "source_sha256": "e877772fe9b17f281ff1f2fe82f3f832f6b17bfc6aa182951d24a88b185b2af6",
+      "source_bytes": 2642680,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            42
+          ],
+          "dtype": "<U12",
+          "array_sha256": "f42b680c8b376a7fc2b226ed87ce51d4bfb047c87a60e061da7496a18be20564"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            42
+          ],
+          "dtype": "<U13",
+          "array_sha256": "d7120262d46d64da9eaf63ffe4740e0217efdcb78377fa912b771a19614cd542"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "bb76c83515bb0ebefe82c90c08d157fbd392ec6a41d0617e14e562bf2e4a37fb"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "bb76c83515bb0ebefe82c90c08d157fbd392ec6a41d0617e14e562bf2e4a37fb"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            42
+          ],
+          "dtype": "int64",
+          "array_sha256": "96e937f4e5a9d0cb9bf2544941c5257f63907c9628d0e939e4c0a602b86e8503"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.8574069304173204,
+          0.7813343861914752
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": -0.007361285729173009,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.8595435133299497,
+          0.7825950695334288
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.003883908683586873,
+        "final_top100_pcc_delta_lower": 0.07550385066626844,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.003883908683586873,
+        "loo_all_gene_gain_mean": 0.07251961337200198,
+        "loo_pcc_delta_mean": 0.21375402002160357,
+        "loo_top100_gain_lower": -0.3104999653179197,
+        "loo_top100_gain_mean": -0.09985155255276434,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": -0.024566929559382486,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.9397650449229698
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Replogle_exp6",
+      "seed": 1,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed1/deploy_predictions.npz",
+      "source_sha256": "a1308cba2d65ff63994dbc15ac9a3b81fa44b4d339bbc561bfc5c0f7d6d540bc",
+      "source_bytes": 2642684,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            42
+          ],
+          "dtype": "<U12",
+          "array_sha256": "f42b680c8b376a7fc2b226ed87ce51d4bfb047c87a60e061da7496a18be20564"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            42
+          ],
+          "dtype": "<U13",
+          "array_sha256": "d7120262d46d64da9eaf63ffe4740e0217efdcb78377fa912b771a19614cd542"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "dd062746a8e53ae3d6cf3be23649489c058310faf0eb304485da11339af0dee1"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "dd062746a8e53ae3d6cf3be23649489c058310faf0eb304485da11339af0dee1"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            42,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "49edcfea2b650515cfed3b86e0f11f4f07bb6314d83555e7aabeecb2e43d80a2"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            42
+          ],
+          "dtype": "int64",
+          "array_sha256": "96e937f4e5a9d0cb9bf2544941c5257f63907c9628d0e939e4c0a602b86e8503"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.014480672194704256,
+        "all_gene_upgrade_mean": 0.029237581113578742,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.44776849920969897,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.07822085393861924,
+        "top100_mse_upgrade_mean": 0.13595612523294306,
+        "top100_pcc_upgrade_lower": 0.040170375385763527,
+        "top100_pcc_upgrade_mean": 0.1272414331918181,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Replogle_exp6",
+      "seed": 2,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "source_sha256": "ffc4687db8c7b9fc54d22352d378804be2371bd74c86cc934b1d1a208fae4b11",
+      "source_bytes": 2319607,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            36
+          ],
+          "dtype": "<U12",
+          "array_sha256": "ff281ee3d9199389f66b67ec4edc8741abaf0860564708ded50d1dcb0789b78a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            36
+          ],
+          "dtype": "<U13",
+          "array_sha256": "046705ed10d8c08ccdeecebe363e13c62db66d46aa92be186361ad928b450186"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "4b707e459c1ce709b070a1700f86f14329ceeaffb845653a91ed67b6dcd58abb"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "77b34912f175ab38a7588530b7804db74f3ee050123b493a61a270dcbd84f283"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "22f6123b8a941a41edb93072666949089cef38d5f509cfd36d26e618ff5aa2da"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "cfe382e89afdece67d3808318a7ca63dc9fff6d7c6db9cbdf53459ac31db5122"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            36
+          ],
+          "dtype": "int64",
+          "array_sha256": "b269161f4d6dba007ba38b33aa7275c9ab9a5918e8383df294440b62dc92f751"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.7461201648057584,
+        "gate_lower_bound": 0.06036254769246759,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.486252909035608,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.06036254769246759,
+        "loo_all_gene_gain_mean": 0.1094166360208849,
+        "loo_pcc_delta_mean": 0.2230060385802092,
+        "loo_top100_gain_lower": -0.2728919846327319,
+        "loo_top100_gain_mean": -0.07675365758115249,
+        "self_summary": "mean",
+        "self_weight": 0.9379967188310314,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Replogle_exp6",
+      "seed": 2,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "source_sha256": "f943d57744c441746090b157c0386b47a7718937c0ac61fe05bbc8bef564089e",
+      "source_bytes": 2318700,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            36
+          ],
+          "dtype": "<U12",
+          "array_sha256": "ff281ee3d9199389f66b67ec4edc8741abaf0860564708ded50d1dcb0789b78a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            36
+          ],
+          "dtype": "<U13",
+          "array_sha256": "046705ed10d8c08ccdeecebe363e13c62db66d46aa92be186361ad928b450186"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "38432adc12d5be3dcf982686bf21b7120f8c8e3d30235bc59c5a4fa4ed44bffa"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "9d86ea06be13fbd79349affdcf7cf1ac1b10a3d8b4611e71c630d019bae7a6ce"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "22f6123b8a941a41edb93072666949089cef38d5f509cfd36d26e618ff5aa2da"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "cfe382e89afdece67d3808318a7ca63dc9fff6d7c6db9cbdf53459ac31db5122"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            36
+          ],
+          "dtype": "int64",
+          "array_sha256": "b269161f4d6dba007ba38b33aa7275c9ab9a5918e8383df294440b62dc92f751"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.7645658654964075,
+          0.37882844728992304
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": 0.0462930080943673,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.7665491744178894,
+          0.3815971997916917
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.05597312412842716,
+        "final_top100_pcc_delta_lower": 0.056899495342961265,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.05597312412842716,
+        "loo_all_gene_gain_mean": 0.10981704402216574,
+        "loo_pcc_delta_mean": 0.22995190567940013,
+        "loo_top100_gain_lower": -0.26583696461443007,
+        "loo_top100_gain_mean": -0.07172320815513965,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": -0.012825738338003323,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.937747697855958
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Replogle_exp6",
+      "seed": 2,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed2/deploy_predictions.npz",
+      "source_sha256": "643ecdbea094528af402f723c4678311bc1e15ac1590bc371177aadaaa27afb8",
+      "source_bytes": 2318687,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            36
+          ],
+          "dtype": "<U12",
+          "array_sha256": "ff281ee3d9199389f66b67ec4edc8741abaf0860564708ded50d1dcb0789b78a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            36
+          ],
+          "dtype": "<U13",
+          "array_sha256": "046705ed10d8c08ccdeecebe363e13c62db66d46aa92be186361ad928b450186"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "860e8153263a7bd899d54b1348bcbb9a32302afb0a354baaf28e194c1b94b176"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7df2545a3a915b2a2caac636c5a6fb81efba5a87b4da99850a041006cc9d82cc"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "22f6123b8a941a41edb93072666949089cef38d5f509cfd36d26e618ff5aa2da"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            36,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "cfe382e89afdece67d3808318a7ca63dc9fff6d7c6db9cbdf53459ac31db5122"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            36
+          ],
+          "dtype": "int64",
+          "array_sha256": "b269161f4d6dba007ba38b33aa7275c9ab9a5918e8383df294440b62dc92f751"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.005539213736304028,
+        "all_gene_upgrade_mean": 0.01928014679411163,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.4751045179481195,
+          0.6965776490042105,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.017863660317144495,
+        "top100_mse_upgrade_mean": 0.0829551284387423,
+        "top100_pcc_upgrade_lower": 0.002956739655859117,
+        "top100_pcc_upgrade_mean": 0.01935967493193827,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Replogle_exp6",
+      "seed": 3,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "source_sha256": "0c96ebb8e34003b725961c2a5d1a6129bb4f78a9bdb6cea86dc0075daf659083",
+      "source_bytes": 2249229,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            34
+          ],
+          "dtype": "<U12",
+          "array_sha256": "7b3be0fbd26bf23489e72ccb3e58cc7e1e4fd570a2ff68f724e1761e2c2fc228"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            34
+          ],
+          "dtype": "<U13",
+          "array_sha256": "5b42bba6865fc3d692e3c02182252b41ec10760bfd3169245af9817c96d30ccf"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "ab04c03cffbb0284b78d0b7da5d20869916e359881a0af2fc4bdc8ebcd835c3b"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "db54f5a98813eedbdb61d5e4e91e021115efcfec277c2d0e2814306e7c0e3bf7"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "a014cb26ae6bc347347fab577dded75b36a7659a0a92720ea7b7cf1ea4a1bf5d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "e22cffa10d96437f8d2b3d226a26f0f3d443a2fc562a410d7e296711b504ad7d"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            34
+          ],
+          "dtype": "int64",
+          "array_sha256": "819ddf3799754b38103bbc7022586cd92a03eb9c6444a3be0274247854d749b2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.78943902326393,
+        "gate_lower_bound": 0.07137724259749906,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.4777033156090266,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.07137724259749906,
+        "loo_all_gene_gain_mean": 0.12970095785831437,
+        "loo_pcc_delta_mean": 0.14322570427678358,
+        "loo_top100_gain_lower": -0.2705158701187824,
+        "loo_top100_gain_mean": -0.11987840256028942,
+        "self_summary": "mean",
+        "self_weight": 0.9208807238958411,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Replogle_exp6",
+      "seed": 3,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "source_sha256": "4ae458081218bdc29a3064f44de04e0568c555de26dedcff07f745334549222a",
+      "source_bytes": 2248297,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            34
+          ],
+          "dtype": "<U12",
+          "array_sha256": "7b3be0fbd26bf23489e72ccb3e58cc7e1e4fd570a2ff68f724e1761e2c2fc228"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            34
+          ],
+          "dtype": "<U13",
+          "array_sha256": "5b42bba6865fc3d692e3c02182252b41ec10760bfd3169245af9817c96d30ccf"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "1aa66960f0ebd3e2b9a0fb5c0252ae26d28657578cc7b7862b31a2f4730b0c18"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "18fc5c62d8635113ca30cc0466c7a381c0081fdb775245ef182ccf295148053b"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "a014cb26ae6bc347347fab577dded75b36a7659a0a92720ea7b7cf1ea4a1bf5d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "e22cffa10d96437f8d2b3d226a26f0f3d443a2fc562a410d7e296711b504ad7d"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            34
+          ],
+          "dtype": "int64",
+          "array_sha256": "819ddf3799754b38103bbc7022586cd92a03eb9c6444a3be0274247854d749b2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.7954090081250249,
+          0.38353892817599244
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": 0.05886719600662836,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.7981686011104268,
+          0.38266895722675454
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.06688184425477231,
+        "final_top100_pcc_delta_lower": 0.011950624208520527,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": 0.06688184425477231,
+        "loo_all_gene_gain_mean": 0.130560804821913,
+        "loo_pcc_delta_mean": 0.14794762998140848,
+        "loo_top100_gain_lower": -0.26439604981415565,
+        "loo_top100_gain_mean": -0.11328603427499069,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": -0.017381927296153163,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.921055434901887
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Replogle_exp6",
+      "seed": 3,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Replogle_exp6/seed3/deploy_predictions.npz",
+      "source_sha256": "a8274e4703e9350efd5beb38ac68da6980155c6289f77931206ab9a2656cf971",
+      "source_bytes": 2248286,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U13",
+          "array_sha256": "5ceed083800619105cc3d4aa39d2b681bf0ff6e51f3802cca4865d6021cbae13"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            34
+          ],
+          "dtype": "<U12",
+          "array_sha256": "7b3be0fbd26bf23489e72ccb3e58cc7e1e4fd570a2ff68f724e1761e2c2fc228"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            34
+          ],
+          "dtype": "<U13",
+          "array_sha256": "5b42bba6865fc3d692e3c02182252b41ec10760bfd3169245af9817c96d30ccf"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5019
+          ],
+          "dtype": "<U18",
+          "array_sha256": "4157dbcfc05aee9fa7d207e75f523e18a04a49ac244016f6bc30e0359c4b6fdd"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "b27fae063cc8bc2f586b50d074e0d6f8d25192d024d09f562ee238a33f174fda"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "8dfb8a03370a9839bc4b28462ab05fe1ee2d10a676e4400aeb2230b8e19fcdf9"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "a014cb26ae6bc347347fab577dded75b36a7659a0a92720ea7b7cf1ea4a1bf5d"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            34,
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "e22cffa10d96437f8d2b3d226a26f0f3d443a2fc562a410d7e296711b504ad7d"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "280f8389ba8142f36bf37f36dbd1f359fc8bb7cd0aae32a6f3dae26f09dcbd36"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5019
+          ],
+          "dtype": "float32",
+          "array_sha256": "7527673341aa6478165cf0b116f7974400818bda5d9fc1cd15790aebf8e6d6a1"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            34
+          ],
+          "dtype": "int64",
+          "array_sha256": "819ddf3799754b38103bbc7022586cd92a03eb9c6444a3be0274247854d749b2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.011912530716966824,
+        "all_gene_upgrade_mean": 0.028050461212661637,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.5155150788275331,
+          1.4548326584432172,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 24,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.04176173385846235,
+        "top100_mse_upgrade_mean": 0.09419287357680717,
+        "top100_pcc_upgrade_lower": 0.013891463844095647,
+        "top100_pcc_upgrade_mean": 0.05772127381950482,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Schmidt",
+      "seed": 1,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "source_sha256": "1a051b083c2f002b574de8ea292b105f340cd87826a56df5d882e3293de89082",
+      "source_bytes": 2036870,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            31
+          ],
+          "dtype": "<U18",
+          "array_sha256": "26d396a2bba5d453040129ce60daabf8d393d6329f7dd4720cebfafe7e2a254a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            31
+          ],
+          "dtype": "<U13",
+          "array_sha256": "911adcb61dd254569eeaf6a0636658aa7708015788edaeb040111980a908ac32"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79b52746acd010668c54d5069d238c3eb9fdf1211230d929583eb4bf5d4591b"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "2d5083b346d078bcfa58e28ec05bee66019ba52c78ef985bafb75b00d94c6fa8"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "fd87a95ee8df7a7bb6e22acee9864be91d1f186e17e859cbde1cb1fa58272bdc"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "3168b859f6ef077418181977ca43dad877ea865d44706cf202db2bfa7a5f5314"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            31
+          ],
+          "dtype": "int64",
+          "array_sha256": "93a2fdca4926a335d60e46f3784fd74fcf2845e6c5544ab4bb20d60f766b655b"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.6707676934778346,
+        "gate_lower_bound": 0.04128203334464012,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 1.745279669894181,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.04128203334464012,
+        "loo_all_gene_gain_mean": 0.13811730043123646,
+        "loo_pcc_delta_mean": 0.29825498659126365,
+        "loo_top100_gain_lower": 0.13483079990148505,
+        "loo_top100_gain_mean": 0.24610074725711015,
+        "self_summary": "mean",
+        "self_weight": 0.9857518069053145,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Schmidt",
+      "seed": 1,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "source_sha256": "dc25040a9962414937c833ffb55b9e92115d9ece43710ff456195619c0c9441c",
+      "source_bytes": 2036533,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            31
+          ],
+          "dtype": "<U18",
+          "array_sha256": "26d396a2bba5d453040129ce60daabf8d393d6329f7dd4720cebfafe7e2a254a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            31
+          ],
+          "dtype": "<U13",
+          "array_sha256": "911adcb61dd254569eeaf6a0636658aa7708015788edaeb040111980a908ac32"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "76338010028c770ab1ab8184aaaa0a2dd5c57a5f1184b8fa3cb7fbaabffb2ebf"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "b6e632fd8aeecf992cce42696e795fdd057cc904264df6f02f89d83d0afd8ece"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "fd87a95ee8df7a7bb6e22acee9864be91d1f186e17e859cbde1cb1fa58272bdc"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "3168b859f6ef077418181977ca43dad877ea865d44706cf202db2bfa7a5f5314"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            31
+          ],
+          "dtype": "int64",
+          "array_sha256": "93a2fdca4926a335d60e46f3784fd74fcf2845e6c5544ab4bb20d60f766b655b"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.6838936062676644,
+          0.8898266270366652
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": -0.06444403253973938,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.6881174637132984,
+          0.8888283589701946
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.0454357515580511,
+        "final_top100_pcc_delta_lower": 0.18494001724343934,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.0454357515580511,
+        "loo_all_gene_gain_mean": 0.13137786716663197,
+        "loo_pcc_delta_mean": 0.29233826635053983,
+        "loo_top100_gain_lower": 0.1375057561040428,
+        "loo_top100_gain_mean": 0.24371219997443397,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.11730119922820817,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.98592825080626
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Schmidt",
+      "seed": 1,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed1/deploy_predictions.npz",
+      "source_sha256": "e2de9b3b8ba471fb11a4a228e02f4c7124f2df2815870b46bfaf23369a72e1b9",
+      "source_bytes": 2036532,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            31
+          ],
+          "dtype": "<U18",
+          "array_sha256": "26d396a2bba5d453040129ce60daabf8d393d6329f7dd4720cebfafe7e2a254a"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            31
+          ],
+          "dtype": "<U13",
+          "array_sha256": "911adcb61dd254569eeaf6a0636658aa7708015788edaeb040111980a908ac32"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "91e878b2d652f238c86b6b56c21f013d9c3232f2673bcf327657467ce20ad8f4"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "1b965222ef6cbc48b7a1c00106a278bdce779948194a92ce125a48b63ef28d74"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "fd87a95ee8df7a7bb6e22acee9864be91d1f186e17e859cbde1cb1fa58272bdc"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            31,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "3168b859f6ef077418181977ca43dad877ea865d44706cf202db2bfa7a5f5314"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            31
+          ],
+          "dtype": "int64",
+          "array_sha256": "93a2fdca4926a335d60e46f3784fd74fcf2845e6c5544ab4bb20d60f766b655b"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.0010820146856944258,
+        "all_gene_upgrade_mean": 0.008675345786927292,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.17351470350415008,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.0036279470467731924,
+        "top100_mse_upgrade_mean": 0.02202422472387033,
+        "top100_pcc_upgrade_lower": 0.0002882178753108684,
+        "top100_pcc_upgrade_mean": 0.005743450352399947,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Schmidt",
+      "seed": 2,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "source_sha256": "ac8001bac8f6b0675d4aadac9c73570d76c825ed65d8cac4c5fe2f45fad5a5b9",
+      "source_bytes": 1814963,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "ecd27fa48ecaedabbc7e5eb3eadfeeea30a7ff3d76fe48645327c293478876ba"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "aff094bef74316a3508a2a9475bbea704cc9868298341d43acd99b61df59e229"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "8c4aa491cd53d3f38d052f93f622122d7b49e4cc7277f753d08977910b5d65c3"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "91655dd8c3efa10efdfba91c2ca74be1bb5dabc1ed3a5fabf7bee6626ae19865"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "4617ebc171edb59341d32aa2b3880f9b023eb4a70592cc9d1023d1dff9bebb27"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "15818f712d1c8525674f5fa6bf525acdb3ef214d89233e0c8149dc9982d6f326"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.6216244132850767,
+        "gate_lower_bound": 0.08900888594734221,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.8832285647602213,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.08900888594734221,
+        "loo_all_gene_gain_mean": 0.1592647956561157,
+        "loo_pcc_delta_mean": 0.24201179540206494,
+        "loo_top100_gain_lower": -0.14229773079913938,
+        "loo_top100_gain_mean": 0.09341398678402259,
+        "self_summary": "mean",
+        "self_weight": 0.9840642266892244,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Schmidt",
+      "seed": 2,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "source_sha256": "8a5a80433d8396080f7c4b8a2982e39b17982baba909f831fe16e5bbcd2af8f3",
+      "source_bytes": 1814385,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "ecd27fa48ecaedabbc7e5eb3eadfeeea30a7ff3d76fe48645327c293478876ba"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "2c41641cd819ed627178cb10cf5f3a802e838e1c79dcbfd8a0d0e41d04d82761"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "f7efb912c0170565beb3a68e7bc805a2e8c984e89e32b7bf9b5f00b1c11d81e3"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "91655dd8c3efa10efdfba91c2ca74be1bb5dabc1ed3a5fabf7bee6626ae19865"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "4617ebc171edb59341d32aa2b3880f9b023eb4a70592cc9d1023d1dff9bebb27"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "15818f712d1c8525674f5fa6bf525acdb3ef214d89233e0c8149dc9982d6f326"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.6266516181888734,
+          0.4925637883528516
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": 0.018353698272983214,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.6333641414419069,
+          0.49261738918803066
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.08971253918669891,
+        "final_top100_pcc_delta_lower": 0.14875045885335905,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.08971253918669891,
+        "loo_all_gene_gain_mean": 0.15841560112370048,
+        "loo_pcc_delta_mean": 0.2443266036383501,
+        "loo_top100_gain_lower": -0.13673937722759213,
+        "loo_top100_gain_mean": 0.09767518878666948,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.12771021464998578,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.98422055271844
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Schmidt",
+      "seed": 2,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed2/deploy_predictions.npz",
+      "source_sha256": "fe6e87edba74c936ab633469113e464c26ffd4cfb1744ac5cda93334b6c050c1",
+      "source_bytes": 1814390,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "ecd27fa48ecaedabbc7e5eb3eadfeeea30a7ff3d76fe48645327c293478876ba"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "dd9e8dadca8dec479e8af5c7baf2a17f26234d045f3e51e6ea8780645d3df895"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "992417041e0c5f148ca61903787b2bb8ef19d9c9e62da826ac95d88e645c83c9"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "91655dd8c3efa10efdfba91c2ca74be1bb5dabc1ed3a5fabf7bee6626ae19865"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "4617ebc171edb59341d32aa2b3880f9b023eb4a70592cc9d1023d1dff9bebb27"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "15818f712d1c8525674f5fa6bf525acdb3ef214d89233e0c8149dc9982d6f326"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": 0.003820005044001089,
+        "all_gene_upgrade_mean": 0.012249831401363398,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": true,
+        "correction_weights": [
+          -0.15709454784555582,
+          1.5,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": 0.00996718645996928,
+        "top100_mse_upgrade_mean": 0.026487312319789517,
+        "top100_pcc_upgrade_lower": 0.0018475968384671052,
+        "top100_pcc_upgrade_mean": 0.005344542748716576,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Schmidt",
+      "seed": 3,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "source_sha256": "4ecc1c06a86d189f81f88ea66ca2eec683baace3ff7591377d7b676b6aad3cd1",
+      "source_bytes": 1742264,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "592ddfadaa1e1cc0c287c4ae8a4560104f1619b2fdb87803efca80835e52bc5d"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "cbd7ba03efbff6dbbae334a2356a901355411aba63ab5c1aac0a2651c3f2698b"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "fc5204e7930d8ab94a39e653b16d96e893b3ad476d5f5f6e0072742c9448c898"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "c0d0a7fdaf552141fc6f839f2badfae4e4c6451681b7a04d734d2be4c8bc8d5f"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "33981b929dba600a01f6472c0150dbfbfa57db3b2c3611595a12cb20119ac023"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "7a40906c98ab8989f7304ec3730122045744f9288c61a9bf3d903158435be4c5"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": 0.678127688765701,
+        "gate_lower_bound": 0.09121348694851644,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.8981527968889113,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.09121348694851644,
+        "loo_all_gene_gain_mean": 0.14209643338826547,
+        "loo_pcc_delta_mean": 0.22503026065388268,
+        "loo_top100_gain_lower": 0.10177465419824742,
+        "loo_top100_gain_mean": 0.19386336045123329,
+        "self_summary": "mean",
+        "self_weight": 0.9846232061073598,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Schmidt",
+      "seed": 3,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "source_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72",
+      "source_bytes": 1741292,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "592ddfadaa1e1cc0c287c4ae8a4560104f1619b2fdb87803efca80835e52bc5d"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "7daf20edb21589d8579ed01fd6cb9edbb3fc39e091813a514fa6c448b7c7fe87"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "cdf0e5d06b49dcb576317eced2f7644ea24842603bfa1c9888da8f903fe35dda"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "c0d0a7fdaf552141fc6f839f2badfae4e4c6451681b7a04d734d2be4c8bc8d5f"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "33981b929dba600a01f6472c0150dbfbfa57db3b2c3611595a12cb20119ac023"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "7a40906c98ab8989f7304ec3730122045744f9288c61a9bf3d903158435be4c5"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.6609952143377176,
+          0.5617964769306129
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": 0.008971163228448605,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.6672844429955452,
+          0.56264238920507
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": 0.08453432506464953,
+        "final_top100_pcc_delta_lower": 0.1329923703183544,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": 0.08453432506464953,
+        "loo_all_gene_gain_mean": 0.13817502559195666,
+        "loo_pcc_delta_mean": 0.22879441989601884,
+        "loo_top100_gain_lower": 0.10422331510480369,
+        "loo_top100_gain_mean": 0.19597715330694335,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": true,
+        "sparse_incremental_top100_pcc_delta_lower": 0.10975174812826036,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.9843232038306738
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Schmidt",
+      "seed": 3,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "source_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72",
+      "source_bytes": 1741292,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "395d2693f8859faf643832b081dc592b407994f5ad78603ea452960b7a3db8b9"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            28
+          ],
+          "dtype": "<U18",
+          "array_sha256": "592ddfadaa1e1cc0c287c4ae8a4560104f1619b2fdb87803efca80835e52bc5d"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            28
+          ],
+          "dtype": "<U13",
+          "array_sha256": "ad66192aa11e15199250d21ef756e162b68389fc30b3bf2aac820722849a6815"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5005
+          ],
+          "dtype": "<U10",
+          "array_sha256": "cec2ac20663aac7b1e1257c7517b66bef8c932915f109942cfee065ab8105879"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "7daf20edb21589d8579ed01fd6cb9edbb3fc39e091813a514fa6c448b7c7fe87"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "cdf0e5d06b49dcb576317eced2f7644ea24842603bfa1c9888da8f903fe35dda"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "c0d0a7fdaf552141fc6f839f2badfae4e4c6451681b7a04d734d2be4c8bc8d5f"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            28,
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "33981b929dba600a01f6472c0150dbfbfa57db3b2c3611595a12cb20119ac023"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "5363f33586fb4327677ff3c0daabceac98dd9a1d09bb6df7f60352706a6b128d"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5005
+          ],
+          "dtype": "float32",
+          "array_sha256": "08b3cdbcbdc0bf2d37114d1b8d76d3adf190595073cd8cd859f774b1533c31d4"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "f3df896830df06dd8776fdee81c344884cb6cfbfd2d849ec2123ca43bafd6fd6"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            28
+          ],
+          "dtype": "int64",
+          "array_sha256": "7a40906c98ab8989f7304ec3730122045744f9288c61a9bf3d903158435be4c5"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": true,
+        "all_gene_upgrade_lower": -0.0005311288258925497,
+        "all_gene_upgrade_mean": 0.002979198175583745,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": false,
+        "correction_weights": [
+          -0.09060684924300033,
+          0.6023112250476162,
+          1.5
+        ],
+        "dense_active": true,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 28,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": -0.0019146483489324417,
+        "top100_mse_upgrade_mean": 0.006734416335597265,
+        "top100_pcc_upgrade_lower": 0.0017827547673795498,
+        "top100_pcc_upgrade_mean": 0.003875862790756066,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Wessels",
+      "seed": 1,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "source_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7",
+      "source_bytes": 3050745,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            65
+          ],
+          "dtype": "<U15",
+          "array_sha256": "dff10bf235c46e285c3cf743e1a74cee46e38fe9e8ff9663eb80f91835bf1302"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            65
+          ],
+          "dtype": "<U13",
+          "array_sha256": "fdf1f2efff3c33d9f6bd409c78009f6e904cbd40db76a1d391237aec17eced85"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            65
+          ],
+          "dtype": "int64",
+          "array_sha256": "d68c2eeebe7a7d8432e59c64620d3855eab3e4d7475bb013e83f19fcdcecedb9"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": 0.6346736744182746,
+        "gate_lower_bound": -0.03619493703664325,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.002715646108951218,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": -0.03619493703664325,
+        "loo_all_gene_gain_mean": 0.037111598297631145,
+        "loo_pcc_delta_mean": 0.004496934479537959,
+        "loo_top100_gain_lower": -0.18525961914849493,
+        "loo_top100_gain_mean": -0.0935770664661465,
+        "self_summary": "mean",
+        "self_weight": 0.8098226374220797,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Wessels",
+      "seed": 1,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "source_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7",
+      "source_bytes": 3050745,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            65
+          ],
+          "dtype": "<U15",
+          "array_sha256": "dff10bf235c46e285c3cf743e1a74cee46e38fe9e8ff9663eb80f91835bf1302"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            65
+          ],
+          "dtype": "<U13",
+          "array_sha256": "fdf1f2efff3c33d9f6bd409c78009f6e904cbd40db76a1d391237aec17eced85"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            65
+          ],
+          "dtype": "int64",
+          "array_sha256": "d68c2eeebe7a7d8432e59c64620d3855eab3e4d7475bb013e83f19fcdcecedb9"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.6346736744182746,
+          0.002715646108951218
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": -0.03755605279054361,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.6350081708091154,
+          0.0016333059701529517
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": -0.03619493703664325,
+        "final_top100_pcc_delta_lower": -0.0017048156879491448,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": -0.03619493703664325,
+        "loo_all_gene_gain_mean": 0.037111598297631145,
+        "loo_pcc_delta_mean": 0.004496934479537959,
+        "loo_top100_gain_lower": -0.18525961914849493,
+        "loo_top100_gain_mean": -0.0935770664661465,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": -0.0017069704859945002,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.8098226374220797
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Wessels",
+      "seed": 1,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "source_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7",
+      "source_bytes": 3050745,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "7c9fa136d4413fa6173637e883b6998d32e1d675f88cddff9dcbcf331820f4b8"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            65
+          ],
+          "dtype": "<U15",
+          "array_sha256": "dff10bf235c46e285c3cf743e1a74cee46e38fe9e8ff9663eb80f91835bf1302"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            65
+          ],
+          "dtype": "<U13",
+          "array_sha256": "fdf1f2efff3c33d9f6bd409c78009f6e904cbd40db76a1d391237aec17eced85"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "6823496f2bff919be9cf82edc66750d92a7dd39c17fc536da43de81c0f7a4d3a"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            65,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a7c80ad68d7510e09a9ccec324ab7178ede9934a9d73e9084bcde81e870559d4"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            65
+          ],
+          "dtype": "int64",
+          "array_sha256": "d68c2eeebe7a7d8432e59c64620d3855eab3e4d7475bb013e83f19fcdcecedb9"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "all_gene_upgrade_lower": -0.001308870209114574,
+        "all_gene_upgrade_mean": 0.0009342373113758075,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": false,
+        "correction_weights": [
+          0.21651148014856075,
+          0.9616825743459767,
+          1.5
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": -0.002597500714398458,
+        "top100_mse_upgrade_mean": 0.003555172545544949,
+        "top100_pcc_upgrade_lower": -0.002718109065285877,
+        "top100_pcc_upgrade_mean": 0.005913483351708668,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Wessels",
+      "seed": 2,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "source_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd",
+      "source_bytes": 3227203,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "e0b5bcf83fd9d16390350138d8116b672e69f179526dc44ae9ee6ee8cabb0d2b"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "2817930e28a2fab9f10e8a8c7a3ac109bdd5182e7dee679ed7221c8b294355ee"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            55
+          ],
+          "dtype": "int64",
+          "array_sha256": "7f8bd8b8d66bdf35a83a59c94394ca8f8ec9f70f62cacde656d002dc7e2a0a62"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": 0.7545342140728206,
+        "gate_lower_bound": -0.04372783868486929,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.0,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 11,
+        "loo_all_gene_gain_lower": -0.04372783868486929,
+        "loo_all_gene_gain_mean": 0.025407468205483796,
+        "loo_pcc_delta_mean": 0.0018617589797724867,
+        "loo_top100_gain_lower": -0.1852194904752636,
+        "loo_top100_gain_mean": -0.11136286926572544,
+        "self_summary": "mean",
+        "self_weight": 0.8417635077454743,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Wessels",
+      "seed": 2,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "source_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd",
+      "source_bytes": 3227203,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "e0b5bcf83fd9d16390350138d8116b672e69f179526dc44ae9ee6ee8cabb0d2b"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "2817930e28a2fab9f10e8a8c7a3ac109bdd5182e7dee679ed7221c8b294355ee"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            55
+          ],
+          "dtype": "int64",
+          "array_sha256": "7f8bd8b8d66bdf35a83a59c94394ca8f8ec9f70f62cacde656d002dc7e2a0a62"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.7545342140728206,
+          0.0
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": -0.04503557819979112,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.754650029200407,
+          0.0
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": -0.04372783868486929,
+        "final_top100_pcc_delta_lower": -0.0010220289917786415,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 11,
+        "loo_all_gene_gain_lower": -0.04372783868486929,
+        "loo_all_gene_gain_mean": 0.025407468205483796,
+        "loo_pcc_delta_mean": 0.0018617589797724867,
+        "loo_top100_gain_lower": -0.1852194904752636,
+        "loo_top100_gain_mean": -0.11136286926572544,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": -0.001022028991778543,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.8417635077454743
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Wessels",
+      "seed": 2,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "source_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd",
+      "source_bytes": 3227203,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "d86e8112f3c4c4442126f8e9f44f16867da487f29052bf91b810457db34209a4"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "e0b5bcf83fd9d16390350138d8116b672e69f179526dc44ae9ee6ee8cabb0d2b"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            55
+          ],
+          "dtype": "<U13",
+          "array_sha256": "2817930e28a2fab9f10e8a8c7a3ac109bdd5182e7dee679ed7221c8b294355ee"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a80fe783301cd9021586791bd52f7d92b6a5ea98f1dd1a568a62ce197d0b3c80"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            55,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a4630ac35f2f6b0f58aa9a6d9c518e466f0adc2812c00bf3a78a212e40744d72"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            55
+          ],
+          "dtype": "int64",
+          "array_sha256": "7f8bd8b8d66bdf35a83a59c94394ca8f8ec9f70f62cacde656d002dc7e2a0a62"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "all_gene_upgrade_lower": -0.0007099408414247531,
+        "all_gene_upgrade_mean": 0.0008980566740218869,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": false,
+        "correction_weights": [
+          0.04563163445368788,
+          0.9835350177993474,
+          1.2888823154159381
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 11,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": -0.002196132678371532,
+        "top100_mse_upgrade_mean": 0.002416683255216818,
+        "top100_pcc_upgrade_lower": -0.0013870242027944671,
+        "top100_pcc_upgrade_mean": 0.003006188169661679,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 17,
+      "dataset": "Wessels",
+      "seed": 3,
+      "source_path": "experiments/17_endpoint_sota_reproduction/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "source_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c",
+      "source_bytes": 3330643,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            67
+          ],
+          "dtype": "<U14",
+          "array_sha256": "9cb30747bf49db113b2bd3ef5af23b682bb0f72d2767de18dee5b35129bbbd53"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            67
+          ],
+          "dtype": "<U13",
+          "array_sha256": "009b84dcdc26054d93044cf24420fd109062ba622f5cd6b69b0dfdd0854f68b1"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            67
+          ],
+          "dtype": "int64",
+          "array_sha256": "d77daf70df7ee4fa96eb20a010ade7d09c10b50a69975bf4f97797e6bfe7b5f2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": 0.7280585841093401,
+        "gate_lower_bound": -0.010607310836600638,
+        "gate_metric": "all_gene_mse",
+        "go_residual_weight": 0.8053126681502187,
+        "go_top_k": 40,
+        "identity_mode": "go_shrinkage",
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": -0.010607310836600638,
+        "loo_all_gene_gain_mean": 0.05170736002081033,
+        "loo_pcc_delta_mean": 0.010000530356950945,
+        "loo_top100_gain_lower": -0.14429807950327322,
+        "loo_top100_gain_mean": -0.06136151056961835,
+        "self_summary": "mean",
+        "self_weight": 0.8619229892833407,
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 18,
+      "dataset": "Wessels",
+      "seed": 3,
+      "source_path": "experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "source_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c",
+      "source_bytes": 3330643,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            67
+          ],
+          "dtype": "<U14",
+          "array_sha256": "9cb30747bf49db113b2bd3ef5af23b682bb0f72d2767de18dee5b35129bbbd53"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            67
+          ],
+          "dtype": "<U13",
+          "array_sha256": "009b84dcdc26054d93044cf24420fd109062ba622f5cd6b69b0dfdd0854f68b1"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            67
+          ],
+          "dtype": "int64",
+          "array_sha256": "d77daf70df7ee4fa96eb20a010ade7d09c10b50a69975bf4f97797e6bfe7b5f2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": [
+          0.7280585841093401,
+          0.8053126681502187
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": -0.012515645312262125,
+        "dense_mode": "mean_go",
+        "dense_weights": [
+          0.7282328787126554,
+          0.8044791567018017
+        ],
+        "direction_gate_metric": "top100_pcc",
+        "final_all_gene_gain_lower": -0.010607310836600638,
+        "final_top100_pcc_delta_lower": -0.02566298974616679,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": 10,
+        "identity_mode": "dual_head",
+        "incremental_direction_required": false,
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": -0.010607310836600638,
+        "loo_all_gene_gain_mean": 0.05170736002081033,
+        "loo_pcc_delta_mean": 0.010000530356950945,
+        "loo_top100_gain_lower": -0.14429807950327322,
+        "loo_top100_gain_mean": -0.06136151056961835,
+        "selected_recipe": "fixed",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": -0.0014310842089631094,
+        "sparse_mode": "joint_self",
+        "sparse_weights": [
+          0.8619229892833407
+        ],
+        "support_k": 1,
+        "support_mode": "go_residual",
+        "weight_mode": "closed_form"
+      }
+    },
+    {
+      "experiment": 19,
+      "dataset": "Wessels",
+      "seed": 3,
+      "source_path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "source_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c",
+      "source_bytes": 3330643,
+      "arrays": [
+        {
+          "key": "dataset",
+          "shape": [],
+          "dtype": "<U7",
+          "array_sha256": "56b895f3ee0186fbb67f22ec14b34719dcb4c9db6f088bb858f184f3197fe423"
+        },
+        {
+          "key": "seed",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "35be322d094f9d154a8aba4733b8497f180353bd7ae7b0a15f90b586b549f28b"
+        },
+        {
+          "key": "conditions",
+          "shape": [
+            67
+          ],
+          "dtype": "<U14",
+          "array_sha256": "9cb30747bf49db113b2bd3ef5af23b682bb0f72d2767de18dee5b35129bbbd53"
+        },
+        {
+          "key": "subgroups",
+          "shape": [
+            67
+          ],
+          "dtype": "<U13",
+          "array_sha256": "009b84dcdc26054d93044cf24420fd109062ba622f5cd6b69b0dfdd0854f68b1"
+        },
+        {
+          "key": "genes",
+          "shape": [
+            5020
+          ],
+          "dtype": "<U15",
+          "array_sha256": "bf37799c579465d76a7aa62662d34de4b09a6a34bc191a9d6baaef9b8236b307"
+        },
+        {
+          "key": "prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "baseline_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "a79505e0fd4adee1562aa7f292072875724d6821951ce712562a9ff2d491f062"
+        },
+        {
+          "key": "baseline_factorized_prediction",
+          "shape": [
+            67,
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "98a6886d7e21779540268a1a31c8955fe741ba8f8089ba7999dd28269d76c8ca"
+        },
+        {
+          "key": "control",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "b5954644d85ad77bdc07f439f76622ab7829ee277c3bfd2afa542c7407048242"
+        },
+        {
+          "key": "control_variance",
+          "shape": [
+            5020
+          ],
+          "dtype": "float32",
+          "array_sha256": "cacdfeee0cca985798999faab3b00c563b133ff03a76a01641a9a88f20fc3831"
+        },
+        {
+          "key": "control_count",
+          "shape": [],
+          "dtype": "int64",
+          "array_sha256": "3a1dc8be710cf462d44e3cff53f9c8d2a8e1870f02cde6eac0fae98536c40026"
+        },
+        {
+          "key": "test_cell_counts",
+          "shape": [
+            67
+          ],
+          "dtype": "int64",
+          "array_sha256": "d77daf70df7ee4fa96eb20a010ade7d09c10b50a69975bf4f97797e6bfe7b5f2"
+        }
+      ],
+      "no_truth_or_object_arrays": true,
+      "identity_head": {
+        "active": false,
+        "all_gene_upgrade_lower": -0.0013203964595986646,
+        "all_gene_upgrade_mean": 0.0014270399027773914,
+        "anchor_mode": null,
+        "background_weight": null,
+        "candidate_training_scores": [],
+        "combined_dense_weights": null,
+        "correction_active": false,
+        "correction_weights": [
+          0.22362358166972002,
+          1.0725682682846462,
+          1.5
+        ],
+        "dense_active": false,
+        "dense_all_gene_gain_lower": null,
+        "dense_mode": null,
+        "dense_weights": null,
+        "direction_gate_metric": null,
+        "final_all_gene_gain_lower": null,
+        "final_top100_pcc_delta_lower": null,
+        "gate_lower_bound": null,
+        "gate_metric": "dual",
+        "go_residual_weight": null,
+        "go_top_k": null,
+        "identity_mode": "multihead_v14",
+        "incremental_direction_required": false,
+        "known_single_count": 10,
+        "loo_all_gene_gain_lower": null,
+        "loo_all_gene_gain_mean": null,
+        "loo_pcc_delta_mean": null,
+        "loo_top100_gain_lower": null,
+        "loo_top100_gain_mean": null,
+        "selected_recipe": "inc_amp_fp_r02",
+        "self_summary": "mean",
+        "self_weight": null,
+        "sparse_active": false,
+        "sparse_incremental_top100_pcc_delta_lower": null,
+        "sparse_mode": null,
+        "sparse_weights": null,
+        "support_k": null,
+        "support_mode": null,
+        "top100_mse_upgrade_lower": -0.0010315267323517917,
+        "top100_mse_upgrade_mean": 0.005386679417872646,
+        "top100_pcc_upgrade_lower": -0.004545177958970869,
+        "top100_pcc_upgrade_mean": 0.0022592546710271167,
+        "weight_mode": "closed_form"
+      }
+    }
+  ],
+  "v14_vs_prior": [
+    {
+      "dataset": "Norman",
+      "seed": 1,
+      "active": true,
+      "max_abs_prediction_delta": 0.2887849807739258,
+      "prediction_delta_sse": 1.3804139951760508,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "456b2655f1f33538301f02abf36fb89f9883a6f1ecf94bbd2f06410d0a6945a9",
+      "prior_sha256": "feb0c27ca5288b7d77b5efe8ca8c3db14f37e21a0286742b26794b049767a81f"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 2,
+      "active": true,
+      "max_abs_prediction_delta": 0.1928541660308838,
+      "prediction_delta_sse": 0.39662862625851236,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "7e0979b42076657bd61cfb256b4c1470ad68cb955e938cdd38281fe5fd985642",
+      "prior_sha256": "813aa6d7eef57f7642e5fcc2b5e4d22b8c6bf010f39bd3781f15d8082ca4e0ba"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 3,
+      "active": true,
+      "max_abs_prediction_delta": 0.10441023111343384,
+      "prediction_delta_sse": 0.29809052242487866,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "10675e7fc727e3af79f798783e1731fd7b9cd4699ffba2b560f3634df044b532",
+      "prior_sha256": "2326f7b6abb6fb99264bd6e24da96ac506673a170a66874ea1edbfea9d1c97c0"
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": 1,
+      "active": true,
+      "max_abs_prediction_delta": 0.7433573007583618,
+      "prediction_delta_sse": 1.0775971377024005,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "a1308cba2d65ff63994dbc15ac9a3b81fa44b4d339bbc561bfc5c0f7d6d540bc",
+      "prior_sha256": "e877772fe9b17f281ff1f2fe82f3f832f6b17bfc6aa182951d24a88b185b2af6"
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": 2,
+      "active": true,
+      "max_abs_prediction_delta": 0.3939474821090698,
+      "prediction_delta_sse": 0.4054393132352742,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "643ecdbea094528af402f723c4678311bc1e15ac1590bc371177aadaaa27afb8",
+      "prior_sha256": "f943d57744c441746090b157c0386b47a7718937c0ac61fe05bbc8bef564089e"
+    },
+    {
+      "dataset": "Replogle_exp6",
+      "seed": 3,
+      "active": true,
+      "max_abs_prediction_delta": 0.1680392026901245,
+      "prediction_delta_sse": 0.19959947277011358,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "a8274e4703e9350efd5beb38ac68da6980155c6289f77931206ab9a2656cf971",
+      "prior_sha256": "4ae458081218bdc29a3064f44de04e0568c555de26dedcff07f745334549222a"
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": 1,
+      "active": true,
+      "max_abs_prediction_delta": 0.2082756757736206,
+      "prediction_delta_sse": 0.43641229826132033,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "e2de9b3b8ba471fb11a4a228e02f4c7124f2df2815870b46bfaf23369a72e1b9",
+      "prior_sha256": "dc25040a9962414937c833ffb55b9e92115d9ece43710ff456195619c0c9441c"
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": 2,
+      "active": true,
+      "max_abs_prediction_delta": 0.33882081508636475,
+      "prediction_delta_sse": 0.33622106399214857,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "fe6e87edba74c936ab633469113e464c26ffd4cfb1744ac5cda93334b6c050c1",
+      "prior_sha256": "8a5a80433d8396080f7c4b8a2982e39b17982baba909f831fe16e5bbcd2af8f3"
+    },
+    {
+      "dataset": "Schmidt",
+      "seed": 3,
+      "active": false,
+      "max_abs_prediction_delta": 0.0,
+      "prediction_delta_sse": 0.0,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72",
+      "prior_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "active": false,
+      "max_abs_prediction_delta": 0.0,
+      "prediction_delta_sse": 0.0,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7",
+      "prior_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "active": false,
+      "max_abs_prediction_delta": 0.0,
+      "prediction_delta_sse": 0.0,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd",
+      "prior_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "active": false,
+      "max_abs_prediction_delta": 0.0,
+      "prediction_delta_sse": 0.0,
+      "conditions_equal": true,
+      "inactive_exact_fallback": true,
+      "v14_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c",
+      "prior_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c"
+    }
+  ]
+}

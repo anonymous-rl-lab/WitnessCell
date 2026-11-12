@@ -1,0 +1,54 @@
+{
+  "version": "Han2017 frozen reassessment v3",
+  "created_utc": "2026-11-08T13:14:47.042188+00:00",
+  "base_model_fit_calls_allowed": 0,
+  "status": "FROZEN_BEFORE_NEW_REASSESSMENT_SCORES",
+  "prior_access": "Previous Han experiments retained as smoke/development; 88 raw pairs and 91 published pairs previously scored, published tables and raw counts accessed; no claim that the entire study is untouched.",
+  "primary": "Execute v2 scalar control on common panel; all 3 rank1 sources, 5 seeds, 3 folds, both readouts.",
+  "secondary": "Same rules for spectral, SF12 and V4; no choice of source or model by Han score.",
+  "sources": [
+    "HeLa",
+    "A549",
+    "293T"
+  ],
+  "families": [
+    "rank1",
+    "spectral",
+    "sf12",
+    "v4"
+  ],
+  "seeds": [
+    20261108,
+    20261109,
+    20261110,
+    20261111,
+    20261112
+  ],
+  "outer_folds": 3,
+  "calibration_blocks": 2,
+  "source_direction": "native source beta retained, D=native-M0",
+  "common_panel": "all raw-qualified common identities; published sensitivity on identical pairs",
+  "full_han": "Enumerate every distinct noncontrol pair with finite singles. Raw eligibility unchanged: initial count >=50, plasmid>0, >=3 constructs with both orientations. Published panel: all finite distinct pairs with allowed singles.",
+  "extended_families": [
+    "sf12",
+    "v4"
+  ],
+  "extended_adapter": "Target additive B; shared frozen source feature function supplies raw D. Source endpoint shifts omitted because P annihilates them on the known panel; missing gene-index M0 is not imputed. Deploy B+alpha*P_Q D. This is an explicitly new no-base-retraining adapter, not the original full source model.",
+  "extended_features": "Restore SF12 linear source knowledge transform using source embeddings only. Use source mean for V4 centering, per-gene RMS, frozen weights and original two seeds. All scales and source beta unchanged. Missing external knowledge uses the pre-existing global mean policy, with identity-level flags.",
+  "extended_endpoints": "B fixed; component and whole shrink of a pure partner vector are identical and are not counted as distinct wins.",
+  "extended_primary_metric": "Target-calibrated partner SSE vs both alpha1 and alpha0; complete SSE vs B. All 6 source-family variants reported without selecting a winner.",
+  "alpha": "clip[0,1](sum calibration-block <P(Y-M0),PD>/sum ||PD||^2), energy<=1e-14 =>0; full-Han M0=B",
+  "gamma": "same pool full-loss coefficient for original-model common panel only",
+  "projection": "Each held-out scientific panel separately. Compute via small endpoint Gram solve; no N by N projection for full Han.",
+  "readouts": "raw_repeats primary; published reported in full with its own single inputs. Full panels may differ due raw qualification; report coverage and no isolated readout-effect claim.",
+  "checks": [
+    "source replay",
+    "portable feature direction equality after projection on common panel",
+    "no query labels in calibration",
+    "endpoint invariance",
+    "SSE identity",
+    "independent least-squares scoring",
+    "input and model hashes unchanged"
+  ],
+  "stopping": "No search, no new seeds, no post-score parameter edits. Checkpoint every fold; all variants retained."
+}

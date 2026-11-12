@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "cases_checked": 8000,
+  "new_fits": 0,
+  "noise_draws_independently_replayed": 4096000,
+  "max_training_mean_error": 8.881784197001252e-16,
+  "max_within_stratum_SSE_error": 0.0,
+  "max_OLS_normal_equation_residual": 9.737988193592173e-12,
+  "max_low_minimum_norm_null_component": 1.6653345369377348e-15,
+  "source_freeze_sha256": "764ffd6b5e702a0df0a2bb14f458ac7a2d1030885521cb5b7d4e30a28d76ef65"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "original_inputs_and_results_preserved": true,
+  "read_only_module_check": true,
+  "relocation_check": true,
+  "compact_replay": {
+    "status": "PASS",
+    "score_max_abs": 5.684341886080802e-14,
+    "SF12_coefficient_max_abs": 4.440892098500626e-16,
+    "case_R_coefficient_max_abs": 1.7763568394002505e-15,
+    "case_R_quadratic_max_abs": 4.263256414560601e-14,
+    "contrast_identity_rank": 3,
+    "unique_query_edges": 8
+  },
+  "external_input_identity_checked": true,
+  "full_upstream_reconstruction_executed": false,
+  "scope": "No new hyperparameter fitting or search. Exact fixed-setting SF12 sufficient statistics were regenerated from verified intermediate inputs and matched archived coefficients/partner corrections; full case_R pipeline not rerun. Compact replay now independently solves both SF12 and case_R.",
+  "SF12_fixed_settings_derivation_executed": true,
+  "SF12_derivation_seconds": 2.4801858899991203
+}

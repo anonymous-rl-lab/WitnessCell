@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-07T23:37:51.731112+00:00",
+  "stage": "smoke",
+  "protocol_sha256": "19b553f46431c68c4c57ea3580a71ce92ec7c3a57345355ac9bd78211218fb56",
+  "prepared_receipt_sha256": "707de8dae19d87df85370f536a4251882ae5a06287e2b7a41593c721b20a92f5",
+  "source_declared": "Shen2017 CV4 raw counts recovered from the official author repository history",
+  "all_predictions_complete": true,
+  "query_outcomes_read": false,
+  "models": {
+    "HeLa": {
+      "input_sha256": "fd645390dd9d00e650f9007498b93d2cb37e436b829dc9416a950d8646b3a2c0",
+      "predictions_sha256": "718d77c576841ac5068624b0b552b7255056b4aa32686b72d5ec647135efcd04",
+      "metadata_sha256": "767d44cab8764c2865da49171c9f7818978a8be82c32fe294d1d2235a2d7539d",
+      "prediction_file": "HeLa/results/high/predictions.npz",
+      "query_outcomes_read": false,
+      "selections": {
+        "rank1": {
+          "selected": "rank1_t0.3_n0.1",
+          "best_regularized": "rank1_t0.3_n0.1",
+          "inner_gain_each": [
+            0.027678965512445086,
+            0.048515258796931526
+          ],
+          "inner_gain_pooled": 0.03861386937104361,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        },
+        "spectral": {
+          "selected": "spectral_t0.3_n0.1",
+          "best_regularized": "spectral_t0.3_n0.1",
+          "inner_gain_each": [
+            0.032231302052280864,
+            0.040456797879476425
+          ],
+          "inner_gain_pooled": 0.03654804902985642,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        }
+      }
+    }
+  },
+  "evaluation_performed": false
+}

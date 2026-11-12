@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "functional_configurations": 55,
+  "policy_comparisons": 220,
+  "max_alpha_error": 1.1102230246251565e-15,
+  "max_sse_error": 6.661338147750939e-16,
+  "RNA_partner_equivalence_rows": 265,
+  "method": "Independent SVD projector and direct quadratic-loss recomputation; no control implementation imported"
+}

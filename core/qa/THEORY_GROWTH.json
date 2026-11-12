@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "theory_targets": [
+    0.0,
+    -0.5,
+    0.0,
+    -0.5
+  ],
+  "theory_lower_bound": 0.0625,
+  "theory_case_rows": 16000,
+  "growth_prediction_rows": 3762,
+  "growth_score_rows": 120,
+  "base_model_fits": 0,
+  "scope": "Exact family identities and scoring saved synthetic predictions; independent least-squares endpoint projection of saved functional predictions. No new model fitting."
+}

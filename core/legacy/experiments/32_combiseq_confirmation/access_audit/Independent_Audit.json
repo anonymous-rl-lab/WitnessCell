@@ -1,0 +1,322 @@
+{
+  "audit_status": "PASS",
+  "scope": "independent saved-prediction arithmetic; no model refit, tuning, new subset, exclusion or new source",
+  "identity_checks": {
+    "all_frozen_hashes_match": true,
+    "freeze_record_sha_matches": true,
+    "prediction_hash_matches": true,
+    "freeze_before_expression": true,
+    "prediction_save_before_completion": true,
+    "unique_pairs": true,
+    "pair_arrays_match": true,
+    "fold_arrays_match": true,
+    "cohort_pair_order_match": true,
+    "one_outer_evaluation_per_pair": true,
+    "no_outer_train_query_overlap": true,
+    "all_pairs_distinct_endpoints": true,
+    "all_finite_saved_predictions": true,
+    "primary_method_identity": true,
+    "decision_reproduces": true,
+    "decision_checks_reproduce": true,
+    "unique_allowed_sample_ids": true,
+    "all_allowed_groups_present": true,
+    "equal_orientation_sample_counts": true,
+    "internal_controls_only": true,
+    "excluded_extra_controls_absent": true,
+    "run_truth_mean_matches_principal": true
+  },
+  "frozen_file_checks": {
+    "CONFIRMATION_PROTOCOL.txt": true,
+    "COHORT_AND_SPLITS.json": true,
+    "model/frozen_graph_folds.py": true,
+    "model/frozen_legacy_baseline.py": true,
+    "model/frozen_reference_core.py": true,
+    "model/run_confirmation.py": true,
+    "model/FROZEN_PROGRAM_ID_MAPPING.json": true,
+    "model/PREDEFINED_G2M_PROGRAM.json": true,
+    "combi_metadata/GSE174695_large_scale_meta.csv.gz": true,
+    "combi_metadata/GSE174695_large_scale_matrix.csv.gz": true,
+    "combi_metadata/matrix_gene_names_only.txt": true
+  },
+  "max_table_abs_error": 5.684341886080802e-14,
+  "max_per_pair_loss_array_abs_error": 4.263256414560601e-14,
+  "max_stability_quantile_abs_error": 6.600622826091751e-16,
+  "primary_gain_fraction": -0.0002328227003702832,
+  "primary_gain_percent": -0.02328227003702832,
+  "partner_gain_fraction": -0.00030240085044397347,
+  "partner_gain_percent": -0.030240085044397347,
+  "decision": "NOT_CONFIRMED",
+  "decision_checks": {
+    "principal_gain_ge_2_percent": false,
+    "conditional_lower_bound_positive": false,
+    "full_gain_vs_saturation_positive": true,
+    "partner_gain_vs_endpoint_positive": false,
+    "at_least_two_runs_positive": false,
+    "invariance_and_leakage": true
+  },
+  "n_unique_pairs": 374,
+  "n_compounds": 36,
+  "n_program": 51,
+  "full_sse_recomputed": {
+    "additive": 177.23778873696358,
+    "scalar_saturation": 172.81815253170058,
+    "endpoint_control": 172.06433945902188,
+    "fixed_reference": 172.87624306634,
+    "system_fixed_reference": 172.10439994317215
+  },
+  "P_sse_recomputed": {
+    "additive": 125.9151914951254,
+    "scalar_saturation": 126.51630969972791,
+    "endpoint_control": 126.51630969972793,
+    "fixed_reference": 126.55456833937617,
+    "system_fixed_reference": 126.55456833937616
+  },
+  "stability_recomputed": {
+    "full_vs_endpoint_control": {
+      "q025": -0.01098310018860973,
+      "median": -0.0003011322310808584,
+      "q975": 0.006881052916068798
+    },
+    "full_vs_scalar_saturation": {
+      "q025": -0.06630906597993105,
+      "median": 0.04154958892293331,
+      "q975": 0.2123526431646405
+    },
+    "P_vs_endpoint_control": {
+      "q025": -0.006342129706099358,
+      "median": -0.00030195225122231495,
+      "q975": 0.004974395521881367
+    },
+    "P_vs_scalar_saturation": {
+      "q025": -0.006342129706099147,
+      "median": -0.00030195225122231495,
+      "q975": 0.004974395521880817
+    }
+  },
+  "folds": [
+    {
+      "fold": 0,
+      "method": "additive",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 158.6951023162316,
+      "P_sse": 120.39954501143531
+    },
+    {
+      "fold": 1,
+      "method": "additive",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 10.275692838907892,
+      "P_sse": 3.6512469043867064
+    },
+    {
+      "fold": 2,
+      "method": "additive",
+      "n_pairs": 124,
+      "rank": 36,
+      "P_dimensions": 88,
+      "full_sse": 8.266993581824096,
+      "P_sse": 1.8643995793033743
+    },
+    {
+      "fold": 0,
+      "method": "scalar_saturation",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 157.91538714907333,
+      "P_sse": 121.01367836929276
+    },
+    {
+      "fold": 1,
+      "method": "scalar_saturation",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 8.912613988317194,
+      "P_sse": 3.669375397219755
+    },
+    {
+      "fold": 2,
+      "method": "scalar_saturation",
+      "n_pairs": 124,
+      "rank": 36,
+      "P_dimensions": 88,
+      "full_sse": 5.990151394310082,
+      "P_sse": 1.8332559332153833
+    },
+    {
+      "fold": 0,
+      "method": "endpoint_control",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 161.9334292889515,
+      "P_sse": 121.01367836929278
+    },
+    {
+      "fold": 1,
+      "method": "endpoint_control",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 6.361068266807506,
+      "P_sse": 3.6693753972197554
+    },
+    {
+      "fold": 2,
+      "method": "endpoint_control",
+      "n_pairs": 124,
+      "rank": 36,
+      "P_dimensions": 88,
+      "full_sse": 3.7698419032629005,
+      "P_sse": 1.8332559332153877
+    },
+    {
+      "fold": 0,
+      "method": "fixed_reference",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 157.8674870843511,
+      "P_sse": 121.01459443230765
+    },
+    {
+      "fold": 1,
+      "method": "fixed_reference",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 9.044385749308354,
+      "P_sse": 3.6975500813680866
+    },
+    {
+      "fold": 2,
+      "method": "fixed_reference",
+      "n_pairs": 124,
+      "rank": 36,
+      "P_dimensions": 88,
+      "full_sse": 5.964370232680566,
+      "P_sse": 1.8424238257004553
+    },
+    {
+      "fold": 0,
+      "method": "system_fixed_reference",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 161.8754440678941,
+      "P_sse": 121.01459443230762
+    },
+    {
+      "fold": 1,
+      "method": "system_fixed_reference",
+      "n_pairs": 125,
+      "rank": 36,
+      "P_dimensions": 89,
+      "full_sse": 6.475469241107493,
+      "P_sse": 3.6975500813680866
+    },
+    {
+      "fold": 2,
+      "method": "system_fixed_reference",
+      "n_pairs": 124,
+      "rank": 36,
+      "P_dimensions": 88,
+      "full_sse": 3.75348663417053,
+      "P_sse": 1.842423825700459
+    }
+  ],
+  "metadata": {
+    "n_allowed_samples": 1251,
+    "n_excluded_samples": 12,
+    "n_condition_run_groups": 1233,
+    "control_samples": {
+      "rep1": [
+        "rep1_DMSO_DMSOReadsPerGene"
+      ],
+      "rep2": [
+        "rep2_DMSO_DMSOReadsPerGene"
+      ],
+      "rep3": [
+        "rep3_DMSO_DMSOReadsPerGene"
+      ]
+    }
+  },
+  "post_score_measurement_adequacy": {
+    "status": "FOLLOWUP_DIAGNOSTIC_ONLY; does not change NOT_CONFIRMED",
+    "operation": "subtract same frozen endpoint-control baseline from each original run target; optionally apply the same outer-fold endpoint projection",
+    "rows": [
+      {
+        "object": "baseline_residual",
+        "run_a": "rep1",
+        "run_b": "rep2",
+        "pearson": 0.03729513355061052,
+        "cosine": 0.021804746800987398,
+        "cross_energy": 7.329442890149764,
+        "energy_a": 82.34458709386388,
+        "energy_b": 1372.160073813542,
+        "cross_energy_per_pair": 0.019597440882753378
+      },
+      {
+        "object": "baseline_residual",
+        "run_a": "rep1",
+        "run_b": "rep3",
+        "pearson": 0.17747204774650202,
+        "cosine": 0.10979969210980736,
+        "cross_energy": 7.539182237684217,
+        "energy_a": 82.34458709386388,
+        "energy_b": 57.25470504483123,
+        "cross_energy_per_pair": 0.020158241277230527
+      },
+      {
+        "object": "baseline_residual",
+        "run_a": "rep2",
+        "run_b": "rep3",
+        "pearson": -0.011619063130355796,
+        "cosine": 0.01263411606556767,
+        "cross_energy": 3.5412194616459023,
+        "energy_a": 1372.160073813542,
+        "energy_b": 57.25470504483123,
+        "cross_energy_per_pair": 0.009468501234347332
+      },
+      {
+        "object": "same_fold_P_baseline_residual",
+        "run_a": "rep1",
+        "run_b": "rep2",
+        "pearson": 0.042659748600897836,
+        "cosine": 0.04265974860089781,
+        "cross_energy": 10.187527450014766,
+        "energy_a": 55.80355553336889,
+        "energy_b": 1021.9723111418838,
+        "cross_energy_per_pair": 0.027239378208595632
+      },
+      {
+        "object": "same_fold_P_baseline_residual",
+        "run_a": "rep1",
+        "run_b": "rep3",
+        "pearson": 0.07209347885734463,
+        "cosine": 0.07209347885734457,
+        "cross_energy": 3.2957920810888357,
+        "energy_a": 55.80355553336889,
+        "energy_b": 37.45120322592983,
+        "cross_energy_per_pair": 0.008812278291681378
+      },
+      {
+        "object": "same_fold_P_baseline_residual",
+        "run_a": "rep2",
+        "run_b": "rep3",
+        "pearson": -0.009065027985452109,
+        "cosine": -0.0090650279854521,
+        "cross_energy": -1.773460832919189,
+        "energy_a": 1021.9723111418838,
+        "energy_b": 37.45120322592983,
+        "cross_energy_per_pair": -0.0047418738848106655
+      }
+    ],
+    "limits": "Residual agreement may contain common baseline bias; targets share experimental design and pooled-training baseline. Low agreement does not identify its biological, technical, preprocessing, or measurement-depth cause. No run is excluded."
+  }
+}

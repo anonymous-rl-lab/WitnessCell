@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "Q4_prediction_max_abs": 0.0,
+  "Q4_theta_max_abs": 0.0,
+  "withheld_counts_poison_max_abs": 0.0,
+  "query_expression_and_halves_masked": true,
+  "seconds": 2.8141509350007254,
+  "scope": "KnownQ4 reproduction; no newQ1/Q2/Q3/Q5 outer scoring."
+}

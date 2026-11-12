@@ -1,0 +1,19 @@
+{
+  "started_unix": 1792224098.9372451,
+  "finished_unix": 1792224099.1610467,
+  "elapsed_seconds": 0.22380149099990376,
+  "analysis_freeze_sha256": "b3c03318ec8e295e8f891c3f9332a04754cb0484e4a85310972c0d5d6c02a3d2",
+  "point_results_previously_inspected": true,
+  "source_sha256": "ade002974a6f45c9248ee88117b50876d78bb9dad7660afa1a5f03ab6c5e38be",
+  "outputs_sha256": {
+    "analysis_freeze.json": "b3c03318ec8e295e8f891c3f9332a04754cb0484e4a85310972c0d5d6c02a3d2",
+    "bootstrap_draws.npz": "027ac92d1bcd60bdf45fa49eca91b83ee0f4984e8cb49b45f35a6f2e348a1bbe",
+    "contrasts.csv": "91555ab2a8215ba34d7555cc20108a20e0a2b4c8a75716244c2ef202be966e14",
+    "fraction_results.csv": "25689f6b8fea83f1fcaef5710200b371661e8b6b78e668e52a5e3e1ff8b5488d",
+    "seed_order_stability.csv": "f1d76e5b5e9362b726b3a4c2e80193a66cead946f0bd0253a90c769d5b021c59",
+    "seed_results.csv": "b86a3a1e09d33210a3eb02cdc8ee2e47d40eff99c46d66d40b64b5962f8f21d2",
+    "summary.json": "51e0f760fa70acb29f5781039769ff7c61e8511ddc4bc043eb34d4e03e6d1bf0",
+    "zero_witness_by_setting.csv": "58b33ddb42a8725b8ace32883adf878535aac2896a354420addb1db643956023",
+    "zero_witness_summary.csv": "59bc4866e326105537bfe4d2057d9f8fb17f5c9980f7789605c938e8267cc334"
+  }
+}

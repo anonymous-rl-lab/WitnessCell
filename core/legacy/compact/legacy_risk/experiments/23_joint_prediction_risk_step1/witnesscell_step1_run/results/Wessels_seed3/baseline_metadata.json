@@ -1,0 +1,64 @@
+{
+  "trainMean_definition": "measured/equal-condition-mean-completed endpoints; additive",
+  "training_single_count": 10,
+  "missing_endpoint_fallback": "equal_condition_mean_effect",
+  "endpoint_source": "core_fit.identity_head.predict; final corrected v14",
+  "saturation_selection_status": "selected_on_allowed_validation_combinations",
+  "saturation_validation_metric": "all_gene_mse; equal condition and gene weights",
+  "saturation_uses_final_corrected_endpoints": true,
+  "saturation_alpha_grid": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "saturation_validation_conditions": [
+    "GFI1+GSE1",
+    "GFI1+HDAC3",
+    "GFI1+RCOR1",
+    "MED13L+MED19",
+    "GFI1+MED24",
+    "MED19+MED22",
+    "MED16+MED19",
+    "MED14+MED19",
+    "DOT1L+GFI1",
+    "DOT1L+GATA2",
+    "DOT1L+MED24",
+    "EP300+INTS1",
+    "HDAC3+SMARCD1"
+  ],
+  "saturation_independently_selected": true,
+  "factorized_source": "caller-supplied official factorized_prediction",
+  "factorized_alpha": 0.0,
+  "factorized_is_independently_tuned_saturation": false,
+  "target_truth_accessed": false,
+  "saturation_alpha": 0.1,
+  "validation_scores": [
+    {
+      "alpha": 0.0,
+      "validation_all_gene_mse": 0.004914089459031444
+    },
+    {
+      "alpha": 0.02,
+      "validation_all_gene_mse": 0.004907801636604318
+    },
+    {
+      "alpha": 0.05,
+      "validation_all_gene_mse": 0.004900911008048881
+    },
+    {
+      "alpha": 0.1,
+      "validation_all_gene_mse": 0.0048950834455860565
+    },
+    {
+      "alpha": 0.2,
+      "validation_all_gene_mse": 0.0048993163367840745
+    },
+    {
+      "alpha": 0.5,
+      "validation_all_gene_mse": 0.004982925586397497
+    }
+  ]
+}

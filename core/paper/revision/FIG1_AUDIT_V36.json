@@ -1,0 +1,15 @@
+[
+  {
+    "figure": 1,
+    "stem": "Fig1_Method",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 8.5,
+    "png_dpi": 600,
+    "sources": [
+      "Main Methods and Supplementary Note 17",
+      "partner_control/METHOD_DERIVATION.md"
+    ],
+    "text_outside_page": []
+  }
+]

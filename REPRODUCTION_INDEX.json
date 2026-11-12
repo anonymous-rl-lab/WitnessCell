@@ -1,0 +1,214 @@
+{
+  "release": "31.0.0",
+  "paper": "v41",
+  "offline": true,
+  "default_biological_predictor_fits": 0,
+  "tasks": {
+    "paper_scores": {
+      "script": "core/tools/replay_paper.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Current double-only and full benchmark, original paired bootstrap, RNA rectangle/error budgets, all-task PairPick and baseline exclusion; scoring from frozen metrics and predictions.",
+      "timeout_seconds": 900
+    },
+    "theory_growth": {
+      "script": "core/tools/replay_theory_growth.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Finite-family target identities/lower bound and saved synthetic prediction scoring; all saved growth predictions independently projected and rescored.",
+      "timeout_seconds": 900
+    },
+    "core_scores": {
+      "script": "core/legacy/compact/legacy_core/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Original released-core score rows, ablations, aggregate ranks and frozen bootstrap. No competitor retraining.",
+      "timeout_seconds": 900
+    },
+    "risk_scores": {
+      "script": "core/legacy/compact/legacy_risk/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Original risk-selection and calibration score/moment replay. No new response fitting.",
+      "timeout_seconds": 900
+    },
+    "gse220974": {
+      "script": "core/legacy/experiments/34_gse220974_five_model_final/reproduce.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Closed five-model experiment; lossless residual/utility replay, all 420 choices and paired comparisons. Large external raw prediction/weight asset indexes retained.",
+      "timeout_seconds": 900
+    },
+    "component_control": {
+      "script": "core/tools/run_portable.py",
+      "args": [
+        "--task",
+        "control",
+        "--out",
+        "{out}"
+      ],
+      "scope": "All 55 functional configurations and 265 RNA candidate/fold rows, repeat and query-panel checks from archived predictions.",
+      "timeout_seconds": 900
+    },
+    "interfaces": {
+      "script": "core/tools/run_portable.py",
+      "args": [
+        "--task",
+        "interfaces",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Runnable RNA/growth/control interface checks; no biological predictor training.",
+      "timeout_seconds": 900
+    },
+    "han_transfer_history": {
+      "script": "tools/replay_han_history.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Historical Han compact-count reconstruction, saved frozen predictions, fresh target calibration and independent QR scoring; all original primary and expansion outcomes. No Torch required.",
+      "timeout_seconds": 900
+    },
+    "paper_tables": {
+      "script": "tools/replay_current.py",
+      "args": [
+        "--task",
+        "paper_tables",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Reaggregate 1,080 native Han scores, rebuild S44-S53 and validate current v41 manuscript identities and claims.",
+      "timeout_seconds": 1800
+    },
+    "diagnostics": {
+      "script": "tools/replay_current.py",
+      "args": [
+        "--task",
+        "diagnostics",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Training/query repeat correlations and outcome-informed fixed-direction reference optima from saved raw arrays; SI S52\u2013S53.",
+      "timeout_seconds": 1800
+    },
+    "han_attribution_history": {
+      "script": "tools/replay_current.py",
+      "args": [
+        "--task",
+        "attribution",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Historical 999 random directions and nonlinear references; refit comparator baselines/scalars, not source predictors; SI S51.",
+      "timeout_seconds": 1800
+    },
+    "figures": {
+      "script": "tools/replay_current.py",
+      "args": [
+        "--task",
+        "figures",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Redraw all five current main and seven supplementary figures, including v41 global-reference diagnostics; compare rendered vectors with the paper references.",
+      "timeout_seconds": 1800
+    },
+    "han_native": {
+      "script": "experiments/han_native/verification/compact_replay.py",
+      "args": [
+        "--root",
+        "{root}/experiments/han_native",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Reconstruct final and selected inner predictions from saved rank-one/spectral weights, re-estimate training-side coefficients and reproduce all 60 batches / 1,080 score rows. No predictor retraining.",
+      "timeout_seconds": 900,
+      "requires_han_cache": true
+    },
+    "han_frozen_inference_optional": {
+      "script": "core/tools/replay_han.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Optional historical SF12/V4 native Torch inference, input reconstruction and calibration. Requires requirements-torch-optional.txt; no predictor retraining.",
+      "timeout_seconds": 900,
+      "default": false
+    },
+    "coverage": {
+      "script": "tools/check_coverage.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Check current v41 titles and source/task mapping for all 57 SI tables and 12 figures.",
+      "timeout_seconds": 60
+    },
+    "global_reference": {
+      "script": "tools/replay_global.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "v39 seven-configuration saved-matrix replay, scalar/reference diagnostics, S54-S57, Han saved modes and bounded-model checks. No matrix refitting.",
+      "timeout_seconds": 900
+    },
+    "global_refit": {
+      "script": "tools/replay_global.py",
+      "args": [
+        "--out",
+        "{out}",
+        "--refit"
+      ],
+      "scope": "Actually refit all seven v39 matched-reference configurations using unchanged original internal folds and grids, then verify results.",
+      "timeout_seconds": 1800,
+      "default": false,
+      "refits_predictors": true
+    },
+    "paper_pdf": {
+      "script": "tools/render_paper.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Render canonical v41 main/Methods, SI and vector figure collections. Requires Pandoc/XeLaTeX and fonts.",
+      "timeout_seconds": 900,
+      "default": false
+    },
+    "reference_sensitivity": {
+      "script": "tools/replay_reference.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Current S54D-F and S57B: common-denominator gains, four saturation-reference configurations and full Han direction decomposition; nine CSV tables and independent least-squares checks. Saved predictor replay.",
+      "timeout_seconds": 1200,
+      "requires_han_cache": true
+    },
+    "saturation_refit": {
+      "script": "tools/replay_reference.py",
+      "args": [
+        "--out",
+        "{out}",
+        "--refit"
+      ],
+      "scope": "Optional exact refit of four saturation-reference configurations using frozen folds and grids; then the same current sensitivity checks.",
+      "timeout_seconds": 2400,
+      "requires_han_cache": true,
+      "default": false,
+      "refits_predictors": true
+    }
+  },
+  "language_revision": "R1"
+}

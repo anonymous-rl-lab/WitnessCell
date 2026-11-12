@@ -1,0 +1,15 @@
+claim,manuscript_location,source
+Matched repeatability,SI S53 and Supplementary Fig6,results/FUNCTIONAL_REPEATABILITY.csv
+Fixed direction oracle,SI S54 and Supplementary Fig6,results/FUNCTIONAL_ORACLES.csv
+Han exact oracle,SI S55 and Supplementary Fig6,results/HAN_ORACLE_SUMMARY.csv
+Random direction comparison,SI S56 and Supplementary Fig7,results/RANDOM_SUMMARY.csv
+Complete random distributions,Supplementary Fig7,results/RANDOM_POOLED.csv
+Nonlinear baseline gains,SI S57 and Supplementary Fig7,results/BASELINE_COMPARISON.csv
+Frozen direction after nonlinear fitting,SI S58 and Fig4h,results/POOLED_SCORES.csv
+All six original Han configurations,Fig4g,inputs/figures/revision/han_calibration/POOLED_SCORES.csv
+Retained K562 Jurkat gains,Fig4a-b,inputs/figures/evidence/source_data/publication/Horlbeck_figure_metrics.csv
+Retained Jurkat corners,Fig4c-d,inputs/figures/revision/JURKAT_FOUR_CORNERS_V28.csv
+Retained Shen control,Fig4e-f,inputs/figures/partner_control/results/FOUR_ARM_BY_CONDITION.csv
+Query isolation and independent arithmetic,SI Note23.6,results/VALIDATION.json
+Native source frozen inference,SI Note23.6,results/RUN_RECORD.json
+Prepared replay,SI Note23.6,results/PREPARED_RUN_RECORD.json

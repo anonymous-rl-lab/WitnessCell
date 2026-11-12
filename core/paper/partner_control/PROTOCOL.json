@@ -1,0 +1,18 @@
+{
+  "version": "v32",
+  "date_utc": "2026-11-08",
+  "status": "Retrospective extension; historical results already visible",
+  "eligible": "All 55 archived selected functional rank-one configurations with matching inner and outer arrays",
+  "primary_policies": [
+    "baseline",
+    "original",
+    "whole_shrink",
+    "partner_only"
+  ],
+  "alpha": "clip(sum inner projected residual * correction / sum correction squared, 0,1); zero correction -> alpha 0",
+  "repeat_check": "alpha from pooled repeats or each single repeat; all evaluated on both held-out repeats; fixed underlying fits",
+  "panel_check": "canonical unordered pair IDs; full panel, alternating identity-sorted halves, alternating thirds, and singleton limit; same alpha and base arrays; no outcome-based partition",
+  "RNA": "Separate supplementary matched-candidate analysis only when paired arrays available; original rectangle main result unchanged",
+  "scientific_predictor_retraining": false,
+  "source_sha256": "671691a649992544c5a0078a2aeb68f5e89c40b0322b85ea349fed04ed1f5860"
+}

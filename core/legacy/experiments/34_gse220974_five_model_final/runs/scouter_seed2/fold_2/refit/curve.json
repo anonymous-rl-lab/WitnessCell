@@ -1,0 +1,22 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.5441499773472075,
+    "steps": 63,
+    "seconds": 53.846007918000396,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0009000000000000001
+  },
+  {
+    "epoch": 2,
+    "loss": 0.26940855218304527,
+    "steps": 63,
+    "seconds": 56.17258354299702,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0008100000000000001
+  }
+]

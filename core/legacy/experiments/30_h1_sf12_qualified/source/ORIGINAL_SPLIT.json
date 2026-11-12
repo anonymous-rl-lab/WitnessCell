@@ -1,0 +1,1776 @@
+{
+  "frozen_utc": "2026-10-26T00:42:16.269076+00:00",
+  "scope": "new count/topology-selected DEVELOPMENT holdout within historical allowed21, not independent confirmation",
+  "expression_read_for_split": false,
+  "qualification_rule": {
+    "minimum_cells_each_target7_library": 10,
+    "minimum_precision_proxy": 100,
+    "same_rule_for_both_endpoint_singles": true
+  },
+  "primary_rank_rule": "Among all qualified rectangles with >=2 qualified cases per query endpoint after removal, maximize minimum query Npi, then median, then lexical pairs.",
+  "nested_rule": "Enumerate qualified rectangles in primary training graph; require >=1 qualified case per endpoint after removal; rank remaining min-degree, then minimumNpi,medianNpi,lexical.",
+  "all_allowed_pairs": [
+    "CDX1+KLF4",
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+KLF4",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FERD3L+NR5A2",
+    "FERD3L+PAX5",
+    "FERD3L+PTF1A",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PAX5",
+    "FLI1+PTF1A",
+    "HNF4A+NR5A2",
+    "HNF4A+PTF1A",
+    "KLF4+PTF1A",
+    "MSGN1+NR5A2",
+    "MSGN1+PTF1A",
+    "NHLH1+PAX5"
+  ],
+  "all_qualified_cases": [
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FERD3L+NR5A2",
+    "FERD3L+PTF1A",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PTF1A",
+    "HNF4A+PTF1A",
+    "MSGN1+NR5A2",
+    "MSGN1+PTF1A"
+  ],
+  "primary_train_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    20
+  ],
+  "primary_query_ids": [
+    7,
+    9,
+    18,
+    19
+  ],
+  "primary_train_pairs": [
+    "CDX1+KLF4",
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+KLF4",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FERD3L+PAX5",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PAX5",
+    "FLI1+PTF1A",
+    "HNF4A+NR5A2",
+    "HNF4A+PTF1A",
+    "KLF4+PTF1A",
+    "NHLH1+PAX5"
+  ],
+  "primary_query_pairs": [
+    "FERD3L+NR5A2",
+    "FERD3L+PTF1A",
+    "MSGN1+NR5A2",
+    "MSGN1+PTF1A"
+  ],
+  "primary_contrast": [
+    0.5,
+    -0.5,
+    -0.5,
+    0.5
+  ],
+  "primary_qualified_cases": [
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PTF1A",
+    "HNF4A+PTF1A"
+  ],
+  "primary_query_paths": [
+    {
+      "query": "FERD3L+NR5A2",
+      "directions": [
+        {
+          "anchor": "FERD3L",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "FERD3L+MSGN1",
+              "old_partner": "MSGN1",
+              "new_partner": "NR5A2",
+              "reference_anchors": [
+                "FLI1"
+              ],
+              "reference_pairs": [
+                [
+                  "FLI1+MSGN1",
+                  "FLI1+NR5A2"
+                ]
+              ]
+            },
+            {
+              "support_pair": "FERD3L+NHLH1",
+              "old_partner": "NHLH1",
+              "new_partner": "NR5A2",
+              "reference_anchors": [
+                "CDX1",
+                "FLI1"
+              ],
+              "reference_pairs": [
+                [
+                  "CDX1+NHLH1",
+                  "CDX1+NR5A2"
+                ],
+                [
+                  "FLI1+NHLH1",
+                  "FLI1+NR5A2"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "anchor": "NR5A2",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "CDX1+NR5A2",
+              "old_partner": "CDX1",
+              "new_partner": "FERD3L",
+              "reference_anchors": [
+                "NHLH1"
+              ],
+              "reference_pairs": [
+                [
+                  "CDX1+NHLH1",
+                  "FERD3L+NHLH1"
+                ]
+              ]
+            },
+            {
+              "support_pair": "FLI1+NR5A2",
+              "old_partner": "FLI1",
+              "new_partner": "FERD3L",
+              "reference_anchors": [
+                "MSGN1",
+                "NHLH1"
+              ],
+              "reference_pairs": [
+                [
+                  "FLI1+MSGN1",
+                  "FERD3L+MSGN1"
+                ],
+                [
+                  "FLI1+NHLH1",
+                  "FERD3L+NHLH1"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "both_anchors_have_source": true
+    },
+    {
+      "query": "FERD3L+PTF1A",
+      "directions": [
+        {
+          "anchor": "FERD3L",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "FERD3L+MSGN1",
+              "old_partner": "MSGN1",
+              "new_partner": "PTF1A",
+              "reference_anchors": [
+                "FLI1"
+              ],
+              "reference_pairs": [
+                [
+                  "FLI1+MSGN1",
+                  "FLI1+PTF1A"
+                ]
+              ]
+            },
+            {
+              "support_pair": "FERD3L+NHLH1",
+              "old_partner": "NHLH1",
+              "new_partner": "PTF1A",
+              "reference_anchors": [
+                "CDX1",
+                "FLI1"
+              ],
+              "reference_pairs": [
+                [
+                  "CDX1+NHLH1",
+                  "CDX1+PTF1A"
+                ],
+                [
+                  "FLI1+NHLH1",
+                  "FLI1+PTF1A"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "anchor": "PTF1A",
+          "case_count": 3,
+          "cases": [
+            {
+              "support_pair": "CDX1+PTF1A",
+              "old_partner": "CDX1",
+              "new_partner": "FERD3L",
+              "reference_anchors": [
+                "NHLH1"
+              ],
+              "reference_pairs": [
+                [
+                  "CDX1+NHLH1",
+                  "FERD3L+NHLH1"
+                ]
+              ]
+            },
+            {
+              "support_pair": "FLI1+PTF1A",
+              "old_partner": "FLI1",
+              "new_partner": "FERD3L",
+              "reference_anchors": [
+                "MSGN1",
+                "NHLH1"
+              ],
+              "reference_pairs": [
+                [
+                  "FLI1+MSGN1",
+                  "FERD3L+MSGN1"
+                ],
+                [
+                  "FLI1+NHLH1",
+                  "FERD3L+NHLH1"
+                ]
+              ]
+            },
+            {
+              "support_pair": "HNF4A+PTF1A",
+              "old_partner": "HNF4A",
+              "new_partner": "FERD3L",
+              "reference_anchors": [],
+              "reference_pairs": []
+            }
+          ]
+        }
+      ],
+      "both_anchors_have_source": true
+    },
+    {
+      "query": "MSGN1+NR5A2",
+      "directions": [
+        {
+          "anchor": "MSGN1",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "FERD3L+MSGN1",
+              "old_partner": "FERD3L",
+              "new_partner": "NR5A2",
+              "reference_anchors": [],
+              "reference_pairs": []
+            },
+            {
+              "support_pair": "FLI1+MSGN1",
+              "old_partner": "FLI1",
+              "new_partner": "NR5A2",
+              "reference_anchors": [],
+              "reference_pairs": []
+            }
+          ]
+        },
+        {
+          "anchor": "NR5A2",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "CDX1+NR5A2",
+              "old_partner": "CDX1",
+              "new_partner": "MSGN1",
+              "reference_anchors": [],
+              "reference_pairs": []
+            },
+            {
+              "support_pair": "FLI1+NR5A2",
+              "old_partner": "FLI1",
+              "new_partner": "MSGN1",
+              "reference_anchors": [],
+              "reference_pairs": []
+            }
+          ]
+        }
+      ],
+      "both_anchors_have_source": true
+    },
+    {
+      "query": "MSGN1+PTF1A",
+      "directions": [
+        {
+          "anchor": "MSGN1",
+          "case_count": 2,
+          "cases": [
+            {
+              "support_pair": "FERD3L+MSGN1",
+              "old_partner": "FERD3L",
+              "new_partner": "PTF1A",
+              "reference_anchors": [],
+              "reference_pairs": []
+            },
+            {
+              "support_pair": "FLI1+MSGN1",
+              "old_partner": "FLI1",
+              "new_partner": "PTF1A",
+              "reference_anchors": [],
+              "reference_pairs": []
+            }
+          ]
+        },
+        {
+          "anchor": "PTF1A",
+          "case_count": 3,
+          "cases": [
+            {
+              "support_pair": "CDX1+PTF1A",
+              "old_partner": "CDX1",
+              "new_partner": "MSGN1",
+              "reference_anchors": [],
+              "reference_pairs": []
+            },
+            {
+              "support_pair": "FLI1+PTF1A",
+              "old_partner": "FLI1",
+              "new_partner": "MSGN1",
+              "reference_anchors": [],
+              "reference_pairs": []
+            },
+            {
+              "support_pair": "HNF4A+PTF1A",
+              "old_partner": "HNF4A",
+              "new_partner": "MSGN1",
+              "reference_anchors": [],
+              "reference_pairs": []
+            }
+          ]
+        }
+      ],
+      "both_anchors_have_source": true
+    }
+  ],
+  "all_primary_candidates": [
+    {
+      "query_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+NR5A2",
+        "FERD3L+NHLH1",
+        "FERD3L+NR5A2"
+      ],
+      "query_ids": [
+        1,
+        2,
+        6,
+        7
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 196.60364741275936,
+      "median_query_precision_proxy": 882.8990590982112,
+      "total_cells": [
+        520,
+        271,
+        5274,
+        2618
+      ],
+      "precision_proxies": [
+        284.77915128776215,
+        196.60364741275936,
+        3543.978184308948,
+        1481.0189669086603
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+NR5A2",
+        "FLI1+NHLH1",
+        "FLI1+NR5A2"
+      ],
+      "query_ids": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 240.69139935026075,
+      "total_cells": [
+        520,
+        271,
+        501,
+        247
+      ],
+      "precision_proxies": [
+        284.77915128776215,
+        196.60364741275936,
+        382.22860000828206,
+        183.4533315879042
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+PTF1A",
+        "FERD3L+NHLH1",
+        "FERD3L+PTF1A"
+      ],
+      "query_ids": [
+        1,
+        3,
+        6,
+        9
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 284.77915128776215,
+      "median_query_precision_proxy": 2436.732353317835,
+      "total_cells": [
+        520,
+        2154,
+        5274,
+        22505
+      ],
+      "precision_proxies": [
+        284.77915128776215,
+        1329.486522326722,
+        3543.978184308948,
+        17396.028011783645
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+PTF1A",
+        "FLI1+NHLH1",
+        "FLI1+PTF1A"
+      ],
+      "query_ids": [
+        1,
+        3,
+        11,
+        14
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 284.77915128776215,
+      "median_query_precision_proxy": 768.7828918825476,
+      "total_cells": [
+        520,
+        2154,
+        501,
+        1519
+      ],
+      "precision_proxies": [
+        284.77915128776215,
+        1329.486522326722,
+        382.22860000828206,
+        1155.3371837568131
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NR5A2",
+        "CDX1+PTF1A",
+        "FERD3L+NR5A2",
+        "FERD3L+PTF1A"
+      ],
+      "query_ids": [
+        2,
+        3,
+        7,
+        9
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 196.60364741275936,
+      "median_query_precision_proxy": 1405.2527446176912,
+      "total_cells": [
+        271,
+        2154,
+        2618,
+        22505
+      ],
+      "precision_proxies": [
+        196.60364741275936,
+        1329.486522326722,
+        1481.0189669086603,
+        17396.028011783645
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NR5A2",
+        "CDX1+PTF1A",
+        "FLI1+NR5A2",
+        "FLI1+PTF1A"
+      ],
+      "query_ids": [
+        2,
+        3,
+        12,
+        14
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 675.9704155847862,
+      "total_cells": [
+        271,
+        2154,
+        247,
+        1519
+      ],
+      "precision_proxies": [
+        196.60364741275936,
+        1329.486522326722,
+        183.4533315879042,
+        1155.3371837568131
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "CDX1+NR5A2",
+        "CDX1+PTF1A",
+        "MSGN1+NR5A2",
+        "MSGN1+PTF1A"
+      ],
+      "query_ids": [
+        2,
+        3,
+        18,
+        19
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 196.60364741275936,
+      "median_query_precision_proxy": 1060.2473712871388,
+      "total_cells": [
+        271,
+        2154,
+        1041,
+        12351
+      ],
+      "precision_proxies": [
+        196.60364741275936,
+        1329.486522326722,
+        791.0082202475556,
+        6387.10057071836
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "FERD3L+MSGN1",
+        "FERD3L+NHLH1",
+        "FLI1+MSGN1",
+        "FLI1+NHLH1"
+      ],
+      "query_ids": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 382.22860000828206,
+      "median_query_precision_proxy": 2052.205540572925,
+      "total_cells": [
+        19163,
+        5274,
+        776,
+        501
+      ],
+      "precision_proxies": [
+        12911.021696752006,
+        3543.978184308948,
+        560.4328968369027,
+        382.22860000828206
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "FERD3L+MSGN1",
+        "FERD3L+NR5A2",
+        "FLI1+MSGN1",
+        "FLI1+NR5A2"
+      ],
+      "query_ids": [
+        5,
+        7,
+        10,
+        12
+      ],
+      "minimum_qualified_degree_after_holdout": 2,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 1020.7259318727815,
+      "total_cells": [
+        19163,
+        2618,
+        776,
+        247
+      ],
+      "precision_proxies": [
+        12911.021696752006,
+        1481.0189669086603,
+        560.4328968369027,
+        183.4533315879042
+      ],
+      "eligible": true
+    },
+    {
+      "query_pairs": [
+        "FERD3L+MSGN1",
+        "FERD3L+PTF1A",
+        "FLI1+MSGN1",
+        "FLI1+PTF1A"
+      ],
+      "query_ids": [
+        5,
+        9,
+        10,
+        14
+      ],
+      "minimum_qualified_degree_after_holdout": 2,
+      "minimum_query_precision_proxy": 560.4328968369027,
+      "median_query_precision_proxy": 7033.17944025441,
+      "total_cells": [
+        19163,
+        22505,
+        776,
+        1519
+      ],
+      "precision_proxies": [
+        12911.021696752006,
+        17396.028011783645,
+        560.4328968369027,
+        1155.3371837568131
+      ],
+      "eligible": true
+    },
+    {
+      "query_pairs": [
+        "FERD3L+NHLH1",
+        "FERD3L+NR5A2",
+        "FLI1+NHLH1",
+        "FLI1+NR5A2"
+      ],
+      "query_ids": [
+        6,
+        7,
+        11,
+        12
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 931.6237834584712,
+      "total_cells": [
+        5274,
+        2618,
+        501,
+        247
+      ],
+      "precision_proxies": [
+        3543.978184308948,
+        1481.0189669086603,
+        382.22860000828206,
+        183.4533315879042
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "FERD3L+NHLH1",
+        "FERD3L+PTF1A",
+        "FLI1+NHLH1",
+        "FLI1+PTF1A"
+      ],
+      "query_ids": [
+        6,
+        9,
+        11,
+        14
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 382.22860000828206,
+      "median_query_precision_proxy": 2349.6576840328808,
+      "total_cells": [
+        5274,
+        22505,
+        501,
+        1519
+      ],
+      "precision_proxies": [
+        3543.978184308948,
+        17396.028011783645,
+        382.22860000828206,
+        1155.3371837568131
+      ],
+      "eligible": false
+    },
+    {
+      "query_pairs": [
+        "FERD3L+NR5A2",
+        "FERD3L+PTF1A",
+        "FLI1+NR5A2",
+        "FLI1+PTF1A"
+      ],
+      "query_ids": [
+        7,
+        9,
+        12,
+        14
+      ],
+      "minimum_qualified_degree_after_holdout": 2,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 1318.1780753327366,
+      "total_cells": [
+        2618,
+        22505,
+        247,
+        1519
+      ],
+      "precision_proxies": [
+        1481.0189669086603,
+        17396.028011783645,
+        183.4533315879042,
+        1155.3371837568131
+      ],
+      "eligible": true
+    },
+    {
+      "query_pairs": [
+        "FERD3L+NR5A2",
+        "FERD3L+PTF1A",
+        "MSGN1+NR5A2",
+        "MSGN1+PTF1A"
+      ],
+      "query_ids": [
+        7,
+        9,
+        18,
+        19
+      ],
+      "minimum_qualified_degree_after_holdout": 2,
+      "minimum_query_precision_proxy": 791.0082202475556,
+      "median_query_precision_proxy": 3934.0597688135103,
+      "total_cells": [
+        2618,
+        22505,
+        1041,
+        12351
+      ],
+      "precision_proxies": [
+        1481.0189669086603,
+        17396.028011783645,
+        791.0082202475556,
+        6387.10057071836
+      ],
+      "eligible": true
+    },
+    {
+      "query_pairs": [
+        "FLI1+NR5A2",
+        "FLI1+PTF1A",
+        "MSGN1+NR5A2",
+        "MSGN1+PTF1A"
+      ],
+      "query_ids": [
+        12,
+        14,
+        18,
+        19
+      ],
+      "minimum_qualified_degree_after_holdout": 2,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 973.1727020021845,
+      "total_cells": [
+        247,
+        1519,
+        1041,
+        12351
+      ],
+      "precision_proxies": [
+        183.4533315879042,
+        1155.3371837568131,
+        791.0082202475556,
+        6387.10057071836
+      ],
+      "eligible": true
+    }
+  ],
+  "chosen_candidate": {
+    "query_pairs": [
+      "FERD3L+NR5A2",
+      "FERD3L+PTF1A",
+      "MSGN1+NR5A2",
+      "MSGN1+PTF1A"
+    ],
+    "query_ids": [
+      7,
+      9,
+      18,
+      19
+    ],
+    "minimum_qualified_degree_after_holdout": 2,
+    "minimum_query_precision_proxy": 791.0082202475556,
+    "median_query_precision_proxy": 3934.0597688135103,
+    "total_cells": [
+      2618,
+      22505,
+      1041,
+      12351
+    ],
+    "precision_proxies": [
+      1481.0189669086603,
+      17396.028011783645,
+      791.0082202475556,
+      6387.10057071836
+    ],
+    "eligible": true
+  },
+  "all_nested_candidates": [
+    {
+      "val_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+NR5A2",
+        "FLI1+NHLH1",
+        "FLI1+NR5A2"
+      ],
+      "val_ids": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "train_ids": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "minimum_qualified_degree_after_holdout": 0,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 240.69139935026075,
+      "eligible": false,
+      "query_paths": [
+        {
+          "query": "CDX1+NHLH1",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "CDX1+NR5A2",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NR5A2",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "FLI1+NHLH1",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [
+                    "FERD3L"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FERD3L+NHLH1"
+                    ]
+                  ]
+                },
+                {
+                  "support_pair": "FLI1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [
+                    "MSGN1"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FLI1+MSGN1"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+NR5A2",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NR5A2",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        }
+      ]
+    },
+    {
+      "val_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+PTF1A",
+        "FLI1+NHLH1",
+        "FLI1+PTF1A"
+      ],
+      "val_ids": [
+        1,
+        3,
+        11,
+        14
+      ],
+      "train_ids": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 284.77915128776215,
+      "median_query_precision_proxy": 768.7828918825476,
+      "eligible": true,
+      "query_paths": [
+        {
+          "query": "CDX1+NHLH1",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "CDX1+PTF1A",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+NHLH1",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [
+                    "FERD3L"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FERD3L+NHLH1"
+                    ]
+                  ]
+                },
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [
+                    "MSGN1"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FLI1+MSGN1"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+PTF1A",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        }
+      ]
+    },
+    {
+      "val_pairs": [
+        "CDX1+NR5A2",
+        "CDX1+PTF1A",
+        "FLI1+NR5A2",
+        "FLI1+PTF1A"
+      ],
+      "val_ids": [
+        2,
+        3,
+        12,
+        14
+      ],
+      "train_ids": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "minimum_qualified_degree_after_holdout": 0,
+      "minimum_query_precision_proxy": 183.4533315879042,
+      "median_query_precision_proxy": 675.9704155847862,
+      "eligible": false,
+      "query_paths": [
+        {
+          "query": "CDX1+NR5A2",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NHLH1",
+                  "old_partner": "NHLH1",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NR5A2",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "CDX1+PTF1A",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NHLH1",
+                  "old_partner": "NHLH1",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+NR5A2",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+NHLH1",
+                  "old_partner": "NHLH1",
+                  "new_partner": "NR5A2",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NR5A2",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "FLI1+PTF1A",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+NHLH1",
+                  "old_partner": "NHLH1",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        }
+      ]
+    },
+    {
+      "val_pairs": [
+        "FERD3L+MSGN1",
+        "FERD3L+NHLH1",
+        "FLI1+MSGN1",
+        "FLI1+NHLH1"
+      ],
+      "val_ids": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "minimum_qualified_degree_after_holdout": 0,
+      "minimum_query_precision_proxy": 382.22860000828206,
+      "median_query_precision_proxy": 2052.205540572925,
+      "eligible": false,
+      "query_paths": [
+        {
+          "query": "FERD3L+MSGN1",
+          "directions": [
+            {
+              "anchor": "FERD3L",
+              "case_count": 0,
+              "cases": []
+            },
+            {
+              "anchor": "MSGN1",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "FERD3L+NHLH1",
+          "directions": [
+            {
+              "anchor": "FERD3L",
+              "case_count": 0,
+              "cases": []
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NHLH1",
+                  "old_partner": "CDX1",
+                  "new_partner": "FERD3L",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "FLI1+MSGN1",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "MSGN1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "MSGN1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "MSGN1",
+              "case_count": 0,
+              "cases": []
+            }
+          ],
+          "both_anchors_have_source": false
+        },
+        {
+          "query": "FLI1+NHLH1",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [
+                    "CDX1"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "CDX1+NR5A2",
+                      "CDX1+NHLH1"
+                    ]
+                  ]
+                },
+                {
+                  "support_pair": "FLI1+PTF1A",
+                  "old_partner": "PTF1A",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [
+                    "CDX1"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "CDX1+PTF1A",
+                      "CDX1+NHLH1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NHLH1",
+                  "old_partner": "CDX1",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [
+                    "NR5A2",
+                    "PTF1A"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "CDX1+NR5A2",
+                      "FLI1+NR5A2"
+                    ],
+                    [
+                      "CDX1+PTF1A",
+                      "FLI1+PTF1A"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        }
+      ]
+    }
+  ],
+  "eligible_nested_folds": [
+    {
+      "val_pairs": [
+        "CDX1+NHLH1",
+        "CDX1+PTF1A",
+        "FLI1+NHLH1",
+        "FLI1+PTF1A"
+      ],
+      "val_ids": [
+        1,
+        3,
+        11,
+        14
+      ],
+      "train_ids": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "minimum_qualified_degree_after_holdout": 1,
+      "minimum_query_precision_proxy": 284.77915128776215,
+      "median_query_precision_proxy": 768.7828918825476,
+      "eligible": true,
+      "query_paths": [
+        {
+          "query": "CDX1+NHLH1",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "CDX1+PTF1A",
+          "directions": [
+            {
+              "anchor": "CDX1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "CDX1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "CDX1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+NHLH1",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [
+                    "FERD3L"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FERD3L+NHLH1"
+                    ]
+                  ]
+                },
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "NHLH1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "NHLH1",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "FERD3L+NHLH1",
+                  "old_partner": "FERD3L",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [
+                    "MSGN1"
+                  ],
+                  "reference_pairs": [
+                    [
+                      "FERD3L+MSGN1",
+                      "FLI1+MSGN1"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        },
+        {
+          "query": "FLI1+PTF1A",
+          "directions": [
+            {
+              "anchor": "FLI1",
+              "case_count": 2,
+              "cases": [
+                {
+                  "support_pair": "FLI1+MSGN1",
+                  "old_partner": "MSGN1",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                },
+                {
+                  "support_pair": "FLI1+NR5A2",
+                  "old_partner": "NR5A2",
+                  "new_partner": "PTF1A",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            },
+            {
+              "anchor": "PTF1A",
+              "case_count": 1,
+              "cases": [
+                {
+                  "support_pair": "HNF4A+PTF1A",
+                  "old_partner": "HNF4A",
+                  "new_partner": "FLI1",
+                  "reference_anchors": [],
+                  "reference_pairs": []
+                }
+              ]
+            }
+          ],
+          "both_anchors_have_source": true
+        }
+      ]
+    }
+  ],
+  "insufficient_nested_replication": true,
+  "input_hashes": {
+    "DATA_QUALIFICATION.json": "9bb92e5cf5b14c5d217c7de1b9210346ed3cc9fd6815bebc6ecb0a844f02190a",
+    "TRAINING_BATCH_ONLY.npz": "6901f8aa807ccb42de387fce2ba62ac9f40fba1ba918bab3e040edcb0e62767e",
+    "freeze_primary_split.py": "5f9c7fb23b2e5c435ebea6f421bd4f633e3573818821df4ca90610497e6379a3"
+  }
+}

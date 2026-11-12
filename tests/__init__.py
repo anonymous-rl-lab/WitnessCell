@@ -1,1 +1,0 @@
-"""WitnessCell test suite."""

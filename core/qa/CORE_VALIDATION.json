@@ -1,0 +1,568 @@
+{
+  "scope": "Exact score-row replay, not raw-cell preprocessing or model refitting",
+  "source_integrity": {
+    "status": "PASS",
+    "source_exact_files": 92
+  },
+  "ablations": {
+    "endpoint": {
+      "rows": 9,
+      "max_abs_difference": 2.220446049250313e-16,
+      "columns": {
+        "condition_seed_units": 0.0,
+        "all_gene_mse_v1": 0.0,
+        "all_gene_mse_v2": 0.0,
+        "relative_all_gene_mse_gain": 2.220446049250313e-16,
+        "top100_mse_v1": 0.0,
+        "top100_mse_v2": 0.0,
+        "relative_top100_mse_gain": 2.220446049250313e-16,
+        "top100_pcc_v1": 0.0,
+        "top100_pcc_v2": 0.0,
+        "top100_pcc_delta": 0.0
+      },
+      "condition_seed_units": 654,
+      "subgroups": {
+        "combo_seen1": 374,
+        "combo_seen2": 123,
+        "unseen_single": 114,
+        "combo_seen0": 43
+      },
+      "all": {
+        "scope": "all",
+        "condition_seed_units": 654,
+        "all_gene_mse_v1": 0.003258736059840293,
+        "all_gene_mse_v2": 0.0030981962222757513,
+        "relative_all_gene_mse_gain": 0.04926444934985297,
+        "top100_mse_v1": 0.05194849019384439,
+        "top100_mse_v2": 0.047434073764530384,
+        "relative_top100_mse_gain": 0.08690178314073393,
+        "top100_pcc_v1": 0.7053412839192322,
+        "top100_pcc_v2": 0.7872202564165914,
+        "top100_pcc_delta": 0.08187897249735926
+      }
+    },
+    "dual_head": {
+      "rows": 9,
+      "max_abs_difference": 2.220446049250313e-16,
+      "columns": {
+        "condition_seed_units": 0.0,
+        "all_gene_mse_v1": 0.0,
+        "all_gene_mse_v2": 0.0,
+        "relative_all_gene_mse_gain": 1.1102230246251565e-16,
+        "top100_mse_v1": 0.0,
+        "top100_mse_v2": 0.0,
+        "relative_top100_mse_gain": 2.220446049250313e-16,
+        "top100_pcc_v1": 0.0,
+        "top100_pcc_v2": 0.0,
+        "top100_pcc_delta": 0.0
+      },
+      "condition_seed_units": 654,
+      "subgroups": {
+        "combo_seen1": 374,
+        "combo_seen2": 123,
+        "unseen_single": 114,
+        "combo_seen0": 43
+      },
+      "all": {
+        "scope": "all",
+        "condition_seed_units": 654,
+        "all_gene_mse_v1": 0.003258736059840293,
+        "all_gene_mse_v2": 0.003094006287189992,
+        "relative_all_gene_mse_gain": 0.05055020401326216,
+        "top100_mse_v1": 0.05194849019384439,
+        "top100_mse_v2": 0.04719090342131136,
+        "relative_top100_mse_gain": 0.09158277275778803,
+        "top100_pcc_v1": 0.7053412839192322,
+        "top100_pcc_v2": 0.7876073645898714,
+        "top100_pcc_delta": 0.08226608067063927
+      }
+    },
+    "released_vs_prior": {
+      "rows": 9,
+      "max_abs_difference": 2.220446049250313e-16,
+      "columns": {
+        "condition_seed_units": 0.0,
+        "all_gene_mse_v13": 0.0,
+        "all_gene_mse_v14": 0.0,
+        "relative_all_gene_mse_gain": 2.220446049250313e-16,
+        "top100_mse_v13": 0.0,
+        "top100_mse_v14": 0.0,
+        "relative_top100_mse_gain": 2.220446049250313e-16,
+        "top100_pcc_v13": 0.0,
+        "top100_pcc_v14": 0.0,
+        "top100_pcc_delta": 0.0
+      },
+      "condition_seed_units": 654,
+      "subgroups": {
+        "combo_seen1": 374,
+        "combo_seen2": 123,
+        "unseen_single": 114,
+        "combo_seen0": 43
+      },
+      "all": {
+        "scope": "all",
+        "condition_seed_units": 654,
+        "all_gene_mse_v13": 0.003094006287189992,
+        "all_gene_mse_v14": 0.0030906671822340612,
+        "relative_all_gene_mse_gain": 0.001079217249737252,
+        "top100_mse_v13": 0.04719090342131136,
+        "top100_mse_v14": 0.047047189158502874,
+        "relative_top100_mse_gain": 0.0030453806218845303,
+        "top100_pcc_v13": 0.7876073645898714,
+        "top100_pcc_v14": 0.7889080630698474,
+        "top100_pcc_delta": 0.0013006984799760163
+      }
+    },
+    "released_vs_backbone": {
+      "rows": 9,
+      "max_abs_difference": 3.3306690738754696e-16,
+      "columns": {
+        "condition_seed_units": 0.0,
+        "all_gene_mse_v1": 0.0,
+        "all_gene_mse_v2": 0.0,
+        "relative_all_gene_mse_gain": 2.220446049250313e-16,
+        "top100_mse_v1": 0.0,
+        "top100_mse_v2": 0.0,
+        "relative_top100_mse_gain": 3.3306690738754696e-16,
+        "top100_pcc_v1": 0.0,
+        "top100_pcc_v2": 0.0,
+        "top100_pcc_delta": 0.0
+      },
+      "condition_seed_units": 654,
+      "subgroups": {
+        "combo_seen1": 374,
+        "combo_seen2": 123,
+        "unseen_single": 114,
+        "combo_seen0": 43
+      },
+      "all": {
+        "scope": "all",
+        "condition_seed_units": 654,
+        "all_gene_mse_v1": 0.003258736059840293,
+        "all_gene_mse_v2": 0.0030906671822340612,
+        "relative_all_gene_mse_gain": 0.051574866610850534,
+        "top100_mse_v1": 0.05194849019384439,
+        "top100_mse_v2": 0.047047189158502874,
+        "relative_top100_mse_gain": 0.09434924897821761,
+        "top100_pcc_v1": 0.7053412839192322,
+        "top100_pcc_v2": 0.7889080630698474,
+        "top100_pcc_delta": 0.0835667791506153
+      }
+    }
+  },
+  "released_raw_metric_rows": {
+    "rows": 6540,
+    "max_abs_difference": 0.0,
+    "columns": {
+      "performance": 0.0
+    }
+  },
+  "official": {
+    "endpoint": {
+      "per_operation": {
+        "rows": 20928,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "edistance": 0.0,
+          "mse": 0.0,
+          "sym_kldiv": 0.0,
+          "wasserstein": 0.0,
+          "cor": 0.0,
+          "common_degs": 0.0,
+          "edistance_score": 0.0,
+          "mse_score": 0.0,
+          "sym_score": 0.0,
+          "Rank_pcc": 0.0,
+          "Rank_edistance": 0.0,
+          "Rank_mse": 0.0,
+          "Rank_sym": 0.0,
+          "DEG_score": 0.0,
+          "was_score": 0.0,
+          "Rank_deg": 0.0,
+          "Rank_was": 0.0,
+          "ac_score": 0.0,
+          "ac_rank": 0.0,
+          "Rank": 0.0
+        }
+      },
+      "dataset_panel_leaderboard": {
+        "rows": 128,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operations": 0.0,
+          "dataset_panel_position": 0.0
+        }
+      },
+      "formal_equal_weight_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_x_2panels": 0.0,
+          "mean_dataset_panel_position": 0.0,
+          "cells_won": 0.0,
+          "cells": 0.0,
+          "overall_position": 0.0
+        }
+      },
+      "dataset_equal_weight_top100_sensitivity": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_top100": 0.0,
+          "mean_dataset_position_top100": 0.0,
+          "datasets_won_top100": 0.0,
+          "top100_position": 0.0
+        }
+      },
+      "formal_top100_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_seed_units": 0.0,
+          "official_position": 0.0
+        }
+      },
+      "formal_both_panels_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_panel_units": 0.0,
+          "robustness_position": 0.0
+        }
+      },
+      "per_metric": {
+        "rows": 96,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_metric_rank": 0.0,
+          "position": 0.0
+        }
+      },
+      "bootstrap": {
+        "baseReg": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -3.1700820908024796,
+            -2.465957118015052
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -2.8226299694189603,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "linearModel": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -2.187223524351478,
+            -1.4506151699644851
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.8241590214067278,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "scouter": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -1.936490588015391,
+            -1.0935568845828514
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.5168195718654434,
+          "unique_dataset_perturbation_clusters": 384
+        }
+      },
+      "WitnessCell_top100": {
+        "method": "WitnessCell",
+        "mean_operation_rank": 3.888379204892966,
+        "mean_metric_rank": 4.882517838939857,
+        "mean_composite_score": 0.6296388566393974,
+        "operation_seed_units": 654,
+        "official_position": 1.0
+      }
+    },
+    "dual_head": {
+      "per_operation": {
+        "rows": 20928,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "edistance": 0.0,
+          "mse": 0.0,
+          "sym_kldiv": 0.0,
+          "wasserstein": 0.0,
+          "cor": 0.0,
+          "common_degs": 0.0,
+          "edistance_score": 0.0,
+          "mse_score": 0.0,
+          "sym_score": 0.0,
+          "Rank_pcc": 0.0,
+          "Rank_edistance": 0.0,
+          "Rank_mse": 0.0,
+          "Rank_sym": 0.0,
+          "DEG_score": 0.0,
+          "was_score": 0.0,
+          "Rank_deg": 0.0,
+          "Rank_was": 0.0,
+          "ac_score": 0.0,
+          "ac_rank": 0.0,
+          "Rank": 0.0
+        }
+      },
+      "dataset_panel_leaderboard": {
+        "rows": 128,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operations": 0.0,
+          "dataset_panel_position": 0.0
+        }
+      },
+      "formal_equal_weight_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_x_2panels": 0.0,
+          "mean_dataset_panel_position": 0.0,
+          "cells_won": 0.0,
+          "cells": 0.0,
+          "overall_position": 0.0
+        }
+      },
+      "dataset_equal_weight_top100_sensitivity": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_top100": 0.0,
+          "mean_dataset_position_top100": 0.0,
+          "datasets_won_top100": 0.0,
+          "top100_position": 0.0
+        }
+      },
+      "formal_top100_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_seed_units": 0.0,
+          "official_position": 0.0
+        }
+      },
+      "formal_both_panels_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_panel_units": 0.0,
+          "robustness_position": 0.0
+        }
+      },
+      "per_metric": {
+        "rows": 96,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_metric_rank": 0.0,
+          "position": 0.0
+        }
+      },
+      "bootstrap": {
+        "baseReg": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -3.1809675975996097,
+            -2.4693243080044445
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -2.830275229357798,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "linearModel": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -2.207673306927429,
+            -1.4750711635870735
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.8470948012232415,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "scouter": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -1.9540636702850922,
+            -1.1267079136021945
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.5412844036697249,
+          "unique_dataset_perturbation_clusters": 384
+        }
+      },
+      "WitnessCell_top100": {
+        "method": "WitnessCell",
+        "mean_operation_rank": 3.871559633027523,
+        "mean_metric_rank": 4.886850152905199,
+        "mean_composite_score": 0.6299969669638533,
+        "operation_seed_units": 654,
+        "official_position": 1.0
+      }
+    },
+    "released": {
+      "per_operation": {
+        "rows": 20928,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "edistance": 0.0,
+          "mse": 0.0,
+          "sym_kldiv": 0.0,
+          "wasserstein": 0.0,
+          "cor": 0.0,
+          "common_degs": 0.0,
+          "edistance_score": 0.0,
+          "mse_score": 0.0,
+          "sym_score": 0.0,
+          "Rank_pcc": 0.0,
+          "Rank_edistance": 0.0,
+          "Rank_mse": 0.0,
+          "Rank_sym": 0.0,
+          "DEG_score": 0.0,
+          "was_score": 0.0,
+          "Rank_deg": 0.0,
+          "Rank_was": 0.0,
+          "ac_score": 0.0,
+          "ac_rank": 0.0,
+          "Rank": 0.0
+        }
+      },
+      "dataset_panel_leaderboard": {
+        "rows": 128,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operations": 0.0,
+          "dataset_panel_position": 0.0
+        }
+      },
+      "formal_equal_weight_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_x_2panels": 0.0,
+          "mean_dataset_panel_position": 0.0,
+          "cells_won": 0.0,
+          "cells": 0.0,
+          "overall_position": 0.0
+        }
+      },
+      "dataset_equal_weight_top100_sensitivity": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_rank_4datasets_top100": 0.0,
+          "mean_dataset_position_top100": 0.0,
+          "datasets_won_top100": 0.0,
+          "top100_position": 0.0
+        }
+      },
+      "formal_top100_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_seed_units": 0.0,
+          "official_position": 0.0
+        }
+      },
+      "formal_both_panels_leaderboard": {
+        "rows": 16,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_operation_rank": 0.0,
+          "mean_metric_rank": 0.0,
+          "mean_composite_score": 0.0,
+          "operation_panel_units": 0.0,
+          "robustness_position": 0.0
+        }
+      },
+      "per_metric": {
+        "rows": 96,
+        "max_abs_difference": 0.0,
+        "columns": {
+          "mean_metric_rank": 0.0,
+          "position": 0.0
+        }
+      },
+      "bootstrap": {
+        "baseReg": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -3.2592636268343815,
+            -2.5434724879593595
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -2.9067278287461775,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "linearModel": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -2.276019487549621,
+            -1.5599392421363025
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.9220183486238531,
+          "unique_dataset_perturbation_clusters": 384
+        },
+        "scouter": {
+          "max_abs_difference": 0.0,
+          "bootstrap_probability_witness_better": 1.0,
+          "cluster_bootstrap_95_ci": [
+            -2.0158608902158326,
+            -1.1957823326690677
+          ],
+          "operation_seed_units": 654,
+          "rank_difference_witness_minus_competitor": -1.6085626911314985,
+          "unique_dataset_perturbation_clusters": 384
+        }
+      },
+      "WitnessCell_top100": {
+        "method": "WitnessCell",
+        "mean_operation_rank": 3.802752293577982,
+        "mean_metric_rank": 4.851681957186544,
+        "mean_composite_score": 0.630540127116454,
+        "operation_seed_units": 654,
+        "official_position": 1.0
+      }
+    }
+  },
+  "source_array_audit": {
+    "scope": "Producer-time full-array inspection; default compact replay does not re-load original gene-level matrices",
+    "archived_records": 36,
+    "inactive_exact_fallback_splits": 4
+  },
+  "status": "PASS",
+  "elapsed_seconds": 31.279236555099487
+}

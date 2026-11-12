@@ -1,0 +1,133 @@
+{
+  "date_utc": "2026-10-19T09:57:09.244180+00:00",
+  "status": "PASS",
+  "audit_type": "exact algebra checked in floating point; not prediction experiment",
+  "identity": "clip(<z1,z2>/[(||z1||\u00b2+||z2||\u00b2)/2]) = clip[(A-N)/(A+N)]",
+  "A": "||(z1+z2)/2||\u00b2",
+  "N": "||(z1-z2)/2||\u00b2",
+  "clipping": [
+    0,
+    1
+  ],
+  "zero_denominator_rule": 0,
+  "maximum_observed_absolute_difference": 5.551115123125783e-16,
+  "original_training_splits": [
+    {
+      "max_abs_weight_difference": 5.551115123125783e-16,
+      "readouts": 5025,
+      "zero_energy_readouts": 94,
+      "positive_weights": 2691,
+      "original_rule_weight_mean": 0.2380037524638228,
+      "dataset": "Norman",
+      "seed": 1,
+      "training_pairs": 37,
+      "incidence_rank": 33,
+      "training_contrast_dimension": 4,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    },
+    {
+      "max_abs_weight_difference": 5.551115123125783e-16,
+      "readouts": 5025,
+      "zero_energy_readouts": 45,
+      "positive_weights": 3255,
+      "original_rule_weight_mean": 0.2528760669001361,
+      "dataset": "Norman",
+      "seed": 2,
+      "training_pairs": 46,
+      "incidence_rank": 35,
+      "training_contrast_dimension": 11,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    },
+    {
+      "max_abs_weight_difference": 5.551115123125783e-16,
+      "readouts": 5025,
+      "zero_energy_readouts": 46,
+      "positive_weights": 2959,
+      "original_rule_weight_mean": 0.23103300592018855,
+      "dataset": "Norman",
+      "seed": 3,
+      "training_pairs": 41,
+      "incidence_rank": 34,
+      "training_contrast_dimension": 7,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    },
+    {
+      "max_abs_weight_difference": 4.440892098500626e-16,
+      "readouts": 5020,
+      "zero_energy_readouts": 38,
+      "positive_weights": 2659,
+      "original_rule_weight_mean": 0.12313771523177834,
+      "dataset": "Wessels",
+      "seed": 1,
+      "training_pairs": 28,
+      "incidence_rank": 13,
+      "training_contrast_dimension": 15,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    },
+    {
+      "max_abs_weight_difference": 4.996003610813204e-16,
+      "readouts": 5020,
+      "zero_energy_readouts": 13,
+      "positive_weights": 2699,
+      "original_rule_weight_mean": 0.10489859283490938,
+      "dataset": "Wessels",
+      "seed": 2,
+      "training_pairs": 42,
+      "incidence_rank": 16,
+      "training_contrast_dimension": 26,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    },
+    {
+      "max_abs_weight_difference": 4.440892098500626e-16,
+      "readouts": 5020,
+      "zero_energy_readouts": 13,
+      "positive_weights": 2877,
+      "original_rule_weight_mean": 0.12229710612776622,
+      "dataset": "Wessels",
+      "seed": 3,
+      "training_pairs": 36,
+      "incidence_rank": 16,
+      "training_contrast_dimension": 20,
+      "training_only": true,
+      "source_half_split": "original seed 42 sequential per-condition random cell split"
+    }
+  ],
+  "edge_cases": {
+    "independent_random": {
+      "max_abs_weight_difference": 1.6653345369377348e-16,
+      "readouts": 19,
+      "zero_energy_readouts": 0,
+      "positive_weights": 10,
+      "original_rule_weight_mean": 0.10354826636169924
+    },
+    "identical_halves": {
+      "max_abs_weight_difference": 0.0,
+      "readouts": 19,
+      "zero_energy_readouts": 0,
+      "positive_weights": 19,
+      "original_rule_weight_mean": 1.0
+    },
+    "opposite_halves": {
+      "max_abs_weight_difference": 0.0,
+      "readouts": 19,
+      "zero_energy_readouts": 0,
+      "positive_weights": 0,
+      "original_rule_weight_mean": 0.0
+    },
+    "zero_halves": {
+      "max_abs_weight_difference": 0.0,
+      "readouts": 19,
+      "zero_energy_readouts": 19,
+      "positive_weights": 0,
+      "original_rule_weight_mean": 0.0
+    }
+  },
+  "conclusion": "published training-agreement weight is exactly amplitude/disagreement-energy shrinkage; not an independent information comparator",
+  "calibrated_probability_or_Bayes_optimality_established": false,
+  "script_sha256": "099f36731a7c2069d36f4366d364cc7e38f8c067decc8986da13bd95a01ffe91"
+}

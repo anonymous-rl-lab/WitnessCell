@@ -1,0 +1,36 @@
+{
+  "source": "partner_repair_20261108/sources/network/WitnessCell_Neural_Partner_Training_Inputs_20261021/WitnessCell_Neural_Partner_Pilot_20261021/assets/GenePT_fixed64.npz",
+  "source_sha256": "9197cce7e141bf1d5019a810a99205ff938b4400264dc827ca079d00982f8a90",
+  "matching": [
+    {
+      "cell": "HeLa",
+      "genes": 73,
+      "missing": [],
+      "alias": {}
+    },
+    {
+      "cell": "A549",
+      "genes": 73,
+      "missing": [],
+      "alias": {}
+    },
+    {
+      "cell": "293T",
+      "genes": 73,
+      "missing": [],
+      "alias": {}
+    },
+    {
+      "cell": "Jurkat",
+      "genes": 79,
+      "missing": [
+        "SKIV2L"
+      ],
+      "alias": {
+        "PET112": "GATB"
+      }
+    }
+  ],
+  "missing_policy": "global source embedding mean; no outcome-based imputation",
+  "alias_reference": "https://www.ncbi.nlm.nih.gov/gene/5188"
+}

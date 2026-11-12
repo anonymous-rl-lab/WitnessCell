@@ -1,0 +1,1082 @@
+[
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261108_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261108_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n1",
+    "file": "full_raw_saturation_20261108_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261108_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261108_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261108_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261108_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261108_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261108_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261108_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261108_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261108_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261109_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261109_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.01_n1",
+    "file": "full_raw_saturation_20261109_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261109_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261109_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261109_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_raw_saturation_20261109_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261109_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261109_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261109_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261109_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261109_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261110_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261110_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261110_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261110_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261110_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261110_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_raw_saturation_20261110_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261110_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.03_n0.1",
+    "file": "full_raw_native_20261110_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261110_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261110_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261110_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261111_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261111_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n1",
+    "file": "full_raw_saturation_20261111_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261111_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261111_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261111_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261111_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261111_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261111_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261111_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261111_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261111_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261112_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261112_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261112_0_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261112_0_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_raw_native_20261112_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261112_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261112_1_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261112_1_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.03_n0.1",
+    "file": "full_raw_native_20261112_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_native_20261112_2_spectral.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n1",
+    "file": "full_raw_saturation_20261112_2_rank1.npz"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_raw_saturation_20261112_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261108_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261108_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261108_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261108_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261108_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261108_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261108_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261108_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261108_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261108_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261108_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261108_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261109_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261109_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261109_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261109_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261109_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261109_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261109_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261109_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261109_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261109_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261109_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261109_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261110_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261110_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261110_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261110_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261110_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261110_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261110_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261110_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261110_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261110_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261110_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261110_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261111_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261111_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261111_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261111_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261111_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261111_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261111_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261111_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261111_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261111_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261111_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261111_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261112_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261112_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261112_0_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261112_0_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.3_n0.1",
+    "file": "full_published_native_20261112_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261112_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261112_1_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261112_1_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native",
+    "family": "rank1",
+    "selected": "rank1_t0.1_n0.1",
+    "file": "full_published_native_20261112_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_native_20261112_2_spectral.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "rank1",
+    "selected": "G0",
+    "file": "full_published_saturation_20261112_2_rank1.npz"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation",
+    "family": "spectral",
+    "selected": "spectral_t0.3_n0.1",
+    "file": "full_published_saturation_20261112_2_spectral.npz"
+  }
+]

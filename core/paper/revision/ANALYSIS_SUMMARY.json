@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "source_operation_rank_identity": true,
+  "methods": 16,
+  "operation_units": 654,
+  "population_counts": {
+    "all": 654,
+    "double": 540,
+    "single": 114,
+    "combo_seen0": 43,
+    "combo_seen1": 374,
+    "combo_seen2": 123,
+    "unseen_single": 114,
+    "Norman_double": 208,
+    "Replogle_exp6_double": 91,
+    "Schmidt_double": 60,
+    "Wessels_double": 181
+  },
+  "RNA": {
+    "adverse_increment_reduction_M1_to_R": 0.8524650770554141,
+    "positive_reduction_retained_M1_to_R": 0.8470970218387017,
+    "interpretation": "Readout-aggregated descriptive decomposition on the same developmental panel; not independent confirmation."
+  },
+  "no_training": true
+}

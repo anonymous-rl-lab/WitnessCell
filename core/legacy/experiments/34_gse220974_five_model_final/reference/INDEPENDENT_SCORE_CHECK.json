@@ -1,0 +1,437 @@
+{
+  "status": "PASS",
+  "all_model_metrics": true,
+  "all_choices": true,
+  "checks": [
+    {
+      "model": "Scouter_seed0",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed0",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed0",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed0",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 8.673617379884035e-19
+    },
+    {
+      "model": "Scouter_seed0",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed0",
+      "metric": "half1_mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "model": "R_G",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "R_G",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "R_G",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "R_G",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 4.336808689942018e-19
+    },
+    {
+      "model": "R_G",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "R_G",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 8.673617379884035e-19
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PRESAGE_Combo_seed24",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed1",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_RNA",
+      "metric": "half1_mean_U",
+      "absolute_difference": 1.3877787807814457e-17
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_Ensemble",
+      "metric": "half1_mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 1.3010426069826053e-18
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed0",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_Stable",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_Stable",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_Stable",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_Stable",
+      "metric": "half1_mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "model": "PairPick_TargetRank",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_TargetRank",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "PairPick_TargetRank",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "PairPick_TargetRank",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_Ensemble",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "mean_regret",
+      "absolute_difference": 5.204170427930421e-18
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 8.673617379884035e-19
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed1",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 4.336808689942018e-19
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "SingleB_additive",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "StandardRidge_Choice",
+      "metric": "half1_mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "mean_regret",
+      "absolute_difference": 1.734723475976807e-18
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "Scouter_seed2",
+      "metric": "half1_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "mean_regret",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "RNA_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "partner_projection_MSE",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "half0_mean_U",
+      "absolute_difference": 0.0
+    },
+    {
+      "model": "GEARS_seed2",
+      "metric": "half1_mean_U",
+      "absolute_difference": 6.938893903907228e-18
+    }
+  ]
+}

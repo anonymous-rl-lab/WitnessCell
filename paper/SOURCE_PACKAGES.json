@@ -1,0 +1,11 @@
+{
+  "paper": "v39",
+  "code": "30.0.0",
+  "self_contained_replay": true,
+  "inputs": "../provenance/SOURCE_ARCHIVES.json",
+  "canonical_manuscript": "manuscript_sources/",
+  "new_analysis": "../experiments/global_reference/",
+  "current_table_figure_map": "../docs/PAPER_COVERAGE.csv",
+  "historical_generation_metadata": "../provenance/v38_generation/",
+  "note": "Original archive identifiers in the immutable manuscript are provenance, not runtime download requirements."
+}

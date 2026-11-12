@@ -1,0 +1,139 @@
+{
+  "release": "28.0.0",
+  "paper": "v36",
+  "status": "PASS",
+  "tasks": [
+    {
+      "task": "paper_scores",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 3.02159985399976,
+      "scope": "Current double-only and full benchmark, original paired bootstrap, RNA rectangle/error budgets, all-task PairPick and baseline exclusion; scoring from frozen metrics and predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/replay_paper.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/paper_scores"
+      ]
+    },
+    {
+      "task": "theory_growth",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.016091463000521,
+      "scope": "Finite-family target identities/lower bound and saved synthetic prediction scoring; all saved growth predictions independently projected and rescored.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/replay_theory_growth.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/theory_growth"
+      ]
+    },
+    {
+      "task": "core_scores",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 31.545611145000294,
+      "scope": "Original released-core score rows, ablations, aggregate ranks and frozen bootstrap. No competitor retraining.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/legacy/compact/legacy_core/run.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/core_scores"
+      ]
+    },
+    {
+      "task": "risk_scores",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 6.081805888999952,
+      "scope": "Original risk-selection and calibration score/moment replay. No new response fitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/legacy/compact/legacy_risk/run.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/risk_scores"
+      ]
+    },
+    {
+      "task": "gse220974",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 0.3651619190004567,
+      "scope": "Closed five-model experiment; lossless residual/utility replay, all 420 choices and paired comparisons. Large external raw prediction/weight asset indexes retained.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/legacy/experiments/34_gse220974_five_model_final/reproduce.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/gse220974"
+      ]
+    },
+    {
+      "task": "component_control",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 6.98146947999976,
+      "scope": "All 55 functional configurations and 265 RNA candidate/fold rows, repeat and query-panel checks from archived predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/run_portable.py",
+        "--task",
+        "control",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/component_control"
+      ]
+    },
+    {
+      "task": "interfaces",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 1.9190123939997648,
+      "scope": "Runnable RNA/growth/control interface checks; no biological predictor training.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/run_portable.py",
+        "--task",
+        "interfaces",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/interfaces"
+      ]
+    },
+    {
+      "task": "han",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 33.30136873900028,
+      "scope": "Restore compact references, rebuild measured inputs from compact counts/workbook, frozen source inference, 60-fold target scalar calibration, independent scoring and precision-aware comparison.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/replay_han.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/han"
+      ]
+    },
+    {
+      "task": "figures",
+      "status": "PASS",
+      "returncode": 0,
+      "seconds": 19.717199164000704,
+      "scope": "Redraw all five main and five supplementary figures from retained numerical sources; validate plotted tables.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/repack_v36/grn_repo_v28/tools/replay_paper.py",
+        "--figures",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/repack_validation_final/figures"
+      ]
+    }
+  ],
+  "base_model_training_enabled": false
+}

@@ -1,0 +1,7 @@
+model,exact_gene_mode_design_match,enhancer_only_correspondence,not_listed_as_designed_pair
+R_G,10,0,18
+StandardRidge_RNA,10,1,17
+Scouter_Ensemble,10,0,18
+GEARS_Ensemble,11,1,16
+SingleB_additive,8,0,20
+PRESAGE_Combo_seed24,10,0,18

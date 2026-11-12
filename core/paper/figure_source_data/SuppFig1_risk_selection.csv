@@ -1,0 +1,3 @@
+loss,ratio,low,high,records,coverage
+MSE,0.5343,0.3646,0.7591,213,49.48
+Weighted MSE,0.4775,0.3175,0.7071,207,48.95

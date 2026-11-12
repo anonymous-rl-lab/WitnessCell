@@ -1,0 +1,30 @@
+{
+  "study_status": "retrospective_followup_on_previously_inspected_public_data",
+  "created_utc": "2026-10-17T08:14:07.343332+00:00",
+  "central_plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+  "plan_order_note": "Central plan gives the conceptual ordered steps. Independent seen and Wessels branches were executed concurrently after fixing their own configurations. Wessels predictions and point evaluation finished before the new seen evaluation; no dependency used the other branch results to choose a method or subset.",
+  "actual_phase_times": {
+    "witness_protocol_frozen": "2026-10-17T07:53:18.065813+00:00",
+    "witness_all_predictions_frozen": "2026-10-17T07:54:27.828437+00:00",
+    "witness_evaluation_started": "2026-10-17T07:54:32.884412+00:00",
+    "seen_all_scores_decisions_frozen": "2026-10-17T07:58:48.785961+00:00",
+    "seen_evaluation_started": "2026-10-17T07:58:52.022410+00:00",
+    "witness_bootstrap_code_lock": "2026-10-17T08:01:31.841647+00:00"
+  },
+  "subset_namespace_note": "The central plan described protocol_id|dataset|seed|order|pair. The detailed Wessels implementation fixed protocol_id|wessels_witness_quantity|seed|order|pair and all 27 subsets before prediction and evaluation. The exact pre-evaluation subset protocol is authoritative; no post-result redraw or replacement occurred. Both original records are preserved.",
+  "code_lock_vs_estimand": "The witness fraction/statistic/contrast was fixed before subset evaluation; the bootstrap implementation was written and hash-locked after the point results were inspected. Neither event is a prospective registration.",
+  "primary_endpoint_notes": [
+    "Norman new primary S/C did not establish benefit; the Wessels same-protocol result does not replace that primary dataset.",
+    "The witnessed-quantity primary contrast and all selected fractions/orders were retained.",
+    "All selection primary losses were finite and nonnegative; no complete-case primary filtering occurred."
+  ],
+  "interpretation": "Audit PASS is numerical/process verification, not a scientific or journal acceptance gate.",
+  "budgets": {
+    "witness_fit_max_seconds": 3600,
+    "actual_witness_pilot_and_formal_seconds": 6.500956932999543,
+    "ten_minute_check": "not reached; fitting completed well before the first 10-minute checkpoint",
+    "seen_evaluation_seconds": 3.0591670379999414
+  },
+  "new_experiment_run": true,
+  "manuscript_revision_plan_is_post_results_editorial_decision": true
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PREFREEZE_CANDIDATE_BLIND_CONTRACT",
+  "created_utc": "2026-08-11T06:06:34.402085+00:00",
+  "dataset": "Schmidt",
+  "source_sha256": "7797165c9982bf40dc2d7d6b530d29e7a1f2796b8c96a5367baaaee93433cf95",
+  "shape": [
+    60572,
+    5005
+  ],
+  "conditions": 148,
+  "supported_conditions": 70,
+  "evaluable_weight_conditions": 147,
+  "prepare_only": true,
+  "formal_rows": null,
+  "formal_evaluable_rows": null,
+  "contract_sha256": "bbc56882f74abdc556dd191816b1ad5df2b329f897ee3c4fb652ea9b090f7db5",
+  "metric_validity_sha256": null,
+  "split_ledger_sha256": "b61f2e87525a252d3558958b917c747dcddc7118871e07a6da98b73908c2ca14"
+}

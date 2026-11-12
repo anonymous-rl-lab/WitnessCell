@@ -1,0 +1,239 @@
+{
+  "status": "PASS",
+  "language_revision": "R1",
+  "checks": [
+    {
+      "check": "Main_Methods_all_math_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Main_Methods_all_table_lines_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Main_Methods_all_decimal_values_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "main_numeric_additions_only_note_pointers",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "bibliography_exactly_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_Information_all_math_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_Information_all_table_lines_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Supplementary_Information_all_decimal_values_unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "markdown_tables_well_formed",
+      "pass": true,
+      "detail": 837
+    },
+    {
+      "check": "SI_legend_copies_identical",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "Jurkat_example_with_Jurkat_result",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_Jurkat_example_in_K562_loadings",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_unsupported_separate_support_attribution",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "no_standalone_bootstrap_paragraph",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig1_Method.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig1_Method.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig2_Joint_Intervention_Information.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig2_Joint_Intervention_Information.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig3_Prediction_Benchmark.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig3_Prediction_Benchmark.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig4_Functional_Growth.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig4_Functional_Growth.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig5_RNA_Partner_Response.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "figure_unchanged_Fig5_RNA_Partner_Response.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig6_Han_Native_Controls.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig1_Research_Applications.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig3_Combination_Support.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig7_Global_Reference_Diagnostics.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig4_Component_Control.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig1_Research_Applications.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig6_Han_Native_Controls.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig2_All_Comparator_Intervals.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig5_Direction_Repeatability.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig3_Combination_Support.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig7_Global_Reference_Diagnostics.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig4_Component_Control.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig2_All_Comparator_Intervals.pdf",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "supp_figure_unchanged_SuppFig5_Direction_Repeatability.svg",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scientific_assets_unchanged",
+      "pass": true,
+      "detail": 91
+    },
+    {
+      "check": "scientific_entry_unchanged_code/analyze_v40.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scientific_entry_unchanged_code/refit_saturation.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scientific_entry_unchanged_code/validate_v40.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scientific_entry_unchanged_reproduce.py",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "scientific_entry_unchanged_ANALYSIS_PLAN.json",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "body_remains_within_existing_length",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "abstract_unchanged",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "changes": 66,
+  "scientific_assets": 91,
+  "numerical_refits": false
+}

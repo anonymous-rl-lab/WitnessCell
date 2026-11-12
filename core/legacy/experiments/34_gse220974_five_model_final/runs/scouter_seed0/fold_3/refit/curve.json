@@ -1,0 +1,372 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.5403452779392939,
+    "steps": 74,
+    "seconds": 70.36486698299996,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0009000000000000001
+  },
+  {
+    "epoch": 2,
+    "loss": 0.25778194839084473,
+    "steps": 74,
+    "seconds": 73.9034291640055,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0008100000000000001
+  },
+  {
+    "epoch": 3,
+    "loss": 0.24450095883897832,
+    "steps": 74,
+    "seconds": 89.91130864399747,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000729
+  },
+  {
+    "epoch": 4,
+    "loss": 0.2414851978018477,
+    "steps": 74,
+    "seconds": 65.15811706699606,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0006561000000000001
+  },
+  {
+    "epoch": 5,
+    "loss": 0.23665304844443863,
+    "steps": 74,
+    "seconds": 67.97224496499985,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00059049
+  },
+  {
+    "epoch": 6,
+    "loss": 0.23719187020450025,
+    "steps": 74,
+    "seconds": 67.69201531400176,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000531441
+  },
+  {
+    "epoch": 7,
+    "loss": 0.23472491228902662,
+    "steps": 74,
+    "seconds": 69.4855265599981,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0004782969
+  },
+  {
+    "epoch": 8,
+    "loss": 0.23426459608851252,
+    "steps": 74,
+    "seconds": 71.81611437199899,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00043046721
+  },
+  {
+    "epoch": 9,
+    "loss": 0.23273400821395823,
+    "steps": 74,
+    "seconds": 67.04918920400087,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000387420489
+  },
+  {
+    "epoch": 10,
+    "loss": 0.2328908892499434,
+    "steps": 74,
+    "seconds": 73.07772688299883,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0003486784401
+  },
+  {
+    "epoch": 11,
+    "loss": 0.23123864990633888,
+    "steps": 74,
+    "seconds": 69.95394519699767,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00031381059609000004
+  },
+  {
+    "epoch": 12,
+    "loss": 0.23031942767871394,
+    "steps": 74,
+    "seconds": 72.80383390800125,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00028242953648100003
+  },
+  {
+    "epoch": 13,
+    "loss": 0.2298087455533646,
+    "steps": 74,
+    "seconds": 73.17343548699864,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025418658283290005
+  },
+  {
+    "epoch": 14,
+    "loss": 0.22979219116874644,
+    "steps": 74,
+    "seconds": 82.51260799400188,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00022876792454961005
+  },
+  {
+    "epoch": 15,
+    "loss": 0.2285189725257255,
+    "steps": 74,
+    "seconds": 82.12252773499495,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00020589113209464906
+  },
+  {
+    "epoch": 16,
+    "loss": 0.2284280067762813,
+    "steps": 74,
+    "seconds": 69.61995349099743,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00018530201888518417
+  },
+  {
+    "epoch": 17,
+    "loss": 0.2279438102567518,
+    "steps": 74,
+    "seconds": 71.24830347300303,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00016677181699666576
+  },
+  {
+    "epoch": 18,
+    "loss": 0.22723694508140152,
+    "steps": 74,
+    "seconds": 73.0314205370014,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0001500946352969992
+  },
+  {
+    "epoch": 19,
+    "loss": 0.22663200102947853,
+    "steps": 74,
+    "seconds": 72.75716059599654,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0001350851717672993
+  },
+  {
+    "epoch": 20,
+    "loss": 0.22685154426742243,
+    "steps": 74,
+    "seconds": 71.88679247099935,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00012157665459056936
+  },
+  {
+    "epoch": 21,
+    "loss": 0.2265181017888559,
+    "steps": 74,
+    "seconds": 71.59727710299921,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00010941898913151243
+  },
+  {
+    "epoch": 22,
+    "loss": 0.22590110269752708,
+    "steps": 74,
+    "seconds": 70.96971674799715,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 9.847709021836118e-05
+  },
+  {
+    "epoch": 23,
+    "loss": 0.22594073938356862,
+    "steps": 74,
+    "seconds": 72.62314625800354,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 8.862938119652506e-05
+  },
+  {
+    "epoch": 24,
+    "loss": 0.22580705885146116,
+    "steps": 74,
+    "seconds": 70.86830465499952,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 7.976644307687256e-05
+  },
+  {
+    "epoch": 25,
+    "loss": 0.2256182629514385,
+    "steps": 74,
+    "seconds": 67.87500471199746,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 7.17897987691853e-05
+  },
+  {
+    "epoch": 26,
+    "loss": 0.22498251558155627,
+    "steps": 74,
+    "seconds": 71.9185158209948,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 6.461081889226677e-05
+  },
+  {
+    "epoch": 27,
+    "loss": 0.22513384231038996,
+    "steps": 74,
+    "seconds": 71.68473734500003,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 5.81497370030401e-05
+  },
+  {
+    "epoch": 28,
+    "loss": 0.22483564792452632,
+    "steps": 74,
+    "seconds": 22.39229257700208,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 5.233476330273609e-05
+  },
+  {
+    "epoch": 29,
+    "loss": 0.22460570790477702,
+    "steps": 74,
+    "seconds": 72.87884729299549,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 4.7101286972462485e-05
+  },
+  {
+    "epoch": 30,
+    "loss": 0.22393793109300975,
+    "steps": 74,
+    "seconds": 76.74515866500587,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 4.239115827521624e-05
+  },
+  {
+    "epoch": 31,
+    "loss": 0.22369076794869192,
+    "steps": 74,
+    "seconds": 76.18393288499647,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 3.8152042447694614e-05
+  },
+  {
+    "epoch": 32,
+    "loss": 0.2240367670719688,
+    "steps": 74,
+    "seconds": 78.6113696770044,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 3.433683820292515e-05
+  },
+  {
+    "epoch": 33,
+    "loss": 0.2239505829843315,
+    "steps": 74,
+    "seconds": 44.29808304800099,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 3.090315438263264e-05
+  },
+  {
+    "epoch": 34,
+    "loss": 0.22301289479474765,
+    "steps": 74,
+    "seconds": 68.51294966400019,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 2.7812838944369376e-05
+  },
+  {
+    "epoch": 35,
+    "loss": 0.22316214542936635,
+    "steps": 74,
+    "seconds": 68.0886829480005,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 2.503155504993244e-05
+  },
+  {
+    "epoch": 36,
+    "loss": 0.2236233017331845,
+    "steps": 74,
+    "seconds": 66.61280846499722,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 2.2528399544939195e-05
+  },
+  {
+    "epoch": 37,
+    "loss": 0.22284698486328125,
+    "steps": 74,
+    "seconds": 67.01375840800029,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 2.0275559590445276e-05
+  }
+]

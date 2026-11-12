@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "model": "gears",
+  "seed": 0,
+  "fold": 0,
+  "original_upstream_forward": true,
+  "maximum_absolute_difference": 2.384185791015625e-07,
+  "weight_sha256": "ac3bd8ab50ef767eaf5942dfd3dc1b822bb20c9e5b2d965689cc869ad4402246"
+}

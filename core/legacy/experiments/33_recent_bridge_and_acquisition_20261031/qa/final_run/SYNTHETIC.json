@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "original_npz_sha256_exact": 289,
+  "results": [
+    {
+      "stage": "formal",
+      "npz_sha256_exact": 1,
+      "already_present_exact": 0,
+      "original_json_and_manifest_unchanged": true
+    },
+    {
+      "stage": "causal",
+      "npz_sha256_exact": 288,
+      "already_present_exact": 0,
+      "original_json_and_manifest_unchanged": true
+    }
+  ],
+  "seconds": 117.66531577800197,
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "scientific_sources_modified": false,
+  "evaluation_labels_used_in_fitting": false
+}

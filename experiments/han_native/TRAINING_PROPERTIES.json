@@ -1,0 +1,317 @@
+[
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "train": 13572,
+    "query": 6787,
+    "active_train": 206,
+    "degree_min_active": 5,
+    "degree_mean_active": 131.76699029126215,
+    "training_partner_repeat_r": 0.5451216568493581
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 5,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.527963965046281
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 2,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5115276196760068
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "train": 13572,
+    "query": 6787,
+    "active_train": 206,
+    "degree_min_active": 4,
+    "degree_mean_active": 131.76699029126215,
+    "training_partner_repeat_r": 0.5508837849177728
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 2,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5217809674831476
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 6,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5161679004207017
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "train": 13572,
+    "query": 6787,
+    "active_train": 206,
+    "degree_min_active": 4,
+    "degree_mean_active": 131.76699029126215,
+    "training_partner_repeat_r": 0.5088464696233235
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 6,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5401854508127032
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 2,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5370671761198449
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "train": 13572,
+    "query": 6787,
+    "active_train": 206,
+    "degree_min_active": 2,
+    "degree_mean_active": 131.76699029126215,
+    "training_partner_repeat_r": 0.5247010543139029
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 5,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5276995107916767
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 5,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5359260807602523
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "train": 13572,
+    "query": 6787,
+    "active_train": 206,
+    "degree_min_active": 5,
+    "degree_mean_active": 131.76699029126215,
+    "training_partner_repeat_r": 0.5198229854579199
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 4,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.5252281536658273
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "train": 13573,
+    "query": 6786,
+    "active_train": 206,
+    "degree_min_active": 3,
+    "degree_mean_active": 131.7766990291262,
+    "training_partner_repeat_r": 0.542792477081436
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "train": 13860,
+    "query": 6931,
+    "active_train": 205,
+    "degree_min_active": 56,
+    "degree_mean_active": 135.21951219512195
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 65,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 65,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "train": 13860,
+    "query": 6931,
+    "active_train": 205,
+    "degree_min_active": 58,
+    "degree_mean_active": 135.21951219512195
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 61,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 67,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "train": 13860,
+    "query": 6931,
+    "active_train": 205,
+    "degree_min_active": 61,
+    "degree_mean_active": 135.21951219512195
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 65,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 60,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "train": 13860,
+    "query": 6931,
+    "active_train": 205,
+    "degree_min_active": 55,
+    "degree_mean_active": 135.21951219512195
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 65,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 66,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "train": 13860,
+    "query": 6931,
+    "active_train": 205,
+    "degree_min_active": 62,
+    "degree_mean_active": 135.21951219512195
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 62,
+    "degree_mean_active": 135.22926829268292
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "train": 13861,
+    "query": 6930,
+    "active_train": 205,
+    "degree_min_active": 62,
+    "degree_mean_active": 135.22926829268292
+  }
+]

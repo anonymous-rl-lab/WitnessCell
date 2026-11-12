@@ -1,0 +1,13 @@
+{
+  "version": "v41",
+  "rule": "Whitespace-delimited; headings excluded; main is Introduction, Results and Discussion.",
+  "abstract": 136,
+  "main_body": 4620,
+  "methods_excluding_headings": 5669,
+  "references": 46,
+  "main_figures": 5,
+  "supplementary_figures": 7,
+  "supplementary_notes": 24,
+  "supplementary_tables": 57,
+  "language_revision": "R1"
+}

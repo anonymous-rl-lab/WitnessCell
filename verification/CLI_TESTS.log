@@ -1,0 +1,15 @@
+test_all_coverage_tasks_declared (test_release.ReleaseTests.test_all_coverage_tasks_declared) ... ok
+test_ancestor_output_rejected (test_release.ReleaseTests.test_ancestor_output_rejected) ... ok
+test_companion_mapping_has_recoverable_source (test_release.ReleaseTests.test_companion_mapping_has_recoverable_source) ... ok
+test_default_tasks_do_not_refit_predictors (test_release.ReleaseTests.test_default_tasks_do_not_refit_predictors) ... ok
+test_duplicate_task_rejected (test_release.ReleaseTests.test_duplicate_task_rejected) ... ok
+test_existing_output_preserved (test_release.ReleaseTests.test_existing_output_preserved) ... ok
+test_invalid_concurrency_rejected (test_release.ReleaseTests.test_invalid_concurrency_rejected) ... ok
+test_nested_output_rejected (test_release.ReleaseTests.test_nested_output_rejected) ... ok
+test_task_inventory (test_release.ReleaseTests.test_task_inventory) ... ok
+test_unknown_task_preserves_output (test_release.ReleaseTests.test_unknown_task_preserves_output) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.263s
+
+OK

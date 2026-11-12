@@ -1,0 +1,27 @@
+{
+  "frozen_utc": "2026-10-26T02:14:35.434461+00:00",
+  "files": {
+    "Q1/PREDICTIONS.npz": "5aa51042331aef9171a4d5f0bf426148b7fcdaf577d7771babfbf9e67ac191fa",
+    "Q1/TRAIN_STATS.npz": "f9e25848a9f93f28432b12bdbb76601e93b984874c960bcffd3b98ab50594e5f",
+    "Q1/TRACE.json": "2c12d30795bda13e19d3ba1bf219f1f4cca346a2d88656818444b138d8f9f9e9",
+    "Q2/PREDICTIONS.npz": "1b2c82a10138dbb3cde6f4b0d5c126fd27038b35274d7d4766c2278f8683ecfd",
+    "Q2/TRAIN_STATS.npz": "2e7ad5bbea8e5055bdc5c8a8a8265cd2f01fec6fdfe45e74fc262003835b80c0",
+    "Q2/TRACE.json": "4f42f9a2fc59c8c1791ec7106f1679292616a7d377a02fdff40dbc9efaa47b02",
+    "Q3/PREDICTIONS.npz": "2845f5e32dc8771185481f8c422222a5326330c16374184d2ef31a5bb87fb040",
+    "Q3/TRAIN_STATS.npz": "b55d4503516f46cc2bf726f737dab599a8cd7b398fdd8f63f275f5da97221886",
+    "Q3/TRACE.json": "eef18d5e97ee3685bb41241056edb75b4e6f26de62eb90a8db29eb3f8fc0221d",
+    "Q4/PREDICTIONS.npz": "15371de5e8785faa50178a57c48d606f677ed401c1c28f39445ccf84a4e058f1",
+    "Q4/TRAIN_STATS.npz": "c67f8a6bec38a76b2105e7928dd46527e88055cfe0605ccaa7a54b6d1d5ec978",
+    "Q4/TRACE.json": "4a4fbd0ff90ef00b104d2183b8bc37a69efb99583202731022c1bc1186e178af",
+    "Q5/PREDICTIONS.npz": "1357619986bc04e68035f063eead8c6a8fde1faa7457946065de71c4ffd91fc1",
+    "Q5/TRAIN_STATS.npz": "918730fb26e0cd995bfaa65257a038c79a0e984e39ce80cec3e0c03d7c85601f",
+    "Q5/TRACE.json": "508665d1c731f11227f45b0dbdf5e5ea44163eb58709bc7421e4eaec098c2c55"
+  },
+  "protocol_sha256": "b9937467fda822f2d62781079916208e70e14176c3db035025b8e8388cc19c22",
+  "seconds": 7.8687507350005035,
+  "baseline_fits": 23,
+  "old12_fits": 23,
+  "case_R_fits": 5,
+  "own_outer_scoring_not_performed": true,
+  "cross_task_training_label_reuse": true
+}

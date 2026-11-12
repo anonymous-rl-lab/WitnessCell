@@ -1,0 +1,10 @@
+{
+  "created_utc": "2026-11-09T08:18:14.833568+00:00",
+  "status": "Retrospective baseline-sensitivity analysis on previously analysed screens; no new independent confirmation.",
+  "scope": "Seven existing Horlbeck configurations; same splits, primary rank-one and secondary spectral families; no new data source.",
+  "new_baseline": "Native repeat-specific baseline with jointly fitted unpenalized standardized single-product gamma*a_g*a_h; original deviations retain ridge 10/s.",
+  "selection": "Original three internal folds; tau fractions [0.3,0.1,0.03,0.01], nu [0.1,1]; pooled complete SSE; zero-correction retained; no query-outcome selection.",
+  "order": "Fit all seven configurations and save predictions/selection hashes, then score outer outcomes.",
+  "diagnostics": "Training residual leading mode and actual fitted matrix mode reported separately; held-out gain attribution is retrospective; module list from supplied expert proposal is descriptive and fixed before this replay.",
+  "original_scores": "Preserved; new sensitivity results do not replace the original evaluation."
+}

@@ -1,0 +1,8 @@
+stage,budget,fold,genes,training_pairs,evaluation_pairs,repeats,contrast_dimension,role
+K562,low,0,80,421,211,2,132,development
+K562,low,1,80,421,211,2,131,development
+K562,low,2,80,422,210,2,130,development
+K562,high,0,80,2317,211,2,132,development
+K562,high,1,80,2317,211,2,131,development
+K562,high,2,80,2318,210,2,130,development
+Jurkat,high,0,79,2464,617,2,538,held_environment

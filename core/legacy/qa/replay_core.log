@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "out": "/tmp/witnesscell_v25_final_replay_20261026/core",
+  "elapsed_seconds": 33.89749813079834,
+  "top100_released": {
+    "method": "WitnessCell",
+    "mean_operation_rank": 3.802752293577982,
+    "mean_metric_rank": 4.851681957186544,
+    "mean_composite_score": 0.630540127116454,
+    "operation_seed_units": 654,
+    "official_position": 1.0
+  }
+}

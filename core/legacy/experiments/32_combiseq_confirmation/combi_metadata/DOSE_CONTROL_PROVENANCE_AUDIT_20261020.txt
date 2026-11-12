@@ -1,0 +1,48 @@
+Combi-seq GSE174695: bounded dose, orientation, control and replicate metadata audit
+Scope: primary-paper Methods, official GEO metadata, author preprocessing code only.
+No expression matrices, RNA counts, model predictions, enrichment values or new response estimates were read or computed.
+
+DECISIONS SUPPORTED BY DESIGN
+1. Drug order is injection-channel identity, not sequential pharmacological treatment. The autosampler and Braille-valve streams are co-encapsulated with cells. The assay incubation is 12 hours. Reversing the labels for overlapping compounds therefore reverses apparatus channels.
+2. The two channels have different prepared stock multipliers: Braille-valve mixtures contain drug at 2x the intended final concentration; autosampler mixtures contain drug at 4x final. This compensates their injection/mixture proportions and is not evidence for a twofold final-dose difference.
+3. The large screen selects a single GR35-based dose per drug. Drugs are distributed over apparatus channels to balance their selected concentrations. The Methods support treating reverse-channel occurrences of the same pair as intended equal-dose observations. Exact numerical concentrations for Imatinib, Trametinib and YM155 could not be independently transcribed within this bounded check: the supplemental xlsx endpoint returned HTTP503, and the PMC alternative returned HTML. Do not claim that this numerical verification was completed.
+4. For the large screen, the authors state that the entire process was performed three times. Thus rep1, rep2 and rep3 represent separately executed experimental runs, not computational splits. Retain run identity; averaging orientations does not create more biological replicates. This remains one originating study.
+5. GEO explicitly lists 420 treatment conditions plus one additional DMSO_DMSO_ctrl per run. Its sample-level treatment metadata are identical to the internal DMSO_DMSO fields and do not establish whether the extra control was separately incubated. The paper's separate leakage-control experiment describes separately incubated DMSO droplets, but no verified mapping connects those to these _ctrl samples. Do not assert that connection.
+6. The original author notebook explicitly strips the _ctrl suffix when constructing Drug1/Drug2. Consequently grouping only on Drug1 and Drug2 silently combines internal and extra controls. Preserve original sample IDs and use the unequivocal internal DMSO_DMSO sample for the primary frozen baseline; keep the extra _ctrl sample separate as an identified auxiliary control.
+
+IMPLEMENTATION IMPLICATIONS
+- Canonicalize the metadata spelling Imatininb to Imatinib in a reversible label map; preserve the original spelling/sample IDs in the audit table.
+- Keep original drug-position fields, run and sample IDs even if averaging reverse-channel duplicates.
+- All orientations and all three runs of an unordered pair must travel together into the same held-out pair fold.
+- Avoid counting the three reverse-channel duplicates as three additional independent pairs.
+- Single-drug occurrences in both channels are intended matched-dose singles by the common GR35 design. A predeclared equal-weight pooling rule is compatible with that design; retain position-specific records for the audit.
+- Exclude same-drug double-dose conditions from heterodrug-pair confirmation; do not mistake them for an ordinary single treatment.
+
+PRIMARY SOURCES
+Mathur L et al. Combi-seq for multiplexed transcriptome-based profiling of drug combinations using deterministic barcoding in single-cell droplets. Nature Communications 13,4450 (2022). DOI10.1038/s41467-022-32197-0.
+https://www.nature.com/articles/s41467-022-32197-0
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9343464/
+https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9343464/fullTextXML
+Relevant Methods headings: Barcode-drug mixtures used for the Braille valves and autosampler; Operations of the microfluidic pipeline for combinatorial drug screens. Large-screen design paragraph is in High-throughput gene expression-based combinatorial drug screen.
+
+Official metadata:
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE174695
+https://ftp.ncbi.nlm.nih.gov/geo/series/GSE174nnn/GSE174695/soft/GSE174695_family.soft.gz
+Example internal and extra controls: GSM5322832 and GSM5322835.
+
+Author code:
+https://github.com/saezlab/Combi-Seq-analysis
+https://raw.githubusercontent.com/saezlab/Combi-Seq-analysis/main/notebooks/1_data_preprocess.ipynb
+Only source cells were extracted and inspected; notebook outputs were not rendered.
+
+LOCAL EVIDENCE
+GSE174695_family.soft.gz and .soft
+PMC9343464.xml (archived primary article; relevant method text only inspected intentionally)
+author_repo_tree.json
+author_preprocess.py
+author_1_data_preprocess.source.py
+author_2_scanpy_preprocess.source.py
+41467_2022_32197_MOESM4_ESM.download_error.html documents an unsuccessful supplement download, NOT an xlsx asset.
+
+ACCESS QUALIFICATION
+Automated web search excerpts surfaced published results alongside requested Methods. No new expression outcomes or predictor evaluation was viewed; this is measurement/model-outcome-unseen, not literature-blinded. Source selection and preprocessing decisions used design and metadata only.

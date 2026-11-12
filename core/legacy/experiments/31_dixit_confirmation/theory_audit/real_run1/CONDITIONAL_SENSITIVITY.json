@@ -1,0 +1,101 @@
+{
+  "policy": "global_selected",
+  "draws": 2000,
+  "seed": 2026102021,
+  "distribution": "independent Exp(1) endpoint weights; pair weight is product of its two endpoint weights",
+  "columns": [
+    "full_gain_vs_saturation",
+    "P_gain_vs_saturation"
+  ],
+  "central_95_percent_range": [
+    [
+      -0.0885761371845932,
+      0.050483071377167406
+    ],
+    [
+      0.1081419032189653,
+      0.2908410599123611
+    ]
+  ],
+  "fraction_positive": [
+    0.6945,
+    0.9995
+  ],
+  "fixed_predictions": true,
+  "weighted_evaluation_projection_recomputed": true,
+  "refitting_or_selection_uncertainty_included": false,
+  "biological_confidence_interval": false,
+  "endpoint_deletion": [
+    {
+      "excluded_endpoint": "CREB1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.028779231717304676,
+      "P_gain_vs_saturation": 0.09301343930391293
+    },
+    {
+      "excluded_endpoint": "E2F4",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.002692396232233718,
+      "P_gain_vs_saturation": 0.0718743985104423
+    },
+    {
+      "excluded_endpoint": "EGR1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.021928191994463497,
+      "P_gain_vs_saturation": 0.17107259379345996
+    },
+    {
+      "excluded_endpoint": "ELF1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.03476461597492497,
+      "P_gain_vs_saturation": 0.1857459205837726
+    },
+    {
+      "excluded_endpoint": "ELK1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.015827237610242073,
+      "P_gain_vs_saturation": 0.18365772128759572
+    },
+    {
+      "excluded_endpoint": "ETS1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.038635569248898216,
+      "P_gain_vs_saturation": 0.22207697704811669
+    },
+    {
+      "excluded_endpoint": "GABPA",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.04244852452640557,
+      "P_gain_vs_saturation": 0.04677689254038353
+    },
+    {
+      "excluded_endpoint": "IRF1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": -0.012635325541430209,
+      "P_gain_vs_saturation": 0.13559743596663654
+    },
+    {
+      "excluded_endpoint": "NR2C2",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.024113153301729917,
+      "P_gain_vs_saturation": 0.10173276316871471
+    },
+    {
+      "excluded_endpoint": "YY1",
+      "remaining_pairs": 36,
+      "remaining_P_dimensions": 9,
+      "full_gain_vs_saturation": 0.024457975936963305,
+      "P_gain_vs_saturation": 0.1420705889231273
+    }
+  ],
+  "deletion_semantics": "remove evaluation records only; predictor/reference unchanged; recompute remaining evaluation projection"
+}

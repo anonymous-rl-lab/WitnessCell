@@ -1,0 +1,14 @@
+{
+  "seed": 3,
+  "order": 1,
+  "fraction": 0.25,
+  "witness_library_size": 9,
+  "queries": 64,
+  "zero_direct_witness_queries": 20,
+  "zero_direct_witness_fraction": 0.3125,
+  "fit_seconds": 0.0009220339998137206,
+  "total_seconds": 0.04083845099921746,
+  "config_hash": "1dbdc841c4800308f087976f44c4e8643d1294a6855d659d0f0f4ae5b3be0b6f",
+  "prediction_sha256": "c996c0809b858f9fd59fe8844e0cc83fd19e39a9d422046905afdb9d3a609173",
+  "test_truth_decoded": false
+}

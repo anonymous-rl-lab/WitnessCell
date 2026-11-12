@@ -1,0 +1,93 @@
+{
+  "histories": [
+    {
+      "seed": 17,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.763995885848999,
+          "symmetry_max": 2.730485674368177e-09
+        },
+        {
+          "step": 150,
+          "loss": 0.33334964513778687,
+          "symmetry_max": 1.365242835449365e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.18413478136062622,
+          "symmetry_max": 1.0239321276170159e-09
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.756103515625,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 150,
+          "loss": 0.30920249223709106,
+          "symmetry_max": 6.82621419459406e-10
+        },
+        {
+          "step": 300,
+          "loss": 0.1775587946176529,
+          "symmetry_max": 1.3652428368046178e-09
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7656704783439636,
+          "symmetry_max": 6.826214177246825e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.33350107073783875,
+          "symmetry_max": 1.3652428371840886e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.1814887821674347,
+          "symmetry_max": 3.4131070886234127e-10
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7580817341804504,
+          "symmetry_max": 1.365242838918812e-09
+        },
+        {
+          "step": 150,
+          "loss": 0.3113184869289398,
+          "symmetry_max": 6.826214185920443e-10
+        },
+        {
+          "step": 300,
+          "loss": 0.18266209959983826,
+          "symmetry_max": 2.7304856735008154e-09
+        }
+      ]
+    }
+  ],
+  "output_scale": 0.02290497396541687,
+  "network_parameters": 8517,
+  "new_functional_adapter": true,
+  "source_RNA_weights_used": false,
+  "sf12_feature_rank": 9
+}

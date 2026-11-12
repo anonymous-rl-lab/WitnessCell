@@ -1,0 +1,6 @@
+method,effect,variance,seen,degree,fitting
+B,yes,yes,no,no,joint ridge
+R,via B,via B,priority,no,rule; B within seen
+C,yes,yes,two indicators,no,joint ridge
+C0,yes,yes,linear missing count,no,joint ridge
+S,yes,yes,linear missing count,yes,joint ridge

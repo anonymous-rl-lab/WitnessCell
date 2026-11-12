@@ -1,0 +1,16 @@
+{
+  "status": "PREPARED_NOT_SCORED",
+  "source_sha256": "ca6f2f11401b691cafea16b3682a3ef24aed61ba769a4d5796c2672ece9499be",
+  "cells": 23486,
+  "genes": 5006,
+  "score_genes": 4987,
+  "single_identities": 35,
+  "base_genes": 19,
+  "conditions": 85,
+  "normalization": "log1p library-size 10000; cell-weighted condition effects with capture-matched NTC; rare one-cell single/capture strata kept once only",
+  "gene_selection": "5000 largest variances in true NTC and single cells plus all target genes; no double cells",
+  "split": "condition-by-capture hash-independent RNG seed20261102; controls separately split; no shared control noise between halves",
+  "objective": "existing TargetRank L1-normalized single effect times half agreement, all physical target genes excluded",
+  "double_design_status": "not yet whitelisted; no double outcomes used for model or condition selection",
+  "seconds": 19.1432490039997
+}

@@ -1,0 +1,23 @@
+Pre-freeze technical review — no expression or new outcome access
+Reviewed source: CONFIRMATION_PROTOCOL.txt, model/run_confirmation.py, frozen_reference_core.py, frozen_graph_folds.py.
+
+Scope: proposed principal SYSTEM = endpoint_control + G_fixed_reference, where the previous scalar-saturation + G model remains a secondary comparator. Reviewed before source scoring.
+
+ALgebraic conclusion
+The composition is legitimate. endpoint_raw(q) is in the endpoint incidence feature span. Training correction kernel is P_T K_TT P_T, and query cross-kernel ends in P_T. For any endpoint coefficient beta, replacing the residual by residual-X_T beta leaves the transferred partner correction unchanged in exact arithmetic. Consequently adding a common endpoint baseline to both arms does not require a scientifically new partner fit. This should be checked numerically at fit-time using model-defined endpoint coefficients; such a check needs no heldout labels.
+
+Critical updates needed before freeze
+1. The files as read still name scalar_saturation+G as fixed_reference and primary. Implement SYSTEM as a separately named method, retain all existing methods, and update principal denominator/numerator, decision, repeat-target checks, endpoint-multiplier intervals, endpoint-deletion report and protocol together. Do not remove standalone results after seeing outcomes.
+2. Lock lambda selection identity. Keeping the prior scalar_saturation+G inner-loss selection preserves exactly the existing operator selection rule. Selecting lambda on SYSTEM's inner loss is also possible before outcomes, but is a predeclared selection-rule extension and should not be described as unchanged. Never switch the choice rule after observing the primary comparison.
+3. Query invariance currently exercises only state.predict = scalar_saturation+G. Exercise predictions of the actual SYSTEM function for singleton, chunk, permutation, duplication and endpoint swap as well. Endpoint-control fit parameters must remain fixed at request time.
+4. If poisoning/invariance fails, classify the run as invalid/implementation failure, not an interpretable biological NOT_CONFIRMED result. Prefer stopping before heldout scoring, preserving failure diagnostics and all hashes. Currently a failed audit can flow into the same decision branch as valid negative performance.
+5. The declared source adapter says equal orientation averaging before equal run averaging. Current load_task averages all samples for condition/run. These coincide if orientations have equal numbers of samples. Verify this from labels before freeze, or implement explicit orientation averaging if unequal. This is a metadata-only identity check.
+
+No critical outer-label leak was identified in the reviewed code
+FixedFit reads normalization only from controls, measured singles and fitting pairs. Each outer test pair is held out across runs/orientations. Inner partner representations are rebuilt. Endpoint hyperparameters/calibration use outer-training internal OOF predictions. A fitted gamma using all inner OOF records is calibration/tuning, not an independent internal validation estimate; final outer evaluation remains isolated. Poison checks cover means and y used by fitting; byrun is only used after fit for target evaluation.
+
+Statistical interpretation to retain
+The pooled three-run training predictor evaluated on each original run is not a leave-run-out experiment: training uses other pairs from those same runs. The protocol already treats run-target consistency descriptively.
+Endpoint multiplier ranges condition on frozen OOF predictions and source data; they do not capture training/development uncertainty. Current P multiplier calculation reweights squared components of the already projected error and does not recompute a weighted projection. Label it fixed-projection conditional sensitivity if retained. This does not affect the principal full-SSE multiplier calculation.
+Pair-dependent fold scaling gives a predeclared cross-fitted standardized program loss; it is not one identical physical-unit scale for all folds. The protocol states training-only scaling and can retain that estimand.
+The original genetic RNA confirmation status remains unchanged. New Combi-seq confirmation is RNA with a distinct chemical-intervention source and pooled-barcode readout, refitting a frozen procedure rather than transferring Dixit parameter values.

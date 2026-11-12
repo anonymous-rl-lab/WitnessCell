@@ -1,0 +1,51 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Real input has training outcomes but identity-only queries",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Query identity order matches native archive",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Native functional prediction parity M0",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "check": "Native functional prediction parity rank1_selected",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "check": "Native functional prediction parity spectral_selected",
+      "passed": true,
+      "value": 0.0
+    },
+    {
+      "check": "Reverse-pair train/query leakage rejected",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Query outcomes rejected",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Nonfinite training response rejected",
+      "passed": true,
+      "value": null
+    },
+    {
+      "check": "Three native functional modules unmodified",
+      "passed": true,
+      "value": null
+    }
+  ],
+  "scope": "Interface and exact archived-prediction parity; not new biological confirmation"
+}

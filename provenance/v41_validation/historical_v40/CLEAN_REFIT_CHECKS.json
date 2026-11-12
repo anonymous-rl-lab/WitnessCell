@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "four_configurations_refitted": 4,
+  "numeric_arrays_compared": 44,
+  "max_array_difference": 0.0,
+  "nine_result_tables_max_abs_difference": 0.0,
+  "independent_baseline_comparisons": 16,
+  "independent_baseline_max_abs_difference": 1.554312234475219e-14,
+  "han_saved_batches": 60,
+  "han_predictors_refitted": false,
+  "historical_benchmark_retrained": false,
+  "rna_predictors_retrained": false
+}

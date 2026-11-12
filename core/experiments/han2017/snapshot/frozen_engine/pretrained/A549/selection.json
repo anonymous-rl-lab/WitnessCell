@@ -1,0 +1,24 @@
+{
+  "rank1": {
+    "selected": "rank1_t0.01_n1",
+    "best_regularized": "rank1_t0.01_n1",
+    "inner_gain_each": [
+      0.02532151521419701,
+      0.0167855271311782
+    ],
+    "inner_gain_pooled": 0.02106097653588601,
+    "regularized_result_role": "chosen predictor",
+    "final_converged": true
+  },
+  "spectral": {
+    "selected": "spectral_t0.3_n1",
+    "best_regularized": "spectral_t0.3_n1",
+    "inner_gain_each": [
+      0.013094044030747765,
+      0.01091771382775475
+    ],
+    "inner_gain_pooled": 0.012007779744007019,
+    "regularized_result_role": "chosen predictor",
+    "final_converged": true
+  }
+}

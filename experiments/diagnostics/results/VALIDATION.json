@@ -1,0 +1,13 @@
+{
+  "prepared_replay_SCORES.csv": 0.0,
+  "prepared_replay_RANDOM_POOLED.csv": 0.0,
+  "prepared_replay_RANDOM_SUMMARY.csv": 0.0,
+  "prepared_replay_HAN_ORACLE_FOLDS.csv": 0.0,
+  "prepared_replay_HAN_REPEATABILITY.csv": 0.0,
+  "query_outcome_replacement_max_prediction_change": 0.0,
+  "joint_lstsq_vs_projected_saturation_max_abs": 2.842170943040401e-14,
+  "independent_svd_alpha_difference": 6.106226635438361e-16,
+  "complete_partner_sse_identity_max_abs": 9.094947017729282e-13,
+  "status": "PASS",
+  "scope": "Native and prepared new-control replay; query-outcome exclusion; independent baseline and projection arithmetic. No source-model retraining."
+}

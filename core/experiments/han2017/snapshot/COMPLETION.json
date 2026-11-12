@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-08T13:31:39.075760+00:00",
+  "primary_folds_completed": 60,
+  "primary_score_rows": 10440,
+  "base_model_training_calls": 0,
+  "source_weights_unchanged": true,
+  "raw_pairs": 20359,
+  "published_pairs": 20791,
+  "source_native_models_common_panel": 12,
+  "shared_adapter_models_full_panel": 6,
+  "new_paper_version_created": false,
+  "all_scheduled_primary_analyses_complete": true
+}

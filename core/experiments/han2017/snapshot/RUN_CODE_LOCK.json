@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-11-08T13:18:49.545853+00:00",
+  "new_reassessment_scores_computed": false,
+  "base_model_fit_calls": 0,
+  "files": {
+    "code/common.py": "22501827155ab513cca96eaced0b6cf79781a6ea3627828b5570d78de7d8047b",
+    "code/predict_inputs.py": "675091e1682a86dcbb0e025323d81c6da3eb5acde86dd35218bc3cfc2fabce52",
+    "code/prepare.py": "2b14d3dd391212d6f9faa13f921399cbc99896a7df85a63f63df5394710a25ba",
+    "code/run.py": "281b0a849c17e12ab83dcee10a14a2dccbb9bb3def551511ee523150082ab8d3",
+    "PROTOCOL.json": "14b8a0702974fd911f68759792be4500e3348b657cad4fa58cf4e274e78023f5",
+    "MODEL_FREEZE.json": "750700a0274540bb9b9f7ba9e3d650a3c84748f44108a404b61a5ad3c33b96ed",
+    "data/PREPARED.json": "f190846a2387d578e26db3edcd104b02051621a0084424c6cd73d067b9321528"
+  }
+}

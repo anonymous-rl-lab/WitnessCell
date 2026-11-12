@@ -1,0 +1,59 @@
+{
+  "release": "27.0.0",
+  "paper": "22",
+  "status": "PASS",
+  "source_archive": {
+    "file": "grn_repo_v26.zip",
+    "bytes": 102079618,
+    "sha256": "90b7f20d452676ae28775031af8134f62e300f5fe2d483e3015fe248cd85348e",
+    "library_file_id": "libfile_88a5e55f0328819187c9ec21d39d1873"
+  },
+  "base_files_preserved": 1053,
+  "base_files_same_path_unchanged": 1047,
+  "protected_experiments_25_to_32_preserved": true,
+  "new_experiment": {
+    "directory": "experiments/34_gse220974_five_model_final",
+    "task": "gse220974_final",
+    "main_models": 5,
+    "frozen_training_jobs": 30,
+    "archive_name": "WitnessCell_GSE220974_Final_Compact.zip",
+    "archive_bytes": 9188806,
+    "archive_sha256": "71630a58ab8be3d7d0abba46fc85403ea9a02d0b81fd6dd4384f300e44e44e3c",
+    "archive_limit_exclusive_bytes": 10000000,
+    "compact_reproduction_scope": "Full precision main-five residual/utility replay; original prediction/weight replay requires identified external assets"
+  },
+  "old_experiments": "Not all rerun. Byte preservation checked; one legacy dispatcher smoke test is performed.",
+  "training_state": "CLOSED_BY_USER",
+  "validation": "qa/V27_FINAL_INTEGRATION.json",
+  "validation_summary": {
+    "status": "PASS",
+    "experiment": "GSE220974 detected49 final five-model comparison",
+    "training_restarted": false,
+    "frozen_jobs": 30,
+    "increment_bytes": 9188806,
+    "increment_strictly_under_10000000_bytes": true,
+    "increment_sha256": "71630a58ab8be3d7d0abba46fc85403ea9a02d0b81fd6dd4384f300e44e44e3c",
+    "original_v26_files_preserved": 1053,
+    "original_files_same_path_unchanged": 1047,
+    "protected_experiment_files": 461,
+    "default_main_table_byte_identical": true,
+    "all_420_choice_rows_byte_identical": true,
+    "arrays_lossless_sha256_verified": 26,
+    "paired_interval_max_absolute_difference": 1.0408340855860843e-17,
+    "full_15_model_replay_max_absolute_difference": 2.7755575615628914e-17,
+    "reference_prediction_archive_verified": true,
+    "isolated_corruption_rejected": true,
+    "new_task_and_legacy_sf12_dispatcher": "PASS",
+    "old_tasks_all_rerun": false,
+    "scope": "Compact default replays five-model residual metrics and all15 utility choices. Full15 raw prediction replay additionally verified using identified external full archive. Thirty trained weights remain in their separately SHA-verified durable archives.",
+    "evidence": [
+      "V27_INTEGRITY_INITIAL.json",
+      "V27_MAIN_DISPATCHER.json",
+      "V27_MAIN_REPLAY.json",
+      "V27_RELOCATED_REPLAY.json",
+      "V27_FULL_PREDICTION_REPLAY.json",
+      "V27_LEGACY_SF12_SMOKE.json",
+      "V27_CORRUPTION_REJECTION.json"
+    ]
+  }
+}

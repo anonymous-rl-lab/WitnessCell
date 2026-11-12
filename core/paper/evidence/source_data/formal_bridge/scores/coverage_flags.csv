@@ -1,0 +1,9 @@
+world,method,misses,trials,one_sided_undercoverage_p,Bonferroni_adjusted_p,flag_at_family_alpha_05
+direct_only,OLS_high,10,1000,0.9999999999994758,1.0,False
+direct_only,contrast_GLS_high,10,1000,0.9999999999994758,1.0,False
+hA,OLS_high,50,1000,0.5202589429126795,1.0,False
+hA,contrast_GLS_high,52,1000,0.4058160732043493,1.0,False
+hB,OLS_high,10,1000,0.9999999999994758,1.0,False
+hB,contrast_GLS_high,10,1000,0.9999999999994758,1.0,False
+hC,OLS_high,50,1000,0.5202589429126795,1.0,False
+hC,contrast_GLS_high,52,1000,0.4058160732043493,1.0,False

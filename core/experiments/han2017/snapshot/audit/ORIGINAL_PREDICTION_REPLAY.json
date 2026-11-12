@@ -1,0 +1,122 @@
+[
+  {
+    "panel": "common_raw",
+    "model": "HeLa__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "HeLa__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "HeLa__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "HeLa__v4",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "A549__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "A549__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "A549__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "A549__v4",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "293T__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "293T__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "293T__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_raw",
+    "model": "293T__v4",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "HeLa__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "HeLa__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "HeLa__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "HeLa__v4",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "A549__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "A549__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "A549__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "A549__v4",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "293T__rank1",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "293T__spectral",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "293T__sf12",
+    "max_abs_error": 0.0
+  },
+  {
+    "panel": "common_published",
+    "model": "293T__v4",
+    "max_abs_error": 0.0
+  }
+]

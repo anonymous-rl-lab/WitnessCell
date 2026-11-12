@@ -1,0 +1,31 @@
+{
+  "accession": "GSE90063/GSM2396860",
+  "access": "public GEO HTTP, no authentication",
+  "license": "No explicit dataset-specific Creative Commons license identified; do not infer one from public access.",
+  "files": [
+    {
+      "local_name": "Dixit_highMOI_raw_UMI.mtx.txt.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2396nnn/GSM2396860/suppl/GSM2396860_k562_tfs_highmoi.mtx.txt.gz",
+      "bytes": 435376422,
+      "sha256": "cd9abbbe4dd080803440467945a1c93ebceba9c7601d087ed1a7c63c0902635f"
+    },
+    {
+      "local_name": "Dixit_highMOI_strict.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2396nnn/GSM2396860/suppl/GSM2396860_k562_tfs_highmoi_cbc_gbc_dict_strict.csv.gz",
+      "bytes": 380205,
+      "sha256": "ef067c43647005fc1222f7e39ad5dc0ba3b94d705aa88539e13b62f7de12f054"
+    },
+    {
+      "local_name": "Dixit_highMOI_cellnames.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2396nnn/GSM2396860/suppl/GSM2396860_k562_tfs_highmoi_cellnames.csv.gz",
+      "bytes": 348124,
+      "sha256": "2dd70728bff8fadccbaddd02fa9d5a774d6141941244c2384a990b0d2b3afdf2"
+    },
+    {
+      "local_name": "Dixit_highMOI_genenames.csv.gz",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2396nnn/GSM2396860/suppl/GSM2396860_k562_tfs_highmoi_genenames.csv.gz",
+      "bytes": 242615,
+      "sha256": "54df12ae430247722982de63934e8baef8b3e750401a15a2ca226ffa6cb34417"
+    }
+  ]
+}

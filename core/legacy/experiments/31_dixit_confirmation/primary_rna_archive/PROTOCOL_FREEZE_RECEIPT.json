@@ -1,0 +1,13 @@
+{
+  "freeze_utc": "2026-10-19T10:10:16.522156+00:00",
+  "stage": "protocol_and_preprocessing_before_expression_aggregation",
+  "statistical_protocol": "FROZEN_PROTOCOL_v1.txt",
+  "files": {
+    "FROZEN_PROTOCOL_v1.txt": "8b1426f43aa5f040ddf1b8e837cb2a6d7a61a2b5513f3f5fbb7aa344a525500f",
+    "PREDEFINED_G2M_PROGRAM.json": "ccd9e710ef7ef448c9234ca007ea02aef5c190157060d639d75b090b63b07895",
+    "Dixit_labels_only_threefold_candidate.csv": "0d25fce4f933965dde991a955c2926fe7ed8089142eec9de2cded7324f612093",
+    "prepare_dixit_frozen_inputs.py": "f25fedae59712be9b6c05c3f1941c9e187e53d262d0e68037fa45dfd158b2659"
+  },
+  "test_performance_inspected": false,
+  "prospective_registration": false
+}

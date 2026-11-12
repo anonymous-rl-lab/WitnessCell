@@ -1,0 +1,6 @@
+Analysis,Original identity,Material result,Interpretation
+Common-identity rank-one reassessment,Protocol-designated primary; source weights retained,Controlled vs partner-off: −0.9961% reconstructed; +0.0350% published,No consistent net partner benefit across the two readouts
+Full-screen shared-function extension,Six fixed SF12/V4 source configurations; target scalar calibration,HeLa SF12: +0.2617% / +0.1436%; 293T SF12: +0.6513% / +0.3058% vs addition,Small positive increments in these two configurations; all six retained in original tables
+Random-direction attribution,"Same features, calibration and evaluation for random coefficients",Upper-tail proportions: HeLa 0.175 / 0.193; 293T 0.042 / 0.079,Does not consistently separate learned source functions from random directions
+Nonlinear-reference attribution,Target-fitted saturation/endpoint reference,Remaining SF12 partner gain: HeLa −0.0081% / −0.0222%; 293T 0% / 0%,The earlier additive-baseline gains do not establish transferred partner knowledge
+Current native analysis,"Fixed target refitting, rank-one primary; spectral and nonlinear-reference sensitivities",Complete results in Tables S45–S50,"Tests learning from allowed Han combinations, not migration of the same source weights"

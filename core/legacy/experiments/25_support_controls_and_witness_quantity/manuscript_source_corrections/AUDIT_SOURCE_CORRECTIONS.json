@@ -1,0 +1,53 @@
+{
+  "status": "PASS_SOURCE_CORRECTIONS_WITH_RECORDED_OPEN_ITEMS",
+  "scope": "Bounded provenance/citation/editorial-audit corrections; no new experiment result incorporated.",
+  "checks_passed": [
+    "current_snapshot_file_integrity",
+    "unmodified_historical_v14_full_audit",
+    "historical_numeric_contract_and_identity_verdict",
+    "text_and_latex_hygiene",
+    "structural_and_main_si_semantic_alignment",
+    "historical_and_new_evidence_blocks_and_baseline_definition",
+    "abstract_roles_and_editorial_upper_bounds",
+    "source_only_revision_preserves_experimental_values_and_scope",
+    "published_references_and_citation_integrity",
+    "provenance_modality_theory_scope_and_release_semantics",
+    "trainmean_combination_and_unseen_single_source_branches",
+    "final_go_grid_training_result_and_executable_agree",
+    "current_ed_caption_synchronization_and_legacy_separation",
+    "v19_full_archive_sha256"
+  ],
+  "counts": {
+    "abstract_words": 196,
+    "introduction_words": 443,
+    "nonmethods_words": 3586,
+    "methods_words": 2870,
+    "figure_legends_words": 625,
+    "total_main_words": 8114
+  },
+  "reference_entries": 41,
+  "release_archive_verification": "FULL_ARCHIVE_SHA256_VERIFIED",
+  "unresolved": [
+    {
+      "item": "Current ED graphical assets",
+      "status": "UNRESOLVED",
+      "detail": "Six current SI captions are synchronized. The bundled manuscript_snapshot ED is a different IC-Perturb/IC-Yield manuscript; figure-to-caption graphical content has not been verified."
+    },
+    {
+      "item": "Cell-level overlap between Wessels and CaRPool processed panels",
+      "status": "NOT_ESTABLISHED",
+      "detail": "Same original study/GSE213957 is established; complete barcode identity, exact split overlap and leakage are not inferred."
+    },
+    {
+      "item": "Public repository/archival identifiers",
+      "status": "NOT_PROVIDED",
+      "detail": "The existing v19 reviewer ZIP and full checksum are used; no public DOI or URL is invented."
+    },
+    {
+      "item": "Step1 and subsequent seen/density integration",
+      "status": "PENDING_SCIENTIFIC_INTEGRATION",
+      "detail": "Completed Step1 and follow-up results are not yet integrated; historical abstract and full manuscript need separate scientific revision and target-length editing."
+    }
+  ],
+  "submission_ready": false
+}

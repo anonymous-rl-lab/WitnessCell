@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "release": "26.0.0",
+  "paper": "22",
+  "fresh_integrated_entrypoint": {
+    "status": "PASS",
+    "release": "26.0.0",
+    "paper": "22",
+    "tasks": [
+      {
+        "task": "recent_bridge",
+        "scope": "Nine 2026-10-31 bridge/acquisition rounds: lossless source restoration, declared numeric replay and exact cache regeneration; per-round scope and verification are recorded inside experiment33.",
+        "command": [
+          "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+          "-B",
+          "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/reproduce.py",
+          "--out",
+          "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge"
+        ],
+        "log": "recent_bridge.log",
+        "timeout_seconds": 900.0,
+        "returncode": 0,
+        "status": "PASS",
+        "seconds": 379.3341500690003
+      }
+    ],
+    "passed": 1
+  },
+  "original_file_records_size_and_sha256_exact": 6838,
+  "replayed_recent_rounds": 9,
+  "numeric_precision_changed": false,
+  "new_scientific_training_or_result_claimed": false,
+  "old_all_twelve_tasks_rerun": false,
+  "legacy_dispatch_smoke": "qa/LEGACY_DISPATCH_SMOKE.json",
+  "detailed_evidence": "experiments/33_recent_bridge_and_acquisition_20261031/qa/final_run",
+  "source_base": "grn_repo_v25.zip",
+  "base_sha256": "95efc581ddaddfa120f3edc56dd2dd34cae004e30caaeb6516497e1d67d8f134"
+}

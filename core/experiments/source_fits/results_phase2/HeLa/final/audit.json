@@ -1,0 +1,93 @@
+{
+  "histories": [
+    {
+      "seed": 17,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7958106398582458,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 150,
+          "loss": 0.3984740078449249,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.22730810940265656,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7838061451911926,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 150,
+          "loss": 0.37024861574172974,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.22875359654426575,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7971335649490356,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 150,
+          "loss": 0.4009530544281006,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.23244820535182953,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.785358726978302,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 150,
+          "loss": 0.372640997171402,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.22870513796806335,
+          "symmetry_max": 0.0
+        }
+      ]
+    }
+  ],
+  "output_scale": 0.01949055179469587,
+  "network_parameters": 8517,
+  "new_functional_adapter": true,
+  "source_RNA_weights_used": false,
+  "sf12_feature_rank": 12
+}

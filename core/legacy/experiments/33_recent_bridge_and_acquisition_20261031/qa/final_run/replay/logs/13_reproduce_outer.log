@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "prediction_arrays_exact": 30,
+  "json_files_exact": [
+    "scores/outer/cases.json",
+    "scores/outer/rows.json",
+    "scores/outer/summary.json",
+    "predictions/outer/geometry.json",
+    "predictions/outer/reveal_audit.json"
+  ],
+  "new_directory": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/fresh_outer",
+  "external_source_unavailable": true,
+  "refitting_performed": false,
+  "original_gate_still_false": true
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "gears",
+  "fold": 4,
+  "seed": 1,
+  "threads": 2,
+  "pid": 6243,
+  "started_unix": 1794018480.2163925,
+  "wrapper_sha256": "1754c1f6d79b6592ff5607d0e54b0d2bb83d493ad91bc85bc760b111c7f04403",
+  "runtime_fingerprint": {
+    "train_cell_models.py": "e852b201d8dba8021fd7ba45a019c18efbbb1ee42c70de1e5890cb053a29cb1c",
+    "train_cell_models_runtime.py": "87fca328deb2fcd024c734448244023d5ad6b22af722736b477c299e45aeceda",
+    "lazy_cell_data.py": "140e514aca1303a2b1e743f29c3b11ec4c6e22b0968cb3a9d94cb295bf0d121a",
+    "fast_gears_ops.py": "18a1e8f6d43557917705e433763f78a6a08d1e3b82efd1f70476ab09ea2a4f95"
+  },
+  "training_rules_changed": false
+}

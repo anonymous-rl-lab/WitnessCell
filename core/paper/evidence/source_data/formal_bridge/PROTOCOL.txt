@@ -1,0 +1,86 @@
+Fixed hidden-three-gate bridge experiment, 2026-10-31
+Status: independently reviewed and frozen for one fixed training run.
+
+Scientific scope
+The estimator knows a finite candidate class of three single gates and the
+deterministic upstream intervention semantics. It does not know which gate
+generated a case or any outcome coefficient. This is a controlled information-
+value experiment with hidden identity within that class, not unrestricted
+mechanism-family or GRN discovery, a neural-model benchmark,
+real-data confirmation, or an unrestricted-model identifiability theorem.
+
+Mechanisms and panel
+X~Bernoulli(.5), all six mediator variables equal X unless knocked out. Source
+KO propagates to every descendant. Gates hA=(A OR B)(A OR C), hB=(B OR A)(B OR C),
+hC=(C OR A)(C OR B). Outcome has intercept.7 and mediator nuisance coefficients
+[.25,-.15,.4,-.2,.3,-.1]. Four fixed worlds: direct-only betaX1,betaH0; hA/hB/hC
+each betaX0,betaH1. Learner coefficients are continuously valued with unrestricted
+signs. True worlds are data-generator inputs only, never fit inputs.
+Common control plus7singles X,A,...,F. High adds AB,BC,DE,DF; low adds AD,BD,BE,CF.
+Both have12conditions, identical added endpoint degrees and equal cell budgets.
+Unseen queries AC,AF,CE,EF are excluded from every training object. Rectangle
+signs [+,-,-,+]; population target is -p*beta for hA/hC and0 for hB.
+
+Budget and randomness
+N256 per condition, balanced pre-intervention source strata128/128; source KO
+turns both observed source strata to0. Independent Gaussian unit noise sigma1 is
+synthetic and is not described as real biological noise. Exactly1000 fresh seeds
+10000..10999; condition-specific noise shared across worlds/layouts, independent
+between different conditions. Four worlds and two layouts are paired within
+seed. The independent replication unit is1000seeds, not8000cases or cells.
+Budget chosen before score from analytic minimum wrong-line distance N/8 and
+prespecified joint bounds .06990,.70023,.95 for N64,128,256. No noise/strength sweep.
+
+Fitting and sufficient statistics
+For each candidate, fit9columns [1,Z1,...,Z6,X,hk] using identical unregularized
+minimum-norm OLS. Count-weighted24stratum means are exactly sufficient for these
+fits; within-stratum SSE is saved so full-cell SSE is recoverable. Select smallest
+SSE, ties within absolute1e-10 whitened-stratum SSE use A,B,C order. All3candidate
+coefficients/SSE/predictions are retained. Low has identical rank8 designs; its
+unidentified coefficients are not restricted to three point estimates.
+Predictions use the shared declared upstream/source prior; no query states,
+query labels, hidden gate labels or true coefficients enter estimation.
+
+Confidence sets, including refusal
+Whiten design and means with sqrt(count)/sigma first. Project out the8nuisance
+columns; the union of gate residuals has rank2 in high, rank0 in low. In the high
+rank2 orthonormal coordinates, observed Z has unit covariance. Intersect the
+chi-square2(.95) confidence ball centered at Z with each of the3gate lines.
+Each nonempty line intersection yields an unrestricted signed beta interval.
+Map via delta=-p*beta for A/C and via delta=0 for B. Report all candidate intervals
+and exact mapped union; never condition the set on selected gate. Exact union
+coverage is primary; hull only describes width and may fill gaps containing0.
+Empty sets retain flags and NaN width, not0 width; they are incompatibility/
+refusal, not nonzero certificates. A nonzero certificate requires a nonempty
+union excluding0. Also separately report0-not-in-union including empty cases.
+Low beta intervals are unbounded for all candidates: A/C delta are all R, B delta
+is{0}. Store infinities in NPZ, not nonstandard JSON; never report finite low CI.
+
+Comparators and scoring
+Primary point-risk comparison: same3candidate OLS in high versus low, averaged
+equally over4worlds within each noise seed. Every case contributes to point error
+regardless of selection/CI/certification. Report world-specific results as well.
+Strong high baseline uses observed-X1 R_AB,R_BC contrasts times p, covariance
+[[2,1],[1,2]]/N. Fit the same3response lines with GLS and use the same joint ball
+construction. Baseline unavailable in low; it never borrows AB/BC observations.
+It predicts only rectangle, not whole query means. A delta0 auxiliary baseline
+also predicts no whole-query means. No SOTA claim.
+Metrics after freeze: population rectangle MSE, whole-query mean MSE for OLS only,
+candidate selections, exact-union coverage, hull width and unbounded/empty rates,
+and zero-target false certificates with empty separated. The direct-only and hB
+worlds have zero rectangle. Confidence calibration is under the specified class.
+Truth query means are independently enumerated only after prediction freeze.
+
+Expanded-class boundary
+Do not replace3single-gate fits with an11column simultaneous-three-gate regression.
+In the high panel, hA+hC-hB-X is identically0, but its query rectangle equals-1
+at p=.5. Thus that enlarged class is rank10 and the target is unidentifiable.
+This analytic witness is preserved; the finite single-gate class restriction is
+essential, rather than a result showing general causal identification.
+
+Artifacts
+One centralizedNPZ stores all8000cases: training means/counts/within-SSE, 3sets of
+coefficients/SSE/query predictions, selections and all interval/empty flags.
+cases.json identifies seed/world/layout and condition indices but is not supplied
+to fit. condition_mapping.json and seed prefixes reproduce every Gaussian draw.
+All files and model/configuration source are hashed before independent scoring.

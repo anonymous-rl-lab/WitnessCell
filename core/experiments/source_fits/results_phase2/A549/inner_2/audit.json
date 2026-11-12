@@ -1,0 +1,93 @@
+{
+  "histories": [
+    {
+      "seed": 17,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.710034191608429,
+          "symmetry_max": 5.020626804921879e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.23981833457946777,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.16590216755867004,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.001,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7531071901321411,
+          "symmetry_max": 1.2551567001462677e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.26834219694137573,
+          "symmetry_max": 1.0041253609843759e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.16476379334926605,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 17,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7122892141342163,
+          "symmetry_max": 2.5103134024609397e-10
+        },
+        {
+          "step": 150,
+          "loss": 0.24070198833942413,
+          "symmetry_max": 0.0
+        },
+        {
+          "step": 300,
+          "loss": 0.16738305985927582,
+          "symmetry_max": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "weight_decay": 0.1,
+      "history": [
+        {
+          "step": 50,
+          "loss": 0.7549001574516296,
+          "symmetry_max": 6.275783495310328e-11
+        },
+        {
+          "step": 150,
+          "loss": 0.268351286649704,
+          "symmetry_max": 1.0041253609843759e-09
+        },
+        {
+          "step": 300,
+          "loss": 0.16601791977882385,
+          "symmetry_max": 0.0
+        }
+      ]
+    }
+  ],
+  "output_scale": 0.01684642806883423,
+  "network_parameters": 8517,
+  "new_functional_adapter": true,
+  "source_RNA_weights_used": false,
+  "sf12_feature_rank": 9
+}

@@ -1,0 +1,68 @@
+FIXED-REFERENCE FIT-TIME KERNEL PROBE — COMPLETE
+
+Initial run took 1.96 seconds after task load; all predictions froze before
+aggregate outer scoring. This remains adaptive retrospective Dixit development.
+No parameter grid was expanded after viewing outer results.
+
+Primary model ref_full (global kernel constraint, full residual training):
+  Inner-selected lambda 1, 1, 10.
+  FULL SSE 6.710468769341477 vs scalar saturation 6.538922596059356:
+    gain -2.6234623634% (worse).
+  Query endpoint-P SSE 2.234667612195573 vs 2.3070937835800613:
+    gain +3.1392816322%.
+  All FULL fold gains -5.8374%, -5.5138%, +2.7152%.
+  This primary predictive benefit criterion was not met.
+
+Prespecified mechanism ablation ref_trainP (same global kernel, training
+endpoint-P loss; no subsequent training endpoint extrapolation):
+  Inner-selected lambda .1, 10, 10.
+  FULL SSE 6.390677159138623: gain +2.2671232874% vs saturation.
+  Query endpoint-P SSE 1.9771929922932858: gain +14.2994096571%.
+  FULL fold gains +1.4553084644%, +3.0488850688%, +2.3187473752%.
+  P fold gains +35.5936404971%, +2.1185148155%, +3.3596541939%.
+  FULL gain vs measured additive +2.5499794132%.
+  The no-harm inner gate reduces aggregate FULL gain to +0.4712384871%,
+  because the gate suppresses folds 1 and 2 that improved at outer evaluation.
+
+Fixed lambda outputs are retained for transparency. Their outer-best result
+is not the selected method and must not replace the inner-selected result.
+
+Engineering criterion PASSED for both models, exactly:
+  Singleton / query reorder / delete one / add all / duplicate query requests
+  all return identical corresponding predictions (maximum absolute difference0).
+  Each of 45 held-out singleton requests has nonzero added correction.
+  Poisoning outer-query full means has zero effect on scale, alpha or correction.
+  Test halves are never read by this scalar learner.
+  Maximum saved linear solve residual 2.00e-14.
+  Maximum global incidence orthogonality |X_F^T G_F| 7.83e-15.
+
+Interpretation of global gauge vs old query-specific projection:
+  The old per-query-batch protected product gave FULL gain5.0452%, Pgain14.2994%.
+  Fixed-reference trainP retains precisely the same partner contrast benefit,
+  .3299007913 SSE units, but its query-endpoint SSE cost is .1816553544,
+  leaving a net .1482454369 SSE improvement. A global endpoint gauge need not
+  coincide with the zero-endpoint gauge for every requested subset.
+  This is an explicit, measured tradeoff for invariant single-query operation.
+
+Algebraic relationship:
+  H=P_F K P_F. For training subset T, P_T X_T=0 implies
+  P_T H_TT P_T=P_T K_TT P_T and H_FT P_T=P_F K_FT P_T.
+  Therefore training-P kernel fit is equivalent to globally recentering the
+  original training-P product predictor at each fixed lambda (normalization
+  is also identical). This is a corrected reference convention, not newly
+  learned partner information or an independent biological result.
+
+Primary full-residual fit changes the training problem. It gives only
+.0724261714 partner SSE benefit but adds .2439723447 endpoint SSE error,
+losing .1715461733 overall. This supports retaining training-P loss in the
+present candidate. It does not prove every global full-loss learner fails.
+
+Scope: query pairs use the ten already measured-single endpoints. F is frozen
+as all unordered distinct pairs of those node identities, independently of
+actual query requests. Adding an endpoint is a model update. The reference
+includes unlabeled held-out pair identities, never their outcomes. A fixed
+reference domain and a fixed model state are required for the invariance claim.
+
+Files: PLAN.txt, run_reference_kernel.py; run1/ contains STARTED, frozen model
+and prediction NPZs, training-internal choices, exact results, solver audit,
+request invariance checks, label-poison check and completion receipt.

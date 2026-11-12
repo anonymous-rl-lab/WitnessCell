@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "primary_rna": {
+    "status": "PASS",
+    "scientific_decision": "PRIMARY_RNA_PARTNER_NOT_CONFIRMED",
+    "source": "Dixit 2016 GSE90063/GSM2396860",
+    "pairs": 45,
+    "non_target_readouts": 23519,
+    "methods_checked": 8,
+    "folds_checked": 3,
+    "max_fold_sum_relative_difference": 2.2165120559854507e-16,
+    "complete_core_vs_additive_full_gain_percent": 23.432832171294272,
+    "selected_vs_core_full_gain_percent": 0.26980124059068356,
+    "selected_vs_core_partner_gain_percent": -0.03260130792246407,
+    "reproduction_level": "Per-pair full-MSE and fold-SSE arithmetic audit only.",
+    "limitations": "Original full-RNA prediction arrays, projection refit and full source runner are not included here. G2M REPRODUCE.py is a distinct, later development fit and cannot replace this frozen primary outcome."
+  },
+  "g2m_development_named_arrays_exact": 237,
+  "g2m_is_independent_confirmation": false,
+  "primary_rna_predictions_refitted": false,
+  "g2m_development_refitted_from_condition_means": true
+}

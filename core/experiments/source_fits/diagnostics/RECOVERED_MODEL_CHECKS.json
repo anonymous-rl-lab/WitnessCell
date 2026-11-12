@@ -1,0 +1,26 @@
+[
+  {
+    "cell": "HeLa",
+    "network_checkpoint_replay_max_abs": 3.469446951953614e-18,
+    "network_chunk_max_abs": 4.646909662620047e-09,
+    "sf12_original_adapter_max_abs": 2.5153490401663703e-17
+  },
+  {
+    "cell": "A549",
+    "network_checkpoint_replay_max_abs": 0.0,
+    "network_chunk_max_abs": 2.0695966121420106e-09,
+    "sf12_original_adapter_max_abs": 2.0816681711721685e-17
+  },
+  {
+    "cell": "293T",
+    "network_checkpoint_replay_max_abs": 1.3877787807814457e-17,
+    "network_chunk_max_abs": 4.466713068862482e-09,
+    "sf12_original_adapter_max_abs": 1.8214596497756474e-17
+  },
+  {
+    "cell": "Jurkat",
+    "network_checkpoint_replay_max_abs": 5.551115123125783e-17,
+    "network_chunk_max_abs": 5.5497267476001255e-09,
+    "sf12_original_adapter_max_abs": 7.216449660063518e-16
+  }
+]

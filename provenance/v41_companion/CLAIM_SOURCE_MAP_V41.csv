@@ -1,0 +1,8 @@
+paper_location,claim_or_scope,source,entry
+Abstract; Results; S54E–F,K562 saturation-reference rank-one partner gain 11.3241%,results/SATURATION_POOLED.csv,code/refit_saturation.py; code/analyze_v40.py
+Results; S54D,Jurkat final predictions on a common original-baseline denominator,results/COMMON_REFERENCE.csv,code/analyze_v40.py
+Results; S57B,Han whole-correction product and orthogonal contributions,results/HAN_ATTRIBUTION_POOLED.csv,code/analyze_v40.py
+S54E–F,"All four configurations, repeats and control policies",results/SATURATION_BY_CONFIGURATION.csv; results/SATURATION_BY_REPEAT.csv,code/analyze_v40.py
+S57B,"All 60 Han batches, two learners and both templates",results/HAN_DIRECTION_ATTRIBUTION.csv,code/analyze_v40.py
+Fig.4; S6; S7,Preserved numerical panels and updated Fig.4 titles,results/; figure_inputs/,code/make_figures.py
+Existing Tables S1–S57 and figures,Historical results and v39 matched-product-reference analyses,grn_repo_v30/docs/PAPER_COVERAGE.csv,base archive reproduce.py

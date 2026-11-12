@@ -1,0 +1,33 @@
+{
+  "protocol": "WitnessCell-step1-v1-20261017",
+  "frozen_at_unix": 1792202359.7673507,
+  "sources": {
+    "baselines.py": "b766dd66a640e47d10834f01b74713703c15f134f9c2f168cf38a778e82740bd",
+    "evaluate.py": "199723089324273e3aef2e25c6ce4ba1ca5fdeb1f8ae437db162070cd144a6a7",
+    "fast_amplitude_bank.py": "ae3b5d67f1ed49b8fe6648f7e6663a1848f9961ba04822c0e7e777a5a4480987",
+    "replay_probe.py": "49b79865ce4721ac4c7325449b746778c14d76cc678846895991335828458605",
+    "run_formal.py": "babe8efabe8e0210aaf6802170baa2c48f3e2c3e6659075d411c8ab299cc3650",
+    "run_step1.py": "19963f30f7943c8895935c86d9b72f5fc682ceeec6f2d545d0939b522cce05a6",
+    "summarize_baselines.py": "e2eaa4ca04c0a08de052d217b4a487e42f6ed659efcc335f12662e1100219d88",
+    "verify_projection.py": "961c95ebdc596ed459d90d92f9e25eed6a3c828bb8818410267d17730a66c38d"
+  },
+  "workers": 2,
+  "cpu_threads_per_worker": 1,
+  "wall_limit_seconds": 1200,
+  "formal_seeds": [
+    1,
+    2,
+    3
+  ],
+  "datasets": [
+    "Norman",
+    "Wessels"
+  ],
+  "epochs": "not applicable to deterministic closed-form model",
+  "scouter": "pending; no available vector/training input",
+  "estimated_formal_minutes": [
+    5,
+    10
+  ],
+  "labels_opened_before_freeze": false
+}

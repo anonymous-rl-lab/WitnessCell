@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "tables": [
+    {
+      "file": "REGRESSION_PERFORMANCE.csv",
+      "rows": 64,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "HELD_PREDICTIONS.csv",
+      "rows": 25216,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "MODEL_SELECTION_RECORDS.csv",
+      "rows": 2200,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "SELECTION_SUMMARY.csv",
+      "rows": 20,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "SELECTION_BY_PANEL.csv",
+      "rows": 160,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "REGRESSION_SENSITIVITY.csv",
+      "rows": 320,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "PARTNER_COMPONENT_SCORES.csv",
+      "rows": 55,
+      "max_numeric_difference": 0.0
+    },
+    {
+      "file": "PARTNER_COMPONENT_BY_CONDITION.csv",
+      "rows": 7,
+      "max_numeric_difference": 0.0
+    }
+  ],
+  "independent_verification_checks": 1028,
+  "scope": "Refits historical regressions, reselects candidates, independently recalculates all 55 functional inner calibration coefficients and outer losses, and recomputes query-batch partner-only predictions. Uses supplied sufficient arrays, no original neural training or source matrix preprocessing."
+}

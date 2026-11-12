@@ -1,0 +1,56 @@
+[
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/evaluation/baseline_summary.json",
+    "copy": "original_step1_context/baseline_summary.json",
+    "sha256": "6bc935208012c98f0ead80e904d57688892a6cf222d5514cff1ee23fd6651802",
+    "status": "original_Step1_result_reused_not_a_new_experiment"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/evaluation/baseline_summary.csv",
+    "copy": "original_step1_context/baseline_summary.csv",
+    "sha256": "933a4f49e888d365bf4be46a15fa2721fc8d2fbf3b821afb9d382cb2be7eb011",
+    "status": "original_Step1_result_reused_not_a_new_experiment"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/evaluation/baseline_seed_results.csv",
+    "copy": "original_step1_context/baseline_seed_results.csv",
+    "sha256": "cdb3fb3aa25d0b986f23331c1299819ef01de5075994974fb9453fd1704f7e48",
+    "status": "original_Step1_result_reused_not_a_new_experiment"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Norman_seed1/baseline_losses.csv",
+    "copy": "original_step1_context/Norman_seed1_baseline_losses.csv",
+    "sha256": "bb31763a2e9577cecf2d22e9b6c0f69d27bc8abce889f4de5726b05d0cba96a7",
+    "status": "original_Step1_per_query_losses"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Norman_seed2/baseline_losses.csv",
+    "copy": "original_step1_context/Norman_seed2_baseline_losses.csv",
+    "sha256": "6a2df176031f32a51711fe1eb6ecdb223bb042941586c46f85263435656bce14",
+    "status": "original_Step1_per_query_losses"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Norman_seed3/baseline_losses.csv",
+    "copy": "original_step1_context/Norman_seed3_baseline_losses.csv",
+    "sha256": "0623d6b3e2b1a0148ffe807d40266864fee4f46336451fe1e4eb6e5ee6796496",
+    "status": "original_Step1_per_query_losses"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed1/baseline_losses.csv",
+    "copy": "original_step1_context/Wessels_seed1_baseline_losses.csv",
+    "sha256": "b842efe06f82fd1c1eb7c2661225466fa72fccfa52822bae986946c9109b6879",
+    "status": "original_Step1_per_query_losses"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed2/baseline_losses.csv",
+    "copy": "original_step1_context/Wessels_seed2_baseline_losses.csv",
+    "sha256": "6b1d198bdaf76d24cded88b897ccd67e19d133c82fe929b500a9b28a82fff6cc",
+    "status": "original_Step1_per_query_losses"
+  },
+  {
+    "source": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run/results/Wessels_seed3/baseline_losses.csv",
+    "copy": "original_step1_context/Wessels_seed3_baseline_losses.csv",
+    "sha256": "e84e6b743d137253f6489ef6cdbb6117bad036abed8f70e0953c022be83db240",
+    "status": "original_Step1_per_query_losses"
+  }
+]

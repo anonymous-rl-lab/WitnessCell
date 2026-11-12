@@ -1,0 +1,31 @@
+{
+  "status": "retrospective development; original outcomes were known before this request; phase 1 newly frozen outputs not yet evaluated",
+  "models": [
+    "exact SF12 feature map with real GenePT64 and shared scalar functional coefficients",
+    "original PartnerHeadV4 class with fixed GenePT64 inputs and neutral scalar readout query; functional adaptation, source RNA encoder and RNA checkpoints not reused"
+  ],
+  "sf12_rho": [
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "network_seeds": [
+    17,
+    29
+  ],
+  "weight_decay": [
+    0.001,
+    0.1
+  ],
+  "checkpoints": [
+    50,
+    150,
+    300
+  ],
+  "network_lr": 0.003,
+  "training_loss": "endpoint-projected residual squared loss; M0 refitted per inner fold; target scaled by training residual RMS",
+  "selection": "3-fold out-of-fold partner SSE, exact Next2 constrained amplitude calibration retaining full-response SSE no worse than M0; zero candidate included",
+  "query_predictions": "pointwise head output minus TRAINING-fitted endpoint contribution; no query outcome or query-batch projection",
+  "source_missing": "Jurkat SKIV2L uses global GenePT mean; PET112 maps to GATB via NCBI; all Shen genes direct coverage"
+}

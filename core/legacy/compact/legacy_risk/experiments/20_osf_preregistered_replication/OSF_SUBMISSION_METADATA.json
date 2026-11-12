@@ -1,0 +1,53 @@
+{
+  "title": "WitnessCell v14 preregistered confirmatory computational replication: result package",
+  "registration_id": "xrsmd",
+  "registration_url": "https://osf.io/xrsmd",
+  "protocol_version": "2.0.0",
+  "study_type": "preregistered confirmatory computational replication",
+  "status": "PASS_PREREGISTERED_COMPUTATIONAL_REPLICATION",
+  "description": "Post-registration AutoDL execution of the frozen WitnessCell v14 workflow associated with OSF registration xrsmd. All five prespecified criteria passed. Twelve target-free deployment archives and all 156 arrays were reproduced elementwise exactly, with global maximum absolute difference 0. The eight active evidence-gate splits and four exact fallbacks were recovered, and the frozen 654-unit paired summary was reproduced. The C5 result is an integrity audit of inherited Gate18 aggregation, not a new Gate19/v14 raw-h5ad six-metric rescoring. The registration disclosed the earlier successful execution. This package contains no wet-lab experiment, new biological measurement or prospective biological outcome claim.",
+  "tags": [
+    "WitnessCell",
+    "AI virtual cell",
+    "computational reproducibility",
+    "preregistration",
+    "perturbation prediction",
+    "single-cell"
+  ],
+  "execution": {
+    "platform": "AutoDL",
+    "started_utc": "2026-08-10T10:56:15Z",
+    "completed_utc": "2026-08-10T11:13:03Z",
+    "duration_seconds": 1008,
+    "python": "3.12.13",
+    "cpu_only": true
+  },
+  "frozen_source": {
+    "version": "14.0.0",
+    "sha256": "955d446a0cfe65a6f4f191d74c7a7d16a6083488b9beb40a5e155ab94d528bd7"
+  },
+  "preregistration_package": {
+    "filename": "WitnessCell_OSF_Computational_Preregistration_v2.zip",
+    "sha256": "8d2bcc1c06a42fee039a515ee12588d516eb04c9979697181eb35ebd4c4a8c63"
+  },
+  "result_archive": {
+    "filename": "WitnessCell_preregistered_replication_20260810T105615Z.tar.gz",
+    "size_bytes": 39357228,
+    "sha256": "511860f645158a9af536a3944e03d4cc440674e23b55d826bf615e02d96bea0c"
+  },
+  "criteria": {
+    "C1_execution_schema": "PASS",
+    "C2_numerical_identity": "PASS",
+    "C3_gate_fallback_identity": "PASS",
+    "C4_paired_mean_response": "PASS",
+    "C5_inherited_gate18_aggregation_integrity": "PASS"
+  },
+  "scope": {
+    "prior_success_disclosed": true,
+    "wet_lab_component": false,
+    "new_biological_measurements": false,
+    "prospective_biological_outcome_claim": false,
+    "raw_h5ad_gate19_v14_rescoring": false
+  }
+}
+

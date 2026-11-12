@@ -1,0 +1,20 @@
+{
+  "dataset": "Norman",
+  "seed": 2,
+  "target_genes_removed": true,
+  "loss_truth": "E18_full_cell_condition_means",
+  "oof_effect_quartile_edges": [
+    0.0027855571953893424,
+    0.0038370590478269706,
+    0.0065359830390090655
+  ],
+  "oof_effect_quartile_axis": "effect_score",
+  "effect_quartile_transform": "log1p",
+  "relative_loss_epsilon": 0.0014454829087724398,
+  "frozen_query_sha256": "fbdc3c9344675e721c8c3714413df3500bbc9c6a9bc821c85195fca12d67cd76",
+  "risk_model_sha256": "38136ba6c64d126445f2f52544069fa97fe195be876c41dd1e43a5eca378120c",
+  "total_oof_records": 127,
+  "unique_training_pairs": 46,
+  "formal_targets": 66,
+  "elapsed_seconds": 158.37066397099989
+}

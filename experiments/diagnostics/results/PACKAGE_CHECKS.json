@@ -1,0 +1,58 @@
+{
+  "word_counts": {
+    "abstract_words": 133,
+    "main_prose_whitespace_words": 4596,
+    "sections": {
+      "Introduction": 466,
+      "Results": 3544,
+      "Discussion": 586
+    },
+    "counting_rule": "Whitespace tokens; title, abstract, section headings, Methods, references and figure legends excluded from main prose; displayed equations retained. The first unheaded introduction paragraph is included.",
+    "references": 43
+  },
+  "si_tables": 58,
+  "results_sections": 5,
+  "unchanged_main_figures": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "light_excludes_code_and_arrays": true,
+  "main_figures": 5,
+  "supplementary_figures": 7,
+  "Main_Methods": {
+    "pages": 25,
+    "outside_text": []
+  },
+  "Supplementary_Information": {
+    "pages": 61,
+    "outside_text": []
+  },
+  "Main_Figures": {
+    "pages": 5,
+    "outside_text": []
+  },
+  "Supplementary_Figures": {
+    "pages": 7,
+    "outside_text": []
+  },
+  "analysis_validation": {
+    "prepared_replay_SCORES.csv": 0.0,
+    "prepared_replay_RANDOM_POOLED.csv": 0.0,
+    "prepared_replay_RANDOM_SUMMARY.csv": 0.0,
+    "prepared_replay_HAN_ORACLE_FOLDS.csv": 0.0,
+    "prepared_replay_HAN_REPEATABILITY.csv": 0.0,
+    "query_outcome_replacement_max_prediction_change": 0.0,
+    "joint_lstsq_vs_projected_saturation_max_abs": 2.842170943040401e-14,
+    "independent_svd_alpha_difference": 6.106226635438361e-16,
+    "complete_partner_sse_identity_max_abs": 9.094947017729282e-13,
+    "status": "PASS",
+    "scope": "Native and prepared new-control replay; query-outcome exclusion; independent baseline and projection arithmetic. No source-model retraining."
+  },
+  "base_archive": {
+    "filename": "grn_repo_v28_paper_v36.zip",
+    "sha256": "0cf6df0ae3db1b1ba0bdedbdf7723c42678ba4e6bedfb8254b7ff861071a2adb"
+  },
+  "status": "PASS"
+}

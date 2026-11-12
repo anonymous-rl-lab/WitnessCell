@@ -1,0 +1,102 @@
+[
+  {
+    "path": "REPRODUCE.py",
+    "sha256": "683a1215d4727daa491f4d5bfe4223b25925f106bfe679726ebca15dcd7a92ee",
+    "bytes": 5136
+  },
+  {
+    "path": "build_deliverables.py",
+    "sha256": "562560ade4df2912dd865b407beade0383d19f1dbe2db1c22c169211be9a5beb",
+    "bytes": 14504
+  },
+  {
+    "path": "compact_assets/Dixit_labels_only_threefold_candidate.csv",
+    "sha256": "0d25fce4f933965dde991a955c2926fe7ed8089142eec9de2cded7324f612093",
+    "bytes": 816
+  },
+  {
+    "path": "compact_assets/Dixit_program_source_means.npz",
+    "sha256": "b306ac40bb9dd365b4b0b1b7291bf1d7c18f8e4d990f289928cce603ac526d1e",
+    "bytes": 6497671
+  },
+  {
+    "path": "compact_assets/LOADER_PARITY.json",
+    "sha256": "139ea041f390f2cdbcfa5d73b24d4675e705fe43ab26cee115ed08b68f298504",
+    "bytes": 286
+  },
+  {
+    "path": "compact_assets/PREDEFINED_G2M_PROGRAM.json",
+    "sha256": "ccd9e710ef7ef448c9234ca007ea02aef5c190157060d639d75b090b63b07895",
+    "bytes": 1515
+  },
+  {
+    "path": "compact_assets/PROVENANCE.json",
+    "sha256": "5dbaea82c61a7c916a28abeac4f00b87a565606c8e56971e92c7b318ba94243a",
+    "bytes": 1712
+  },
+  {
+    "path": "compact_loader.py",
+    "sha256": "058316282a7b3c0f75ae03aaecfa92f392ff80c134fd76156b53688465792a52",
+    "bytes": 2587
+  },
+  {
+    "path": "kernel_probe/run_reference_kernel.py",
+    "sha256": "92d5bb641622a877778cd434eb748555b80167c8ed77f1fcf67f627867767b92",
+    "bytes": 11647
+  },
+  {
+    "path": "kernel_probe/run_reference_kernel_source_v1.py",
+    "sha256": "4a5f755a96b74d94c2a581eac107b19eba5d1d071f85692b93198951ffdc69cc",
+    "bytes": 10975
+  },
+  {
+    "path": "model/export_deploy.py",
+    "sha256": "78c89ba594a23fdf894fadfe75725a40f99a75eee9d40fb8390309ed9693b4b9",
+    "bytes": 6164
+  },
+  {
+    "path": "model/predict_fixed.py",
+    "sha256": "2f39634ca70eb77c66e42fb62bd8db515e5a8489efe83c48cabe06980b167a0e",
+    "bytes": 2125
+  },
+  {
+    "path": "model/predict_program.py",
+    "sha256": "6677b5f4d710c1c6354850310138031d5ea65d8d6ee4d0eb3e3150a2ec853843",
+    "bytes": 2571
+  },
+  {
+    "path": "model/run_reference.py",
+    "sha256": "25c8d38a6f1c73fa4b7e2ccdee3535d8b80a5c3abac24a4cdecf2887c4759032",
+    "bytes": 15827
+  },
+  {
+    "path": "model/run_reference_v1.py",
+    "sha256": "50fed7f8f82b2e6f5f3ffdea15bd6c12f7d46b728be68db8a7c076ed612cbe8a",
+    "bytes": 14882
+  },
+  {
+    "path": "source_helpers/experiment_assets/WitnessCell_Partner_Component_Run_20261018/model/global_pair_model.py",
+    "sha256": "d19f8c423c4b8a693644381b0863e6a016300f51075a9e2fb1247cc605c2a404",
+    "bytes": 8410
+  },
+  {
+    "path": "source_helpers/run_bridge.py",
+    "sha256": "6233563df2616d30a70204b5361f354ac6cc848c6d4908353bd6875715d7e9ba",
+    "bytes": 20898
+  },
+  {
+    "path": "source_helpers/run_geometry_probe.py",
+    "sha256": "4b4bc54d53238f7be9eeeede4deca342b06dda2845bd8aa5b80ac2f68ca564cf",
+    "bytes": 10679
+  },
+  {
+    "path": "theory_audit/audit_real_reference.py",
+    "sha256": "94295f437d73f0192b493cede64b8a5de11bb136b5859338cdc12008710f8cff",
+    "bytes": 12854
+  },
+  {
+    "path": "theory_audit/check_reference_algebra.py",
+    "sha256": "def14c7acae0f2fb01de103b34a3e713a90d0dac7e89449cd78759b27f6ec30d",
+    "bytes": 7058
+  }
+]

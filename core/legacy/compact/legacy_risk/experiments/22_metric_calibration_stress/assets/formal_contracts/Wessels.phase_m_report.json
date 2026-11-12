@@ -1,0 +1,19 @@
+{
+  "status": "PASS_PREFREEZE_CANDIDATE_BLIND_CONTRACT",
+  "created_utc": "2026-08-11T06:01:44.634760+00:00",
+  "dataset": "Wessels",
+  "source_sha256": "02f35f93c250af2b718374c4dfb2fa77f3559b1eefbb7066b26cf8e6a9e02fa5",
+  "shape": [
+    19775,
+    5020
+  ],
+  "conditions": 128,
+  "supported_conditions": 128,
+  "evaluable_weight_conditions": 127,
+  "prepare_only": true,
+  "formal_rows": null,
+  "formal_evaluable_rows": null,
+  "contract_sha256": "68457b355312ae2422ce207842509a72da5bb688400a4a7d6530208b6e71809d",
+  "metric_validity_sha256": null,
+  "split_ledger_sha256": "012ecd1df234f2013afe86fdb96989207abfe601e280acb0b74e1387c3fd1189"
+}

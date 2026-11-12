@@ -1,0 +1,68 @@
+[
+  {
+    "after": "Distinguishing this case from improved partner prediction requires examining both the model's construction and",
+    "added_words": 62
+  },
+  {
+    "after": "The resulting predictor can use combination data even when some requested single effects have not been measure",
+    "added_words": 80
+  },
+  {
+    "after": "The contrast compares population responses measured under different conditions, without requiring the same cel",
+    "added_words": 94
+  },
+  {
+    "after": "This identity applies to the residual branch. The nonlinear baseline can already produce partner-dependent con",
+    "added_words": 73
+  },
+  {
+    "after": "RNA training measurements further control the correction applied to each transcript.",
+    "added_words": 88
+  },
+  {
+    "replaced": "Before a model can learn a partner response, its training measurements must distinguish the answers of interes",
+    "old_words": 17,
+    "new_words": 14
+  },
+  {
+    "after": "The joint intervention reveals a difference that additional observations of the same single knockouts cannot r",
+    "added_words": 82
+  },
+  {
+    "after": "The informative set instead distinguished the mechanisms responsible for the different query answers (Fig. 2c)",
+    "added_words": 63
+  },
+  {
+    "after": "These differences show why the aggregate result should be read alongside the underlying response errors.",
+    "added_words": 54
+  },
+  {
+    "replaced": "In K562, increasing the available combination measurements improved both baseline accuracy and the added corre",
+    "old_words": 92,
+    "new_words": 240
+  },
+  {
+    "after": "The demonstrated use is completion of an already substantially measured screen; the training fraction is neith",
+    "added_words": 66
+  },
+  {
+    "after": "The example-selection rule, both repeats and every eligible continuation are retained in the figure legend and",
+    "added_words": 64
+  },
+  {
+    "after": "The weights therefore regulate the fitted prediction without establishing reproducibility across independent b",
+    "added_words": 62
+  },
+  {
+    "after": "These results locate the useful correction in a small subset of measured responses rather than establish broad",
+    "added_words": 71
+  },
+  {
+    "after": "In this development panel, training-based shrinkage improved that balance; transfer of the RNA partner increme",
+    "added_words": 67
+  },
+  {
+    "after": "Broader RNA transfer and accurate functional prediction from very sparse combination data remain open.",
+    "added_words": 99
+  }
+]

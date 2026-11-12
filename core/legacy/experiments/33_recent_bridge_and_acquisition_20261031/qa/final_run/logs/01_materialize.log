@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "original_archives": 9,
+  "original_member_records": 3605,
+  "restored_paths": 3605,
+  "unique_file_contents": 2934,
+  "every_stored_original_file_sha256_verified": true,
+  "cache_files_to_regenerate": 3233,
+  "regeneration_command": "Use reproduce.py --out <fresh_directory> to restore all three cache families and verify all original files",
+  "numeric_precision_changed": false,
+  "zlib_runtime": "1.3.2"
+}

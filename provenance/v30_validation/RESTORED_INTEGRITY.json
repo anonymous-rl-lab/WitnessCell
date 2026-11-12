@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "release": "30.0.0",
+  "paper": "v39",
+  "physical_files_verified": 4246,
+  "exact_aliases": 802,
+  "restored_aliases_verified": 802,
+  "v39_source_files_verified": 327,
+  "derived_caches": 120,
+  "cache_byte_identity_checked": true,
+  "scope": "File integrity only; use reproduce.py for numerical acceptance."
+}

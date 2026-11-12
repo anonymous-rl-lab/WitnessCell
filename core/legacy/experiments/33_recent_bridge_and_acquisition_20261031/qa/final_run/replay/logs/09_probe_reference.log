@@ -1,0 +1,80 @@
+{
+  "scope": "Training background only; fixed original folds, parameters, D identities; no outer labels",
+  "rank2_replay_max_abs_diff": 0.0,
+  "full_spectral_ranks": [
+    40,
+    40,
+    39
+  ],
+  "results": {
+    "rank2": {
+      "oof_mse_each": [
+        0.00463892825059664,
+        0.002836432988676633
+      ],
+      "references": {
+        "POLN": [
+          0.001215294709317366,
+          0.0007215634841443022
+        ],
+        "TIMM22": [
+          0.001583800865756092,
+          0.0008555450162757198
+        ],
+        "MFAP1": [
+          0.00034499780890056674,
+          0.0005091594173739151
+        ],
+        "MRPS27": [
+          0.00243269712513893,
+          0.0010600102684121613
+        ],
+        "TRMT5": [
+          0.001215294709317366,
+          0.0007215634841443022
+        ],
+        "EXOSC2": [
+          0.0011633753353152353,
+          0.0010101791578890642
+        ]
+      }
+    },
+    "full": {
+      "oof_mse_each": [
+        0.004779776471166384,
+        0.0029642393117497506
+      ],
+      "references": {
+        "POLN": [
+          0.0011673165776268448,
+          0.0006853288493126518
+        ],
+        "TIMM22": [
+          0.0014310550999417923,
+          0.0008413383383328481
+        ],
+        "MFAP1": [
+          0.0003281178871570505,
+          0.0005305698534859131
+        ],
+        "MRPS27": [
+          0.0025479470967005964,
+          0.001107106219324317
+        ],
+        "TRMT5": [
+          0.0011673165776268448,
+          0.0006853288493126518
+        ],
+        "EXOSC2": [
+          0.0012315523184261506,
+          0.0010557642702862956
+        ]
+      }
+    }
+  },
+  "npz_opened": [
+    "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/admission_calibration_20261031/public/background.npz",
+    "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/admission_calibration_20261031/frozen/background_oof.npz"
+  ],
+  "interpretation": "Posthoc diagnostic, not a validated replacement policy"
+}

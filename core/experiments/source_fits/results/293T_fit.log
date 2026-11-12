@@ -1,0 +1,4 @@
+{"cell": "293T", "phase": "inner_complete", "fold": 0, "seconds": 0.49399930800063885}
+{"cell": "293T", "phase": "inner_complete", "fold": 1, "seconds": 1.0331551290000789}
+{"cell": "293T", "phase": "inner_complete", "fold": 2, "seconds": 1.6164975930005312}
+{"cell": "293T", "phase": "frozen", "selected": {"key": "native_product_l100", "eligible": true, "reason": "RNA_feasible_interval", "beta": 0.8701480517752104, "partner_sse": 2.489993854752595, "rna_sse": 3.335664922607225, "interval_low": 0.0, "interval_high": 2.0438819705711073, "guard_delta": -0.015544793604577833, "stats": {"C_e2": 2.4998408489252997, "C_ea": -0.011316458334436093, "C_a2": 0.01300521021836354, "RNA_e2": 3.3512097162118026, "RNA_ea": -0.015554210419909384, "RNA_a2": 0.015220262856531958}}, "seconds": 2.28132714900039}

@@ -1,0 +1,4 @@
+{"cell": "HeLa", "phase": "inner_complete", "fold": 0, "seconds": 0.8173866320003071}
+{"cell": "HeLa", "phase": "inner_complete", "fold": 1, "seconds": 1.5838588600008734}
+{"cell": "HeLa", "phase": "inner_complete", "fold": 2, "seconds": 2.37039637900034}
+{"cell": "HeLa", "phase": "frozen", "selected": {"key": "native_product_l100", "eligible": true, "reason": "RNA_feasible_interval", "beta": 1.1699457476364432, "partner_sse": 2.7989391026575476, "rna_sse": 3.75755813889835, "interval_low": 0.0, "interval_high": 2.327667296227372, "guard_delta": -0.005155000957835831, "stats": {"C_e2": 2.803316889168647, "C_ea": -0.0037418713815944634, "C_a2": 0.0031983289730775086, "RNA_e2": 3.762713139856186, "RNA_ea": -0.004429450159475476, "RNA_a2": 0.0038059134711001218}}, "seconds": 3.1649212940001235}

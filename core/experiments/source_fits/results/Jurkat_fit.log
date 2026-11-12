@@ -1,0 +1,4 @@
+{"cell": "Jurkat", "phase": "inner_complete", "fold": 0, "seconds": 0.6631695360001686}
+{"cell": "Jurkat", "phase": "inner_complete", "fold": 1, "seconds": 1.1749863490003918}
+{"cell": "Jurkat", "phase": "inner_complete", "fold": 2, "seconds": 1.7652893830008907}
+{"cell": "Jurkat", "phase": "frozen", "selected": {"key": "next2_nonlinear_l0.1", "eligible": true, "reason": "RNA_feasible_interval", "beta": 1.054097046195282, "partner_sse": 3.806920515415905, "rna_sse": 4.5755596629529425, "interval_low": 0.0, "interval_high": 2.0234146757058173, "guard_delta": -0.30359419875399585, "stats": {"C_e2": 4.091643227812881, "C_ea": -0.27011053054808404, "C_a2": 0.25624825676443774, "RNA_e2": 4.879153861706938, "RNA_ea": -0.3006087796708929, "RNA_a2": 0.2971301763105312}}, "seconds": 2.432311058000778}

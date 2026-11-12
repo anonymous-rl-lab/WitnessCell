@@ -1,0 +1,463 @@
+{
+  "contract": "A frozen v13 score is reused only when all arrays in the target-free v14 and v13 deployment archives are exactly equal.",
+  "inactive_splits": 4,
+  "records": [
+    {
+      "all_arrays_exact_equal": true,
+      "array_count": 13,
+      "arrays": [
+        {
+          "array": "dataset",
+          "dtype": "<U7",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "seed",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "conditions",
+          "dtype": "<U18",
+          "exact_equal": true,
+          "shape": [
+            28
+          ]
+        },
+        {
+          "array": "subgroups",
+          "dtype": "<U13",
+          "exact_equal": true,
+          "shape": [
+            28
+          ]
+        },
+        {
+          "array": "genes",
+          "dtype": "<U10",
+          "exact_equal": true,
+          "shape": [
+            5005
+          ]
+        },
+        {
+          "array": "prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            28,
+            5005
+          ]
+        },
+        {
+          "array": "factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            28,
+            5005
+          ]
+        },
+        {
+          "array": "baseline_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            28,
+            5005
+          ]
+        },
+        {
+          "array": "baseline_factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            28,
+            5005
+          ]
+        },
+        {
+          "array": "control",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5005
+          ]
+        },
+        {
+          "array": "control_variance",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5005
+          ]
+        },
+        {
+          "array": "control_count",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "test_cell_counts",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": [
+            28
+          ]
+        }
+      ],
+      "dataset": "Schmidt",
+      "seed": 3,
+      "v13_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/18_dual_head_evidence_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "v13_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72",
+      "v14_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Schmidt/seed3/deploy_predictions.npz",
+      "v14_sha256": "abba5e51f11359da2c36ada0740cc61ce7a154a9c11690ffd7aa51096f0cab72"
+    },
+    {
+      "all_arrays_exact_equal": true,
+      "array_count": 13,
+      "arrays": [
+        {
+          "array": "dataset",
+          "dtype": "<U7",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "seed",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "conditions",
+          "dtype": "<U15",
+          "exact_equal": true,
+          "shape": [
+            65
+          ]
+        },
+        {
+          "array": "subgroups",
+          "dtype": "<U13",
+          "exact_equal": true,
+          "shape": [
+            65
+          ]
+        },
+        {
+          "array": "genes",
+          "dtype": "<U15",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            65,
+            5020
+          ]
+        },
+        {
+          "array": "factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            65,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            65,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            65,
+            5020
+          ]
+        },
+        {
+          "array": "control",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_variance",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_count",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "test_cell_counts",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": [
+            65
+          ]
+        }
+      ],
+      "dataset": "Wessels",
+      "seed": 1,
+      "v13_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "v13_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7",
+      "v14_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/deploy_predictions.npz",
+      "v14_sha256": "0edb66de7fc1cdf408a67985c6c8320a72f5cd7bd6b35d9945c6070f595b3cc7"
+    },
+    {
+      "all_arrays_exact_equal": true,
+      "array_count": 13,
+      "arrays": [
+        {
+          "array": "dataset",
+          "dtype": "<U7",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "seed",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "conditions",
+          "dtype": "<U13",
+          "exact_equal": true,
+          "shape": [
+            55
+          ]
+        },
+        {
+          "array": "subgroups",
+          "dtype": "<U13",
+          "exact_equal": true,
+          "shape": [
+            55
+          ]
+        },
+        {
+          "array": "genes",
+          "dtype": "<U15",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            55,
+            5020
+          ]
+        },
+        {
+          "array": "factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            55,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            55,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            55,
+            5020
+          ]
+        },
+        {
+          "array": "control",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_variance",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_count",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "test_cell_counts",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": [
+            55
+          ]
+        }
+      ],
+      "dataset": "Wessels",
+      "seed": 2,
+      "v13_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "v13_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd",
+      "v14_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/deploy_predictions.npz",
+      "v14_sha256": "cad88f89ede0e968f368c25dcbd461379c90ae9bc83ded84e8252c0861a730dd"
+    },
+    {
+      "all_arrays_exact_equal": true,
+      "array_count": 13,
+      "arrays": [
+        {
+          "array": "dataset",
+          "dtype": "<U7",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "seed",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "conditions",
+          "dtype": "<U14",
+          "exact_equal": true,
+          "shape": [
+            67
+          ]
+        },
+        {
+          "array": "subgroups",
+          "dtype": "<U13",
+          "exact_equal": true,
+          "shape": [
+            67
+          ]
+        },
+        {
+          "array": "genes",
+          "dtype": "<U15",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            67,
+            5020
+          ]
+        },
+        {
+          "array": "factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            67,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            67,
+            5020
+          ]
+        },
+        {
+          "array": "baseline_factorized_prediction",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            67,
+            5020
+          ]
+        },
+        {
+          "array": "control",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_variance",
+          "dtype": "float32",
+          "exact_equal": true,
+          "shape": [
+            5020
+          ]
+        },
+        {
+          "array": "control_count",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": []
+        },
+        {
+          "array": "test_cell_counts",
+          "dtype": "int64",
+          "exact_equal": true,
+          "shape": [
+            67
+          ]
+        }
+      ],
+      "dataset": "Wessels",
+      "seed": 3,
+      "v13_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/18_dual_head_evidence_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "v13_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c",
+      "v14_archive": "/workspace/scratch/ce3561085dd0/run_v14_sixmetric/grn_repo_v14/experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/deploy_predictions.npz",
+      "v14_sha256": "b627b8e7d2def7b383e0f46a8911f67ff91db2bb9f118209262a03431441165c"
+    }
+  ],
+  "status": "PASS_EXACT_FALLBACK_AUDIT"
+}

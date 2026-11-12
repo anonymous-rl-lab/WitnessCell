@@ -1,0 +1,294 @@
+{
+  "utc": "2026-10-20T12:41:10.127973+00:00",
+  "purpose": "development comparison of complete tuned M0 across four measurement estimators",
+  "training_measurements": "full allowed condition-by-library means; never held-out query measurements",
+  "evaluation": "same held-out combinations scored independently against each raw half direct7pi reference, then condition-equal mean",
+  "clarification": "Full-depth training; not half-to-opposite-half training. Two technical references, not independent biological replication.",
+  "arms": [
+    "raw",
+    "B1_direct7",
+    "B2_cal9",
+    "B2_cal7"
+  ],
+  "pi": [
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.14285714285714285,
+    0.0,
+    0.14285714285714285,
+    0.0
+  ],
+  "source_conditions": [
+    "CDX1+GFP",
+    "FERD3L+GFP",
+    "FLI1+GFP",
+    "GFP+HNF4A",
+    "GFP+KLF4",
+    "GFP+MSGN1",
+    "GFP+NHLH1",
+    "GFP+NR5A2",
+    "GFP+PAX5",
+    "GFP+PTF1A",
+    "CDX1+HNF4A",
+    "CDX1+KLF4",
+    "CDX1+MSGN1",
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+KLF4",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FERD3L+NR5A2",
+    "FERD3L+PAX5",
+    "FERD3L+PTF1A",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PAX5",
+    "FLI1+PTF1A",
+    "HNF4A+NHLH1",
+    "HNF4A+NR5A2",
+    "HNF4A+PTF1A",
+    "KLF4+PTF1A",
+    "MSGN1+NHLH1",
+    "MSGN1+NR5A2",
+    "MSGN1+PTF1A",
+    "NHLH1+PAX5"
+  ],
+  "eligible_test_conditions": [
+    "CDX1+HNF4A",
+    "CDX1+MSGN1",
+    "CDX1+NHLH1",
+    "CDX1+NR5A2",
+    "CDX1+PTF1A",
+    "FERD3L+KLF4",
+    "FERD3L+MSGN1",
+    "FERD3L+NHLH1",
+    "FERD3L+NR5A2",
+    "FERD3L+PAX5",
+    "FERD3L+PTF1A",
+    "FLI1+MSGN1",
+    "FLI1+NHLH1",
+    "FLI1+NR5A2",
+    "FLI1+PTF1A",
+    "HNF4A+NHLH1",
+    "HNF4A+PTF1A",
+    "MSGN1+NHLH1",
+    "MSGN1+NR5A2",
+    "MSGN1+PTF1A",
+    "NHLH1+PAX5"
+  ],
+  "outer_folds": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    -1,
+    1,
+    4,
+    0,
+    3,
+    2,
+    3,
+    0,
+    3,
+    2,
+    1,
+    2,
+    4,
+    4,
+    4,
+    1,
+    3,
+    0,
+    2,
+    2,
+    1,
+    3,
+    4,
+    1,
+    0,
+    0
+  ],
+  "inner_validation_local_pair_ids": {
+    "0": [
+      [
+        0,
+        1,
+        3,
+        5,
+        11,
+        17,
+        19
+      ],
+      [
+        9,
+        10,
+        14,
+        15,
+        18,
+        20,
+        21
+      ],
+      [
+        4,
+        7,
+        8,
+        12,
+        13,
+        22
+      ]
+    ],
+    "1": [
+      [
+        1,
+        2,
+        5,
+        7,
+        11,
+        12,
+        20
+      ],
+      [
+        3,
+        4,
+        16,
+        17,
+        18,
+        23,
+        24
+      ],
+      [
+        6,
+        8,
+        10,
+        13,
+        15,
+        21
+      ]
+    ],
+    "2": [
+      [
+        0,
+        1,
+        2,
+        5,
+        7,
+        11,
+        19,
+        20
+      ],
+      [
+        3,
+        12,
+        13,
+        15,
+        21,
+        24
+      ],
+      [
+        6,
+        9,
+        14,
+        16,
+        22,
+        23
+      ]
+    ],
+    "3": [
+      [
+        9,
+        10,
+        11,
+        13,
+        14,
+        16,
+        24
+      ],
+      [
+        0,
+        2,
+        4,
+        6,
+        8,
+        18,
+        22
+      ],
+      [
+        1,
+        12,
+        17,
+        19,
+        21,
+        23
+      ]
+    ],
+    "4": [
+      [
+        3,
+        5,
+        6,
+        7,
+        17,
+        19,
+        20,
+        23
+      ],
+      [
+        0,
+        2,
+        4,
+        16,
+        18,
+        22
+      ],
+      [
+        8,
+        9,
+        10,
+        14,
+        15,
+        24
+      ]
+    ]
+  },
+  "baseline": {
+    "source_sha256": "fb81189d4801882e58905de8473a88d6da02829ae0354856bbc7f2075f1d8e22",
+    "alphas": [
+      0.0,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.5,
+      null
+    ],
+    "noises": [
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1.0
+    ],
+    "gamma_range": [
+      0,
+      1
+    ]
+  },
+  "inner_target": "uncorrected full fixed7pi conditional means, same all arms; validation labels used only candidate risk",
+  "nested_refit": "Each innerfit recalibrates only innertrainingpairs+10singles, then rebuilds single origin and additive backbone.",
+  "candidate_selection": "Analytic pooled OOF gamma; minimum risk, then larger noise, then alpha order; original source tie rules.",
+  "full_M0_identity": "Same formal family and candidate grid; common-reference objective and nested preprocessing are new.",
+  "run_bound_seconds": 300,
+  "pilot": "outer fold0 all arms then remaining fixed folds if runtime/invariants permit, regardless of gains",
+  "never_access": "original15query expression, real test labels, other data files",
+  "code_sha256": "5aad050a258c3818f42cb80d63401ab3778e24c348a15e96084b5b8c01b21a1c"
+}

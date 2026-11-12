@@ -1,0 +1,374 @@
+{
+  "reliability": 0.0718629218181351,
+  "models": {
+    "native_decomp_t0.3_n0.1": {
+      "converged": true,
+      "stationarity_relative": 1.622194119359292e-08
+    },
+    "projected_rank1_t0.3_n0.1": {
+      "converged": true,
+      "stationarity_relative": 7.184858299137291e-08,
+      "starts": [
+        {
+          "objective": 0.000291501411302958,
+          "stationarity_relative": 7.184858299137291e-08,
+          "converged": true,
+          "nit": 31
+        },
+        {
+          "objective": 0.00029321355356441063,
+          "stationarity_relative": 3.016409924016802e-08,
+          "converged": true,
+          "nit": 36
+        },
+        {
+          "objective": 0.0002915014113029996,
+          "stationarity_relative": 1.2541024432348505e-07,
+          "converged": true,
+          "nit": 41
+        },
+        {
+          "objective": 0.00029321355356444343,
+          "stationarity_relative": 7.949578794891201e-08,
+          "converged": true,
+          "nit": 47
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        }
+      ]
+    },
+    "native_decomp_t0.1_n0.1": {
+      "converged": true,
+      "stationarity_relative": 1.5903954983438412e-08
+    },
+    "projected_rank1_t0.1_n0.1": {
+      "converged": true,
+      "stationarity_relative": 2.8664432459232263e-08,
+      "starts": [
+        {
+          "objective": 0.00028494070645358456,
+          "stationarity_relative": 2.8664432459232263e-08,
+          "converged": true,
+          "nit": 33
+        },
+        {
+          "objective": 0.000286827017912368,
+          "stationarity_relative": 1.227107689779074e-07,
+          "converged": true,
+          "nit": 36
+        },
+        {
+          "objective": 0.00028494070645363715,
+          "stationarity_relative": 1.8810836005403638e-07,
+          "converged": true,
+          "nit": 41
+        },
+        {
+          "objective": 0.00028682701791237533,
+          "stationarity_relative": 1.571958228102941e-07,
+          "converged": true,
+          "nit": 45
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        },
+        {
+          "objective": 0.0002868270179156776,
+          "stationarity_relative": 1.2999523346825495e-06,
+          "converged": false,
+          "nit": 34
+        }
+      ]
+    },
+    "native_decomp_t0.03_n0.1": {
+      "converged": true,
+      "stationarity_relative": 5.913005596088855e-09
+    },
+    "projected_rank1_t0.03_n0.1": {
+      "converged": true,
+      "stationarity_relative": 3.362268683593453e-08,
+      "starts": [
+        {
+          "objective": 0.00028223056640324523,
+          "stationarity_relative": 3.362268683593453e-08,
+          "converged": true,
+          "nit": 35
+        },
+        {
+          "objective": 0.0002841129725777016,
+          "stationarity_relative": 2.5550107291196714e-08,
+          "converged": true,
+          "nit": 35
+        },
+        {
+          "objective": 0.0002822305664033108,
+          "stationarity_relative": 1.5857251561575342e-07,
+          "converged": true,
+          "nit": 45
+        },
+        {
+          "objective": 0.00028411297257770673,
+          "stationarity_relative": 1.0961354518508155e-07,
+          "converged": true,
+          "nit": 43
+        },
+        {
+          "objective": 0.0002822305664157962,
+          "stationarity_relative": 2.7915877069017625e-06,
+          "converged": false,
+          "nit": 34
+        },
+        {
+          "objective": 0.0002841129725961125,
+          "stationarity_relative": 3.174822919087824e-06,
+          "converged": false,
+          "nit": 31
+        }
+      ]
+    },
+    "native_decomp_t0.01_n0.1": {
+      "converged": true,
+      "stationarity_relative": 7.094722728672471e-09
+    },
+    "projected_rank1_t0.01_n0.1": {
+      "converged": true,
+      "stationarity_relative": 2.640477210009005e-08,
+      "starts": [
+        {
+          "objective": 0.00028141517059474783,
+          "stationarity_relative": 2.640477210009005e-08,
+          "converged": true,
+          "nit": 36
+        },
+        {
+          "objective": 0.00028328664249961677,
+          "stationarity_relative": 3.415332697454733e-08,
+          "converged": true,
+          "nit": 35
+        },
+        {
+          "objective": 0.0002814151705948197,
+          "stationarity_relative": 1.7677906736606125e-07,
+          "converged": true,
+          "nit": 45
+        },
+        {
+          "objective": 0.0002832866424996315,
+          "stationarity_relative": 1.0449826778826524e-07,
+          "converged": true,
+          "nit": 41
+        },
+        {
+          "objective": 0.00028141517066794736,
+          "stationarity_relative": 7.816821199069316e-06,
+          "converged": false,
+          "nit": 32
+        },
+        {
+          "objective": 0.00028328664253585747,
+          "stationarity_relative": 4.2880647133127964e-06,
+          "converged": false,
+          "nit": 32
+        }
+      ]
+    },
+    "native_decomp_t0.3_n1": {
+      "converged": true,
+      "stationarity_relative": 1.6692661285517618e-08
+    },
+    "projected_rank1_t0.3_n1": {
+      "converged": true,
+      "stationarity_relative": 2.29120211244846e-08,
+      "starts": [
+        {
+          "objective": 0.0002958941817921735,
+          "stationarity_relative": 2.29120211244846e-08,
+          "converged": true,
+          "nit": 27
+        },
+        {
+          "objective": 0.0002970095102254371,
+          "stationarity_relative": 2.752521597114618e-08,
+          "converged": true,
+          "nit": 36
+        },
+        {
+          "objective": 0.00029589418179281127,
+          "stationarity_relative": 3.607778902059269e-07,
+          "converged": true,
+          "nit": 39
+        },
+        {
+          "objective": 0.0002970095102257987,
+          "stationarity_relative": 2.9459697217406424e-07,
+          "converged": true,
+          "nit": 53
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        }
+      ]
+    },
+    "native_decomp_t0.1_n1": {
+      "converged": true,
+      "stationarity_relative": 1.6073777165247013e-08
+    },
+    "projected_rank1_t0.1_n1": {
+      "converged": true,
+      "stationarity_relative": 2.9293394095656228e-08,
+      "starts": [
+        {
+          "objective": 0.00029228457930691637,
+          "stationarity_relative": 2.9293394095656228e-08,
+          "converged": true,
+          "nit": 27
+        },
+        {
+          "objective": 0.00029366026151385734,
+          "stationarity_relative": 2.8225407255123412e-08,
+          "converged": true,
+          "nit": 34
+        },
+        {
+          "objective": 0.0002922845793069458,
+          "stationarity_relative": 1.7480557270656465e-07,
+          "converged": true,
+          "nit": 42
+        },
+        {
+          "objective": 0.0002936602615139595,
+          "stationarity_relative": 1.1706676299711796e-07,
+          "converged": true,
+          "nit": 52
+        },
+        {
+          "objective": 0.0003014055254625976,
+          "stationarity_relative": 0.0,
+          "converged": true,
+          "nit": 0
+        },
+        {
+          "objective": 0.0002936602615184809,
+          "stationarity_relative": 9.240155911570847e-07,
+          "converged": true,
+          "nit": 34
+        }
+      ]
+    },
+    "native_decomp_t0.03_n1": {
+      "converged": true,
+      "stationarity_relative": 1.983475386591005e-08
+    },
+    "projected_rank1_t0.03_n1": {
+      "converged": true,
+      "stationarity_relative": 6.594265747262555e-08,
+      "starts": [
+        {
+          "objective": 0.0002908060935425796,
+          "stationarity_relative": 6.594265747262555e-08,
+          "converged": true,
+          "nit": 25
+        },
+        {
+          "objective": 0.0002922622297365765,
+          "stationarity_relative": 1.4269858758927282e-08,
+          "converged": true,
+          "nit": 38
+        },
+        {
+          "objective": 0.0002908060935426299,
+          "stationarity_relative": 1.0964444136567647e-07,
+          "converged": true,
+          "nit": 42
+        },
+        {
+          "objective": 0.0002922622297366478,
+          "stationarity_relative": 1.5262068893161997e-07,
+          "converged": true,
+          "nit": 51
+        },
+        {
+          "objective": 0.0002908060935642592,
+          "stationarity_relative": 2.275286020334224e-06,
+          "converged": false,
+          "nit": 27
+        },
+        {
+          "objective": 0.00029226222976829044,
+          "stationarity_relative": 2.0099301793917145e-06,
+          "converged": false,
+          "nit": 33
+        }
+      ]
+    },
+    "native_decomp_t0.01_n1": {
+      "converged": true,
+      "stationarity_relative": 8.564036574825052e-09
+    },
+    "projected_rank1_t0.01_n1": {
+      "converged": true,
+      "stationarity_relative": 2.4650947971942944e-08,
+      "starts": [
+        {
+          "objective": 0.0002903631270961101,
+          "stationarity_relative": 2.4650947971942944e-08,
+          "converged": true,
+          "nit": 28
+        },
+        {
+          "objective": 0.0002918411678413131,
+          "stationarity_relative": 1.711347854602554e-08,
+          "converged": true,
+          "nit": 37
+        },
+        {
+          "objective": 0.00029036312709612645,
+          "stationarity_relative": 1.5308961089504316e-07,
+          "converged": true,
+          "nit": 41
+        },
+        {
+          "objective": 0.0002918411678413914,
+          "stationarity_relative": 1.6351081872662583e-07,
+          "converged": true,
+          "nit": 51
+        },
+        {
+          "objective": 0.00029036312711635317,
+          "stationarity_relative": 5.2906412543327e-06,
+          "converged": false,
+          "nit": 28
+        },
+        {
+          "objective": 0.00029184116784864686,
+          "stationarity_relative": 1.1733530950647894e-06,
+          "converged": false,
+          "nit": 34
+        }
+      ]
+    }
+  },
+  "seconds": 3.359266750999268
+}

@@ -1,0 +1,749 @@
+{
+  "status": "PASS",
+  "mode": "all",
+  "new_scientific_experiment": false,
+  "source_inputs_read_only": true,
+  "max_seconds": 600.0,
+  "steps": {
+    "seen_statistics": {
+      "status": "PASS",
+      "comparison_rule": "all statistical fields; exact text/counts and finite floats within atol/rtol",
+      "absolute_tolerance": 1e-12,
+      "relative_tolerance": 1e-12,
+      "numeric_values_compared": 10096,
+      "maximum_absolute_numeric_difference": 0.0,
+      "excluded_top_level_fields": [
+        "completed_utc",
+        "elapsed_seconds",
+        "freeze_sha256"
+      ],
+      "results_groups_compared": 480,
+      "effect_quartile_control_groups_compared": 2,
+      "confidence_intervals_compared": 962,
+      "reproduction": "delivered seen analysis, unchanged protocol and risk methods",
+      "reference_results_sha256": "ce309c44e0d6768fb7911bc67e52af0a5e9c28a431b9f9683709ddeaee2c6659",
+      "reproduced_results_sha256": "22f7899d35f7f748601d83738b9f723b770c70d94368b852baab708714dbbe67",
+      "frozen_script_sha256": "c734b294eb3ffc3fe62a05bbcf8ba15ee23d4c6484af615c5cf0068d6dfb34c4",
+      "frozen_plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+      "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+      "elapsed_seconds": 3.6510995680000633,
+      "temporary_source_removed": true,
+      "output_directory": "/tmp/witnesscell_e25_storage_audit_replay/seen_reproduction",
+      "reproduced_results": "/tmp/witnesscell_e25_storage_audit_replay/seen_reproduction/seen/evaluation/results.json"
+    },
+    "seen_frozen_artifacts": {
+      "status": "PASS",
+      "risk_scores_decisions_models_and_losses": [
+        {
+          "path": "results/Norman_seed1/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed1/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed2/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Norman_seed3/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed1/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed2/new_scored_queries.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_frozen_scores.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_frozen_decisions.csv",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_risk_models.json",
+          "byte_exact": true
+        },
+        {
+          "path": "results/Wessels_seed3/new_scored_queries.csv",
+          "byte_exact": true
+        }
+      ],
+      "bootstrap_arrays": {
+        "path": "seen/evaluation/bootstrap_ratios.npz",
+        "status": "PASS",
+        "npy_members_bit_exact": 482,
+        "npz_archive_byte_exact": true
+      }
+    },
+    "witness": {
+      "status": "PASS",
+      "scope": "endpoint-to-statistics",
+      "new_scientific_experiment": false,
+      "original_inputs_modified": false,
+      "canonical_input_checks": [
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/compare_v14_v13.py",
+          "sha256": "b4542d60619b26f596583e3fc3968ff8bbc51a58ed48648595d0180f879a59a0",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/dual_head.py",
+          "sha256": "f5f1abb1ed8f229c1de4579e2cb1d830115df10e6d65f2ef50ddca384432f837",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/go_identity_head.py",
+          "sha256": "d50d8dd47472eca032c4f438a21fbac3fb3a20400428f7b418b36b6e19fdc9fa",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/identity_head.py",
+          "sha256": "6c666709cf0d42bb5a57a98e820c7ec7a4b3a32237fdfc2e924e8de7b3caa89f",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/multihead_v14.py",
+          "sha256": "d5526d7de72e8a7696c2f628c59c42e1e82558b61adfb98e8524ec52f7787409",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/official_split.py",
+          "sha256": "24ca24c37801cb63d386c2a1eff303d002e52fd764e51e3066df4f64ae85146e",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/probe_multhead_training.py",
+          "sha256": "65298e95b064414bdab8cf25643b1e1a7703e10f783c04e3ce07694e063f7176",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/run_v14_from_cache.py",
+          "sha256": "1dada7fe0da457fdc95dc7bfa8b4390caa6238191a59b0ff3d510796c4c1229f",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v1_core.py",
+          "sha256": "64bd372a3ec037a500e4cd5679adbc3f3fe3168c897a26f15b444ced2e5496e7",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/src/witnesscell_v4_core.py",
+          "sha256": "8841a49ecf266da1e28acdfb4f604f5f33fdb6783faa4701d4a624307c729e75",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/fast_amplitude_bank.py",
+          "sha256": "ae3b5d67f1ed49b8fe6648f7e6663a1848f9961ba04822c0e7e777a5a4480987",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/baselines.py",
+          "sha256": "b766dd66a640e47d10834f01b74713703c15f134f9c2f168cf38a778e82740bd",
+          "status": "PASS"
+        },
+        {
+          "scope": "supplement",
+          "path": "wessels_witness/witness_quantity.py",
+          "sha256": "7c3623d3b83e2ad32e751f5a973e027a684f7add154f03eb990c1d4c86aed704",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/15_scperturbench_sota/module/data/gears_assets/gene2go_all.pkl",
+          "sha256": "f145c5e84a53048d87942a417d870a4f2d8db50200b96e492b358c13aba8c771",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/allowed_input.npz",
+          "sha256": "10eeb1eb8c83494c27bdc883316d8bd05fe2ad5ab7922dfcbc5d38c27c190e6c",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/fits/full_replay.json",
+          "sha256": "972e23ca2ff80c19e47519e8c897e506ba7c8a9d66a56dd0fe0a3d43cebca75d",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/baseline_predictions.npz",
+          "sha256": "922746bd7fa13a923e50c22cc7bdfb238b30f7b7b7376ce328678395167456c8",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed1/evaluation_only.npz",
+          "sha256": "caa72b18e417e07287abb42f46b733e1c2cdcfa11e9faa238427f5d4ec14473c",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed1/manifest.json",
+          "sha256": "752410c2684bab38b5b72d9509c005b4f0b95cbd290fe0bca94176cf59d84e2b",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/allowed_input.npz",
+          "sha256": "0377171654e02f6385cfdba740ff7af645b0331b5b3976374e076130df9b5bec",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/fits/full_replay.json",
+          "sha256": "f224235dc18c79f127e10ff982e78fc942878c446e800d9cf9e85f051a657c5f",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/baseline_predictions.npz",
+          "sha256": "060f27dc662bf273c4555da12acefa7c9579f097b698bb6f6d144b7037487276",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed2/evaluation_only.npz",
+          "sha256": "d629bfda826e1d6c4ee2788284f9703a724cf70566a84c0fa9400323fdfc6536",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed2/manifest.json",
+          "sha256": "fa9127a386ab0818a3ad16ca7c8bc40e82371d8d66794c84e60ab02078ea1d7e",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/allowed_input.npz",
+          "sha256": "820d5d86d13c2398259f5bcd7da6612d7bf84dd3b3fc2f39c2c4959b92304d71",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/fits/full_replay.json",
+          "sha256": "3be8e5e10516c7408735343e6a50d34e0a3d46b45e46340a139a9d730cdb5b2e",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/baseline_predictions.npz",
+          "sha256": "f8f92ae15600cf794b3ea93d3285c9b5d61a4603d478248b9fc0c08518b1c5bb",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/23_joint_prediction_risk_step1/witnesscell_step1_run/results/Wessels_seed3/evaluation_only.npz",
+          "sha256": "b2f3c23026df60779f23a74acff042430a446d7d580c15f579a2ba9166ff9e0e",
+          "status": "PASS"
+        },
+        {
+          "scope": "repository",
+          "path": "experiments/19_v14_incremental_amplitude_gate/predictions/formal_combo/Wessels/seed3/manifest.json",
+          "sha256": "4ac686adee7003147607cda56bb4a54ce6692e9fbefc81e9630edb720b058ab5",
+          "status": "PASS"
+        }
+      ],
+      "prediction_and_loss_replay": {
+        "status": "PASS",
+        "scope": "Prediction and loss reproduction from frozen numerical state only",
+        "endpoint_training_reproduced": false,
+        "endpoint_training_requirement": "Reproducing the original endpoint training still requires the old training/GO/source assets; this verifier does not validate that training stage",
+        "old_repo_or_go_access_required": false,
+        "input_files_modified": false,
+        "unique_predictions_replayed": 21,
+        "logical_settings": 27,
+        "prediction_elements_replayed": 6360340,
+        "all_predictions_float32_exact": true,
+        "prediction_checks": [
+          {
+            "path": "seed1/prediction_order1_pct025.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_order1_pct050.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_full.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_order2_pct025.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_order2_pct050.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_order3_pct025.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed1/prediction_order3_pct050.npz",
+            "shape": [
+              63,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order1_pct025.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order1_pct050.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_full.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order2_pct025.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order2_pct050.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order3_pct025.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed2/prediction_order3_pct050.npz",
+            "shape": [
+              54,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order1_pct025.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order1_pct050.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_full.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order2_pct025.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order2_pct050.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order3_pct025.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          },
+          {
+            "path": "seed3/prediction_order3_pct050.npz",
+            "shape": [
+              64,
+              5020
+            ],
+            "float32_exact": true,
+            "exact_unequal_elements": 0,
+            "max_abs_error": 0.0,
+            "all_elements_within_tolerance": true
+          }
+        ],
+        "query_loss_rows_verified": 1629,
+        "fixed_comparator_loss_rows_verified": 543,
+        "loss_max_abs_difference": {
+          "loss_mse": 0.0,
+          "loss_wmse": 0.0
+        },
+        "tolerances": {
+          "prediction_atol": 1e-06,
+          "prediction_rtol": 1e-06,
+          "loss_atol": 1e-12,
+          "loss_rtol": 1e-10
+        },
+        "evaluation_input_bytes": 9819542,
+        "elapsed_seconds": 0.40271843899972737
+      },
+      "endpoint_training_reconstructed_by_adapter": true,
+      "endpoint_training_note": "The nested original verifier concerns numerical state only; before calling it, this adapter refitted the three original endpoint states using canonical final-v14 code and condition aggregates, and checked all original state array bytes. Canonical code and GO inputs are required for this added replay stage.",
+      "reconstructed_array_checks": [
+        {
+          "path": "wessels_witness/seed1/frozen_state.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 15,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_full.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order1_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order1_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order2_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order2_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order3_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed1/prediction_order3_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/frozen_state.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 15,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_full.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order1_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order1_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order2_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order2_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order3_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed2/prediction_order3_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/frozen_state.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 15,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_full.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order1_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order1_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order2_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order2_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order3_pct025.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        },
+        {
+          "path": "wessels_witness/seed3/prediction_order3_pct050.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 6,
+          "npz_archive_byte_exact": true
+        }
+      ],
+      "statistics_replay": {
+        "maximum_absolute_numeric_difference": 0.0,
+        "numeric_values_compared": 173,
+        "status": "PASS",
+        "all_reported_summary_fields_compared": true,
+        "bootstrap_replicates": 5000,
+        "absolute_tolerance": 1e-12,
+        "relative_tolerance": 1e-12,
+        "bootstrap_arrays": {
+          "path": "wessels_witness/statistics/bootstrap_draws.npz",
+          "status": "PASS",
+          "npy_members_bit_exact": 8,
+          "npz_archive_byte_exact": true
+        }
+      },
+      "elapsed_seconds": 5.351057278003282
+    }
+  },
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "elapsed_seconds": 9.317381535001914
+}

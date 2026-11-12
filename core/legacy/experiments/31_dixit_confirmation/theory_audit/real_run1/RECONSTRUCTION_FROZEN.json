@@ -1,0 +1,5 @@
+{
+  "prediction_sha256": "2484cbf35cbedf5b86a78c6c30e4e2855d6297af94bb64987a419c1b0fa5dcd2",
+  "evaluation_labels_opened": false,
+  "reconstruction": "saved training residuals; direct linear solve; complete-graph closed-form reference endpoint removal"
+}

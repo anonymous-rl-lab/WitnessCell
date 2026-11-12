@@ -1,0 +1,72 @@
+WitnessCell Dixit: candidate-batch-independent program prediction
+Development protocol, 2026-10-20 (Asia/Shanghai)
+
+Status and evidence boundary
+This is a follow-up development experiment on previously inspected Dixit data.
+The prior native-RNA primary and G2M results remain unchanged. No new independent
+confirmation is asserted. All methods, including negative probes, are retained.
+
+Question
+Can a learned G2M partner correction be delivered for a single combination,
+unchanged when other requested combinations are added, removed, reordered or
+chunked, while improving total program prediction error over the same scalar
+saturation baseline?
+
+Frozen information contract
+Reuse the original 45 pairs, 10 measured-single endpoints and three outer folds.
+Use the pre-existing G2M list (52 uniquely mapped non-target readouts), original
+full-RNA measured-single product kernel, fit-local normalization and scalar
+saturation baseline. Refit every allowed training stage. Outer query labels do
+not enter normalization, baseline, kernel, reference selection or tuning.
+Keep lambda grid 0.1, 1, 10 and graph-only cycle3 inner folds. Tune using the
+final candidate's full program SSE, within the current outer training set.
+
+Primary reference
+All unordered distinct endpoint pairs from the measured-single node universe.
+Its identities are defined without outer-query response or query-list membership.
+This reference is fixed in the model state, independent of each request batch.
+It supports unseen pairs within that endpoint universe, not unseen endpoints.
+
+Candidates and controls
+A: unchanged independently fitted scalar saturation baseline.
+B: existing raw inductive product correction.
+C: existing request-batch projection (contextual benchmark, fails invariance).
+D: old fitted correction minus a globally fixed reference endpoint component.
+   First compare at old training-selected lambda, then retune candidate D by
+   inner final full SSE. This isolates gauge change from model selection.
+E: globally reference-residualized PSD product kernel fitted directly to scalar
+   baseline residuals; no query projection or train-only endpoint extrapolation.
+   Train-projected loss is a mechanistic ablation, not assumed a distinct model.
+An unobserved-pool reference may be included as a labelled engineering control.
+It can equal the old outer evaluation pool here and must not be reported as a
+new inductive discovery or an independent proof of generality.
+
+Outcomes
+Primary engineering: same fitted model returns the same pair prediction for
+singleton, complete batch, reordered batch, subsets and chunked requests.
+Numerical tolerance 1e-12 absolute with matching prediction meaning and scale.
+Primary performance: pooled full program SSE vs A, plus all three fold SSEs.
+Secondary: original heldout-query endpoint-orthogonal P SSE; endpoint SSE;
+correction magnitude; reference orthogonality; lambda/inner choices.
+For fixed fitted coefficients, subtracting an endpoint-linear term preserves
+P-query correction exactly. Therefore that P gain is not new predictive evidence.
+
+Isolation and verification
+Poison excluded query expression before fitting and tuning; predictions should
+be unchanged. Only endpoint identities and allowed measured-single information
+define reference geometry. Compare clean implementations and model serialization.
+Reproduce original program baseline and original batch benchmark numerically.
+Do not select reference panels, targets or hyperparameters by outer improvement.
+
+Bounded execution
+Initial candidates and audits should complete within ten minutes of execution.
+If a concrete implementation defect or expected mathematical identity fails,
+diagnose and repair that defect with explicit before/after records. New model
+families or additional reference searches require a separately timestamped
+development extension, and must retain the original protocol results.
+
+Success interpretation
+Invariance plus positive full-program prediction gains would remove the
+request-batch boundary within the frozen endpoint universe. Statistical and
+cross-source confirmation remain separate. If only invariance is obtained,
+report an engineering solution and a remaining predictive tradeoff accurately.

@@ -1,0 +1,11 @@
+old_paper_path,new_release_path,handling
+reproduction/grn_repo_v27.zip,legacy/,"unchanged members, unpacked"
+reproduction/WitnessCell_Shen2017_Formal_20261108.zip,experiments/shen/,"unchanged members, unpacked"
+reproduction/WitnessCell_Shen_Jurkat_Partner_Repair_20261108.zip,experiments/source_fits/,"unchanged members, unpacked"
+reproduction/WitnessCell_Model_Matched_Gain_and_Calibration_20261108.zip,experiments/historical_calibration/,"unchanged members, unpacked"
+reproduction/WitnessCell_Han2017_Frozen_Reassessment_v3.zip,experiments/han2017/,compact snapshot + deterministic restoration
+evidence/,paper/evidence/,preserved scientific evidence
+revision/,paper/revision/,preserved numerical sources and review tables
+software/,paper/software/,executable interfaces
+partner_control/,paper/partner_control/,interfaces and four-policy replay
+code/,paper/code/ and tools/,active current scripts plus portable root wrappers

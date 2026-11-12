@@ -1,0 +1,24 @@
+figure,panels,source_relative_to_package,operation
+2,a-c,evidence/source_data/formal_bridge/theory/THREE_GATE_DESIGN_ENUMERATION.json,Declared family and population contrast construction
+2,d,evidence/source_data/formal_bridge/scores/summary.csv,Target MSE and MC95 intervals
+3,a-b,revision/BENCHMARK_DECOMPOSITION.csv,Full versus double ranks and exposure-specific positions
+3,c,revision/BENCHMARK_PAIRED_INTERVALS.csv,Three double-only pointwise paired cluster intervals
+3,d,revision/NATIVE_MSE_VS_SCOUTER.csv,Dataset-native MSE reduction; retain positive and adverse values
+5,a-b and f,evidence/source_data/publication/Step2_Fig5_Matched55.csv,Raw and sensitivity losses
+5,a-b,evidence/source_data/publication/Step2_Fig5_SeedMetrics.csv,Three raw-scale neural seeds and mean seed losses
+5,c and e,evidence/source_data/publication/RNA_signed_rectangle_predictions.npz,Squared errors across eleven same-fit rectangles and 4995 readouts
+5,d,revision/RNA_ERROR_BUDGET.csv,Positive/adverse/net reduction against common M0 denominator
+S1,a and c,revision/GSE220974_IDENTITY_AUDIT.csv,Complete designed-label audit; no outcome-based filtering
+S1,b,figure_source_data/SuppFig1_risk_selection.csv,Reported Table S16 ratios and original bootstrap intervals
+S1,c,revision/PAIRPICK_ALL_28_TASKS.csv,All 28 tasks and five primary methods; regret multiplied by 1000
+S1,d,evidence/source_data/gse220974/PAIRED_COMPARISONS.csv,Paired utility differences and physical-anchor bootstrap intervals
+S2,a,revision/DOUBLE_ONLY_ALL_COMPARATOR_INTERVALS.csv,All fifteen pointwise intervals under original double-only aggregation
+S3,a,evidence/source_data/publication/Fig3_ED4_witness_gains.csv,Fixed-backbone support-library gains and archived intervals
+1,a-e,WitnessCell_v36_Main_Methods.md;partner_control/METHOD_DERIVATION.md,"Core prediction, partner-learning alternatives, exact contrast identity and component control"
+4,a-b,evidence/source_data/publication/Horlbeck_figure_metrics.csv,Budget and Jurkat gains; pool primitive SSE before computing ratios
+4,c-d,revision/JURKAT_FOUR_CORNERS_V28.csv;revision/JURKAT_FOUR_CORNER_CONTRASTS_V28.csv,Same retained four-corner example and signed contrasts
+4,e-f,partner_control/results/FOUR_ARM_BY_CONDITION.csv,"Shen complete and partner gains for original, whole and component policies"
+S4,a-c,partner_control/results/FOUR_ARM_SCORES.csv;partner_control/results/REPEAT_DECISIONS.csv;partner_control/results/QUERY_PANEL_BY_CONDITION.csv,"All active functional configurations, repeat-specific coefficients and fixed identity panel partitions"
+4,g-h,revision/han_calibration/POOLED_SCORES.csv,Target-estimated calibration: gains relative to unchanged and removed frozen functions
+S5,a-c,revision/han_calibration/POOLED_SCORES.csv;revision/han_calibration/SEED_SCORES.csv,All six frozen functions; pooled effects and five-partition ranges
+S5,d,figure_source_data/Han_target_strengths.csv,All 15 target coefficients for each configuration and readout

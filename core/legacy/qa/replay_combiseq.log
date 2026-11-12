@@ -1,0 +1,53 @@
+{"stage": "outer_prediction_frozen", "fold": 0, "seconds": 3.816563437001605}
+{"stage": "outer_prediction_frozen", "fold": 1, "seconds": 4.31253492399992}
+{"stage": "outer_prediction_frozen", "fold": 2, "seconds": 4.803596343001118}
+{
+  "decision": "NOT_CONFIRMED",
+  "checks": {
+    "principal_gain_ge_2_percent": false,
+    "conditional_lower_bound_positive": false,
+    "full_gain_vs_saturation_positive": true,
+    "partner_gain_vs_endpoint_positive": false,
+    "at_least_two_runs_positive": false,
+    "invariance_and_leakage": true
+  },
+  "primary": {
+    "method": "system_fixed_reference",
+    "n_pairs": 374,
+    "full_sse": 172.10439994317215,
+    "P_sse": 126.55456833937615,
+    "full_gain_vs_endpoint": -0.0002328227003702832,
+    "P_gain_vs_endpoint": -0.0003024008504437514,
+    "full_gain_vs_saturation": 0.004130078802905279,
+    "P_gain_vs_saturation": -0.0003024008504441955
+  },
+  "stability": {
+    "full_vs_endpoint_control": {
+      "q025": -0.01098310018860973,
+      "median": -0.0003011322310808584,
+      "q975": 0.006881052916068798
+    },
+    "full_vs_scalar_saturation": {
+      "q025": -0.06630906597993105,
+      "median": 0.04154958892293331,
+      "q975": 0.2123526431646405
+    },
+    "P_vs_endpoint_control": {
+      "q025": -0.006342129706099347,
+      "median": -0.00030195225122175984,
+      "q975": 0.00497439552188115
+    },
+    "P_vs_scalar_saturation": {
+      "q025": -0.006342129706099364,
+      "median": -0.000301952251222537,
+      "q975": 0.004974395521880157
+    }
+  },
+  "seconds": 7.2806464890018106
+}
+{
+  "status": "PASS",
+  "decision": "NOT_CONFIRMED",
+  "named_arrays_checked": 108,
+  "output_directory": "/tmp/witnesscell_v25_final_replay_20261026/combiseq"
+}

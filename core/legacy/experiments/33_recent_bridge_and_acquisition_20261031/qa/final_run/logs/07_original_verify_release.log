@@ -1,0 +1,4 @@
+{"release_hash_verification": "PASS", "files": 5020}
+{"freeze_verification": "PASS", "cases": 144, "truth_generated": false}
+{"pipelines": 45, "all_passed": true, "max_abs_error": 0.0, "pair_response_rows_read": false, "query_response_rows_read": false, "models_refitted": false, "prediction_lock_sha256": "9623b7f04e299ae7f95a47035878abbf87ebe61b3277bf7e7d1909de0df38444", "source_sha256": "b368dcd16f5389e461a8fbcfdf510091e0c8fb6a860858eb104e9525a649a82d"}
+{"verification": "PASS", "refits": 0, "query_outcomes_read": false}

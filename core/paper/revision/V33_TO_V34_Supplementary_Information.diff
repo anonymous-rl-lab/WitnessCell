@@ -1,0 +1,233 @@
+--- v33
++++ v34
+@@ -2,7 +2,7 @@
+ 
+ ## WitnessCell predicts combinatorial perturbation responses through endpoint and partner learning
+ 
+-**Companion to the v33 main text and Methods.** This supplement supplies derivations, implementation details, complete comparisons and sensitivity analyses for the six Results sections. It preserves the identities and evaluation status of the experiments in the accompanying `grn_repo_v27` archive. The manuscript name **PairPick (R-G)** refers to the unchanged archived model `R_G`.
++**Companion to the v34 main text and Methods.** This supplement supplies derivations, implementation details, complete comparisons and sensitivity analyses for the six Results sections. It preserves the identities and evaluation status of the experiments in the accompanying `grn_repo_v27` archive. The manuscript name **PairPick (R-G)** refers to the unchanged archived model `R_G`.
+ 
+ ## Contents
+ 
+@@ -26,8 +26,9 @@
+ 18. Complete functional comparison and source relationships
+ 19. Repeat consistency and fixed-query-panel dependence
+ 20. RNA candidate replay, historical diagnostics and software
+-
+-Tables S1–S43 are embedded alongside the corresponding notes. The accompanying source bundle contains full-precision tables, relevant protocol records, a claim-to-source index and the script used to assemble this document. Bibliographic numbers refer to the main-text reference list; selected references are repeated at the end for convenience.
++21. Frozen-weight transfer and component control in Han
++
++Tables S1–S50 are embedded alongside the corresponding notes. The accompanying source bundle contains full-precision tables, relevant protocol records, a claim-to-source index and the script used to assemble this document. Bibliographic numbers refer to the main-text reference list; selected references are repeated at the end for convenience.
+ 
+ ## Supplementary Note 1 | Method identities, evidence populations and notation
+ 
+@@ -1212,9 +1213,9 @@
+ python code/analyze_revision.py
+ python code/analyze_applications.py
+ python code/audit_construct_identity.py
+-python code/make_figure4_v33.py
++python code/make_figure4_v34.py
+ python software/test_growth_interface.py
+-python code/verify_v33.py
++python code/verify_v34.py
+ ```
+ 
+ The adapter takes JSON condition summaries with explicit train, validation and query identities. Query outcomes are rejected; reversed-pair leakage, malformed vectors and invalid variances are checked. Seven unchanged native modules supply the released `multihead_v14` implementation. The synthetic example has five new queries and a missing-single endpoint; it is an interface example rather than biological evidence. The output includes predicted normalized means, the nonlinear baseline, selected parameters and an input hash. Native-call parity, absence of query truth and a common-input-shift test are recorded in `software/INTERFACE_TESTS.json`. Dependencies and normalization assumptions are documented in the software README. Figures and supplementary audits require the additional dependencies in `code/requirements.txt`.
+@@ -1234,6 +1235,7 @@
+ | Jurkat growth | Procedure transfer | Before fitting/scoring; coefficients refitted | New cell context, same study | Functional partner gain |
+ | Original Shen growth | Source evaluation | Original procedure and predictions frozen before scoring | Independent study; three shared-design backgrounds | Complete gain, adverse partner increment |
+ | Component control | Retrospective development | Coefficients from internal arrays; historical outcomes already visible | Existing Horlbeck and Shen data | Targeted adjustment and usage conditions |
++| Han frozen transfer | Existing predictors and source strengths | Local protocol amendment and separate prediction locks | One independent study; shared-control repeats; two related readout definitions | Transfer of control with fixed weights; all models and both readouts retained |
+ | Dixit / Combi-seq | Source evaluations | Frozen protocols and predictions | Other studies | Transfer boundaries |
+ | Risk selection | Separate calibration | Fixed threshold; disjoint pairs | Existing sources | Selective-use outcome |
+ | GSE220974 | Retrospective comparison | Not globally untouched | Other study; identity limits | Recommendation operation |
+@@ -1630,6 +1632,7 @@
+ | Repeat and panel checks | Robustness of this operation | Fixed predictions; no new biological experiments |
+ | RNA candidate replay | Generality of the arithmetic across saved candidates | Same development panel; separate global projection |
+ | Historical regression | Diagnostic association and transfer boundary | Shared configurations and aliases; retrospective |
++| Han frozen-weight transfer | External test of existing predictors and strengths | Local locks; no target fitting; aggregate results preceded repeat reconstruction |
+ 
+ ### 20.3 Executable input and outcome separation
+ 
+@@ -1645,11 +1648,164 @@
+ 
+ The fit interface expects the caller to supply genuine internal held-combination predictions. It cannot verify model-training provenance from arrays. The prediction command rejects extra fields, including query outcomes. A real HeLa example fits the coefficient anew and applies it without reading its separate evaluation-truth file. New-directory replay gives identical predictions. This is a runnable adjustment interface, distinct from refitting the underlying biological predictor. The parent package retains the original RNA and functional fitting interfaces.
+ 
++## Supplementary Note 21 | Frozen-weight transfer and component control in Han
++
++### 21.1 Scope, chronology and response reconstruction
++
++This extension evaluates the existing control operation on another public study, using the previously trained Shen predictors. The original proposal contemplated target-side fitting. Before any Han score, the inference-only amendment replaced that proposal with transfer of saved weights and source-derived strengths. No Han training, model selection or target coefficient estimation occurred. The original proposal remains in the archive as superseded history, not as the executed design. The three source predictors are evaluated together, without selecting HeLa after observing its outcome.
++
++### Supplementary Table S44 | Transfer design and evidence status
++
++| Item | Executed analysis |
++|---|---|
++| Source models | All three archived Shen models: HeLa, A549 and 293T |
++| Source predictor contents | Two saved repeat baseline fits and one saved selected rank-one matrix per model |
++| Allowed target input | Single responses, control measurements and pair identities; declared unit adapter |
++| Han model training / target calibration | None / none |
++| Published stage | 91 pairs; one aggregate published phenotype; predictions locked before scoring |
++| Reconstructed stage | 88 pairs; fourteen query endpoints; two measured end repeats; 74 algebraic partner dimensions |
++| Shared controls | Both end repeats use the same plasmid and initial-sample measurements |
++| Chronology | Published scores were available before repeat reconstruction; rule and weights unchanged |
++| Registration | Local protocol, amendment and prediction locks; no external registration |
++| Additional analyses | Common-panel restriction, error budgets and deletion sensitivities are post-scoring diagnostics |
++
++Only the DrugTarget growth-screen runs SRR5258688 (plasmid), SRR5258687 (initial sample), SRR5258686 and SRR5258685 (end repeats) enter this analysis.[43] Eight compressed read files total 21,533,213,518 bytes and pass their source MD5 checks. Compact count arrays preserve the numerical inputs needed for replay. A separately checked counter maps the paired identifiers to the archived 700-by-700 reference matrix.
++
++Constructs require an initial count of at least 50 and positive plasmid count. For an eligible construct $c$ and end repeat $r$, the log enrichment is $\log_2[\max(n_{c,r},1)/n_{c,\mathrm{plasmid}}]$. In each repeat, the median over eligible safe-control pairs is subtracted and the sample standard deviation over those controls is used for scaling. The initial measurement defines coverage rather than the enrichment denominator. Single responses are medians over the two orientations of gene/safe-control constructs. Pair responses are medians over both orientations and require at least three eligible ordered constructs, including at least one in each orientation. These rules produce 207 finite single inputs and 88 evaluable pairs among fourteen query genes. They were applied without filtering on model performance.
++
++The reconstructed control-standardized response is a declared reanalysis, not a claim to reproduce the published pZ values exactly. The published-table stage uses its allowed single-response columns and aggregate double response. All three predictors receive the same permitted target inputs within a stage. Gene overlap, rather than the full size of the Han screen, limits the evaluated transfer panel.
++
++### 21.2 Complete fixed comparisons
++
++For each source model, all six predefined outputs and the additive reference are scored. The partner coefficients are 0.1187445294033161 (HeLa), 0.239195727853394 (A549) and 0.1428380896646037 (293T). The separately calculated source complete-error coefficient is 0.9697514197443782 for HeLa and one for A549 and 293T. None is estimated from Han double outcomes. A positive percentage below denotes lower component-control error than the named comparator. Pooled means combine the two repeat SSEs before forming a ratio; they are not an additional replicate.
++
++### Supplementary Table S45 | Reconstructed-repeat control comparisons
++
++| Model | Repeat | Partner vs original (%) | Partner vs off (%) | Complete vs original (%) |
++| --- | --- | --- | --- | --- |
++| HeLa | repeat1 | 2.923809 | 0.549602 | 0.020224 |
++| HeLa | repeat2 | 3.645161 | 0.241874 | 0.031603 |
++| HeLa | pooled | 3.332380 | 0.376104 | 0.026031 |
++| A549 | repeat1 | 0.838503 | 0.437710 | 0.056102 |
++| A549 | repeat2 | -0.260301 | 0.713545 | -0.020621 |
++| A549 | pooled | 0.259354 | 0.584044 | 0.018901 |
++| 293T | repeat1 | 24.127568 | -1.671525 | 2.460074 |
++| 293T | repeat2 | 17.035523 | -0.658454 | 2.294051 |
++| 293T | pooled | 20.217273 | -1.088199 | 2.380050 |
++
++HeLa improves against both original and closed-partner predictions in each reconstructed repeat. Its pooled advantage over closure is small. A549 improves against closure in both repeats but does not consistently improve against the original. The 293T control reduces the original damage, while closure remains better in both repeats. These point estimates distinguish retention of useful nonzero correction from harm attenuation; they are not multiplicity-adjusted or population-level significance results.
++
++### Supplementary Table S46 | Complete pooled native-scale errors
++
++| Source model | Output | Complete MSE | Partner MSE |
++| --- | --- | --- | --- |
++| HeLa | Baseline | 22.714479 | 0.155927 |
++| HeLa | Original | 20.571786 | 0.160696 |
++| HeLa | Whole: partner | 22.446395 | 0.155341 |
++| HeLa | Partner off | 20.567018 | 0.155927 |
++| HeLa | Component | 20.566431 | 0.155341 |
++| HeLa | Whole: complete | 20.632773 | 0.160228 |
++| HeLa | Addition | 0.261449 | 0.158057 |
++| A549 | Baseline | 3.349790 | 0.242536 |
++| A549 | Original | 3.317149 | 0.241747 |
++| A549 | Whole: partner | 3.339293 | 0.241120 |
++| A549 | Partner off | 3.317938 | 0.242536 |
++| A549 | Component | 3.316522 | 0.241120 |
++| A549 | Whole: complete | 3.317149 | 0.241747 |
++| A549 | Addition | 0.261449 | 0.158057 |
++| 293T | Baseline | 1.822032 | 0.168179 |
++| 293T | Original | 1.810094 | 0.213091 |
++| 293T | Whole: partner | 1.810581 | 0.170010 |
++| 293T | Partner off | 1.765183 | 0.168179 |
++| 293T | Component | 1.767013 | 0.170010 |
++| 293T | Whole: complete | 1.810094 | 0.213091 |
++| 293T | Addition | 0.261449 | 0.158057 |
++
++The additive row is identical across source-model labels because it uses the same target single inputs. All complete frozen predictors perform worse than this reference. This is a limitation of whole-predictor transfer, distinct from the change caused by controlling a fixed correction. No absolute loss is pooled with Shen or Horlbeck, which use different response units.
++
++### Supplementary Table S47 | Whole-attenuation controls and partner closure
++
++| Model | Comparator | Complete reduction (%) | Partner reduction (%) |
++| --- | --- | --- | --- |
++| HeLa | Original | 0.026031 | 3.332380 |
++| HeLa | Partner off | 0.002851 | 0.376104 |
++| HeLa | Whole: partner | 8.375348 | 0.000000 |
++| HeLa | Whole: complete | 0.321536 | 3.050416 |
++| A549 | Original | 0.018901 | 0.259354 |
++| A549 | Partner off | 0.042693 | 0.584044 |
++| A549 | Whole: partner | 0.681899 | 0 |
++| A549 | Whole: complete | 0.018901 | 0.259354 |
++| 293T | Original | 2.380050 | 20.217273 |
++| 293T | Partner off | -0.103679 | -1.088199 |
++| 293T | Whole: partner | 2.406301 | 0.000000 |
++| 293T | Whole: complete | 2.380050 | 20.217273 |
++
++Same-alpha whole attenuation and component control have the same partner projection; their complete-error difference measures the effect of retaining the endpoint correction. It does not by itself compare against a whole-attenuation coefficient selected for complete error. The independently source-calibrated whole comparator addresses that distinction and is not target-optimal shrinkage. Endpoint preservation and the equality of complete/partner absolute SSE changes hold to numerical precision in the saved arrays; these identities are implementation checks, not independent empirical confirmations.
++
++### 21.3 Response definition and common-panel sensitivity
++
++### Supplementary Table S48 | Both response definitions and matched identities
++
++| Model | Readout / panel | Vs original (%) | Vs off (%) |
++| --- | --- | --- | --- |
++| HeLa | Published, 91 pairs | -1.051398 | 0.997587 |
++| HeLa | Published, common 88 pairs | -0.922773 | 1.016282 |
++| HeLa | Reconstructed, 88 pairs | 3.332380 | 0.376104 |
++| A549 | Published, 91 pairs | -0.881765 | 0.906199 |
++| A549 | Published, common 88 pairs | -0.801708 | 0.866411 |
++| A549 | Reconstructed, 88 pairs | 0.259354 | 0.584044 |
++| 293T | Published, 91 pairs | 21.122538 | -1.407359 |
++| 293T | Published, common 88 pairs | 20.887609 | -1.327337 |
++| 293T | Reconstructed, 88 pairs | 20.217273 | -1.088199 |
++
++For the common-panel calculation, the published baseline and original correction are restricted to the 88 shared pairs, and the projector and component control are recomputed on those identities with the original source alpha. Subsetting the already controlled 91-pair prediction would be a different operation. The continued difference in sign for HeLa and A549 shows that query-set membership alone does not explain the change between published and reconstructed evaluations. Response reconstruction, single-input differences and normalization remain coupled. No new adapter is selected from these outcomes. Both stages remain reported; the repeat reconstruction does not replace the earlier aggregate results or constitute a second independent study.
++
++### 21.4 Direction and magnitude in the evaluated panel
++
++For fixed scored responses, let $e=P(Y-M_0)$, $d=PD$, $A=\langle e,d\rangle$ and $B=\|d\|_F^2$. The partner SSE reduction relative to closure is $2\alpha A-\alpha^2B$. The first term measures alignment with the remaining error and the second is the magnitude cost. This is an exact error decomposition on the scored panel. It uses Han outcomes and therefore is a retrospective explanation, not a training-side forecast or a recalibrated decision rule.
++
++### Supplementary Table S49 | Held-out error budgets with unchanged strengths
++
++| Model | Repeat | Cosine | Alignment term | Magnitude cost | Net SSE reduction |
++| --- | --- | --- | --- | --- | --- |
++| HeLa | repeat1 | 0.098502 | 0.079340 | 0.013549 | 0.065791 |
++| HeLa | repeat2 | 0.055440 | 0.051211 | 0.013787 | 0.037424 |
++| HeLa | pooled | 0.075364 | 0.130551 | 0.027336 | 0.103215 |
++| A549 | repeat1 | 0.073888 | 0.121392 | 0.033671 | 0.087721 |
++| A549 | repeat2 | 0.111172 | 0.195847 | 0.034261 | 0.161586 |
++| A549 | pooled | 0.093148 | 0.317239 | 0.067932 | 0.249307 |
++| 293T | repeat1 | -0.078283 | -0.143228 | 0.066651 | -0.209879 |
++| 293T | repeat2 | -0.020651 | -0.044404 | 0.067819 | -0.112223 |
++| 293T | pooled | -0.047024 | -0.187633 | 0.134470 | -0.322102 |
++
++HeLa and A549 have positive scored alignment in both repeats; the retained correction can therefore improve on closure. The 293T direction has negative alignment in both repeats, so any positive scaling along that fixed direction increases the observed partner SSE relative to closure. Attenuation reduces its damage without repairing direction. This fixed-sample statement does not estimate a dataset-wide learnability limit, and no target-optimal alpha was fitted or used for prediction.
++
++### 21.5 Endpoint-deletion sensitivity and numerical reproducibility
++
++### Supplementary Table S50 | Positive deletion comparisons among fourteen endpoint deletions
++
++| Model | Repeat | Deletions | Vs original | Vs off | Vs both |
++| --- | --- | --- | --- | --- | --- |
++| HeLa | repeat1 | 14 | 14 | 13 | 13 |
++| HeLa | repeat2 | 14 | 13 | 12 | 11 |
++| HeLa | pooled | 14 | 14 | 14 | 14 |
++| A549 | repeat1 | 14 | 12 | 13 | 11 |
++| A549 | repeat2 | 14 | 3 | 13 | 2 |
++| A549 | pooled | 14 | 12 | 13 | 11 |
++| 293T | repeat1 | 14 | 14 | 1 | 1 |
++| 293T | repeat2 | 14 | 14 | 1 | 1 |
++| 293T | pooled | 14 | 14 | 1 | 1 |
++
++Each deletion removes the pairs involving one endpoint and reprojects the remaining fixed predictions. It does not refit the model, regenerate controlled predictions on a new deployment panel or estimate a new coefficient. The overlapping deletions are descriptive perturbations of the same sample, not fourteen independent experiments. HeLa's pooled comparison remains positive against both original and closure for all deletions, but individual-repeat comparisons are less uniform. Full rows are in `revision/han/ENDPOINT_DELETION.csv`.
++
++The source supplement contains parameter hashes, prediction locks and both complete score tables. Its count-to-input-to-prediction replay reconstructs the saved repeat predictions and scores with maximum difference zero; independent MSE recomputation agrees within 3.56e-15. The manuscript integration independently recomputes all 63 reconstructed score rows and checks endpoint preservation, equal partner predictions for the same-alpha policies, and the complete/partner SSE identity. `revision/han/ANALYSIS_SCOPE.json` records this calculation, while `code/integrate_han_v34.py` reproduces Tables S45-S50 from locked arrays. These computational checks establish reproducibility of the stated analysis, not a larger number of biological validations.
++
+ ## Supplementary figure legends
+ 
+ ## Supplementary Figure S1 | Risk selection and complete retrospective partner-selection outcomes
+ 
+ **a,** PairPick use case. An anchor's single response defines a fixed transcriptional objective; candidate response predictions yield projected utilities and a partner recommendation. Held-out measurements assess achieved utility in the prescribed pool. **b,** A separate analytic-risk evaluation, not a filtering stage applied to PairPick. The fixed calibration threshold gives accepted/all-query MSE ratio 0.5343 at 49.48% pair-balanced coverage, using 213 records from 33 calibration-disjoint pair identities. The weighted complete-case follow-up gives 0.4775 at 48.95% coverage, using 207 records from 32 pairs. Whiskers are the recorded 95% pair-cluster bootstrap intervals. **c,** Regret for all 28 GSE220974 tasks and all five primary methods, with identical candidate pools and physical-pair holdouts. Rows are ordered by physical anchor, mode-specific anchor and fold, independently of outcome; white separators mark physical-anchor groups. Suffixes a/i denote activation/repression, and the number after the slash is the fold. Dots denote zero regret; nonzero values and the color scale use regret multiplied by 1,000. An inverse-hyperbolic-sine color normalization with linear width 5 makes smaller losses visible while retaining the full range. Neural entries score the mean of three seed predictions. The original design-table audit directly matches 15 of the 49 detected gene-mode labels, identifies one enhancer-only correspondence and leaves 33 unlisted as designed pairs. All tasks are retained as a detected-label demonstration; label matching does not verify cell-level constructs. **d,** R-G-minus-reference achieved-utility differences with 95% bootstrap intervals clustering the eight physical anchors. R-G and the archived PRESAGE adapter choose identically in all 28 tasks. Complete regret, hit, win/tie/loss and prediction-error tables are in Supplementary Tables S17–S19 and S28. These descriptive outcomes do not establish superiority across all methods or independent biological confirmation of intended constructs.
++
+ ## Supplementary Figure S2 | All double-only comparator intervals
+ 
+ Mean operation-rank differences for WitnessCell minus each of the fifteen eligible comparator entries, including simple references. All methods use the same 540 double-perturbation operation records and the original Top-100 six-metric rule. Whiskers are pointwise central 95% intervals from 20,000 resamples over 287 dataset-pair clusters, carrying repeated seed records together. All upper bounds are below zero. The intervals condition on the saved score archive; they do not provide simultaneous, multiplicity-adjusted coverage or incorporate the full development history and future-study variation. These are fifteen comparisons of the same prediction population, not fifteen independent biological confirmations.
+@@ -1662,6 +1818,10 @@
+ 
+ **a,** Original and component-controlled partner gains for all twenty-seven configurations with nonzero selected correction. The twenty-eight zero-selected configurations remain unchanged. The diagonal denotes equal performance. These are configurations, including overlapping K562 layouts, rather than independent biological replications. **b,** Coefficients derived from each internal measured repeat for the same twenty-seven configurations; underlying response fits are held fixed. **c,** Partner gains when the fixed query identities are processed together, as identity-sorted alternating halves or thirds, or separately. All assembled predictions are scored on the original full query projector. Points summarize SSE-pooled conditions and are not uncertainty intervals. Full source tables retain all 55 configurations, both outcome repeats, and all three training-coefficient choices.
+ 
++## Supplementary Figure S5 | Frozen transfer distinguishes retained correction from damage reduction
++
++**a,** Complete-error reduction of component control relative to whole attenuation with the same partner coefficient and relative to whole attenuation with a separately source-complete-error-calibrated coefficient. Same-alpha policies have identical partner predictions. Neither comparator is fitted to Han outcomes. **b,** Pooled complete MSE for original, component-controlled and additive predictions on the reconstructed 88-pair panel; the logarithmic axis makes the absolute transfer gap visible. **c,** Partner-error reduction versus the original model for the published 91-pair aggregate phenotype, the published phenotype restricted to the same 88 identities with a recomputed projector, and the reconstructed two-repeat evaluation. All source weights and coefficients are unchanged. Differences between response definitions are not independent-study confirmations. **d,** Post-scoring error decomposition relative to partner closure: alignment term 2 alpha <e,d>, negative magnitude cost -alpha squared ||d|| squared, and their net reduction. Both repeats are pooled. This panel uses observed Han outcomes for explanation; it does not forecast benefit or choose a new strength. All plotted values are point estimates. Tables S44-S50 and their machine-readable source tables preserve the full comparisons and evidence status.
++
+ ## Supplementary reference correspondence
+ 
+ Reference numbers correspond to the main manuscript.
+@@ -1701,3 +1861,5 @@
+ **[41]** Cai, J.-F., Candès, E. J. & Shen, Z. A singular value thresholding algorithm for matrix completion. *SIAM Journal on Optimization* **20**, 1956–1982 (2010). doi:10.1137/080738970.
+ 
+ **[42]** Efron, B. Bootstrap methods: another look at the jackknife. *The Annals of Statistics* **7**, 1–26 (1979). doi:10.1214/aos/1176344552.
++
++**[43]** Han, K. et al. Synergistic drug combinations for cancer identified in a CRISPR screen for pairwise genetic interactions. *Nature Biotechnology* **35**, 463–474 (2017). doi:10.1038/nbt.3834.

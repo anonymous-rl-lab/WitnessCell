@@ -1,0 +1,34 @@
+[
+  {
+    "cell": "HeLa",
+    "original_M0_max_abs": 0.0,
+    "query_identity_equal": true,
+    "phase1_freeze_verified": true,
+    "phase2_freeze_verified": true,
+    "partner_projection_rank": 73
+  },
+  {
+    "cell": "A549",
+    "original_M0_max_abs": 0.0,
+    "query_identity_equal": true,
+    "phase1_freeze_verified": true,
+    "phase2_freeze_verified": true,
+    "partner_projection_rank": 73
+  },
+  {
+    "cell": "293T",
+    "original_M0_max_abs": 0.0,
+    "query_identity_equal": true,
+    "phase1_freeze_verified": true,
+    "phase2_freeze_verified": true,
+    "partner_projection_rank": 73
+  },
+  {
+    "cell": "Jurkat",
+    "original_M0_max_abs": 0.0,
+    "query_identity_equal": true,
+    "phase1_freeze_verified": true,
+    "phase2_freeze_verified": true,
+    "partner_projection_rank": 79
+  }
+]

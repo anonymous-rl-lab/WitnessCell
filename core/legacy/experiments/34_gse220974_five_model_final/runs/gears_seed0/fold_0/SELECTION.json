@@ -1,0 +1,49 @@
+{
+  "selected": {
+    "schedule": 5,
+    "status": "COMPLETE",
+    "epochs": 22,
+    "selected_epoch": 12,
+    "best": [
+      0.02645104349343635,
+      0.01044333099968943,
+      12
+    ],
+    "seconds": 503.8887469780002,
+    "parameters": 2925546,
+    "extended": false,
+    "training_cells": 21874
+  },
+  "candidates": [
+    {
+      "schedule": 1,
+      "status": "COMPLETE",
+      "epochs": 17,
+      "selected_epoch": 7,
+      "best": [
+        0.026517783843243766,
+        0.010127812409903805,
+        7
+      ],
+      "seconds": 4351.0750469310005,
+      "parameters": 2925546,
+      "extended": false,
+      "training_cells": 21874
+    },
+    {
+      "schedule": 5,
+      "status": "COMPLETE",
+      "epochs": 22,
+      "selected_epoch": 12,
+      "best": [
+        0.02645104349343635,
+        0.01044333099968943,
+        12
+      ],
+      "seconds": 503.8887469780002,
+      "parameters": 2925546,
+      "extended": false,
+      "training_cells": 21874
+    }
+  ]
+}

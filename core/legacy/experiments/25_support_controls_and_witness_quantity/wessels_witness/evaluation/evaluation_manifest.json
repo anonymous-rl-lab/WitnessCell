@@ -1,0 +1,17 @@
+{
+  "protocol_id": "WitnessCell-step1-followup-v1-20261017",
+  "config_hash": "1dbdc841c4800308f087976f44c4e8643d1294a6855d659d0f0f4ae5b3be0b6f",
+  "prediction_freeze_sha256": "706082029a3347753dedde04370688e5f83fbd40eafd8c6037c104c80cd7d3df",
+  "evaluation_started_unix": 1792223672.8844116,
+  "evaluation_finished_unix": 1792223673.2801847,
+  "rows": 1629,
+  "fixed_comparator_rows": 543,
+  "loss_contract": "MSE excluding both query target-gene coordinates; E18 full-cell condition means",
+  "inference": "Bootstrap statistics delegated to root using frozen query_losses and fixed_comparator_losses; point summaries only here",
+  "output_hashes": {
+    "fixed_comparator_losses.csv": "47e0adb13bbf64a1252b271023a6cb38823edb2c6a6af4c850025e46893fe90e",
+    "point_summary.json": "c6e0b80edfc31930c5c686df891dc4412bb15f3830b8e6cb87f66ea3a646267f",
+    "query_losses.csv": "ed0bd7d9e94ef495c437460dc2dc5cfe2d9dc22fb5b5d4c0e47db7c4ffaceb7e",
+    "witness_counts.csv": "ec27b586ec53e8009e27970be978034e5b93bf697fabdeba33657a6c727568cb"
+  }
+}

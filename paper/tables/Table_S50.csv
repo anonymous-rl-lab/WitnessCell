@@ -1,0 +1,5 @@
+Readout,Baseline,Complete SSE,Partner SSE,Full gain vs addition (%),Partner gain vs addition (%)
+Reconstructed,Native,24486.501459,19894.797465,13.3455,1.4775
+Reconstructed,Saturation,20607.344934,19555.070176,27.0733,3.1599
+Published,Native,23694.710076,18222.938778,15.2244,1.1209
+Published,Saturation,19086.417147,18068.156164,31.7121,1.9608

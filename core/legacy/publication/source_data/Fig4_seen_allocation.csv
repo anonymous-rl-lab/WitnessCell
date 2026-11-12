@@ -1,0 +1,11 @@
+dataset,method,seen0_accepted,seen0_candidates,seen1_accepted,seen1_candidates,seen2_accepted,seen2_candidates
+Norman,B,17,33,73,135,13,40
+Norman,R,0,33,63,135,40,40
+Norman,C,0,33,66,135,37,40
+Norman,C0,0,33,66,135,37,40
+Norman,S,0,33,64,135,39,40
+Wessels,B,13,59,63,100,14,22
+Wessels,R,0,59,68,100,22,22
+Wessels,C,0,59,68,100,22,22
+Wessels,C0,0,59,68,100,22,22
+Wessels,S,2,59,66,100,22,22

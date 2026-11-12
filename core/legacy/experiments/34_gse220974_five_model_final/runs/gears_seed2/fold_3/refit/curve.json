@@ -1,0 +1,72 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.6245710840630332,
+    "steps": 718,
+    "seconds": 31.411569450050592,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 2,
+    "loss": 0.6206337818694314,
+    "steps": 718,
+    "seconds": 31.177307775244117,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 3,
+    "loss": 0.6169148654077711,
+    "steps": 718,
+    "seconds": 31.286919612437487,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 4,
+    "loss": 0.6185706528448461,
+    "steps": 718,
+    "seconds": 29.896339502185583,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 6.25e-05
+  },
+  {
+    "epoch": 5,
+    "loss": 0.6166688865024731,
+    "steps": 718,
+    "seconds": 31.295926734805107,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 3.125e-05
+  },
+  {
+    "epoch": 6,
+    "loss": 0.6183082825792201,
+    "steps": 718,
+    "seconds": 31.03108942322433,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 1.5625e-05
+  },
+  {
+    "epoch": 7,
+    "loss": 0.6172676787070909,
+    "steps": 718,
+    "seconds": 31.27448251284659,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 7.8125e-06
+  }
+]

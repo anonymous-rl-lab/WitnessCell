@@ -1,0 +1,4 @@
+{
+  "scope": "Exact frozen SF12 feature arrays and existing target inputs; rebuild from base archive for native inference verification.",
+  "source_weights_retrained": false
+}

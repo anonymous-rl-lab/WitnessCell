@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_BEFORE_ANY_OUTER_SCORING",
+  "date": "2026-11-02T10:20:01.608536+00:00",
+  "files": {
+    "PROTOCOL.md": "32d0b3b065d75fa44bbde3644efd79b304e4e602b7392bac2b18d9207beefc63",
+    "prepare_data.py": "7a237fb7e0f1a863011997b196cd05ffda2656bc4b8a4527d0986df0f830a23b",
+    "common.py": "5f9334a90f9997c5ef20bb3c2407fff08b00141d6d106c07dd645db09c266cec",
+    "train_classical.py": "09b12f9fbefc6f0dcdd41f0e9edb401eafb258e79af0904ebb4a8fede5556b20",
+    "train_presage_mode.py": "407aef864660e262a4c8b69f648d964881c6c0395768730b79a78c41709adcd2",
+    "train_cell_models.py": "e852b201d8dba8021fd7ba45a019c18efbbb1ee42c70de1e5890cb053a29cb1c",
+    "score_all.py": "d743cfd1976714f1cbd3926ada7d21cb160a661577deba14e08e63be385cd892",
+    "run_remaining.py": "fe3e178405278df61edd170a6ba274c2cb615f57a42b176c7d82f8e5ea85b06b"
+  }
+}

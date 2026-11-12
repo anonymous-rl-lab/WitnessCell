@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-07T15:37:26.166091+00:00",
+  "shen_workbook_accessed": false,
+  "external_registration": false,
+  "reason": "Add full-run coordination and explicit fixed-projector endpoint sensitivity; native estimator and original protocol unchanged; tested on synthetic fixtures only",
+  "hashes": {
+    "PROTOCOL_CN.md": "4009681d04b89456c9411ffeabc8bd5f84c43c9e68097f4d4dd3fade96f41c61",
+    "code/prepare_shen.py": "486c80c05b29996bf3c5d730b9b930fdfa5fc7ad09cf461b94603f4004c4cd39",
+    "code/fit_prepared.py": "0673e0df39770685fa40a56023f2c6c1d026e6feb637ed82eca3fc5a7b5ea6c6",
+    "code/score_prepared.py": "1c98403f17906bc5a079087f75686d9f04b30d4981d723aa4de1c8920ea0d17a",
+    "code/endpoint_sensitivity.py": "bd4bf2650fddf05d05dc84ac131254d4c32d95fabdaa9b86ecc0d53741566b87",
+    "code/test_orchestration.py": "f484ad6f685427f80cfa209d72cf6247dec7f5800e10fc21b0663c27e7718dec",
+    "code/replay_smoke.py": "6dd1f602d48d1d8ae64b9bcd0df6036c7ffd143008d9388dba8bd4c04a1bda0d"
+  }
+}

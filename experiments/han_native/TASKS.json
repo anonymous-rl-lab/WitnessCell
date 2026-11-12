@@ -1,0 +1,362 @@
+[
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_raw",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261108,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261109,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261110,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261111,
+    "fold": 2,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 0,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 1,
+    "baseline": "saturation"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "native"
+  },
+  {
+    "panel": "full_published",
+    "seed": 20261112,
+    "fold": 2,
+    "baseline": "saturation"
+  }
+]

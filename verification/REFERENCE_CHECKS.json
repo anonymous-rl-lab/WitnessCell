@@ -1,0 +1,124 @@
+{
+  "status": "PASS",
+  "independent_baselines": [
+    {
+      "configuration": "K562_high_fold0",
+      "fit": "outer",
+      "direct_baseline_max_abs": 1.554312234475219e-14
+    },
+    {
+      "configuration": "K562_high_fold0",
+      "fit": "inner0",
+      "direct_baseline_max_abs": 8.992806499463768e-15
+    },
+    {
+      "configuration": "K562_high_fold0",
+      "fit": "inner1",
+      "direct_baseline_max_abs": 4.6629367034256575e-15
+    },
+    {
+      "configuration": "K562_high_fold0",
+      "fit": "inner2",
+      "direct_baseline_max_abs": 5.440092820663267e-15
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "fit": "outer",
+      "direct_baseline_max_abs": 3.885780586188048e-15
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "fit": "inner0",
+      "direct_baseline_max_abs": 1.0103029524088925e-14
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "fit": "inner1",
+      "direct_baseline_max_abs": 5.773159728050814e-15
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "fit": "inner2",
+      "direct_baseline_max_abs": 1.3988810110276972e-14
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "fit": "outer",
+      "direct_baseline_max_abs": 4.496403249731884e-15
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "fit": "inner0",
+      "direct_baseline_max_abs": 7.438494264988549e-15
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "fit": "inner1",
+      "direct_baseline_max_abs": 4.6629367034256575e-15
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "fit": "inner2",
+      "direct_baseline_max_abs": 6.772360450213455e-15
+    },
+    {
+      "configuration": "Jurkat_high",
+      "fit": "outer",
+      "direct_baseline_max_abs": 6.8833827526759706e-15
+    },
+    {
+      "configuration": "Jurkat_high",
+      "fit": "inner0",
+      "direct_baseline_max_abs": 1.27675647831893e-15
+    },
+    {
+      "configuration": "Jurkat_high",
+      "fit": "inner1",
+      "direct_baseline_max_abs": 1.887379141862766e-15
+    },
+    {
+      "configuration": "Jurkat_high",
+      "fit": "inner2",
+      "direct_baseline_max_abs": 1.9984014443252818e-15
+    }
+  ],
+  "han_gain_max_abs_difference": 2.220446049250313e-14,
+  "replay_tables": [
+    {
+      "table": "COMMON_REFERENCE.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "SATURATION_SCORES.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "SATURATION_POOLED.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "SATURATION_BY_CONFIGURATION.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "SATURATION_BY_REPEAT.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "HAN_DIRECTION_ATTRIBUTION.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "HAN_ATTRIBUTION_POOLED.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "HAN_ATTRIBUTION_BY_PARTITION.csv",
+      "max_abs_difference": 0.0
+    },
+    {
+      "table": "HAN_ATTRIBUTION_BY_REPEAT.csv",
+      "max_abs_difference": 0.0
+    }
+  ]
+}

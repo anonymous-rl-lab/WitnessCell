@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "command": "python3 -B experiments/25_support_controls_and_witness_quantity/reproduce.py --repo REPO --output FRESH_OUTPUT --mode all --max-seconds 600",
+  "output_working_directory": "/tmp/witnesscell_e25_storage_audit_replay",
+  "elapsed_seconds": 9.317381535001914,
+  "dependency_files": 28,
+  "dependency_total_bytes": 49680210,
+  "seen_numeric_fields_compared": 10096,
+  "seen_max_abs_diff": 0.0,
+  "seen_original_frozen_files_exact": 24,
+  "seen_bootstrap_members_exact": 482,
+  "witness_reconstructed_npz_archives_exact": 24,
+  "witness_reconstructed_npy_members_exact": 171,
+  "witness_loss_rows_verified": 1629,
+  "witness_comparator_rows_verified": 543,
+  "witness_loss_max_abs_diff": {
+    "loss_mse": 0.0,
+    "loss_wmse": 0.0
+  },
+  "witness_summary_numeric_fields_compared": 173,
+  "witness_summary_max_abs_diff": 0.0,
+  "witness_bootstrap_members_exact": 8,
+  "original_source_modified": false,
+  "failed_attempt_note": "Earlier workspace-output attempt passed immediate reconstruction hashes but failed the later inventory check after seed1 state bytes changed. Kept as an unsuccessful environmental output attempt; unchanged isolated entry point completed in /tmp. No scientific code or original locks modified."
+}

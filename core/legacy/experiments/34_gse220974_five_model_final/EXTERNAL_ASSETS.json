@@ -1,0 +1,23 @@
+{
+  "full_comparison": {
+    "name": "WitnessCell_Completed_Comparison_20261106.zip",
+    "library_file_id": "libfile_0cd679a4efec819195151afd2f8c8cd6",
+    "url": "https://chatgpt.com/library?file_id=libfile_0cd679a4efec819195151afd2f8c8cd6&account_id=personal",
+    "bytes": 26307016,
+    "sha256": "7fee96962250694b5312834465d376c33981abc03fccf5a293497ddd4602188f",
+    "members": {
+      "score.py": "0c91d8bccabbd08b1c96346a6f2d5322635490b40c05ead4e41d5ffe4e93a7d4",
+      "scoring_inputs.npz": "2e443175e05a32a28512c16d792ea01a03dc13adcfe6fbcff3f25d29ce614d4f"
+    }
+  },
+  "completed_weights_index": {
+    "path": "reference/FINAL_WEIGHTS_ARCHIVE_INDEX.json",
+    "jobs": 30,
+    "total_archive_bytes": 1725313638,
+    "sha256": "e6934e92187e12eab9203fc31a1a79f9cc566084185e1119f77b09530d5f1afc"
+  },
+  "base_code_library_file_id": "libfile_88e02f619d7c8191af9724c6000ff85a",
+  "cell_data_library_file_id": "libfile_1d528a9a0cb88191ac870f34a63e56a6",
+  "gpu_control_library_file_id": "libfile_c40d962a4da481919f6d15dff8562a7f",
+  "scope": "Full frozen predictions and exact trained weights are separately archived; they are not contained in this <10 MB increment. No automatic network requests."
+}

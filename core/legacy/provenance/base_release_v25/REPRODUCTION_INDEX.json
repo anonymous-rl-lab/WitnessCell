@@ -1,0 +1,119 @@
+{
+  "release": "25.0.0",
+  "paper": "22",
+  "offline": true,
+  "tasks": {
+    "core": {
+      "script": "compact/legacy_core/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Exact released per-operation metrics, paired ablations, rankings and historical bootstrap"
+    },
+    "risk": {
+      "script": "compact/legacy_risk/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Compact moment/row replay of frozen registration, risk selection, metric calibration, bootstrap and intervals"
+    },
+    "support": {
+      "script": "experiments/25_support_controls_and_witness_quantity/reproduce.py",
+      "args": [
+        "--repo",
+        "{root}",
+        "--output",
+        "{out}",
+        "--mode",
+        "all",
+        "--max-seconds",
+        "240"
+      ],
+      "scope": "Unchanged experiment25 full endpoint-state, prediction-array and statistics reconstruction"
+    },
+    "growth": {
+      "script": "tools/run_growth.py",
+      "args": [
+        "--mode",
+        "reproduce",
+        "--stage",
+        "all",
+        "--out",
+        "{out}",
+        "--max-seconds",
+        "240"
+      ],
+      "scope": "Actual K562 and Jurkat model fitting, selection, prediction and scoring from original compact condition inputs"
+    },
+    "step2": {
+      "script": "tools/run_step2.py",
+      "args": [
+        "--mode",
+        "reproduce",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Unchanged compact main RNA/structural score replay"
+    },
+    "rna_shrinkage": {
+      "script": "tools/run_rna_shrinkage.py",
+      "args": [
+        "--out",
+        "{out}.json"
+      ],
+      "scope": "11x4995 signed vectors; M0/M1/uniform/R comparisons"
+    },
+    "examples": {
+      "script": "tools/run_examples.py",
+      "args": [
+        "--mode",
+        "reproduce",
+        "--out",
+        "{out}"
+      ],
+      "scope": "Unchanged RNA/Jurkat example tables and four figures"
+    },
+    "calibration": {
+      "script": "experiments/29_h1_calibration/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "168 scores,20 inner selections,80 independently reconstructed calibration operators"
+    },
+    "sf12": {
+      "script": "experiments/30_h1_sf12_qualified/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "60 SF12 coefficients re-solved; five qualified tasks and rejected case_R reproduced"
+    },
+    "dixit": {
+      "script": "experiments/31_dixit_confirmation/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Primary RNA archived summary audit; separate post-confirmation G2M actual refit"
+    },
+    "combiseq": {
+      "script": "experiments/32_combiseq_confirmation/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "Frozen program actual refit from compact count matrices"
+    },
+    "paper": {
+      "script": "publication/run.py",
+      "args": [
+        "--out",
+        "{out}"
+      ],
+      "scope": "7 main +10 ED figures redraw;19 supplementary table references; exact scalar checks"
+    }
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "utc": "2026-11-07T23:37:19.014932+00:00",
+  "counts_sha256": "a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee",
+  "provenance": {
+    "utc": "2026-11-07T23:36:50.292766+00:00",
+    "source_commit": "7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+    "source_files": [
+      {
+        "file": "source/historical_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+        "sha256": "e34c9956b7d5e7a68083eb7343bff00c07c2f47ddcdf7464594fd6257c75ac59",
+        "git_blob": "4e324e4307d8ea6121a602360617e2a946acc084",
+        "commit": "7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+        "url": "https://github.com/ucsd-ccbb/mali-dual-crispr-pipeline/blob/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+        "download_url": "https://raw.githubusercontent.com/ucsd-ccbb/mali-dual-crispr-pipeline/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt"
+      },
+      {
+        "file": "source/historical_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+        "sha256": "fc2b2626d1dea6f95e449c063f3e8705cc0ad68b7a87a3206d6fc442509edabd",
+        "git_blob": "0a1ea849b7d04625d0ad5f09d0e2a904028c94e6",
+        "commit": "7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+        "url": "https://github.com/ucsd-ccbb/mali-dual-crispr-pipeline/blob/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+        "download_url": "https://raw.githubusercontent.com/ucsd-ccbb/mali-dual-crispr-pipeline/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt"
+      },
+      {
+        "file": "source/historical_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+        "sha256": "c340d7bdf8f4fb5b392ea1b1e2e16d6706de752485ce58787a064a48541434b1",
+        "git_blob": "2d31c72a25d365cb02340ec428f76ba650f915db",
+        "commit": "7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+        "url": "https://github.com/ucsd-ccbb/mali-dual-crispr-pipeline/blob/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+        "download_url": "https://raw.githubusercontent.com/ucsd-ccbb/mali-dual-crispr-pipeline/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt"
+      },
+      {
+        "file": "source/historical_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+        "sha256": "c3b453bd63b999cca27ee5799f78ca94bdd6c8f744541b2a819bddf504cba657",
+        "git_blob": "5569819228a74d7fe0aef84c764c5fb4f33b8686",
+        "commit": "7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+        "url": "https://github.com/ucsd-ccbb/mali-dual-crispr-pipeline/blob/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+        "download_url": "https://raw.githubusercontent.com/ucsd-ccbb/mali-dual-crispr-pipeline/7c05a5a551dc5cd3a3c841d2f22215a450b353a3/notebooks/abundance_threshold_heuristic_development/mali_combined_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt"
+      }
+    ],
+    "source_sha256": "16375e01c95794f72ad244cf90fc67ea13f3a78808a7cf6ba6e76ab0e7954c0a",
+    "source_name": "Shen2017 CV4 raw counts recovered from the official author repository history",
+    "source_url": "https://github.com/ucsd-ccbb/mali-dual-crispr-pipeline/tree/7c05a5a551dc5cd3a3c841d2f22215a450b353a3",
+    "sheet_columns": {
+      "design": "S2A: B=gene A, F=gene B, K=SequenceID; raw count mapping below",
+      "count_columns": [
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d14-1_S3_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 14
+        },
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d14-2_S4_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 14
+        },
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d28-1_S5_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 28
+        },
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d28-2_S6_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 28
+        },
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d3-1_S1_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 3
+        },
+        {
+          "file": "20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+          "column": "Hela-CV4-d3-2_S2_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 3
+        },
+        {
+          "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+          "column": "A549_CV4_d14_1_S3_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 14
+        },
+        {
+          "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+          "column": "A549_CV4_d14_2_S4_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 14
+        },
+        {
+          "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+          "column": "A549_CV4_d3_1_S1_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 3
+        },
+        {
+          "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+          "column": "A549_CV4_d3_2_S2_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 3
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "A549-CV4-d21-1_S3_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 21
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "A549-CV4-d21-2_S4_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 21
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "A549-CV4-d28-1_S5_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 28
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "A549-CV4-d28-2_S6_trimmed53_len_filtered_counts",
+          "cell_line": "A549",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 28
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "Hela-CV4-d21-1_S1_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 1,
+          "replicate": 1,
+          "day": 21
+        },
+        {
+          "file": "20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+          "column": "Hela-CV4-d21-2_S2_trimmed53_len_filtered_counts",
+          "cell_line": "HeLa",
+          "source_repeat": 2,
+          "replicate": 2,
+          "day": 21
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d21_3_S5_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 3,
+          "replicate": 1,
+          "day": 21
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d3_3_S1_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 3,
+          "replicate": 1,
+          "day": 3
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d3_4_S2_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 4,
+          "replicate": 2,
+          "day": 3
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d14_3_S3_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 3,
+          "replicate": 1,
+          "day": 14
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d28_4_S8_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 4,
+          "replicate": 2,
+          "day": 28
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d14_4_S4_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 4,
+          "replicate": 2,
+          "day": 14
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d28_3_S7_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 3,
+          "replicate": 1,
+          "day": 28
+        },
+        {
+          "file": "20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+          "column": "293_CV4_d21_4_S6_trimmed53_len_filtered_counts",
+          "cell_line": "293T",
+          "source_repeat": 4,
+          "replicate": 2,
+          "day": 21
+        }
+      ]
+    },
+    "repeat_mapping": {
+      "HeLa": "source 1/2 retained",
+      "A549": "source 1/2 retained",
+      "293T": "source 293_CV4 replicate identifiers 3/4 relabelled 1/2; distinct originals retained"
+    },
+    "control_identity_mapping": "Explicit NonTargeting* gene annotations in S2A; author NonTargetingControlGuideForHuman alias maps to NonTargeting",
+    "units": "control-relative log2 growth slope per day",
+    "declared_raw_counts": true,
+    "excluded_columns": [
+      {
+        "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+        "column": "A549_CV4_d28_1_S5_trimmed53_len_filtered_counts",
+        "reason": "Earlier d28 run is not the d28 column used in author A549 scoring input"
+      },
+      {
+        "file": "20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+        "column": "A549_CV4_d28_2_S6_trimmed53_len_filtered_counts",
+        "reason": "Earlier d28 run is not the d28 column used in author A549 scoring input"
+      }
+    ],
+    "design_duplicate_rows": 1,
+    "counts_sha256": "a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee",
+    "design_sha256": "302fe3c4a0d7103e44c6d2d204f488ce27a528ba62f90382e123a4d75b7f8bb2",
+    "raw_rows": 597792,
+    "genes": 73,
+    "design_gene_pairs": 2628,
+    "samples": [
+      {
+        "cell_line": "293T",
+        "replicate": 1,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 1,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 1,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 1,
+        "day": 28,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 2,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 2,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 2,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "293T",
+        "replicate": 2,
+        "day": 28,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 1,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 1,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 1,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 1,
+        "day": 28,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 2,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 2,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 2,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "A549",
+        "replicate": 2,
+        "day": 28,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 1,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 1,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 1,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 1,
+        "day": 28,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 2,
+        "day": 3,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 2,
+        "day": 14,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 2,
+        "day": 21,
+        "constructs": 24908
+      },
+      {
+        "cell_line": "HeLa",
+        "replicate": 2,
+        "day": 28,
+        "constructs": 24908
+      }
+    ],
+    "A549_author_input_alignment": [
+      {
+        "source_column": "A549_CV4_d14_1_S3_trimmed53_len_filtered_counts",
+        "author_column": "A549_CV4_d14_1_S3_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549_CV4_d14_2_S4_trimmed53_len_filtered_counts",
+        "author_column": "A549_CV4_d14_2_S4_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549_CV4_d3_1_S1_trimmed53_len_filtered_counts",
+        "author_column": "A549_CV4_d3_1_S1_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549_CV4_d3_2_S2_trimmed53_len_filtered_counts",
+        "author_column": "A549_CV4_d3_2_S2_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549-CV4-d21-1_S3_trimmed53_len_filtered_counts",
+        "author_column": "A549-CV4-d21-1_S3_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549-CV4-d21-2_S4_trimmed53_len_filtered_counts",
+        "author_column": "A549-CV4-d21-2_S4_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549-CV4-d28-1_S5_trimmed53_len_filtered_counts",
+        "author_column": "A549-CV4-d28-1_S5_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      },
+      {
+        "source_column": "A549-CV4-d28-2_S6_trimmed53_len_filtered_counts",
+        "author_column": "A549-CV4-d28-2_S6_trimmed53_len_filtered_counts",
+        "matched_constructs": 24309
+      }
+    ],
+    "source_identity_notes": [
+      "HeLa CV4 is used; Trex2, CV4R4R, CRV4 and MV4 datasets are excluded by assay identity.",
+      "Historical 293_CV4 is mapped to the 293T context reported for this paper; original filenames and sample labels are retained.",
+      "S2A contains 600 dual-NTC design records; the count files contain 599 dual-NTC constructs.",
+      "Public pooled S2B scores are not model inputs or query outcomes."
+    ],
+    "real_model_fits_so_far": 0,
+    "formal_query_scoring_so_far": 0,
+    "protocol_amendment": false,
+    "preflight_thresholds_unchanged": true
+  },
+  "summary": {
+    "HeLa": {
+      "genes": 73,
+      "train_pairs": 2096,
+      "queries": 523,
+      "partner_dimensions": 450,
+      "sealed_truth_sha256": "14d54e7796af03f607c877e20a77c6fd6e21be95d3a9154884ea8b2b222c1b11"
+    },
+    "A549": {
+      "genes": 73,
+      "train_pairs": 2100,
+      "queries": 525,
+      "partner_dimensions": 452,
+      "sealed_truth_sha256": "b29153b74ef394ad0c08f00962ca58f8261c973bd9da17fdc20a18534f8d7433"
+    },
+    "293T": {
+      "genes": 73,
+      "train_pairs": 2056,
+      "queries": 517,
+      "partner_dimensions": 444,
+      "sealed_truth_sha256": "8428770f057b3ee312a5500c6fb7aff39e188e406633a5a558979e4843435182"
+    }
+  },
+  "source_values_read_for_measurement_preprocessing": true,
+  "formal_model_fitted": false,
+  "formal_predictions_scored": false,
+  "note": "Sealing separates software access, not a cryptographic or institutional blind"
+}

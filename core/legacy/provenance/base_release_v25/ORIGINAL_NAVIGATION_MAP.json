@@ -1,0 +1,49 @@
+{
+  "base_archive": "grn_repo_v25.zip",
+  "base_archive_sha256": "95efc581ddaddfa120f3edc56dd2dd34cae004e30caaeb6516497e1d67d8f134",
+  "base_archive_bytes": 92355743,
+  "base_release": "25.0.0",
+  "paper": "22",
+  "files": {
+    "README.md": {
+      "sha256": "b0247575243d717dfd7ab224486e9312c835dfd3a34723a63b62c43959bd8e92",
+      "bytes": 3521,
+      "original_at": "provenance/base_release_v25/README.md"
+    },
+    "RELEASE_STATUS.json": {
+      "sha256": "59e8f161a900952526cdbfa3434289f8885733d2368481a824f323865a08e9a7",
+      "bytes": 817,
+      "original_at": "provenance/base_release_v25/RELEASE_STATUS.json"
+    },
+    "REPRODUCTION_INDEX.json": {
+      "sha256": "ecb3c944ba25d3c1bad3d9b2d03b5dc3b31cd7dc32df64b994d43da53497f90b",
+      "bytes": 3134,
+      "original_at": "provenance/base_release_v25/REPRODUCTION_INDEX.json"
+    },
+    "VERSION": {
+      "sha256": "2206479e9bff7d8ca42837b5d1f4ccfdd97ce9be8360eae1373463a28573ab8c",
+      "bytes": 7,
+      "original_at": "provenance/base_release_v25/VERSION"
+    },
+    "PACKAGE_MANIFEST.json": {
+      "sha256": "dd877f5d8a1434fe6c594634d4e424b80598bdac825c0e125c36f4ae0c66b267",
+      "bytes": 211095,
+      "original_at": "provenance/base_release_v25/PACKAGE_MANIFEST.json"
+    },
+    "docs/REPRODUCTION_SCOPE.md": {
+      "sha256": "9c052c1da0fed6e7611fe5d908ff4423048443eed4418ec3abfe46ef98d28d47",
+      "bytes": 1493,
+      "original_at": "provenance/base_release_v25/docs/REPRODUCTION_SCOPE.md"
+    },
+    "tools/reproduce.py": {
+      "sha256": "2c2fcda3d84dd369898ec044e5228fb6cf3b7284e4359f5f1ca4c3ac1972787e",
+      "bytes": 3067,
+      "original_at": "provenance/base_release_v25/tools/reproduce.py"
+    },
+    "tools/verify.py": {
+      "sha256": "bb97cd14e001103827bccc1c70b0a9b95d85b4a1b2f53ed8d517d0cdb2f8b651",
+      "bytes": 3257,
+      "original_at": "provenance/base_release_v25/tools/verify.py"
+    }
+  }
+}

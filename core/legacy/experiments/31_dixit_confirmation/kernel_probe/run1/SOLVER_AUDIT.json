@@ -1,0 +1,1334 @@
+[
+  {
+    "identity": "outer0:inner0",
+    "fit": [
+      15,
+      16,
+      19,
+      20,
+      23,
+      24,
+      25,
+      27,
+      28,
+      30,
+      31,
+      35,
+      36,
+      37,
+      38,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+GABPA",
+      "ETS1+IRF1",
+      "E2F4+EGR1",
+      "CREB1+ETS1",
+      "EGR1+NR2C2",
+      "E2F4+YY1",
+      "CREB1+ELK1",
+      "EGR1+GABPA",
+      "E2F4+IRF1",
+      "CREB1+ELF1",
+      "EGR1+ELK1",
+      "CREB1+EGR1",
+      "E2F4+ELF1",
+      "ELK1+YY1",
+      "ETS1+NR2C2",
+      "CREB1+E2F4",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ELK1+IRF1",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 3.2261522194490627e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.0302277847386998e-10,
+        "min_eigenvalue": 0.26474011864554126,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 4.038223131796676e-15,
+            "global_endpoint_orthogonality_max_abs": 4.996003610813204e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 3.47680132365873e-15,
+            "global_endpoint_orthogonality_max_abs": 4.163336342344337e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.9568991362733538e-15,
+            "global_endpoint_orthogonality_max_abs": 9.020562075079397e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.3120811523366636e-10,
+        "min_eigenvalue": -4.2347071883433226e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 1.1789826013623532e-14,
+            "global_endpoint_orthogonality_max_abs": 2.3592239273284576e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.8161075826953207e-15,
+            "global_endpoint_orthogonality_max_abs": 2.7755575615628914e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.3104354706245863e-15,
+            "global_endpoint_orthogonality_max_abs": 7.28583859910259e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer0:inner1",
+    "fit": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      38,
+      39,
+      43
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+GABPA",
+      "ETS1+IRF1",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "E2F4+EGR1",
+      "CREB1+ETS1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "CREB1+ELK1",
+      "ELF1+ETS1",
+      "EGR1+GABPA",
+      "E2F4+IRF1",
+      "NR2C2+YY1",
+      "EGR1+ELK1",
+      "E2F4+ETS1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "ETS1+NR2C2",
+      "GABPA+IRF1",
+      "ELK1+IRF1"
+    ],
+    "variance_floor": 3.2078001471869786e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1030085363492593e-10,
+        "min_eigenvalue": 0.25836475721641655,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.418979784915628e-15,
+            "global_endpoint_orthogonality_max_abs": 4.996003610813204e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.613451738953112e-15,
+            "global_endpoint_orthogonality_max_abs": 3.885780586188048e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.1106844683617775e-15,
+            "global_endpoint_orthogonality_max_abs": 5.724587470723463e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.3025074400698586e-10,
+        "min_eigenvalue": -2.9422004662231086e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 2.0029590518342542e-14,
+            "global_endpoint_orthogonality_max_abs": 3.1086244689504383e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 3.1491877771304193e-15,
+            "global_endpoint_orthogonality_max_abs": 3.608224830031759e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.3208084752884204e-15,
+            "global_endpoint_orthogonality_max_abs": 6.245004513516506e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer0:inner2",
+    "fit": [
+      17,
+      18,
+      21,
+      22,
+      23,
+      24,
+      26,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "EGR1+NR2C2",
+      "E2F4+YY1",
+      "ELF1+ETS1",
+      "NR2C2+YY1",
+      "CREB1+ELF1",
+      "E2F4+ETS1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "CREB1+EGR1",
+      "E2F4+ELF1",
+      "ELK1+YY1",
+      "GABPA+IRF1",
+      "CREB1+E2F4",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 3.210080830096505e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.2366653176405824e-10,
+        "min_eigenvalue": 0.17094810691435716,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.0212349647103313e-15,
+            "global_endpoint_orthogonality_max_abs": 7.771561172376096e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.9895758248801916e-15,
+            "global_endpoint_orthogonality_max_abs": 3.3306690738754696e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.809615106228456e-15,
+            "global_endpoint_orthogonality_max_abs": 6.938893903907228e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.4410143010829884e-10,
+        "min_eigenvalue": -8.212747969481667e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 6.724042399364081e-15,
+            "global_endpoint_orthogonality_max_abs": 2.581268532253489e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.4549191049250852e-15,
+            "global_endpoint_orthogonality_max_abs": 3.608224830031759e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.4662303152930663e-15,
+            "global_endpoint_orthogonality_max_abs": 9.367506770274758e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer0:final",
+    "fit": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+GABPA",
+      "ETS1+IRF1",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "E2F4+EGR1",
+      "CREB1+ETS1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "EGR1+NR2C2",
+      "E2F4+YY1",
+      "CREB1+ELK1",
+      "ELF1+ETS1",
+      "EGR1+GABPA",
+      "E2F4+IRF1",
+      "NR2C2+YY1",
+      "CREB1+ELF1",
+      "EGR1+ELK1",
+      "E2F4+ETS1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "CREB1+EGR1",
+      "E2F4+ELF1",
+      "ELK1+YY1",
+      "ETS1+NR2C2",
+      "GABPA+IRF1",
+      "CREB1+E2F4",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ELK1+IRF1",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 2.5919102656195773e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1233005462428476e-10,
+        "min_eigenvalue": 0.057598255381871896,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.693638142179207e-15,
+            "global_endpoint_orthogonality_max_abs": 8.326672684688674e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.1766597916310585e-15,
+            "global_endpoint_orthogonality_max_abs": 4.996003610813204e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.9177570057200478e-15,
+            "global_endpoint_orthogonality_max_abs": 7.632783294297951e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.789949127888774e-10,
+        "min_eigenvalue": -5.696469604656103e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 9.943275169924484e-15,
+            "global_endpoint_orthogonality_max_abs": 3.774758283725532e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.384850491544188e-15,
+            "global_endpoint_orthogonality_max_abs": 4.996003610813204e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.005064204062088e-15,
+            "global_endpoint_orthogonality_max_abs": 9.020562075079397e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer1:inner0",
+    "fit": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      14,
+      30,
+      32,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "ELF1+GABPA",
+      "CREB1+NR2C2",
+      "E2F4+GABPA",
+      "EGR1+ETS1",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "ETS1+YY1",
+      "E2F4+ELK1",
+      "EGR1+ELF1",
+      "CREB1+ELF1",
+      "E2F4+ETS1",
+      "E2F4+ELF1",
+      "ETS1+NR2C2",
+      "GABPA+IRF1",
+      "CREB1+E2F4",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ELK1+IRF1"
+    ],
+    "variance_floor": 3.177462272757035e-10,
+    "alpha": 0.2,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.0354810110641892e-10,
+        "min_eigenvalue": 0.22250035160925574,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 2.2706516478470357e-15,
+            "global_endpoint_orthogonality_max_abs": 6.661338147750939e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.9143426146927416e-15,
+            "global_endpoint_orthogonality_max_abs": 3.608224830031759e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.08510009464974e-15,
+            "global_endpoint_orthogonality_max_abs": 6.938893903907228e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.2724899707347945e-10,
+        "min_eigenvalue": -4.524130196784855e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 4.573252259724275e-15,
+            "global_endpoint_orthogonality_max_abs": 1.8318679906315083e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.469242225094517e-15,
+            "global_endpoint_orthogonality_max_abs": 4.3368086899420177e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.1035837963990695e-15,
+            "global_endpoint_orthogonality_max_abs": 6.245004513516506e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer1:inner1",
+    "fit": [
+      2,
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      30,
+      31,
+      33,
+      34,
+      35,
+      37,
+      38,
+      39,
+      40,
+      43,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "EGR1+IRF1",
+      "ELF1+GABPA",
+      "ELK1+ETS1",
+      "IRF1+YY1",
+      "E2F4+GABPA",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "GABPA+NR2C2",
+      "E2F4+ELK1",
+      "CREB1+ELF1",
+      "EGR1+ELK1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "CREB1+EGR1",
+      "ELK1+YY1",
+      "ETS1+NR2C2",
+      "GABPA+IRF1",
+      "CREB1+E2F4",
+      "ELK1+IRF1",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 3.1774580374269626e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.2438281042813975e-10,
+        "min_eigenvalue": 0.1570725366653415,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.0863416953074783e-15,
+            "global_endpoint_orthogonality_max_abs": 3.3306690738754696e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.622529441714856e-15,
+            "global_endpoint_orthogonality_max_abs": 1.942890293094024e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.4312972024861584e-15,
+            "global_endpoint_orthogonality_max_abs": 6.245004513516506e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.450544258933591e-10,
+        "min_eigenvalue": -7.813540970741938e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 8.507276356634372e-15,
+            "global_endpoint_orthogonality_max_abs": 2.886579864025407e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 3.0114160006774515e-15,
+            "global_endpoint_orthogonality_max_abs": 5.48172618408671e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 3.0777773660319328e-15,
+            "global_endpoint_orthogonality_max_abs": 8.326672684688674e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer1:inner2",
+    "fit": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      11,
+      12,
+      14,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      41,
+      42,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "EGR1+IRF1",
+      "ELK1+ETS1",
+      "CREB1+NR2C2",
+      "IRF1+YY1",
+      "EGR1+ETS1",
+      "GABPA+NR2C2",
+      "ETS1+YY1",
+      "EGR1+ELF1",
+      "EGR1+ELK1",
+      "E2F4+ETS1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "CREB1+EGR1",
+      "E2F4+ELF1",
+      "ELK1+YY1",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 3.1774580374269626e-10,
+    "alpha": 0.0,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.2796411361453998e-10,
+        "min_eigenvalue": 0.1838767122484171,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 2.1554872847924483e-15,
+            "global_endpoint_orthogonality_max_abs": 4.440892098500626e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.9471975455806097e-15,
+            "global_endpoint_orthogonality_max_abs": 2.7755575615628914e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.1383308010055666e-15,
+            "global_endpoint_orthogonality_max_abs": 5.551115123125783e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.4505349751893936e-10,
+        "min_eigenvalue": -1.505308833862229e-15,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 1.437002040407286e-14,
+            "global_endpoint_orthogonality_max_abs": 7.827072323607354e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.4540543873555222e-15,
+            "global_endpoint_orthogonality_max_abs": 5.759281940243e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.8638713764125468e-15,
+            "global_endpoint_orthogonality_max_abs": 1.0148132334464322e-16
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer1:final",
+    "fit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "EGR1+IRF1",
+      "ELF1+GABPA",
+      "ELK1+ETS1",
+      "CREB1+NR2C2",
+      "IRF1+YY1",
+      "E2F4+GABPA",
+      "EGR1+ETS1",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "GABPA+NR2C2",
+      "ETS1+YY1",
+      "E2F4+ELK1",
+      "EGR1+ELF1",
+      "CREB1+ELF1",
+      "EGR1+ELK1",
+      "E2F4+ETS1",
+      "GABPA+YY1",
+      "IRF1+NR2C2",
+      "CREB1+EGR1",
+      "E2F4+ELF1",
+      "ELK1+YY1",
+      "ETS1+NR2C2",
+      "GABPA+IRF1",
+      "CREB1+E2F4",
+      "EGR1+YY1",
+      "ELF1+NR2C2",
+      "ELK1+IRF1",
+      "ETS1+GABPA"
+    ],
+    "variance_floor": 2.511058550916624e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1863167504969956e-10,
+        "min_eigenvalue": 0.03807806964999129,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.866220362584354e-15,
+            "global_endpoint_orthogonality_max_abs": 1.3322676295501878e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.971935036799205e-15,
+            "global_endpoint_orthogonality_max_abs": 2.498001805406602e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.9768115943444424e-15,
+            "global_endpoint_orthogonality_max_abs": 9.020562075079397e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.858847005669189e-10,
+        "min_eigenvalue": -4.810509610099593e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 7.978313687413349e-15,
+            "global_endpoint_orthogonality_max_abs": 5.2735593669694936e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.927832782182356e-15,
+            "global_endpoint_orthogonality_max_abs": 5.759281940243e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.28262453337354e-15,
+            "global_endpoint_orthogonality_max_abs": 7.112366251504909e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer2:inner0",
+    "fit": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      17,
+      18,
+      20,
+      23,
+      24,
+      25,
+      29
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "EGR1+IRF1",
+      "ELF1+GABPA",
+      "CREB1+NR2C2",
+      "IRF1+YY1",
+      "EGR1+ETS1",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "GABPA+NR2C2",
+      "ETS1+YY1",
+      "E2F4+ELK1",
+      "CREB1+GABPA",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "CREB1+ETS1",
+      "EGR1+NR2C2",
+      "E2F4+YY1",
+      "CREB1+ELK1",
+      "NR2C2+YY1"
+    ],
+    "variance_floor": 3.1773502921252837e-10,
+    "alpha": 0.0,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.255320206871157e-10,
+        "min_eigenvalue": 0.19963684546904834,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.002932104239466e-15,
+            "global_endpoint_orthogonality_max_abs": 1.1102230246251565e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.320839594568395e-15,
+            "global_endpoint_orthogonality_max_abs": 4.718447854656915e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.959795353769469e-15,
+            "global_endpoint_orthogonality_max_abs": 8.326672684688674e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.434889728212782e-10,
+        "min_eigenvalue": -4.862875791072569e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 8.616407652449431e-15,
+            "global_endpoint_orthogonality_max_abs": 3.1086244689504383e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 1.7692954901900963e-15,
+            "global_endpoint_orthogonality_max_abs": 3.7470027081099033e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.3184548922678973e-15,
+            "global_endpoint_orthogonality_max_abs": 8.500145032286355e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer2:inner1",
+    "fit": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      19,
+      20,
+      21,
+      22,
+      23,
+      26,
+      27,
+      28,
+      29
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "EGR1+IRF1",
+      "ELK1+ETS1",
+      "CREB1+NR2C2",
+      "IRF1+YY1",
+      "E2F4+GABPA",
+      "EGR1+ETS1",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "ETS1+YY1",
+      "EGR1+ELF1",
+      "ETS1+IRF1",
+      "E2F4+EGR1",
+      "CREB1+ETS1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "EGR1+NR2C2",
+      "ELF1+ETS1",
+      "EGR1+GABPA",
+      "E2F4+IRF1",
+      "NR2C2+YY1"
+    ],
+    "variance_floor": 3.1774580374269626e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1558067836707193e-10,
+        "min_eigenvalue": 0.25288185447732947,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 3.73368269863485e-15,
+            "global_endpoint_orthogonality_max_abs": 6.661338147750939e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 3.216626412453535e-15,
+            "global_endpoint_orthogonality_max_abs": 2.914335439641036e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 3.0661138065309263e-15,
+            "global_endpoint_orthogonality_max_abs": 2.992397996059992e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.369034704450965e-10,
+        "min_eigenvalue": -6.65662109640694e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 8.471573912689088e-15,
+            "global_endpoint_orthogonality_max_abs": 1.4988010832439613e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.112582686755042e-15,
+            "global_endpoint_orthogonality_max_abs": 3.677613769070831e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.5433268440399969e-15,
+            "global_endpoint_orthogonality_max_abs": 6.245004513516506e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer2:inner2",
+    "fit": [
+      0,
+      1,
+      3,
+      4,
+      7,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "ELF1+GABPA",
+      "ELK1+ETS1",
+      "E2F4+GABPA",
+      "GABPA+NR2C2",
+      "E2F4+ELK1",
+      "EGR1+ELF1",
+      "CREB1+GABPA",
+      "ETS1+IRF1",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "E2F4+EGR1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "E2F4+YY1",
+      "CREB1+ELK1",
+      "ELF1+ETS1",
+      "EGR1+GABPA",
+      "E2F4+IRF1"
+    ],
+    "variance_floor": 3.231921625188519e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1191398531177716e-10,
+        "min_eigenvalue": 0.21041059647657812,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 4.358919316403689e-15,
+            "global_endpoint_orthogonality_max_abs": 1.1102230246251565e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.3844466731454004e-15,
+            "global_endpoint_orthogonality_max_abs": 4.996003610813204e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 1.7529052403150622e-15,
+            "global_endpoint_orthogonality_max_abs": 7.979727989493313e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.3054399645355916e-10,
+        "min_eigenvalue": -7.027854812632642e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 1.3909400098004177e-14,
+            "global_endpoint_orthogonality_max_abs": 5.551115123125783e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 3.125654007906464e-15,
+            "global_endpoint_orthogonality_max_abs": 3.885780586188048e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.842202542487627e-15,
+            "global_endpoint_orthogonality_max_abs": 4.5102810375396984e-17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "identity": "outer2:final",
+    "fit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "normalization_conditions": [
+      "control",
+      "CREB1",
+      "E2F4",
+      "EGR1",
+      "ELF1",
+      "ELK1",
+      "ETS1",
+      "GABPA",
+      "IRF1",
+      "NR2C2",
+      "YY1",
+      "CREB1+YY1",
+      "E2F4+NR2C2",
+      "EGR1+IRF1",
+      "ELF1+GABPA",
+      "ELK1+ETS1",
+      "CREB1+NR2C2",
+      "IRF1+YY1",
+      "E2F4+GABPA",
+      "EGR1+ETS1",
+      "ELF1+ELK1",
+      "CREB1+IRF1",
+      "GABPA+NR2C2",
+      "ETS1+YY1",
+      "E2F4+ELK1",
+      "EGR1+ELF1",
+      "CREB1+GABPA",
+      "ETS1+IRF1",
+      "ELK1+NR2C2",
+      "ELF1+YY1",
+      "E2F4+EGR1",
+      "CREB1+ETS1",
+      "ELK1+GABPA",
+      "ELF1+IRF1",
+      "EGR1+NR2C2",
+      "E2F4+YY1",
+      "CREB1+ELK1",
+      "ELF1+ETS1",
+      "EGR1+GABPA",
+      "E2F4+IRF1",
+      "NR2C2+YY1"
+    ],
+    "variance_floor": 2.514425115500954e-10,
+    "alpha": 0.5,
+    "fits": [
+      {
+        "kind": "ref_full",
+        "scale": 2.1767556145532158e-10,
+        "min_eigenvalue": 0.03974226702400525,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 4.756575077346607e-15,
+            "global_endpoint_orthogonality_max_abs": 9.992007221626409e-16
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.8564232986635428e-15,
+            "global_endpoint_orthogonality_max_abs": 4.718447854656915e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.247754514325443e-15,
+            "global_endpoint_orthogonality_max_abs": 7.719519468096792e-17
+          }
+        ]
+      },
+      {
+        "kind": "ref_trainP",
+        "scale": 1.8547282591393845e-10,
+        "min_eigenvalue": -5.185062716637922e-16,
+        "solves": [
+          {
+            "lambda": 0.1,
+            "linear_system_residual_norm": 1.4907637049630744e-14,
+            "global_endpoint_orthogonality_max_abs": 2.275957200481571e-15
+          },
+          {
+            "lambda": 1.0,
+            "linear_system_residual_norm": 2.900847730881878e-15,
+            "global_endpoint_orthogonality_max_abs": 2.3592239273284576e-16
+          },
+          {
+            "lambda": 10.0,
+            "linear_system_residual_norm": 2.6082581334690863e-15,
+            "global_endpoint_orthogonality_max_abs": 4.163336342344337e-17
+          }
+        ]
+      }
+    ]
+  }
+]

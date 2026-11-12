@@ -1,0 +1,13 @@
+{
+  "frozen_at_unix": 1792202640.2721975,
+  "outputs": {
+    "Norman_seed1": "e4542c1a5dbd4c4f33fa843e61b535fb6bcfa34a30e50e1ee9a05a25f00c21ff",
+    "Norman_seed2": "fbdc3c9344675e721c8c3714413df3500bbc9c6a9bc821c85195fca12d67cd76",
+    "Norman_seed3": "4afd4034b06bdd782bf8b5d4aa66bde465d3b50bac0628875c94b6ecdc88ea02",
+    "Wessels_seed1": "c7dad71b1a7bcae8048d96bf874a5f8b64065abee00b2bb9caca47b4a8aced17",
+    "Wessels_seed2": "2364a38fb47a4628105932ee64a701d1cb30b5861e084d70e22423c2a33cc49e",
+    "Wessels_seed3": "f0c0607ec3e9aa774d63e95f95a2b40e7f39200346328f35a6bf54fa2fb8ba3f"
+  },
+  "elapsed_seconds": 280.50461582999924,
+  "test_truth_scored": false
+}

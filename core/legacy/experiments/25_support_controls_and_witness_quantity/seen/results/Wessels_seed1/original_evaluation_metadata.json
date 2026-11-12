@@ -1,0 +1,20 @@
+{
+  "dataset": "Wessels",
+  "seed": 1,
+  "target_genes_removed": true,
+  "loss_truth": "E18_full_cell_condition_means",
+  "oof_effect_quartile_edges": [
+    0.00281523061670879,
+    0.004403374055284592,
+    0.006698267487194384
+  ],
+  "oof_effect_quartile_axis": "effect_score",
+  "effect_quartile_transform": "log1p",
+  "relative_loss_epsilon": 0.0017020201560534341,
+  "frozen_query_sha256": "c7dad71b1a7bcae8048d96bf874a5f8b64065abee00b2bb9caca47b4a8aced17",
+  "risk_model_sha256": "2d88f655b37c3d04c01a355d87a56dc5a91e46211bdb4e938ebdc196abc9fd88",
+  "total_oof_records": 81,
+  "unique_training_pairs": 28,
+  "formal_targets": 63,
+  "elapsed_seconds": 50.58357332500054
+}

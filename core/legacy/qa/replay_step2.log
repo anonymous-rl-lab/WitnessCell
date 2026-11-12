@@ -1,0 +1,89 @@
+{
+  "passed": true,
+  "repository_version": "25.0.0",
+  "mode": "reproduce",
+  "compact_archive": {
+    "archive_bytes": 7792946,
+    "archive_sha256": "d734a9595557f57e4b3f9d8212182594b58da9b17ec9a6323277d4e8ac324673",
+    "members": 503,
+    "scope": "Exact result rescore from lossless float64 sufficient statistics; original per-gene prediction archives remain separate external source artifacts"
+  },
+  "new_models_trained": 0,
+  "installed_software": false,
+  "external_downloads": 0,
+  "reproduction": {
+    "passed": true,
+    "modules": {
+      "official12": {
+        "passed": true,
+        "comparisons": 7215,
+        "max_abs_diff": 2.7755575615628914e-17,
+        "max_scaled_diff": 2.7755575615628914e-17,
+        "n_score_rows": 234,
+        "n_increment_rows": 36,
+        "n_splits": 12,
+        "contrast_dimensions": 212,
+        "source_arrays_used_at_extraction": true,
+        "final_score_tables_used_for_calculation": false,
+        "scope": "Exact declared-score reproduction from float64 sufficient statistics; no raw-prediction reconstruction or model retraining",
+        "tolerance": "abs 2e-9 + relative 1e-10; original independent-verifier tolerance"
+      },
+      "headtohead": {
+        "passed": true,
+        "comparisons": 378,
+        "additional_table_comparisons": 864,
+        "max_abs_diff": 2.842170943040401e-14,
+        "precision": "Original float64; no quantization. Grouping can alter the final sum only by roundoff.",
+        "concentration": {
+          "M1": {
+            "improved_genes": 1596,
+            "top10_positive_share": 0.822127107822535,
+            "negative_cancellation_fraction": 0.5468261737274406,
+            "top10_genes": [
+              "S100A9",
+              "S100A8",
+              "S100A12",
+              "LYZ",
+              "VCAN",
+              "VIM",
+              "MS4A6A",
+              "MYL9",
+              "LGALS1",
+              "PPP1R27"
+            ],
+            "fixed10_positive_share": 0.8221271078225351
+          },
+          "R": {
+            "improved_genes": 1929,
+            "top10_positive_share": 0.9212529341806202,
+            "negative_cancellation_fraction": 0.09523815492804608,
+            "top10_genes": [
+              "S100A9",
+              "S100A8",
+              "S100A12",
+              "LYZ",
+              "VCAN",
+              "VIM",
+              "MS4A6A",
+              "MYL9",
+              "LGALS1",
+              "PPP1R27"
+            ],
+            "fixed10_positive_share": 0.9212529341806202
+          }
+        },
+        "final_neural_runs": 30,
+        "scope": "55 unique combinations; 5 folds; 11 dependent rectangles; 15 fold-specific projection dimensions; seeds are optimization repetitions, not biological replicates",
+        "reproduction_level": "Frozen-score/statistical-contribution reproduction, not vector recovery or neural retraining"
+      }
+    },
+    "checked_values": 8457,
+    "max_abs_diff": 2.842170943040401e-14,
+    "seconds": 0.5852623760001734,
+    "figure_recreated": false,
+    "scope": "Offline reproduction of all declared scores from unquantized float64 contributions. Full prediction arrays and training inputs remain in the original experiment archives; v22 adds only this compact package and navigation.",
+    "independent_studies_pooled": false,
+    "model_training_performed": false
+  },
+  "elapsed_seconds": 0.8139790189998166
+}

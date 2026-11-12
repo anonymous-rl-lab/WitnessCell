@@ -1,0 +1,18 @@
+[
+  {
+    "path": "notebooks/Dual CRISPR 7-Construct Scoring.ipynb",
+    "code": "# Required format for counts file:  Count file must be a tab-delimited \n# text file containing one row for each construct in library.  File must have\n# a header line (although column names will be ignored) and must contain\n# the following columns in this order:\n# 1: construct id\n# 2: probe A name\n# 3: probe B name\n# 4: gene A name\n# 5: gene B name\n# subsequent: one column for counts of the construct in question at each \n# timepoint-by-replicate combination (e.g., day 3 replicate 1).  These must \n# be ordered by timepoint and then by replicate (e.g., day 3 replicate 1, \n# day 3 replicate 2, day 14 replicate 1, day 14 replicate 2, etc).\n# The number of timepoints represented must match the number given in the\n# g_day_timepoints_str variable below.  The number of replicates is assumed\n# to be two.\n# Note that there MUST NOT be data for more than one screen in the same file,\n# as code doesn't check screen identity of columns bc assumes are from same screen (e.g., say, A549_CV4)\ng_counts_fp = \"/Temp/A549_CV4_counts_w_everything.txt\"\ng_day_timepoints_str = \"3,14,20,28\"\ng_project_name = \"A549_CV4_3-14-21-28_NA_combined_simple-null-w-lfdr\""
+  },
+  {
+    "path": "notebooks/Dual CRISPR 7-Construct Scoring.ipynb",
+    "code": "from rpy2.robjects import r\nimport rpy2.robjects as robjects\n\ngR = robjects.r\n# 'temp' assignments suppress printing of cruft stdout\ntemp = gR.assign('niter', g_num_iterations)\ntemp = gR.assign('g_cran_repo_url', g_cran_repo)\ntemp = gR.assign('input_filename', g_counts_fp)\ntemp = gR.assign('g_time_str', g_day_timepoints_str)\ntemp = gR.assign('project', g_project_name)"
+  },
+  {
+    "path": "notebooks/SEEDED Dual CRISPR 7-Construct Scoring.ipynb",
+    "code": "# Required format for counts file:  Count file must be a tab-delimited \n# text file containing one row for each construct in library.  File must have\n# a header line (although column names will be ignored) and must contain\n# the following columns in this order:\n# 1: construct id\n# 2: probe A name\n# 3: probe B name\n# 4: gene A name\n# 5: gene B name\n# subsequent: one column for counts of the construct in question at each \n# timepoint-by-replicate combination (e.g., day 3 replicate 1).  These must \n# be ordered by timepoint and then by replicate (e.g., day 3 replicate 1, \n# day 3 replicate 2, day 14 replicate 1, day 14 replicate 2, etc).\n# The number of timepoints represented must match the number given in the\n# g_day_timepoints_str variable below.  The number of replicates is assumed\n# to be two.\n# Note that there MUST NOT be data for more than one screen in the same file,\n# as code doesn't check screen identity of columns bc assumes are from same screen (e.g., say, A549_CV4)\ng_counts_fp = \"/Temp/A549_CV4_counts_w_everything.txt\"\ng_day_timepoints_str = \"3,14,20,28\"\ng_project_name = \"A549_CV4_3-14-21-28_NA_combined_simple-null-w-lfdr\""
+  },
+  {
+    "path": "notebooks/SEEDED Dual CRISPR 7-Construct Scoring.ipynb",
+    "code": "from rpy2.robjects import r\nimport rpy2.robjects as robjects\n\ngR = robjects.r\n# 'temp' assignments suppress printing of cruft stdout\ntemp = gR.assign('niter', g_num_iterations)\ntemp = gR.assign('g_cran_repo_url', g_cran_repo)\ntemp = gR.assign('input_filename', g_counts_fp)\ntemp = gR.assign('g_time_str', g_day_timepoints_str)\ntemp = gR.assign('project', g_project_name)"
+  }
+]

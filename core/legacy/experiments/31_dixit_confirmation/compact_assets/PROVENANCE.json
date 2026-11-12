@@ -1,0 +1,51 @@
+{
+  "utc": "2026-10-19T21:23:42.692016+00:00",
+  "source_file": "/workspace/scratch/7517238e1d04/dixit_representation_debug_20261020/portable_stage/assets/work_B/Dixit_external_ready_compact.npz",
+  "source_sha256": "e5a1cd23879d36df4a1513a745952f17c9088ecc64e87f99f5199c600408f153",
+  "derivation": "Lossless exact subset; full condition means and identities only. No precision change, no per-cell RNA, no invented halves or variance arrays. Training-local scales are recomputed from allowed condition means.",
+  "arrays": {
+    "conditions": {
+      "shape": [
+        56
+      ],
+      "dtype": "<U11",
+      "sha256": "a7f485f8a2a31ec60fb52fcfdf7c379611db84e224d1b4fe7af7f748d55d7726"
+    },
+    "genes": {
+      "shape": [
+        23529
+      ],
+      "dtype": "<U15",
+      "sha256": "75cc1083d5ba6dcf1265cb5fe766101c8b0fa6b3719c00d181f7c3cc59d83dad"
+    },
+    "gene_symbols": {
+      "shape": [
+        23529
+      ],
+      "dtype": "<U19",
+      "sha256": "ab270eae549875080735c59b2fbdf2b29d62bb795b0a99b01064a7e628f1b573"
+    },
+    "full_means": {
+      "shape": [
+        56,
+        23529
+      ],
+      "dtype": "float64",
+      "sha256": "f07677db1b96a7902871acef0909c25e4dcfcf85a9fbdfa051ea2cb73ede6c2c"
+    }
+  },
+  "files": {
+    "Dixit_program_source_means.npz": {
+      "bytes": 6497671,
+      "sha256": "b306ac40bb9dd365b4b0b1b7291bf1d7c18f8e4d990f289928cce603ac526d1e"
+    },
+    "PREDEFINED_G2M_PROGRAM.json": {
+      "bytes": 1515,
+      "sha256": "ccd9e710ef7ef448c9234ca007ea02aef5c190157060d639d75b090b63b07895"
+    },
+    "Dixit_labels_only_threefold_candidate.csv": {
+      "bytes": 816,
+      "sha256": "0d25fce4f933965dde991a955c2926fe7ed8089142eec9de2cded7324f612093"
+    }
+  }
+}

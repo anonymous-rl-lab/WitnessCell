@@ -1,0 +1,52 @@
+{
+  "frozen_utc": "2026-10-17T07:58:48.785961+00:00",
+  "script_sha256": "c734b294eb3ffc3fe62a05bbcf8ba15ee23d4c6484af615c5cf0068d6dfb34c4",
+  "plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+  "source_inventory_sha256": "82b3631f62f35ce0c16b2a77c56529e87b1f1789e901274cc08b320e67b75b94",
+  "read_evaluation_losses_in_this_stage": false,
+  "elapsed_seconds": 0.08301873399977922,
+  "batches": [
+    {
+      "dataset": "Norman",
+      "seed": 1,
+      "scores_sha256": "9b73b70c99b38c5fbb6d33267e41e441c3a15b66ed0d4a5c1c99c74a4a47a4a9",
+      "decisions_sha256": "adbf93e8f31c9a760ab47e913097ae1007c060e7695f6a934802ff6e4ca73254",
+      "models_sha256": "9d932c9a8abbc8558666fe85bd8b50396d4e4198016a3e4fc41c834109494ea5"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 2,
+      "scores_sha256": "df6a7081046bb67caa66aa43e80406fb6feeaca832625c05c1c1a140f156b4ff",
+      "decisions_sha256": "8c36efcad13d45b5ba0da03295234e41caef90108bdcd1b7de494aca4ee9645d",
+      "models_sha256": "cf793dda4c193235ca01d2b397d5c7b6f591ddb4743a91f629ac6b8652362574"
+    },
+    {
+      "dataset": "Norman",
+      "seed": 3,
+      "scores_sha256": "960e1948011670b3aac1aff3497af63d85dd029612b34ae7fe50d3ffb49b2012",
+      "decisions_sha256": "5e3b40382517f02fb8b66e5d82fcc3620c6af22a539f1c82bd3fd0b5525b04ea",
+      "models_sha256": "60af014eb56b5c7454b75fcbb1d20f5c9595f0e0d149ec8b228e09f02f93ddcb"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 1,
+      "scores_sha256": "16fcd83730826c9844fc3bcf6afa93c0499465df8ba1d09954590c0e5ddfc661",
+      "decisions_sha256": "9fdb59dcd8b313bc32fd4c1ab331698029d95e082eac521e5facfe6bf915d627",
+      "models_sha256": "5d670b92c0b6686ec098dc67a43f1fdee1d801eafe561633d6f914b2deac9f3a"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 2,
+      "scores_sha256": "32e9db6cadbdaee7769d4ca94f8cc216208294165cd9e96f88d348243b8b1b4c",
+      "decisions_sha256": "a821c8586c320c8e499149ccf9c796e7c4a01688cbe3254ab2afd669b2373122",
+      "models_sha256": "13fbc73ca1af8ad9df02487abcc1ac9e84b39cf97611d7d254bb260ef54bfc9e"
+    },
+    {
+      "dataset": "Wessels",
+      "seed": 3,
+      "scores_sha256": "b69fcaf873cbc01ada0c4b159339adcf20caf8cbbea734de8288d37051314abe",
+      "decisions_sha256": "71fe8b4dc480d88f32b0e889f6bce8914144e61c5d08a93470f549bb5ce04920",
+      "models_sha256": "8fa7b098e72d2f02c81c8d9baaa7bcfc51bbfa17bcef9306529d383a96f45fee"
+    }
+  ]
+}

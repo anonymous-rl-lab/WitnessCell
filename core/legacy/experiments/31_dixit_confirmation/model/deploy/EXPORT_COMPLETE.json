@@ -1,0 +1,61 @@
+{
+  "utc": "2026-10-19T21:30:28.145168+00:00",
+  "status": "PASS",
+  "total_npz_bytes": 22409,
+  "states": 3,
+  "outer_prediction_count": 45,
+  "all_domain_prediction_count": 135,
+  "tolerance": 1e-12,
+  "new_fitting_or_tuning": false,
+  "query_labels_or_responses_read_for_inference": false,
+  "compact_expression_fields": "only 10 by 52 measured-single endpoint effects and 52 scales",
+  "export_script_sha256": "78c89ba594a23fdf894fadfe75725a40f99a75eee9d40fb8390309ed9693b4b9",
+  "predictor_script_sha256": "6677b5f4d710c1c6354850310138031d5ea65d8d6ee4d0eb3e3150a2ec853843",
+  "checks": [
+    {
+      "fold": 0,
+      "outer_queries": 15,
+      "identity_universe_queries": 45,
+      "max_abs_differences": {
+        "original_frozen_outer_predictions": 1.2212453270876722e-15,
+        "original_state_all45": 1.8318679906315083e-15,
+        "singleton": 1.6653345369377348e-16,
+        "chunks4": 2.7755575615628914e-17,
+        "order": 5.551115123125783e-17,
+        "endpoint_swap": 0.0,
+        "duplicate_request": 2.7755575615628914e-17
+      },
+      "PASS": true
+    },
+    {
+      "fold": 1,
+      "outer_queries": 15,
+      "identity_universe_queries": 45,
+      "max_abs_differences": {
+        "original_frozen_outer_predictions": 4.163336342344337e-17,
+        "original_state_all45": 8.326672684688674e-17,
+        "singleton": 2.7755575615628914e-17,
+        "chunks4": 0.0,
+        "order": 0.0,
+        "endpoint_swap": 0.0,
+        "duplicate_request": 0.0
+      },
+      "PASS": true
+    },
+    {
+      "fold": 2,
+      "outer_queries": 15,
+      "identity_universe_queries": 45,
+      "max_abs_differences": {
+        "original_frozen_outer_predictions": 1.0408340855860843e-16,
+        "original_state_all45": 1.0408340855860843e-16,
+        "singleton": 4.163336342344337e-17,
+        "chunks4": 0.0,
+        "order": 0.0,
+        "endpoint_swap": 0.0,
+        "duplicate_request": 0.0
+      },
+      "PASS": true
+    }
+  ]
+}

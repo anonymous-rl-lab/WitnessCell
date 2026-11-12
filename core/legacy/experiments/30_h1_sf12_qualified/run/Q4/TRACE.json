@@ -1,0 +1,2210 @@
+{
+  "task": {
+    "name": "Q4",
+    "query_ids": [
+      7,
+      9,
+      18,
+      19
+    ],
+    "query_pairs": [
+      "FERD3L+NR5A2",
+      "FERD3L+PTF1A",
+      "MSGN1+NR5A2",
+      "MSGN1+PTF1A"
+    ],
+    "train_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      20
+    ],
+    "episodes": [
+      {
+        "train_ids": [
+          0,
+          3,
+          4,
+          5,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ],
+        "val_ids": [
+          1,
+          2,
+          11,
+          12
+        ],
+        "val_pairs": [
+          "CDX1+NHLH1",
+          "CDX1+NR5A2",
+          "FLI1+NHLH1",
+          "FLI1+NR5A2"
+        ]
+      },
+      {
+        "train_ids": [
+          0,
+          2,
+          4,
+          5,
+          6,
+          8,
+          10,
+          12,
+          13,
+          15,
+          16,
+          17,
+          20
+        ],
+        "val_ids": [
+          1,
+          3,
+          11,
+          14
+        ],
+        "val_pairs": [
+          "CDX1+NHLH1",
+          "CDX1+PTF1A",
+          "FLI1+NHLH1",
+          "FLI1+PTF1A"
+        ]
+      },
+      {
+        "train_ids": [
+          0,
+          1,
+          4,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          17,
+          20
+        ],
+        "val_ids": [
+          2,
+          3,
+          12,
+          14
+        ],
+        "val_pairs": [
+          "CDX1+NR5A2",
+          "CDX1+PTF1A",
+          "FLI1+NR5A2",
+          "FLI1+PTF1A"
+        ]
+      },
+      {
+        "train_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          20
+        ],
+        "val_ids": [
+          5,
+          6,
+          10,
+          11
+        ],
+        "val_pairs": [
+          "FERD3L+MSGN1",
+          "FERD3L+NHLH1",
+          "FLI1+MSGN1",
+          "FLI1+NHLH1"
+        ]
+      }
+    ],
+    "minimum_query_Npi": 791.0082202475556,
+    "minimum_qualified_degree": 2,
+    "known_previous_result": true
+  },
+  "case_R_fit": {
+    "rho": 0.1,
+    "normal_error": 0.0,
+    "rank": 1,
+    "normalized_eigenvalues": [
+      1.0000000000000002
+    ],
+    "effective_df": 0.9090909090909091
+  },
+  "case_R_theta": [
+    2.5581271306663966
+  ],
+  "episodes": [
+    {
+      "train_ids": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "val_ids": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "old12": {
+        "theta": [
+          0.16751177702397319,
+          -0.8617777596387116,
+          -1.3994099768804975,
+          0.01135573887360958,
+          0.10377986620831582,
+          -0.627584559746604,
+          -0.2243666646440518,
+          -0.0020057886849886393,
+          -0.3393420113407985,
+          -0.3564136169514058,
+          0.6643389860761655,
+          -0.015227992849605937
+        ],
+        "rho": 0.1,
+        "normal_error": 1.942255792902836e-16,
+        "rank": 12,
+        "normalized_eigenvalues": [
+          0.12296512880207387,
+          0.3383836394286423,
+          0.4378378346509463,
+          0.5395593466114684,
+          0.561978275732126,
+          0.7562713951947025,
+          0.8812068820434628,
+          0.9450419041793707,
+          1.1941743603991544,
+          1.5976133400244992,
+          1.914304910241652,
+          2.7106629826919075
+        ],
+        "effective_df": 10.294249073410636
+      },
+      "case_R": {
+        "cases": {
+          "feature_names": [
+            "case_constant",
+            "replacement_difference",
+            "anchor_x_replacement_difference",
+            "replacement_sum_x_difference",
+            "anchor_x_replacement_sum_x_difference"
+          ],
+          "eligible_case_count": 6,
+          "eligible_case_rows": [
+            1,
+            3,
+            4,
+            6,
+            8,
+            10
+          ],
+          "eligible_degree": [
+            1,
+            2,
+            2,
+            1,
+            0,
+            2,
+            1,
+            0,
+            0,
+            3
+          ],
+          "anchor_residual_mappings": {
+            "0": {
+              "case_rows": [
+                1
+              ],
+              "source_rows": [
+                1
+              ]
+            },
+            "1": {
+              "case_rows": [
+                3,
+                4
+              ],
+              "source_rows": [
+                3,
+                4
+              ]
+            },
+            "2": {
+              "case_rows": [
+                6,
+                8
+              ],
+              "source_rows": [
+                6,
+                8
+              ]
+            },
+            "3": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            },
+            "4": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "5": {
+              "case_rows": [
+                3,
+                6
+              ],
+              "source_rows": [
+                3,
+                6
+              ]
+            },
+            "6": {
+              "case_rows": [
+                4
+              ],
+              "source_rows": [
+                4
+              ]
+            },
+            "7": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "8": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "9": {
+              "case_rows": [
+                1,
+                8,
+                10
+              ],
+              "source_rows": [
+                1,
+                8,
+                10
+              ]
+            }
+          },
+          "perm_seed": null,
+          "permutation_nontrivial": false,
+          "degree_one_anchor_count": 3,
+          "permutation_scope": "eligible response rows within each anchor; unweighted case mean preserved",
+          "weighting": "similarity",
+          "weighting_temperature": 1.0,
+          "weighting_information": "fold-local centered singles and fixed full gene knowledge; no combination labels",
+          "scale_floor": 5.046908150673383e-06,
+          "query_support": [
+            {
+              "query": [
+                0,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 6,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    9
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 0,
+                  "case_rows": [
+                    4
+                  ],
+                  "old_partners": [
+                    1
+                  ],
+                  "residual_source_rows": [
+                    4
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.012628651087367448,
+                0.006644106405427455,
+                0.0039061708312120914,
+                0.0037078799653172657,
+                0.0017319730697292744
+              ]
+            },
+            {
+              "query": [
+                0,
+                7
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 7,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    9
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 7,
+                  "new_partner": 0,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.0070411979835666265,
+                0.004936474019519601,
+                0.0026872473562441616,
+                0.00283134793749058,
+                0.0014817867366311154
+              ]
+            },
+            {
+              "query": [
+                2,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 6,
+                  "case_rows": [
+                    6,
+                    8
+                  ],
+                  "old_partners": [
+                    5,
+                    9
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    8
+                  ],
+                  "case_weights": [
+                    0.5440808462586822,
+                    0.45591915374131764
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 2,
+                  "case_rows": [
+                    4
+                  ],
+                  "old_partners": [
+                    1
+                  ],
+                  "residual_source_rows": [
+                    4
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.012633748550676806,
+                0.00670578340244189,
+                0.0037236234327324568,
+                0.0034656695491067134,
+                0.0016456644000949839
+              ]
+            },
+            {
+              "query": [
+                2,
+                7
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 7,
+                  "case_rows": [
+                    6,
+                    8
+                  ],
+                  "old_partners": [
+                    5,
+                    9
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    8
+                  ],
+                  "case_weights": [
+                    0.4735358117311334,
+                    0.5264641882688667
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 7,
+                  "new_partner": 2,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.007171832278795029,
+                0.0052865793139657506,
+                0.003008119808948344,
+                0.0028275489148578176,
+                0.0015453777816979216
+              ]
+            }
+          ],
+          "zero_residual_produces_zero": null,
+          "source": "raw fold-local M0 residual; not isolated biological interaction",
+          "no_support_policy": "zero per missing anchor, fixed 1/2 weights"
+        },
+        "R_mean": 0.1982732766798049,
+        "R_nonzero": 0.4716561192749115
+      },
+      "minimum_anchor_cases": 0,
+      "target_partner_SSE": 20.996407913209556
+    },
+    {
+      "train_ids": [
+        0,
+        2,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "val_ids": [
+        1,
+        3,
+        11,
+        14
+      ],
+      "old12": {
+        "theta": [
+          -0.14748738106545167,
+          0.3180221004322052,
+          0.028770989000427977,
+          0.18860508203892723,
+          0.06882064098645753,
+          -0.33178106890166836,
+          -0.19440887146207053,
+          -0.02164318099855223,
+          0.23636918015739009,
+          0.15076511328371126,
+          0.5123789702376134,
+          0.43319570511449007
+        ],
+        "rho": 0.1,
+        "normal_error": 1.7402930895110398e-16,
+        "rank": 12,
+        "normalized_eigenvalues": [
+          0.1331209187736747,
+          0.20648298336607768,
+          0.350462343877562,
+          0.4422316284547217,
+          0.6345743301683188,
+          0.8094946716488683,
+          0.9013708338408981,
+          1.071519702114083,
+          1.1976139561399455,
+          1.4592612685866109,
+          2.0734092629783043,
+          2.720458100050938
+        ],
+        "effective_df": 10.184368410375379
+      },
+      "case_R": {
+        "cases": {
+          "feature_names": [
+            "case_constant",
+            "replacement_difference",
+            "anchor_x_replacement_difference",
+            "replacement_sum_x_difference",
+            "anchor_x_replacement_sum_x_difference"
+          ],
+          "eligible_case_count": 6,
+          "eligible_case_rows": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            10
+          ],
+          "eligible_degree": [
+            1,
+            2,
+            2,
+            1,
+            0,
+            2,
+            1,
+            2,
+            0,
+            1
+          ],
+          "anchor_residual_mappings": {
+            "0": {
+              "case_rows": [
+                1
+              ],
+              "source_rows": [
+                1
+              ]
+            },
+            "1": {
+              "case_rows": [
+                3,
+                4
+              ],
+              "source_rows": [
+                3,
+                4
+              ]
+            },
+            "2": {
+              "case_rows": [
+                6,
+                7
+              ],
+              "source_rows": [
+                6,
+                7
+              ]
+            },
+            "3": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            },
+            "4": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "5": {
+              "case_rows": [
+                3,
+                6
+              ],
+              "source_rows": [
+                3,
+                6
+              ]
+            },
+            "6": {
+              "case_rows": [
+                4
+              ],
+              "source_rows": [
+                4
+              ]
+            },
+            "7": {
+              "case_rows": [
+                1,
+                7
+              ],
+              "source_rows": [
+                1,
+                7
+              ]
+            },
+            "8": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "9": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            }
+          },
+          "perm_seed": null,
+          "permutation_nontrivial": false,
+          "degree_one_anchor_count": 4,
+          "permutation_scope": "eligible response rows within each anchor; unweighted case mean preserved",
+          "weighting": "similarity",
+          "weighting_temperature": 1.0,
+          "weighting_information": "fold-local centered singles and fixed full gene knowledge; no combination labels",
+          "scale_floor": 5.052361910613861e-06,
+          "query_support": [
+            {
+              "query": [
+                0,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 6,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    7
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 0,
+                  "case_rows": [
+                    4
+                  ],
+                  "old_partners": [
+                    1
+                  ],
+                  "residual_source_rows": [
+                    4
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.015339651216608272,
+                0.009157409950561614,
+                0.005161291326930104,
+                0.005325852750498787,
+                0.0025658566469347432
+              ]
+            },
+            {
+              "query": [
+                0,
+                9
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 9,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    7
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 9,
+                  "new_partner": 0,
+                  "case_rows": [
+                    10
+                  ],
+                  "old_partners": [
+                    3
+                  ],
+                  "residual_source_rows": [
+                    10
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.016268934752017947,
+                0.012227369516238644,
+                0.006343804348161416,
+                0.007165280081254438,
+                0.0034586371377334254
+              ]
+            },
+            {
+              "query": [
+                2,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 6,
+                  "case_rows": [
+                    6,
+                    7
+                  ],
+                  "old_partners": [
+                    5,
+                    7
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    7
+                  ],
+                  "case_weights": [
+                    0.5318302062068153,
+                    0.4681697937931847
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 2,
+                  "case_rows": [
+                    4
+                  ],
+                  "old_partners": [
+                    1
+                  ],
+                  "residual_source_rows": [
+                    4
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.012558551362730264,
+                0.007042603211881801,
+                0.0038091837695791242,
+                0.003762095612341148,
+                0.0018632212367534137
+              ]
+            },
+            {
+              "query": [
+                2,
+                9
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 9,
+                  "case_rows": [
+                    6,
+                    7
+                  ],
+                  "old_partners": [
+                    5,
+                    7
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    7
+                  ],
+                  "case_weights": [
+                    0.5428190439013116,
+                    0.4571809560986884
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 9,
+                  "new_partner": 2,
+                  "case_rows": [
+                    10
+                  ],
+                  "old_partners": [
+                    3
+                  ],
+                  "residual_source_rows": [
+                    10
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.014450159746779056,
+                0.011202307999987133,
+                0.006053635049059362,
+                0.00593935293947733,
+                0.002897539163627183
+              ]
+            }
+          ],
+          "zero_residual_produces_zero": null,
+          "source": "raw fold-local M0 residual; not isolated biological interaction",
+          "no_support_policy": "zero per missing anchor, fixed 1/2 weights"
+        },
+        "R_mean": 0.20807127135929027,
+        "R_nonzero": 0.4806929100075083
+      },
+      "minimum_anchor_cases": 1,
+      "target_partner_SSE": 13.348569625592939
+    },
+    {
+      "train_ids": [
+        0,
+        1,
+        4,
+        5,
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        17,
+        20
+      ],
+      "val_ids": [
+        2,
+        3,
+        12,
+        14
+      ],
+      "old12": {
+        "theta": [
+          -0.452986560338724,
+          0.15175738292561838,
+          -1.0839654548965685,
+          0.41166646478936847,
+          -0.04330691380764651,
+          -0.08510776431957923,
+          -0.18711697176289682,
+          -0.08014789192379744,
+          -0.029190847715873443,
+          0.7191258360018018,
+          0.7859991065042138,
+          -0.8525139423962959
+        ],
+        "rho": 0.1,
+        "normal_error": 1.1840586472681711e-16,
+        "rank": 12,
+        "normalized_eigenvalues": [
+          0.15281600178524068,
+          0.31281131808958623,
+          0.422480475558188,
+          0.5123906894766901,
+          0.6218194317694761,
+          0.7138750238154321,
+          0.8149076802625096,
+          0.9219109302473398,
+          1.1410181486587814,
+          1.4190533635184788,
+          2.0896052323542023,
+          2.877311704464076
+        ],
+        "effective_df": 10.313293363693427
+      },
+      "case_R": {
+        "cases": {
+          "feature_names": [
+            "case_constant",
+            "replacement_difference",
+            "anchor_x_replacement_difference",
+            "replacement_sum_x_difference",
+            "anchor_x_replacement_sum_x_difference"
+          ],
+          "eligible_case_count": 6,
+          "eligible_case_rows": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            10
+          ],
+          "eligible_degree": [
+            1,
+            2,
+            2,
+            1,
+            0,
+            2,
+            3,
+            0,
+            0,
+            1
+          ],
+          "anchor_residual_mappings": {
+            "0": {
+              "case_rows": [
+                1
+              ],
+              "source_rows": [
+                1
+              ]
+            },
+            "1": {
+              "case_rows": [
+                3,
+                4
+              ],
+              "source_rows": [
+                3,
+                4
+              ]
+            },
+            "2": {
+              "case_rows": [
+                6,
+                7
+              ],
+              "source_rows": [
+                6,
+                7
+              ]
+            },
+            "3": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            },
+            "4": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "5": {
+              "case_rows": [
+                3,
+                6
+              ],
+              "source_rows": [
+                3,
+                6
+              ]
+            },
+            "6": {
+              "case_rows": [
+                1,
+                4,
+                7
+              ],
+              "source_rows": [
+                1,
+                4,
+                7
+              ]
+            },
+            "7": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "8": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "9": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            }
+          },
+          "perm_seed": null,
+          "permutation_nontrivial": false,
+          "degree_one_anchor_count": 3,
+          "permutation_scope": "eligible response rows within each anchor; unweighted case mean preserved",
+          "weighting": "similarity",
+          "weighting_temperature": 1.0,
+          "weighting_information": "fold-local centered singles and fixed full gene knowledge; no combination labels",
+          "scale_floor": 5.051815888264265e-06,
+          "query_support": [
+            {
+              "query": [
+                0,
+                7
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 7,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    6
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 7,
+                  "new_partner": 0,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.014336355118310194,
+                0.009984249877280279,
+                0.00665059748646824,
+                0.005342131003478068,
+                0.0033656400658642503
+              ]
+            },
+            {
+              "query": [
+                0,
+                9
+              ],
+              "anchors": [
+                {
+                  "anchor": 0,
+                  "new_partner": 9,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    6
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 9,
+                  "new_partner": 0,
+                  "case_rows": [
+                    10
+                  ],
+                  "old_partners": [
+                    3
+                  ],
+                  "residual_source_rows": [
+                    10
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.01794143663308388,
+                0.013483289358931378,
+                0.00791435476242936,
+                0.0069612708636160505,
+                0.003930307430941314
+              ]
+            },
+            {
+              "query": [
+                2,
+                7
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 7,
+                  "case_rows": [
+                    6,
+                    7
+                  ],
+                  "old_partners": [
+                    5,
+                    6
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    7
+                  ],
+                  "case_weights": [
+                    0.47225090395100994,
+                    0.52774909604899
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 7,
+                  "new_partner": 2,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.007791553377105904,
+                0.005512187447768544,
+                0.0032159420692000886,
+                0.0030643441445930954,
+                0.0017364323806909692
+              ]
+            },
+            {
+              "query": [
+                2,
+                9
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 9,
+                  "case_rows": [
+                    6,
+                    7
+                  ],
+                  "old_partners": [
+                    5,
+                    6
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    7
+                  ],
+                  "case_weights": [
+                    0.5548354571891068,
+                    0.4451645428108932
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 9,
+                  "new_partner": 2,
+                  "case_rows": [
+                    10
+                  ],
+                  "old_partners": [
+                    3
+                  ],
+                  "residual_source_rows": [
+                    10
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.014345893338045397,
+                0.01104633362345897,
+                0.0058711444700709145,
+                0.0058376938077314795,
+                0.0028231099662360246
+              ]
+            }
+          ],
+          "zero_residual_produces_zero": null,
+          "source": "raw fold-local M0 residual; not isolated biological interaction",
+          "no_support_policy": "zero per missing anchor, fixed 1/2 weights"
+        },
+        "R_mean": 0.2312045596803903,
+        "R_nonzero": 0.4848492974364475
+      },
+      "minimum_anchor_cases": 0,
+      "target_partner_SSE": 12.562022049599726
+    },
+    {
+      "train_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        20
+      ],
+      "val_ids": [
+        5,
+        6,
+        10,
+        11
+      ],
+      "old12": {
+        "theta": [
+          0.09741299657308215,
+          -0.06233478360984476,
+          -0.07608057728022276,
+          0.09138937644569126,
+          -0.48448440904559587,
+          0.09152856223171271,
+          -0.3252652984392712,
+          -0.1628799211862706,
+          0.26782363214317517,
+          0.23002236550280022,
+          0.5740048358352431,
+          0.2507217889242832
+        ],
+        "rho": 0.1,
+        "normal_error": 2.021700377611906e-16,
+        "rank": 12,
+        "normalized_eigenvalues": [
+          0.12127135827073442,
+          0.24497729943649765,
+          0.26910746047558437,
+          0.37148281772995406,
+          0.4350898137801241,
+          0.7632177953042455,
+          1.0108360677871668,
+          1.1801818632814711,
+          1.323829309105903,
+          1.7135187356784254,
+          1.9498567903867783,
+          2.6166306887631143
+        ],
+        "effective_df": 10.093336385278228
+      },
+      "case_R": {
+        "cases": {
+          "feature_names": [
+            "case_constant",
+            "replacement_difference",
+            "anchor_x_replacement_difference",
+            "replacement_sum_x_difference",
+            "anchor_x_replacement_sum_x_difference"
+          ],
+          "eligible_case_count": 6,
+          "eligible_case_rows": [
+            1,
+            2,
+            3,
+            6,
+            8,
+            10
+          ],
+          "eligible_degree": [
+            3,
+            0,
+            2,
+            1,
+            0,
+            0,
+            1,
+            2,
+            0,
+            3
+          ],
+          "anchor_residual_mappings": {
+            "0": {
+              "case_rows": [
+                1,
+                2,
+                3
+              ],
+              "source_rows": [
+                1,
+                2,
+                3
+              ]
+            },
+            "1": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "2": {
+              "case_rows": [
+                6,
+                8
+              ],
+              "source_rows": [
+                6,
+                8
+              ]
+            },
+            "3": {
+              "case_rows": [
+                10
+              ],
+              "source_rows": [
+                10
+              ]
+            },
+            "4": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "5": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "6": {
+              "case_rows": [
+                1
+              ],
+              "source_rows": [
+                1
+              ]
+            },
+            "7": {
+              "case_rows": [
+                2,
+                6
+              ],
+              "source_rows": [
+                2,
+                6
+              ]
+            },
+            "8": {
+              "case_rows": [],
+              "source_rows": []
+            },
+            "9": {
+              "case_rows": [
+                3,
+                8,
+                10
+              ],
+              "source_rows": [
+                3,
+                8,
+                10
+              ]
+            }
+          },
+          "perm_seed": null,
+          "permutation_nontrivial": false,
+          "degree_one_anchor_count": 2,
+          "permutation_scope": "eligible response rows within each anchor; unweighted case mean preserved",
+          "weighting": "similarity",
+          "weighting_temperature": 1.0,
+          "weighting_information": "fold-local centered singles and fixed full gene knowledge; no combination labels",
+          "scale_floor": 5.130254471570136e-06,
+          "query_support": [
+            {
+              "query": [
+                1,
+                5
+              ],
+              "anchors": [
+                {
+                  "anchor": 1,
+                  "new_partner": 5,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 5,
+                  "new_partner": 1,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "query": [
+                1,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 1,
+                  "new_partner": 6,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 1,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    0
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.013765901087222542,
+                0.014185156448229217,
+                0.00589689289945049,
+                0.006647918760993818,
+                0.0028533537459631136
+              ]
+            },
+            {
+              "query": [
+                2,
+                5
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 5,
+                  "case_rows": [
+                    6,
+                    8
+                  ],
+                  "old_partners": [
+                    7,
+                    9
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    8
+                  ],
+                  "case_weights": [
+                    0.4281127571430231,
+                    0.5718872428569769
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 5,
+                  "new_partner": 2,
+                  "case_rows": [],
+                  "old_partners": [],
+                  "residual_source_rows": [],
+                  "case_weights": [],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": true,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.00795068822989796,
+                0.0046630882559083285,
+                0.002667291191168617,
+                0.0025195449509788598,
+                0.001412640368360885
+              ]
+            },
+            {
+              "query": [
+                2,
+                6
+              ],
+              "anchors": [
+                {
+                  "anchor": 2,
+                  "new_partner": 6,
+                  "case_rows": [
+                    6,
+                    8
+                  ],
+                  "old_partners": [
+                    7,
+                    9
+                  ],
+                  "residual_source_rows": [
+                    6,
+                    8
+                  ],
+                  "case_weights": [
+                    0.5107794724961249,
+                    0.4892205275038751
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": true
+                },
+                {
+                  "anchor": 6,
+                  "new_partner": 2,
+                  "case_rows": [
+                    1
+                  ],
+                  "old_partners": [
+                    0
+                  ],
+                  "residual_source_rows": [
+                    1
+                  ],
+                  "case_weights": [
+                    1.0
+                  ],
+                  "anchor_weight": 0.5,
+                  "missing_anchor": false,
+                  "permuted_case_count": 0,
+                  "permutation_supported": false
+                }
+              ],
+              "feature_rms": [
+                0.016066257521545554,
+                0.014633609315794728,
+                0.0061725501542760535,
+                0.006921246141682809,
+                0.0030810215324959876
+              ]
+            }
+          ],
+          "zero_residual_produces_zero": null,
+          "source": "raw fold-local M0 residual; not isolated biological interaction",
+          "no_support_policy": "zero per missing anchor, fixed 1/2 weights"
+        },
+        "R_mean": 0.1593481717809602,
+        "R_nonzero": 0.4177035289070042
+      },
+      "minimum_anchor_cases": 0,
+      "target_partner_SSE": 6.272865992661288
+    }
+  ],
+  "outer_old12": {
+    "theta": [
+      0.12134465748559889,
+      0.025823341036879107,
+      -0.3021472438891973,
+      0.21437430241313596,
+      0.02331424054351641,
+      0.00783638055922101,
+      -0.18348173151775823,
+      -0.11565897963785356,
+      -0.07268987143341187,
+      0.27760603547352297,
+      0.4856529296308373,
+      0.0470799296410831
+    ],
+    "rho": 0.1,
+    "normal_error": 1.2226718145438713e-16,
+    "rank": 12,
+    "normalized_eigenvalues": [
+      0.15361174036908634,
+      0.3215990760460665,
+      0.38495294170802913,
+      0.4563786341059483,
+      0.6970554130561264,
+      0.8924789773364179,
+      0.9469527608373091,
+      1.2119040676506545,
+      1.3122103775599279,
+      1.598774647322779,
+      1.6689104197343174,
+      2.3551709442733384
+    ],
+    "effective_df": 10.357665777337663
+  },
+  "outer_cases": {
+    "cases": {
+      "feature_names": [
+        "case_constant",
+        "replacement_difference",
+        "anchor_x_replacement_difference",
+        "replacement_sum_x_difference",
+        "anchor_x_replacement_sum_x_difference"
+      ],
+      "eligible_case_count": 10,
+      "eligible_case_rows": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        8,
+        9,
+        10,
+        12,
+        14
+      ],
+      "eligible_degree": [
+        3,
+        2,
+        4,
+        1,
+        0,
+        2,
+        3,
+        2,
+        0,
+        3
+      ],
+      "anchor_residual_mappings": {
+        "0": {
+          "case_rows": [
+            1,
+            2,
+            3
+          ],
+          "source_rows": [
+            1,
+            2,
+            3
+          ]
+        },
+        "1": {
+          "case_rows": [
+            5,
+            6
+          ],
+          "source_rows": [
+            5,
+            6
+          ]
+        },
+        "2": {
+          "case_rows": [
+            8,
+            9,
+            10,
+            12
+          ],
+          "source_rows": [
+            8,
+            9,
+            10,
+            12
+          ]
+        },
+        "3": {
+          "case_rows": [
+            14
+          ],
+          "source_rows": [
+            14
+          ]
+        },
+        "4": {
+          "case_rows": [],
+          "source_rows": []
+        },
+        "5": {
+          "case_rows": [
+            5,
+            8
+          ],
+          "source_rows": [
+            5,
+            8
+          ]
+        },
+        "6": {
+          "case_rows": [
+            1,
+            6,
+            9
+          ],
+          "source_rows": [
+            1,
+            6,
+            9
+          ]
+        },
+        "7": {
+          "case_rows": [
+            2,
+            10
+          ],
+          "source_rows": [
+            2,
+            10
+          ]
+        },
+        "8": {
+          "case_rows": [],
+          "source_rows": []
+        },
+        "9": {
+          "case_rows": [
+            3,
+            12,
+            14
+          ],
+          "source_rows": [
+            3,
+            12,
+            14
+          ]
+        }
+      },
+      "perm_seed": null,
+      "permutation_nontrivial": false,
+      "degree_one_anchor_count": 1,
+      "permutation_scope": "eligible response rows within each anchor; unweighted case mean preserved",
+      "weighting": "similarity",
+      "weighting_temperature": 1.0,
+      "weighting_information": "fold-local centered singles and fixed full gene knowledge; no combination labels",
+      "scale_floor": 5.0380396923887156e-06,
+      "query_support": [
+        {
+          "query": [
+            1,
+            7
+          ],
+          "anchors": [
+            {
+              "anchor": 1,
+              "new_partner": 7,
+              "case_rows": [
+                5,
+                6
+              ],
+              "old_partners": [
+                5,
+                6
+              ],
+              "residual_source_rows": [
+                5,
+                6
+              ],
+              "case_weights": [
+                0.47219290876672443,
+                0.5278070912332756
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            },
+            {
+              "anchor": 7,
+              "new_partner": 1,
+              "case_rows": [
+                2,
+                10
+              ],
+              "old_partners": [
+                0,
+                2
+              ],
+              "residual_source_rows": [
+                2,
+                10
+              ],
+              "case_weights": [
+                0.48906751072665244,
+                0.5109324892733476
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            }
+          ],
+          "feature_rms": [
+            0.0108113217346877,
+            0.006653189696032413,
+            0.00475991363798105,
+            0.0037708075079164413,
+            0.002009098498269979
+          ]
+        },
+        {
+          "query": [
+            1,
+            9
+          ],
+          "anchors": [
+            {
+              "anchor": 1,
+              "new_partner": 9,
+              "case_rows": [
+                5,
+                6
+              ],
+              "old_partners": [
+                5,
+                6
+              ],
+              "residual_source_rows": [
+                5,
+                6
+              ],
+              "case_weights": [
+                0.555474322869547,
+                0.444525677130453
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            },
+            {
+              "anchor": 9,
+              "new_partner": 1,
+              "case_rows": [
+                3,
+                12,
+                14
+              ],
+              "old_partners": [
+                0,
+                2,
+                3
+              ],
+              "residual_source_rows": [
+                3,
+                12,
+                14
+              ],
+              "case_weights": [
+                0.3386628909620694,
+                0.35380365718153334,
+                0.3075334518563972
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            }
+          ],
+          "feature_rms": [
+            0.009549063570990921,
+            0.005090585577715719,
+            0.003337933323842389,
+            0.002772928625581697,
+            0.0015635570121358122
+          ]
+        },
+        {
+          "query": [
+            5,
+            7
+          ],
+          "anchors": [
+            {
+              "anchor": 5,
+              "new_partner": 7,
+              "case_rows": [
+                5,
+                8
+              ],
+              "old_partners": [
+                1,
+                2
+              ],
+              "residual_source_rows": [
+                5,
+                8
+              ],
+              "case_weights": [
+                0.47746431695897906,
+                0.5225356830410209
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            },
+            {
+              "anchor": 7,
+              "new_partner": 5,
+              "case_rows": [
+                2,
+                10
+              ],
+              "old_partners": [
+                0,
+                2
+              ],
+              "residual_source_rows": [
+                2,
+                10
+              ],
+              "case_weights": [
+                0.4851998842620345,
+                0.5148001157379655
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            }
+          ],
+          "feature_rms": [
+            0.011229412926063293,
+            0.006809301133711137,
+            0.003939145711132313,
+            0.0035697991854870756,
+            0.0018187590737066878
+          ]
+        },
+        {
+          "query": [
+            5,
+            9
+          ],
+          "anchors": [
+            {
+              "anchor": 5,
+              "new_partner": 9,
+              "case_rows": [
+                5,
+                8
+              ],
+              "old_partners": [
+                1,
+                2
+              ],
+              "residual_source_rows": [
+                5,
+                8
+              ],
+              "case_weights": [
+                0.4484125359590216,
+                0.5515874640409785
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            },
+            {
+              "anchor": 9,
+              "new_partner": 5,
+              "case_rows": [
+                3,
+                12,
+                14
+              ],
+              "old_partners": [
+                0,
+                2,
+                3
+              ],
+              "residual_source_rows": [
+                3,
+                12,
+                14
+              ],
+              "case_weights": [
+                0.3379056839273448,
+                0.35852004676152993,
+                0.30357426931112513
+              ],
+              "anchor_weight": 0.5,
+              "missing_anchor": false,
+              "permuted_case_count": 0,
+              "permutation_supported": true
+            }
+          ],
+          "feature_rms": [
+            0.009887515248422298,
+            0.005974016806010572,
+            0.0028996248962872436,
+            0.003203997184973291,
+            0.0014523799467258632
+          ]
+        }
+      ],
+      "zero_residual_produces_zero": null,
+      "source": "raw fold-local M0 residual; not isolated biological interaction",
+      "no_support_policy": "zero per missing anchor, fixed 1/2 weights"
+    },
+    "R_mean": 0.15783448460307553,
+    "R_nonzero": 0.47978118631341843
+  },
+  "baseline_fits": 5,
+  "own_outer_labels_masked": true,
+  "outer_scoring_truth_accessed": false,
+  "seconds": 1.6057994719994895
+}

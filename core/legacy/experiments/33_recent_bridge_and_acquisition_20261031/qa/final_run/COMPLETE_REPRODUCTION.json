@@ -1,0 +1,153 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-31T08:20:13.762010+00:00",
+  "scope": "Reconstruct and replay the nine original rounds; no new tuning or results.",
+  "commands": [
+    {
+      "stage": "01_materialize",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/materialize.py",
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored"
+      ],
+      "returncode": 0,
+      "seconds": 5.702845501000411,
+      "log": "logs/01_materialize.log"
+    },
+    {
+      "stage": "04_jurkat_cache",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/rebuild_jurkat_cache.py",
+        "--bridge",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored/WitnessCell_NM_NCS_Bridge_20261031",
+        "--restore",
+        "--report",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/JURKAT.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.9186916850012494,
+      "log": "logs/04_jurkat_cache.log"
+    },
+    {
+      "stage": "03_synthetic_cache",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/rebuild_synthetic_cache.py",
+        "--restored",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored",
+        "--restore",
+        "--report",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/SYNTHETIC.json"
+      ],
+      "returncode": 0,
+      "seconds": 117.7689369610016,
+      "log": "logs/03_synthetic_cache.log"
+    },
+    {
+      "stage": "02_inner_cache",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/rebuild_inner_cache.py",
+        "--root",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored/WitnessCell_NM_NCS_Bridge_20261031",
+        "--restore",
+        "--report",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/INNER.json"
+      ],
+      "returncode": 0,
+      "seconds": 157.41052576999937,
+      "log": "logs/02_inner_cache.log"
+    },
+    {
+      "stage": "05_exact_original_files",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/verify_restored.py",
+        "--restored",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored",
+        "--report",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/EXACT_FILE_VERIFICATION.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.467964055998891,
+      "log": "logs/05_exact_original_files.log"
+    },
+    {
+      "stage": "06_replay_nine_rounds",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/replay_suite.py",
+        "--restored",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored",
+        "--out",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay"
+      ],
+      "returncode": 0,
+      "seconds": 195.66407012500713,
+      "log": "logs/06_replay_nine_rounds.log"
+    },
+    {
+      "stage": "07_original_verify_release",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/bridge_experiment_20261031/verify_release.py"
+      ],
+      "returncode": 0,
+      "seconds": 13.828787623002427,
+      "log": "logs/07_original_verify_release.log"
+    },
+    {
+      "stage": "08_original_files_still_exact",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/55b8063c9ed0/integrated_build_20261031/grn_repo_v26/experiments/33_recent_bridge_and_acquisition_20261031/verify_restored.py",
+        "--restored",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/restored",
+        "--report",
+        "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/EXACT_FILE_VERIFICATION_AFTER_REPLAY.json"
+      ],
+      "returncode": 0,
+      "seconds": 2.9002483209987986,
+      "log": "logs/08_original_files_still_exact.log"
+    }
+  ],
+  "output": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge",
+  "environment_report": "ENVIRONMENT_CHECK.json",
+  "original_member_records_verified": 6838,
+  "unique_original_paths_verified": 6838,
+  "all_original_files_size_and_sha256_exact": true,
+  "original_files_unchanged_after_replay": true,
+  "replayed_stages": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "original_release_verifier": "PASS",
+  "reports": [
+    "INNER.json",
+    "SYNTHETIC.json",
+    "JURKAT.json",
+    "EXACT_FILE_VERIFICATION.json",
+    "replay/REPLAY_SUITE_RESULT.json",
+    "EXACT_FILE_VERIFICATION_AFTER_REPLAY.json"
+  ],
+  "archival_comparison": "Exact original file size and SHA256; no numeric tolerance",
+  "score_comparison": "rtol=1e-12, atol=1e-12 where numerical score replay requires tolerance; see replay reports",
+  "elapsed_seconds": 379.0378434899976
+}

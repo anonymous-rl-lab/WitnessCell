@@ -1,0 +1,39 @@
+{
+  "claim_boundary": "Uncertainty is over benchmark perturbation clusters, not cells; the four benchmark datasets themselves are fixed, not sampled from a population.",
+  "cluster": "dataset x perturbation; split-seed rows remain inside cluster",
+  "comparisons": {
+    "baseReg": {
+      "bootstrap_probability_witness_better": 1.0,
+      "cluster_bootstrap_95_ci": [
+        -3.1809675975996097,
+        -2.4693243080044445
+      ],
+      "operation_seed_units": 654,
+      "rank_difference_witness_minus_competitor": -2.830275229357798,
+      "unique_dataset_perturbation_clusters": 384
+    },
+    "linearModel": {
+      "bootstrap_probability_witness_better": 1.0,
+      "cluster_bootstrap_95_ci": [
+        -2.207673306927429,
+        -1.4750711635870735
+      ],
+      "operation_seed_units": 654,
+      "rank_difference_witness_minus_competitor": -1.8470948012232415,
+      "unique_dataset_perturbation_clusters": 384
+    },
+    "scouter": {
+      "bootstrap_probability_witness_better": 1.0,
+      "cluster_bootstrap_95_ci": [
+        -1.9540636702850922,
+        -1.1267079136021945
+      ],
+      "operation_seed_units": 654,
+      "rank_difference_witness_minus_competitor": -1.5412844036697249,
+      "unique_dataset_perturbation_clusters": 384
+    }
+  },
+  "replicates": 20000,
+  "seed": 20260809,
+  "status": "PASS_PAIRED_CLUSTER_BOOTSTRAP"
+}

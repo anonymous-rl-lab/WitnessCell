@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "unchanged_prior_scientific_files": 4828,
+  "v41_companion_files_integrated": 180,
+  "removed_or_replaced_editorial_files": 118,
+  "removed_or_replaced_editorial_bytes": 4104177,
+  "duplicate_logical_paths": 842,
+  "duplicate_payload_bytes_removed": 54048678,
+  "derived_caches": 120,
+  "derived_cache_bytes_removed": 32449690,
+  "packed_assets": [
+    {
+      "path": "core/experiments/shen/measurement/canonical_counts.csv",
+      "packed": "assets/packed/a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee.gz",
+      "bytes": 63697499,
+      "sha256": "a101010f78cadc52c8212e14197ac0f41ad9b962686999df6c17e732e9c2d1ee",
+      "packed_bytes": 4269506,
+      "packed_sha256": "563e82f94a97e50c2eafbd0afe3f82d746ee5dcb17e68b036f6777d3ac024a68"
+    }
+  ],
+  "numeric_precision_changed": false,
+  "scientific_results_removed": false
+}

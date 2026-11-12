@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-10-17T07:58:48.703034+00:00",
+  "plan_sha256": "0dec502e6c9899c463f6b205e5864a516f7b8bc2cc0283c748dfcf77c0f54ca8",
+  "script_sha256": "c734b294eb3ffc3fe62a05bbcf8ba15ee23d4c6484af615c5cf0068d6dfb34c4",
+  "historical_access": "The two public datasets and the original Step1 evaluation were previously examined. This is not independent prospective validation or third-party preregistration.",
+  "this_stage_reads_evaluation_losses": false,
+  "source_root": "/workspace/scratch/7517238e1d04/v19_inputs/step1_unpacked/witnesscell_step1_run"
+}

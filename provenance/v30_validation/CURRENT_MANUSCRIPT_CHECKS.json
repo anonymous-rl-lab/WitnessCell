@@ -1,0 +1,530 @@
+{
+  "scope": "Table/report verification from existing saved scores, selections and sources; no model retraining or raw sequencing reconstruction.",
+  "checks": [
+    {
+      "check": "48 pooled rows reconstructed from 1,080 fold-repeat rows",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Pooled SSE matches fold sums",
+      "passed": true,
+      "detail": 3.637978807091713e-12
+    },
+    {
+      "check": "full pooled gain recalculation",
+      "passed": true,
+      "detail": 1.7763568394002505e-15
+    },
+    {
+      "check": "partner pooled gain recalculation",
+      "passed": true,
+      "detail": 2.220446049250313e-14
+    },
+    {
+      "check": "S45 row 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 1 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 1 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 1 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 1 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 1 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_raw/native/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_raw/native/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 2 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 2 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 2 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 2 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 2 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_raw/native/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_raw/native/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 3 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 3 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 3 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 3 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 3 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_raw/saturation/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_raw/saturation/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 4 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 4 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 4 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 4 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 4 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_raw/saturation/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_raw/saturation/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 5 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 5 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 5 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 5 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 5 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_published/native/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_published/native/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 6 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 6 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 6 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 6 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 6 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 6",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_published/native/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_published/native/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 7 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 7 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 7 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 7 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 7 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 7",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_published/saturation/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_published/saturation/rank1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S45 row 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S47 row 8 zero/strength",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 8 original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S46 row 8 controlled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 8 vs original",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S48 row 8 vs off",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S49 row 8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Preservation identity full_published/saturation/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Same-alpha partner equality full_published/saturation/spectral",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S50 row 1",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S50 row 2",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S50 row 3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "S50 row 4",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "57 sequential SI tables",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "24 sequential SI notes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No main-text source-function transfer results",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Historical material results retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Native primary and stronger-reference results present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Scientific core retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No control characters WitnessCell_v39_Main_Methods.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Even display-math delimiters WitnessCell_v39_Main_Methods.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No placeholder/editorial TODO WitnessCell_v39_Main_Methods.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No control characters WitnessCell_v39_Supplementary_Information.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Even display-math delimiters WitnessCell_v39_Supplementary_Information.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No placeholder/editorial TODO WitnessCell_v39_Supplementary_Information.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No control characters Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Even display-math delimiters Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No placeholder/editorial TODO Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No control characters Supplementary_Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Even display-math delimiters Supplementary_Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No placeholder/editorial TODO Supplementary_Figure_Legends.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Seven supplement figure legends",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Supplement legends synchronized (whitespace-normalized)",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Abstract <=150 and body <=5000",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "46 reference entries",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "passed": 102,
+  "total": 102,
+  "all_passed": true,
+  "word_counts": {
+    "version": "v39",
+    "rule": "Whitespace-delimited; body includes Introduction, Results, Discussion; excludes headings, abstract, Methods, availability, references and legends. Math tokens are counted under the same rule.",
+    "abstract": 127,
+    "main_body": 4774,
+    "methods_excluding_headings": 5538,
+    "references": 46,
+    "main_figures": 5,
+    "supplementary_figures": 7,
+    "supplementary_notes": 24,
+    "supplementary_tables": 57
+  }
+}

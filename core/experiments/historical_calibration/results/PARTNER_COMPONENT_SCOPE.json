@@ -1,0 +1,10 @@
+{
+  "status": "Retrospective secondary structural transformation, added after observing whole-correction calibration",
+  "rule": "M0 + (I-P_query) delta + alpha P_query delta",
+  "alpha": "Identical archived training-only bounded calibration; no re-optimization",
+  "query_labels_used_to_predict": false,
+  "query_identities_used": true,
+  "batch_dependent": true,
+  "scope": "Fixed query panels. Not an inductive, query-batch-invariant deployed predictor. Single-query contrast dimension can be zero.",
+  "scientific_meaning": "Retains original endpoint contribution while altering only the partner projection; full SSE improvement equals partner SSE improvement by orthogonality."
+}

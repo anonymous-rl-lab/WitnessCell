@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "release": "27.0.0",
+  "manifest_files": 1463,
+  "protected_experiment_files": 461,
+  "E25_hash_locked_inputs": 29,
+  "embedded_zip_crc_verified": 5,
+  "scope": "Exact bytes and dependency closure; numerical reproduction is a separate command"
+}

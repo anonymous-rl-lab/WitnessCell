@@ -1,0 +1,32 @@
+This is a runtime recovery, not a revised statistical benchmark.
+The source architectures, losses, hyperparameters, five outer folds, three
+seeds, inner validation objectives, refit rules, and training cell rows remain
+those of the 20261102 adapter. Outcomes for the seven prior models were already
+opened. GEARS/Scouter have not been tuned against their outer test scores.
+
+GEARS runtime changes: fixed normalized graphs use sparse matrix multiplication;
+repeated gene-only calculations use two prototypes and multiplicity-weighted
+batch normalization; per-cell perturbation shifts and the final separable
+readout are vectorized. The original coexpression graph's first-cell-only
+behavior is deliberately retained, not silently fixed. All parameters remain
+trainable exactly as in the native model.
+
+FP32 equivalence: maximum output difference 1.64e-6; gradient relative L2
+0.00062066 (0.0621%). This failed the initial 0.0005 probe tolerance. A subsequent
+FP64 probe gave output difference 1.11e-15 and gradient relative L2 1.17e-14;
+running buffers and eval output matched to <1e-15. Thus the equations agree,
+while FP32 reduction order is not bitwise equivalent. We accepted <0.001
+relative gradient discrepancy only after the FP64 check, and retain both
+results. Native and accelerated training trajectories need not match exactly.
+
+All input, response, control pairing, label order, and nonzero gene masks in the
+lazy interface were compared in full against native Data on fold0/seed0 for
+both models and both selection/refit phases: exact equality. Runtime smoke
+used real training cells and checked finite loss/gradients and fast prediction
+against the native-sized control evaluation. Original model sources are intact.
+
+Main roster requires 30 neural jobs (5 folds x 3 seeds x 2 models). The old
+fixed40/seed24 Scouter run is supplementary, not needed to complete the user's
+main comparison. It is not silently substituted for the three-seed ensemble.
+Intermediate scores are not the final ensemble result. TargetRank/Stable remain
+in historical evidence and are omitted from the primary five-model table.

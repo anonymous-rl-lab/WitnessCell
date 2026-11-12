@@ -1,0 +1,14 @@
+claim,paper_location,source,evidence_scope
+Target-relevant information,Fig.2; SI Note 2,core/paper/evidence/source_data/,Synthetic mechanism family; fixed-world risk bound
+Core prediction,"Fig.3; Tables S5–S9, S25–S26",core/paper/revision/source/,Released core; unchanged six-metric rule
+RNA partner learning,"Fig.5; Tables S10–S13, S27",core/paper/evidence/source_data/publication/RNA_signed_rectangle_predictions.npz,Development panel; concentrated raw-scale benefit
+Functional support and procedure transfer,"Fig.4a,b; Tables S14-S15, S35",experiments/global_reference/inputs/,Revised K562 development; Jurkat fixed procedure within study
+Native Han learning,Fig.4e; Table S45,experiments/han_native/results/POOLED.csv,Rank-one primary; spectral secondary; prior target access
+Beyond nonlinear reference,"Fig.4f; Tables S45–S47, S50",experiments/han_native/results/POOLED.csv,Prespecified reference sensitivity; all zero/negative cases kept
+Component control,"Fig.4g–h; Tables S37–S40, S48–S49",core/paper/partner_control/ + experiments/han_native/results/CONTROL_COMPARISONS.csv,Endpoint identity exact; generalization evaluated empirically
+Historical Han transfer,"SI Note 22, Table S51",experiments/diagnostics/,Original primary and attribution failures retained; no source-knowledge claim
+Repeatability and direction opportunity,SI Note 23; Tables S52–S53; Fig.S5,experiments/diagnostics/results/,Retrospective diagnostic; query oracle not used for control
+Risk and partner choice,SI Notes 8–9; Fig.S1,core/legacy/experiments/34_gse220974_five_model_final/,Supplementary applications; distinct endpoints
+Matched global-reference sensitivity,Fig.4c; S54-S55; Fig.S7,experiments/global_reference/results/MATCHED_REFERENCE_POOLED.csv,Seven retrospective matched configurations; same folds and original matrix families
+Gene-associated mode diagnostics,Fig.4d; S55-S57; Fig.S7,experiments/global_reference/results/GENE_LOADINGS.csv + experiments/global_reference/results/HAN_MODE_DIAGNOSTICS.csv,Actual fitted modes separated from residual modes; descriptive associations
+Conditional bounded-intermediate interpretation,Discussion; Note 24.6-24.8,experiments/global_reference/code/check_theory.py,Specified model assumptions and counterexamples; no biological identification claim

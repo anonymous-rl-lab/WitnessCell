@@ -1,0 +1,87 @@
+{"finished": "compact_bridge_replay.py", "returncode": 0}
+{"finished": "independent_score.py", "returncode": 0}
+{"finished": "score_cached.py", "returncode": 0}
+{"finished": "verify_frozen_statistics.py", "returncode": 0}
+{"finished": "independent_audit.py", "returncode": 0}
+{"finished": "reproduce.py", "returncode": 0}
+{"finished": "audit.py", "returncode": 0}
+{"finished": "reproduce.py", "returncode": 0}
+{"finished": "diagnose_alignment.py", "returncode": 0}
+{"finished": "probe_reference.py", "returncode": 0}
+{"finished": "independentcheck.py", "returncode": 0}
+{"finished": "reproduce.py", "returncode": 0}
+{"finished": "independent_outer_audit.py", "returncode": 0}
+{"finished": "reproduce_outer.py", "returncode": 0}
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "stages": [
+        "01",
+        "02"
+      ],
+      "result": "PASS",
+      "evidence": "bridge_replay/COMPACT_BRIDGE_REPLAY_RESULT.json"
+    },
+    {
+      "stage": "03",
+      "result": "PASS",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "paired_comparisons.csv",
+        "paired_world_seed_scores.csv",
+        "summary.csv",
+        "weight_replay.csv",
+        "world_summary.csv"
+      ]
+    },
+    {
+      "stage": "04",
+      "result": "PASS",
+      "compared": [
+        "SCORE_MANIFEST.json",
+        "case_scores.csv",
+        "coverage_flags.csv",
+        "paired_comparisons.csv",
+        "replay.csv",
+        "seed_scores.csv",
+        "summary.csv",
+        "world_summary.csv"
+      ]
+    },
+    {
+      "stage": "05",
+      "result": "PASS",
+      "scope": "original complete deterministic replay + independent audit"
+    },
+    {
+      "stage": "06",
+      "result": "PASS",
+      "scope": "original complete deterministic replay + independent audit"
+    },
+    {
+      "stage": "07",
+      "result": "PASS",
+      "compared": [
+        "alignment_diagnostic.json",
+        "summary.json",
+        "reference_probe.json"
+      ],
+      "ignored_metadata": [
+        "opened_npz",
+        "npz_opened"
+      ]
+    },
+    {
+      "stage": "08",
+      "result": "PASS",
+      "scope": "fixed local fit/selection/score replay; original failed gate preserved"
+    },
+    {
+      "stage": "09",
+      "result": "PASS",
+      "scope": "30 prediction arrays exact and five JSON exact"
+    }
+  ]
+}

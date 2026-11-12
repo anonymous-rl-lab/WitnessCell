@@ -1,0 +1,7 @@
+{
+  "packaging_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "packaging_numpy": "2.3.5",
+  "cpu_training": "Torch2.14.1+cpu; source requirements retained",
+  "gpu_training": "Python3.10.8/Torch2.1.2+cu118/NumPy1.26.4; FP32, noAMP/noTF32",
+  "default_replay": "Python with NumPy; lzma in standard library; no network or GPU"
+}

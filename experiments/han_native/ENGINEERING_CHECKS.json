@@ -1,0 +1,6 @@
+{
+  "native_baseline_adapter_max_abs": 0.0,
+  "projection_vs_lstsq_max_abs": 8.881784197001252e-16,
+  "saturation_smoke_finite": true,
+  "uses_Han_query_outcomes": false
+}

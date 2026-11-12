@@ -1,0 +1,10 @@
+{
+  "model": "gears",
+  "seed": 2,
+  "fold": 1,
+  "status": "PASS",
+  "maximum_absolute_difference": 2.384185791015625e-07,
+  "rms_difference": 8.334791236546439e-09,
+  "native_source": true,
+  "weight_sha256": "51d5f54898733744127ef8ad5e140a2cc6b968c1908e648cd453d448e9a64d11"
+}

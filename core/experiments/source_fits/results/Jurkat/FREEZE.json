@@ -1,0 +1,18 @@
+{
+  "cell": "Jurkat",
+  "code_sha256": "541eddfe16f8bc5813bbb96398330e9bcb9060994fddd7f73693bb3ac3941a79",
+  "plan_sha256": "5533a026399e46bfb6db4d558b052b2c73b99a08f99eca81441c5826834dcb9b",
+  "input_sha256": "f403dd57916d75463bd642a91050d48e9cb8d3919b3670fb89816168696fbc5e",
+  "files": {
+    "inner_2_audit.json": "924b3f9879648e439f77aa90b7ab1dbdca5567121d513bfdbf7426c58d113d54",
+    "inner_2.npz": "eba0031374366d359eeb1f858d4b3a67506ae75baac5bc63745a80fc200cce3d",
+    "inner_1.npz": "21bf7e8ba0b7684fe193c4004b38c1c57cbae263bf3f680593b9e823a52986d0",
+    "inner_1_audit.json": "c665cad258ac7bd4c66d396c5a3abd0c0a4421cca6e4c7409b15b853df5b91dc",
+    "final_audit.json": "7adce517528c636ea1cf4faee540fea18e0b67404d89b958a6de08d47fe3bd1f",
+    "SELECTION_BEFORE_OUTER.json": "60e39da3cabdb396384cf9071cafdd599560e8dd8375db181e4e3edbea8102ca",
+    "PREDICTIONS.npz": "83f2d7318faa004a0b294b54cb576d1fc8afe6046011ddd50a4b89c9d705c873",
+    "inner_0.npz": "53342c13adcbc1cfd91abb97d6b3be9943f6f3b09134930cc4c091cf74ac94f6",
+    "inner_0_audit.json": "a950f72c9e4e8a6c09c606b35410a4ea4da1fd0e1d98deb9a28bf162ff011d10"
+  },
+  "outer_truth_read": false
+}

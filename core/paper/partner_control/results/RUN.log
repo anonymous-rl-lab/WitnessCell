@@ -1,0 +1,81 @@
+completed 293T_high
+completed A549_high
+completed HeLa_high
+completed Jurkat_high
+completed K562_high_fold0
+completed K562_high_fold1
+completed K562_high_fold2
+completed K562_layout_f0_s0_high_local_support
+completed K562_layout_f0_s0_low_local_support
+completed K562_layout_f0_s0_random_degree_switch_chain
+completed K562_layout_f0_s1_high_local_support
+completed K562_layout_f0_s1_low_local_support
+completed K562_layout_f0_s1_random_degree_switch_chain
+completed K562_layout_f0_s2_high_local_support
+completed K562_layout_f0_s2_low_local_support
+completed K562_layout_f0_s2_random_degree_switch_chain
+completed K562_layout_f0_s3_high_local_support
+completed K562_layout_f0_s3_low_local_support
+completed K562_layout_f0_s3_random_degree_switch_chain
+completed K562_layout_f0_s4_high_local_support
+completed K562_layout_f0_s4_low_local_support
+completed K562_layout_f0_s4_random_degree_switch_chain
+completed K562_layout_f1_s0_high_local_support
+completed K562_layout_f1_s0_low_local_support
+completed K562_layout_f1_s0_random_degree_switch_chain
+completed K562_layout_f1_s1_high_local_support
+completed K562_layout_f1_s1_low_local_support
+completed K562_layout_f1_s1_random_degree_switch_chain
+completed K562_layout_f1_s2_high_local_support
+completed K562_layout_f1_s2_low_local_support
+completed K562_layout_f1_s2_random_degree_switch_chain
+completed K562_layout_f1_s3_high_local_support
+completed K562_layout_f1_s3_low_local_support
+completed K562_layout_f1_s3_random_degree_switch_chain
+completed K562_layout_f1_s4_high_local_support
+completed K562_layout_f1_s4_low_local_support
+completed K562_layout_f1_s4_random_degree_switch_chain
+completed K562_layout_f2_s0_high_local_support
+completed K562_layout_f2_s0_low_local_support
+completed K562_layout_f2_s0_random_degree_switch_chain
+completed K562_layout_f2_s1_high_local_support
+completed K562_layout_f2_s1_low_local_support
+completed K562_layout_f2_s1_random_degree_switch_chain
+completed K562_layout_f2_s2_high_local_support
+completed K562_layout_f2_s2_low_local_support
+completed K562_layout_f2_s2_random_degree_switch_chain
+completed K562_layout_f2_s3_high_local_support
+completed K562_layout_f2_s3_low_local_support
+completed K562_layout_f2_s3_random_degree_switch_chain
+completed K562_layout_f2_s4_high_local_support
+completed K562_layout_f2_s4_low_local_support
+completed K562_layout_f2_s4_random_degree_switch_chain
+completed K562_low_fold0
+completed K562_low_fold1
+completed K562_low_fold2
+{
+  "configurations": 55,
+  "selected_zero": 28,
+  "nonzero": 27,
+  "four_arm_rows": 220,
+  "repeat_score_rows": 990,
+  "panel_score_rows": 220,
+  "alpha_replay_max_difference": 2.220446049250313e-16,
+  "algebra_max_errors": {
+    "decomposition_error": 1.3322676295501878e-15,
+    "endpoint_preservation_error": 1.0169816377914032e-16,
+    "partner_equivalence_error": 4.440892098500626e-16,
+    "sse_improvement_identity_error": 4.440892098500626e-16,
+    "original_archive_match_error": 0.0
+  },
+  "decisions_sha256": "3030db61cad42a60ecaece1fc9a0a02773f7ba74d911a9be78e36b20c1d407df",
+  "component_vs_original_configuration_counts": {
+    "improved": 15,
+    "unchanged": 33,
+    "worsened": 7
+  },
+  "repeat_alpha_median_absolute_difference": 0.0,
+  "repeat_alpha_max_absolute_difference": 1.0,
+  "interpretation": "Configuration counts are descriptive; K562 layouts share queries. No new response-model training and no new independent confirmation.",
+  "original_outcomes_preserved": true
+}

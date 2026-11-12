@@ -1,0 +1,246 @@
+{
+  "version": "v32",
+  "files": [
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 1380,
+      "sha256": "841c54fa5f0799579ba785e74a282a4905f835b72c1d07bef2a40f1c8c2e795f"
+    },
+    {
+      "path": "METHOD_DERIVATION.md",
+      "bytes": 7941,
+      "sha256": "af9e2003bc4cd1bb4b4e7ceaddabfede800f19f1eb7cd147cf3a860bf3c56681"
+    },
+    {
+      "path": "PROTOCOL.json",
+      "bytes": 1054,
+      "sha256": "80d44d93ffcaa55a1c2c4d4fb3e0f96c7735ff1a40f24edbaecba61b95b8e3b3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4931,
+      "sha256": "89735c471f48641aed645981a089cc110b88d206ca2c8e90f62afacb1aee674a"
+    },
+    {
+      "path": "REPORT_CN.md",
+      "bytes": 4897,
+      "sha256": "ed968fd2b9bd07e7ce5b5f79a43e2503869e712970819568609c67d14a5233c4"
+    },
+    {
+      "path": "RIGHTS_AND_RELEASE.md",
+      "bytes": 3249,
+      "sha256": "b16becd455de8ac9e9af75998d7ca37918d359749f1f9c1c6a199c5cec89b02e"
+    },
+    {
+      "path": "example/evaluation_truth.npz",
+      "bytes": 8247,
+      "sha256": "c51feaf36c00906ea961de0fcfd57f106cfcd10c4947063eb27500db5c86c9b0"
+    },
+    {
+      "path": "example/query_predictions.npz",
+      "bytes": 17903,
+      "sha256": "b90a58340fe7c55ad2ebb55bc0b42cbeae6ec8e9ceca102a9cadd3e971bd83cf"
+    },
+    {
+      "path": "example/training_oof.npz",
+      "bytes": 102101,
+      "sha256": "2365023d54c15428b3732e5290b10ee37fee45c30b22d84b994ee950282c42cf"
+    },
+    {
+      "path": "extract_rna_sufficient_statistics.py",
+      "bytes": 4213,
+      "sha256": "363b68e46785d703eca10d801329915b7468a06e1e4b8034b90b8968efcbe810"
+    },
+    {
+      "path": "independent_check.py",
+      "bytes": 2590,
+      "sha256": "a9d6e7459ce10bdb15c9563540824a4d8c6db9a02203ebe9304d961938c4c040"
+    },
+    {
+      "path": "inputs/ARCHIVED_CALIBRATION_DECISIONS.csv",
+      "bytes": 395105,
+      "sha256": "fb6e91a24a48f9e1d10af55be3821a7cff70d33141e68f48331ea0cbb94d39f8"
+    },
+    {
+      "path": "inputs/ARCHIVED_ENRICHED_INPUT.csv",
+      "bytes": 1895730,
+      "sha256": "a2aa050e936667c4731966df26071c1d41b476381165472f4769c7ab7c10b39e"
+    },
+    {
+      "path": "inputs/ARCHIVED_KEY_RESULT_TABLE.csv",
+      "bytes": 829,
+      "sha256": "594af71f44e63a8bf7fd49818639e751466cc3189ea95b0721a5e816e25b3883"
+    },
+    {
+      "path": "inputs/ARCHIVED_REGRESSION_PERFORMANCE.csv",
+      "bytes": 5862,
+      "sha256": "eef4c68c622c05e2ac80e00ad5aed22ce0a6ad4d22c8cbe7baab3b3035c45b85"
+    },
+    {
+      "path": "inputs/ARCHIVED_REGRESSION_SENSITIVITY.csv",
+      "bytes": 35309,
+      "sha256": "8788fa73a828342bd197f16461c9607de422565284fadbe4d65df4e3e6961ceb"
+    },
+    {
+      "path": "inputs/CALIBRATION_OUTCOMES.npz",
+      "bytes": 698851,
+      "sha256": "f55acef3fbb2c3307cf517f704018b8cb0f5b1c52e1b147e9791ac357feed127"
+    },
+    {
+      "path": "inputs/CONFIGURATIONS.csv",
+      "bytes": 26900,
+      "sha256": "a47713a74a7e08b9159b3d8659904adff1aba7640709b13e39e48a036ca6767a"
+    },
+    {
+      "path": "inputs/INNER_GROWTH_REPLAY.npz",
+      "bytes": 1837633,
+      "sha256": "4ce4bbbf873871f3199fd9be0c942470bb4c798100cf381193638bb436fdaa7e"
+    },
+    {
+      "path": "inputs/RNA_SOURCE_HASHES.json",
+      "bytes": 35185,
+      "sha256": "993ecc858c86355a3d942ca97497f3e00a6e6e20d5dd75b59ddcd2a7a45446fa"
+    },
+    {
+      "path": "inputs/RNA_SUFFICIENT_STATISTICS.csv",
+      "bytes": 175836,
+      "sha256": "1a5ec6d603741027bb2346a445d3a76c8be1d5a664a3bdaa988ff986babb76b7"
+    },
+    {
+      "path": "replay_rna.py",
+      "bytes": 1769,
+      "sha256": "6a0136150ff1f3e0beac9fc94ef4324e3d8970aa2ef7e4fed76c43d2bf7f709a"
+    },
+    {
+      "path": "reproduce.py",
+      "bytes": 1352,
+      "sha256": "258fc4b12adc422937027fccc38e94a27b3680b8f5f0ced863e5aa92861762cf"
+    },
+    {
+      "path": "results/ALGEBRA_CHECKS.csv",
+      "bytes": 5172,
+      "sha256": "01a58c4690b61103454717be42722ac31f40a053bc52a92793426695e74a1300"
+    },
+    {
+      "path": "results/DECISIONS.csv",
+      "bytes": 14777,
+      "sha256": "3030db61cad42a60ecaece1fc9a0a02773f7ba74d911a9be78e36b20c1d407df"
+    },
+    {
+      "path": "results/FOUR_ARM_BY_CONDITION.csv",
+      "bytes": 5187,
+      "sha256": "d773f73e45931c109a0576de5271a309580d113e333f1ba10ec13f669a73c837"
+    },
+    {
+      "path": "results/FOUR_ARM_PREDICTIONS.npz",
+      "bytes": 896814,
+      "sha256": "7060106e9e55db9b42b0045541f9e1f359fd05fc375e8ffa2451ef3bb96ae09d"
+    },
+    {
+      "path": "results/FOUR_ARM_SCORES.csv",
+      "bytes": 51848,
+      "sha256": "cf8c7a1d7149988a0987dbb8fceeadd65717a6b0d0a2ed689de5e054a3f3911d"
+    },
+    {
+      "path": "results/FUNCTIONAL_DIAGNOSTIC_TABLE.csv",
+      "bytes": 36451,
+      "sha256": "2e8e996bf88590ec5f06ad898978dbb66771643c7c54fa0e7528ce267901ef3e"
+    },
+    {
+      "path": "results/HISTORICAL_COVERAGE.csv",
+      "bytes": 94075,
+      "sha256": "6281413f5d5cc1a87431de1779b6c9e277994735d1fa4c6f1362458a4049622f"
+    },
+    {
+      "path": "results/INDEPENDENT_CHECK.json",
+      "bytes": 330,
+      "sha256": "f63e48bf527ffedb8251ac8aadd8c5bbaa2fe9e5fe23fd1fd1b170eb18b20ace"
+    },
+    {
+      "path": "results/INDEPENDENT_SVD_CHECKS.csv",
+      "bytes": 3640,
+      "sha256": "b7bf93d7daaf5362e2151c86f7e0f30afabc95053fcdc6cca2b07773812a56d6"
+    },
+    {
+      "path": "results/INTERFACE_TESTS.json",
+      "bytes": 8089,
+      "sha256": "79a6ad8febc26f05d7e784973717f176c1ead0cdb2fc7f566c7eaa6d7eda2301"
+    },
+    {
+      "path": "results/PORTABLE_REPLAY.json",
+      "bytes": 787,
+      "sha256": "5e773cddca225da6f7255917838981ba6ca80688698b23b85ae924e0bf69c02d"
+    },
+    {
+      "path": "results/QUERY_PANEL_BY_CONDITION.csv",
+      "bytes": 5531,
+      "sha256": "ffa8459b0c19e2b5200f20912b978e85fa6c96c263751e18969f3ba6cb6920d2"
+    },
+    {
+      "path": "results/QUERY_PANEL_SCORES.csv",
+      "bytes": 59148,
+      "sha256": "9a9239b1b95be355414f1964bb45898ed0794d886fb0b5653691a0344cd875c8"
+    },
+    {
+      "path": "results/REPEAT_BY_CONDITION.csv",
+      "bytes": 25750,
+      "sha256": "9b4b4bc1cfe2e8bd26b7ac179737647cd537101ad0fad21052173314a130f24c"
+    },
+    {
+      "path": "results/REPEAT_DECISIONS.csv",
+      "bytes": 11389,
+      "sha256": "036354c20fbdba58c9ccb97765e2dcb29d869e8ac7d0973ec25727d09f841691"
+    },
+    {
+      "path": "results/REPEAT_SCORES.csv",
+      "bytes": 227473,
+      "sha256": "09c2bc6714676dd52b88276383855853d2700a898faa7fb04efeacc8c0bf34b5"
+    },
+    {
+      "path": "results/RNA_DIAGNOSTIC_TABLE.csv",
+      "bytes": 222429,
+      "sha256": "c5036429873f68527b8da249a6600ad5fc2d6a937d6f5f427e5e414c764876d0"
+    },
+    {
+      "path": "results/RNA_EXTRACTION.log",
+      "bytes": 55,
+      "sha256": "d847855eee596353f71f79ffcdc7a581d3bb177071657836de2f60ac2274ada0"
+    },
+    {
+      "path": "results/RNA_FOUR_ARM_SCORES.csv",
+      "bytes": 372044,
+      "sha256": "15e2a3819a539777cc06133e4b089b215e06437ee8fe160703808e8673af50d6"
+    },
+    {
+      "path": "results/RNA_SUMMARY.json",
+      "bytes": 451,
+      "sha256": "f493d68e0aace3e74bb31cf65180bda926885ddb8925005effcea093b175d109"
+    },
+    {
+      "path": "results/RUN.log",
+      "bytes": 3452,
+      "sha256": "70ad879b888691f11a82d9bba3d7168489c1bc950b6447343449e3a79350ed61"
+    },
+    {
+      "path": "results/SUMMARY.json",
+      "bytes": 997,
+      "sha256": "fe34654fbaea735795e48901cf1425ee5b0c1e13b9c9b7d67708586620378e5e"
+    },
+    {
+      "path": "run_analysis.py",
+      "bytes": 9113,
+      "sha256": "5fa80bf9699ef9f92ab1d31280d81f9e37556daf5beb4053a2b19c8571ac9727"
+    },
+    {
+      "path": "software/test_partner_control.py",
+      "bytes": 5341,
+      "sha256": "90a988b063ee68f8352f3d2f14b53dc599332e37f54083207172c2d1bf5bd061"
+    },
+    {
+      "path": "software/witnesscell_partner_control.py",
+      "bytes": 6475,
+      "sha256": "69bdf8d3a5792386ce797045bbb7682c92a471d473402311fec9615ad7ba89e5"
+    }
+  ],
+  "file_count": 48
+}

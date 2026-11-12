@@ -1,0 +1,158 @@
+[
+  {
+    "task": "PSMD12",
+    "selected_condition_id": 2356,
+    "fallback": false,
+    "changed_choice": false,
+    "partner_gain_each": [
+      0.0004571216641236428,
+      0.00014175092985621758
+    ],
+    "AB_gain_each": [
+      -0.0006262068962285938,
+      -0.0006869403704133185
+    ],
+    "joint_positive_mean": false,
+    "joint_positive_both_repeats": false,
+    "A_component_gain_each": [
+      0.0002893842179189511,
+      0.00029395564792815334
+    ],
+    "D_cross_term_each": [
+      0.00016773744620469168,
+      -0.00015220471807193573
+    ],
+    "A_component_positive_mean": true,
+    "reference_only_cancellation": false
+  },
+  {
+    "task": "NAT10",
+    "selected_condition_id": 2299,
+    "fallback": false,
+    "changed_choice": false,
+    "partner_gain_each": [
+      -1.1929654059273905e-05,
+      1.8378483834557697e-05
+    ],
+    "AB_gain_each": [
+      5.690819625823085e-05,
+      3.287970201397426e-05
+    ],
+    "joint_positive_mean": true,
+    "joint_positive_both_repeats": false,
+    "A_component_gain_each": [
+      -2.5460736624544172e-05,
+      1.731675124241116e-05
+    ],
+    "D_cross_term_each": [
+      1.353108256527027e-05,
+      1.0617325921466134e-06
+    ],
+    "A_component_positive_mean": false,
+    "reference_only_cancellation": true
+  },
+  {
+    "task": "DNTTIP2",
+    "selected_condition_id": 87,
+    "fallback": false,
+    "changed_choice": true,
+    "partner_gain_each": [
+      1.2259659743057608e-05,
+      5.505884032369016e-05
+    ],
+    "AB_gain_each": [
+      0.0025622283872253878,
+      0.0017419519045566742
+    ],
+    "joint_positive_mean": true,
+    "joint_positive_both_repeats": true,
+    "A_component_gain_each": [
+      3.2171222837496205e-06,
+      1.3759097554552627e-05
+    ],
+    "D_cross_term_each": [
+      9.042537459307998e-06,
+      4.129974276913754e-05
+    ],
+    "A_component_positive_mean": true,
+    "reference_only_cancellation": false
+  },
+  {
+    "task": "MRPL43",
+    "selected_condition_id": 1991,
+    "fallback": false,
+    "changed_choice": true,
+    "partner_gain_each": [
+      8.286348552751681e-05,
+      3.597998710084948e-05
+    ],
+    "AB_gain_each": [
+      -1.6012362994768953e-05,
+      -0.00019248053577594412
+    ],
+    "joint_positive_mean": false,
+    "joint_positive_both_repeats": false,
+    "A_component_gain_each": [
+      9.186128252702633e-05,
+      3.8791125710933865e-05
+    ],
+    "D_cross_term_each": [
+      -8.997796999509497e-06,
+      -2.81113861008439e-06
+    ],
+    "A_component_positive_mean": true,
+    "reference_only_cancellation": false
+  },
+  {
+    "task": "HYPK",
+    "selected_condition_id": 1289,
+    "fallback": false,
+    "changed_choice": true,
+    "partner_gain_each": [
+      -8.257277950330624e-06,
+      -2.368101960693869e-05
+    ],
+    "AB_gain_each": [
+      -2.283583852329444e-05,
+      1.2513183162630869e-06
+    ],
+    "joint_positive_mean": false,
+    "joint_positive_both_repeats": false,
+    "A_component_gain_each": [
+      -1.972020955833992e-06,
+      -7.63521138181163e-07
+    ],
+    "D_cross_term_each": [
+      -6.285256994496609e-06,
+      -2.291749846875719e-05
+    ],
+    "A_component_positive_mean": false,
+    "reference_only_cancellation": false
+  },
+  {
+    "task": "MRPL3",
+    "selected_condition_id": 1851,
+    "fallback": false,
+    "changed_choice": false,
+    "partner_gain_each": [
+      0.0003803386109421873,
+      0.0005273011522019895
+    ],
+    "AB_gain_each": [
+      0.00514389491696257,
+      0.005086290234228545
+    ],
+    "joint_positive_mean": true,
+    "joint_positive_both_repeats": true,
+    "A_component_gain_each": [
+      9.081010114008447e-05,
+      0.0004853240218538865
+    ],
+    "D_cross_term_each": [
+      0.0002895285098021028,
+      4.197713034810293e-05
+    ],
+    "A_component_positive_mean": true,
+    "reference_only_cancellation": false
+  }
+]

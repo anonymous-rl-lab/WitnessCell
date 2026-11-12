@@ -1,0 +1,84 @@
+{
+  "lambda": -15.152108205645622,
+  "objective": 0.16932054374143712,
+  "stationarity": 4.018039365899996e-09,
+  "stationarity_relative": 2.2409762349825676e-08,
+  "converged": true,
+  "iterations": 23,
+  "start": "spectral_1",
+  "data_loss": 0.16158244588280804,
+  "penalty_nuclear": 0.0022750072440997945,
+  "penalty_frobenius": 0.005463090614529288,
+  "seconds": 0.04117207899980713,
+  "timed_out": false,
+  "starts": [
+    {
+      "start": "spectral_0",
+      "objective": 0.16936876076432925,
+      "iterations": 22,
+      "stationarity": 9.86325734945046e-10,
+      "stationarity_relative": 5.50102259007727e-09,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": 14.970900973853272
+    },
+    {
+      "start": "spectral_1",
+      "objective": 0.16932054374143712,
+      "iterations": 23,
+      "stationarity": 4.018039365899996e-09,
+      "stationarity_relative": 2.2409762349825676e-08,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": -15.152108205645622
+    },
+    {
+      "start": "spectral_2",
+      "objective": 0.1693205437414532,
+      "iterations": 32,
+      "stationarity": 2.5802782378519962e-08,
+      "stationarity_relative": 1.4390954602740283e-07,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": -15.152110160691949
+    },
+    {
+      "start": "spectral_3",
+      "objective": 0.16936876076434207,
+      "iterations": 27,
+      "stationarity": 2.0043122062049152e-08,
+      "stationarity_relative": 1.1178626221808113e-07,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": 14.97090037357244
+    },
+    {
+      "start": "random_0",
+      "objective": 0.179298615629061,
+      "iterations": 0,
+      "stationarity": 0.0,
+      "stationarity_relative": 0.0,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": 0.0
+    },
+    {
+      "start": "random_1",
+      "objective": 0.179298615629061,
+      "iterations": 0,
+      "stationarity": 0.0,
+      "stationarity_relative": 0.0,
+      "converged": true,
+      "scipy_success": true,
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "lambda": 0.0
+    }
+  ],
+  "starts_completed": 6,
+  "numerical_rank": 1
+}

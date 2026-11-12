@@ -1,0 +1,248 @@
+{
+  "release": "30.0.0",
+  "paper": "v39",
+  "status": "PASS",
+  "predictor_refit_tasks": [],
+  "precision": "exact cache restoration + task-specific numeric tolerances",
+  "tasks": [
+    {
+      "task": "paper_scores",
+      "status": "PASS",
+      "task_fingerprint": "1a1b8e21840998e346e01d1bd104c04a9f7b761a8b264d9282e09307f958ccc7",
+      "scope": "Current double-only and full benchmark, original paired bootstrap, RNA rectangle/error budgets, all-task PairPick and baseline exclusion; scoring from frozen metrics and predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/tools/replay_paper.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/paper_scores"
+      ],
+      "returncode": 0,
+      "seconds": 3.1732573570006934
+    },
+    {
+      "task": "theory_growth",
+      "status": "PASS",
+      "task_fingerprint": "9e340da3cc11b7f2be95ec32f1bef488b1a2de870ae9525eec91356b0014c98a",
+      "scope": "Finite-family target identities/lower bound and saved synthetic prediction scoring; all saved growth predictions independently projected and rescored.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/tools/replay_theory_growth.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/theory_growth"
+      ],
+      "returncode": 0,
+      "seconds": 1.0158676110004308
+    },
+    {
+      "task": "core_scores",
+      "status": "PASS",
+      "task_fingerprint": "9d4657f3714733d30aa73a715239eface2dfcb8bd074c901a7a1a2bb11aa3a6f",
+      "scope": "Original released-core score rows, ablations, aggregate ranks and frozen bootstrap. No competitor retraining.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/legacy/compact/legacy_core/run.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/core_scores"
+      ],
+      "returncode": 0,
+      "seconds": 31.495346993997373
+    },
+    {
+      "task": "risk_scores",
+      "status": "PASS",
+      "task_fingerprint": "779b0d874c9bfa42db7b51115359b362f83e1da597dd4cf551af0d8a1c17de80",
+      "scope": "Original risk-selection and calibration score/moment replay. No new response fitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/legacy/compact/legacy_risk/run.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/risk_scores"
+      ],
+      "returncode": 0,
+      "seconds": 6.330333001998952
+    },
+    {
+      "task": "gse220974",
+      "status": "PASS",
+      "task_fingerprint": "d2295d54b867bf19439842120d18ab742bd3b4f7191d1d6f93578c59c3f27142",
+      "scope": "Closed five-model experiment; lossless residual/utility replay, all 420 choices and paired comparisons. Large external raw prediction/weight asset indexes retained.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/legacy/experiments/34_gse220974_five_model_final/reproduce.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/gse220974"
+      ],
+      "returncode": 0,
+      "seconds": 0.3145526289990812
+    },
+    {
+      "task": "component_control",
+      "status": "PASS",
+      "task_fingerprint": "a3dcb51e244c8c0c3e61f33d381ff2073e6440f78a7464e838feaa4c1f28bb8f",
+      "scope": "All 55 functional configurations and 265 RNA candidate/fold rows, repeat and query-panel checks from archived predictions.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/tools/run_portable.py",
+        "--task",
+        "control",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/component_control"
+      ],
+      "returncode": 0,
+      "seconds": 6.781649775002734
+    },
+    {
+      "task": "interfaces",
+      "status": "PASS",
+      "task_fingerprint": "87f0d7caadddef9c603e2cba6c3065c77c63b3b336bd38543657995792e8dde0",
+      "scope": "Runnable RNA/growth/control interface checks; no biological predictor training.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/core/tools/run_portable.py",
+        "--task",
+        "interfaces",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/interfaces"
+      ],
+      "returncode": 0,
+      "seconds": 2.0193855199977406
+    },
+    {
+      "task": "han_transfer_history",
+      "status": "PASS",
+      "task_fingerprint": "28b068a6a5b1a3e6b96f9e81440bafc17132bd4d820c1918dd6994f489c7ac1f",
+      "scope": "Historical Han compact-count reconstruction, saved frozen predictions, fresh target calibration and independent QR scoring; all original primary and expansion outcomes. No Torch required.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_han_history.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/han_transfer_history"
+      ],
+      "returncode": 0,
+      "seconds": 24.181798402001732
+    },
+    {
+      "task": "paper_tables",
+      "status": "PASS",
+      "task_fingerprint": "be69942e247e56424f8e701045be676001f7b1cd65eacf2a1e5da31d4b82bac0",
+      "scope": "Reaggregate 1,080 native Han scores, rebuild S44-S53 and validate current v39 manuscript identities and claims.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_current.py",
+        "--task",
+        "paper_tables",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/paper_tables"
+      ],
+      "returncode": 0,
+      "seconds": 0.8660735800003749
+    },
+    {
+      "task": "diagnostics",
+      "status": "PASS",
+      "task_fingerprint": "d28c789f96bcc4c4adf060ab06ead2bb8ece192a3c12d00a063dda549bae55b9",
+      "scope": "Training/query repeat correlations and outcome-informed fixed-direction reference optima from saved raw arrays; SI S52\u2013S53.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_current.py",
+        "--task",
+        "diagnostics",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/diagnostics"
+      ],
+      "returncode": 0,
+      "seconds": 0.5650683580024634
+    },
+    {
+      "task": "han_attribution_history",
+      "status": "PASS",
+      "task_fingerprint": "8fc97b1e1acd2bca9db99eee5b08906051d7a98b084db75b45b13a3a1faa8ca7",
+      "scope": "Historical 999 random directions and nonlinear references; refit comparator baselines/scalars, not source predictors; SI S51.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_current.py",
+        "--task",
+        "attribution",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/han_attribution_history"
+      ],
+      "returncode": 0,
+      "seconds": 21.674432761999924
+    },
+    {
+      "task": "figures",
+      "status": "PASS",
+      "task_fingerprint": "90c7e08b52c775655351d03f0be571e699fb30a33308ac334e2049bc17dbfd5a",
+      "scope": "Redraw all five current main and seven supplementary figures, including v39 global-reference diagnostics; compare rendered vectors with the paper references.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_current.py",
+        "--task",
+        "figures",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/figures"
+      ],
+      "returncode": 0,
+      "seconds": 19.525325877002615
+    },
+    {
+      "task": "han_native",
+      "status": "PASS",
+      "task_fingerprint": "07107682af04f803f7279ed06127d887f5ff0258dad361323db62d099edcb405",
+      "scope": "Reconstruct final and selected inner predictions from saved rank-one/spectral weights, re-estimate training-side coefficients and reproduce all 60 batches / 1,080 score rows. No predictor retraining.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/experiments/han_native/verification/compact_replay.py",
+        "--root",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/experiments/han_native",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/han_native"
+      ],
+      "returncode": 0,
+      "seconds": 9.139304166998045
+    },
+    {
+      "task": "coverage",
+      "status": "PASS",
+      "task_fingerprint": "f6fe71c3da0d10ddb2cd1d881b6d3348ee568f869c8d6706a7588bc75e961784",
+      "scope": "Check current v39 titles and source/task mapping for all 57 SI tables and 12 figures.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/check_coverage.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/coverage"
+      ],
+      "returncode": 0,
+      "seconds": 0.06399523000072804
+    },
+    {
+      "task": "global_reference",
+      "status": "PASS",
+      "task_fingerprint": "b2b369d9d1a46446c9e2e4f2da5ba6a903468e3124f6b530dfd20bb67385adb9",
+      "scope": "v39 seven-configuration saved-matrix replay, scalar/reference diagnostics, S54-S57, Han saved modes and bounded-model checks. No matrix refitting.",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_extract/grn_repo_v30/tools/replay_global.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/code_v30_work/fresh_replay/global_reference"
+      ],
+      "returncode": 0,
+      "seconds": 5.680703630001517
+    }
+  ]
+}

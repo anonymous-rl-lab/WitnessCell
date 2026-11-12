@@ -1,0 +1,52 @@
+{
+  "protocol_id": "WitnessCell-step1-followup-v1-20261017",
+  "study_status": "retrospective_followup_after_inspection_of_original_step1_results",
+  "authorization": "User authorized seen comparisons, one bounded Wessels witness-quantity experiment, and manuscript provenance/scope corrections on 2026-10-17",
+  "new_analysis_order": ["freeze_configuration", "fit_and_freeze_seen_scores_and_decisions_without_loading_evaluation_losses", "evaluate_seen", "bounded_Wessels_prediction_replay_and_witness_subsets", "freeze_Wessels_predictions_before_label_join", "evaluate_Wessels", "lock_manuscript_revision_plan"],
+  "historical_data_access": "The two public datasets and the original Step1 evaluation were previously examined. This is not independent prospective validation or third-party preregistration.",
+  "seen_comparison": {
+    "datasets": ["Norman", "Wessels"],
+    "seeds": [1, 2, 3],
+    "mean_predictions": "original_final_v14_unchanged",
+    "methods": {
+      "B": "original frozen effect_score and variance_score ridge risk",
+      "R": "seen2 before seen1 before seen0, then original risk_B, original protocol tie hash, canonical pair",
+      "C": "jointly fit effect_score, variance_score, I(seen=0), I(seen=2); seen1 is the fixed reference category",
+      "C0": "jointly fit effect_score, variance_score, missing_endpoints; exact S-minus-degree feature ablation",
+      "S": "original frozen effect_score, variance_score, missing_endpoints, inverse_degree ridge risk"
+    },
+    "fitting": "Original dataset-seed TRAIN-OOF records, total weight 1 per canonical pair then normalize sum to 1, weighted feature means/SD, zero SD replaced by 1, log1p(loss_mse/m) with global weighted median m floored at 1e-12, Gram+I ridge lambda 1, unpenalized intercept, no hyperparameter search",
+    "coding_restriction": "The seen1 reference category is fixed before new evaluation; reference coding is not selected based on results.",
+    "primary": {"dataset": "Norman", "scope": "all_queries", "coverage": 0.5, "loss": "loss_mse", "comparison": "S/C"},
+    "key_conditional_analysis": {"scope": "seen1", "coverage": 0.5, "comparison": "S/C", "selection": "reselect each rule inside seen1 with its own floor(0.5*n_seen1) equal quota; do not filter the original global accepted sets"},
+    "same_protocol_check": "Wessels",
+    "coverages": [0.3, 0.5, 0.7, 0.9],
+    "scopes": ["all_queries", "seen1"],
+    "losses": ["loss_mse", "loss_wmse", "loss_top100", "loss_relative", "loss_cosine"],
+    "comparisons": [["S", "C"], ["S", "C0"], ["S", "R"], ["S", "B"], ["C", "B"], ["R", "B"]],
+    "tie_protocol_id": "WitnessCell-step1-v1-20261017",
+    "effect_control": "Secondary S/C within fixed original TRAIN-OOF effect quartiles in all_queries, 50% per quartile and population-size stratum weighting. Empty strata carry zero weight; nonempty strata with zero quota make the replicate undefined.",
+    "bootstrap": {"replicates": 5000, "seed": 2026101701, "cluster": "canonical pair within dataset, carrying all original seed records", "seen1": "filter per-seed seen1 after mapping common full-dataset pair multiplicities", "selection": "exact floor quota recomputed at each bootstrap replicate, with duplicate multiplicities split only at quota boundary", "aggregation": "geometric mean of three seed-level selected mean-loss ratios", "interval": "pointwise percentile 95%; secondary outcomes are supporting analyses, not additional independent confirmations"},
+    "interpretation": "Primary S/C and key seen1 S/C are distinct. Broad or null-spanning intervals are inconclusive, not evidence of equality. Do not change scorers, category coding, or thresholds to seek a favorable result."
+  },
+  "wessels_witness_quantity": {
+    "seeds": [1, 2, 3],
+    "orders": [1, 2, 3],
+    "fractions": [0.25, 0.5, 1.0],
+    "fixed": ["original test targets", "gene axis", "final_v14 endpoints", "formal factorized backbone", "alpha", "noise_ratio", "gamma"],
+    "varied": "available training-combination residual witness library; recompute selected-witness kernel fitting and transfer only",
+    "subset_order": "SHA256(protocol_id|dataset|seed|order|canonical_pair), nested prefixes; floor(fraction*n_training_combinations)",
+    "replay": {"full_fraction": 1.0, "atol": 0.000001, "rtol": 0.000001, "require_all_coordinates": true, "failure_action": "stop and investigate without modifying model parameters or scientific estimand"},
+    "primary_loss": "non-target MSE",
+    "secondary_loss": "non-target WMSE",
+    "primary_reference": "fixed factorized backbone",
+    "secondary_reference": "shared-endpoint additive",
+    "aggregation": "Within each seed average each query's loss over three subset orders, then average over queries; geometric mean of seed loss ratios rho_f relative to the fixed backbone; G_f=1-rho_f",
+    "primary_contrast": "Delta=G_1.0-G_0.25=rho_0.25-rho_1.0; positive means the full witness library improves residual gain compared with 25%",
+    "bootstrap": {"replicates": 5000, "seed": 2026101702, "cluster": "canonical pair carrying all seed/order/fraction records", "interval": "percentile 95"},
+    "diagnostics": ["global witness count", "per-target incident witness count", "zero-incident-witness fraction", "seed and subset-order stability"],
+    "interpretation": "A fixed-endpoint, fixed-hyperparameter component ablation. It is not a complete lower-experiment-budget retraining study, a cross-dataset density causal explanation, or independent biological replication.",
+    "budget": {"progress_check_minutes": 10, "total_fit_wall_minutes_maximum": 60, "pilot": "full-library replay and seed1/order1/25% before evaluation-label join"}
+  },
+  "excluded_from_this_execution": ["new datasets", "32/64-member ensemble expansion", "Mondrian coverage validation", "GEARS/scouter retraining", "prospective biological experiments"]
+}

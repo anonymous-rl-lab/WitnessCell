@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "numerical_checks": [
+    {
+      "configuration": "K562_low_fold0",
+      "independent_sse_max_abs": 2.220446049250313e-16,
+      "endpoint_preservation_max_abs": 7.22078646875346e-17,
+      "control_sse_identity_max_abs": 3.3306690738754696e-16,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "K562_low_fold1",
+      "independent_sse_max_abs": 2.220446049250313e-16,
+      "endpoint_preservation_max_abs": 6.85249654328729e-17,
+      "control_sse_identity_max_abs": 1.1102230246251565e-16,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "K562_low_fold2",
+      "independent_sse_max_abs": 4.440892098500626e-16,
+      "endpoint_preservation_max_abs": 6.78168458889683e-17,
+      "control_sse_identity_max_abs": 2.220446049250313e-16,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "K562_high_fold0",
+      "independent_sse_max_abs": 2.220446049250313e-16,
+      "endpoint_preservation_max_abs": 8.57603918436034e-17,
+      "control_sse_identity_max_abs": 0.0,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "K562_high_fold1",
+      "independent_sse_max_abs": 2.220446049250313e-16,
+      "endpoint_preservation_max_abs": 8.632959798415829e-17,
+      "control_sse_identity_max_abs": 0.0,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "K562_high_fold2",
+      "independent_sse_max_abs": 3.3306690738754696e-16,
+      "endpoint_preservation_max_abs": 6.59059395599626e-17,
+      "control_sse_identity_max_abs": 0.0,
+      "training_covers_all_endpoints": true
+    },
+    {
+      "configuration": "Jurkat_high",
+      "independent_sse_max_abs": 2.220446049250313e-16,
+      "endpoint_preservation_max_abs": 3.458604930228759e-17,
+      "control_sse_identity_max_abs": 1.1102230246251565e-16,
+      "training_covers_all_endpoints": true
+    }
+  ],
+  "compared_tables": [
+    "GENE_LOADINGS.csv",
+    "GLOBAL_ATTRIBUTION.csv",
+    "HAN_MODE_DIAGNOSTICS.csv",
+    "HAN_MODE_LOADINGS.csv",
+    "MATCHED_REFERENCE_POOLED.csv",
+    "MATCHED_REFERENCE_SCORES.csv",
+    "MODE_DIAGNOSTICS.csv",
+    "MODULE_GAIN_ATTRIBUTION.csv",
+    "NUMERICAL_CHECKS.csv"
+  ],
+  "scope": "Independent SVD scoring of v39 additions; not a new replay of the historical benchmark."
+}

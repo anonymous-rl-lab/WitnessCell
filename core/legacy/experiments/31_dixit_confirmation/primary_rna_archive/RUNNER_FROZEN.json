@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-19T10:26:22.631759+00:00",
+  "status": "runner and dependencies frozen before any real-source fit",
+  "files": {
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/run_frozen_rna_confirmation.py": "076954037a8c1d10fd3215bc3d72403b72db088f6440486d74de25dc097cac0d",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/experiment_assets/WitnessCell_Partner_Component_Run_20261018/model/global_pair_model.py": "d19f8c423c4b8a693644381b0863e6a016300f51075a9e2fb1247cc605c2a404",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_A/readout_control.py": "d29aa0d63ae42db22c2338b5dad8d08ca0a262f7829a93cc7f14d16fc2dcfe81",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/FROZEN_PROTOCOL_v1.txt": "8b1426f43aa5f040ddf1b8e837cb2a6d7a61a2b5513f3f5fbb7aa344a525500f",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/PREDEFINED_G2M_PROGRAM.json": "ccd9e710ef7ef448c9234ca007ea02aef5c190157060d639d75b090b63b07895",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/Dixit_labels_only_threefold_candidate.csv": "0d25fce4f933965dde991a955c2926fe7ed8089142eec9de2cded7324f612093",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/Dixit_external_ready_compact.npz": "e5a1cd23879d36df4a1513a745952f17c9088ecc64e87f99f5199c600408f153",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/prepare_dixit_frozen_inputs.py": "e64369663552c00684f32355c0f1e6e9752780e4654559a35a7593b613422de3",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/apply_protocol_half_rebase_correction.py": "1feb0938522518d168410ac579bc19e84bf965d89e2a05f0ca74b79539adffc0",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/STATISTICS_IMPLEMENTATION_FREEZE_v1.txt": "7f1f182407a5c80ce23c16df12a70353097b563ed626e584d476d4da330cb1d9",
+    "/workspace/scratch/7517238e1d04/witnesscell_v20_20261019/work_B/STATISTICS_FREEZE_RECEIPT.json": "eeb863ba83da9c583556253da5ff642e24f95ffa764d025d420d7f94e18b45ce"
+  },
+  "tie_preference_explicit_same_as_A": [
+    "zero",
+    "R_amplitude_noise",
+    "uniform",
+    "amplitude_only",
+    "unit"
+  ],
+  "numpy_version": "2.3.5",
+  "main_protocol_variants_after_scoring": false,
+  "toy_check_passed": true
+}

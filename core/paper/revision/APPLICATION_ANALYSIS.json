@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "all_tasks_included": 28,
+  "source_choice_records": 420,
+  "physical_anchors": 8,
+  "ordering": "physical anchor, mode-specific anchor, fold; outcomes not used",
+  "tie_tolerance": 1e-12
+}

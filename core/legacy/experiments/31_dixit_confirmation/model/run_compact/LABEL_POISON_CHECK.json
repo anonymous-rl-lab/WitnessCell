@@ -1,0 +1,32 @@
+[
+  {
+    "fold": 0,
+    "prediction_max_abs": 0.0,
+    "inner_score_max_abs": 0.0,
+    "choices_identical": true,
+    "excluded_query_means_poisoned": true,
+    "excluded_query_halves_poisoned": false,
+    "halves_not_used_by_learner": true,
+    "PASS": true
+  },
+  {
+    "fold": 1,
+    "prediction_max_abs": 0.0,
+    "inner_score_max_abs": 0.0,
+    "choices_identical": true,
+    "excluded_query_means_poisoned": true,
+    "excluded_query_halves_poisoned": false,
+    "halves_not_used_by_learner": true,
+    "PASS": true
+  },
+  {
+    "fold": 2,
+    "prediction_max_abs": 0.0,
+    "inner_score_max_abs": 0.0,
+    "choices_identical": true,
+    "excluded_query_means_poisoned": true,
+    "excluded_query_halves_poisoned": false,
+    "halves_not_used_by_learner": true,
+    "PASS": true
+  }
+]

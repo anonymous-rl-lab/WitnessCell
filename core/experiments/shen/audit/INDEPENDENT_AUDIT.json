@@ -1,0 +1,438 @@
+{
+  "utc": "2026-11-07T23:41:56.960193+00:00",
+  "checks": [
+    {
+      "check": "source lock precedes prediction freeze precedes scoring",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all three predictions frozen",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "protocol unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "prepared input receipt unchanged",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source SHA source/historical_counts/20160403_Hela_CV4_19mer_1mm_py_20160616222235_counts_combined.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source SHA source/historical_counts/20160510_A549_19mer_1mm_py_20160616113153_counts_combined.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source SHA source/historical_counts/20160627_HeLa_A549_CV4_19mer_1mm_py_20160628114018_counts_combined.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "source SHA source/historical_counts/20160803_293_CV4_19mer_1mm_py_20160805172522_counts_combined.txt",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "canonical count SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "raw sample identity unique",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "all 24 samples have sufficient dual-NTC reference",
+      "pass": true,
+      "detail": 109
+    },
+    {
+      "check": "independent accepted construct-repeat count",
+      "pass": true,
+      "detail": 131273
+    },
+    {
+      "check": "HeLa input SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa prediction SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa metadata SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa query interface has identities only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa no physical-pair leakage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa globally fixed split preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa nominal split independently reproduced",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa truth identities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa independent raw-count to outcome reconstruction",
+      "pass": true,
+      "detail": 1.951563910473908e-16
+    },
+    {
+      "check": "HeLa saved coefficient baseline replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa all 24 objective-order checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa rank1 convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa rank1 training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa rank1 saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa spectral convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa spectral training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa spectral saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa M0 least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "HeLa rank1_primary least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "HeLa spectral_secondary least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "HeLa single_additive least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "HeLa orthogonal error decomposition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 input SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 prediction SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 metadata SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 query interface has identities only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 no physical-pair leakage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 globally fixed split preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 nominal split independently reproduced",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 truth identities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 independent raw-count to outcome reconstruction",
+      "pass": true,
+      "detail": 5.898059818321144e-17
+    },
+    {
+      "check": "A549 saved coefficient baseline replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 all 24 objective-order checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 rank1 convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 rank1 training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 rank1 saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 spectral convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 spectral training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 spectral saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 M0 least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "A549 rank1_primary least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "A549 spectral_secondary least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "A549 single_additive least-squares score reconstruction",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "A549 orthogonal error decomposition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T input SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T prediction SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T metadata SHA",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T query interface has identities only",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T no physical-pair leakage",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T globally fixed split preserved",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T nominal split independently reproduced",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T truth identities",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T independent raw-count to outcome reconstruction",
+      "pass": true,
+      "detail": 8.586881206085195e-17
+    },
+    {
+      "check": "293T saved coefficient baseline replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T all 24 objective-order checks",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T rank1 convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T rank1 training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T rank1 saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T spectral convergence",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T spectral training-only selection",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T spectral saved matrix prediction replay",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T M0 least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "293T rank1_primary least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "293T spectral_secondary least-squares score reconstruction",
+      "pass": true,
+      "detail": 2.220446049250313e-16
+    },
+    {
+      "check": "293T single_additive least-squares score reconstruction",
+      "pass": true,
+      "detail": 0.0
+    },
+    {
+      "check": "293T orthogonal error decomposition",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "HeLa independently reconstructed sensitivity interval",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "A549 independently reconstructed sensitivity interval",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "293T independently reconstructed sensitivity interval",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "check": "equal-context sensitivity interval",
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "passed": 82,
+  "failed": 0,
+  "maximum_measurement_difference": 1.951563910473908e-16,
+  "maximum_gain_difference": 2.220446049250313e-16,
+  "sensitivity": {
+    "HeLa": [
+      -0.04058807065955803,
+      0.0093465956225633
+    ],
+    "A549": [
+      -0.022856874479098805,
+      0.026105142394838673
+    ],
+    "293T": [
+      -0.02960669820481953,
+      0.014235175975453531
+    ],
+    "equal_context_mean": [
+      -0.01869619828610211,
+      0.006542660805646094
+    ]
+  },
+  "scope": "Reconstruction from raw counts and frozen predictions; no model retuning; not a new independent biological validation."
+}

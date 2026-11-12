@@ -1,0 +1,117 @@
+{
+  "source": "Dixit 2016 GSE90063/GSM2396860",
+  "status": "completed; primary partner confirmation not established; no post-score retuning",
+  "run_elapsed_seconds": 13.506763946999854,
+  "runner_frozen_utc": "2026-10-19T10:26:22.631759+00:00",
+  "all_predictions_frozen_utc": "2026-10-19T10:26:30.998528+00:00",
+  "completed_utc": "2026-10-19T10:26:36.264689+00:00",
+  "evaluation_sha256": "9bfb1344e0ebb411e99ff6086db9ce8bcfaefa41c18e8ecf172760861d842af3",
+  "all_predictions_sha256": "a943aaff50e87cc6a52bb153d1093b38fe525108e6faf22f6d2fd4411fa19c49",
+  "report_generation_changes_learning_rule": false,
+  "primary_projected_gain_percent": -0.03260130792246407,
+  "secondary_full_gain_percent": 0.26980124059068356,
+  "conditional_projected_central95_percent": [
+    -0.10915879124553442,
+    0.0736565889280485
+  ],
+  "conditional_full_central95_percent": [
+    0.10351329783852505,
+    0.4421354216245939
+  ],
+  "conditional_ranges_are_biological_confidence_intervals": false,
+  "fixed_G2M_mapped_genes": 52,
+  "secondary_program_full_gain_percent_vs_M0": 2.5696889715503435,
+  "secondary_program_projected_gain_percent_vs_M0": 4.033911174951477,
+  "baseline_comparisons": [
+    {
+      "model": "zero",
+      "reference": "additive",
+      "full_gain_percent": 23.432832171294272,
+      "projected_gain_percent": -0.004733250828525826,
+      "standardized_full_gain_percent": 4.126652897844895,
+      "standardized_projected_gain_percent": -6.563931265191059e-06,
+      "program_full_gain_percent": -23.678322383650197,
+      "program_projected_gain_percent": -0.012297974889241559
+    },
+    {
+      "model": "zero",
+      "reference": "saturation_only",
+      "full_gain_percent": 23.235221351656733,
+      "projected_gain_percent": 0.0,
+      "standardized_full_gain_percent": 4.122224717135802,
+      "standardized_projected_gain_percent": 0.0,
+      "program_full_gain_percent": -23.782002537365887,
+      "program_projected_gain_percent": 0.0
+    },
+    {
+      "model": "selected",
+      "reference": "additive",
+      "full_gain_percent": 23.639411339981276,
+      "projected_gain_percent": -0.037336101852658565,
+      "standardized_full_gain_percent": 4.128307422369004,
+      "standardized_projected_gain_percent": -0.0028687079538070037,
+      "program_full_gain_percent": -20.50017417315906,
+      "program_projected_gain_percent": 4.022109289445586
+    },
+    {
+      "model": "selected",
+      "reference": "saturation_only",
+      "full_gain_percent": 23.442333676786653,
+      "projected_gain_percent": -0.03260130792246407,
+      "standardized_full_gain_percent": 4.1238793180787825,
+      "standardized_projected_gain_percent": -0.002862143834692077,
+      "program_full_gain_percent": -20.601190069399024,
+      "program_projected_gain_percent": 4.033911174951477
+    },
+    {
+      "model": "R_amplitude_noise",
+      "reference": "additive",
+      "full_gain_percent": 23.4935291106808,
+      "projected_gain_percent": -0.00827874923754468,
+      "standardized_full_gain_percent": 4.127614385394107,
+      "standardized_projected_gain_percent": -0.00019296505364696515,
+      "program_full_gain_percent": -22.97477300206299,
+      "program_projected_gain_percent": 0.3791685183652027
+    },
+    {
+      "model": "R_amplitude_noise",
+      "reference": "saturation_only",
+      "full_gain_percent": 23.296074942677137,
+      "projected_gain_percent": -0.0035453305996302475,
+      "standardized_full_gain_percent": 4.123186249094035,
+      "standardized_projected_gain_percent": -0.00018640111014711636,
+      "program_full_gain_percent": -23.07786336682758,
+      "program_projected_gain_percent": 0.39141835672321657
+    }
+  ],
+  "resource_gate": {
+    "partner_5pct_point_threshold": false,
+    "full_response_no_more_than_2pct_deterioration_point_threshold": true,
+    "qualified_external_neural_comparator_completed": false,
+    "adequate_biological_uncertainty_established": false,
+    "whole_resource_gate_passed": false,
+    "point_thresholds_are_not_sufficient": true
+  },
+  "supported_findings": [
+    "The complete original-core construction remains useful for full-response prediction on this new source relative to measured-single additive and independently selected saturation-only baselines.",
+    "The added partner correction changes full-response MSE by a small amount and preserves the core response quality under the frozen selection rule.",
+    "The predeclared endpoint-orthogonal transcriptome-wide primary endpoint does not confirm an additional partner-prediction gain on this source.",
+    "The secondary fixed G2M projected score improves relative to the core, but full G2M performance remains worse than the simpler additive and saturation-only baselines."
+  ],
+  "not_supported": [
+    "A general cross-source RNA partner-prediction improvement.",
+    "Superiority of agreement weighting over its exact amplitude/noise-energy equivalent or over the uniform control.",
+    "A biological hit-rate increase, a prospective confirmation, or transfer of already fitted parameters.",
+    "The original leaderboard position for this new model or source.",
+    "An adequately powered biological confidence statement from conditional fixed-prediction node reweighting alone."
+  ],
+  "qualification": {
+    "new_public_source_relative_to_supplied_assets": true,
+    "author_exposure_history_outside_supplied_assets_known": false,
+    "retrospective_public_data": true,
+    "fresh_parameters_fitted_per_outer_training_partition": true,
+    "cell_halves_are_independent_biological_replicates": false,
+    "three_outer_folds_are_independent_experiments": false,
+    "all_45_pairs_and_23519_non_target_readouts_retained": true
+  }
+}

@@ -1,0 +1,9 @@
+Replaying E20
+Replaying E21
+Replaying E22
+Replaying E23
+{
+  "status": "PASS_COMPACT_REPLAY",
+  "max_absolute_reproduction_delta": 2.938187887435717e-15,
+  "report": "/tmp/witnesscell_v25_final_replay_20261026/risk/REPLAY_REPORT.json"
+}

@@ -1,0 +1,23 @@
+--- v32/Supplementary_Information
++++ v33/Supplementary_Information
+@@ -2,7 +2,7 @@
+ 
+ ## WitnessCell predicts combinatorial perturbation responses through endpoint and partner learning
+ 
+-**Companion to the v32 main text and Methods.** This supplement supplies derivations, implementation details, complete comparisons and sensitivity analyses for the six Results sections. It preserves the identities and evaluation status of the experiments in the accompanying `grn_repo_v27` archive. The manuscript name **PairPick (R-G)** refers to the unchanged archived model `R_G`.
++**Companion to the v33 main text and Methods.** This supplement supplies derivations, implementation details, complete comparisons and sensitivity analyses for the six Results sections. It preserves the identities and evaluation status of the experiments in the accompanying `grn_repo_v27` archive. The manuscript name **PairPick (R-G)** refers to the unchanged archived model `R_G`.
+ 
+ ## Contents
+ 
+@@ -1212,9 +1212,9 @@
+ python code/analyze_revision.py
+ python code/analyze_applications.py
+ python code/audit_construct_identity.py
+-python code/make_control_figures.py
++python code/make_figure4_v33.py
+ python software/test_growth_interface.py
+-python code/verify_v32.py
++python code/verify_v33.py
+ ```
+ 
+ The adapter takes JSON condition summaries with explicit train, validation and query identities. Query outcomes are rejected; reversed-pair leakage, malformed vectors and invalid variances are checked. Seven unchanged native modules supply the released `multihead_v14` implementation. The synthetic example has five new queries and a missing-single endpoint; it is an interface example rather than biological evidence. The output includes predicted normalized means, the nonlinear baseline, selected parameters and an input hash. Native-call parity, absence of query truth and a common-input-shift test are recorded in `software/INTERFACE_TESTS.json`. Dependencies and normalization assumptions are documented in the software README. Figures and supplementary audits require the additional dependencies in `code/requirements.txt`.

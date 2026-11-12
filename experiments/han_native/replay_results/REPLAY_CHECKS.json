@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "batches": 60,
+  "rows": 1080,
+  "score_max_abs": {
+    "full_sse": 2.2737367544323206e-13,
+    "partner_sse": 2.2737367544323206e-13
+  },
+  "max_alpha_abs": 3.3306690738754696e-16,
+  "max_inner_D_abs": 0.0
+}

@@ -1,0 +1,289 @@
+{
+  "status": "PASS",
+  "mode": "exact factor reconstruction + original spectral warm-start refit",
+  "root": "/workspace/scratch/55b8063c9ed0/bridge_experiment_20261031",
+  "restored_cache_root": "/workspace/scratch/55b8063c9ed0/pack_audit_work/inner_rebuild/full_cache",
+  "arms": 45,
+  "npz_files_sha256_exact": 2160,
+  "original_array_comparisons": 2160,
+  "max_array_difference": 0.0,
+  "evaluation_labels_read": false,
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "seconds": 157.40170118399692,
+  "per_arm": [
+    {
+      "task": "fold_0_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.5454867080043186
+    },
+    {
+      "task": "fold_0_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.287394470004074
+    },
+    {
+      "task": "fold_0_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 4.29879178700503
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.222897029998421
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.388331524001842
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.8591797999979462
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.9405511779987137
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.7530022030041437
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 2.792182083998341
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.7813998159981566
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.865228599999682
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 2.8638759539971943
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.688074081001105
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.0915652949988726
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.1360840990018914
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.127683612998226
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.895620328003133
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.8656242919969372
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.025929644005373
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.1894505730015226
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.205803070006368
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.930095704999985
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.8529641889981576
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 2.874941306996334
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.8351861289993394
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.8761200399967493
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 2.9445126350037754
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.129432762994838
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.846936918998836
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.579572629001632
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.1232061400005477
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.531009332000394
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.133379202998185
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.656913611004711
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.457164712999656
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 5.500939516001381
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 6.461814014000993
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.9680243600014364
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.689561257000605
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.5406167629989795
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 4.2033628830031375
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 3.287978469998052
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 3.1084418340033153
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "seconds": 2.760903057001997
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "seconds": 2.8973169719974976
+    }
+  ],
+  "original_library_archive_byte_comparisons": 2160,
+  "source_archive_sha256": "35f1c7bcbc1634b1a97801f836eff90fc0bbcb1bcff75b51e2edaff0e7d02b77"
+}

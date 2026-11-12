@@ -1,0 +1,14 @@
+{
+  "phase": "inner",
+  "fold": 2,
+  "fraction": 0.01,
+  "nu": 1.0,
+  "objective_probe": {
+    "inner_fold": 2,
+    "fraction": 0.01,
+    "nu": 1.0,
+    "spectral_minus_rank1_objective": -0.00032945987756469836,
+    "tolerance": 1.054303965164004e-07,
+    "pass": true
+  }
+}

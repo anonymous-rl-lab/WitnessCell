@@ -1,0 +1,18 @@
+{
+  "version": "v28",
+  "selection_basis": "Descriptive continuation of the existing v27 TTI2/PGK1/OGFOD1 example; choose the lexicographically first other background having all four pairs in the same held-out fit. Outcome-independent choice of the additional background, not a prospective biological validation.",
+  "fixed_A": "TTI2",
+  "fixed_B": "PGK1",
+  "fixed_D": "OGFOD1",
+  "eligible_C": [
+    "ACTR10",
+    "MRPL32",
+    "NDUFA8",
+    "POLD3"
+  ],
+  "selected_C": "ACTR10",
+  "contrast": "AB - AD - CB + CD",
+  "reporting": "Show selected rectangle in Fig.4 and all four backgrounds, both repeats and repeat means in SI/source data. Retain the full 617-pair primary test.",
+  "input": "evidence/source_data/publication/biological_examples/jurkat/Jurkat_all_617_pairs_two_repeats.csv",
+  "source_sha256": "a1e259f14a1a9d51c7b7280dab62b815c2b784cc4b7bdc54d515bcfd615d6c18"
+}

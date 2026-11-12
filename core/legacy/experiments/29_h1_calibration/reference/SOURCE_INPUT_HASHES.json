@@ -1,0 +1,6 @@
+{
+  "batch_preprocessor_20261020/inputs/compact_inputs.npz": "251fee3671ba5b381f1dd332279da54baface57d16df7873a1809649060b3ed1",
+  "batch_preprocessor_20261020/inputs/allowed_batch_means.npy": "6e85ae8087045b3dea22aa3ae4a350f264f743626c62801daa94f7a437fcbdc3",
+  "batch_preprocessor_20261020/stage2_inputs/compact_inputs.npz": "eda97b6afd1e6edf63e878291ad87356de4a9282ab533871cd04eec63faeaa10",
+  "batch_preprocessor_20261020/stage2_inputs/allowed_half_means.npy": "9cb96ec30c9d1cfd5277250dda49800626a32865e715764a3f404eb5b00b91cc"
+}

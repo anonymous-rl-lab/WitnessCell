@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "mode": "figures",
+  "checks": [
+    {
+      "directory": "figures",
+      "figures": 5,
+      "passed": true
+    },
+    {
+      "directory": "supplementary_figures",
+      "figures": 5,
+      "passed": true
+    },
+    {
+      "file": "Fig4_Han_target_calibration.csv",
+      "passed": true
+    },
+    {
+      "file": "SuppFig5_Han_estimates_ranges.csv",
+      "passed": true
+    },
+    {
+      "file": "Han_target_strengths.csv",
+      "passed": true
+    }
+  ],
+  "base_model_fits": 0,
+  "scope": "Figures redraw from numerical sources; score replay uses frozen per-operation metrics and saved biological predictions, not original single-cell preprocessing or all competitor inference."
+}

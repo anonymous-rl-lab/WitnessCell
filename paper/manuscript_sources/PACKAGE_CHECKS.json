@@ -1,0 +1,66 @@
+{
+  "version": "v41",
+  "language_revision": "R1",
+  "status": "PASS",
+  "scope": "Language revision, source-preservation checks, saved-prediction replay and PDF inspection; no model refitting or new scientific analyses.",
+  "word_counts": {
+    "version": "v41",
+    "rule": "Whitespace-delimited; headings excluded; main is Introduction, Results and Discussion.",
+    "abstract": 136,
+    "main_body": 4620,
+    "methods_excluding_headings": 5669,
+    "references": 46,
+    "main_figures": 5,
+    "supplementary_figures": 7,
+    "supplementary_notes": 24,
+    "supplementary_tables": 57,
+    "language_revision": "R1"
+  },
+  "language_checks": 46,
+  "targeted_language_changes": 66,
+  "scientific_assets_unchanged": 91,
+  "all_mathematical_expressions_unchanged": true,
+  "all_manuscript_and_SI_table_rows_unchanged": true,
+  "all_decimal_results_unchanged": true,
+  "bibliography_unchanged": true,
+  "all_main_and_supplementary_figure_images_unchanged": true,
+  "replay": {
+    "status": "PASS",
+    "four_configurations_refitted": false,
+    "han_predictors_refitted": false,
+    "base_code": "grn_repo_v30_paper_v39.zip",
+    "paper_version": "v41"
+  },
+  "nine_tables_max_abs_difference": 0.0,
+  "independent_baseline_solves": 16,
+  "independent_baseline_max_abs_difference": 1.554312234475219e-14,
+  "han_gain_max_abs_difference": 2.220446049250313e-14,
+  "pdf_checks": [
+    {
+      "file": "WitnessCell_v41_Main_Methods.pdf",
+      "pages": 25,
+      "offpage": [],
+      "rendered_for_review": [
+        "Main_Methods_page1.png",
+        "Main_Methods_page4.png",
+        "Main_Methods_page7.png"
+      ]
+    },
+    {
+      "file": "WitnessCell_v41_Supplementary_Information.pdf",
+      "pages": 64,
+      "offpage": [],
+      "rendered_for_review": [
+        "Supplementary_Information_page1.png",
+        "Supplementary_Information_page47.png",
+        "Supplementary_Information_page53.png"
+      ]
+    }
+  ],
+  "visual_review": [
+    "Main page 4: benchmark and functional transition",
+    "Main page 7: RNA and Discussion transition",
+    "SI page 47: diagnostics and S42",
+    "SI page 53: analysis identity and S51"
+  ]
+}

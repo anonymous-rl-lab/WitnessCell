@@ -1,0 +1,4 @@
+fraction,seed_equal_mean_zero_fraction,query_order_pooled_zero_fraction,zero_query_order_rows,total_query_order_rows,seed1_mean_zero_fraction,seed2_mean_zero_fraction,seed3_mean_zero_fraction,caveat
+0.25,0.31707451499118167,0.32044198895027626,174,543,0.4708994708994709,0.24074074074074073,0.23958333333333334,Order/query records describe repeated predictions; not independent sample sizes
+0.5,0.197879923574368,0.2007366482504604,109,543,0.30158730158730157,0.13580246913580246,0.15625,Order/query records describe repeated predictions; not independent sample sizes
+1.0,0.16319444444444445,0.16574585635359115,90,543,0.2222222222222222,0.1111111111111111,0.15625,Order/query records describe repeated predictions; not independent sample sizes

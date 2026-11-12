@@ -1,0 +1,202 @@
+[
+  {
+    "epoch": 1,
+    "loss": 0.632033315395552,
+    "steps": 630,
+    "seconds": 349.6648900190048,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 2,
+    "loss": 0.6301996189450461,
+    "steps": 630,
+    "seconds": 408.9785893100052,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 3,
+    "loss": 0.6297665840103512,
+    "steps": 630,
+    "seconds": 402.5164714929997,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 4,
+    "loss": 0.6273112914391926,
+    "steps": 630,
+    "seconds": 402.0044080860098,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.001
+  },
+  {
+    "epoch": 5,
+    "loss": 0.625691052987462,
+    "steps": 630,
+    "seconds": 411.1112505420024,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 6,
+    "loss": 0.6280969798091858,
+    "steps": 630,
+    "seconds": 423.19899888800865,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 7,
+    "loss": 0.6267415288421843,
+    "steps": 630,
+    "seconds": 430.55164731599507,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 8,
+    "loss": 0.6273559771359913,
+    "steps": 630,
+    "seconds": 418.066025549997,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 9,
+    "loss": 0.6278742899024298,
+    "steps": 630,
+    "seconds": 214.55366814100125,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.0005
+  },
+  {
+    "epoch": 10,
+    "loss": 0.6270598737493394,
+    "steps": 630,
+    "seconds": 413.2568324080057,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 11,
+    "loss": 0.6270019256879413,
+    "steps": 630,
+    "seconds": 406.50283449399285,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 12,
+    "loss": 0.6276952248717111,
+    "steps": 630,
+    "seconds": 399.4236772449949,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 13,
+    "loss": 0.6266640674500238,
+    "steps": 630,
+    "seconds": 393.6168921549979,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 14,
+    "loss": 0.6255919708145989,
+    "steps": 630,
+    "seconds": 390.2310691619932,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.00025
+  },
+  {
+    "epoch": 15,
+    "loss": 0.6269352140407713,
+    "steps": 630,
+    "seconds": 418.355895257002,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 16,
+    "loss": 0.6283421706112604,
+    "steps": 630,
+    "seconds": 405.28174378898984,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 17,
+    "loss": 0.627923467282265,
+    "steps": 630,
+    "seconds": 84.26375162199838,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 18,
+    "loss": 0.6260278720231284,
+    "steps": 630,
+    "seconds": 397.449949019996,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 19,
+    "loss": 0.6255322538197987,
+    "steps": 630,
+    "seconds": 389.9736775049969,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 0.000125
+  },
+  {
+    "epoch": 20,
+    "loss": 0.6287826438744862,
+    "steps": 630,
+    "seconds": 397.50213465500565,
+    "validation_C": null,
+    "validation_RNA": null,
+    "best_epoch": 0,
+    "lr": 6.25e-05
+  }
+]

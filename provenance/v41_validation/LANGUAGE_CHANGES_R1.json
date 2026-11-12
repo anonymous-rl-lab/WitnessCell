@@ -1,0 +1,332 @@
+[
+  {
+    "reason": "Introduction: direct goal-to-question transition",
+    "before": "The immediate goal is to predict the remaining expression or functional responses. However, a reduction in overall prediction error leaves an important question open:",
+    "after": "The goal is to predict the remaining expression or functional responses. A reduction in overall prediction error, however, leaves an important question open:"
+  },
+  {
+    "reason": "Introduction: remove circular explanation",
+    "before": "It gives a concrete way to ask what a model has learned from joint measurements: better estimates of contributions shared across combinations, or better predictions of changes in the partner contrast.",
+    "after": "This contrast tests whether joint measurements improve prediction of partner-dependent changes beyond contributions shared across combinations."
+  },
+  {
+    "reason": "Methods overview: simplify definition",
+    "before": "Such a correction can improve the complete response, meaning the prediction across all readouts before any endpoint removal.",
+    "after": "Such a correction can improve the complete response: the prediction across all readouts before endpoint removal."
+  },
+  {
+    "reason": "Four-corner explanation: let the following derivation establish cancellation",
+    "before": "asks whether exchanging B for D has the same effect in backgrounds A and C. Any contribution depending only on A, B, C or D cancels. Estimating those contributions more accurately can therefore improve complete responses while leaving this contrast unchanged. An endpoint contribution describes",
+    "after": "asks whether exchanging B for D has the same effect in backgrounds A and C. An endpoint contribution describes"
+  },
+  {
+    "reason": "Four-corner explanation: reduce abstract wording",
+    "before": "The contrast defines a response quantity that can be predicted and checked directly from the four combinations.",
+    "after": "The four measurements therefore test the partner contrast directly."
+  },
+  {
+    "reason": "Projection: keep query geometry distinct from training measurements",
+    "before": "A tree of measured pairs can be explained entirely by freely fitted endpoint contributions; closing suitable cycles creates response differences that those contributions cannot absorb.",
+    "after": "A query-pair graph that is a tree can be explained entirely by freely fitted endpoint contributions; closing suitable cycles creates contrasts that those contributions cannot absorb."
+  },
+  {
+    "reason": "Projection: remove repeated interpretation caveat; keep link to reference tests",
+    "before": "This is an exact separation of response components on the chosen graph. Distinguishing a shared nonlinear response from further gene-associated structure requires an additional comparison with a specified global reference.",
+    "after": "Global nonlinear responses that survive this separation are examined with the matched references below."
+  },
+  {
+    "reason": "Control motivation: focus sentence sequence on one mismatch",
+    "before": "Being able to change a contrast is only the first requirement for improving it. The correction must point toward the baseline's remaining error and have an appropriate magnitude. Moreover, a correction can improve endpoint contributions while harming partner contrasts. Selecting its strength by complete-response error can favor the former improvement despite the latter damage. This motivates controlling the two parts separately, rather than assigning them one common strength.",
+    "after": "To improve a partner contrast, the correction must align with the baseline's remaining error and have an appropriate magnitude. A single strength selected by complete-response error can favor a useful endpoint change despite an adverse partner change. Controlling the two parts separately addresses this mismatch."
+  },
+  {
+    "reason": "Control property: name SSE and avoid repeating preservation",
+    "before": "Internal held-combination predictions determine $\\alpha$ between zero and one (Fig. 1e). The endpoint contribution is unchanged. Under the same squared-error measure, any reduction in partner error relative to the original predictor produces an equal reduction in complete-error sum of squares. The property provides an operational advantage: a change directed at partner error cannot erase the retained endpoint contribution. Internal measurements choose the strength, and held-out outcomes test the resulting accuracy.",
+    "after": "Predictions for internally held-out combinations determine $\\alpha$ between zero and one (Fig. 1e). The operation preserves the endpoint contribution exactly. Under the same unweighted squared-error measure, a decrease in partner sum of squared errors (SSE) relative to the original predictor produces an equal decrease in complete-response SSE. Internal measurements choose the strength; outer held-out outcomes test whether that choice improves prediction."
+  },
+  {
+    "reason": "Software-facing term expose replaced with provides",
+    "before": "These implementations expose a baseline, an added correction and their permitted fitting information; they retain their own parameters and training objectives.",
+    "after": "Each implementation provides a baseline and an added correction, with its own parameters, training objective and permitted fitting data."
+  },
+  {
+    "reason": "Causal description: natural terminology",
+    "before": "a source, intervened mediators and a downstream response",
+    "after": "a source, perturbed mediators and a downstream response"
+  },
+  {
+    "reason": "Benchmark: replace repeated negative summary with interpretation",
+    "before": "The aggregate lead thus coexists with settings in which other methods predict particular response properties more accurately.",
+    "after": "Together, aggregate ranks and original-scale errors describe complementary aspects of prediction."
+  },
+  {
+    "reason": "Benchmark: move provenance detail to its Methods location",
+    "before": "Methods and Table S31 describe the historical scoring differences between official reference entries and the sensitivity to their inclusion.",
+    "after": "Methods and Table S31 define the official reference entries and report sensitivity to their inclusion."
+  },
+  {
+    "reason": "Functional opening: affirmative literature-to-question transition",
+    "before": "Fitness prediction has precedents, including GEARS;[8] the question here is whether explicit partner learning improves a functional predictor that already uses combination measurements.",
+    "after": "Building on earlier fitness prediction work, including GEARS,[8] we test whether partner learning improves a functional predictor that already uses combination measurements."
+  },
+  {
+    "reason": "Support comparison: do not imply separately estimated causal contributions",
+    "before": "The controlled comparison establishes a benefit of expanded experimental support for this learner. Condition count, endpoint coverage and layout changed together; their respective contributions and the original analysis stages are specified in Supplementary Notes 7 and 11.",
+    "after": "The comparison shows a benefit of expanding experimental support for this learner. Condition count, endpoint coverage and layout changed together; Supplementary Notes 7 and 11 describe the designs and analysis stages."
+  },
+  {
+    "reason": "Remove Jurkat example from K562-loadings paragraph",
+    "before": " A four-combination Jurkat example illustrates the predicted partner contrast (Supplementary Fig. S7e,f).",
+    "after": ""
+  },
+  {
+    "reason": "Place Jurkat illustration beside the Jurkat result",
+    "before": "This tests transfer of the fitting procedure between cellular environments within one study and supports completion of an already substantially measured screen.",
+    "after": "This tests transfer of the fitting procedure between cellular environments within one study and supports completion of an already substantially measured screen. A four-combination Jurkat example illustrates the predicted partner contrast (Supplementary Fig. S7e,f)."
+  },
+  {
+    "reason": "K562 loadings: state the object directly",
+    "before": "Actual fitted loadings made the K562 structure more concrete.",
+    "after": "The fitted rank-one loadings linked the K562 correction to individual genes."
+  },
+  {
+    "reason": "Han attribution: explain the calculation without revisiting a rejected inference",
+    "before": "The analysis evaluates the prediction vector rather than inferring its contribution from one leading mode's correlation.",
+    "after": "This decomposition assigns the gain of the entire correction to those two orthogonal components."
+  },
+  {
+    "reason": "Control result: concise coverage pointer; all outcomes still reported",
+    "before": "The complete historical comparison, including zero-selected and adverse configurations, is reported in Supplementary Notes 18–19.",
+    "after": "Supplementary Notes 18–19 report the complete comparison across all eligible configurations."
+  },
+  {
+    "reason": "Han control: identify the operation producing the gain",
+    "before": "Internal held-combination measurements increased the native rank-one model's partner gain",
+    "after": "Using the internally estimated strength increased the native rank-one model's partner gain"
+  },
+  {
+    "reason": "Diagnostics: replace abstract nouns with the actual calculation",
+    "before": "Repeatable measurements therefore provide a resource whose use also depends on the fitting procedure and pair layout. Outcome-informed scalar optima on the held-out Shen panels admitted little extra partner gain along the existing directions. The diagnostic bounds adjustment of those particular directions; it does not bound what another learned direction could achieve.",
+    "after": "The value of repeatable measurements also depends on the fitting procedure and pair layout. Even the best scalar chosen using held-out Shen responses offered little additional partner gain along the existing directions. This retrospective bound concerns adjustment of a fixed direction, while learning a different direction remains a separate task."
+  },
+  {
+    "reason": "Bridge functional control to RNA adjustment",
+    "before": "Shen and native Han then show how response separation guides the use of an existing correction. The fixed-procedure reanalyses and their development status are specified in Methods and Table S30.",
+    "after": "Shen and native Han show how response separation guides the use of an existing correction, motivating the transcript-specific adjustment examined next. Methods and Table S30 specify the evaluation status of these reanalyses."
+  },
+  {
+    "reason": "RNA: state the supported positive comparison",
+    "before": "Thus, a single shrinkage factor did not account for the full improvement.",
+    "after": "Transcript-specific weighting therefore added value beyond a common shrinkage factor."
+  },
+  {
+    "reason": "RNA source checks: clarify which result belongs to which dataset",
+    "before": "Evaluations using fixed procedures in Dixit and Combi-seq retained useful complete-response prediction in the Dixit baseline but did not establish the same added partner benefit.[21,22]",
+    "after": "Fixed-procedure evaluations in Dixit and Combi-seq did not establish the same added partner benefit, although the Dixit baseline provided useful complete-response prediction.[21,22]"
+  },
+  {
+    "reason": "Discussion: use observed behavior rather than success/failure language",
+    "before": "The functional measurements differed substantially in endpoint-eliminated repeat agreement, yet high agreement alone did not make a low-support K562 fit successful.",
+    "after": "The functional measurements differed substantially in endpoint-eliminated repeat agreement; high agreement coexisted with negligible gains in low-support K562."
+  },
+  {
+    "reason": "Discussion: replace evaluative adjective with the property itself",
+    "before": "The exact preservation property makes the operation interpretable.",
+    "after": "Its endpoint contribution stays fixed while the partner amplitude changes."
+  },
+  {
+    "reason": "Discussion: remove repetition and rhetorical contrast",
+    "before": "It protects an existing contribution from indiscriminate attenuation without requiring a new biological predictor.",
+    "after": "This control uses the fitted predictor and its internal validation outputs."
+  },
+  {
+    "reason": "Discussion: clarify link to related methods",
+    "before": "WitnessCell adds a construction that uses these questions to guide prediction:",
+    "after": "WitnessCell connects these lines of work to predictor design:"
+  },
+  {
+    "reason": "Terminology: internal held-out combinations",
+    "before": "internal held combinations",
+    "after": "internally held-out combinations"
+  },
+  {
+    "reason": "Study design: direct description covers the actual work",
+    "before": "The study reanalysed public perturbation measurements and used a specified synthetic causal system. No new biological samples were collected.",
+    "after": "The study combines reanalysis of public perturbation measurements with a specified synthetic causal system."
+  },
+  {
+    "reason": "Study design: centralize provenance and dependence statements without changing status",
+    "before": "Development panels, procedure-transfer evaluations and source-transfer comparisons retain their original status. Repeated optimization seeds, overlapping folds, shared-source datasets and algebraic contrast dimensions are not counted as independent biological replications. The experiment records include unsuccessful registered analyses, subsequent development and locally frozen predictions. Supplementary Table S30 distinguishes development exposure, frozen procedures or predictions, and within-study versus between-study evaluation. Local separation of training and scoring is not independent third-party blinding.",
+    "after": "Supplementary Table S30 records development exposure, procedure and prediction freezes, and source relationships for each evaluation; Supplementary Note 11 reports original outcomes and subsequent amendments. Training and scoring were separated locally. Dependence among seeds, folds, shared-source datasets and algebraic contrasts is handled as specified under statistical reporting below."
+  },
+  {
+    "reason": "Methods: repair subject-verb agreement",
+    "before": "Fewer than six usable endpoints retains the preceding head.",
+    "after": "With fewer than six usable endpoints, the preceding head is retained."
+  },
+  {
+    "reason": "Baseline Methods: remove unexplained process sentence",
+    "before": "This self-contained weighted analysis uses that reference once. It is separate from the official `linearModel` scoring row.",
+    "after": "This weighted analysis is separate from the official `linearModel` scoring row."
+  },
+  {
+    "reason": "Baseline Methods: simplify technical provenance wording",
+    "before": "The released branch-level correspondence does not demonstrate identical historical score inputs:",
+    "after": "Implementation correspondence alone does not identify the historical scoring inputs:"
+  },
+  {
+    "reason": "Example Methods: remove prior-display language",
+    "before": "The four-corner illustration fixes the previously shown TTI2 background and PGK1/OGFOD1 partners.",
+    "after": "The four-corner illustration fixes TTI2 as one background and PGK1/OGFOD1 as the exchanged partners."
+  },
+  {
+    "reason": "Example Methods: factual status instead of repeated rebuttal",
+    "before": "This descriptive selection rule does not make the inherited anchor choices prospective or the overlapping rectangles independent. Full-source outcomes, including adverse pairs, remain available.",
+    "after": "The original anchor choices are retrospective, and eligible rectangles overlap. The source table supplies all eligible examples."
+  },
+  {
+    "reason": "Matched reference Methods: remove revision-relative framing",
+    "before": "All seven prediction files and selections were saved before the new scoring pass. This is a new baseline-sensitivity analysis on previously examined data, not a replacement for the original procedure evaluation.",
+    "after": "All seven prediction files and selections were saved before scoring. This retrospective baseline sensitivity uses previously examined data; the original procedure evaluation is reported separately."
+  },
+  {
+    "reason": "Reference Methods: explain non-nesting in direct language",
+    "before": "All four selected outputs were saved before scoring. Because this reference replaces rather than nests the original functional baseline,",
+    "after": "All four selected outputs were saved before scoring. The saturation reference and original functional baseline are alternative models, so"
+  },
+  {
+    "reason": "Shen Methods: retain original identity without editorial rebuttal",
+    "before": "The source archive supplies count identities, qualification rules, predictions and the original adverse partner outcomes. Subsequent calibration does not relabel that evaluation as a positive external confirmation.",
+    "after": "The source archive supplies count identities, qualification rules, predictions and the original partner outcomes. Component calibration is a separate retrospective analysis (Supplementary Notes 18–19)."
+  },
+  {
+    "reason": "Han Methods: describe the fixed rule",
+    "before": "The saturation setting is inherited from the existing comparison, not chosen to maximize the new partner gain.",
+    "after": "The saturation grid is fixed across these baseline-sensitivity analyses."
+  },
+  {
+    "reason": "Han Methods: accurate affirmative evaluation status",
+    "before": "This is a fixed-procedure reanalysis of an independent study, not external preregistration or a previously untouched target source.",
+    "after": "This is a locally locked, fixed-procedure reanalysis of an independent study after prior data access."
+  },
+  {
+    "reason": "Statistical Methods: move isolated introductory sentence to its statistics paragraph",
+    "before": "Bootstrap resampling follows the empirical-distribution principle,[42] with the dependence units and conditional interpretations specified for each analysis below.\n\n",
+    "after": ""
+  },
+  {
+    "reason": "Statistical Methods: restore citation in the relevant sentence group",
+    "before": "Effect estimates retain the original unit, comparator, readout mask and aggregation. Pair-bootstrap intervals cluster",
+    "after": "Effect estimates retain the original unit, comparator, readout mask and aggregation. Bootstrap resampling follows the empirical-distribution principle,[42] using the dependence units specified here. Pair-bootstrap intervals cluster"
+  },
+  {
+    "reason": "Reproducibility: separate scope from dataset-specific execution",
+    "before": "Original-prediction replay, model-weight replay and full retraining are separate operations. The GSE220974 increment preserves",
+    "after": "Original-prediction replay, model-weight replay and full retraining are separate operations.\n\nThe GSE220974 module contains"
+  },
+  {
+    "reason": "Reproducibility: separate Han route; concise hardware statement",
+    "before": "Cross-hardware stochastic training trajectories are not asserted to be bitwise identical. Han native replay reconstructs",
+    "after": "Stochastic training can vary across hardware.\n\nHan native replay reconstructs"
+  },
+  {
+    "reason": "Reproducibility: concrete documentation terms",
+    "before": "Numerical environments, accepted tolerances and the resolved pre-scoring cache issue are documented in the experiment package.",
+    "after": "The experiment package documents numerical environments, accepted tolerances and the cache correction completed before scoring."
+  },
+  {
+    "reason": "SI opening: scientific description rather than preservation notice",
+    "before": "Original prediction results and analysis identities are retained.",
+    "after": "The notes specify each prediction result and its analysis identity."
+  },
+  {
+    "reason": "S9: identify ratios rather than models as equal to one",
+    "before": "The six available Norman/Wessels additive references equal one. The complete component table and additional scoring variants remain in the compact archive;",
+    "after": "The six available Norman/Wessels additive-reference ratios equal one. The compact archive contains the complete component table and additional scoring variants;"
+  },
+  {
+    "reason": "SI: repair subject-verb agreement",
+    "before": "Fewer than six usable endpoints retains the preceding head.",
+    "after": "With fewer than six usable endpoints, the preceding head is retained."
+  },
+  {
+    "reason": "S10: state complete reporting without defensive counterfactual",
+    "before": "Table S10 includes the complete-response instability of two Scouter seeds rather than replacing them by the best seed. Primary neural values are the means of seed-specific losses, with seed-level values retained.",
+    "after": "Table S10 reports all Scouter seeds, including two with unstable complete-response error. Primary neural values average seed-specific losses; individual values are also shown."
+  },
+  {
+    "reason": "SI: distinguish fixed diagnostic set from editorial retention",
+    "before": "The retained ten-readout set is",
+    "after": "The fixed ten-readout set is"
+  },
+  {
+    "reason": "SI four-corner example: direct status",
+    "before": "The previously selected anchor/partner example remains descriptive.",
+    "after": "The anchor and exchanged partners were chosen retrospectively."
+  },
+  {
+    "reason": "SI four-corner example: name the operation",
+    "before": "before the new contrast calculation.",
+    "after": "before calculating the four-corner contrast."
+  },
+  {
+    "reason": "Note24: remove revision-relative adjective",
+    "before": "The new analyses separate (i) complete versus endpoint-eliminated prediction;",
+    "after": "These analyses separate (i) complete versus endpoint-eliminated prediction;"
+  },
+  {
+    "reason": "Note24: focus on comparison definition",
+    "before": "All original Horlbeck and Han results retain their reported baselines and evaluation status.",
+    "after": "Each Horlbeck and Han result is evaluated against its stated baseline."
+  },
+  {
+    "reason": "Note24: remove backend term and duplicate disclaimer",
+    "before": "All seven selections and outer predictions were persisted before the scoring pass. The analysis was motivated by already known results and is therefore retrospective baseline sensitivity. It adds no new source or untouched confirmation.",
+    "after": "All seven selections and outer predictions were saved before scoring. This retrospective baseline sensitivity was motivated by previously examined results."
+  },
+  {
+    "reason": "S54D: replace rebuttal with what the comparison shows",
+    "before": "The expanded baseline alone improves prediction; a smaller incremental percentage does not indicate that its total predictive benefit has disappeared.",
+    "after": "The common denominator shows the total improvement of the expanded baseline and each final predictor."
+  },
+  {
+    "reason": "Note22: remove editorial emphasis language while keeping primary identity",
+    "before": "Current manuscript emphasis changes neither their outcomes nor their original designation.",
+    "after": "Table S51 specifies their original analysis roles and outcomes."
+  },
+  {
+    "reason": "Note22: retain access history and original primary without adversarial phrasing",
+    "before": "Han had been inspected before this new protocol was fixed; subsequent parameter fitting and prediction locks do not erase that access history. The prior analyses are not relabelled as an unreported pilot, and related readouts are not counted as independent confirmations.",
+    "after": "Han data had been inspected before the native-fit protocol was fixed. This is therefore a reanalysis with local prediction locking; the related readouts belong to one study, and Table S51 reports the original primary transfer analysis separately."
+  },
+  {
+    "reason": "Fig4 caption: avoid repeated table number",
+    "before": "Table S54 includes all configurations and absolute losses.",
+    "after": "The table includes all configurations and absolute losses."
+  },
+  {
+    "reason": "Fig4 caption: remove unnecessary archive label",
+    "before": "**d,** Archived K562 fold-0 fitted rank-one loadings",
+    "after": "**d,** K562 fold-0 fitted rank-one loadings"
+  },
+  {
+    "reason": "Fig5 caption: direct units without a repeated warning",
+    "before": "The evaluation averages eleven potentially overlapping rectangles. The 212 contrast dimensions in the separate core analysis do not describe this panel's sample size.",
+    "after": "The evaluation unit is one of eleven potentially overlapping rectangles; the separate core analysis contains 212 algebraic contrast dimensions."
+  },
+  {
+    "reason": "S7 caption: describe the example rather than its history",
+    "before": "**e,f,** The original Jurkat four-corner example:",
+    "after": "**e,f,** A Jurkat four-corner example:"
+  },
+  {
+    "reason": "S7 caption: explain the example scope through a positive link",
+    "before": "The descriptive selection rule and all eligible examples remain in Table S35; this illustration does not identify the biological source of the contrast.",
+    "after": "Table S35 gives the retrospective selection rule and all eligible examples. The illustration compares predicted and measured contrasts; their biological source is examined through the separate global-reference analyses."
+  },
+  {
+    "reason": "Han attribution: remove redundant explanatory sentence after checking paragraph as a whole",
+    "before": " This decomposition assigns the gain of the entire correction to those two orthogonal components.",
+    "after": ""
+  }
+]

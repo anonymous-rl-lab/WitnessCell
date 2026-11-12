@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "release": "27.0.0",
+  "paper": "22",
+  "tasks": [
+    {
+      "task": "sf12",
+      "scope": "60 SF12 coefficients re-solved; five qualified tasks and rejected case_R reproduced",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-B",
+        "/workspace/scratch/5be28da18ca4/final_archive_build/grn_repo_v27/experiments/30_h1_sf12_qualified/run.py",
+        "--out",
+        "/workspace/scratch/5be28da18ca4/v27_legacy_sf12/sf12"
+      ],
+      "log": "sf12.log",
+      "timeout_seconds": 300.0,
+      "returncode": 0,
+      "status": "PASS",
+      "seconds": 0.2660797449934762
+    }
+  ],
+  "passed": 1
+}

@@ -1,0 +1,20 @@
+{
+  "ready_shape": [
+    56,
+    23529
+  ],
+  "raw_shape": [
+    57,
+    23529
+  ],
+  "mean_dtype": "float64",
+  "unique_gene_ids": 23529,
+  "non_target": 23519,
+  "unique_eligible_cells": 44068,
+  "pair_cells": 6591,
+  "min_pair_half_n": 30,
+  "raw_half_reconstruction_max_abs_error": 1.7763568394002505e-15,
+  "double_input_unchanged": true,
+  "full_single_rebase_verified": true,
+  "no_prediction_fit_or_score": true
+}

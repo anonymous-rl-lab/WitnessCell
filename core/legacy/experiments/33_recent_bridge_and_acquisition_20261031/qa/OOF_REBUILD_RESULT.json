@@ -1,0 +1,339 @@
+{
+  "status": "PASS",
+  "mode": "exact factor reconstruction + original spectral warm-start refit",
+  "root": "/workspace/scratch/55b8063c9ed0/bridge_experiment_20261031",
+  "restored_cache_root": "/workspace/scratch/55b8063c9ed0/pack_audit_work/inner_rebuild/all_oof_cache",
+  "arms": 45,
+  "npz_files_sha256_exact": 2160,
+  "original_array_comparisons": 2160,
+  "oof_npz_sha256_exact": 720,
+  "oof_original_arrays_exact": 3600,
+  "predictions_only_from_restored_G": true,
+  "max_array_difference": 0.0,
+  "evaluation_labels_read": false,
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "seconds": 10.326037457001803,
+  "per_arm": [
+    {
+      "task": "fold_0_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20106709399988176
+    },
+    {
+      "task": "fold_0_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19887423500040313
+    },
+    {
+      "task": "fold_0_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22788514899730217
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20178435800335137
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21463664600014454
+    },
+    {
+      "task": "fold_0_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2236072369996691
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21721229900140315
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21008041300228797
+    },
+    {
+      "task": "fold_0_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.23450245999993058
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19369469599769218
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20134528200287605
+    },
+    {
+      "task": "fold_0_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.1992200859967852
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.23710992900305428
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22217024500423577
+    },
+    {
+      "task": "fold_0_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21216710600128863
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2193105350015685
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.306450367999787
+    },
+    {
+      "task": "fold_1_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2521365069987951
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.25060103799478384
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22408842399454443
+    },
+    {
+      "task": "fold_1_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2072461639982066
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19876980299886782
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.3685683069998049
+    },
+    {
+      "task": "fold_1_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22773473200504668
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20510213899979135
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2009328310014098
+    },
+    {
+      "task": "fold_1_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22351698999409564
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2867387480000616
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.23576094300369732
+    },
+    {
+      "task": "fold_1_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.26920292200520635
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21474339500127826
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2165049059985904
+    },
+    {
+      "task": "fold_2_seed_0",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.23460589600290405
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.22374819799733814
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19744337599695427
+    },
+    {
+      "task": "fold_2_seed_1",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19735118999960832
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.24831993000407238
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.21162673400249332
+    },
+    {
+      "task": "fold_2_seed_2",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20016271700296784
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2240996299951803
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2152448880005977
+    },
+    {
+      "task": "fold_2_seed_3",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2384654639972723
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "high_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.2074684699982754
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "low_local_support",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.19868154499999946
+    },
+    {
+      "task": "fold_2_seed_4",
+      "arm": "random_degree_switch_chain",
+      "npz_sha256_exact": 48,
+      "oof_npz_sha256_exact": 16,
+      "seconds": 0.20704528199712513
+    }
+  ],
+  "original_library_archive_byte_comparisons": 720,
+  "omittable_oof_npz_files": 675,
+  "omittable_oof_bytes": 14527166,
+  "omittable_oof_zip_bytes": 14392295
+}

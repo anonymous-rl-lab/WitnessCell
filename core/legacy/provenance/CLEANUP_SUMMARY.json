@@ -1,0 +1,22 @@
+{
+  "parent_archive": "grn_repo_v24.zip",
+  "parent_bytes": 495069754,
+  "parent_sha256": "dae2d0f616bdbd025a0452c63e317848d504cf5832c2fd12f0e471f0c9895330",
+  "historical_store_compressed_bytes_removed": 447708099,
+  "protected_experiments": "25\u201332",
+  "protected_file_count": 461,
+  "source_actions": {
+    "superseded_root_or_unused_asset": 33,
+    "out_of_current_paper_scope": 699,
+    "replaced_by_compact_core": 372,
+    "preserved_exact": 480,
+    "replaced_by_compact_risk": 949,
+    "removed_redundant_version_or_historical_tooling": 206,
+    "removed_history_object_store": 1863
+  },
+  "precision": "No quantization. Original per-condition/per-query rows and sufficient statistics preserve specified scoring, selection and interval calculations. They are not invertible replacements for every original expression matrix.",
+  "unchanged_scientific_results": true,
+  "new_model_tuning": false,
+  "canonical_E25_dependencies": "provenance/E25_DEPENDENCIES.json",
+  "paper_coverage": "docs/PAPER_COVERAGE.csv"
+}

@@ -1,0 +1,44 @@
+Dixit fixed-reference partner program probe, 2026-10-20
+
+Status: post-observation retrospective development. Prior G2M program outcomes and
+the query-batch limitation are known. This file is frozen before this stage's new
+prediction scoring. No original source or output is modified.
+
+Task: same 45 Dixit double perturbations, 10 measured-single endpoint genes,
+3 original outer folds, 52 uniquely mapped genes from predefined G2M program.
+Normalization uses control, measured singles, current fitted combinations only.
+Baseline is the same independently fitted scalar saturation of measured additive.
+Kernel is the original full-RNA measured-single symmetric product. Fitting and
+query extension follow the existing training-projected kernel with no gene R.
+
+Primary candidate: GLOBAL45. Generate all unordered distinct pairs from the
+measured-single node list before consulting combination test outcomes. Fit raw
+program kernel using only allowed training labels. For fixed fitted state,
+calculate b_F = pinv(X_F) g(F), where F is this complete identity-only universe.
+Return saturation(q)+g(q)-X_q b_F for any requested q. F and b_F do not change
+with the delivered query batch. No query labels or observed query means used.
+
+Comparisons: raw inductive; previous QUERY_BATCH P_q g(q); GLOBAL45; complement
+reference UNOBSERVED_POOL F=all45 minus current fitted pair identities, a clearly
+labelled contextual pool-bound candidate. At outer fit the complement equals the
+original test pool; at inner fit it also includes unavailable outer-test pairs.
+Its exact equality with QUERY_BATCH on outer queries is not an independent
+removal of contextual dependence and must not be presented as that breakthrough.
+
+Two regimes: (a) matched prior choices lambda 0.1/10/10, mechanistic attribution;
+(b) each candidate independently selected from lambda 0.1/1/10 using cycle3
+training-only inner validation, final program FULL SSE. Ties favor larger lambda.
+No test-driven blend, shrinkage, new program or additional parameter search.
+
+Primary criterion: final FULL program SSE vs identical scalar saturation, with
+fold-specific signs reported. Secondary: projected SSE and endpoint SSE; matched
+postfit endpoint corrections leave query P SSE algebraically invariant and that
+invariance alone is not success. Record all candidates, not only selected winner.
+
+Freeze all final outer predictions before computing new aggregate test metrics.
+Re-run full candidate selection and fit with excluded outer labels replaced by
+extreme random values; freeze stages and record hashes. Verify singleton, chunks,
+permutation, duplicate request and pair-order exchange invariance for fixed fits,
+tolerance 1e-12. QUERY_BATCH is expected to fail singleton equality; record it.
+Initial bounded run maximum ten minutes. Stop and report initial results; any
+new mechanistic follow-up requires an explicit dated addendum before scoring.

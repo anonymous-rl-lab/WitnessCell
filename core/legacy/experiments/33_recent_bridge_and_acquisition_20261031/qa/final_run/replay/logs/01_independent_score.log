@@ -1,0 +1,6 @@
+{
+  "status": "SCORED",
+  "models": 400,
+  "independent_noise_seeds": 100,
+  "output": "/workspace/scratch/55b8063c9ed0/pack_final_fresh_reproduction_v2/recent_bridge/replay/stage03_rescore/calibration/scores"
+}

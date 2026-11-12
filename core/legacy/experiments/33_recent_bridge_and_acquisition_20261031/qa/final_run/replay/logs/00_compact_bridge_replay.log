@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "verification_scope": "retained original hashes + frozen final weights to predictions + scores; no inner-cache refit claim",
+  "growth": {
+    "final_pipelines": 45,
+    "prediction_outputs": 270,
+    "score_rows": 810,
+    "max_prediction_abs_difference": 0.0,
+    "inner_caches_not_replayed": 0,
+    "no_fitting": true
+  },
+  "retrospective_artifacts_compared": [
+    "causal_audit/AUDIT_MANIFEST.json",
+    "causal_audit/CRN_AUDIT_MANIFEST.json",
+    "causal_audit/CRN_noise_free_grouped.csv",
+    "causal_audit/CRN_noise_free_structure_by_case.csv",
+    "causal_audit/INPUT_SHA256.json",
+    "causal_audit/audit_log.json",
+    "causal_audit/case_decomposition.csv",
+    "causal_audit/grouped_decomposition.csv",
+    "causal_audit/summary.json",
+    "causal_audit/truth_gate_diagnostic.csv",
+    "growth_audit/EXACT_INVARIANT.json",
+    "growth_audit/INNER_OBJECTIVE_AUDIT.json",
+    "growth_audit/LAYOUT_AUDIT_ROWS.json",
+    "growth_audit/MATCHED_CONTRASTS.json",
+    "growth_audit/QUERY_GEOMETRY.json",
+    "growth_audit/SUMMARY.json"
+  ]
+}

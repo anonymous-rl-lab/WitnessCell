@@ -1,0 +1,74 @@
+[
+  {
+    "cell": "HeLa",
+    "selected_partner_gain_ci": [
+      -0.051488093087094525,
+      1.0254494748329475
+    ],
+    "improvement_over_original_percentage_points_ci": [
+      0.06375333268716966,
+      3.2261440255863776
+    ],
+    "leave_one_endpoint_gain_range": [
+      0.35623351617752874,
+      0.7245185168293755
+    ],
+    "leave_one_endpoint_positive": 73,
+    "endpoints": 73,
+    "caveat": "descriptive 5000 pair-block resamples of fixed projected errors; shared endpoints, fitting and model search uncertainty not covered; delete-endpoint projections recomputed"
+  },
+  {
+    "cell": "A549",
+    "selected_partner_gain_ci": [
+      -0.22825150024801175,
+      0.4918820740160318
+    ],
+    "improvement_over_original_percentage_points_ci": [
+      -0.889722281517389,
+      1.2416254331696481
+    ],
+    "leave_one_endpoint_gain_range": [
+      -0.033562333072301165,
+      0.2609232298974584
+    ],
+    "leave_one_endpoint_positive": 71,
+    "endpoints": 73,
+    "caveat": "descriptive 5000 pair-block resamples of fixed projected errors; shared endpoints, fitting and model search uncertainty not covered; delete-endpoint projections recomputed"
+  },
+  {
+    "cell": "293T",
+    "selected_partner_gain_ci": [
+      -1.3789071435317837,
+      0.15865361482739793
+    ],
+    "improvement_over_original_percentage_points_ci": [
+      -1.4633872752010977,
+      1.3411341400565349
+    ],
+    "leave_one_endpoint_gain_range": [
+      -0.7491005586000243,
+      -0.403641720800052
+    ],
+    "leave_one_endpoint_positive": 0,
+    "endpoints": 73,
+    "caveat": "descriptive 5000 pair-block resamples of fixed projected errors; shared endpoints, fitting and model search uncertainty not covered; delete-endpoint projections recomputed"
+  },
+  {
+    "cell": "Jurkat",
+    "selected_partner_gain_ci": [
+      3.839643525326714,
+      10.871279521623524
+    ],
+    "improvement_over_original_percentage_points_ci": [
+      -1.4533478909177482,
+      3.712573996692994
+    ],
+    "leave_one_endpoint_gain_range": [
+      5.612521444952656,
+      8.392853192330119
+    ],
+    "leave_one_endpoint_positive": 79,
+    "endpoints": 79,
+    "caveat": "descriptive 5000 pair-block resamples of fixed projected errors; shared endpoints, fitting and model search uncertainty not covered; delete-endpoint projections recomputed"
+  }
+]

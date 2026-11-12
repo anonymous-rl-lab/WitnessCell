@@ -1,0 +1,141 @@
+[
+  {
+    "figure": 1,
+    "stem": "Fig1_Method",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 8.5,
+    "png_dpi": 600,
+    "sources": [
+      "Main Methods and Supplementary Note 17",
+      "partner_control/METHOD_DERIVATION.md"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 2,
+    "stem": "Fig2_Joint_Intervention_Information",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 6.65,
+    "png_dpi": 600,
+    "sources": [
+      "formal_bridge/scores/summary.csv",
+      "formal_bridge/theory/THREE_GATE_DESIGN_ENUMERATION.json"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 3,
+    "stem": "Fig3_Prediction_Benchmark",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 7.4,
+    "png_dpi": 600,
+    "sources": [
+      "revision/BENCHMARK_DECOMPOSITION.csv",
+      "revision/BENCHMARK_PAIRED_INTERVALS.csv",
+      "revision/NATIVE_MSE_VS_SCOUTER.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 4,
+    "stem": "Fig4_Functional_Growth",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 10.8,
+    "png_dpi": 600,
+    "sources": [
+      "evidence/source_data/publication/Horlbeck_figure_metrics.csv",
+      "revision/JURKAT_FOUR_CORNERS_V28.csv",
+      "revision/JURKAT_FOUR_CORNER_CONTRASTS_V28.csv",
+      "partner_control/results/FOUR_ARM_BY_CONDITION.csv",
+      "revision/han_calibration/POOLED_SCORES.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 5,
+    "stem": "Fig5_RNA_Partner_Response",
+    "directory": "figures",
+    "width_inches": 7.15,
+    "height_inches": 8.0,
+    "png_dpi": 600,
+    "sources": [
+      "Step2_Fig5_Matched55.csv",
+      "Step2_Fig5_SeedMetrics.csv",
+      "RNA_signed_rectangle_predictions.npz",
+      "revision/RNA_ERROR_BUDGET.csv",
+      "RNA_controls.json"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 6,
+    "stem": "SuppFig1_Research_Applications",
+    "directory": "supplementary_figures",
+    "width_inches": 7.15,
+    "height_inches": 8.1,
+    "png_dpi": 600,
+    "sources": [
+      "SI Table S16 (risk, displayed precision)",
+      "revision/PAIRPICK_ALL_28_TASKS.csv",
+      "gse220974/PAIRED_COMPARISONS.csv",
+      "revision/GSE220974_IDENTITY_AUDIT.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 7,
+    "stem": "SuppFig2_All_Comparator_Intervals",
+    "directory": "supplementary_figures",
+    "width_inches": 7.15,
+    "height_inches": 6.4,
+    "png_dpi": 600,
+    "sources": [
+      "revision/DOUBLE_ONLY_ALL_COMPARATOR_INTERVALS.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 8,
+    "stem": "SuppFig3_Combination_Support",
+    "directory": "supplementary_figures",
+    "width_inches": 7.15,
+    "height_inches": 4.1,
+    "png_dpi": 600,
+    "sources": [
+      "Fig3_ED4_witness_gains.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 9,
+    "stem": "SuppFig4_Component_Control",
+    "directory": "supplementary_figures",
+    "width_inches": 7.15,
+    "height_inches": 8.8,
+    "png_dpi": 600,
+    "sources": [
+      "partner_control/results/FOUR_ARM_SCORES.csv",
+      "partner_control/results/REPEAT_DECISIONS.csv",
+      "partner_control/results/QUERY_PANEL_BY_CONDITION.csv"
+    ],
+    "text_outside_page": []
+  },
+  {
+    "figure": 10,
+    "stem": "SuppFig5_Han_Target_Calibration",
+    "directory": "supplementary_figures",
+    "width_inches": 7.15,
+    "height_inches": 8.3,
+    "png_dpi": 600,
+    "sources": [
+      "revision/han_calibration/POOLED_SCORES.csv",
+      "revision/han_calibration/SEED_SCORES.csv",
+      "reproduction/WitnessCell_Han2017_Frozen_Reassessment_v3.zip"
+    ],
+    "text_outside_page": []
+  }
+]

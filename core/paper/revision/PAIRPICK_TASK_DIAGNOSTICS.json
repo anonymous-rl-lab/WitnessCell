@@ -1,0 +1,13 @@
+{
+  "tasks": 28,
+  "candidate_counts": {
+    "2": 19,
+    "3": 4,
+    "6": 1,
+    "4": 2,
+    "5": 2
+  },
+  "uniform_random_unique_best_expected_hits": 11.9,
+  "random_scope": "Analytical descriptive expectation under uniform choice and one designated best per task; no significance test or independence claim",
+  "RG_unlisted_chosen_tasks": 18
+}

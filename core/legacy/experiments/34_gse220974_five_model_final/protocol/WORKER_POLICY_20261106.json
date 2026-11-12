@@ -1,0 +1,12 @@
+{
+  "threads": {
+    "gears": 2,
+    "scouter": 4
+  },
+  "max_workers": 2,
+  "max_retries": 3,
+  "minimum_available_kb": 1800000,
+  "lane_policy": "one_per_architecture_then_share",
+  "training_budget_unchanged": true,
+  "created_unix": 1793979271.9955704
+}

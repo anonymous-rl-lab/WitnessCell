@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-07T23:38:53.864960+00:00",
+  "stage": "formal",
+  "protocol_sha256": "19b553f46431c68c4c57ea3580a71ce92ec7c3a57345355ac9bd78211218fb56",
+  "prepared_receipt_sha256": "707de8dae19d87df85370f536a4251882ae5a06287e2b7a41593c721b20a92f5",
+  "source_declared": "Shen2017 CV4 raw counts recovered from the official author repository history",
+  "all_predictions_complete": true,
+  "query_outcomes_read": false,
+  "models": {
+    "HeLa": {
+      "input_sha256": "5f2e581b8c85dbbe2ebbe91d18272377529927e600bc01b865cd1031a9fa5c8d",
+      "predictions_sha256": "275899b2ad90a0e01a76ff658e7dc0728c94852e97270da0a4c69a4bacb0ddef",
+      "metadata_sha256": "cb2c31c8b47280cd403be0dd460b350dc30ce61308f72008cfe2cd84cc994bde",
+      "prediction_file": "HeLa/results/high/predictions.npz",
+      "query_outcomes_read": false,
+      "selections": {
+        "rank1": {
+          "selected": "rank1_t0.3_n0.1",
+          "best_regularized": "rank1_t0.3_n0.1",
+          "inner_gain_each": [
+            0.023562482755610348,
+            0.044322621797156514
+          ],
+          "inner_gain_pooled": 0.03449695075651005,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        },
+        "spectral": {
+          "selected": "spectral_t0.3_n0.1",
+          "best_regularized": "spectral_t0.3_n0.1",
+          "inner_gain_each": [
+            0.032612575588761405,
+            0.0409549099389106
+          ],
+          "inner_gain_pooled": 0.03700652438756091,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        }
+      }
+    },
+    "A549": {
+      "input_sha256": "9fcd5cecb2d889d0328690d20fc5c0e414ccf4dfa2d5d03013a00304bd6e4256",
+      "predictions_sha256": "74b8398343e45c27f72ad3a1cbe2f2789a6b2c5a8ff2dce903c4d94cf36fe92e",
+      "metadata_sha256": "b7d488873acd21a5ac26b48604ca7d594ef988395a01e04cc80a5f542695083b",
+      "prediction_file": "A549/results/high/predictions.npz",
+      "query_outcomes_read": false,
+      "selections": {
+        "rank1": {
+          "selected": "rank1_t0.01_n1",
+          "best_regularized": "rank1_t0.01_n1",
+          "inner_gain_each": [
+            0.02532151521419701,
+            0.0167855271311782
+          ],
+          "inner_gain_pooled": 0.02106097653588601,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        },
+        "spectral": {
+          "selected": "spectral_t0.3_n1",
+          "best_regularized": "spectral_t0.3_n1",
+          "inner_gain_each": [
+            0.013094044030747765,
+            0.01091771382775475
+          ],
+          "inner_gain_pooled": 0.012007779744007019,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        }
+      }
+    },
+    "293T": {
+      "input_sha256": "406d3262fd454ecce43ff99d9eada9e26c95ac847a15c3b4f141565b8e44c26b",
+      "predictions_sha256": "9cac1a30e9c5a65b460dcb6c4f2c1a49dfd9b14ea5a8a55a14ebb83cdb833317",
+      "metadata_sha256": "4da0b825ebe29dfe368a6f15275465ef3789e7e2c5968bdc42554bc975f07981",
+      "prediction_file": "293T/results/high/predictions.npz",
+      "query_outcomes_read": false,
+      "selections": {
+        "rank1": {
+          "selected": "rank1_t0.3_n0.1",
+          "best_regularized": "rank1_t0.3_n0.1",
+          "inner_gain_each": [
+            0.03749244504805793,
+            0.04333280028829112
+          ],
+          "inner_gain_pooled": 0.040479509162682725,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        },
+        "spectral": {
+          "selected": "spectral_t0.3_n0.1",
+          "best_regularized": "spectral_t0.3_n0.1",
+          "inner_gain_each": [
+            0.03985128991730846,
+            0.04613836295271945
+          ],
+          "inner_gain_pooled": 0.04306682895177172,
+          "regularized_result_role": "chosen predictor",
+          "final_converged": true
+        }
+      }
+    }
+  },
+  "evaluation_performed": false
+}

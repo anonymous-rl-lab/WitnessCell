@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "manual_review": [
+    "Main manuscript contact sheets, all22 pages",
+    "SI contact sheets, all49 pages",
+    "High-resolution SI theory page43 and final reference page49",
+    "Updated Fig1, Fig4 and new Supplementary Fig4 previews"
+  ],
+  "findings": "No observed clipping or overlapping labels. Unsupported Unicode superscript minus/zero replaced by TeX math; final rendering logs have no missing-character warnings. SI reference list sorted to main numbering and fits final page.",
+  "scope": "Visual layout check, separate from numerical validation"
+}

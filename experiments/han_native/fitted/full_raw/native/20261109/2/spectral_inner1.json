@@ -1,0 +1,15 @@
+{
+  "converged": true,
+  "timed_out": false,
+  "iterations": 26,
+  "stationarity": 3.894105004969635e-09,
+  "stationarity_relative": 8.786602077791845e-07,
+  "objective_gap_bound": 1.6244113520903053e-12,
+  "seconds": 0.18230049799967674,
+  "restarts": 3,
+  "numerical_rank": 15,
+  "objective": 0.07098375247548804,
+  "data_loss": 0.045129428958354104,
+  "penalty_nuclear": 0.02484032318196259,
+  "penalty_frobenius": 0.0010140003351713377
+}

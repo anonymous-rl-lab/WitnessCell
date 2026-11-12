@@ -1,0 +1,42 @@
+{
+  "status": "PASS_PREREGISTRATION_PACKAGE_AUDIT",
+  "protocol_version": "2.0.0",
+  "scope": "pure computational confirmatory replication",
+  "wet_lab_component": false,
+  "source_archive_sha256": "955d446a0cfe65a6f4f191d74c7a7d16a6083488b9beb40a5e155ab94d528bd7",
+  "json_validation": true,
+  "shell_syntax_validation": true,
+  "python_syntax_validation": true,
+  "exact_environment_rebuilt_from_scratch": true,
+  "full_entrypoint_end_to_end_execution": "PASS",
+  "source_internal_manifest": "PASS",
+  "source_regression_checks": {
+    "gate19": "PASS",
+    "gate18": "PASS",
+    "repository": "PASS"
+  },
+  "audit_tool_validation": {
+    "input": "previously returned AutoDL result archive; development validation only",
+    "C1": "PASS",
+    "C2": "PASS",
+    "C3": "PASS",
+    "C4": "PASS",
+    "C5_inherited_gate18_integrity": "PASS",
+    "arrays_compared": 156,
+    "global_max_abs_delta": 0.0
+  },
+  "fail_closed_negative_controls": {
+    "wrong_source_sha256": "PASS_EXPECTED_REJECTION_EXIT_4",
+    "single_value_prediction_tamper": "PASS_EXPECTED_REJECTION"
+  },
+  "result_packaging_test": {
+    "status": "PASS",
+    "approximate_archive_size_mib": 38,
+    "deployment_archives": 12,
+    "manifests": 12,
+    "source_tree_entries": 0,
+    "internal_truth_prediction_archives": 0
+  },
+  "result_packaging_policy": "exclude duplicated source tree and internal predictions.npz; retain deployment archives, manifests, per-split logs, paired summaries, environment and verdict",
+  "claim_boundary": "This package audit validates the protocol and tooling before registration. It is not the post-registration confirmatory result, and C5 is inherited Gate18 aggregation integrity rather than new Gate19/v14 raw-h5ad scoring."
+}

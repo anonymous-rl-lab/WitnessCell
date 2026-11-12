@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-08T07:00:30.664763+00:00",
+  "aggregate_results_already_known": true,
+  "no_change_to_fixed_measurement_and_inference_rules": true,
+  "target_model_training_calls_permitted": 0,
+  "sha256": {
+    "prepare_repeat_inputs.py": "0404a39b6e6e87f965fc6c1bfb3819c75fac4fe23c0f28e6dd68ce7b8bfc6981",
+    "predict_frozen_repeats.py": "347069e2ffe2e692fe195240d775491fe37bb0d5a72f0974d3d593ac36381a59",
+    "score_frozen_repeats.py": "d2d545abf9faa974244fad0b9c643930c0cba45473cd25e29db9df1d5438deb8",
+    "run_repeat_recovery.py": "b8a18f2eae0f9a98d100b8a4bbd1c7e12f234011894314311d27c330fa86d4d1",
+    "count_pairs.cpp": "b000033f6f50aed2fc2c15894fd77f72c347a3ebe2ef9aa247199b9c7eb795d6",
+    "verify_counter.py": "8633f330e6e084e672d7e6f85c6deadce8df9cdf33c289598704e6d48c2b27a7",
+    "predict_frozen.py": "6cf4a6a338ba3560894b1606f423c3865ee0fbdae4c2fcfa300aeb1476d7943e",
+    "PROTOCOL_FROZEN_INFERENCE.md": "3d4620cfd46298f91b04be7384452eb3884ac3d6bd865a357173ee7ea6496d8d"
+  }
+}

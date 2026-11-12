@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "refitted_seven_matrix_configurations": true,
+  "scope": "v39 additions only; established experiments use grn_repo_v29_paper_v38.zip",
+  "default_scope": "Saved matrix predictions; scalar/reference diagnostics are recomputed."
+}

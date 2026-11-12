@@ -1,0 +1,70 @@
+{
+  "new_experiment_or_model_fits": 0,
+  "RNA_four_corner_checks": {
+    "positive_S100A9": {
+      "four_corners": 4,
+      "max_signed_contrast_difference": 2.220446049250313e-16
+    },
+    "positive_LYZ": {
+      "four_corners": 4,
+      "max_signed_contrast_difference": 2.7755575615628914e-17
+    },
+    "failure_global_largest_harm": {
+      "four_corners": 4,
+      "max_signed_contrast_difference": 0.0
+    }
+  },
+  "Jurkat_1234_rows_recomputed_gain": 0.06430834839970534,
+  "figures": [
+    "Fig1",
+    "Fig2",
+    "Fig3",
+    "Fig4",
+    "Fig5",
+    "ED1",
+    "ED2",
+    "ED3",
+    "ED4",
+    "ED5",
+    "ED6",
+    "ED7"
+  ],
+  "published_split_units": 540,
+  "published_projection_dimensions": 212,
+  "RNA_saved_contrast_MSE_recomputed": {
+    "M0": 0.004235183323623444,
+    "M1": 0.0038354565651609186,
+    "R": 0.0035591535312072364,
+    "scalar": 0.003824421124072377
+  },
+  "RNA_top_ten_share_of_positive_gain": 0.9212529341806203,
+  "K562_high_rankone_gain": 0.11029217797940027,
+  "Jurkat_primary_gain": 0.0643083483997059,
+  "uncertainty": "Neural seeds are optimization variability; folds/rectangles share genes. Jurkat reweighting ranges are conditional sensitivities, not calibrated confidence intervals."
+}
+{
+  "status": "PASS",
+  "rendered_files": 51,
+  "published_table_references": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19"
+  ],
+  "scope": "Exact-source numerical redraw and published-table reference; tables are not represented as new raw-cell fits or independent validation"
+}

@@ -1,0 +1,134 @@
+{
+  "status": "frozen_for_execution",
+  "scope": "prespecified three-single-gate candidate class with hidden gate identity; synthetic information-value experiment, not unrestricted mechanism-family or GRN discovery",
+  "N_per_condition": 256,
+  "source_stratum_counts": [
+    128,
+    128
+  ],
+  "p": 0.5,
+  "sigma": 1.0,
+  "seed_start": 10000,
+  "seed_end_inclusive": 10999,
+  "worlds": [
+    "direct_only",
+    "hA",
+    "hB",
+    "hC"
+  ],
+  "layouts": [
+    "low",
+    "high"
+  ],
+  "alpha0": 0.7,
+  "alpha": [
+    0.25,
+    -0.15,
+    0.4,
+    -0.2,
+    0.3,
+    -0.1
+  ],
+  "candidate_order": [
+    "A",
+    "B",
+    "C"
+  ],
+  "candidate_coefficients_sign_constrained": false,
+  "tie_atol_whitened_stratum_SSE": 1e-10,
+  "pseudoinverse_rcond": 1e-12,
+  "common": [
+    [],
+    [
+      "X"
+    ],
+    [
+      "A"
+    ],
+    [
+      "B"
+    ],
+    [
+      "C"
+    ],
+    [
+      "D"
+    ],
+    [
+      "E"
+    ],
+    [
+      "F"
+    ]
+  ],
+  "high": [
+    [
+      "A",
+      "B"
+    ],
+    [
+      "B",
+      "C"
+    ],
+    [
+      "D",
+      "E"
+    ],
+    [
+      "D",
+      "F"
+    ]
+  ],
+  "low": [
+    [
+      "A",
+      "D"
+    ],
+    [
+      "B",
+      "D"
+    ],
+    [
+      "B",
+      "E"
+    ],
+    [
+      "C",
+      "F"
+    ]
+  ],
+  "queries": [
+    [
+      "A",
+      "C"
+    ],
+    [
+      "A",
+      "F"
+    ],
+    [
+      "C",
+      "E"
+    ],
+    [
+      "E",
+      "F"
+    ]
+  ],
+  "rectangle_weights": [
+    1.0,
+    -1.0,
+    -1.0,
+    1.0
+  ],
+  "CI": "95% chi-square2 Gaussian ball in whitened union-residual coordinates, intersect every gate line, map each beta interval to delta; independent of selected gate",
+  "empty_CI": "retain, width NaN, not a nonzero certificate",
+  "low_CI": "all beta intervals unbounded; delta_A and delta_C all real numbers, delta_B singleton zero",
+  "primary_risk_comparison": "same three-candidate OLS high vs low; every case counted regardless of CI or certification",
+  "strong_baseline": "high observed-X1 R_AB/R_BC, same three-line GLS and union-ball CI; low unavailable",
+  "auxiliary_baseline": "delta=0 only; do not invent full query means",
+  "independent_unit": "1000 noise seeds; each shares condition noise across four worlds and both layouts",
+  "truth_query_scoring_after_prediction_freeze": true,
+  "budget_basis": "independent analytic min wrong-line squared distance N/8; prespecified joint bound for N64/128/256 is .06990/.70023/.95",
+  "expanded_class_boundary": "unrestricted simultaneous three-gate 11-column model is NOT the estimator; target unidentifiable even in high design"
+}

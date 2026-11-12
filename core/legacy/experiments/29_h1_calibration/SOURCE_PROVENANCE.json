@@ -1,0 +1,114 @@
+{
+  "module": "h1_calibration",
+  "paper": "WitnessCell v22, Results 6 / Figure 7a / Supplementary Note 11 / Table S18",
+  "source_archive_name": "WitnessCell_Calibration_System_Injection_Run_20261020.zip",
+  "source_archive_sha256": "1369e2847b005ae418fd03d87f0b01739b29b6fd6f1e5061de310f904dba7c26",
+  "original_files": [
+    {
+      "path": "reference/SCORE_GRAM.npz",
+      "source_member": "calibration_system_20261020/m0/SCORE_GRAM.npz",
+      "sha256": "5defb293cfbb526ea78ef256807e9d3b5b12a7772c46790ea145a80c65c5827c"
+    },
+    {
+      "path": "reference/SCORE_GRAM_ROWS.json",
+      "source_member": "calibration_system_20261020/m0/SCORE_GRAM_ROWS.json",
+      "sha256": "ab3be1a2aac904184dc1eeda955afd21a2973f517f7abf5420f8cf37829c1300"
+    },
+    {
+      "path": "reference/SELECTION_QUADRATICS.npz",
+      "source_member": "calibration_system_20261020/m0/SELECTION_QUADRATICS.npz",
+      "sha256": "3a874f0732e15a4d47b1f6232dd6d171bc807a6bb2857a604783031353309bd4"
+    },
+    {
+      "path": "reference/SELECTION.json",
+      "source_member": "calibration_system_20261020/m0/SELECTION.json",
+      "sha256": "62805970d65e12aafafcc630482110f406bf1cf53501cc151ad957860c89f4c7"
+    },
+    {
+      "path": "reference/PROTOCOL_BEFORE_FIT.json",
+      "source_member": "calibration_system_20261020/m0/PROTOCOL_BEFORE_FIT.json",
+      "sha256": "eb6b20ad4c212b181a76780439edb2ce0857604e2de51b2597514026cb39d1e4"
+    },
+    {
+      "path": "reference/PREPROCESS_COEFFICIENTS.npz",
+      "source_member": "calibration_system_20261020/m0/PREPROCESS_COEFFICIENTS.npz",
+      "sha256": "6ed3c3623ebd6cf887957211170386be5e78211ffbf4faf53ab0e0c2516cf514"
+    },
+    {
+      "path": "reference/PREPROCESS_FITS.json",
+      "source_member": "calibration_system_20261020/m0/PREPROCESS_FITS.json",
+      "sha256": "2c307cdac058235ba1f3a05a81afb8872c02cf0dc2f33e7fe9d319fc4caa1a60"
+    },
+    {
+      "path": "reference/SUMMARY.json",
+      "source_member": "calibration_system_20261020/m0/SUMMARY.json",
+      "sha256": "9f940d3ee9b80ccf7a954c58309e989a0f6720ddc73120718fb293b7e729d308"
+    },
+    {
+      "path": "reference/PER_CONDITION_HALF_ERRORS.csv",
+      "source_member": "calibration_system_20261020/m0/PER_CONDITION_HALF_ERRORS.csv",
+      "sha256": "a68009dad1c90b0980511f92dc29e3e9478225e62fb9c1b37760ec506a24b17a"
+    },
+    {
+      "path": "reference/FOLD_SUMMARY.csv",
+      "source_member": "calibration_system_20261020/m0/FOLD_SUMMARY.csv",
+      "sha256": "b5aec60455eabaef26cbd0a681777d79423da46697cb33669345988f60f6bdce"
+    },
+    {
+      "path": "reference/ALL_CANDIDATES.csv",
+      "source_member": "calibration_system_20261020/m0/ALL_CANDIDATES.csv",
+      "sha256": "52c3432e44e43125e1ae6af0f54cec555782f2c2d39571a41b5deb82f0045c0d"
+    },
+    {
+      "path": "reference/FIVE_GENE_EXAMPLES.npz",
+      "source_member": "calibration_system_20261020/m0/FIVE_GENE_EXAMPLES.npz",
+      "sha256": "3335edbe098984c1488625c2f0fa76bb040de7baafc896b4ea428a3254e17919"
+    },
+    {
+      "path": "reference/SOURCE_INPUT_HASHES.json",
+      "source_member": "calibration_system_20261020/m0/SOURCE_INPUT_HASHES.json",
+      "sha256": "b16a81b2cd3aa98a1a5208944eac1121fcc1528675e602b3f3aa0a83e2e332f5"
+    },
+    {
+      "path": "reference/REPORT_CN.txt",
+      "source_member": "calibration_system_20261020/m0/REPORT_CN.txt",
+      "sha256": "a59fc50c9d7a678f2575bf7af84d59373fa933a69acc9ba5e5c60418608458a1"
+    },
+    {
+      "path": "reference/REPLAY_AND_INFLUENCE.json",
+      "source_member": "calibration_system_20261020/m0/REPLAY_AND_INFLUENCE.json",
+      "sha256": "a697d0958812b57872f109b3d442d00ab4fe8328d05950faf108be922b42cacb"
+    },
+    {
+      "path": "source/run_m0.py",
+      "source_member": "calibration_system_20261020/m0/run_m0.py",
+      "sha256": "5aad050a258c3818f42cb80d63401ab3778e24c348a15e96084b5b8c01b21a1c"
+    },
+    {
+      "path": "source/origin_free_model_frozen.py",
+      "source_member": "calibration_system_20261020/m0/origin_free_model_frozen.py",
+      "sha256": "fb81189d4801882e58905de8473a88d6da02829ae0354856bbc7f2075f1d8e22"
+    },
+    {
+      "path": "source/replay_m0.py",
+      "source_member": "calibration_system_20261020/m0/replay_m0.py",
+      "sha256": "f758a21d561f50544ee942756198b0ba2d7beeece2d253c9d1b57d0e98376af1"
+    }
+  ],
+  "derived_metadata": {
+    "path": "metadata/design.npz",
+    "source_member": "calibration_system_20261020/counterfactual/compact_inputs.npz",
+    "source_sha256": "a26bc2ca075b5f7572222cf36fbb3e87a7ec1f0d56f13d15af16074a2608aba5",
+    "operation": "Copy listed arrays exactly; exclude expression/Gram and half-to-full operators unnecessary for main calibration replay.",
+    "arrays": [
+      "counts",
+      "condition_ids",
+      "batch_ids",
+      "observation_condition",
+      "observation_batch",
+      "fold_ids",
+      "pi",
+      "eligible"
+    ]
+  }
+}

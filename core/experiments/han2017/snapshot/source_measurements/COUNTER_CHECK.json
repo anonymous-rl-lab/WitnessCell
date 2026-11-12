@@ -1,0 +1,9 @@
+{
+  "pairs": 10000,
+  "R1_mapped": 9365,
+  "R2_mapped": 6500,
+  "paired_mapped": 6148,
+  "entire_count_matrix_equal": true,
+  "reference_sha256": "6ad2acf25dc39dc90b253b911f0e5f0f3368a470b52214ac3b25e722b5745a02",
+  "counter_source_sha256": "b000033f6f50aed2fc2c15894fd77f72c347a3ebe2ef9aa247199b9c7eb795d6"
+}

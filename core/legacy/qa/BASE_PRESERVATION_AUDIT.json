@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "base_archive_sha256": "95efc581ddaddfa120f3edc56dd2dd34cae004e30caaeb6516497e1d67d8f134",
+  "old_files_unchanged_at_original_path": 970,
+  "old_navigation_files_changed_and_originals_preserved": 8,
+  "changed_navigation_files": [
+    "README.md",
+    "RELEASE_STATUS.json",
+    "REPRODUCTION_INDEX.json",
+    "VERSION",
+    "docs/REPRODUCTION_SCOPE.md",
+    "tools/reproduce.py",
+    "tools/verify.py",
+    "PACKAGE_MANIFEST.json"
+  ],
+  "preserved_originals": [
+    {
+      "path": "README.md",
+      "sha256": "b0247575243d717dfd7ab224486e9312c835dfd3a34723a63b62c43959bd8e92",
+      "original_content_at": [
+        "provenance/base_release_v25/README.md"
+      ]
+    },
+    {
+      "path": "RELEASE_STATUS.json",
+      "sha256": "59e8f161a900952526cdbfa3434289f8885733d2368481a824f323865a08e9a7",
+      "original_content_at": [
+        "provenance/base_release_v25/RELEASE_STATUS.json"
+      ]
+    },
+    {
+      "path": "REPRODUCTION_INDEX.json",
+      "sha256": "ecb3c944ba25d3c1bad3d9b2d03b5dc3b31cd7dc32df64b994d43da53497f90b",
+      "original_content_at": [
+        "provenance/base_release_v25/REPRODUCTION_INDEX.json"
+      ]
+    },
+    {
+      "path": "VERSION",
+      "sha256": "2206479e9bff7d8ca42837b5d1f4ccfdd97ce9be8360eae1373463a28573ab8c",
+      "original_content_at": [
+        "provenance/base_release_v25/VERSION"
+      ]
+    },
+    {
+      "path": "docs/REPRODUCTION_SCOPE.md",
+      "sha256": "9c052c1da0fed6e7611fe5d908ff4423048443eed4418ec3abfe46ef98d28d47",
+      "original_content_at": [
+        "provenance/base_release_v25/docs/REPRODUCTION_SCOPE.md"
+      ]
+    },
+    {
+      "path": "tools/reproduce.py",
+      "sha256": "2c2fcda3d84dd369898ec044e5228fb6cf3b7284e4359f5f1ca4c3ac1972787e",
+      "original_content_at": [
+        "provenance/base_release_v25/tools/reproduce.py"
+      ]
+    },
+    {
+      "path": "tools/verify.py",
+      "sha256": "bb97cd14e001103827bccc1c70b0a9b95d85b4a1b2f53ed8d517d0cdb2f8b651",
+      "original_content_at": [
+        "provenance/base_release_v25/tools/verify.py"
+      ]
+    },
+    {
+      "path": "PACKAGE_MANIFEST.json",
+      "sha256": "dd877f5d8a1434fe6c594634d4e424b80598bdac825c0e125c36f4ae0c66b267",
+      "original_content_at": [
+        "provenance/base_release_v25/PACKAGE_MANIFEST.json"
+      ]
+    }
+  ],
+  "protected_experiments_byte_identical": 461,
+  "original_tasks_unchanged": [
+    "core",
+    "risk",
+    "support",
+    "growth",
+    "step2",
+    "rna_shrinkage",
+    "examples",
+    "calibration",
+    "sf12",
+    "dixit",
+    "combiseq",
+    "paper"
+  ],
+  "added_tasks": [
+    "recent_bridge"
+  ],
+  "scope": "Byte-level legacy content preservation and replay-entry definitions, not numerical reproduction."
+}

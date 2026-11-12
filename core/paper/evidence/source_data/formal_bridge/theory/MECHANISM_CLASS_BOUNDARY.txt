@@ -1,0 +1,31 @@
+Analytic negative control: enlarging the mechanism class destroys high-layout identification
+2026-10-31. No additional fitting; no changes to the frozen 400-fit configuration.
+
+The positive calibration declares h_A=A OR (B AND C) as a shared known feature.
+Suppose the admissible class also includes h_B=B OR (A AND C). Consider two
+systems with the same source, mediator equations, noise and nuisance terms,
+but outcome contribution b*h_A in one system and b*h_B in the other.
+
+For every control/single condition and for both high-layout additions AB, DE,
+h_A=h_B pointwise for X=0 and X=1. On AB both are zero; on DE both are X.
+Consequently the complete high-training joint distributions are identical,
+including with infinitely many noiseless cells.
+
+On query AC, h_A=0 whereas h_B=X. On AF, CE and EF both equal X. Thus the query
+rectangle is -pb for the h_A system and 0 for the h_B system. Adding both gate
+features to the common linear dictionary gives ten columns, high-design rank
+nine, and an unidentified direction exchanging the h_A/h_B coefficients.
+The query rectangle does not annihilate that direction. The same two-world
+rectangle-risk lower bound p^2*b^2/4 therefore applies even to the high layout
+in this enlarged mechanism class.
+
+This does not invalidate the positive result inside the originally declared
+nine-feature class. It precisely locates its force: the observations identify
+a coefficient conditional on the shared h_A structure; they do not discover
+which of these two unknown logical mechanisms is correct. The positive run
+must be presented as an information-value and implementation calibration,
+not as unknown logic-gate discovery or general molecular causal discovery.
+
+check_expanded_class.py performs an exact two-state/rational-rank check and
+writes EXPANDED_CLASS_RESULT.json. This negative boundary is analytic only;
+it does not add worlds, models, seeds or measurements to the formal batch.

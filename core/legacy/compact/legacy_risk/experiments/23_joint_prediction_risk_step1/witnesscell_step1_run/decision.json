@@ -1,0 +1,57 @@
+{
+  "risk_increment_gate": "PASS",
+  "sensitivity_review": "PASS_WITH_WESSELS_EFFECT_STRATIFICATION_UNCERTAINTY",
+  "prediction_gate_saturation_only_Norman": "PASS",
+  "prediction_gate_scouter": "PENDING_MISSING_PREDICTIONS_AND_TRAINING_INPUT",
+  "full_first_step_package": "PARTIALLY_COMPLETE_STRONG_COMPARATOR_PENDING",
+  "primary_results": {
+    "Norman": {
+      "dataset": "Norman",
+      "coverage": 0.5,
+      "loss": "loss_mse",
+      "comparison": "S/B",
+      "ratio": 0.775568537778463,
+      "gain": 0.22443146222153698,
+      "gain_ci95": [
+        0.08402131949992436,
+        0.3332335904571596
+      ],
+      "ratio_ci95": [
+        0.6667664095428403,
+        0.9159786805000756
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "seed_ratios": {
+        "1": 0.6945595384089596,
+        "2": 0.7937033837945392,
+        "3": 0.8462386112495677
+      }
+    },
+    "Wessels": {
+      "dataset": "Wessels",
+      "coverage": 0.5,
+      "loss": "loss_mse",
+      "comparison": "S/B",
+      "ratio": 0.8572721663865454,
+      "gain": 0.14272783361345465,
+      "gain_ci95": [
+        0.05603075723471064,
+        0.2446807981254124
+      ],
+      "ratio_ci95": [
+        0.7553192018745876,
+        0.9439692427652894
+      ],
+      "valid_bootstrap_replicates": 5000,
+      "invalid_bootstrap_replicates": 0,
+      "seed_ratios": {
+        "1": 0.9386148940239498,
+        "2": 0.9191961804489551,
+        "3": 0.7302314238545539
+      }
+    }
+  },
+  "next": "complete strong comparator before declaring the full first-step package passed",
+  "no_additional_experiments_launched": true
+}

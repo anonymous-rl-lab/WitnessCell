@@ -1,0 +1,15 @@
+{
+  "cache_files": 2160,
+  "cache_bytes": 75437095,
+  "cache_zip_bytes": 65823891,
+  "archive_bytes": 103510722,
+  "rebuild_dependencies": [
+    "growth_run/training_v2/*/results/*/inner_summary.json",
+    "growth_run/training_v2/*/results/*/inner{0,1,2}_baseline.json",
+    "growth_run/training_v2/*/results/*/rank1_t0.3_n0.1_inner_predictions.npz",
+    "growth_run/PREDICTIONS_LOCKED_v2.json",
+    "growth_assets/extracted/WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/PLAN.json",
+    "growth_assets/extracted/WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/core/*.py",
+    "growth_assets/extracted/WitnessCell_Horlbeck_TwoStage_Repro_20261018/stages/K562/cases/outer{0,1,2}/inputs/training.npz"
+  ]
+}

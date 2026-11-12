@@ -1,0 +1,14 @@
+[
+  {
+    "path": "paper/code/analyze_v28.py",
+    "old_sha256": "3a1e48e534014ef4154ededa5f41865943b5fcaffb5ea49b540679872c34c157",
+    "new_sha256": "7e87406d9b560da3ee9596e638a42d7e08779e80808f23df3f131800bb3fb15e",
+    "reason": "Read unpacked preserved inputs through explicit root environment variables; scoring/plotting formulas unchanged."
+  },
+  {
+    "path": "paper/code/make_han_figures_v36.py",
+    "old_sha256": "57f35b3c5fc45cfee2e77f3d80c8965f32cd03a1549c1f0f4695e5f2b673c22e",
+    "new_sha256": "1780b36a05b853f010280b321ff77282c78a554289073ccdcb57cf5b8c8f2247",
+    "reason": "Read unpacked preserved inputs through explicit root environment variables; scoring/plotting formulas unchanged."
+  }
+]

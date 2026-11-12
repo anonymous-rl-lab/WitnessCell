@@ -1,0 +1,307 @@
+{
+  "status": "PASS",
+  "tables": [
+    {
+      "file": "RESULTS.csv",
+      "byte_exact": true
+    },
+    {
+      "file": "FOLD_RESULTS.csv",
+      "byte_exact": true
+    },
+    {
+      "file": "REQUEST_INVARIANCE.json",
+      "byte_exact": true
+    },
+    {
+      "file": "LABEL_POISON.json",
+      "byte_exact": true
+    },
+    {
+      "file": "SOLVER_AUDIT.json",
+      "byte_exact": true
+    },
+    {
+      "file": "FOLD_0.json",
+      "byte_exact": true
+    },
+    {
+      "file": "FOLD_1.json",
+      "byte_exact": true
+    },
+    {
+      "file": "FOLD_2.json",
+      "byte_exact": true
+    }
+  ],
+  "arrays": [
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "foldids",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "scalar_saturation",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "measured_additive",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_full_fixed_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_full_fixed_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_full_fixed_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_full",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_full_gated",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_trainP_fixed_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_trainP_fixed_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_trainP_fixed_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_trainP",
+      "bitwise_exact": true
+    },
+    {
+      "file": "PREDICTIONS.npz",
+      "array": "ref_trainP_gated",
+      "bitwise_exact": true
+    },
+    {
+      "file": "EVALUATION_TRUTH.npz",
+      "array": "truth",
+      "bitwise_exact": true
+    },
+    {
+      "file": "EVALUATION_TRUTH.npz",
+      "array": "foldids",
+      "bitwise_exact": true
+    },
+    {
+      "file": "EVALUATION_TRUTH.npz",
+      "array": "pairs",
+      "bitwise_exact": true
+    },
+    {
+      "file": "EVALUATION_TRUTH.npz",
+      "array": "program_indices",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "reference_pairs",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "query",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "train",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "sigma",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "alpha",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "additive_program",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_full_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_full_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_full_lambda_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_trainP_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_trainP_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_0.npz",
+      "array": "ref_trainP_lambda_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "reference_pairs",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "query",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "train",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "sigma",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "alpha",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "additive_program",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_full_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_full_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_full_lambda_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_trainP_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_trainP_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_1.npz",
+      "array": "ref_trainP_lambda_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "reference_pairs",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "query",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "train",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "sigma",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "alpha",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "additive_program",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_full_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_full_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_full_lambda_10",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_trainP_lambda_0.1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_trainP_lambda_1",
+      "bitwise_exact": true
+    },
+    {
+      "file": "MODEL_2.npz",
+      "array": "ref_trainP_lambda_10",
+      "bitwise_exact": true
+    }
+  ],
+  "array_count": 53,
+  "new_script_sha256": "92d5bb641622a877778cd434eb748555b80167c8ed77f1fcf67f627867767b92",
+  "original_script_preserved_as": "run_reference_kernel_source_v1.py"
+}

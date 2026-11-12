@@ -1,0 +1,11 @@
+Item,Reconstructed,Published
+Eligible unordered pairs,"20,359","20,791"
+Single identities / active endpoints,207 / 206,205 / 205
+Measured response columns,Two reconstructed end repeats,One published aggregate
+Training pairs per outer fold,"13,572–13,573","13,860–13,861"
+Query pairs per outer fold,"6,786–6,787","6,930–6,931"
+Outer design,Five existing partitions × three folds,Same pair-grouping rule
+Base predictors,Native and saturation references,Same two references
+Correction families,Signed rank one; symmetric spectral,Same two families
+Fitted quantities,"Target baseline, residual matrix and internal control coefficient",Same; one-response fitting
+Independent target studies,One,Same study; related readout

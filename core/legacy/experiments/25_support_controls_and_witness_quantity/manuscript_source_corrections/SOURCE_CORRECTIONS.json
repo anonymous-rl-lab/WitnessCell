@@ -1,0 +1,300 @@
+{
+  "status": "SOURCE_CORRECTIONS_ONLY",
+  "new_experiment_results_added": false,
+  "changes": [
+    {
+      "location": "Introduction, final paragraph",
+      "reason": "Count analysis panels separately from independent study provenance.",
+      "old": "two external Perturb-seq panels",
+      "new": "two additional Perturb-seq analysis panels"
+    },
+    {
+      "location": "Results, endpoint construction",
+      "reason": "CaRPool and benchmark Wessels share their original study.",
+      "old": "The external CaRPool analysis below asks whether the seen0 gain transfers beyond the benchmark splits.",
+      "new": "The additional CaRPool analysis below asks whether the seen0 gain extends beyond the benchmark splits within another processed panel from the same source study."
+    },
+    {
+      "location": "Results heading",
+      "reason": "Avoid implying two new study-level replications.",
+      "old": "### External panels define the transfer boundary",
+      "new": "### Additional panels define the transfer boundary"
+    },
+    {
+      "location": "Results, additional panels opening",
+      "reason": "Correct biological provenance without asserting cell-barcode identity or leakage.",
+      "old": "We next asked which parts of the interaction witness transferred to independent combinatorial Perturb-seq panels.<sup>34,35</sup>",
+      "new": "We next examined interaction-witness transfer in additional combinatorial Perturb-seq analyses.<sup>34,35</sup> CaRPool and the benchmark input labelled Wessels derive from the same Cas13d study (GSE213957). The CaRPool analysis therefore supplies an additional processed-panel test from that study."
+    },
+    {
+      "location": "Results, GSE146194",
+      "reason": "Describe the actual analysis panel.",
+      "old": "In GSE146194, 37,238 high-quality singlets supplied 36 complete triples,",
+      "new": "In the GSE146194 panel, 37,238 high-quality singlets supplied 36 complete triples,"
+    },
+    {
+      "location": "Results, four-dataset benchmark citation",
+      "reason": "Include the original Schmidt study.",
+      "old": "We evaluated endpoint construction on 654 matched condition–seed units from four scPerturBench genetic-combination datasets and three released split seeds.<sup>21,32–34</sup>",
+      "new": "We evaluated endpoint construction on 654 matched condition–seed units from four scPerturBench genetic-combination datasets and three released split seeds.<sup>21,32–34,41</sup>"
+    },
+    {
+      "location": "Results, benchmark competitor",
+      "reason": "Cite the published scouter article.",
+      "old": "compared with 5.411 for scouter and 5.725 for the linear model (Fig. 6b).",
+      "new": "compared with 5.411 for scouter<sup>40</sup> and 5.725 for the linear model (Fig. 6b)."
+    },
+    {
+      "location": "Methods, Study design",
+      "reason": "Separate panel-level evaluation from study-level independence.",
+      "old": "CaRPool and GSE146194 tested external transfer.",
+      "new": "CaRPool and GSE146194 supplied additional processed-panel transfer tests, with source studies distinguished from analysis splits."
+    },
+    {
+      "location": "Methods, Datasets",
+      "reason": "Map the original Schmidt study to the benchmark-processed input.",
+      "old": "The scPerturBench analysis used Norman, Wessels, Schmidt and Replogle_exp6.<sup>21,32–36</sup>",
+      "new": "The scPerturBench analysis used Norman, Wessels, Schmidt and Replogle_exp6.<sup>21,32–36,41</sup> The Schmidt input was the benchmark-processed version of the primary-human-T-cell CRISPR activation and interference study by Schmidt et al.<sup>41</sup>"
+    },
+    {
+      "location": "Methods, CaRPool provenance and modality",
+      "reason": "Cas13d acts on RNA; this is not a CRISPRi panel.",
+      "old": "CaRPool served as an external CRISPR-interference combinatorial Perturb-seq panel.<sup>34</sup>",
+      "new": "CaRPool used Cas13d RNA perturbation from the Wessels et al. study (GSE213957), which also underlies the benchmark input named Wessels.<sup>34</sup>"
+    },
+    {
+      "location": "Methods, GSE146194 provenance",
+      "reason": "Avoid unsupported additional study-independence counting.",
+      "old": "GSE146194 experiment 6 supplied a second external panel.",
+      "new": "GSE146194 experiment 6 supplied an additional combinatorial panel."
+    },
+    {
+      "location": "Data availability",
+      "reason": "State original-study and processed-input provenance explicitly.",
+      "old": "Wessels, Schmidt, Replogle_exp6 and CaRPool were obtained from the public sources identified in the dataset ledger.<sup>21,33–35</sup>",
+      "new": "The Wessels benchmark input and CaRPool analysis originate from the Wessels et al. study (GSE213957).<sup>21,34</sup> The Schmidt input was obtained as the scPerturBench-processed version of the original T-cell study.<sup>21,41</sup> Replogle_exp6 retains its source and processed-file provenance in the dataset ledger.<sup>21,33,35</sup>"
+    },
+    {
+      "location": "main, Code availability",
+      "reason": "Point to the existing v19 reviewer release, not an invented public release.",
+      "old": "grn_repo_v18.zip: 7193cf52883cffe8ddf97cab6dca101b6839afbefc90e88ca106aa506dba276a",
+      "new": "grn_repo_v19.zip: abdb6f34a6ddb248ca01705310171ea6efa36a328d507b237059c87d1db92c93"
+    },
+    {
+      "location": "si, Code availability",
+      "reason": "Point to the existing v19 reviewer release, not an invented public release.",
+      "old": "grn_repo_v18.zip: 7193cf52883cffe8ddf97cab6dca101b6839afbefc90e88ca106aa506dba276a",
+      "new": "grn_repo_v19.zip: abdb6f34a6ddb248ca01705310171ea6efa36a328d507b237059c87d1db92c93"
+    },
+    {
+      "location": "Figure 5 legend",
+      "reason": "Align the figure legend with the corrected source-study scope.",
+      "old": "**Fig. 5 | External panels define the transfer boundary.** **a,b,** CaRPool qualification",
+      "new": "**Fig. 5 | Additional panels define the transfer boundary.** CaRPool uses Cas13d RNA perturbation and shares its source study (Wessels et al., GSE213957) with the benchmark Wessels input. **a,b,** CaRPool qualification"
+    },
+    {
+      "location": "References, Miller",
+      "reason": "Replace the preprint reference with its published version; the pinned metric implementation is unchanged.",
+      "old": "24. Miller, H. E. et al. Deep learning-based genetic perturbation models do outperform uninformative baselines on well-calibrated metrics. *bioRxiv* https://doi.org/10.1101/2025.10.20.683304 (2025).",
+      "new": "24. Miller, H. E. et al. Deep learning perturbation models can outperform baselines on calibrated metrics. *Nat. Biotechnol.* (2026). https://doi.org/10.1038/s41587-026-03307-w"
+    },
+    {
+      "location": "SI, citation scope",
+      "reason": "Remove fragile literature counts and reflect the published Miller/scouter references.",
+      "old": "Numbered literature citations in this Supplementary Information refer to the 39-entry reference list in the main manuscript. That list contains 37 peer-reviewed journal or top-conference works plus two explicitly labelled preprints required to identify the source-defined signal-weighted metrics. Software commits, archive hashes and dataset accessions are recorded in the accompanying reviewer code release rather than used as scientific evidence.",
+      "new": "Numbered literature citations in this Supplementary Information refer to the reference list in the main manuscript. Published versions are cited where available, including the scouter article and the metric-calibration study by Miller et al.; the implemented metric version remains identified by the source record. Software commits, archive hashes and dataset accessions are recorded in the accompanying reviewer code release."
+    },
+    {
+      "location": "SI, evidence scope",
+      "reason": "Align source independence with the main text.",
+      "old": "The external panels assess endpoint-witnessed combinations, especially strict-seen1 targets, but do not establish general seen0 extrapolation.",
+      "new": "The additional panel analyses assess endpoint-witnessed combinations, especially strict-seen1 targets, but do not establish general seen0 extrapolation. CaRPool and the benchmark input Wessels share the Wessels et al. source study and GSE213957 accession; an additional processed panel is not counted as an independent study."
+    },
+    {
+      "location": "SI 2.5, GO selection history",
+      "reason": "Reconcile final execution configuration with historical probes without deleting the archived selection preference.",
+      "old": "The GO neighbourhood size is selected from \\(\\{3,10,20,40,80\\}\\) using pooled training-LOO top-100 MSE with all-gene gain as the tie-break; ten neighbours were selected before held-out combination evaluation.",
+      "new": "The final dense–sparse endpoint stage selected its GO neighbourhood from \\(\\{3,10,20,40,80\\}\\) using pooled training-LOO top-100 MSE with all-gene gain as the tie-break; ten neighbours were selected before held-out combination evaluation. The archived training-side candidate ordering first favoured Wessels fallback. Ten neighbours also gave the best pooled objective across all five candidates without that preference, so it did not change the selected neighbourhood. Earlier single-head candidate grids belong to preceding development stages."
+    },
+    {
+      "location": "SI 4.9, CaRPool Methods",
+      "reason": "Correct modality and original-study provenance.",
+      "old": "The CaRPool matrix contained 30,707 cells, 28 single conditions and 158 double conditions.",
+      "new": "The CaRPool matrix used Cas13d RNA perturbation from Wessels et al. (GSE213957), the same source study as the Wessels benchmark input.<sup>34</sup> It contained 30,707 cells, 28 single conditions and 158 double conditions."
+    },
+    {
+      "location": "SI 5.2, residual reproducibility",
+      "reason": "Remove an unsupported study-independence claim.",
+      "old": "The two external panels independently qualified this residual signal.",
+      "new": "The two additional panel analyses qualified this residual signal. CaRPool belongs to the same source study as the Wessels benchmark input, so this analysis is not a separate study-level replication."
+    },
+    {
+      "location": "SI Table 1, evidence architecture",
+      "reason": "Keep the main and SI section maps aligned.",
+      "old": "| External panels define the transfer boundary |",
+      "new": "| Additional panels define the transfer boundary |"
+    },
+    {
+      "location": "SI Table 2, CaRPool row",
+      "reason": "Use the same modality and source scope in the dataset table.",
+      "old": "| CaRPool | CRISPR interference | 30,707 | 78 targets = 64 strict-seen1 + 14 seen0; 58 high-count qualification triples | External amplitude calibration | Strict-seen1 gain modest; seen0 unsupported |",
+      "new": "| CaRPool | Cas13d RNA perturbation | 30,707 | 78 targets = 64 strict-seen1 + 14 seen0; 58 high-count qualification triples | Additional amplitude-calibration analysis | Same source study as benchmark Wessels (GSE213957); seen0 unsupported |"
+    },
+    {
+      "location": "SI Table 2, source note",
+      "reason": "Distinguish confirmed study identity from unverified cell-level overlap, and map Schmidt original/processed data.",
+      "old": "### Supplementary Table 3 | Data-role isolation",
+      "new": "The Wessels benchmark input and CaRPool analysis share an original study and accession; cell-barcode overlap and processed split equivalence have not been established. This provenance statement neither asserts complete cell overlap nor establishes evaluation leakage. The Schmidt benchmark input is the processed scPerturBench version of the original primary-human-T-cell study by Schmidt et al.<sup>21,41</sup>\n\n### Supplementary Table 3 | Data-role isolation"
+    },
+    {
+      "location": "SI Supplementary Fig. 5 heading",
+      "reason": "Align transfer terminology with confirmed provenance.",
+      "old": "### Supplementary Fig. 5 | External transfer requires endpoint support and destination calibration",
+      "new": "### Supplementary Fig. 5 | Additional panel transfer requires endpoint support and destination calibration"
+    },
+    {
+      "location": "SI Supplementary Fig. 5 legend",
+      "reason": "Carry the corrected source/modality through figure captions.",
+      "old": "CaRPool and GSE146194 results decomposed into raw direction, calibrated amplitude and two-kernel attribution controls.",
+      "new": "CaRPool and GSE146194 results decomposed into raw direction, calibrated amplitude and two-kernel attribution controls. CaRPool uses Cas13d RNA perturbation and shares its original study (Wessels et al., GSE213957) with the benchmark Wessels input."
+    },
+    {
+      "location": "main, panel terminology",
+      "reason": "Use consistent panel-level terminology after correcting study provenance.",
+      "old": "external panels",
+      "new": "additional panels",
+      "occurrences": 2
+    },
+    {
+      "location": "main, panel terminology",
+      "reason": "Use consistent panel-level terminology after correcting study provenance.",
+      "old": "external-panel",
+      "new": "additional-panel",
+      "occurrences": 2
+    },
+    {
+      "location": "si, panel terminology",
+      "reason": "Use consistent panel-level terminology after correcting study provenance.",
+      "old": "external panels",
+      "new": "additional panels",
+      "occurrences": 3
+    },
+    {
+      "location": "SI 4.9, target-panel definition",
+      "reason": "Retain the analysis-level specification without implying independent-study status.",
+      "old": "The unopened external target panel contained 78 medium-cell-count combinations,",
+      "new": "The separately specified CaRPool target panel contained 78 medium-cell-count combinations,"
+    },
+    {
+      "location": "main, editorial status note",
+      "reason": "Distinguish historical result blocks from the final-model equal-batch analysis pending integration.",
+      "old": "",
+      "new": "<!-- EDITORIAL_STATUS_START -->\n> **Revision status: source and terminology corrections only.** This working copy retains the historical abstract and scientific Results. The historical 654-operation benchmark and its 540-combination sensitivity include perturbed-target coordinates. The 213-query analytic-risk/threshold evaluation and its 207-query weighted complete case are a separate evidence block. None is the 389-condition–seed equal-batch analysis of the final v14 predictor; those results are pending integration. For missing endpoints in combinations, both the historical release and the equal-batch analysis use the equal-condition mean of training singles; cell-count weighting belongs to the separate historical unseen-single branch. A shared combination-imputation rule does not establish identical prediction vectors across analysis panels. The retained abstract's 31.7% and leaderboard wording are historical, not the proposed revised abstract. This is not a 3,000-word submission-ready manuscript.\n<!-- EDITORIAL_STATUS_END -->\n\n"
+    },
+    {
+      "location": "si, editorial status note",
+      "reason": "Distinguish historical result blocks from the final-model equal-batch analysis pending integration.",
+      "old": "",
+      "new": "<!-- EDITORIAL_STATUS_START -->\n> **Revision status: source and terminology corrections only.** This working copy retains the historical abstract and scientific Results. The historical 654-operation benchmark and its 540-combination sensitivity include perturbed-target coordinates. The 213-query analytic-risk/threshold evaluation and its 207-query weighted complete case are a separate evidence block. None is the 389-condition–seed equal-batch analysis of the final v14 predictor; those results are pending integration. For missing endpoints in combinations, both the historical release and the equal-batch analysis use the equal-condition mean of training singles; cell-count weighting belongs to the separate historical unseen-single branch. A shared combination-imputation rule does not establish identical prediction vectors across analysis panels. The retained abstract's 31.7% and leaderboard wording are historical, not the proposed revised abstract. This is not a 3,000-word submission-ready manuscript.\n<!-- EDITORIAL_STATUS_END -->\n\n"
+    },
+    {
+      "location": "Historical abstract, first comparator definition",
+      "reason": "Retain the code key and identify the additive baseline with training-single imputation.",
+      "old": "by 31.7% relative to a training-mean baseline",
+      "new": "by 31.7% relative to the `trainMean` baseline, which uses additive composition and the equal-condition mean training-single response to impute unmeasured endpoints in combinations"
+    },
+    {
+      "location": "SI scope, first comparator definition",
+      "reason": "Align the first SI definition with the actual combination baseline.",
+      "old": "The source-defined signal-weighted analysis evaluates mandatory uninformative baselines, not a newly weighted ranking of all published methods.",
+      "new": "The source-defined signal-weighted analysis evaluates the prespecified control baseline and the additive `trainMean` combination baseline, which imputes unmeasured endpoints with the equal-condition mean training-single response. It does not provide a newly weighted ranking of all published methods."
+    },
+    {
+      "location": "main, comparator terminology",
+      "reason": "Do not classify the observed-single additive combination baseline as universally uninformative.",
+      "old": "mandatory uninformative baselines",
+      "new": "prespecified additive `trainMean` and control baselines",
+      "occurrences": 2
+    },
+    {
+      "location": "si, comparator terminology",
+      "reason": "Do not classify the observed-single additive combination baseline as universally uninformative.",
+      "old": "superior to prespecified uninformative baselines",
+      "new": "superior to the prespecified additive `trainMean` and control baselines",
+      "occurrences": 1
+    },
+    {
+      "location": "Results, endpoint benchmark scope",
+      "reason": "Label the historical endpoint-inclusive metric block.",
+      "old": "We evaluated endpoint construction on 654 matched condition–seed units",
+      "new": "In the historical benchmark, whose metrics retain perturbed-target coordinates, we evaluated endpoint construction on 654 matched condition–seed units"
+    },
+    {
+      "location": "Results, combination sensitivity scope",
+      "reason": "Keep the historical weighted comparison distinct from non-target equal-batch delivery.",
+      "old": "As a combination-only sensitivity analysis, WitnessCell reduced",
+      "new": "As a historical combination-only sensitivity analysis retaining perturbed-target coordinates, WitnessCell reduced"
+    },
+    {
+      "location": "Results, selective-policy scope",
+      "reason": "Do not present the earlier risk construction as the new final-model empirical risk head.",
+      "old": "We next specified a selective policy using five calibration splits",
+      "new": "We next specified a historical analytic-risk threshold policy using five calibration splits"
+    },
+    {
+      "location": "Results, weighted selective-policy scope",
+      "reason": "Bind the complete-case result to the earlier threshold policy.",
+      "old": "Finally, we kept the selective score, threshold and accepted identities unchanged",
+      "new": "Finally, we kept the historical analytic-risk score, threshold and accepted identities unchanged"
+    },
+    {
+      "location": "SI 4.16, comparator implementation",
+      "reason": "Correct the historical prose using the formal execution path: combination missing endpoints use equal-condition averaging; only unseen-single queries use cell-count weighting. Step1 uses the same combination convention, without asserting identical vectors.",
+      "old": "The training-mean predictor used measured training singles when available and otherwise the cell-count-weighted mean of training-single effects.",
+      "new": "For combinations, the additive `trainMean` predictor summed endpoint effects, using measured training singles when available and otherwise imputing the equal-condition mean of training-single effects. The separate historical unseen-single branch used the cell-count-weighted mean across training-single cells. The current equal-batch analysis shares the combination imputation convention; vector identity across the different analysis panels has not been established."
+    }
+  ],
+  "reference_number_map": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18,
+    "19": 19,
+    "20": 20,
+    "21": 21,
+    "22": 22,
+    "23": 23,
+    "24": 24,
+    "25": 25,
+    "26": 26,
+    "27": 27,
+    "28": 28,
+    "29": 29,
+    "30": 30,
+    "31": 31,
+    "32": 32,
+    "33": 33,
+    "34": 34,
+    "41": 35,
+    "35": 36,
+    "40": 37,
+    "36": 38,
+    "37": 39,
+    "38": 40,
+    "39": 41
+  }
+}

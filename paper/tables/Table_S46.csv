@@ -1,0 +1,9 @@
+Readout,Baseline,Learner,Original range (%),Positive,Controlled range (%),Positive,Original repeats 1 / 2 (%)
+Reconstructed,Native,Rank one,1.3730 to 2.1940,5/5,2.1349 to 2.5900,5/5,1.8793 / 1.9414
+Reconstructed,Native,Spectral,5.4039 to 5.8862,5/5,5.4039 to 5.8862,5/5,5.4343 / 5.8712
+Reconstructed,Saturation,Rank one,0.9103 to 1.5883,5/5,0.7981 to 1.2111,5/5,1.2144 / 1.2445
+Reconstructed,Saturation,Spectral,4.5418 to 4.9448,5/5,4.4497 to 4.7714,5/5,4.6892 / 4.9582
+Published,Native,Rank one,0.3428 to 3.1152,5/5,2.2654 to 3.1582,5/5,One aggregate
+Published,Native,Spectral,7.2915 to 8.4562,5/5,7.2915 to 8.4562,5/5,One aggregate
+Published,Saturation,Rank one,0.0000 to 0.0000,0/5,0.0000 to 0.0000,0/5,One aggregate
+Published,Saturation,Spectral,6.6613 to 8.0978,5/5,6.5168 to 7.7986,5/5,One aggregate

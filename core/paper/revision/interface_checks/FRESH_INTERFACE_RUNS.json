@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "interface": "RNA core",
+      "fresh_fit": true,
+      "query_outcomes_supplied": false,
+      "fit_runtime_seconds": 0.8367568520043278,
+      "test_exit_code": 0,
+      "checks": 9,
+      "source": "fresh temporary-directory output"
+    },
+    {
+      "interface": "Functional growth",
+      "fresh_fit": true,
+      "query_outcomes_supplied": false,
+      "fit_runtime_seconds": 2.3546570269973017,
+      "test_exit_code": 0,
+      "checks": 9,
+      "source": "fresh temporary-directory output",
+      "maximum_absolute_prediction_difference": {
+        "Native functional prediction parity M0": 0.0,
+        "Native functional prediction parity rank1_selected": 0.0,
+        "Native functional prediction parity spectral_selected": 0.0
+      }
+    }
+  ],
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.18.1",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "processor": "",
+  "installation_timing": "Dependencies preinstalled in this environment; installation duration not measured.",
+  "scope": "New-input implementation parity and input validation. No new biological validation, raw-cell processing, or neural retraining."
+}

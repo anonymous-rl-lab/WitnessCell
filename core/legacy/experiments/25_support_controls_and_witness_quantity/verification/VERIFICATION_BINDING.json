@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "adapter_sha256": "0f072e22b4a9038ef9071bf5de5f9020bf73d3b877e128fe9420f5a97b02a01c",
+  "full_replay_report_sha256": "47de60a8ce351ec3de153e5824a773178e67f1e1e3f7baab2a81766e4b629fd2",
+  "statistics_only_report_sha256": "c4eac47a570bec19a635b86e49c51252ff77dd9c170e8b36ea2fbc490119d556",
+  "full_replay_canonical_repo_source": "grn_repo_v19; all canonical paths and bytes are mapped for grn_repo_v20",
+  "new_scientific_experiments": false,
+  "scope": "Packaging replay of already completed scientific analyses; original lock files remain unmodified."
+}

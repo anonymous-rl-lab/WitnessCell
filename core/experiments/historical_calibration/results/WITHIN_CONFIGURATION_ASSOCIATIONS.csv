@@ -1,0 +1,6 @@
+factor,rows,within_configuration_r
+inner_partner_gain,788,0.7958338630868264
+inner_full_gain,788,0.8718940863670567
+amplitude,788,-0.2562083325804821
+log_regularization,778,0.08622887435645463
+log_effective_df,265,-0.07631714446778064

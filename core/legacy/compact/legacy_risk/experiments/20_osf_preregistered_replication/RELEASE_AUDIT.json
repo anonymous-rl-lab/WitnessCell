@@ -1,0 +1,24 @@
+{
+  "status": "PASS_GATE20_OSF_PREREGISTERED_REPLICATION_ASSET_AUDIT",
+  "registration_id": "xrsmd",
+  "protocol_version": "2.0.0",
+  "source_archive_sha256": "955d446a0cfe65a6f4f191d74c7a7d16a6083488b9beb40a5e155ab94d528bd7",
+  "preregistration_package_sha256": "8d2bcc1c06a42fee039a515ee12588d516eb04c9979697181eb35ebd4c4a8c63",
+  "result_archive_sha256": "511860f645158a9af536a3944e03d4cc440674e23b55d826bf615e02d96bea0c",
+  "prediction_archives": 12,
+  "arrays_compared": 156,
+  "global_max_abs_delta": 0.0,
+  "correction_active_splits": 8,
+  "exact_fallback_splits": 4,
+  "paired_units": 654,
+  "criteria": {
+    "C1": "PASS",
+    "C2": "PASS",
+    "C3": "PASS",
+    "C4": "PASS",
+    "C5": "PASS"
+  },
+  "new_biological_measurements": false,
+  "raw_h5ad_gate19_v14_rescoring": false
+}
+

@@ -1,0 +1,86 @@
+{
+  "rule": "lowest pooled inner partner SSE among the two already frozen candidate batches",
+  "selected": {
+    "HeLa": {
+      "phase": "results",
+      "key": "native_product_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 1.1699457476364432,
+      "partner_sse": 2.7989391026575476,
+      "rna_sse": 3.75755813889835,
+      "interval_low": 0.0,
+      "interval_high": 2.327667296227372,
+      "guard_delta": -0.005155000957835831,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0037418713815944634,
+        "C_a2": 0.0031983289730775086,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004429450159475476,
+        "RNA_a2": 0.0038059134711001218
+      }
+    },
+    "A549": {
+      "phase": "results",
+      "key": "native_decomp_t0.3_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.348147847880642,
+      "partner_sse": 2.2681562407608404,
+      "rna_sse": 2.7970827920560666,
+      "interval_low": 0.0,
+      "interval_high": 2.1081437123811395,
+      "guard_delta": -0.06496347654112977,
+      "stats": {
+        "C_e2": 2.2696962286901234,
+        "C_ea": -0.004423373399139065,
+        "C_a2": 0.012705445189641274,
+        "RNA_e2": 2.7955567179578074,
+        "RNA_ea": -0.0004941812350832448,
+        "RNA_a2": 0.015429567088278053
+      }
+    },
+    "293T": {
+      "phase": "results_phase2",
+      "key": "sf12_r10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 4.0467336919682495,
+      "partner_sse": 2.4891638266316,
+      "rna_sse": 3.334140378382358,
+      "interval_low": 0.0,
+      "interval_high": 9.532537126767867,
+      "guard_delta": -0.017069337829444642,
+      "stats": {
+        "C_e2": 2.4998408489252997,
+        "C_ea": -0.002638429683398934,
+        "C_a2": 0.0006519899465179918,
+        "RNA_e2": 3.3512097162118026,
+        "RNA_ea": -0.003664800316879283,
+        "RNA_a2": 0.0007689034447268671
+      }
+    },
+    "Jurkat": {
+      "phase": "results",
+      "key": "next2_nonlinear_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 1.054097046195282,
+      "partner_sse": 3.806920515415905,
+      "rna_sse": 4.5755596629529425,
+      "interval_low": 0.0,
+      "interval_high": 2.0234146757058173,
+      "guard_delta": -0.30359419875399585,
+      "stats": {
+        "C_e2": 4.091643227812881,
+        "C_ea": -0.27011053054808404,
+        "C_a2": 0.25624825676443774,
+        "RNA_e2": 4.879153861706938,
+        "RNA_ea": -0.3006087796708929,
+        "RNA_a2": 0.2971301763105312
+      }
+    }
+  },
+  "new_outer_predictions_scored": false
+}

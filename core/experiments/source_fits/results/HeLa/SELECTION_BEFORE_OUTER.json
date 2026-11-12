@@ -1,0 +1,922 @@
+{
+  "cell": "HeLa",
+  "baseline_sse": 3.762713139856186,
+  "baseline_partner_sse": 2.803316889168647,
+  "selected": {
+    "selected": {
+      "key": "native_product_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 1.1699457476364432,
+      "partner_sse": 2.7989391026575476,
+      "rna_sse": 3.75755813889835,
+      "interval_low": 0.0,
+      "interval_high": 2.327667296227372,
+      "guard_delta": -0.005155000957835831,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0037418713815944634,
+        "C_a2": 0.0031983289730775086,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004429450159475476,
+        "RNA_a2": 0.0038059134711001218
+      }
+    },
+    "next2_selected": {
+      "key": "native_product_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 1.1699457476364432,
+      "partner_sse": 2.7989391026575476,
+      "rna_sse": 3.75755813889835,
+      "interval_low": 0.0,
+      "interval_high": 2.327667296227372,
+      "guard_delta": -0.005155000957835831,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0037418713815944634,
+        "C_a2": 0.0031983289730775086,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004429450159475476,
+        "RNA_a2": 0.0038059134711001218
+      }
+    },
+    "projected_selected": {
+      "key": "projected_rank1_t0.1_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.05959240583732109,
+      "partner_sse": 2.802914925130753,
+      "rna_sse": 3.762613860011555,
+      "interval_low": 0.0,
+      "interval_high": 0.07169467988834176,
+      "guard_delta": -9.927984463109496e-05,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.006745222520322068,
+        "C_a2": 0.11318929695061447,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004934692793872784,
+        "RNA_a2": 0.1376585487670254
+      }
+    },
+    "native_decomp_selected": {
+      "key": "native_decomp_t0.1_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.08631856207836819,
+      "partner_sse": 2.802313961838715,
+      "rna_sse": 3.4876166025809536,
+      "interval_low": 0.0,
+      "interval_high": 1.265634528182415,
+      "guard_delta": -0.2750965372752323,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.011618906823552308,
+        "C_a2": 0.1346049626383206,
+        "RNA_e2": 3.4845431440090726,
+        "RNA_ea": 0.011062550301497009,
+        "RNA_a2": 0.15617611485494862
+      }
+    }
+  },
+  "candidates": [
+    {
+      "key": "native_product_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.8007908191299834,
+      "partner_sse": 2.799092752748833,
+      "rna_sse": 3.7570990120860053,
+      "interval_low": 0.0,
+      "interval_high": 1.686769893370331,
+      "guard_delta": -0.005614127770180666,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.005274956104520678,
+        "C_a2": 0.0065871835422034895,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.006673683212249076,
+        "RNA_a2": 0.007912974067748393
+      }
+    },
+    {
+      "key": "native_product_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.8051359644414109,
+      "partner_sse": 2.7990890181788526,
+      "rna_sse": 3.757101511878375,
+      "interval_low": 0.0,
+      "interval_high": 1.6948468565531607,
+      "guard_delta": -0.005611627977811118,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.005251126736994334,
+        "C_a2": 0.00652203723210585,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.006638519029494427,
+        "RNA_a2": 0.0078337685836646
+      }
+    },
+    {
+      "key": "native_product_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.847280429395057,
+      "partner_sse": 2.7990553585195337,
+      "rna_sse": 3.7571299368307476,
+      "interval_low": 0.0,
+      "interval_high": 1.7725425957726788,
+      "guard_delta": -0.005583203025438355,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.005029657833777803,
+        "C_a2": 0.005936237471422405,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.006311871168790493,
+        "RNA_a2": 0.007121827349981455
+      }
+    },
+    {
+      "key": "native_product_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 1.1699457476364432,
+      "partner_sse": 2.7989391026575476,
+      "rna_sse": 3.75755813889835,
+      "interval_low": 0.0,
+      "interval_high": 2.327667296227372,
+      "guard_delta": -0.005155000957835831,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0037418713815944634,
+        "C_a2": 0.0031983289730775086,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004429450159475476,
+        "RNA_a2": 0.0038059134711001218
+      }
+    },
+    {
+      "key": "next2_nonlinear_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": -0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0006267555659342889,
+        "C_a2": 0.005280596893146105,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.00036133948731562255,
+        "RNA_a2": 0.00599930839348071
+      }
+    },
+    {
+      "key": "next2_nonlinear_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": -0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0006831144239320128,
+        "C_a2": 0.004679049724988704,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.0004033495665773044,
+        "RNA_a2": 0.005274499014592844
+      }
+    },
+    {
+      "key": "next2_nonlinear_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.16680672742687316,
+      "partner_sse": 2.80298010892233,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.16680672742687316,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.001326202062152663,
+        "C_a2": 0.003797324840828658,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.00035875971468360207,
+        "RNA_a2": 0.004301501746575296
+      }
+    },
+    {
+      "key": "next2_nonlinear_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.7871908334286806,
+      "partner_sse": 2.8019249026823605,
+      "rna_sse": 3.7620841940024228,
+      "interval_low": 0.0,
+      "interval_high": 1.0937063245436345,
+      "guard_delta": -0.0006289458537631631,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0017682961070864594,
+        "C_a2": 0.0022463372691784106,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0014254484945206054,
+        "RNA_a2": 0.002606638477866342
+      }
+    },
+    {
+      "key": "single_rbf_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0012099646715914862,
+        "C_a2": 0.022683913652735303,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.006603938482988939,
+        "RNA_a2": 0.025328843474332396
+      }
+    },
+    {
+      "key": "single_rbf_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": -0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0004520215684613817,
+        "C_a2": 0.008010018129169783,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.0005077437036973467,
+        "RNA_a2": 0.00902586748722239
+      }
+    },
+    {
+      "key": "single_rbf_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": -0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0005485990160593789,
+        "C_a2": 0.004793664815330936,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.0005461063203063435,
+        "RNA_a2": 0.0054029396780534665
+      }
+    },
+    {
+      "key": "single_rbf_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": -0.0,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0005830066980780445,
+        "C_a2": 0.0014671582110062796,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": 0.0013699781445181197,
+        "RNA_a2": 0.0016628438243836581
+      }
+    },
+    {
+      "key": "profile_mean4_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.07993370871488366,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0018285230959882862,
+        "C_a2": 0.27594745222284456,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0130410855953372,
+        "RNA_a2": 0.3262975234103944
+      }
+    },
+    {
+      "key": "profile_mean4_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.08038755028116004,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0017990871821294673,
+        "C_a2": 0.27299791148223507,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.012974783717811238,
+        "RNA_a2": 0.32280579946599175
+      }
+    },
+    {
+      "key": "profile_mean4_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.08489855472882848,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0015339758471899848,
+        "C_a2": 0.24603875457503832,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.012348202502512751,
+        "RNA_a2": 0.2908931145401406
+      }
+    },
+    {
+      "key": "profile_mean4_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.12849517141734965,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.00034474353324509457,
+        "C_a2": 0.11012150102183922,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.008357880286990488,
+        "RNA_a2": 0.13008862815310418
+      }
+    },
+    {
+      "key": "profile_mean8_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.03209928399393842,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.006566506128976606,
+        "C_a2": 0.33753342258987495,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.00612921425504739,
+        "RNA_a2": 0.38189102636711914
+      }
+    },
+    {
+      "key": "profile_mean8_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.03347146126255531,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.006293406095452569,
+        "C_a2": 0.3250608756648943,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.006155925803966199,
+        "RNA_a2": 0.36783131490305526
+      }
+    },
+    {
+      "key": "profile_mean8_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.04623192239774661,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.004370135954525441,
+        "C_a2": 0.23420962019278968,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0061353434003735,
+        "RNA_a2": 0.265415889375716
+      }
+    },
+    {
+      "key": "profile_mean8_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.14680887734226447,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0007754768457592484,
+        "C_a2": 0.042443158748753824,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0035522547809568625,
+        "RNA_a2": 0.04839291526867649
+      }
+    },
+    {
+      "key": "profile_consensus4_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.015005064293206166,
+      "partner_sse": 2.80326254525836,
+      "rna_sse": 3.7622939899308325,
+      "interval_low": 0.0,
+      "interval_high": 0.11378472783470629,
+      "guard_delta": -0.00041914992535341256,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.003621704594190681,
+        "C_a2": 0.2413654832409134,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.016088589446330057,
+        "RNA_a2": 0.2827899622821396
+      }
+    },
+    {
+      "key": "profile_consensus4_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.015080573002710991,
+      "partner_sse": 2.8032626025158085,
+      "rna_sse": 3.762294775013563,
+      "interval_low": 0.0,
+      "interval_high": 0.11427109373319665,
+      "guard_delta": -0.0004183648426230313,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0035997738831628845,
+        "C_a2": 0.23870272585237734,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.015979881569632152,
+        "RNA_a2": 0.27968370735896564
+      }
+    },
+    {
+      "key": "profile_consensus4_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0158253860772127,
+      "partner_sse": 2.803263178228708,
+      "rna_sse": 3.762302277772024,
+      "interval_low": 0.0,
+      "interval_high": 0.11909864335526878,
+      "guard_delta": -0.000410862084161856,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.003393973434644616,
+        "C_a2": 0.2144638631933074,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.014970306589848355,
+        "RNA_a2": 0.25139340244526953
+      }
+    },
+    {
+      "key": "profile_consensus4_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.022811000061033124,
+      "partner_sse": 2.8032676408897044,
+      "rna_sse": 3.762350452807524,
+      "interval_low": 0.0,
+      "interval_high": 0.16581646630055022,
+      "guard_delta": -0.000362687048661936,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.002158970619912423,
+        "C_a2": 0.09464603104361405,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.009217915943833558,
+        "RNA_a2": 0.11118215397408901
+      }
+    },
+    {
+      "key": "profile_consensus8_l0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.03429124867084445,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0069788584621030825,
+        "C_a2": 0.3549463695756758,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.007139198011088419,
+        "RNA_a2": 0.4163860044652383
+      }
+    },
+    {
+      "key": "profile_consensus8_l1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.03494082533781172,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.006878245200992632,
+        "C_a2": 0.34111495665273106,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.006991569700788555,
+        "RNA_a2": 0.40019487995451136
+      }
+    },
+    {
+      "key": "profile_consensus8_l10",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.041526640214024246,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.005938169050545964,
+        "C_a2": 0.24192555527688261,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0058975279269226554,
+        "RNA_a2": 0.2840358813777071
+      }
+    },
+    {
+      "key": "profile_consensus8_l100",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0,
+      "partner_sse": 2.803316889168647,
+      "rna_sse": 3.762713139856186,
+      "interval_low": 0.0,
+      "interval_high": 0.10217966574743065,
+      "guard_delta": 0.0,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": 0.0023364343456866807,
+        "C_a2": 0.04267397154699323,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.00256522583172768,
+        "RNA_a2": 0.05021010419173707
+      }
+    },
+    {
+      "key": "native_decomp_t0.3_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.11874452940331616,
+      "partner_sse": 2.802346099452355,
+      "rna_sse": 3.5244941236995806,
+      "interval_low": 0.0,
+      "interval_high": 1.5422980207588544,
+      "guard_delta": -0.23821901615660535,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.00817544792311651,
+        "C_a2": 0.06884904899785804,
+        "RNA_e2": 3.5195891085276436,
+        "RNA_ea": 0.015801852553627798,
+        "RNA_a2": 0.08171819632479632
+      }
+    },
+    {
+      "key": "projected_rank1_t0.3_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.0616920481382543,
+      "partner_sse": 2.8030856522711534,
+      "rna_sse": 3.762480555970934,
+      "interval_low": 0.0,
+      "interval_high": 0.11507839864099106,
+      "guard_delta": -0.00023258388525215778,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0037482447814929172,
+        "C_a2": 0.06075734060721981,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004063347948641348,
+        "RNA_a2": 0.07061877809610011
+      }
+    },
+    {
+      "key": "native_decomp_t0.1_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.08631856207836819,
+      "partner_sse": 2.802313961838715,
+      "rna_sse": 3.4876166025809536,
+      "interval_low": 0.0,
+      "interval_high": 1.265634528182415,
+      "guard_delta": -0.2750965372752323,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.011618906823552308,
+        "C_a2": 0.1346049626383206,
+        "RNA_e2": 3.4845431440090726,
+        "RNA_ea": 0.011062550301497009,
+        "RNA_a2": 0.15617611485494862
+      }
+    },
+    {
+      "key": "projected_rank1_t0.1_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.05959240583732109,
+      "partner_sse": 2.802914925130753,
+      "rna_sse": 3.762613860011555,
+      "interval_low": 0.0,
+      "interval_high": 0.07169467988834176,
+      "guard_delta": -9.927984463109496e-05,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.006745222520322068,
+        "C_a2": 0.11318929695061447,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.004934692793872784,
+        "RNA_a2": 0.1376585487670254
+      }
+    },
+    {
+      "key": "native_decomp_t0.03_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.07622951086846795,
+      "partner_sse": 2.8023265993004514,
+      "rna_sse": 3.4792351489285656,
+      "interval_low": 0.0,
+      "interval_high": 1.165558267482302,
+      "guard_delta": -0.2834779909276204,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.012990898890906856,
+        "C_a2": 0.17041823754218122,
+        "RNA_e2": 3.476818781290907,
+        "RNA_ea": 0.008376060101330901,
+        "RNA_a2": 0.19607189827809016
+      }
+    },
+    {
+      "key": "projected_rank1_t0.03_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.052024259351649345,
+      "partner_sse": 2.8029460409795752,
+      "rna_sse": 3.7626174668549535,
+      "interval_low": 0.0,
+      "interval_high": 0.06300848499762131,
+      "guard_delta": -9.56730012324769e-05,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.00712837037361135,
+        "C_a2": 0.13702012219776766,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.005274521751063329,
+        "RNA_a2": 0.16742258606162175
+      }
+    },
+    {
+      "key": "native_decomp_t0.01_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.073320656267335,
+      "partner_sse": 2.802334011861731,
+      "rna_sse": 3.477325024987866,
+      "interval_low": 0.0,
+      "interval_high": 1.1356418808485196,
+      "guard_delta": -0.28538811486831994,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.013405189709869352,
+        "C_a2": 0.18282964709143612,
+        "RNA_e2": 3.4750985939373127,
+        "RNA_ea": 0.007490775060730112,
+        "RNA_a2": 0.20981976109219116
+      }
+    },
+    {
+      "key": "projected_rank1_t0.01_n0.1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.04982395403820141,
+      "partner_sse": 2.802957477523238,
+      "rna_sse": 3.762621046552067,
+      "interval_low": 0.0,
+      "interval_high": 0.06025679941683128,
+      "guard_delta": -9.209330411907857e-05,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.007213631522164743,
+        "C_a2": 0.144782397571936,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.005337810579355323,
+        "RNA_a2": 0.1771687388316325
+      }
+    },
+    {
+      "key": "native_decomp_t0.3_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.219664543993777,
+      "partner_sse": 2.8024384462042673,
+      "rna_sse": 3.6131062783953616,
+      "interval_low": 0.0,
+      "interval_high": 2.049833325547553,
+      "guard_delta": -0.14960686146082436,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0039990202715851075,
+        "C_a2": 0.018205124044499407,
+        "RNA_e2": 3.605263136679384,
+        "RNA_ea": 0.015385684011458973,
+        "RNA_a2": 0.02246024401122169
+      }
+    },
+    {
+      "key": "projected_rank1_t0.3_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.08373520673077449,
+      "partner_sse": 2.8032001943952776,
+      "rna_sse": 3.762682245797412,
+      "interval_low": 0.0,
+      "interval_high": 0.10279104200392847,
+      "guard_delta": -3.0894058773878186e-05,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0013936165912211643,
+        "C_a2": 0.01664313788227599,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0009950941074707705,
+        "RNA_a2": 0.019361494699756815
+      }
+    },
+    {
+      "key": "native_decomp_t0.1_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.17242641188978527,
+      "partner_sse": 2.802383955156514,
+      "rna_sse": 3.5771770724015526,
+      "interval_low": 0.0,
+      "interval_high": 1.8525038653973498,
+      "guard_delta": -0.18553606745463336,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.005410621272622206,
+        "C_a2": 0.03137930676235766,
+        "RNA_e2": 3.570322617778978,
+        "RNA_ea": 0.016587099702806606,
+        "RNA_a2": 0.03815382955416636
+      }
+    },
+    {
+      "key": "projected_rank1_t0.1_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.07588247442606072,
+      "partner_sse": 2.803153720316187,
+      "rna_sse": 3.7626123432354017,
+      "interval_low": 0.0,
+      "interval_high": 0.11617543294736236,
+      "guard_delta": -0.00010079662078421592,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0021502837604309775,
+        "C_a2": 0.028337027445331887,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0019149596860975765,
+        "RNA_a2": 0.03296668904113696
+      }
+    },
+    {
+      "key": "native_decomp_t0.03_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.16021826543252854,
+      "partner_sse": 2.802366670282865,
+      "rna_sse": 3.5657573204009307,
+      "interval_low": 0.0,
+      "interval_high": 1.790260182354075,
+      "guard_delta": -0.1969558194552552,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.005930777512894947,
+        "C_a2": 0.03701686257109386,
+        "RNA_e2": 3.55924762823547,
+        "RNA_ea": 0.01672641509127707,
+        "RNA_a2": 0.044797138760879526
+      }
+    },
+    {
+      "key": "projected_rank1_t0.03_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.07335328531574968,
+      "partner_sse": 2.8031380702168245,
+      "rna_sse": 3.762585018285336,
+      "interval_low": 0.0,
+      "interval_high": 0.11852999159589293,
+      "guard_delta": -0.00012812157084995945,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0024377770000664012,
+        "C_a2": 0.033233371751148905,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.0022913233383792934,
+        "RNA_a2": 0.03866233866262567
+      }
+    },
+    {
+      "key": "native_decomp_t0.01_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.15701899962153945,
+      "partner_sse": 2.80236192811384,
+      "rna_sse": 3.5626069870811503,
+      "interval_low": 0.0,
+      "interval_high": 1.772993593891932,
+      "guard_delta": -0.20010615277503563,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.0060818184876274325,
+        "C_a2": 0.03873301003245689,
+        "RNA_e2": 3.556195631698737,
+        "RNA_ea": 0.016740631214134674,
+        "RNA_a2": 0.04681251795377779
+      }
+    },
+    {
+      "key": "projected_rank1_t0.01_n1",
+      "eligible": true,
+      "reason": "RNA_feasible_interval",
+      "beta": 0.07264993210497148,
+      "partner_sse": 2.8031336847769466,
+      "rna_sse": 3.7625770073316773,
+      "interval_low": 0.0,
+      "interval_high": 0.11905343241647981,
+      "guard_delta": -0.00013613252450861424,
+      "stats": {
+        "C_e2": 2.803316889168647,
+        "C_ea": -0.002521742091035072,
+        "C_a2": 0.03471086645189731,
+        "RNA_e2": 3.762713139856186,
+        "RNA_ea": -0.002403742097314898,
+        "RNA_a2": 0.04038089534295801
+      }
+    }
+  ],
+  "outer_truth_read": false
+}

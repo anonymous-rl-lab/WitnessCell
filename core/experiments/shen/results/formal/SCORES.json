@@ -1,0 +1,367 @@
+{
+  "utc": "2026-11-07T23:39:10.825612+00:00",
+  "stage": "formal",
+  "source_declared": "Shen2017 CV4 raw counts recovered from the official author repository history",
+  "models": {
+    "HeLa": {
+      "M0": {
+        "query_pairs": 523,
+        "endpoint_rank": 73,
+        "partner_dimensions": 450,
+        "full_sse_M0": 0.9275024069126278,
+        "full_sse_model": 0.9275024069126278,
+        "full_gain": 0.0,
+        "partner_sse_M0": 0.6609413177020382,
+        "partner_sse_model": 0.6609413177020382,
+        "partner_gain": 0.0,
+        "partner_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "full_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "cosine": null,
+        "oracle_beta": null,
+        "E": 0.6609413177020382,
+        "A": 0.0,
+        "B": 0.0,
+        "identity_error": 0.0,
+        "posthoc_alignment_only": true
+      },
+      "rank1_primary": {
+        "query_pairs": 523,
+        "endpoint_rank": 73,
+        "partner_dimensions": 450,
+        "full_sse_M0": 0.9275024069126278,
+        "full_sse_model": 0.8889063337632022,
+        "full_gain": 0.04161290888494851,
+        "partner_sse_M0": 0.6609413177020382,
+        "partner_sse_model": 0.6682082705931547,
+        "partner_gain": -0.01099485339543027,
+        "partner_gain_each_repeat": [
+          -0.00840157221334148,
+          -0.013026543696945891
+        ],
+        "full_gain_each_repeat": [
+          0.056527194903790434,
+          0.029601815179616242
+        ],
+        "cosine": -0.010979548697640586,
+        "oracle_beta": -0.11624712439040313,
+        "E": 0.6609413177020382,
+        "A": -0.0006854087777760083,
+        "B": 0.0058961353355644185,
+        "identity_error": 1.6479873021779667e-17,
+        "posthoc_alignment_only": true
+      },
+      "spectral_secondary": {
+        "query_pairs": 523,
+        "endpoint_rank": 73,
+        "partner_dimensions": 450,
+        "full_sse_M0": 0.9275024069126278,
+        "full_sse_model": 0.8915809699161541,
+        "full_gain": 0.038729211621180704,
+        "partner_sse_M0": 0.6609413177020382,
+        "partner_sse_model": 0.6900383052476027,
+        "partner_gain": -0.04402355665511859,
+        "partner_gain_each_repeat": [
+          -0.05042991106881822,
+          -0.03900453742176935
+        ],
+        "full_gain_each_repeat": [
+          0.05206368918814652,
+          0.027990403248716156
+        ],
+        "cosine": -0.04796763583950723,
+        "oracle_beta": -0.28677882445745995,
+        "E": 0.6609413177020382,
+        "A": -0.005302887942697478,
+        "B": 0.018491211660169475,
+        "identity_error": 1.3877787807814457e-17,
+        "posthoc_alignment_only": true
+      },
+      "single_additive": {
+        "query_pairs": 523,
+        "endpoint_rank": 73,
+        "partner_dimensions": 450,
+        "full_sse_M0": 0.9275024069126278,
+        "full_sse_model": 2.5915930443181208,
+        "full_gain": -1.7941631471822728,
+        "partner_sse_M0": 0.6609413177020382,
+        "partner_sse_model": 0.6609961552652757,
+        "partner_gain": -8.296888357373078e-05,
+        "partner_gain_each_repeat": [
+          0.00107870016654521,
+          -0.0009930714050430112
+        ],
+        "full_gain_each_repeat": [
+          -1.8727583339657898,
+          -1.7308671803453564
+        ],
+        "cosine": 0.03441441531867956,
+        "oracle_beta": 0.49153714038582047,
+        "E": 0.6609413177020382,
+        "A": 0.0015925290178702399,
+        "B": 0.003239895598977977,
+        "identity_error": 6.635317295611287e-17,
+        "posthoc_alignment_only": true
+      }
+    },
+    "A549": {
+      "M0": {
+        "query_pairs": 525,
+        "endpoint_rank": 73,
+        "partner_dimensions": 452,
+        "full_sse_M0": 0.6851562956327559,
+        "full_sse_model": 0.6851562956327559,
+        "full_gain": 0.0,
+        "partner_sse_M0": 0.5073293360116073,
+        "partner_sse_model": 0.5073293360116073,
+        "partner_gain": 0.0,
+        "partner_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "full_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "cosine": null,
+        "oracle_beta": null,
+        "E": 0.5073293360116073,
+        "A": 0.0,
+        "B": 0.0,
+        "identity_error": 0.0,
+        "posthoc_alignment_only": true
+      },
+      "rank1_primary": {
+        "query_pairs": 525,
+        "endpoint_rank": 73,
+        "partner_dimensions": 452,
+        "full_sse_M0": 0.6851562956327559,
+        "full_sse_model": 0.6601492866783574,
+        "full_gain": 0.03649825465196088,
+        "partner_sse_M0": 0.5073293360116073,
+        "partner_sse_model": 0.5078832366379087,
+        "partner_gain": -0.0010917969590638066,
+        "partner_gain_each_repeat": [
+          -0.009093428297700656,
+          0.0067197491962336375
+        ],
+        "full_gain_each_repeat": [
+          0.024955225638555012,
+          0.04757700639605922
+        ],
+        "cosine": 0.0380820425779818,
+        "oracle_beta": 0.4303022631205129,
+        "E": 0.5073293360116073,
+        "A": 0.0017098452812998044,
+        "B": 0.003973591188900941,
+        "identity_error": 7.806255641895632e-18,
+        "posthoc_alignment_only": true
+      },
+      "spectral_secondary": {
+        "query_pairs": 525,
+        "endpoint_rank": 73,
+        "partner_dimensions": 452,
+        "full_sse_M0": 0.6851562956327559,
+        "full_sse_model": 0.6666842310488634,
+        "full_gain": 0.026960366126145274,
+        "partner_sse_M0": 0.5073293360116073,
+        "partner_sse_model": 0.5129512054324152,
+        "partner_gain": -0.011081301674775057,
+        "partner_gain_each_repeat": [
+          -0.010607752976339757,
+          -0.011543600843289203
+        ],
+        "full_gain_each_repeat": [
+          0.021150314458548536,
+          0.03253672913891548
+        ],
+        "cosine": -0.021515327564643614,
+        "oracle_beta": -0.2503859241572716,
+        "E": 0.5073293360116073,
+        "A": -0.0009379420143050753,
+        "B": 0.003745985392197758,
+        "identity_error": 1.9081958235744878e-17,
+        "posthoc_alignment_only": true
+      },
+      "single_additive": {
+        "query_pairs": 525,
+        "endpoint_rank": 73,
+        "partner_dimensions": 452,
+        "full_sse_M0": 0.6851562956327559,
+        "full_sse_model": 1.4712817228771784,
+        "full_gain": -1.1473665676798888,
+        "partner_sse_M0": 0.5073293360116073,
+        "partner_sse_model": 0.5034412672005214,
+        "partner_gain": 0.0076637965422070575,
+        "partner_gain_each_repeat": [
+          0.003980990842597509,
+          0.011259114232560763
+        ],
+        "full_gain_each_repeat": [
+          -0.8620632825575045,
+          -1.4211945433330628
+        ],
+        "cosine": 0.09150959707602735,
+        "oracle_beta": 0.7744591523632084,
+        "E": 0.5073293360116073,
+        "A": 0.005485607693961283,
+        "B": 0.007083146576836664,
+        "identity_error": 3.9898639947466563e-17,
+        "posthoc_alignment_only": true
+      }
+    },
+    "293T": {
+      "M0": {
+        "query_pairs": 517,
+        "endpoint_rank": 73,
+        "partner_dimensions": 444,
+        "full_sse_M0": 0.800563578257881,
+        "full_sse_model": 0.800563578257881,
+        "full_gain": 0.0,
+        "partner_sse_M0": 0.5640559134519003,
+        "partner_sse_model": 0.5640559134519003,
+        "partner_gain": 0.0,
+        "partner_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "full_gain_each_repeat": [
+          0.0,
+          0.0
+        ],
+        "cosine": null,
+        "oracle_beta": null,
+        "E": 0.5640559134519003,
+        "A": 0.0,
+        "B": 0.0,
+        "identity_error": 0.0,
+        "posthoc_alignment_only": true
+      },
+      "rank1_primary": {
+        "query_pairs": 517,
+        "endpoint_rank": 73,
+        "partner_dimensions": 444,
+        "full_sse_M0": 0.800563578257881,
+        "full_sse_model": 0.7510706906586926,
+        "full_gain": 0.06182255718763863,
+        "partner_sse_M0": 0.5640559134519003,
+        "partner_sse_model": 0.5670259118323149,
+        "partner_gain": -0.005265432574297124,
+        "partner_gain_each_repeat": [
+          -0.013683658425062584,
+          0.0019211366996885193
+        ],
+        "full_gain_each_repeat": [
+          0.05909319583219108,
+          0.06430003847535859
+        ],
+        "cosine": 0.027515684000893104,
+        "oracle_beta": 0.26175313054681043,
+        "E": 0.5640559134519003,
+        "A": 0.0016315143522698653,
+        "B": 0.006233027084954365,
+        "identity_error": 7.19910242530375e-17,
+        "posthoc_alignment_only": true
+      },
+      "spectral_secondary": {
+        "query_pairs": 517,
+        "endpoint_rank": 73,
+        "partner_dimensions": 444,
+        "full_sse_M0": 0.800563578257881,
+        "full_sse_model": 0.754117246856054,
+        "full_gain": 0.05801704282238229,
+        "partner_sse_M0": 0.5640559134519003,
+        "partner_sse_model": 0.581290061017851,
+        "partner_gain": -0.030553970191503632,
+        "partner_gain_each_repeat": [
+          -0.05004498279174552,
+          -0.013914655120259134
+        ],
+        "full_gain_each_repeat": [
+          0.06252240877241466,
+          0.053927456145535846
+        ],
+        "cosine": 0.0036433237390027227,
+        "oracle_beta": 0.02041326701386364,
+        "E": 0.5640559134519003,
+        "A": 0.00036677959566309374,
+        "B": 0.017967706757276818,
+        "identity_error": 2.0816681711721685e-17,
+        "posthoc_alignment_only": true
+      },
+      "single_additive": {
+        "query_pairs": 517,
+        "endpoint_rank": 73,
+        "partner_dimensions": 444,
+        "full_sse_M0": 0.800563578257881,
+        "full_sse_model": 1.9768633958082784,
+        "full_gain": -1.4693396620792591,
+        "partner_sse_M0": 0.5640559134519003,
+        "partner_sse_model": 0.5634501723982057,
+        "partner_gain": 0.0010739024966294197,
+        "partner_gain_each_repeat": [
+          -0.0011075989836171196,
+          0.0029362321355600463
+        ],
+        "full_gain_each_repeat": [
+          -1.089793243172556,
+          -1.813859506908825
+        ],
+        "cosine": 0.03499047325762653,
+        "oracle_beta": 0.7404530277307713,
+        "E": 0.5640559134519003,
+        "A": 0.0009326619869622686,
+        "B": 0.001259582920229998,
+        "identity_error": 5.811323644522304e-17,
+        "posthoc_alignment_only": true
+      }
+    }
+  },
+  "mean_within_context_partner_gain": -0.0057840276429304005,
+  "definition": "Equal context average of relative gains; not pooled cross-context SSE",
+  "conditional_sensitivity": {
+    "method": "Exp(1) endpoint products; shared gene weights across contexts; fixed P and predictions",
+    "draws": 10000,
+    "seed": 20261107,
+    "per_context": {
+      "HeLa": {
+        "valid_draws": 10000,
+        "central95": [
+          -0.04058807065955826,
+          0.009346595622563422
+        ]
+      },
+      "A549": {
+        "valid_draws": 10000,
+        "central95": [
+          -0.022856874479098576,
+          0.026105142394838143
+        ]
+      },
+      "293T": {
+        "valid_draws": 10000,
+        "central95": [
+          -0.02960669820481932,
+          0.01423517597545332
+        ]
+      }
+    },
+    "equal_context_mean": {
+      "valid_draws": 10000,
+      "central95": [
+        -0.018696198286102274,
+        0.006542660805645548
+      ]
+    },
+    "conditional_sensitivity_only": true,
+    "population_confidence_claim": false
+  },
+  "uncertainty_computed": "conditional sensitivity only",
+  "formal_score": true,
+  "no_sign_count_success_gate": true
+}

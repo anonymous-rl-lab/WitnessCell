@@ -1,0 +1,57 @@
+{
+  "id": "WitnessCell-Shen2017-v1-preflight",
+  "date": "2026-11-07",
+  "status": "local design lock before engineering smoke; source workbook not downloaded; source-column mapping pending",
+  "registration": "not externally preregistered",
+  "source": "Shen et al. Nat Methods 2017, doi:10.1038/nmeth.4225, Supplementary Table 2",
+  "question": "Does the unchanged v31 signed rank-one functional correction improve endpoint-eliminated held-out growth prediction beyond refitted M0 in another study?",
+  "cell_lines": ["HeLa", "A549", "293T"],
+  "repeat_channels": [1, 2],
+  "readout": "per-repeat mean physical-construct control-relative log2 growth slope per day",
+  "readout_scope": "assayed guide-library mean growth; not fully effective latent gene knockout or author Bayesian whole-map GI score",
+  "raw_preprocessing": {
+    "time_days": [3,14,21,28],
+    "control_reference": "mean log2 count of dual-NTC constructs at each time, cell line and repeat",
+    "min_reads": 20,
+    "min_valid_timepoints": 3,
+    "min_reference_constructs": 3,
+    "min_common_physical_constructs_both_repeats": 3,
+    "weights": "equal among common qualified physical constructs",
+    "single_inputs": "gene+NTC constructs only",
+    "forbidden": ["whole-map fitted single effects", "published GI scores", "significance-filtered NDEx edges", "pooled repeats copied into two channels", "guide weights inferred from held-out doubles"],
+    "threshold_provenance": "analyst defaults, not claimed Shen thresholds; verify and log measurement-only amendment before first Shen model fit if original masked raw data require different handling"
+  },
+  "split": {
+    "unit": "canonical unordered physical gene pair, including all 9 guide constructs and both repeats",
+    "test_fraction": 0.2,
+    "salt": "WitnessCell-Shen2017-confirmatory-pairs-v1-20261107",
+    "same_physical_split_all_cell_lines": true,
+    "nominal_complete_panel": {"genes":73,"pairs":2628,"training":2102,"formal_queries":526},
+    "rule": "hash-rank all annotated physical identities before response-dependent QC, assign ceil(20%) to queries; retain assignment after QC without replacement",
+    "smoke": "HeLa only; separate identity-hashed 10% of outer-training pairs as smoke validation; never use formal query outcomes"
+  },
+  "models": {
+    "M0": "unchanged v31 repeat-specific symmetric endpoint/slope/curvature baseline, ridge=10/supported genes",
+    "primary": "unchanged v31 signed rank-one correction",
+    "secondary": ["unchanged v31 spectral correction", "measured-single additive reference"],
+    "inner_folds":3,
+    "inner_hash": "wc_spectral_smoke_v1|<canonical pair>",
+    "tau_fractions":[0.3,0.1,0.03,0.01],"nu":[0.1,1],
+    "optimizer_starts":6,"optimizer_maxiter":3000,"optimizer_tolerance":1e-6,
+    "selection": "pooled complete-response original-unit SSE on inner folds, explicit zero correction retained; no switch to partner-loss tuning",
+    "primary_model_may_be_zero":true
+  },
+  "evaluation": {
+    "primary": "within each cell line, sum partner SSE across both repeats before taking 1-SSE(rank1)/SSE(M0)",
+    "secondary": "full-response loss, repeat-specific losses, additive, spectral",
+    "cross_cell_summary": "unweighted mean of three within-cell-line relative partner gains, alongside all three values; no 2-of-3-sign pass rule",
+    "projection": "query incidence matrix X with ones at two endpoints, P=I-XX+, SVD checked against least squares",
+    "diagnostics": "post-lock cosine and oracle beta only; never rescale frozen predictions with query-derived beta",
+    "uncertainty": "10000 fixed-prediction endpoint-reweighting draws; conditional sensitivity, not unconditional biological-replicate inference; retain all cell lines/repeats",
+    "independence": "one new source study, three cellular contexts, two biological repeats each; no claim of three independent studies",
+    "no_forced_significance":true
+  },
+  "non_goals":["RNA experiments","TargetRank","universal combination-count threshold","all models must win","automatic manuscript score improvement"],
+  "failure_handling":"Record missingness, nonconvergence and unsupported query geometry. Do not tune on formal results, substitute the secondary family, or fabricate two-repeat inputs. Stop source-specific confirmation if source repeat/counterfactual boundary cannot be established.",
+  "smoke_scope":"Engineering controls and archived Jurkat replay can be run without Shen source data. These never count as Shen empirical replication."
+}

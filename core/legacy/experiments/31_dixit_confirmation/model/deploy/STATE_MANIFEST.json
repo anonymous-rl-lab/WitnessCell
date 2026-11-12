@@ -1,0 +1,35 @@
+[
+  {
+    "file": "Dixit_G2M_fold0.npz",
+    "bytes": 7473,
+    "sha256": "3d6adb721502b8ee32709d39cbd9490b1d9faec8c35941899badc1fc4cd668d7",
+    "selected_lambda": 0.1,
+    "source_fit_sha256": "6bd5941554b2a8e0f0b51b94c987fc60ffba2ec7b40a34149d32f876f430a705",
+    "source_decision_sha256": "8b1dd5152fc989231676d9b20e779f56afef14c39dfc31dd02a36db31a4121aa",
+    "model_status": "outer-fold evaluation fit; retrospective development; not a confirmed production model",
+    "reference_domain": "all unordered distinct pairs of the 10 stored measured-single endpoint identities",
+    "source_selection": "training-only inner validation global full-program loss; no fitting or selection by export"
+  },
+  {
+    "file": "Dixit_G2M_fold1.npz",
+    "bytes": 7471,
+    "sha256": "11edc9ad93cc22ae83634b2e5043814aff81684c43dad48835e433e18aab07f4",
+    "selected_lambda": 10.0,
+    "source_fit_sha256": "6cb462abeab9e8de36dd213c99646f979c7332f70539d8f047fea29e7f1756a7",
+    "source_decision_sha256": "c7f603ccc2b4e9ef28b9d5256465e0eeab370fb9bec70b6b597208b8314bf26d",
+    "model_status": "outer-fold evaluation fit; retrospective development; not a confirmed production model",
+    "reference_domain": "all unordered distinct pairs of the 10 stored measured-single endpoint identities",
+    "source_selection": "training-only inner validation global full-program loss; no fitting or selection by export"
+  },
+  {
+    "file": "Dixit_G2M_fold2.npz",
+    "bytes": 7465,
+    "sha256": "085148ae14967223843102863027979dc58e14ba9e6d2aa091c53c5cd95f6570",
+    "selected_lambda": 10.0,
+    "source_fit_sha256": "39838a2826936060655d0060246c1d22c9655564e8e182e10c8f28cc54cd0c56",
+    "source_decision_sha256": "6e5f644dcada4fb4e6cadd60de572f0708fe755dff7ace8f6dfe7f8331faf02c",
+    "model_status": "outer-fold evaluation fit; retrospective development; not a confirmed production model",
+    "reference_domain": "all unordered distinct pairs of the 10 stored measured-single endpoint identities",
+    "source_selection": "training-only inner validation global full-program loss; no fitting or selection by export"
+  }
+]

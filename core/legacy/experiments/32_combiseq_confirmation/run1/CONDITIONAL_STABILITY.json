@@ -1,0 +1,27 @@
+{
+  "interval_type": "conditional endpoint multiplier stability range; fixed OOF predictions; not unconditional biological CI",
+  "draws": 4000,
+  "seed": 20261020,
+  "results": {
+    "full_vs_endpoint_control": {
+      "q025": -0.01098310018860973,
+      "median": -0.0003011322310808584,
+      "q975": 0.006881052916068798
+    },
+    "full_vs_scalar_saturation": {
+      "q025": -0.06630906597993105,
+      "median": 0.04154958892293331,
+      "q975": 0.2123526431646405
+    },
+    "P_vs_endpoint_control": {
+      "q025": -0.006342129706099347,
+      "median": -0.00030195225122175984,
+      "q975": 0.00497439552188115
+    },
+    "P_vs_scalar_saturation": {
+      "q025": -0.006342129706099364,
+      "median": -0.000301952251222537,
+      "q975": 0.004974395521880157
+    }
+  }
+}
